@@ -38,15 +38,15 @@
         "groups": [
           {
             "group": "Palm Springs",
-            "pages": ["nodes/_template"]
+            "pages": ["nodes/palm-springs/psp-airport"]
           },
           {
             "group": "Rancho Mirage",
-            "pages": ["nodes/_template"]
+            "pages": ["nodes/rancho-mirage/cotino"]
           },
           {
             "group": "Palm Desert",
-            "pages": ["nodes/_template"]
+            "pages": ["nodes/palm-desert/acrisure-arena"]
           },
           {
             "group": "Indian Wells",
