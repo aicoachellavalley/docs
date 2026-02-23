@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
   "name": "AI Coachella Valley",
   "theme": "mint",
   "description": "Agent-first intelligence authority for the Coachella Valley AI economy",
@@ -8,45 +9,61 @@
     "light": "#FAFAFA",
     "dark": "#0A0A0A"
   },
-  "topbarLinks": [],
   "topbarCtaButton": {
     "name": "Latest Brief",
     "url": "/intelligence-briefs"
   },
-  "navigation": [
-    {
-      "group": "Overview",
-      "pages": ["index"]
-    },
-    {
-      "group": "Intelligence Briefs",
-      "pages": ["intelligence-briefs/_template"]
-    },
-    {
-      "group": "Nodes — Palm Springs",
-      "pages": ["nodes/_template"]
-    },
-    {
-      "group": "Nodes — Rancho Mirage",
-      "pages": ["nodes/_template"]
-    },
-    {
-      "group": "Nodes — Palm Desert",
-      "pages": ["nodes/_template"]
-    },
-    {
-      "group": "Nodes — Indian Wells",
-      "pages": ["nodes/_template"]
-    },
-    {
-      "group": "Nodes — La Quinta",
-      "pages": ["nodes/_template"]
-    },
-    {
-      "group": "Nodes — Standalone",
-      "pages": ["nodes/_template"]
-    }
-  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Overview",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": ["index"]
+          }
+        ]
+      },
+      {
+        "tab": "Intelligence Briefs",
+        "groups": [
+          {
+            "group": "Briefs",
+            "pages": ["intelligence-briefs/_template"]
+          }
+        ]
+      },
+      {
+        "tab": "Nodes",
+        "groups": [
+          {
+            "group": "Palm Springs",
+            "pages": ["nodes/_template"]
+          },
+          {
+            "group": "Rancho Mirage",
+            "pages": ["nodes/_template"]
+          },
+          {
+            "group": "Palm Desert",
+            "pages": ["nodes/_template"]
+          },
+          {
+            "group": "Indian Wells",
+            "pages": ["nodes/_template"]
+          },
+          {
+            "group": "La Quinta",
+            "pages": ["nodes/_template"]
+          },
+          {
+            "group": "Standalone",
+            "pages": ["nodes/_template"]
+          }
+        ]
+      }
+    ]
+  },
   "footerSocials": {
     "github": "https://github.com/aicoachellavalley/docs"
   }
