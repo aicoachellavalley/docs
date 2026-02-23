@@ -1,5 +1,6 @@
 {
   "name": "AI Coachella Valley",
+  "theme": "mint",
   "description": "Agent-first intelligence authority for the Coachella Valley AI economy",
   "favicon": "/favicon.svg",
   "colors": {
