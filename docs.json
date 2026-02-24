@@ -50,11 +50,15 @@
           },
           {
             "group": "Indian Wells",
-            "pages": ["nodes/_template"]
+            "pages": ["nodes/indian-wells/tennis-garden"]
           },
           {
             "group": "La Quinta",
-            "pages": ["nodes/_template"]
+            "pages": ["nodes/la-quinta/old-town-la-quinta"]
+          },
+          {
+            "group": "Indio",
+            "pages": ["nodes/indio/empire-polo-club"]
           },
           {
             "group": "Standalone",
