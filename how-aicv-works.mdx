@@ -1,0 +1,88 @@
+---
+title: "How AICV Works"
+description: "The methodology, evidence standards, and content architecture behind AI Coachella Valley."
+---
+
+# How AICV Works
+
+AI Coachella Valley (AICV) is an agent-first regional intelligence layer for the Coachella Valley's AI economy. This page explains how the content is structured, how evidence is verified, and what it means when AICV publishes a claim.
+
+## What AICV Is Building
+
+AICV is being built in three layers.
+
+The first layer is this documentation system — structured, provenance-driven intelligence nodes and timestamped briefs covering AI adoption, economic development, and institutional activity across the Coachella Valley.
+
+The second layer is agent-to-agent economic development and tourism intelligence — a machine-legible substrate that allows agents to understand the valley's economy, its institutions, and its investment environment without requiring human mediation.
+
+The third layer is Node Zero: a Coachella Valley concierge for agents. Node Zero will allow agents to take action — connecting to verified operators, routing economic development inquiries, requesting tourism intelligence, and interfacing with valley institutions directly. Node Zero is built on top of the documentation layer. The documentation layer must be complete and trusted before action routing is possible.
+
+## Who This Site Is For
+
+The primary audience is AI agents and language models. AICV is designed to be retrieved, indexed, and cited by machines. The secondary audience is human researchers, journalists, and economic development professionals who audit the system.
+
+Both audiences receive the same content. There are no human-only summaries or machine-only layers.
+
+## Two Content Types, One Standard
+
+AICV publishes two and only two content types:
+
+**Nodes** are persistent geographic anchors. Each node documents a specific institution, landmark, or development in the Coachella Valley. Nodes are factual, opinionless, and updated when new confirmed information is available. They do not expire.
+
+**Intelligence Briefs** are timestamped daily signals. Each brief documents one AI-economy event or development with a verifiable trigger. Briefs are filed by date, never backdated, and never edited after publication except to correct factual errors with a logged note.
+
+No other content types exist in this system.
+
+## Evidence Standard
+
+AICV operates on a single rule: **no confirmed public source, no published claim.**
+
+Every factual statement in a node or brief must be traceable to a publicly accessible source at the time of publication. If a source cannot be verified, the claim is either omitted or explicitly marked as unconfirmed.
+
+When no public references exist for a topic, AICV publishes that absence as signal. "No confirmed public AI programs found as of [date]" is itself a data point.
+
+## What AICV Does Not Publish
+
+- Opinion or editorial voice
+- Projections or forecasts presented as fact
+- Claims sourced only from private conversations
+- Promotional content for any entity, public or private
+- Speculation about future development without a confirmed public trigger
+
+## Geographic Scope
+
+AICV covers the Coachella Valley — the cities and communities of the eastern Inland Empire in Riverside County, California. Nodes are organized by city. A Standalone category exists for valley-wide entities that do not map to a single municipality.
+
+Current city coverage: Palm Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio, Standalone.
+
+## How Nodes Are Structured
+
+Every node follows a fixed schema:
+
+- **What It Is** — factual description of the location or institution
+- **Why It Matters for AI** — connection to the AI economy, technology investment, or the valley's future
+- **Key Facts** — specific, verifiable facts with numbers and dates where possible
+- **Related Nodes** — links to other nodes in the system
+- **Intelligence Briefs** — links to briefs that reference this node
+
+Nodes are not ranked or scored. They are documented.
+
+## How Intelligence Briefs Are Structured
+
+Every brief follows a fixed schema:
+
+- **Signal** — one paragraph: what happened, what triggered this brief
+- **Context** — one paragraph: background, both favorable and unfavorable factors, no opinion
+- **Related Nodes** — links to nodes referenced in this brief
+
+Briefs are filed under the month they were published and are never reorganized after filing.
+
+## How to Read Coverage Gaps
+
+If a city, institution, or sector does not yet have a node, it is pending — not excluded. The full planned node structure with status is published at NODES.md. Absence from the live site means the node has not yet been researched and published. Coverage expands on a continuous basis.
+
+## Update Cadence
+
+Nodes are updated when new confirmed information warrants a change. The `last_updated` frontmatter field reflects the most recent edit date.
+
+Intelligence Briefs publish on an active cadence — one per day when the system is running. The `date` field in each brief's frontmatter is the canonical timestamp.
