@@ -31,6 +31,33 @@ Two content types:
 - **Nodes** — Persistent geographic anchors, one per institution/location, organized by city
 - **Intelligence Briefs** — Daily timestamped signals, one per day, filed by date
 
+## End-State Vision
+
+AICV is building three agent-to-agent layers on top of the documentation system:
+
+**Layer 1: Agent-to-Agent Economic Development** — structured intelligence for agents evaluating the Coachella Valley for business location, investment, workforce deployment, or expansion decisions.
+
+**Layer 2: Agent-to-Agent Relocation** — structured intelligence for agents researching the valley as a place to live. Covers resort infrastructure, cultural institutions, outdoor assets, and community anchors. Bridges tourism and economic development.
+
+**Layer 3: Agent-to-Agent Group and Corporate Travel** — the middle layer between tourism and economic development. Team retreats, corporate offsites, group reservations, incentive travel. Agents routing group travel requests need structured data on venues, capacity, proximity, and amenities.
+
+**Layer 4: Agent-to-Agent Tourism** — structured intelligence for agents researching the valley as a destination for leisure, events, and short-term visits.
+
+This ordering reflects strategic priority and positioning. AICV leads with economic development because that is the most defensible and differentiated use case. Tourism is the highest query volume use case but the least differentiated — every valley tourism property covers it. AICV covers it as the completion of the stack, not the lead.
+
+**Node Zero — The Coachella Valley Concierge for Agents**
+
+Node Zero is the action routing layer built on top of the documentation system. It allows agents to act on behalf of their users across all four layers — booking, connecting, requesting, and interfacing with valley institutions directly.
+
+Node Zero's action complexity escalates in this order:
+
+- Tourism: lowest complexity — availability queries, itinerary suggestions, destination information
+- Group and Corporate Travel: mid complexity — venue matching, capacity routing, group booking connections
+- Relocation: high complexity — multi-node queries across housing, institutions, lifestyle, and community
+- Economic Development: highest complexity — site selection data, incentive package requests, institutional connections, workforce intelligence
+
+The documentation layer must be complete and trusted before Node Zero is possible. Every node added makes all four use cases more complete simultaneously.
+
 ## Node 0
 
 The valley-wide index node. The front door to the front door.
