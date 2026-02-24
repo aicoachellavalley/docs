@@ -28,11 +28,11 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 6 | Eisenhower Health | nodes/rancho-mirage/eisenhower-health.mdx | ⬜ Pending |
-| 7 | The Ritz-Carlton Rancho Mirage | nodes/rancho-mirage/ritz-carlton.mdx | ⬜ Pending |
-| 8 | Agua Caliente Resort Casino Rancho Mirage | nodes/rancho-mirage/agua-caliente-casino.mdx | ⬜ Pending |
+| 6 | Eisenhower Health | nodes/rancho-mirage/eisenhower-health.mdx | ✅ Live |
+| 7 | The Ritz-Carlton Rancho Mirage | nodes/rancho-mirage/ritz-carlton.mdx | ✅ Live |
+| 8 | Agua Caliente Resort Casino Rancho Mirage | nodes/rancho-mirage/agua-caliente-casino.mdx | ✅ Live |
 | 9 | Cotino — Storyliving by Disney | nodes/rancho-mirage/cotino.mdx | ✅ Live |
-| 10 | Observatory Rancho Mirage | nodes/rancho-mirage/observatory.mdx | ⬜ Pending |
+| 10 | Observatory Rancho Mirage | nodes/rancho-mirage/observatory.mdx | ✅ Live |
 
 ## Palm Desert (6 nodes)
 
@@ -69,9 +69,9 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 | # | Node | File | Status |
 |---|------|------|--------|
 | 26 | Empire Polo Club | nodes/indio/empire-polo-club.mdx | ✅ Live |
-| 27 | Coachella Valley Music and Arts Festival | nodes/indio/coachella-festival.mdx | ⬜ Pending |
-| 28 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ⬜ Pending |
-| 29 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ⬜ Pending |
+| 27 | Coachella Valley Music and Arts Festival | nodes/indio/coachella-festival.mdx | ✅ Live |
+| 28 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
+| 29 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
 
 ## Standalone (1 node)
 
@@ -104,5 +104,5 @@ Signals drive additions. Current priority based on AI-economy relevance:
 ## Node Count
 
 - Total planned: 29 plus Node 0
-- Live: 22
-- Pending: 7 plus Node 0
+- Live: 29
+- Pending: 0 plus Node 0
