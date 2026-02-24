@@ -42,7 +42,13 @@
           },
           {
             "group": "Rancho Mirage",
-            "pages": ["nodes/rancho-mirage/cotino"]
+            "pages": [
+              "nodes/rancho-mirage/cotino",
+              "nodes/rancho-mirage/eisenhower-health",
+              "nodes/rancho-mirage/agua-caliente-casino",
+              "nodes/rancho-mirage/ritz-carlton",
+              "nodes/rancho-mirage/observatory"
+            ]
           },
           {
             "group": "Palm Desert",
