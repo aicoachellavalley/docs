@@ -28,6 +28,15 @@
         "tab": "Intelligence Briefs",
         "groups": [
           {
+            "group": "2025",
+            "pages": [
+              "intelligence-briefs/2025-04-01-erc-workshop-series",
+              "intelligence-briefs/2025-06-23-psai-expo",
+              "intelligence-briefs/2025-08-05-tedx-rancho-mirage-ai",
+              "intelligence-briefs/2025-11-04-futureps-series"
+            ]
+          },
+          {
             "group": "February 2026",
             "pages": [
               "intelligence-briefs/2026-02-23-data-centers",
