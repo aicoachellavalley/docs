@@ -20,7 +20,7 @@
         "groups": [
           {
             "group": "Welcome",
-            "pages": ["index", "how-aicv-works"]
+            "pages": ["index", "how-aicv-works", "submit-a-signal"]
           }
         ]
       },
