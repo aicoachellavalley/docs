@@ -19,10 +19,10 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 | # | Node | File | Status |
 |---|------|------|--------|
 | 1 | PSP International Airport | nodes/palm-springs/psp-airport.mdx | ✅ Live |
-| 2 | The Parker Palm Springs | nodes/palm-springs/parker-palm-springs.mdx | ⬜ Pending |
-| 3 | Agua Caliente Cultural Museum | nodes/palm-springs/agua-caliente-cultural-museum.mdx | ⬜ Pending |
-| 4 | Palm Springs Aerial Tram | nodes/palm-springs/aerial-tram.mdx | ⬜ Pending |
-| 5 | Forever Marilyn + Cultural Arts Corridor | nodes/palm-springs/cultural-arts-corridor.mdx | ⬜ Pending |
+| 2 | The Parker Palm Springs | nodes/palm-springs/parker-palm-springs.mdx | ✅ Live |
+| 3 | Agua Caliente Cultural Museum | nodes/palm-springs/agua-caliente-cultural-museum.mdx | ✅ Live |
+| 4 | Palm Springs Aerial Tram | nodes/palm-springs/aerial-tram.mdx | ✅ Live |
+| 5 | Forever Marilyn + Cultural Arts Corridor | nodes/palm-springs/cultural-arts-corridor.mdx | ✅ Live |
 
 ## Rancho Mirage (5 nodes)
 
@@ -38,30 +38,30 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 11 | El Paseo | nodes/palm-desert/el-paseo.mdx | ⬜ Pending |
+| 11 | El Paseo | nodes/palm-desert/el-paseo.mdx | ✅ Live |
 | 12 | Acrisure Arena | nodes/palm-desert/acrisure-arena.mdx | ✅ Live |
-| 13 | McCallum Theatre | nodes/palm-desert/mccallum-theatre.mdx | ⬜ Pending |
-| 14 | Education Corridor (College of the Desert + CSUSB) | nodes/palm-desert/education-corridor.mdx | ⬜ Pending |
-| 15 | Bighorn Golf Club | nodes/palm-desert/bighorn-golf-club.mdx | ⬜ Pending |
-| 16 | Living Desert Zoo and Gardens | nodes/palm-desert/living-desert.mdx | ⬜ Pending |
+| 13 | McCallum Theatre | nodes/palm-desert/mccallum-theatre.mdx | ✅ Live |
+| 14 | Education Corridor (College of the Desert + CSUSB) | nodes/palm-desert/education-corridor.mdx | ✅ Live |
+| 15 | Bighorn Golf Club | nodes/palm-desert/bighorn-golf-club.mdx | ✅ Live |
+| 16 | Living Desert Zoo and Gardens | nodes/palm-desert/living-desert.mdx | ✅ Live |
 
 ## Indian Wells (5 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
 | 17 | Indian Wells Tennis Garden | nodes/indian-wells/tennis-garden.mdx | ✅ Live |
-| 18 | Hyatt Regency Indian Wells | nodes/indian-wells/hyatt-regency.mdx | ⬜ Pending |
-| 19 | The Vintage Club | nodes/indian-wells/vintage-club.mdx | ⬜ Pending |
-| 20 | El Dorado Country Club | nodes/indian-wells/el-dorado.mdx | ⬜ Pending |
-| 21 | Toscana Country Club | nodes/indian-wells/toscana.mdx | ⬜ Pending |
+| 18 | Grand Hyatt Indian Wells Resort & Villas | nodes/indian-wells/grand-hyatt-indian-wells.mdx | ✅ Live |
+| 19 | The Vintage Club | nodes/indian-wells/vintage-club.mdx | ✅ Live |
+| 20 | El Dorado Country Club | nodes/indian-wells/el-dorado.mdx | ✅ Live |
+| 21 | Toscana Country Club | nodes/indian-wells/toscana.mdx | ✅ Live |
 
 ## La Quinta (4 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 22 | La Quinta Resort and Club | nodes/la-quinta/la-quinta-resort.mdx | ⬜ Pending |
-| 23 | PGA West | nodes/la-quinta/pga-west.mdx | ⬜ Pending |
-| 24 | The Madison Club | nodes/la-quinta/madison-club.mdx | ⬜ Pending |
+| 22 | La Quinta Resort and Club | nodes/la-quinta/la-quinta-resort.mdx | ✅ Live |
+| 23 | PGA West | nodes/la-quinta/pga-west.mdx | ✅ Live |
+| 24 | The Madison Club | nodes/la-quinta/madison-club.mdx | ✅ Live |
 | 25 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
 
 ## Indio (4 nodes)
@@ -104,5 +104,5 @@ Signals drive additions. Current priority based on AI-economy relevance:
 ## Node Count
 
 - Total planned: 29 plus Node 0
-- Live: 7
-- Pending: 22 plus Node 0
+- Live: 22
+- Pending: 7 plus Node 0
