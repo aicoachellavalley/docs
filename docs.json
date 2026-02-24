@@ -60,9 +60,11 @@
             "group": "Palm Desert",
             "pages": [
               "nodes/palm-desert/acrisure-arena",
-              "nodes/palm-desert/education-corridor",
               "nodes/palm-desert/mccallum-theatre",
-              "nodes/palm-desert/living-desert"
+              "nodes/palm-desert/education-corridor",
+              "nodes/palm-desert/living-desert",
+              "nodes/palm-desert/el-paseo",
+              "nodes/palm-desert/bighorn-golf-club"
             ]
           },
           {
@@ -77,7 +79,12 @@
           },
           {
             "group": "La Quinta",
-            "pages": ["nodes/la-quinta/old-town-la-quinta"]
+            "pages": [
+              "nodes/la-quinta/old-town-la-quinta",
+              "nodes/la-quinta/la-quinta-resort",
+              "nodes/la-quinta/pga-west",
+              "nodes/la-quinta/madison-club"
+            ]
           },
           {
             "group": "Indio",
