@@ -238,6 +238,7 @@ New entries are always appended within the correct group — never restructure e
 - CLAUDE.md — This file. Session continuity brief.
 - NODES.md — Full node plan with status. Living document.
 - docs.json — Mintlify navigation. Source of truth for what is live.
+- how-aicv-works.mdx — Methodology page. Agent-first. Lives in Overview nav, second after index.
 
 ## What's Next
 
