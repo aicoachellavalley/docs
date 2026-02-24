@@ -38,7 +38,13 @@
         "groups": [
           {
             "group": "Palm Springs",
-            "pages": ["nodes/palm-springs/psp-airport"]
+            "pages": [
+              "nodes/palm-springs/psp-airport",
+              "nodes/palm-springs/agua-caliente-cultural-museum",
+              "nodes/palm-springs/parker-palm-springs",
+              "nodes/palm-springs/cultural-arts-corridor",
+              "nodes/palm-springs/aerial-tram"
+            ]
           },
           {
             "group": "Rancho Mirage",
