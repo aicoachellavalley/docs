@@ -11,7 +11,7 @@
   },
   "topbarCtaButton": {
     "name": "Latest Brief",
-    "url": "/intelligence-briefs"
+    "url": "/intelligence-briefs/2026-02-23-data-centers"
   },
   "navigation": {
     "tabs": [
@@ -28,8 +28,8 @@
         "tab": "Intelligence Briefs",
         "groups": [
           {
-            "group": "Briefs",
-            "pages": ["intelligence-briefs/_template"]
+            "group": "February 2026",
+            "pages": ["intelligence-briefs/2026-02-23-data-centers"]
           }
         ]
       },
@@ -62,7 +62,7 @@
           },
           {
             "group": "Standalone",
-            "pages": ["nodes/_template"]
+            "pages": ["nodes/standalone/sensei-porcupine-creek"]
           }
         ]
       }
