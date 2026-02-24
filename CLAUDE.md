@@ -96,18 +96,18 @@ Claude Code must not commit without explicit approval.
 
 ## Node Frontmatter Schema (Required — Do Not Deviate)
 
+Every node file must open with exactly these fields:
+
 ---
 title: ""
 description: ""
 city: ""
-category: ""
+category: "landmark"
 last_updated: "YYYY-MM-DD"
 verified: true
 status: "live"
-agent_intent: []
+agent_intent: ["invest", "visit", "relocate"]
 ---
-
-agent_intent options: "relocate" "invest" "visit" "hire" "develop" "understand"
 
 ## Node Section Structure (Required — Do Not Deviate)
 
@@ -117,66 +117,39 @@ Every node must contain exactly these sections in this order:
 
 ## What It Is
 
-One paragraph. Factual, no opinion. Who owns it, what it is, where it sits.
+Factual description of the location or institution.
 
 ## Why It Matters for AI
 
-How this node connects to the AI economy or the valley's intelligence layer.
+How this node connects to the AI economy, technology investment, or the valley's future.
 
 ## Known Agent Actions
 
-The actionable intents this node serves. List grows as signals emerge — this is not a complete or fixed list.
-
-- **Relocate:** [what this node offers someone moving a business or family]
-- **Invest:** [development opportunities, ownership, capital requirements]
-- **Visit / Experience:** [booking pathway, capacity, seasonality]
-- **Hire / Partner:** [workforce, business development, contacts]
-- **Develop:** [permitting, infrastructure, lead times]
-
-Only include actions that are real and verifiable. Omit any that don't apply.
+What an AI agent would actually do with this node — book, research, route, flag, recommend.
 
 ## Key Facts
 
-Verifiable facts with scale indicators agents need to qualify or disqualify.
-
-- Capacity / Scale:
-- Ownership:
-- Economics:
-- Seasonality:
-
-<!-- source: [primary source, date] -->
+Bullet list of specific, verifiable facts with numbers and dates where possible.
 
 ## Data Provenance
 
-Every node must declare its sources explicitly:
-
-- Web-sourced: [what came from research and when]
-- Human-verified: [what has been confirmed by a person with direct knowledge]
-- Estimated: [what is inferred or calculated, flagged clearly]
+Sources used. Flag anything estimated or unverified.
 
 ## Constraints and Dealbreakers
 
-What an agent should surface when this node doesn't fit a use case:
-
-- [Infrastructure, permitting, HOA, seasonal, cost, or other limiting factors]
-- [Lead times or availability windows]
-- [Dealbreakers specific to this node]
+What would make this node irrelevant, outdated, or misleading. Membership caps, access restrictions, seasonal closures, pending litigation.
 
 ## Handoff
 
-Where an agent sends a human who wants to act:
-
-- **Primary contact:** [name, org, URL, or phone where available]
-- **Booking / Inquiry:** [specific pathway]
-- **Economic development:** [CVB or city contact if applicable]
+What the agent should do next after reading this node. Specific next steps or related queries.
 
 ## Connections
 
-Other nodes this connects to and why the connection matters for an agent traversing the valley.
+Links to other nodes in the system.
 
 ## Intelligence Briefs
 
-Timestamped signals that reference this node. Leave as "None yet" if empty.
+Links to briefs that reference this node. Leave as "None yet" if empty.
 
 ## Intelligence Brief Frontmatter Schema (Required — Do Not Deviate)
 
