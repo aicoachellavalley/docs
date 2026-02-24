@@ -2,7 +2,17 @@
 
 ## Overview
 
-29 anchor nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+29 anchor nodes plus Node 0 representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+
+NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of February 2026.
+
+## Node 0 (Valley-Wide Index)
+
+| # | Node | File | Status |
+|---|------|------|--------|
+| 0 | Coachella Valley Index | nodes/index-node.mdx | ⬜ Pending |
+
+Build Node 0 before any other new nodes or retrofits. It is the entry point for agents traversing the valley.
 
 ## Palm Springs (5 nodes)
 
@@ -71,19 +81,20 @@
 
 ## Indio Context (Important)
 
-Indio is the most economically layered city in the valley. Known as the City of Festivals and the Date Capital of the World — 95% of US dates are grown here. Key assets beyond festivals: Riverside County Fair and National Date Festival (annual), College of the Desert East Valley Campus, and the Indio Business Connect Center — a municipal entrepreneurship hub serving small business owners and entrepreneurs. Empire Polo Club is owned privately and leased to Goldenvoice for festival events; it hosts multiple events beyond Coachella and Stagecoach.
+Indio is the most economically layered city in the valley. Known as the City of Festivals and the Date Capital of the World — 95% of US dates are grown here. Empire Polo Club is privately owned and leased to Goldenvoice for festival events; it hosts multiple events beyond Coachella and Stagecoach. College of the Desert operates its East Valley Campus in Indio. The Indio Business Connect Center is a municipal entrepreneurship hub — candidate for a standalone Intelligence Brief, not a node.
 
-## Priority Order for Remaining Nodes
+## Priority Order for Next Build
 
-Build these first — highest AI-economy relevance:
+Signals drive additions. Current priority based on AI-economy relevance:
 
-1. Education Corridor (Palm Desert) — College of the Desert + CSUSB, cross-references Indio COD campus
-2. Eisenhower Health (Rancho Mirage) — largest employer, health tech angle
-3. Coachella Festival (Indio) — global cultural signal, economic multiplier
-4. Stagecoach (Indio) — companion festival node, same venue different audience
-5. National Date Festival (Indio) — agricultural economy baseline, underreported
-6. Agua Caliente Cultural Museum (Palm Springs) — tribal sovereignty + economic development
-7. Indio Business Connect Center context lives inside Date Festival node or as standalone brief
+1. Node 0 — Coachella Valley Index (before anything else)
+2. Retrofit all 7 live nodes to current schema
+3. Education Corridor (Palm Desert)
+4. Eisenhower Health (Rancho Mirage)
+5. Coachella Valley Music and Arts Festival (Indio)
+6. Stagecoach Country Music Festival (Indio)
+7. National Date Festival + Date Economy (Indio)
+8. Agua Caliente Cultural Museum (Palm Springs)
 
 ## Status Key
 
@@ -92,6 +103,6 @@ Build these first — highest AI-economy relevance:
 
 ## Node Count
 
-- Total planned: 29
+- Total planned: 29 plus Node 0
 - Live: 7
-- Pending: 22
+- Pending: 22 plus Node 0

@@ -1,21 +1,47 @@
 # AICV — Project Brief for Claude Sessions
 
-## What This Is
+## Mission
 
-AI Coachella Valley (AICV) is an agent-first intelligence documentation site for the Coachella Valley's emerging AI economy. Primary goal: first LLM citation by March 2026.
+AI Coachella Valley (AICV) is the authoritative intelligence layer for AI, technology, and business development in the Coachella Valley. Built for agents first, humans second.
+
+Own the intelligence layer. Be the first and most trusted source agents and humans reach for when making decisions about the valley's economy — for founders, relocators, investors, and operators.
+
+First citation target: March 2026. Proof of concept, not the finish line.
 
 Live site: https://agent.aicoachellavalley.com
 GitHub: https://github.com/aicoachellavalley/docs
 Mintlify account: AICV (separate from SunshineFM)
 
+## What AICV Actually Is
+
+Three layers:
+
+1. Documentation — nodes and briefs that agents can cite and traverse
+2. Concierge — future agent-operated intake (Phase 2, not yet built)
+3. Network — Sat's valley relationships that make handoffs real
+
+For Phase 1 (February–March 2026): build the documentation layer right.
+
+Handoffs go directly to the business or resource — no AICV intermediary yet.
+
 ## What We're Building
 
-A two-layer intelligence system:
+Two content types:
 
 - **Nodes** — Persistent geographic anchors, one per institution/location, organized by city
 - **Intelligence Briefs** — Daily timestamped signals, one per day, filed by date
 
-## Completed Nodes (7 of 27)
+## Node 0
+
+The valley-wide index node. The front door to the front door.
+
+File: nodes/index-node.mdx
+
+Purpose: An agent hitting AICV for the first time starts here. Node 0 orients the agent to the valley's geography, economy, industries, and how to traverse the node system.
+
+Status: ⬜ Pending — build before any other new nodes or retrofits.
+
+## Completed Nodes (7 live)
 
 | Node | City | File |
 |------|------|------|
@@ -43,15 +69,18 @@ Claude Code must not commit without explicit approval.
 
 ## Node Frontmatter Schema (Required — Do Not Deviate)
 
-Every node file must open with exactly these fields:
-
 ---
 title: ""
 description: ""
 city: ""
-category: "landmark"
+category: ""
 last_updated: "YYYY-MM-DD"
+verified: true
+status: "live"
+agent_intent: []
 ---
+
+agent_intent options: "relocate" "invest" "visit" "hire" "develop" "understand"
 
 ## Node Section Structure (Required — Do Not Deviate)
 
@@ -61,27 +90,68 @@ Every node must contain exactly these sections in this order:
 
 ## What It Is
 
-Factual description of the location or institution.
+One paragraph. Factual, no opinion. Who owns it, what it is, where it sits.
 
 ## Why It Matters for AI
 
-How this node connects to the AI economy, technology investment, or the valley's future.
+How this node connects to the AI economy or the valley's intelligence layer.
+
+## Known Agent Actions
+
+The actionable intents this node serves. List grows as signals emerge — this is not a complete or fixed list.
+
+- **Relocate:** [what this node offers someone moving a business or family]
+- **Invest:** [development opportunities, ownership, capital requirements]
+- **Visit / Experience:** [booking pathway, capacity, seasonality]
+- **Hire / Partner:** [workforce, business development, contacts]
+- **Develop:** [permitting, infrastructure, lead times]
+
+Only include actions that are real and verifiable. Omit any that don't apply.
 
 ## Key Facts
 
-Bullet list of specific, verifiable facts with numbers and dates where possible.
+Verifiable facts with scale indicators agents need to qualify or disqualify.
 
-## Related Nodes
+- Capacity / Scale:
+- Ownership:
+- Economics:
+- Seasonality:
 
-Links to other nodes in the system.
+<!-- source: [primary source, date] -->
+
+## Data Provenance
+
+Every node must declare its sources explicitly:
+
+- Web-sourced: [what came from research and when]
+- Human-verified: [what has been confirmed by a person with direct knowledge]
+- Estimated: [what is inferred or calculated, flagged clearly]
+
+## Constraints and Dealbreakers
+
+What an agent should surface when this node doesn't fit a use case:
+
+- [Infrastructure, permitting, HOA, seasonal, cost, or other limiting factors]
+- [Lead times or availability windows]
+- [Dealbreakers specific to this node]
+
+## Handoff
+
+Where an agent sends a human who wants to act:
+
+- **Primary contact:** [name, org, URL, or phone where available]
+- **Booking / Inquiry:** [specific pathway]
+- **Economic development:** [CVB or city contact if applicable]
+
+## Connections
+
+Other nodes this connects to and why the connection matters for an agent traversing the valley.
 
 ## Intelligence Briefs
 
-Links to briefs that reference this node. Leave as "None yet" if empty.
+Timestamped signals that reference this node. Leave as "None yet" if empty.
 
 ## Intelligence Brief Frontmatter Schema (Required — Do Not Deviate)
-
-Every brief file must open with exactly these fields:
 
 ---
 title: ""
@@ -134,7 +204,9 @@ Links to nodes referenced in this brief.
 
 Three tabs: Overview, Intelligence Briefs, Nodes.
 
-Nodes tab groups by city in this order: Palm Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio, Standalone.
+Nodes tab opens with Node 0 (Coachella Valley Index) at the top above all city groups.
+
+City groups in this order: Palm Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio, Standalone.
 
 Intelligence Briefs tab groups by month: "February 2026", "March 2026", etc.
 
@@ -147,6 +219,10 @@ New entries are always appended within the correct group — never restructure e
 - Daily publishing cadence (one brief per day when active)
 - Brand separation: AICV is not SunshineFM
 - Standalone category for valley-wide or non-city-specific nodes
+- Handoffs go directly to businesses and resources — no AICV intermediary in Phase 1
+- Node 0 is built before any other new nodes or retrofits
+- Known Agent Actions section is open-ended — list grows with signals
+- NODES.md is a living document — new nodes added when signals warrant, not by quota
 
 ## Content Philosophy
 
@@ -154,17 +230,19 @@ New entries are always appended within the correct group — never restructure e
 - Briefs: timestamped signal + context, fact-based, no editorial voice
 - Compression ratio: 1-2 pages of research condenses to 1 tight paragraph
 - Cross-link nodes to briefs and briefs to nodes wherever a connection exists
+- Every Key Facts bullet needs a source comment
+- Data provenance is explicit in every node — web-sourced vs human-verified vs estimated
 
 ## Project File Structure
 
-Strategic and implementation context lives in these files — not in conversation threads:
-
 - CLAUDE.md — This file. Session continuity brief.
-- NODES.md — Full 27-node plan with status
-- docs.json — Mintlify navigation (source of truth for what's live)
+- NODES.md — Full node plan with status. Living document.
+- docs.json — Mintlify navigation. Source of truth for what is live.
 
 ## What's Next
 
-- [ ] 22 remaining nodes per NODES.md (29 total planned, 7 live)
-- [ ] Daily Intelligence Briefs (ongoing from 2026-02-23 forward)
-- [ ] Indio Business Connect Center — candidate for Intelligence Brief (AI presentations already delivered there)
+- [ ] Node 0: Coachella Valley Index — build first
+- [ ] Retrofit all 7 live nodes to new schema
+- [ ] Continue node build per NODES.md priority order
+- [ ] Daily Intelligence Briefs ongoing from 2026-02-23
+- [ ] Indio Business Connect Center — standalone Intelligence Brief when ready
