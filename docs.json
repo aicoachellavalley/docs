@@ -62,7 +62,10 @@
           },
           {
             "group": "Standalone",
-            "pages": ["nodes/standalone/sensei-porcupine-creek"]
+            "pages": [
+              "nodes/standalone/coachella-valley-intelligence-index",
+              "nodes/standalone/sensei-porcupine-creek"
+            ]
           }
         ]
       }
