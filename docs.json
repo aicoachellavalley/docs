@@ -46,7 +46,12 @@
           },
           {
             "group": "Palm Desert",
-            "pages": ["nodes/palm-desert/acrisure-arena"]
+            "pages": [
+              "nodes/palm-desert/acrisure-arena",
+              "nodes/palm-desert/education-corridor",
+              "nodes/palm-desert/mccallum-theatre",
+              "nodes/palm-desert/living-desert"
+            ]
           },
           {
             "group": "Indian Wells",
