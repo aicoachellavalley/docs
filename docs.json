@@ -58,7 +58,12 @@
           },
           {
             "group": "Indio",
-            "pages": ["nodes/indio/empire-polo-club"]
+            "pages": [
+              "nodes/indio/empire-polo-club",
+              "nodes/indio/coachella-festival",
+              "nodes/indio/stagecoach",
+              "nodes/indio/date-festival"
+            ]
           },
           {
             "group": "Standalone",
