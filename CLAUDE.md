@@ -68,9 +68,9 @@ Purpose: An agent hitting AICV for the first time starts here. Node 0 orients th
 
 Status: ⬜ Pending — build before any other new nodes or retrofits.
 
-## Completed Nodes (34 live)
+## Completed Nodes (33 live)
 
-See NODES.md for full node list with status. 34 nodes live across 7 city groups as of 2026-02-25.
+See NODES.md for full node list with status. 33 nodes live across 7 city groups as of 2026-02-25.
 
 | City | Count |
 |------|-------|
@@ -80,7 +80,7 @@ See NODES.md for full node list with status. 34 nodes live across 7 city groups 
 | Indian Wells | 5 |
 | La Quinta | 4 |
 | Indio | 4 |
-| Standalone | 5 |
+| Standalone | 4 |
 
 ## Completed Intelligence Briefs (11)
 
