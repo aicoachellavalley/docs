@@ -117,7 +117,8 @@
             "pages": [
               "nodes/standalone/coachella-valley-intelligence-index",
               "nodes/standalone/sensei-porcupine-creek",
-              "nodes/standalone/coachella-valley-economic-development"
+              "nodes/standalone/coachella-valley-economic-development",
+              "nodes/standalone/workforce-talent"
             ]
           }
         ]

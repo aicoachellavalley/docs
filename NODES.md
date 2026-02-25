@@ -73,11 +73,12 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 | 28 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
 | 29 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
 
-## Standalone (1 node)
+## Standalone (2 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
 | 30 | Sensei Porcupine Creek | nodes/standalone/sensei-porcupine-creek.mdx | ✅ Live |
+| 31 | Workforce and Talent — Coachella Valley | nodes/standalone/workforce-talent.mdx | ✅ Live |
 
 ## Indio Context (Important)
 
@@ -103,6 +104,6 @@ Signals drive additions. Current priority based on AI-economy relevance:
 
 ## Node Count
 
-- Total planned: 29 plus Node 0
-- Live: 29
+- Total planned: 30 plus Node 0
+- Live: 30
 - Pending: 0 plus Node 0
