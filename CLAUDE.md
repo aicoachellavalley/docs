@@ -68,23 +68,28 @@ Purpose: An agent hitting AICV for the first time starts here. Node 0 orients th
 
 Status: ⬜ Pending — build before any other new nodes or retrofits.
 
-## Completed Nodes (7 live)
+## Completed Nodes (34 live)
 
-| Node | City | File |
-|------|------|------|
-| PSP Airport | Palm Springs | nodes/palm-springs/psp-airport.mdx |
-| Cotino | Rancho Mirage | nodes/rancho-mirage/cotino.mdx |
-| Acrisure Arena | Palm Desert | nodes/palm-desert/acrisure-arena.mdx |
-| Indian Wells Tennis Garden | Indian Wells | nodes/indian-wells/tennis-garden.mdx |
-| Old Town La Quinta | La Quinta | nodes/la-quinta/old-town-la-quinta.mdx |
-| Empire Polo Club | Indio | nodes/indio/empire-polo-club.mdx |
-| Sensei Porcupine Creek | Standalone | nodes/standalone/sensei-porcupine-creek.mdx |
+See NODES.md for full node list with status. 34 nodes live across 7 city groups as of 2026-02-25.
 
-## Completed Intelligence Briefs (1)
+| City | Count |
+|------|-------|
+| Palm Springs | 5 |
+| Rancho Mirage | 5 |
+| Palm Desert | 6 |
+| Indian Wells | 5 |
+| La Quinta | 4 |
+| Indio | 4 |
+| Standalone | 5 |
 
-| Date | Topic | File |
-|------|-------|------|
-| 2026-02-23 | Data Center Feasibility | intelligence-briefs/2026-02-23-data-centers.mdx |
+## Completed Intelligence Briefs (11)
+
+See docs.json for full brief list. 11 briefs published as of 2026-02-25.
+
+| Group | Count |
+|-------|-------|
+| 2025 | 4 |
+| February 2026 | 7 |
 
 ## Workflow: Claude.ai + Claude Code
 
