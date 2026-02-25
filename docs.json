@@ -42,7 +42,10 @@
               "intelligence-briefs/2026-02-23-data-centers",
               "intelligence-briefs/2026-02-23-imperial-valley-data-center",
               "intelligence-briefs/2026-02-23-accenture-ai-promotion-mandate",
-              "intelligence-briefs/2026-02-23-rent-a-human"
+              "intelligence-briefs/2026-02-23-rent-a-human",
+              "intelligence-briefs/2026-02-24-anthropic-rsp-policy-shift",
+              "intelligence-briefs/2026-02-24-structural-unemployment-fed-warning",
+              "intelligence-briefs/2026-02-24-cursor-cloud-agents"
             ]
           }
         ]
@@ -113,7 +116,8 @@
             "group": "Standalone",
             "pages": [
               "nodes/standalone/coachella-valley-intelligence-index",
-              "nodes/standalone/sensei-porcupine-creek"
+              "nodes/standalone/sensei-porcupine-creek",
+              "nodes/standalone/coachella-valley-economic-development"
             ]
           }
         ]
