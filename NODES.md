@@ -2,7 +2,7 @@
 
 ## Overview
 
-33 anchor nodes plus Node 0 representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+33 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
 NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of February 2026.
 
@@ -10,7 +10,7 @@ NODES.md is a living document. New nodes are added when signals warrant — not 
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 0 | Coachella Valley Index | nodes/index-node.mdx | ⬜ Pending |
+| 0 | Coachella Valley Index | nodes/index-node.mdx | ⬜ Not yet built |
 
 Build Node 0 before any other new nodes or retrofits. It is the entry point for agents traversing the valley.
 
@@ -86,14 +86,6 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 
 Indio is the most economically layered city in the valley. Known as the City of Festivals and the Date Capital of the World — 95% of US dates are grown here. Empire Polo Club is privately owned and leased to Goldenvoice for festival events; it hosts multiple events beyond Coachella and Stagecoach. College of the Desert operates its East Valley Campus in Indio. The Indio Business Connect Center is a municipal entrepreneurship hub — candidate for a standalone Intelligence Brief, not a node.
 
-## Priority Order for Next Build
-
-Signals drive additions. Current priority based on AI-economy relevance:
-
-1. Node 0 — Coachella Valley Index (before anything else)
-2. Retrofit existing nodes to current schema as needed
-3. New nodes per signal — no predetermined list
-
 ## Status Key
 
 - ✅ Live — published and in docs.json navigation
@@ -101,6 +93,6 @@ Signals drive additions. Current priority based on AI-economy relevance:
 
 ## Node Count
 
-- Total planned: 33 plus Node 0
-- Live: 33
-- Pending: Node 0 only
+- Total live: 33
+- Pending: 0
+- Next priority: Node Zero (action routing layer — not yet built)
