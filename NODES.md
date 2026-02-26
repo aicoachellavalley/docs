@@ -2,7 +2,7 @@
 
 ## Overview
 
-29 anchor nodes plus Node 0 representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+33 anchor nodes plus Node 0 representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
 NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of February 2026.
 
@@ -24,7 +24,7 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 | 4 | Palm Springs Aerial Tram | nodes/palm-springs/aerial-tram.mdx | ✅ Live |
 | 5 | Forever Marilyn + Cultural Arts Corridor | nodes/palm-springs/cultural-arts-corridor.mdx | ✅ Live |
 
-## Rancho Mirage (5 nodes)
+## Rancho Mirage (6 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -33,51 +33,51 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 | 8 | Agua Caliente Resort Casino Rancho Mirage | nodes/rancho-mirage/agua-caliente-casino.mdx | ✅ Live |
 | 9 | Cotino — Storyliving by Disney | nodes/rancho-mirage/cotino.mdx | ✅ Live |
 | 10 | Observatory Rancho Mirage | nodes/rancho-mirage/observatory.mdx | ✅ Live |
+| 11 | Sensei Porcupine Creek | nodes/rancho-mirage/sensei-porcupine-creek.mdx | ✅ Live |
 
 ## Palm Desert (6 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 11 | El Paseo | nodes/palm-desert/el-paseo.mdx | ✅ Live |
-| 12 | Acrisure Arena | nodes/palm-desert/acrisure-arena.mdx | ✅ Live |
-| 13 | McCallum Theatre | nodes/palm-desert/mccallum-theatre.mdx | ✅ Live |
-| 14 | Education Corridor (College of the Desert + CSUSB) | nodes/palm-desert/education-corridor.mdx | ✅ Live |
-| 15 | Bighorn Golf Club | nodes/palm-desert/bighorn-golf-club.mdx | ✅ Live |
-| 16 | Living Desert Zoo and Gardens | nodes/palm-desert/living-desert.mdx | ✅ Live |
+| 12 | El Paseo | nodes/palm-desert/el-paseo.mdx | ✅ Live |
+| 13 | Acrisure Arena | nodes/palm-desert/acrisure-arena.mdx | ✅ Live |
+| 14 | McCallum Theatre | nodes/palm-desert/mccallum-theatre.mdx | ✅ Live |
+| 15 | Education Corridor (College of the Desert + CSUSB) | nodes/palm-desert/education-corridor.mdx | ✅ Live |
+| 16 | Bighorn Golf Club | nodes/palm-desert/bighorn-golf-club.mdx | ✅ Live |
+| 17 | Living Desert Zoo and Gardens | nodes/palm-desert/living-desert.mdx | ✅ Live |
 
 ## Indian Wells (5 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 17 | Indian Wells Tennis Garden | nodes/indian-wells/tennis-garden.mdx | ✅ Live |
-| 18 | Grand Hyatt Indian Wells Resort & Villas | nodes/indian-wells/grand-hyatt-indian-wells.mdx | ✅ Live |
-| 19 | The Vintage Club | nodes/indian-wells/vintage-club.mdx | ✅ Live |
-| 20 | El Dorado Country Club | nodes/indian-wells/el-dorado.mdx | ✅ Live |
-| 21 | Toscana Country Club | nodes/indian-wells/toscana.mdx | ✅ Live |
+| 18 | Indian Wells Tennis Garden | nodes/indian-wells/tennis-garden.mdx | ✅ Live |
+| 19 | Grand Hyatt Indian Wells Resort & Villas | nodes/indian-wells/grand-hyatt-indian-wells.mdx | ✅ Live |
+| 20 | The Vintage Club | nodes/indian-wells/vintage-club.mdx | ✅ Live |
+| 21 | El Dorado Country Club | nodes/indian-wells/el-dorado.mdx | ✅ Live |
+| 22 | Toscana Country Club | nodes/indian-wells/toscana.mdx | ✅ Live |
 
 ## La Quinta (4 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 22 | La Quinta Resort and Club | nodes/la-quinta/la-quinta-resort.mdx | ✅ Live |
-| 23 | PGA West | nodes/la-quinta/pga-west.mdx | ✅ Live |
-| 24 | The Madison Club | nodes/la-quinta/madison-club.mdx | ✅ Live |
-| 25 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
+| 23 | La Quinta Resort and Club | nodes/la-quinta/la-quinta-resort.mdx | ✅ Live |
+| 24 | PGA West | nodes/la-quinta/pga-west.mdx | ✅ Live |
+| 25 | The Madison Club | nodes/la-quinta/madison-club.mdx | ✅ Live |
+| 26 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
 
 ## Indio (4 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 26 | Empire Polo Club | nodes/indio/empire-polo-club.mdx | ✅ Live |
-| 27 | Coachella Valley Music and Arts Festival | nodes/indio/coachella-festival.mdx | ✅ Live |
-| 28 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
-| 29 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
+| 27 | Empire Polo Club | nodes/indio/empire-polo-club.mdx | ✅ Live |
+| 28 | Coachella Valley Music and Arts Festival | nodes/indio/coachella-festival.mdx | ✅ Live |
+| 29 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
+| 30 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
 
-## Standalone (4 nodes)
+## Valley Wide (3 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 30 | Sensei Porcupine Creek | nodes/standalone/sensei-porcupine-creek.mdx | ✅ Live |
 | 31 | Workforce and Talent — Coachella Valley | nodes/standalone/workforce-talent.mdx | ✅ Live |
 | 32 | Coachella Valley Intelligence Index | nodes/standalone/coachella-valley-intelligence-index.mdx | ✅ Live |
 | 33 | Coachella Valley Economic Development | nodes/standalone/coachella-valley-economic-development.mdx | ✅ Live |
@@ -91,13 +91,8 @@ Indio is the most economically layered city in the valley. Known as the City of 
 Signals drive additions. Current priority based on AI-economy relevance:
 
 1. Node 0 — Coachella Valley Index (before anything else)
-2. Retrofit all 7 live nodes to current schema
-3. Education Corridor (Palm Desert)
-4. Eisenhower Health (Rancho Mirage)
-5. Coachella Valley Music and Arts Festival (Indio)
-6. Stagecoach Country Music Festival (Indio)
-7. National Date Festival + Date Economy (Indio)
-8. Agua Caliente Cultural Museum (Palm Springs)
+2. Retrofit existing nodes to current schema as needed
+3. New nodes per signal — no predetermined list
 
 ## Status Key
 
@@ -108,4 +103,4 @@ Signals drive additions. Current priority based on AI-economy relevance:
 
 - Total planned: 33 plus Node 0
 - Live: 33
-- Pending: 0 plus Node 0
+- Pending: Node 0 only

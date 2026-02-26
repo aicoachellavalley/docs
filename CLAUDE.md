@@ -248,7 +248,6 @@ New entries are always appended within the correct group — never restructure e
 ## What's Next
 
 - [ ] Node 0: Coachella Valley Index — build first
-- [ ] Retrofit all 7 live nodes to new schema
 - [ ] Continue node build per NODES.md priority order
 - [ ] Daily Intelligence Briefs ongoing from 2026-02-23
 - [ ] Indio Business Connect Center — standalone Intelligence Brief when ready
