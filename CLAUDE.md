@@ -19,8 +19,8 @@ A two-layer intelligence system:
 
 - **33 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
 - **12 intelligence briefs live** — 4 from 2025, 8 from February 2026
-- **Homepage v5 live** on Cloudflare Pages with auto-deploy from GitHub
-- **Cloudflare Worker live** handling AIO proxy and dynamic stats
+- **Homepage v5 live** on `aicoachellavalley.com` via Cloudflare Pages — DNS cutover complete February 26, 2026
+- **Cloudflare Worker live** at `api.aicoachellavalley.com` — rate limiting, input validation, CORS locked to production domain
 
 ## Infrastructure
 
@@ -28,7 +28,7 @@ A two-layer intelligence system:
 |-----------|------|-----|
 | Docs (Mintlify) | ~/Projects/docs/ | agent.aicoachellavalley.com |
 | Homepage (v5) | ~/Projects/homepage/index.html | aicoachellavalley-homepage.pages.dev |
-| Worker (API proxy) | ~/Projects/aicv-api/worker.js | aicv-api.sunshinefm.workers.dev |
+| Worker (API proxy) | ~/Projects/aicv-api/worker.js | api.aicoachellavalley.com |
 
 Homepage deploys automatically via GitHub → Cloudflare Pages on every push to main.
 Worker handles AIO tool proxy and dynamic stats (node/brief counts from GitHub).
@@ -46,22 +46,22 @@ Claude Code must not commit without explicit approval.
 
 ## Pending Tasks (Priority Order)
 
-1. Font weight fix — Syne section headers from 800 → 600 in homepage (prompt ready)
-2. Rate limiting on AIO tool — Cloudflare KV, 5 analyses per IP per day
-3. CORS lockdown — change Worker `*` to `aicoachellavalley.com` after DNS cutover
-4. Input validation on Worker URL field
-5. DNS cutover — point Namecheap nameservers to Cloudflare
-6. Swap Worker URL from `aicv-api.sunshinefm.workers.dev` to `api.aicoachellavalley.com` (one line in WORKER_BASE constant in homepage)
-7. Node Zero — confirm live status and review routing layer completeness
-8. Palm Desert 2026 goals brief — parked, waiting on Thursday council session notes
+### Platform
+1. GitHub issues intake form — replace `mailto:sat@aicv.co` CTA in AIO tool network CTA
+2. Node Zero — action routing layer, not yet built
+3. wrangler.toml — add comment noting `api.aicoachellavalley.com` custom domain
 
-## Font Fix Prompt (Ready for Claude Code)
-
-In `~/Projects/homepage/index.html` find all instances of `font-weight: 800` where font-family is Syne, and change them to `font-weight: 600`. Apply to section headers — `.aio-title`, `.intel-title`, `.hero-headline` and similar. Do NOT change `.stat-n` (keep 800) and do NOT change nav logo mark (keep 800). Commit as `fix: lighten section header font weight to 600` and push to main.
+### Content
+1. Palm Desert 2026 goals brief — parked, waiting on Thursday council session notes
+2. Submit `aicoachellavalley.com` to Google Search Console for reindexing post-cutover
 
 ## Wrangler Note
 
 `wrangler secret put` asks for the value TWICE as confirmation — paste the same key both times.
+
+## AIO Tool Note
+
+Three-layer security: input validation → rate limiting (5/day per IP via Cloudflare KV) → page fetch → Anthropic analysis. Model: `claude-haiku-4-5-20251001` — do not change to Sonnet, deliberate cost decision. Words analyzed counter in KV key `stats:words_analyzed`, seeded at 10000. CORS locked to `https://aicoachellavalley.com` and `https://www.aicoachellavalley.com`.
 
 ## Mintlify Ops Note
 
