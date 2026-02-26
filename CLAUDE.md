@@ -1,95 +1,39 @@
 # AICV — Project Brief for Claude Sessions
 
-## Mission
+## What This Is
 
-AI Coachella Valley (AICV) is the authoritative intelligence layer for AI, technology, and business development in the Coachella Valley. Built for agents first, humans second.
-
-Own the intelligence layer. Be the first and most trusted source agents and humans reach for when making decisions about the valley's economy — for founders, relocators, investors, and operators.
-
-First citation target: March 2026. Proof of concept, not the finish line.
+AI Coachella Valley (AICV) is an agent-first intelligence documentation site for the Coachella Valley's emerging AI economy. Primary goal: first LLM citation by March 2026.
 
 Live site: https://agent.aicoachellavalley.com
 GitHub: https://github.com/aicoachellavalley/docs
 Mintlify account: AICV (separate from SunshineFM)
 
-## What AICV Actually Is
-
-Three layers:
-
-1. Documentation — nodes and briefs that agents can cite and traverse
-2. Concierge — future agent-operated intake (Phase 2, not yet built)
-3. Network — Sat's valley relationships that make handoffs real
-
-For Phase 1 (February–March 2026): build the documentation layer right.
-
-Handoffs go directly to the business or resource — no AICV intermediary yet.
-
 ## What We're Building
 
-Two content types:
+A two-layer intelligence system:
 
 - **Nodes** — Persistent geographic anchors, one per institution/location, organized by city
 - **Intelligence Briefs** — Daily timestamped signals, one per day, filed by date
 
-## End-State Vision
+## Current State (as of February 26, 2026)
 
-AICV is building three agent-to-agent layers on top of the documentation system:
+- **33 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
+- **12 intelligence briefs live** — 4 from 2025, 8 from February 2026
+- **Homepage v5 live** on Cloudflare Pages with auto-deploy from GitHub
+- **Cloudflare Worker live** handling AIO proxy and dynamic stats
 
-**Layer 1: Agent-to-Agent Economic Development** — structured intelligence for agents evaluating the Coachella Valley for business location, investment, workforce deployment, or expansion decisions.
+## Infrastructure
 
-**Layer 2: Agent-to-Agent Relocation** — structured intelligence for agents researching the valley as a place to live. Covers resort infrastructure, cultural institutions, outdoor assets, and community anchors. Bridges tourism and economic development.
+| Component | Repo | URL |
+|-----------|------|-----|
+| Docs (Mintlify) | ~/Projects/docs/ | agent.aicoachellavalley.com |
+| Homepage (v5) | ~/Projects/homepage/index.html | aicoachellavalley-homepage.pages.dev |
+| Worker (API proxy) | ~/Projects/aicv-api/worker.js | aicv-api.sunshinefm.workers.dev |
 
-**Layer 3: Agent-to-Agent Group and Corporate Travel** — the middle layer between tourism and economic development. Team retreats, corporate offsites, group reservations, incentive travel. Agents routing group travel requests need structured data on venues, capacity, proximity, and amenities.
-
-**Layer 4: Agent-to-Agent Tourism** — structured intelligence for agents researching the valley as a destination for leisure, events, and short-term visits.
-
-This ordering reflects strategic priority and positioning. AICV leads with economic development because that is the most defensible and differentiated use case. Tourism is the highest query volume use case but the least differentiated — every valley tourism property covers it. AICV covers it as the completion of the stack, not the lead.
-
-**Node Zero — The Coachella Valley Concierge for Agents**
-
-Node Zero is the action routing layer built on top of the documentation system. It allows agents to act on behalf of their users across all four layers — booking, connecting, requesting, and interfacing with valley institutions directly.
-
-Node Zero's action complexity escalates in this order:
-
-- Tourism: lowest complexity — availability queries, itinerary suggestions, destination information
-- Group and Corporate Travel: mid complexity — venue matching, capacity routing, group booking connections
-- Relocation: high complexity — multi-node queries across housing, institutions, lifestyle, and community
-- Economic Development: highest complexity — site selection data, incentive package requests, institutional connections, workforce intelligence
-
-The documentation layer must be complete and trusted before Node Zero is possible. Every node added makes all four use cases more complete simultaneously.
-
-## Node 0
-
-The valley-wide index node. The front door to the front door.
-
-File: nodes/index-node.mdx
-
-Purpose: An agent hitting AICV for the first time starts here. Node 0 orients the agent to the valley's geography, economy, industries, and how to traverse the node system.
-
-Status: ⬜ Pending — build before any other new nodes or retrofits.
-
-## Completed Nodes (33 live)
-
-See NODES.md for full node list with status. 33 nodes live across 7 city groups as of 2026-02-25.
-
-| City | Count |
-|------|-------|
-| Palm Springs | 5 |
-| Rancho Mirage | 6 |
-| Palm Desert | 6 |
-| Indian Wells | 5 |
-| La Quinta | 4 |
-| Indio | 4 |
-| Valley Wide | 3 |
-
-## Completed Intelligence Briefs (11)
-
-See docs.json for full brief list. 11 briefs published as of 2026-02-25.
-
-| Group | Count |
-|-------|-------|
-| 2025 | 4 |
-| February 2026 | 7 |
+Homepage deploys automatically via GitHub → Cloudflare Pages on every push to main.
+Worker handles AIO tool proxy and dynamic stats (node/brief counts from GitHub).
+API key is in Worker secrets — not in client code.
+AIO tool uses `claude-haiku-4-5-20251001` — deliberate cost decision, do not change to Sonnet.
 
 ## Workflow: Claude.ai + Claude Code
 
@@ -98,6 +42,33 @@ See docs.json for full brief list. 11 briefs published as of 2026-02-25.
 - **Sat** — Courier between the two systems
 
 Claude Code must not commit without explicit approval.
+
+## Pending Tasks (Priority Order)
+
+1. Font weight fix — Syne section headers from 800 → 600 in homepage (prompt ready)
+2. Rate limiting on AIO tool — Cloudflare KV, 5 analyses per IP per day
+3. CORS lockdown — change Worker `*` to `aicoachellavalley.com` after DNS cutover
+4. Input validation on Worker URL field
+5. DNS cutover — point Namecheap nameservers to Cloudflare
+6. Swap Worker URL from `aicv-api.sunshinefm.workers.dev` to `api.aicoachellavalley.com` (one line in WORKER_BASE constant in homepage)
+7. Node Zero — confirm live status and review routing layer completeness
+8. Palm Desert 2026 goals brief — parked, waiting on Thursday council session notes
+
+## Font Fix Prompt (Ready for Claude Code)
+
+In `~/Projects/homepage/index.html` find all instances of `font-weight: 800` where font-family is Syne, and change them to `font-weight: 600`. Apply to section headers — `.aio-title`, `.intel-title`, `.hero-headline` and similar. Do NOT change `.stat-n` (keep 800) and do NOT change nav logo mark (keep 800). Commit as `fix: lighten section header font weight to 600` and push to main.
+
+## Wrangler Note
+
+`wrangler secret put` asks for the value TWICE as confirmation — paste the same key both times.
+
+## Mintlify Ops Note
+
+If a push doesn't update the live site within 5–10 minutes, the GitHub App authorization has likely lapsed. Check:
+- https://dashboard.mintlify.com — deployment logs and redeploy button
+- https://github.com/organizations/aicoachellavalley/settings/installations — GitHub App auth
+
+The error message "Not authorized to fetch tree" is the tell.
 
 ## Node Frontmatter Schema (Required — Do Not Deviate)
 
@@ -109,9 +80,6 @@ description: ""
 city: ""
 category: "landmark"
 last_updated: "YYYY-MM-DD"
-verified: true
-status: "live"
-agent_intent: ["invest", "visit", "relocate"]
 ---
 
 ## Node Section Structure (Required — Do Not Deviate)
@@ -122,39 +90,21 @@ Every node must contain exactly these sections in this order:
 
 ## What It Is
 
-Factual description of the location or institution.
-
 ## Why It Matters for AI
-
-How this node connects to the AI economy, technology investment, or the valley's future.
-
-## Known Agent Actions
-
-What an AI agent would actually do with this node — book, research, route, flag, recommend.
 
 ## Key Facts
 
-Bullet list of specific, verifiable facts with numbers and dates where possible.
+## Known Agent Actions
 
 ## Data Provenance
 
-Sources used. Flag anything estimated or unverified.
-
 ## Constraints and Dealbreakers
-
-What would make this node irrelevant, outdated, or misleading. Membership caps, access restrictions, seasonal closures, pending litigation.
 
 ## Handoff
 
-What the agent should do next after reading this node. Specific next steps or related queries.
-
-## Connections
-
-Links to other nodes in the system.
+## Related Nodes
 
 ## Intelligence Briefs
-
-Links to briefs that reference this node. Leave as "None yet" if empty.
 
 ## Intelligence Brief Frontmatter Schema (Required — Do Not Deviate)
 
@@ -167,23 +117,15 @@ tags: []
 
 ## Intelligence Brief Section Structure (Required — Do Not Deviate)
 
-Every brief must contain exactly these sections in this order:
-
 # [Title]
 
 **Date:** Month DD, YYYY
 
 ## Signal
 
-One paragraph: what happened, what triggered this brief.
-
 ## Context
 
-One paragraph: background, both favorable and unfavorable factors, no opinion.
-
 ## Related Nodes
-
-Links to nodes referenced in this brief.
 
 ## How to Add a Node
 
@@ -209,11 +151,9 @@ Links to nodes referenced in this brief.
 
 Three tabs: Overview, Intelligence Briefs, Nodes.
 
-Nodes tab opens with Node 0 (Coachella Valley Index) at the top above all city groups.
+Nodes tab groups by city in this order: Valley Wide, Palm Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio.
 
-City groups in this order: Valley Wide, Palm Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio.
-
-Intelligence Briefs tab groups by month: "February 2026", "March 2026", etc.
+Intelligence Briefs tab groups by month in reverse chronological order: most recent month first.
 
 New entries are always appended within the correct group — never restructure existing groups.
 
@@ -223,11 +163,10 @@ New entries are always appended within the correct group — never restructure e
 - Geographic over thematic organization
 - Daily publishing cadence (one brief per day when active)
 - Brand separation: AICV is not SunshineFM
-- Valley Wide category for valley-wide or non-city-specific nodes
-- Handoffs go directly to businesses and resources — no AICV intermediary in Phase 1
-- Node 0 is built before any other new nodes or retrofits
-- Known Agent Actions section is open-ended — list grows with signals
-- NODES.md is a living document — new nodes added when signals warrant, not by quota
+- Valley Wide category (not Standalone) for valley-wide or non-city-specific nodes — listed first in nav
+- Economic development leads strategically over tourism — most defensible positioning vs incumbents
+- Node Zero is a dispatcher/router, not a map — distinct from the intelligence index
+- GitHub issues as agent-compatible signal submission — no custom forms
 
 ## Content Philosophy
 
@@ -235,20 +174,13 @@ New entries are always appended within the correct group — never restructure e
 - Briefs: timestamped signal + context, fact-based, no editorial voice
 - Compression ratio: 1-2 pages of research condenses to 1 tight paragraph
 - Cross-link nodes to briefs and briefs to nodes wherever a connection exists
-- Every Key Facts bullet needs a source comment
-- Data provenance is explicit in every node — web-sourced vs human-verified vs estimated
-- MDX syntax: Never use HTML comments `<!-- -->` in any MDX file. Mintlify will fail to parse them and return 404. Always use `{/* */}` for comments instead.
+- MDX syntax: Never use `<!-- -->` in any MDX file. Mintlify will fail to parse them and return 404. Always use `{/* */}` for comments instead.
 
 ## Project File Structure
 
 - CLAUDE.md — This file. Session continuity brief.
-- NODES.md — Full node plan with status. Living document.
-- docs.json — Mintlify navigation. Source of truth for what is live.
-- how-aicv-works.mdx — Methodology page. Agent-first. Lives in Overview nav, second after index.
-
-## What's Next
-
-- [ ] Node 0: Coachella Valley Index — build first
-- [ ] Continue node build per NODES.md priority order
-- [ ] Daily Intelligence Briefs ongoing from 2026-02-23
-- [ ] Indio Business Connect Center — standalone Intelligence Brief when ready
+- NODES.md — Full node plan with status
+- docs.json — Mintlify navigation (source of truth for what's live)
+- ~/Projects/homepage/index.html — Homepage v5 source of truth
+- ~/Projects/aicv-api/worker.js — Worker source of truth
+- ~/Projects/aicv-api/wrangler.toml — Worker config
