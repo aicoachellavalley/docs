@@ -32,6 +32,7 @@ A two-layer intelligence system:
 
 Homepage deploys automatically via GitHub → Cloudflare Pages on every push to main.
 Worker handles AIO tool proxy and dynamic stats (node/brief counts from GitHub).
+Worker is NOT git-controlled — deploy changes via `wrangler deploy` from `~/Projects/aicv-api/`. There is no git repo in that directory.
 API key is in Worker secrets — not in client code.
 AIO tool uses `claude-haiku-4-5-20251001` — deliberate cost decision, do not change to Sonnet.
 
