@@ -237,6 +237,7 @@ New entries are always appended within the correct group — never restructure e
 - Cross-link nodes to briefs and briefs to nodes wherever a connection exists
 - Every Key Facts bullet needs a source comment
 - Data provenance is explicit in every node — web-sourced vs human-verified vs estimated
+- MDX syntax: Never use HTML comments `<!-- -->` in any MDX file. Mintlify will fail to parse them and return 404. Always use `{/* */}` for comments instead.
 
 ## Project File Structure
 
