@@ -58,6 +58,14 @@
         "tab": "Nodes",
         "groups": [
           {
+            "group": "Valley Wide",
+            "pages": [
+              "nodes/standalone/coachella-valley-intelligence-index",
+              "nodes/standalone/coachella-valley-economic-development",
+              "nodes/standalone/workforce-talent"
+            ]
+          },
+          {
             "group": "Palm Springs",
             "pages": [
               "nodes/palm-springs/psp-airport",
@@ -74,7 +82,8 @@
               "nodes/rancho-mirage/eisenhower-health",
               "nodes/rancho-mirage/agua-caliente-casino",
               "nodes/rancho-mirage/ritz-carlton",
-              "nodes/rancho-mirage/observatory"
+              "nodes/rancho-mirage/observatory",
+              "nodes/rancho-mirage/sensei-porcupine-creek"
             ]
           },
           {
@@ -114,15 +123,6 @@
               "nodes/indio/coachella-festival",
               "nodes/indio/stagecoach",
               "nodes/indio/date-festival"
-            ]
-          },
-          {
-            "group": "Standalone",
-            "pages": [
-              "nodes/standalone/coachella-valley-intelligence-index",
-              "nodes/standalone/sensei-porcupine-creek",
-              "nodes/standalone/coachella-valley-economic-development",
-              "nodes/standalone/workforce-talent"
             ]
           }
         ]

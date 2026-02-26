@@ -75,12 +75,12 @@ See NODES.md for full node list with status. 33 nodes live across 7 city groups 
 | City | Count |
 |------|-------|
 | Palm Springs | 5 |
-| Rancho Mirage | 5 |
+| Rancho Mirage | 6 |
 | Palm Desert | 6 |
 | Indian Wells | 5 |
 | La Quinta | 4 |
 | Indio | 4 |
-| Standalone | 4 |
+| Valley Wide | 3 |
 
 ## Completed Intelligence Briefs (11)
 
@@ -211,7 +211,7 @@ Three tabs: Overview, Intelligence Briefs, Nodes.
 
 Nodes tab opens with Node 0 (Coachella Valley Index) at the top above all city groups.
 
-City groups in this order: Palm Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio, Standalone.
+City groups in this order: Valley Wide, Palm Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio.
 
 Intelligence Briefs tab groups by month: "February 2026", "March 2026", etc.
 
@@ -223,7 +223,7 @@ New entries are always appended within the correct group — never restructure e
 - Geographic over thematic organization
 - Daily publishing cadence (one brief per day when active)
 - Brand separation: AICV is not SunshineFM
-- Standalone category for valley-wide or non-city-specific nodes
+- Valley Wide category for valley-wide or non-city-specific nodes
 - Handoffs go directly to businesses and resources — no AICV intermediary in Phase 1
 - Node 0 is built before any other new nodes or retrofits
 - Known Agent Actions section is open-ended — list grows with signals
