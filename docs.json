@@ -11,7 +11,7 @@
   },
   "topbarCtaButton": {
     "name": "Latest Brief",
-    "url": "/intelligence-briefs/2026-02-25-claude-code-remote-control"
+    "url": "/intelligence-briefs/2026-02-26-perplexity-computer"
   },
   "navigation": {
     "tabs": [
@@ -30,6 +30,9 @@
           {
             "group": "February 2026",
             "pages": [
+              "intelligence-briefs/2026-02-26-perplexity-computer",
+              "intelligence-briefs/2026-02-26-burger-king-patty",
+              "intelligence-briefs/2026-02-26-palm-desert-2026-goals",
               "intelligence-briefs/2026-02-25-openclaw",
               "intelligence-briefs/2026-02-25-mit-ai-study",
               "intelligence-briefs/2026-02-25-etail-palm-desert",

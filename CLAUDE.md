@@ -114,6 +114,7 @@ title: ""
 description: ""
 date: "YYYY-MM-DD"
 tags: []
+agent_intent: []
 ---
 
 ## Intelligence Brief Section Structure (Required — Do Not Deviate)
@@ -123,6 +124,8 @@ tags: []
 **Date:** Month DD, YYYY
 
 ## Signal
+
+## Agent Signal
 
 ## Context
 
