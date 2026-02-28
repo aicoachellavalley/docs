@@ -11,7 +11,7 @@
   },
   "topbarCtaButton": {
     "name": "Latest Brief",
-    "url": "/intelligence-briefs/2026-02-26-perplexity-computer"
+    "url": "/intelligence-briefs/2026-02-27-anthropic-pentagon-standoff"
   },
   "navigation": {
     "tabs": [
@@ -43,7 +43,10 @@
               "intelligence-briefs/2026-02-23-rent-a-human",
               "intelligence-briefs/2026-02-23-accenture-ai-promotion-mandate",
               "intelligence-briefs/2026-02-23-imperial-valley-data-center",
-              "intelligence-briefs/2026-02-23-data-centers"
+              "intelligence-briefs/2026-02-23-data-centers",
+              "intelligence-briefs/2026-02-27-anthropic-pentagon-standoff",
+              "intelligence-briefs/2026-02-27-block-dorsey-layoffs",
+              "intelligence-briefs/2026-02-27-florida-ai-bill-of-rights"
             ]
           },
           {
