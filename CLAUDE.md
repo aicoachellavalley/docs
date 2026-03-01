@@ -15,9 +15,9 @@ A two-layer intelligence system:
 - **Nodes** — Persistent geographic anchors, one per institution/location, organized by city
 - **Intelligence Briefs** — Daily timestamped signals, one per day, filed by date
 
-## Current State (as of February 26, 2026)
+## Current State (as of March 1, 2026)
 
-- **33 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
+- **33 nodes live** across 6 cities + Valley Wide — all on v2 schema with verified, status, agent_intent fields
 - **21 intelligence briefs live** — 4 from 2025, 17 from February 2026
 - **Homepage v5 live** on `aicoachellavalley.com` via Cloudflare Pages — DNS cutover complete February 26, 2026
 - **Cloudflare Worker live** at `api.aicoachellavalley.com` — rate limiting, input validation, CORS locked to production domain
@@ -47,13 +47,12 @@ Claude Code must not commit without explicit approval.
 ## Pending Tasks (Priority Order)
 
 ### Platform
-1. GitHub issues intake form — replace `mailto:sat@aicv.co` CTA in AIO tool network CTA
+1. GitHub issues intake form — mailto CTA updated (body copy + email fallback added March 1), but GitHub issues link is still the end goal; `mailto:sat@aicv.co` is the interim state
 2. Node Zero — action routing layer, not yet built
 3. wrangler.toml — add comment noting `api.aicoachellavalley.com` custom domain
 
 ### Content
-1. Palm Desert 2026 goals brief — parked, waiting on Thursday council session notes
-2. Submit `aicoachellavalley.com` to Google Search Console for reindexing post-cutover
+1. Submit `aicoachellavalley.com` to Google Search Console for reindexing post-cutover
 
 ## Wrangler Note
 
