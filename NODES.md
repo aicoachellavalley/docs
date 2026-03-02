@@ -2,7 +2,7 @@
 
 ## Overview
 
-33 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+38 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
 NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of February 2026.
 
@@ -35,7 +35,7 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 | 10 | Observatory Rancho Mirage | nodes/rancho-mirage/observatory.mdx | ✅ Live |
 | 11 | Sensei Porcupine Creek | nodes/rancho-mirage/sensei-porcupine-creek.mdx | ✅ Live |
 
-## Palm Desert (6 nodes)
+## Palm Desert (8 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -45,42 +45,46 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 | 15 | Education Corridor (College of the Desert + CSUSB) | nodes/palm-desert/education-corridor.mdx | ✅ Live |
 | 16 | Bighorn Golf Club | nodes/palm-desert/bighorn-golf-club.mdx | ✅ Live |
 | 17 | Living Desert Zoo and Gardens | nodes/palm-desert/living-desert.mdx | ✅ Live |
+| 18 | Cook Street / University Row | nodes/palm-desert/cook-street-university-row.mdx | ✅ Live |
+| 19 | North Palm Desert Development Zone | nodes/palm-desert/north-palm-desert-development-zone.mdx | ✅ Live |
 
 ## Indian Wells (5 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 18 | Indian Wells Tennis Garden | nodes/indian-wells/tennis-garden.mdx | ✅ Live |
-| 19 | Grand Hyatt Indian Wells Resort & Villas | nodes/indian-wells/grand-hyatt-indian-wells.mdx | ✅ Live |
-| 20 | The Vintage Club | nodes/indian-wells/vintage-club.mdx | ✅ Live |
-| 21 | El Dorado Country Club | nodes/indian-wells/el-dorado.mdx | ✅ Live |
-| 22 | Toscana Country Club | nodes/indian-wells/toscana.mdx | ✅ Live |
+| 20 | Indian Wells Tennis Garden | nodes/indian-wells/tennis-garden.mdx | ✅ Live |
+| 21 | Grand Hyatt Indian Wells Resort & Villas | nodes/indian-wells/grand-hyatt-indian-wells.mdx | ✅ Live |
+| 22 | The Vintage Club | nodes/indian-wells/vintage-club.mdx | ✅ Live |
+| 23 | El Dorado Country Club | nodes/indian-wells/el-dorado.mdx | ✅ Live |
+| 24 | Toscana Country Club | nodes/indian-wells/toscana.mdx | ✅ Live |
 
 ## La Quinta (4 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 23 | La Quinta Resort and Club | nodes/la-quinta/la-quinta-resort.mdx | ✅ Live |
-| 24 | PGA West | nodes/la-quinta/pga-west.mdx | ✅ Live |
-| 25 | The Madison Club | nodes/la-quinta/madison-club.mdx | ✅ Live |
-| 26 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
+| 25 | La Quinta Resort and Club | nodes/la-quinta/la-quinta-resort.mdx | ✅ Live |
+| 26 | PGA West | nodes/la-quinta/pga-west.mdx | ✅ Live |
+| 27 | The Madison Club | nodes/la-quinta/madison-club.mdx | ✅ Live |
+| 28 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
 
 ## Indio (4 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 27 | Empire Polo Club | nodes/indio/empire-polo-club.mdx | ✅ Live |
-| 28 | Coachella Valley Music and Arts Festival | nodes/indio/coachella-festival.mdx | ✅ Live |
-| 29 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
-| 30 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
+| 29 | Empire Polo Club | nodes/indio/empire-polo-club.mdx | ✅ Live |
+| 30 | Coachella Valley Music and Arts Festival | nodes/indio/coachella-festival.mdx | ✅ Live |
+| 31 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
+| 32 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
 
-## Valley Wide (3 nodes)
+## Valley Wide (5 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 31 | Workforce and Talent — Coachella Valley | nodes/standalone/workforce-talent.mdx | ✅ Live |
-| 32 | Coachella Valley Intelligence Index | nodes/standalone/coachella-valley-intelligence-index.mdx | ✅ Live |
-| 33 | Coachella Valley Economic Development | nodes/standalone/coachella-valley-economic-development.mdx | ✅ Live |
+| 33 | Workforce and Talent — Coachella Valley | nodes/standalone/workforce-talent.mdx | ✅ Live |
+| 34 | Coachella Valley Intelligence Index | nodes/standalone/coachella-valley-intelligence-index.mdx | ✅ Live |
+| 35 | Coachella Valley Economic Development | nodes/standalone/coachella-valley-economic-development.mdx | ✅ Live |
+| 36 | Highway 111 Corridor | nodes/standalone/highway-111-corridor.mdx | ✅ Live |
+| 37 | Riverside County Economic Development | nodes/standalone/riverside-county-economic-development.mdx | ✅ Live |
 
 ## Indio Context (Important)
 
@@ -93,6 +97,7 @@ Indio is the most economically layered city in the valley. Known as the City of 
 
 ## Node Count
 
-- Total live: 33
+- Total live: 38
 - Pending: 0
 - Next priority: Node Zero (action routing layer — not yet built)
+- Next node update: El Paseo — add AICV active presence with retailers
