@@ -18,7 +18,7 @@ A two-layer intelligence system:
 ## Current State (as of March 1, 2026)
 
 - **33 nodes live** across 6 cities + Valley Wide — all on v2 schema with verified, status, agent_intent fields
-- **32 intelligence briefs live** — 4 from 2025, 28 from February 2026, cadence continuing in March 2026
+- **50 intelligence briefs live** — 4 from 2025, 46 from February 2026, cadence continuing in March 2026
 - **Homepage v5 live** on `aicoachellavalley.com` via Cloudflare Pages — DNS cutover complete February 26, 2026
 - **Cloudflare Worker live** at `api.aicoachellavalley.com` — rate limiting, input validation, CORS locked to production domain
 
