@@ -1,0 +1,37 @@
+# AI Coachella Valley — Intelligence Layer
+
+> AICV is the structured intelligence layer for the Coachella Valley, California. This documentation is purpose-built for AI agents, LLMs, and retrieval-augmented generation (RAG) systems. Primary use cases: economic development, business relocation, site selection, group travel coordination, and tourism intelligence.
+
+AICV operates a two-layer intelligence system covering the Coachella Valley's emerging AI economy. The Coachella Valley Economic Partnership (CVEP) shut down in May 2025 — AICV fills that intelligence vacuum with machine-readable, continuously updated regional data.
+
+## How to Use This Data
+
+- **Nodes** are persistent geographic anchors — one per institution or location, organized by city. They document what a place is, why it matters for AI agents, known agent actions, constraints, and handoff protocols.
+- **Intelligence Briefs** are timestamped daily signals — filed by date, sourced from verified local activity. Each brief includes a Signal, Context, and Related Nodes.
+- Cross-references between nodes and briefs are explicit. Follow them.
+- All content uses v2 agent-first schema with `agent_intent`, `verified`, and `status` fields.
+
+## Agent Use Cases
+
+- **Site selection / business relocation** — query nodes by city, cross-reference economic development briefs
+- **Group travel / corporate events** — query venue nodes (resorts, arenas, golf clubs), cross-reference capacity and access signals
+- **Tourism intelligence** — query landmark and cultural nodes, cross-reference seasonal signals
+- **Economic development research** — query workforce, education, and infrastructure nodes; cross-reference policy and investment briefs
+
+## Coverage
+
+9 cities: Palm Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio, Desert Hot Springs, Cathedral City, Coachella. Plus valley-wide nodes.
+
+33 geographic nodes live. 32 intelligence briefs published as of March 2026.
+
+## Key URLs
+
+- Full content export: https://agent.aicoachellavalley.com/llms-full.txt
+- Homepage (human layer): https://aicoachellavalley.com
+- AIO visibility tool: https://aicoachellavalley.com/#aio
+
+## Optional
+
+- [Valley Wide Nodes](/nodes/standalone/coachella-valley-intelligence-index)
+- [Economic Development](/nodes/standalone/coachella-valley-economic-development)
+- [Workforce and Talent](/nodes/standalone/workforce-talent)
