@@ -15,10 +15,10 @@ A two-layer intelligence system:
 - **Nodes** — Persistent geographic anchors, one per institution/location, organized by city
 - **Intelligence Briefs** — Daily timestamped signals, one per day, filed by date
 
-## Current State (as of March 2, 2026)
+## Current State (as of March 3, 2026)
 
 - **37 nodes live** across 6 cities + Valley Wide — all on v2 schema with verified, status, agent_intent fields
-- **50 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, cadence continuing in March 2026
+- **53 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, 3 from March 2026
 - **Homepage v5 live** on `aicoachellavalley.com` via Cloudflare Pages — DNS cutover complete February 26, 2026
 - **Cloudflare Worker live** at `api.aicoachellavalley.com` — rate limiting, input validation, CORS locked to production domain
 
