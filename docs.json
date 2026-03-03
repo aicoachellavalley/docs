@@ -106,6 +106,12 @@
         "tab": "Nodes",
         "groups": [
           {
+            "group": "Entry Point",
+            "pages": [
+              "nodes/node-zero"
+            ]
+          },
+          {
             "group": "Valley Wide",
             "pages": [
               "nodes/standalone/coachella-valley-intelligence-index",
