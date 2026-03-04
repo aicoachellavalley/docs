@@ -2,17 +2,26 @@
 
 ## Overview
 
-37 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+38 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
-NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 2026.
+NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 4, 2026.
 
-## Node 0 (Valley-Wide Index)
+## Node Zero (Valley-Wide Entry Point)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 0 | Coachella Valley Index (Node Zero) | nodes/node-zero | ✅ Live |
+| 0 | Node Zero — Coachella Valley Agent Router | nodes/standalone/node-zero.mdx | ✅ Live |
 
-Node Zero is live at nodes/node-zero. It is the entry point for agents traversing the valley.
+Node Zero is the dispatcher and routing layer for agents entering the valley. It sits above all city groups in navigation and routes queries to the appropriate node or brief.
+
+## Valley Wide (4 nodes)
+
+| # | Node | File | Status |
+|---|------|------|--------|
+| 31 | Workforce and Talent — Coachella Valley | nodes/standalone/workforce-talent.mdx | ✅ Live |
+| 32 | Coachella Valley Intelligence Index | nodes/standalone/coachella-valley-intelligence-index.mdx | ✅ Live |
+| 33 | Coachella Valley Economic Development | nodes/standalone/coachella-valley-economic-development.mdx | ✅ Live |
+| 34 | Coachella Valley Nonprofit & Philanthropy Sector | nodes/standalone/nonprofit-philanthropy.mdx | ✅ Live |
 
 ## Palm Springs (5 nodes)
 
@@ -35,7 +44,7 @@ Node Zero is live at nodes/node-zero. It is the entry point for agents traversin
 | 10 | Observatory Rancho Mirage | nodes/rancho-mirage/observatory.mdx | ✅ Live |
 | 11 | Sensei Porcupine Creek | nodes/rancho-mirage/sensei-porcupine-creek.mdx | ✅ Live |
 
-## Palm Desert (8 nodes)
+## Palm Desert (6 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -45,50 +54,47 @@ Node Zero is live at nodes/node-zero. It is the entry point for agents traversin
 | 15 | Education Corridor (College of the Desert + CSUSB) | nodes/palm-desert/education-corridor.mdx | ✅ Live |
 | 16 | Bighorn Golf Club | nodes/palm-desert/bighorn-golf-club.mdx | ✅ Live |
 | 17 | Living Desert Zoo and Gardens | nodes/palm-desert/living-desert.mdx | ✅ Live |
-| 18 | Cook Street / University Row | nodes/palm-desert/cook-street-university-row.mdx | ✅ Live |
-| 19 | North Palm Desert Development Zone | nodes/palm-desert/north-palm-desert-development-zone.mdx | ✅ Live |
 
 ## Indian Wells (5 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 20 | Indian Wells Tennis Garden | nodes/indian-wells/tennis-garden.mdx | ✅ Live |
-| 21 | Grand Hyatt Indian Wells Resort & Villas | nodes/indian-wells/grand-hyatt-indian-wells.mdx | ✅ Live |
-| 22 | The Vintage Club | nodes/indian-wells/vintage-club.mdx | ✅ Live |
-| 23 | El Dorado Country Club | nodes/indian-wells/el-dorado.mdx | ✅ Live |
-| 24 | Toscana Country Club | nodes/indian-wells/toscana.mdx | ✅ Live |
+| 18 | Indian Wells Tennis Garden | nodes/indian-wells/tennis-garden.mdx | ✅ Live |
+| 19 | Grand Hyatt Indian Wells Resort & Villas | nodes/indian-wells/grand-hyatt-indian-wells.mdx | ✅ Live |
+| 20 | The Vintage Club | nodes/indian-wells/vintage-club.mdx | ✅ Live |
+| 21 | El Dorado Country Club | nodes/indian-wells/el-dorado.mdx | ✅ Live |
+| 22 | Toscana Country Club | nodes/indian-wells/toscana.mdx | ✅ Live |
 
 ## La Quinta (4 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 25 | La Quinta Resort and Club | nodes/la-quinta/la-quinta-resort.mdx | ✅ Live |
-| 26 | PGA West | nodes/la-quinta/pga-west.mdx | ✅ Live |
-| 27 | The Madison Club | nodes/la-quinta/madison-club.mdx | ✅ Live |
-| 28 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
+| 23 | La Quinta Resort and Club | nodes/la-quinta/la-quinta-resort.mdx | ✅ Live |
+| 24 | PGA West | nodes/la-quinta/pga-west.mdx | ✅ Live |
+| 25 | The Madison Club | nodes/la-quinta/madison-club.mdx | ✅ Live |
+| 26 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
 
 ## Indio (4 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 29 | Empire Polo Club | nodes/indio/empire-polo-club.mdx | ✅ Live |
-| 30 | Coachella Valley Music and Arts Festival | nodes/indio/coachella-festival.mdx | ✅ Live |
-| 31 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
-| 32 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
-
-## Valley Wide (5 nodes)
-
-| # | Node | File | Status |
-|---|------|------|--------|
-| 31 | Coachella Valley Intelligence Index | nodes/standalone/coachella-valley-intelligence-index.mdx | ✅ Live |
-| 32 | Coachella Valley Economic Development | nodes/standalone/coachella-valley-economic-development.mdx | ✅ Live |
-| 33 | Riverside County Economic Development | nodes/standalone/riverside-county-economic-development.mdx | ✅ Live |
-| 34 | Workforce and Talent — Coachella Valley | nodes/standalone/workforce-talent.mdx | ✅ Live |
-| 35 | Highway 111 Corridor | nodes/standalone/highway-111-corridor.mdx | ✅ Live |
+| 27 | Empire Polo Club | nodes/indio/empire-polo-club.mdx | ✅ Live |
+| 28 | Coachella Valley Music and Arts Festival | nodes/indio/coachella-festival.mdx | ✅ Live |
+| 29 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
+| 30 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
 
 ## Indio Context (Important)
 
 Indio is the most economically layered city in the valley. Known as the City of Festivals and the Date Capital of the World — 95% of US dates are grown here. Empire Polo Club is privately owned and leased to Goldenvoice for festival events; it hosts multiple events beyond Coachella and Stagecoach. College of the Desert operates its East Valley Campus in Indio. The Indio Business Connect Center is a municipal entrepreneurship hub — candidate for a standalone Intelligence Brief, not a node.
+
+## Forthcoming Nodes (Signaled)
+
+These nodes have been referenced in published briefs or nodes as forthcoming. Build when signal density warrants.
+
+| Node | Signal Source |
+|------|--------------|
+| Cook Street / University District Corridor | 7 Principles brief, Nonprofit & Philanthropy node |
+| Desert Community Foundation | Nonprofit & Philanthropy node |
 
 ## Status Key
 
@@ -97,6 +103,6 @@ Indio is the most economically layered city in the valley. Known as the City of 
 
 ## Node Count
 
-- Total live: 37
-- Pending: 0
-- Next priority: March real-time brief cadence + additional economic development nodes
+- Total live: 38 (including Node Zero)
+- Forthcoming: 2 signaled
+- Valley Wide path: nodes/standalone/
