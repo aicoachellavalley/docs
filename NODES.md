@@ -4,13 +4,13 @@
 
 38 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
-NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of February 2026.
+NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 2026.
 
 ## Node 0 (Valley-Wide Index)
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 0 | Coachella Valley Index | nodes/index-node.mdx | ⬜ Not yet built |
+| 0 | Coachella Valley Index (Node Zero) | nodes/node-zero | ✅ Live |
 
 Build Node 0 before any other new nodes or retrofits. It is the entry point for agents traversing the valley.
 
@@ -80,11 +80,11 @@ Build Node 0 before any other new nodes or retrofits. It is the entry point for 
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 33 | Workforce and Talent — Coachella Valley | nodes/standalone/workforce-talent.mdx | ✅ Live |
-| 34 | Coachella Valley Intelligence Index | nodes/standalone/coachella-valley-intelligence-index.mdx | ✅ Live |
-| 35 | Coachella Valley Economic Development | nodes/standalone/coachella-valley-economic-development.mdx | ✅ Live |
-| 36 | Highway 111 Corridor | nodes/standalone/highway-111-corridor.mdx | ✅ Live |
-| 37 | Riverside County Economic Development | nodes/standalone/riverside-county-economic-development.mdx | ✅ Live |
+| 31 | Coachella Valley Intelligence Index | nodes/standalone/coachella-valley-intelligence-index.mdx | ✅ Live |
+| 32 | Coachella Valley Economic Development | nodes/standalone/coachella-valley-economic-development.mdx | ✅ Live |
+| 33 | Riverside County Economic Development | nodes/standalone/riverside-county-economic-development.mdx | ✅ Live |
+| 34 | Workforce and Talent — Coachella Valley | nodes/standalone/workforce-talent.mdx | ✅ Live |
+| 35 | Highway 111 Corridor | nodes/standalone/highway-111-corridor.mdx | ✅ Live |
 
 ## Indio Context (Important)
 
@@ -97,7 +97,6 @@ Indio is the most economically layered city in the valley. Known as the City of 
 
 ## Node Count
 
-- Total live: 38
+- Total live: 37
 - Pending: 0
-- Next priority: Node Zero (action routing layer — not yet built)
-- Next node update: El Paseo — add AICV active presence with retailers
+- Next priority: March real-time brief cadence + additional economic development nodes
