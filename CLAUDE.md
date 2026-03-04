@@ -2,7 +2,7 @@
 
 ## What This Is
 
-AI Coachella Valley (AICV) is an agent-first intelligence documentation site for the Coachella Valley's emerging AI economy. Primary goal: first LLM citation by March 2026.
+AI Coachella Valley (AICV) is an agent-first intelligence documentation site for the Coachella Valley's emerging AI economy. Primary goal: to be the authoritative cited source for Coachella Valley intelligence across all major LLMs and AI agents.
 
 Live site: https://agent.aicoachellavalley.com
 GitHub: https://github.com/aicoachellavalley/docs
@@ -15,19 +15,19 @@ A two-layer intelligence system:
 - **Nodes** — Persistent geographic anchors, one per institution/location, organized by city
 - **Intelligence Briefs** — Daily timestamped signals, one per day, filed by date
 
-## Current State (as of March 3, 2026)
+## Current State (as of March 4, 2026)
 
-- **37 nodes live** across 6 cities + Valley Wide — all on v2 schema with verified, status, agent_intent fields
-- **53 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, 3 from March 2026
-- **Homepage v5 live** on `aicoachellavalley.com` via Cloudflare Pages — DNS cutover complete February 26, 2026
-- **Cloudflare Worker live** at `api.aicoachellavalley.com` — rate limiting, input validation, CORS locked to production domain
+- **37 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
+- **58 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, 8 from March 2026
+- **Homepage v5 live** at aicoachellavalley.com — auto-deploy via GitHub → Cloudflare Pages
+- **Cloudflare Worker live** at api.aicoachellavalley.com — handling AIO proxy and dynamic stats
 
 ## Infrastructure
 
 | Component | Repo | URL |
 |-----------|------|-----|
 | Docs (Mintlify) | ~/Projects/docs/ | agent.aicoachellavalley.com |
-| Homepage (v5) | ~/Projects/homepage/index.html | aicoachellavalley-homepage.pages.dev |
+| Homepage (v5) | ~/Projects/homepage/index.html | aicoachellavalley.com |
 | Worker (API proxy) | ~/Projects/aicv-api/worker.js | api.aicoachellavalley.com |
 
 Homepage deploys automatically via GitHub → Cloudflare Pages on every push to main.
@@ -44,23 +44,9 @@ AIO tool uses `claude-haiku-4-5-20251001` — deliberate cost decision, do not c
 
 Claude Code must not commit without explicit approval.
 
-## Pending Tasks (Priority Order)
-
-### Platform
-1. GitHub issues intake form — mailto CTA updated (body copy + email fallback added March 1), but GitHub issues link is still the end goal; `mailto:sat@aicv.co` is the interim state
-2. Node Zero — action routing layer, not yet built
-3. wrangler.toml — add comment noting `api.aicoachellavalley.com` custom domain
-
-### Content
-1. Submit `aicoachellavalley.com` to Google Search Console for reindexing post-cutover
-
 ## Wrangler Note
 
 `wrangler secret put` asks for the value TWICE as confirmation — paste the same key both times.
-
-## AIO Tool Note
-
-Three-layer security: input validation → rate limiting (5/day per IP via Cloudflare KV) → page fetch → Anthropic analysis. Model: `claude-haiku-4-5-20251001` — do not change to Sonnet, deliberate cost decision. Words analyzed counter in KV key `stats:words_analyzed`, seeded at 10000. CORS locked to `https://aicoachellavalley.com` and `https://www.aicoachellavalley.com`.
 
 ## Mintlify Ops Note
 
@@ -113,7 +99,6 @@ title: ""
 description: ""
 date: "YYYY-MM-DD"
 tags: []
-agent_intent: []
 ---
 
 ## Intelligence Brief Section Structure (Required — Do Not Deviate)
@@ -124,9 +109,9 @@ agent_intent: []
 
 ## Signal
 
-## Agent Signal
-
 ## Context
+
+## Agent Signal
 
 ## Related Nodes
 
@@ -149,7 +134,18 @@ agent_intent: []
 5. Review before committing
 6. Commit: feat: add [date] intelligence brief
 7. Push to main
-8. Update homepage stat fallback: in ~/Projects/homepage/index.html, find id="stat-briefs" and increment the hardcoded value by 1. Commit as fix: update brief count to [new total] and push to main.
+8. Increment homepage stat-briefs fallback by 1 (prevents stat drift)
+
+## Standard Claude Code Courier Block
+
+Every intelligence brief drafted in Claude.ai must end with the following courier block:
+
+**Claude Code instructions:**
+1. Create file: intelligence-briefs/[filename].mdx
+2. Add to docs.json under [Month YYYY] group in Intelligence Briefs tab
+3. Increment homepage stat-briefs fallback by 1
+4. Commit: feat: add [date] [slug] brief
+5. Push to main
 
 ## docs.json Navigation Pattern
 
