@@ -2,7 +2,7 @@
 
 ## Overview
 
-38 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+37 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
 NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 2026.
 
@@ -12,7 +12,7 @@ NODES.md is a living document. New nodes are added when signals warrant — not 
 |---|------|------|--------|
 | 0 | Coachella Valley Index (Node Zero) | nodes/node-zero | ✅ Live |
 
-Build Node 0 before any other new nodes or retrofits. It is the entry point for agents traversing the valley.
+Node Zero is live at nodes/node-zero. It is the entry point for agents traversing the valley.
 
 ## Palm Springs (5 nodes)
 
