@@ -17,8 +17,8 @@ A two-layer intelligence system:
 
 ## Current State (as of March 4, 2026)
 
-- **37 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
-- **58 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, 8 from March 2026
+- **38 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
+- **61 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, 11 from March 2026
 - **Homepage v5 live** at aicoachellavalley.com — auto-deploy via GitHub → Cloudflare Pages
 - **Cloudflare Worker live** at api.aicoachellavalley.com — handling AIO proxy and dynamic stats
 
