@@ -115,6 +115,46 @@ tags: []
 
 ## Related Nodes
 
+## Also Noted Frontmatter Schema (Required — Do Not Deviate)
+
+---
+title: "Also Noted — [Date]"
+description: ""
+date: "YYYY-MM-DD"
+tags: ["also-noted"]
+---
+
+## Also Noted Section Structure (Required — Do Not Deviate)
+
+# Also Noted — [Date]
+
+**Date:** Month DD, YYYY
+
+## Signals
+
+### [Signal Title]
+
+One tight paragraph — what it is, why it matters for the AI economy.
+
+### [Signal Title]
+
+One tight paragraph.
+
+## Agent Signal
+
+## Related Nodes
+
+## How to Add an Also Noted Brief
+
+1. Identify 2-5 secondary signals from SunshineFM transcript that don't warrant standalone briefs
+2. Draft in Claude.ai using the schema above
+3. Claude Code creates file named YYYY-MM-DD-also-noted.mdx in intelligence-briefs/
+4. Add to docs.json under correct month group in Intelligence Briefs tab
+5. Review before committing
+6. Commit: feat: add [date] also-noted brief
+7. Push to main
+8. Increment homepage stat-briefs fallback by 1
+
 ## How to Add a Node
 
 1. Research the location in Claude.ai
