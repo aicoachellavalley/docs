@@ -216,6 +216,12 @@ New entries are always appended within the correct group — never restructure e
 - Cross-link nodes to briefs and briefs to nodes wherever a connection exists
 - MDX syntax: Never use `<!-- -->` in any MDX file. Mintlify will fail to parse them and return 404. Always use `{/* */}` for comments instead.
 
+## Claude.ai File Handling Rule
+
+Claude.ai's copy of any live file is a snapshot and becomes stale the moment Claude Code pushes a change. Never replace index.html or any other live file with a full file download from Claude.ai.
+
+For all edits to existing files, Claude Code should receive a surgical edit prompt specifying the exact lines to change. Full file replacement from Claude.ai is only appropriate for brand new files that do not yet exist in the repo.
+
 ## Homepage Deployment Rule
 
 Before committing any updated index.html, always run:
