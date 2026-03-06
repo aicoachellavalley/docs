@@ -216,6 +216,22 @@ New entries are always appended within the correct group — never restructure e
 - Cross-link nodes to briefs and briefs to nodes wherever a connection exists
 - MDX syntax: Never use `<!-- -->` in any MDX file. Mintlify will fail to parse them and return 404. Always use `{/* */}` for comments instead.
 
+## Homepage Deployment Rule
+
+Before committing any updated index.html, always run:
+
+```
+git diff HEAD ~/Projects/homepage/index.html
+```
+
+Review the diff for unintended regressions — especially the stats bar (IDs, fallback values, labels, JS handlers). The four stat blocks are:
+- stat-nodes — Geographic nodes
+- stat-briefs — Intelligence briefs published
+- stat-commits — Platform commits since launch
+- stat-words — Words analyzed from local businesses (fallback: 10k, pulls s.wordsAnalyzed)
+
+Never overwrite index.html from an external file without diffing first.
+
 ## Project File Structure
 
 - CLAUDE.md — This file. Session continuity brief.
