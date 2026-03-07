@@ -14,7 +14,7 @@ NODES.md is a living document. New nodes are added when signals warrant — not 
 
 Node Zero is the dispatcher and routing layer for agents entering the valley. It sits above all city groups in navigation and routes queries to the appropriate node or brief.
 
-## Valley Wide (6 nodes)
+## Valley Wide (7 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -24,6 +24,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 34 | Coachella Valley Nonprofit & Philanthropy Sector | nodes/standalone/nonprofit-philanthropy.mdx | ✅ Live |
 | 35 | Riverside County Economic Development | nodes/standalone/riverside-county-economic-development.mdx | ✅ Live |
 | 36 | Highway 111 Corridor | nodes/standalone/highway-111-corridor.mdx | ✅ Live |
+| 39 | Desert Community Foundation | nodes/standalone/desert-community-foundation.mdx | ✅ Live |
 
 ## Palm Springs (5 nodes)
 
@@ -97,7 +98,7 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 | Node | Signal Source |
 |------|--------------|
-| Desert Community Foundation | Nonprofit & Philanthropy node |
+| — | No forthcoming nodes currently signaled |
 
 ## Status Key
 
@@ -106,6 +107,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 42 (including Node Zero)
-- Forthcoming: 1 signaled
+- Total live: 43 (including Node Zero)
+- Forthcoming: 0 signaled
 - Valley Wide path: nodes/standalone/
