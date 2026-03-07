@@ -2,7 +2,7 @@
 
 ## Overview
 
-38 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+42 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
 NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 4, 2026.
 
@@ -14,7 +14,7 @@ NODES.md is a living document. New nodes are added when signals warrant — not 
 
 Node Zero is the dispatcher and routing layer for agents entering the valley. It sits above all city groups in navigation and routes queries to the appropriate node or brief.
 
-## Valley Wide (4 nodes)
+## Valley Wide (6 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -22,6 +22,8 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 32 | Coachella Valley Intelligence Index | nodes/standalone/coachella-valley-intelligence-index.mdx | ✅ Live |
 | 33 | Coachella Valley Economic Development | nodes/standalone/coachella-valley-economic-development.mdx | ✅ Live |
 | 34 | Coachella Valley Nonprofit & Philanthropy Sector | nodes/standalone/nonprofit-philanthropy.mdx | ✅ Live |
+| 35 | Riverside County Economic Development | nodes/standalone/riverside-county-economic-development.mdx | ✅ Live |
+| 36 | Highway 111 Corridor | nodes/standalone/highway-111-corridor.mdx | ✅ Live |
 
 ## Palm Springs (5 nodes)
 
@@ -44,7 +46,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 10 | Observatory Rancho Mirage | nodes/rancho-mirage/observatory.mdx | ✅ Live |
 | 11 | Sensei Porcupine Creek | nodes/rancho-mirage/sensei-porcupine-creek.mdx | ✅ Live |
 
-## Palm Desert (6 nodes)
+## Palm Desert (8 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -54,6 +56,8 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 15 | Education Corridor (College of the Desert + CSUSB) | nodes/palm-desert/education-corridor.mdx | ✅ Live |
 | 16 | Bighorn Golf Club | nodes/palm-desert/bighorn-golf-club.mdx | ✅ Live |
 | 17 | Living Desert Zoo and Gardens | nodes/palm-desert/living-desert.mdx | ✅ Live |
+| 37 | Cook Street / University Row | nodes/palm-desert/cook-street-university-row.mdx | ✅ Live |
+| 38 | North Palm Desert Development Zone | nodes/palm-desert/north-palm-desert-development-zone.mdx | ✅ Live |
 
 ## Indian Wells (5 nodes)
 
@@ -93,7 +97,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 | Node | Signal Source |
 |------|--------------|
-| Cook Street / University District Corridor | 7 Principles brief, Nonprofit & Philanthropy node |
 | Desert Community Foundation | Nonprofit & Philanthropy node |
 
 ## Status Key
@@ -103,6 +106,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 38 (including Node Zero)
-- Forthcoming: 2 signaled
+- Total live: 42 (including Node Zero)
+- Forthcoming: 1 signaled
 - Valley Wide path: nodes/standalone/
