@@ -122,7 +122,7 @@
           {
             "group": "Entry Point",
             "pages": [
-              "nodes/node-zero"
+              "nodes/standalone/node-zero"
             ]
           },
           {
