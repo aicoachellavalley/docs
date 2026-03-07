@@ -15,9 +15,9 @@ A two-layer intelligence system:
 - **Nodes** — Persistent geographic anchors, one per institution/location, organized by city
 - **Intelligence Briefs** — Daily timestamped signals, one per day, filed by date
 
-## Current State (as of March 4, 2026)
+## Current State (as of March 7, 2026)
 
-- **38 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
+- **43 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
 - **64 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, 14 from March 2026
 - **Homepage v5 live** at aicoachellavalley.com — auto-deploy via GitHub → Cloudflare Pages
 - **Cloudflare Worker live** at api.aicoachellavalley.com — handling AIO proxy and dynamic stats
@@ -29,6 +29,7 @@ A two-layer intelligence system:
 | Docs (Mintlify) | ~/Projects/docs/ | agent.aicoachellavalley.com |
 | Homepage (v5) | ~/Projects/homepage/index.html | aicoachellavalley.com |
 | Worker (API proxy) | ~/Projects/aicv-api/worker.js | api.aicoachellavalley.com |
+| Org site | ~/Projects/org/index.html | aicoachellavalley.org |
 
 Homepage deploys automatically via GitHub → Cloudflare Pages on every push to main.
 Worker handles AIO tool proxy and dynamic stats (node/brief counts from GitHub).
@@ -206,6 +207,8 @@ New entries are always appended within the correct group — never restructure e
 - Valley Wide category (not Standalone) for valley-wide or non-city-specific nodes — listed first in nav
 - Economic development leads strategically over tourism — most defensible positioning vs incumbents
 - Node Zero is a dispatcher/router, not a map — distinct from the intelligence index
+- Node Zero is live at nodes/standalone/node-zero.mdx — Entry Point group, first in nav
+- No forthcoming nodes currently signaled
 - GitHub issues as agent-compatible signal submission — no custom forms
 
 ## Content Philosophy
@@ -244,5 +247,6 @@ Never overwrite index.html from an external file without diffing first.
 - NODES.md — Full node plan with status
 - docs.json — Mintlify navigation (source of truth for what's live)
 - ~/Projects/homepage/index.html — Homepage v5 source of truth
+- ~/Projects/org/index.html — Org site source of truth (aicoachellavalley.org)
 - ~/Projects/aicv-api/worker.js — Worker source of truth
 - ~/Projects/aicv-api/wrangler.toml — Worker config
