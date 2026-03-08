@@ -66,8 +66,11 @@ title: ""
 description: ""
 city: ""
 category: "landmark"
+subcategory: ""
 last_updated: "YYYY-MM-DD"
 ---
+
+Valid subcategory values: `hospitality`, `golf`, `wellness`, `cultural`, `entertainment`, `economic`, `education`, `retail`, `intelligence`, `nonprofit`, `real-estate`
 
 ## Node Section Structure (Required — Do Not Deviate)
 
@@ -207,7 +210,7 @@ New entries are always appended within the correct group — never restructure e
 - Valley Wide category (not Standalone) for valley-wide or non-city-specific nodes — listed first in nav
 - Economic development leads strategically over tourism — most defensible positioning vs incumbents
 - Node Zero is a dispatcher/router, not a map — distinct from the intelligence index
-- Node Zero is live at nodes/standalone/node-zero.mdx — Entry Point group, first in nav
+- Node Zero is live at nodes/valley-wide/node-zero.mdx — Entry Point group, first in nav
 - No forthcoming nodes currently signaled
 - GitHub issues as agent-compatible signal submission — no custom forms
 

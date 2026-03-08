@@ -122,19 +122,19 @@
           {
             "group": "Entry Point",
             "pages": [
-              "nodes/standalone/node-zero"
+              "nodes/valley-wide/node-zero"
             ]
           },
           {
             "group": "Valley Wide",
             "pages": [
-              "nodes/standalone/coachella-valley-intelligence-index",
-              "nodes/standalone/coachella-valley-economic-development",
-              "nodes/standalone/riverside-county-economic-development",
-              "nodes/standalone/desert-community-foundation",
-              "nodes/standalone/workforce-talent",
-              "nodes/standalone/highway-111-corridor",
-              "nodes/standalone/nonprofit-philanthropy"
+              "nodes/valley-wide/coachella-valley-intelligence-index",
+              "nodes/valley-wide/coachella-valley-economic-development",
+              "nodes/valley-wide/riverside-county-economic-development",
+              "nodes/valley-wide/desert-community-foundation",
+              "nodes/valley-wide/workforce-talent",
+              "nodes/valley-wide/highway-111-corridor",
+              "nodes/valley-wide/nonprofit-philanthropy"
             ]
           },
           {
