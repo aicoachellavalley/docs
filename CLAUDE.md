@@ -29,11 +29,13 @@ A two-layer intelligence system:
 | Docs (Mintlify) | ~/Projects/docs/ | agent.aicoachellavalley.com |
 | Homepage (v5) | ~/Projects/homepage/index.html | aicoachellavalley.com |
 | Worker (API proxy) | ~/Projects/aicv-api/worker.js | api.aicoachellavalley.com |
+| MCP Worker | ~/Projects/aicv-mcp/worker.js | mcp.aicoachellavalley.com |
 | Org site | ~/Projects/org/index.html | aicoachellavalley.org |
 
 Homepage deploys automatically via GitHub → Cloudflare Pages on every push to main.
 Worker handles AIO tool proxy and dynamic stats (node/brief counts from GitHub).
 Worker is NOT git-controlled — deploy changes via `wrangler deploy` from `~/Projects/aicv-api/`. There is no git repo in that directory.
+MCP Worker is NOT git-controlled — deploy changes via `wrangler deploy` from `~/Projects/aicv-mcp/`. There is no git repo in that directory.
 API key is in Worker secrets — not in client code.
 AIO tool uses `claude-haiku-4-5-20251001` — deliberate cost decision, do not change to Sonnet.
 
