@@ -36,6 +36,7 @@ Homepage deploys automatically via GitHub → Cloudflare Pages on every push to 
 Worker handles AIO tool proxy and dynamic stats (node/brief counts from GitHub).
 Worker is NOT git-controlled — deploy changes via `wrangler deploy` from `~/Projects/aicv-api/`. There is no git repo in that directory.
 MCP Worker is NOT git-controlled — deploy changes via `wrangler deploy` from `~/Projects/aicv-mcp/`. There is no git repo in that directory.
+Periodic node audit: run subcategory and schema audit every 20 nodes or annually. Check for missing subcategory values, taxonomy drift, and v2 field compliance. Use the recon prompt from the March 7 2026 session.
 API key is in Worker secrets — not in client code.
 AIO tool uses `claude-haiku-4-5-20251001` — deliberate cost decision, do not change to Sonnet.
 
@@ -215,6 +216,9 @@ New entries are always appended within the correct group — never restructure e
 - Node Zero is live at nodes/valley-wide/node-zero.mdx — Entry Point group, first in nav
 - No forthcoming nodes currently signaled
 - GitHub issues as agent-compatible signal submission — no custom forms
+- Visit → Retreat → Relocate funnel: AICV owns all three citation touchpoints in the agent layer. These are not separate verticals — they are one journey.
+- Three-city luxury focus: Rancho Mirage, Palm Desert, and Indian Wells are the core MCP query surface for hospitality and retreat use cases. Other cities remain in the node system but are secondary for luxury targeting.
+- MCP tool surface: five tools live at mcp.aicoachellavalley.com — query_venues (filter by city/subcategory/agent_intent), get_node (full record by slug), get_regional_brief (briefs by date/topic), get_economic_context (valley-wide economic profile), route_query (Node Zero dispatcher for natural language queries)
 
 ## Content Philosophy
 
