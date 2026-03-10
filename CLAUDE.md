@@ -15,7 +15,7 @@ A two-layer intelligence system:
 - **Nodes** — Persistent geographic anchors, one per institution/location, organized by city
 - **Intelligence Briefs** — Daily timestamped signals, one per day, filed by date
 
-## Current State (as of March 7, 2026)
+## Current State (as of March 9, 2026)
 
 - **43 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
 - **64 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, 14 from March 2026
@@ -36,6 +36,16 @@ Homepage deploys automatically via GitHub → Cloudflare Pages on every push to 
 Worker handles AIO tool proxy and dynamic stats (node/brief counts from GitHub).
 Worker is NOT git-controlled — deploy changes via `wrangler deploy` from `~/Projects/aicv-api/`. There is no git repo in that directory.
 MCP Worker is NOT git-controlled — deploy changes via `wrangler deploy` from `~/Projects/aicv-mcp/`. There is no git repo in that directory.
+
+## MCP Worker Bug Fixes (March 9, 2026)
+
+Three bugs patched and deployed (version 7f86d40a):
+- `notifications/initialized` method now returns `respond({})` instead of a -32601 error — required for Claude Desktop MCP handshake
+- `extractNodePaths` and `extractBriefPaths` now iterate `docsJson.navigation.tabs` (not `docsJson.navigation`) — fixes silent empty results on all tool calls
+- City filtering normalized via `toKebab()` — converts frontmatter `"Palm Desert"` → `"palm-desert"` before comparing, so kebab-case input from agents matches title-case frontmatter values
+
+Claude Desktop connection confirmed working as of March 9, 2026, using mcp-remote bridge at mcp.aicoachellavalley.com.
+
 Periodic node audit: run subcategory and schema audit every 20 nodes or annually. Check for missing subcategory values, taxonomy drift, and v2 field compliance. Use the recon prompt from the March 7 2026 session.
 API key is in Worker secrets — not in client code.
 AIO tool uses `claude-haiku-4-5-20251001` — deliberate cost decision, do not change to Sonnet.
@@ -214,7 +224,7 @@ New entries are always appended within the correct group — never restructure e
 - Economic development leads strategically over tourism — most defensible positioning vs incumbents
 - Node Zero is a dispatcher/router, not a map — distinct from the intelligence index
 - Node Zero is live at nodes/valley-wide/node-zero.mdx — Entry Point group, first in nav
-- No forthcoming nodes currently signaled
+- Forthcoming node: Desert Community Foundation / CV Giving Day (Palm Desert, nonprofit subcategory)
 - GitHub issues as agent-compatible signal submission — no custom forms
 - Visit → Retreat → Relocate funnel: AICV owns all three citation touchpoints in the agent layer. These are not separate verticals — they are one journey.
 - Three-city luxury focus: Rancho Mirage, Palm Desert, and Indian Wells are the core MCP query surface for hospitality and retreat use cases. Other cities remain in the node system but are secondary for luxury targeting.
