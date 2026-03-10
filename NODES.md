@@ -10,7 +10,7 @@ NODES.md is a living document. New nodes are added when signals warrant — not 
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 0 | Node Zero — Coachella Valley Agent Router | nodes/standalone/node-zero.mdx | ✅ Live |
+| 0 | Node Zero — Coachella Valley Agent Router | nodes/valley-wide/node-zero.mdx | ✅ Live |
 
 Node Zero is the dispatcher and routing layer for agents entering the valley. It sits above all city groups in navigation and routes queries to the appropriate node or brief.
 
@@ -18,13 +18,13 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 
 | # | Node | File | Status |
 |---|------|------|--------|
-| 31 | Workforce and Talent — Coachella Valley | nodes/standalone/workforce-talent.mdx | ✅ Live |
-| 32 | Coachella Valley Intelligence Index | nodes/standalone/coachella-valley-intelligence-index.mdx | ✅ Live |
-| 33 | Coachella Valley Economic Development | nodes/standalone/coachella-valley-economic-development.mdx | ✅ Live |
-| 34 | Coachella Valley Nonprofit & Philanthropy Sector | nodes/standalone/nonprofit-philanthropy.mdx | ✅ Live |
-| 35 | Riverside County Economic Development | nodes/standalone/riverside-county-economic-development.mdx | ✅ Live |
-| 36 | Highway 111 Corridor | nodes/standalone/highway-111-corridor.mdx | ✅ Live |
-| 39 | Desert Community Foundation | nodes/standalone/desert-community-foundation.mdx | ✅ Live |
+| 31 | Workforce and Talent — Coachella Valley | nodes/valley-wide/workforce-talent.mdx | ✅ Live |
+| 32 | Coachella Valley Intelligence Index | nodes/valley-wide/coachella-valley-intelligence-index.mdx | ✅ Live |
+| 33 | Coachella Valley Economic Development | nodes/valley-wide/coachella-valley-economic-development.mdx | ✅ Live |
+| 34 | Coachella Valley Nonprofit & Philanthropy Sector | nodes/valley-wide/nonprofit-philanthropy.mdx | ✅ Live |
+| 35 | Riverside County Economic Development | nodes/valley-wide/riverside-county-economic-development.mdx | ✅ Live |
+| 36 | Highway 111 Corridor | nodes/valley-wide/highway-111-corridor.mdx | ✅ Live |
+| 39 | Desert Community Foundation | nodes/valley-wide/desert-community-foundation.mdx | ✅ Live |
 
 ## Palm Springs (5 nodes)
 
@@ -109,4 +109,4 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 - Total live: 43 (including Node Zero)
 - Forthcoming: 0 signaled
-- Valley Wide path: nodes/standalone/
+- Valley Wide path: nodes/valley-wide/
