@@ -83,6 +83,8 @@ subcategory: ""
 last_updated: "YYYY-MM-DD"
 ---
 
+Valid category values: `landmark`, `event`
+
 Valid subcategory values: `hospitality`, `golf`, `wellness`, `cultural`, `entertainment`, `economic`, `education`, `retail`, `intelligence`, `nonprofit`, `real-estate`
 
 ## Node Section Structure (Required — Do Not Deviate)
