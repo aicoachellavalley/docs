@@ -2,7 +2,7 @@
 
 ## Overview
 
-42 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+45 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
 NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 4, 2026.
 
@@ -14,7 +14,7 @@ NODES.md is a living document. New nodes are added when signals warrant — not 
 
 Node Zero is the dispatcher and routing layer for agents entering the valley. It sits above all city groups in navigation and routes queries to the appropriate node or brief.
 
-## Valley Wide (7 nodes)
+## Valley Wide (10 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -25,6 +25,9 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 35 | Riverside County Economic Development | nodes/valley-wide/riverside-county-economic-development.mdx | ✅ Live |
 | 36 | Highway 111 Corridor | nodes/valley-wide/highway-111-corridor.mdx | ✅ Live |
 | 39 | Desert Community Foundation | nodes/valley-wide/desert-community-foundation.mdx | ✅ Live |
+| 42 | CV Giving Day | nodes/valley-wide/cv-giving-day.mdx | ✅ Live |
+| 43 | Coachella Valley AI Events | nodes/valley-wide/coachella-valley-ai-events.mdx | ✅ Live |
+| 44 | AI Economy — Coachella Valley | nodes/valley-wide/ai-economy-coachella-valley.mdx | ✅ Live |
 
 ## Palm Springs (5 nodes)
 
@@ -107,6 +110,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 43 (including Node Zero)
+- Total live: 46 (including Node Zero)
 - Forthcoming: 0 signaled
 - Valley Wide path: nodes/valley-wide/
