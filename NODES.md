@@ -29,7 +29,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 43 | Coachella Valley AI Events | nodes/valley-wide/coachella-valley-ai-events.mdx | ✅ Live |
 | 44 | AI Economy — Coachella Valley | nodes/valley-wide/ai-economy-coachella-valley.mdx | ✅ Live |
 
-## Palm Springs (5 nodes)
+## Palm Springs (6 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -38,6 +38,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 3 | Agua Caliente Cultural Museum | nodes/palm-springs/agua-caliente-cultural-museum.mdx | ✅ Live |
 | 4 | Palm Springs Aerial Tram | nodes/palm-springs/aerial-tram.mdx | ✅ Live |
 | 5 | Forever Marilyn + Cultural Arts Corridor | nodes/palm-springs/cultural-arts-corridor.mdx | ✅ Live |
+| 45 | Palm Springs Economic Development | nodes/palm-springs/palm-springs-economic-development.mdx | ✅ Live |
 
 ## Rancho Mirage (6 nodes)
 
@@ -50,7 +51,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 10 | Observatory Rancho Mirage | nodes/rancho-mirage/observatory.mdx | ✅ Live |
 | 11 | Sensei Porcupine Creek | nodes/rancho-mirage/sensei-porcupine-creek.mdx | ✅ Live |
 
-## Palm Desert (8 nodes)
+## Palm Desert (9 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -62,8 +63,9 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 17 | Living Desert Zoo and Gardens | nodes/palm-desert/living-desert.mdx | ✅ Live |
 | 37 | Cook Street / University Row | nodes/palm-desert/cook-street-university-row.mdx | ✅ Live |
 | 38 | North Palm Desert Development Zone | nodes/palm-desert/north-palm-desert-development-zone.mdx | ✅ Live |
+| 46 | Palm Desert Economic Development | nodes/palm-desert/palm-desert-economic-development.mdx | ✅ Live |
 
-## Indian Wells (5 nodes)
+## Indian Wells (6 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -72,8 +74,9 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 20 | The Vintage Club | nodes/indian-wells/vintage-club.mdx | ✅ Live |
 | 21 | El Dorado Country Club | nodes/indian-wells/el-dorado.mdx | ✅ Live |
 | 22 | Toscana Country Club | nodes/indian-wells/toscana.mdx | ✅ Live |
+| 47 | Indian Wells Economic Development | nodes/indian-wells/indian-wells-economic-development.mdx | ✅ Live |
 
-## La Quinta (4 nodes)
+## La Quinta (5 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -81,8 +84,9 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 24 | PGA West | nodes/la-quinta/pga-west.mdx | ✅ Live |
 | 25 | The Madison Club | nodes/la-quinta/madison-club.mdx | ✅ Live |
 | 26 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
+| 48 | La Quinta Economic Development | nodes/la-quinta/la-quinta-economic-development.mdx | ✅ Live |
 
-## Indio (4 nodes)
+## Indio (5 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -90,6 +94,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 28 | Coachella Valley Music and Arts Festival | nodes/indio/coachella-festival.mdx | ✅ Live |
 | 29 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
 | 30 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
+| 49 | Indio Economic Development | nodes/indio/indio-economic-development.mdx | ✅ Live |
 
 ## Indio Context (Important)
 
@@ -110,6 +115,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 46 (including Node Zero)
+- Total live: 48 (including Node Zero)
 - Forthcoming: 0 signaled
 - Valley Wide path: nodes/valley-wide/

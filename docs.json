@@ -158,7 +158,8 @@
               "nodes/palm-springs/agua-caliente-cultural-museum",
               "nodes/palm-springs/parker-palm-springs",
               "nodes/palm-springs/cultural-arts-corridor",
-              "nodes/palm-springs/aerial-tram"
+              "nodes/palm-springs/aerial-tram",
+              "nodes/palm-springs/palm-springs-economic-development"
             ]
           },
           {
@@ -182,7 +183,8 @@
               "nodes/palm-desert/el-paseo",
               "nodes/palm-desert/bighorn-golf-club",
               "nodes/palm-desert/cook-street-university-row",
-              "nodes/palm-desert/north-palm-desert-development-zone"
+              "nodes/palm-desert/north-palm-desert-development-zone",
+              "nodes/palm-desert/palm-desert-economic-development"
             ]
           },
           {
@@ -192,7 +194,8 @@
               "nodes/indian-wells/grand-hyatt-indian-wells",
               "nodes/indian-wells/vintage-club",
               "nodes/indian-wells/el-dorado",
-              "nodes/indian-wells/toscana"
+              "nodes/indian-wells/toscana",
+              "nodes/indian-wells/indian-wells-economic-development"
             ]
           },
           {
@@ -201,7 +204,8 @@
               "nodes/la-quinta/old-town-la-quinta",
               "nodes/la-quinta/la-quinta-resort",
               "nodes/la-quinta/pga-west",
-              "nodes/la-quinta/madison-club"
+              "nodes/la-quinta/madison-club",
+              "nodes/la-quinta/la-quinta-economic-development"
             ]
           },
           {
@@ -210,7 +214,8 @@
               "nodes/indio/empire-polo-club",
               "nodes/indio/coachella-festival",
               "nodes/indio/stagecoach",
-              "nodes/indio/date-festival"
+              "nodes/indio/date-festival",
+              "nodes/indio/indio-economic-development"
             ]
           }
         ]
