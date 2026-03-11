@@ -239,6 +239,7 @@ New entries are always appended within the correct group — never restructure e
 - Compression ratio: 1-2 pages of research condenses to 1 tight paragraph
 - Cross-link nodes to briefs and briefs to nodes wherever a connection exists
 - MDX syntax: Never use `<!-- -->` in any MDX file. Mintlify will fail to parse them and return 404. Always use `{/* */}` for comments instead.
+- MDX dollar signs: Always escape dollar amounts as `\$` (e.g., `\$2.1 billion`). Unescaped `$` triggers LaTeX math mode in Mintlify and renders as italicized strings.
 
 ## Claude.ai File Handling Rule
 
