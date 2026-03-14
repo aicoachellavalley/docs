@@ -1,0 +1,69 @@
+# AICV — Current State
+
+Read this at the start of every session before any content operation. Update at end of every session.
+
+---
+
+## Live Counts (as of March 13, 2026)
+
+| Metric | Count |
+|--------|-------|
+| Nodes live | 48 |
+| Intelligence briefs live | 90 |
+| `stat-briefs` fallback (homepage) | 90 |
+
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 40 (Mar 2026)
+
+**Nodes:** 48 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+
+---
+
+## Active Month Group (docs.json)
+
+Current month group for new briefs: **March 2026**
+
+New briefs append to the top of the March 2026 group in the Intelligence Briefs tab.
+
+When April begins: add a new `April 2026` group at the top of the Intelligence Briefs tab. Do not restructure existing groups.
+
+---
+
+## Last Known Commit Hashes
+
+| Repo | Hash | Notes |
+|------|------|-------|
+| docs (Mintlify) | `725b390` | 5 March 9 briefs + NODES.md path fix |
+| homepage (aicoachellavalley.com) | — | Verify via `git log` — last known push was stat-briefs update |
+| org (aicoachellavalley.org) | — | Copy refresh committed March 13, 2026 — verify via `git log` |
+
+> Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
+
+---
+
+## MCP Worker
+
+Deployed version: `7f86d40a` (March 9, 2026) — stable, no pending changes.
+
+---
+
+## Pending / On the Horizon
+
+- [ ] Forthcoming node: Desert Community Foundation / CV Giving Day (Palm Desert, nonprofit subcategory)
+- [ ] March 21 — Big Brothers Big Sisters summit at Classic Club, Palm Desert (7 Principles framework deployment)
+- [ ] March 23 — Follow-up brief covering summit outcomes and youth AI usage data
+- [ ] Continue March intelligence brief cadence
+- [ ] Monitor for first LLM citation (crawler signposting + llms.txt in place)
+- [ ] SunshineFM newsletter cadence resumption on Beehiiv
+- [ ] Mobile mailto test for `sat@aicv.co` CTA (desktop issue is unconfigured mail client — test on iPhone)
+
+---
+
+## How to Update This File
+
+After every session that adds content:
+1. Increment node count if nodes were added
+2. Increment brief count + update monthly breakdown if briefs were added
+3. Update `stat-briefs` fallback value to match
+4. Update active month group if the month has rolled over
+5. Update last commit hash for affected repo
+6. Check off or remove completed pending items
