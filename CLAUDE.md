@@ -15,10 +15,10 @@ A two-layer intelligence system:
 - **Nodes** — Persistent geographic anchors, one per institution/location, organized by city
 - **Intelligence Briefs** — Daily timestamped signals, one per day, filed by date
 
-## Current State (as of March 12, 2026)
+## Current State (as of March 14, 2026)
 
 - **48 nodes live** across 9 cities — all on v2 schema with verified, status, agent_intent fields
-- **85 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, 35 from March 2026
+- **90 intelligence briefs live** — 4 from 2025, 14 from January 2026, 32 from February 2026, 40 from March 2026
 - **Homepage v5 live** at aicoachellavalley.com — auto-deploy via GitHub → Cloudflare Pages
 - **Cloudflare Worker live** at api.aicoachellavalley.com — handling AIO proxy and dynamic stats
 
@@ -30,6 +30,7 @@ A two-layer intelligence system:
 | Homepage (v5) | ~/Projects/homepage/index.html | aicoachellavalley.com |
 | Worker (API proxy) | ~/Projects/aicv-api/worker.js | api.aicoachellavalley.com |
 | MCP Worker | ~/Projects/aicv-mcp/worker.js | mcp.aicoachellavalley.com |
+| Twitter Worker | ~/Projects/twitter-worker/worker.js | twitter.aicoachellavalley.com |
 | Org site | ~/Projects/org/index.html | aicoachellavalley.org |
 
 Homepage deploys automatically via GitHub → Cloudflare Pages on every push to main.
@@ -60,7 +61,7 @@ Claude Code must not commit without explicit approval.
 
 ## Wrangler Note
 
-`wrangler secret put` asks for the value TWICE as confirmation — paste the same key both times.
+`wrangler secret put` — always use `printf 'secret\n'` piped to a single entry. Wrangler strips the trailing newline and stores the correct length. Never use `echo` or pipe both entries — it concatenates value + confirmation into a doubled secret.
 
 ## Mintlify Ops Note
 
