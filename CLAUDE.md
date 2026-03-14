@@ -31,12 +31,14 @@ A two-layer intelligence system:
 | Worker (API proxy) | ~/Projects/aicv-api/worker.js | api.aicoachellavalley.com |
 | MCP Worker | ~/Projects/aicv-mcp/worker.js | mcp.aicoachellavalley.com |
 | Twitter Worker | ~/Projects/twitter-worker/worker.js | twitter.aicoachellavalley.com |
+| Tools Dashboard | ~/Projects/tools/ | tools.aicoachellavalley.com |
 | Org site | ~/Projects/org/index.html | aicoachellavalley.org |
 
 Homepage deploys automatically via GitHub → Cloudflare Pages on every push to main.
 Worker handles AIO tool proxy and dynamic stats (node/brief counts from GitHub).
 Worker is NOT git-controlled — deploy changes via `wrangler deploy` from `~/Projects/aicv-api/`. There is no git repo in that directory.
 MCP Worker is NOT git-controlled — deploy changes via `wrangler deploy` from `~/Projects/aicv-mcp/`. There is no git repo in that directory.
+Tools Dashboard is a GitHub repo — deploys automatically via Cloudflare Pages on push to main. Same pattern as homepage.
 
 ## MCP Worker Bug Fixes (March 9, 2026)
 
