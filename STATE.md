@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `725b390` | 5 March 9 briefs + NODES.md path fix |
+| docs (Mintlify) | `7701b5e` | CLAUDE.md refactor — ARCHITECTURE.md and STATE.md created |
 | homepage (aicoachellavalley.com) | — | Verify via `git log` — last known push was stat-briefs update |
 | org (aicoachellavalley.org) | — | Copy refresh committed March 13, 2026 — verify via `git log` |
 
