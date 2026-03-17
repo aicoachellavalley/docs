@@ -32,6 +32,6 @@ AICV operates a two-layer intelligence system covering the Coachella Valley's em
 
 ## Optional
 
-- [Valley Wide Nodes](/nodes/standalone/coachella-valley-intelligence-index)
-- [Economic Development](/nodes/standalone/coachella-valley-economic-development)
-- [Workforce and Talent](/nodes/standalone/workforce-talent)
+- [Valley Wide Nodes](/nodes/valley-wide/coachella-valley-intelligence-index)
+- [Economic Development](/nodes/valley-wide/coachella-valley-economic-development)
+- [Workforce and Talent](/nodes/valley-wide/workforce-talent)

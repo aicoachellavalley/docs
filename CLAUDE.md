@@ -264,7 +264,7 @@ New entries always appended within the correct group — never restructure exist
 - **Comments:** Never use `<!-- -->` in any MDX file — Mintlify will fail to parse and return 404. Always use `{/* */}` instead.
 - **Dollar signs in body content:** Always escape as `\$` (e.g. `\$2.1 billion`) — unescaped `$` triggers LaTeX math mode and renders as italicized strings.
 - **Dollar signs in YAML frontmatter** (`title`, `description`): Use bare `$` — backslash escaping in YAML is a parse error and causes a 404.
-- **Node paths:** Always `nodes/valley-wide/` — never `nodes/standalone/` (directory was renamed; stale path causes broken nav).
+- **Node paths:** Always `nodes/valley-wide/` — never `nodes/valley-wide/` (directory was renamed; stale path causes broken nav).
 
 ---
 
