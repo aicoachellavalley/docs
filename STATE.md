@@ -46,6 +46,18 @@ Deployed version: `7f86d40a` (March 9, 2026) — stable, no pending changes.
 
 ---
 
+## Manual Deploy Required — aicv-tools
+
+`tools.aicoachellavalley.com` has NO Git connection in Cloudflare Pages. GitHub pushes do nothing. Always deploy manually:
+
+```
+cd ~/Projects/tools && npx wrangler pages deploy . --project-name aicv-tools
+```
+
+GitHub integration has been attempted and fails — Cloudflare's UI loops without completing the connection. Do not attempt to debug this again until Cloudflare Pages Git integration UX is confirmed fixed.
+
+---
+
 ## Pending / On the Horizon
 
 - [ ] Forthcoming node: Desert Community Foundation / CV Giving Day (Palm Desert, nonprofit subcategory)
