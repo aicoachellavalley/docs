@@ -4,15 +4,15 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 16, 2026)
+## Live Counts (as of March 17, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 48 |
-| Intelligence briefs live | 93 |
-| `stat-briefs` fallback (homepage) | 93 |
+| Intelligence briefs live | 96 |
+| `stat-briefs` fallback (homepage) | 96 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 43 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 46 (Mar 2026)
 
 **Nodes:** 48 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `c6afcc3` | March 16 briefs — NemoClaw, MetLife trust, also noted |
+| docs (Mintlify) | `c6afcc3` | March 16 briefs — NemoClaw, MetLife trust, also noted — verify before next commit |
 | homepage (aicoachellavalley.com) | — | Verify via `git log` — last known push was stat-briefs update |
 | org (aicoachellavalley.org) | — | Copy refresh committed March 13, 2026 — verify via `git log` |
 
