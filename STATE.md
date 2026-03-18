@@ -9,10 +9,10 @@ Read this at the start of every session before any content operation. Update at 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 48 |
-| Intelligence briefs live | 99 |
-| `stat-briefs` fallback (homepage) | 99 |
+| Intelligence briefs live | 100 |
+| `stat-briefs` fallback (homepage) | 100 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 49 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 50 (Mar 2026)
 
 **Nodes:** 48 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -32,8 +32,8 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `b02044f` | March 18 brief — CV workforce AI paradox |
-| homepage (aicoachellavalley.com) | `f6beb81` | stat-briefs updated to 99 |
+| docs (Mintlify) | `eea88f8` | Brief 100 — CV creative economy / Hollywood shift |
+| homepage (aicoachellavalley.com) | `8b1cdbf` | stat-briefs updated to 100 |
 | org (aicoachellavalley.org) | — | Copy refresh committed March 13, 2026 — verify via `git log` |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
