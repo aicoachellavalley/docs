@@ -32,8 +32,8 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `c6afcc3` | March 16 briefs — NemoClaw, MetLife trust, also noted — verify before next commit |
-| homepage (aicoachellavalley.com) | — | Verify via `git log` — last known push was stat-briefs update |
+| docs (Mintlify) | `6866459` | March 17 briefs — Agua Caliente AI hire, KGM trial, also noted |
+| homepage (aicoachellavalley.com) | `c611f91` | stat-briefs updated to 96 |
 | org (aicoachellavalley.org) | — | Copy refresh committed March 13, 2026 — verify via `git log` |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
