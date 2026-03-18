@@ -4,15 +4,15 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 17, 2026)
+## Live Counts (as of March 18, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 48 |
-| Intelligence briefs live | 96 |
-| `stat-briefs` fallback (homepage) | 96 |
+| Intelligence briefs live | 97 |
+| `stat-briefs` fallback (homepage) | 97 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 46 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 47 (Mar 2026)
 
 **Nodes:** 48 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -32,8 +32,8 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `6866459` | March 17 briefs — Agua Caliente AI hire, KGM trial, also noted |
-| homepage (aicoachellavalley.com) | `c611f91` | stat-briefs updated to 96 |
+| docs (Mintlify) | `2f78b0d` | March 18 brief — CV AI leadership hiring cluster; Agua Caliente backlink |
+| homepage (aicoachellavalley.com) | `c436048` | stat-briefs updated to 97 |
 | org (aicoachellavalley.org) | — | Copy refresh committed March 13, 2026 — verify via `git log` |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
