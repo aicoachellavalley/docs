@@ -58,6 +58,16 @@ GitHub integration has been attempted and fails — Cloudflare's UI loops withou
 
 ---
 
+## Distribution Layer (as of March 17, 2026)
+
+| Channel | Handle / URL | Role |
+|---------|-------------|------|
+| Twitter/X | @CoachellaAI | Timestamped citation journal — intelligence briefs, regional AI economy |
+| Bluesky | @sunshinefm.bsky.social | SunshineFM human voice — Sat's personal channel |
+| Newsletter | Beehiiv (SunshineFM) | Long-form; cadence resumption pending |
+
+---
+
 ## Pending / On the Horizon
 
 - [ ] Forthcoming node: Desert Community Foundation / CV Giving Day (Palm Desert, nonprofit subcategory)
