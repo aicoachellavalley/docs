@@ -9,10 +9,10 @@ Read this at the start of every session before any content operation. Update at 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 49 |
-| Intelligence briefs live | 100 |
-| `stat-briefs` fallback (homepage) | 100 |
+| Intelligence briefs live | 101 |
+| `stat-briefs` fallback (homepage) | 101 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 50 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 51 (Mar 2026)
 
 **Nodes:** 49 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
