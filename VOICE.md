@@ -1,6 +1,6 @@
 # AICV — Voice & Tone Guide
 
-Three distinct voices are used across AICV publishing surfaces.
+Two distinct voices are documented here. Intelligence brief voice is governed by CLAUDE.md only.
 
 Do not mix them. Read the relevant section before drafting any content.
 
