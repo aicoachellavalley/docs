@@ -32,8 +32,8 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `eea88f8` | Brief 100 — CV creative economy / Hollywood shift |
-| homepage (aicoachellavalley.com) | `8b1cdbf` | stat-briefs updated to 100 |
+| docs (Mintlify) | `3ffb865` | Brief 102 — GTC 2026 coding / knowledge work |
+| homepage (aicoachellavalley.com) | `84abf6b` | stat-briefs updated to 102 |
 | org (aicoachellavalley.org) | — | Copy refresh committed March 13, 2026 — verify via `git log` |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
