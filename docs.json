@@ -167,7 +167,6 @@
               "nodes/valley-wide/coachella-valley-intelligence-index",
               "nodes/valley-wide/coachella-valley-economic-development",
               "nodes/valley-wide/riverside-county-economic-development",
-              "nodes/valley-wide/desert-community-foundation",
               "nodes/valley-wide/cv-giving-day",
               "nodes/valley-wide/coachella-valley-ai-events",
               "nodes/valley-wide/workforce-talent",
@@ -210,7 +209,8 @@
               "nodes/palm-desert/bighorn-golf-club",
               "nodes/palm-desert/cook-street-university-row",
               "nodes/palm-desert/north-palm-desert-development-zone",
-              "nodes/palm-desert/palm-desert-economic-development"
+              "nodes/palm-desert/palm-desert-economic-development",
+              "nodes/palm-desert/desert-community-foundation"
             ]
           },
           {
