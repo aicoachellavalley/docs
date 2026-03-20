@@ -4,15 +4,15 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 19, 2026)
+## Live Counts (as of March 20, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 49 |
-| Intelligence briefs live | 102 |
-| `stat-briefs` fallback (homepage) | 102 |
+| Intelligence briefs live | 103 |
+| `stat-briefs` fallback (homepage) | 103 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 52 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 53 (Mar 2026)
 
 **Nodes:** 49 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -32,8 +32,8 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `3ffb865` | Brief 102 — GTC 2026 coding / knowledge work |
-| homepage (aicoachellavalley.com) | `84abf6b` | stat-briefs updated to 102 |
+| docs (Mintlify) | `269d566` | Brief 103 — March 20 also-noted |
+| homepage (aicoachellavalley.com) | `8dae7cc` | stat-briefs updated to 103 |
 | org (aicoachellavalley.org) | — | Copy refresh committed March 13, 2026 — verify via `git log` |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
