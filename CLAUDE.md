@@ -268,6 +268,35 @@ New entries always appended within the correct group — never restructure exist
 
 ---
 
+## How to Add a Node — Graph Maintenance Step (Required)
+
+Every time a new node is added, the org homepage graph must also be updated. This is a required step in the node addition workflow — do it in the same session, same commit if possible.
+
+File: `~/Projects/org/index.html`
+
+Find the `ZONE_MAP` object in the graph script block and add one line:
+```
+'city-folder/new-node-slug': 'city-zone-key',
+```
+
+Find the `SUB_MAP` object immediately below it and add one line:
+```
+'new-node-slug': 'subcategory',
+```
+
+Valid zone keys: `valley-wide`, `palm-springs`, `rancho-mirage`, `palm-desert`, `indian-wells`, `la-quinta`, `indio`
+
+Valid subcategory values: `innovation`, `economic`, `intelligence`, `hospitality`, `golf`, `wellness`, `cultural`, `entertainment`, `education`, `retail`, `nonprofit`, `real-estate`
+
+Commit the org homepage update separately from the docs commit:
+```
+git commit -m "feat: add [node-slug] to graph lookup tables"
+```
+
+If the node is valley-wide, also add its slug to the `VW_ORDER` array in the same script block, at the appropriate position.
+
+---
+
 ## File Handling Rules
 
 - Claude.ai's copy of any live file is a snapshot — it becomes stale the moment Claude Code pushes a change.
