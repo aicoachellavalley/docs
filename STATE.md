@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `269d566` | Brief 103 — March 20 also-noted |
+| docs (Mintlify) | `57d2300` | PSP Airport drive times table |
 | homepage (aicoachellavalley.com) | `8dae7cc` | stat-briefs updated to 103 |
 | org (aicoachellavalley.org) | `849e583` | CLAUDE.md graph maintenance steps + live node graph deployed |
 
@@ -77,8 +77,8 @@ GitHub integration has been attempted and fails — Cloudflare's UI loops withou
 - [ ] Monitor for first LLM citation (crawler signposting + llms.txt in place)
 - [ ] SunshineFM newsletter cadence resumption on Beehiiv
 - [ ] Mobile mailto test for `sat@aicv.co` CTA (desktop issue is unconfigured mail client — test on iPhone)
-- [ ] DCF repo move: `git mv nodes/valley-wide/desert-community-foundation.mdx nodes/palm-desert/` + docs.json nav update (separate session)
-- [ ] PSP Airport node content: add drive times table to Key Facts section
+- [x] DCF repo move: `git mv nodes/valley-wide/desert-community-foundation.mdx nodes/palm-desert/` + docs.json nav update — done `7cbabef`
+- [x] PSP Airport node content: add drive times table to Key Facts section — done `57d2300`
 
 ---
 
