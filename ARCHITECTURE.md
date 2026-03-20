@@ -107,3 +107,15 @@ Never overwrite `index.html` from an external file without diffing first.
 
 - Node audit: run subcategory and schema audit every 20 nodes or annually — check for missing subcategory values, taxonomy drift, and v2 field compliance. Use the recon prompt from the March 7, 2026 session.
 - All nodes use v2 schema with `verified`, `status`, and `agent_intent` fields.
+
+---
+
+## AIO Tool Architecture Rule
+
+Worker (`~/Projects/aicv-api/worker.js`) returns the raw Anthropic API response unchanged. Homepage (`~/Projects/homepage/index.html`) handles all parsing:
+1. Unwrap `data.content[0].text`
+2. Strip markdown fences (``` json / ```)
+3. JSON.parse the cleaned string
+4. Read `r.score` and derive grade client-side via `gradeFromScore()`
+
+**Never move JSON parsing or grade logic into the worker.** This was attempted March 18, 2026 and caused a cascade of response shape mismatches that broke the tool across multiple deploys. The client-side chain is battle-tested — leave it there.
