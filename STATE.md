@@ -9,10 +9,10 @@ Read this at the start of every session before any content operation. Update at 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 49 |
-| Intelligence briefs live | 103 |
-| `stat-briefs` fallback (homepage) | 103 |
+| Intelligence briefs live | 104 |
+| `stat-briefs` fallback (homepage) | 104 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 53 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 54 (Mar 2026)
 
 **Nodes:** 49 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -32,8 +32,8 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `57d2300` | PSP Airport drive times table |
-| homepage (aicoachellavalley.com) | `8dae7cc` | stat-briefs updated to 103 |
+| docs (Mintlify) | `6d9447d` | Brief 104 — AI consumer sentiment + also-noted OpenAI patch |
+| homepage (aicoachellavalley.com) | `b7f3721` | stat-briefs updated to 104 |
 | org (aicoachellavalley.org) | `849e583` | CLAUDE.md graph maintenance steps + live node graph deployed |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
