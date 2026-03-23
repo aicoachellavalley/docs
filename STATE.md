@@ -4,15 +4,15 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 22, 2026)
+## Live Counts (as of March 23, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 49 |
-| Intelligence briefs live | 105 |
-| `stat-briefs` fallback (homepage) | 105 |
+| Intelligence briefs live | 106 |
+| `stat-briefs` fallback (homepage) | 106 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 55 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 56 (Mar 2026)
 
 **Nodes:** 49 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
