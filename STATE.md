@@ -8,13 +8,13 @@ Read this at the start of every session before any content operation. Update at 
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 49 |
+| Nodes live | 54 |
 | Intelligence briefs live | 106 |
 | `stat-briefs` fallback (homepage) | 106 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 56 (Mar 2026)
 
-**Nodes:** 49 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 54 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 
@@ -32,9 +32,9 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `e05a620` | Brief 106 — AI education gap (CV vs. tech-ecosystem households) |
+| docs (Mintlify) | `831e390` | 5 nodes added — Sunnylands, Thermal Club, KTRM, Desert Jet Center, Desert Willow |
 | homepage (aicoachellavalley.com) | `968e3a9` | stat-briefs updated to 106 |
-| org (aicoachellavalley.org) | `849e583` | CLAUDE.md graph maintenance steps + live node graph deployed |
+| org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
 
