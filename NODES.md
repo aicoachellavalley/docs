@@ -2,9 +2,9 @@
 
 ## Overview
 
-45 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+54 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
-NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 4, 2026.
+NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 23, 2026.
 
 ## Node Zero (Valley-Wide Entry Point)
 
@@ -41,7 +41,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 5 | Forever Marilyn + Cultural Arts Corridor | nodes/palm-springs/cultural-arts-corridor.mdx | ✅ Live |
 | 45 | Palm Springs Economic Development | nodes/palm-springs/palm-springs-economic-development.mdx | ✅ Live |
 
-## Rancho Mirage (6 nodes)
+## Rancho Mirage (7 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -51,8 +51,9 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 9 | Cotino — Storyliving by Disney | nodes/rancho-mirage/cotino.mdx | ✅ Live |
 | 10 | Observatory Rancho Mirage | nodes/rancho-mirage/observatory.mdx | ✅ Live |
 | 11 | Sensei Porcupine Creek | nodes/rancho-mirage/sensei-porcupine-creek.mdx | ✅ Live |
+| 50 | Sunnylands Center & Gardens | nodes/rancho-mirage/sunnylands.mdx | ✅ Live |
 
-## Palm Desert (9 nodes)
+## Palm Desert (10 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -65,6 +66,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 37 | Cook Street / University Row | nodes/palm-desert/cook-street-university-row.mdx | ✅ Live |
 | 38 | North Palm Desert Development Zone | nodes/palm-desert/north-palm-desert-development-zone.mdx | ✅ Live |
 | 46 | Palm Desert Economic Development | nodes/palm-desert/palm-desert-economic-development.mdx | ✅ Live |
+| 51 | Desert Willow Golf Resort | nodes/palm-desert/desert-willow-golf-resort.mdx | ✅ Live |
 
 ## Indian Wells (6 nodes)
 
@@ -87,7 +89,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 26 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
 | 48 | La Quinta Economic Development | nodes/la-quinta/la-quinta-economic-development.mdx | ✅ Live |
 
-## Indio (5 nodes)
+## Indio (8 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -96,6 +98,9 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 29 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
 | 30 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
 | 49 | Indio Economic Development | nodes/indio/indio-economic-development.mdx | ✅ Live |
+| 52 | The Thermal Club | nodes/indio/thermal-club.mdx | ✅ Live |
+| 53 | Jacqueline Cochran Regional Airport | nodes/indio/jacqueline-cochran-regional-airport.mdx | ✅ Live |
+| 54 | Desert Jet Center | nodes/indio/desert-jet-center.mdx | ✅ Live |
 
 ## Indio Context (Important)
 
@@ -116,6 +121,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 49 (including Node Zero)
+- Total live: 54 (including Node Zero)
 - Forthcoming: 0 signaled
 - Valley Wide path: nodes/valley-wide/
