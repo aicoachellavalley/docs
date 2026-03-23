@@ -4,15 +4,15 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 20, 2026)
+## Live Counts (as of March 22, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 49 |
-| Intelligence briefs live | 104 |
-| `stat-briefs` fallback (homepage) | 104 |
+| Intelligence briefs live | 105 |
+| `stat-briefs` fallback (homepage) | 105 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 54 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 55 (Mar 2026)
 
 **Nodes:** 49 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -72,7 +72,7 @@ GitHub integration has been attempted and fails — Cloudflare's UI loops withou
 
 - [ ] Forthcoming node: Desert Community Foundation / CV Giving Day (Palm Desert, nonprofit subcategory)
 - [ ] March 21 — Big Brothers Big Sisters summit at Classic Club, Palm Desert (7 Principles framework deployment)
-- [ ] March 23 — Follow-up brief covering summit outcomes and youth AI usage data
+- [x] March 22 — Youth AI usage brief (BBBS session outcomes) — done
 - [ ] Continue March intelligence brief cadence
 - [ ] Monitor for first LLM citation (crawler signposting + llms.txt in place)
 - [ ] SunshineFM newsletter cadence resumption on Beehiiv
