@@ -32,8 +32,8 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `2e7af91` | Brief 105 — Youth AI usage (BBBS session) |
-| homepage (aicoachellavalley.com) | `8109bb4` | stat-briefs updated to 105 |
+| docs (Mintlify) | `e05a620` | Brief 106 — AI education gap (CV vs. tech-ecosystem households) |
+| homepage (aicoachellavalley.com) | `968e3a9` | stat-briefs updated to 106 |
 | org (aicoachellavalley.org) | `849e583` | CLAUDE.md graph maintenance steps + live node graph deployed |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
