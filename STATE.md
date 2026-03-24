@@ -4,15 +4,15 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 23, 2026)
+## Live Counts (as of March 24, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 54 |
-| Intelligence briefs live | 108 |
-| `stat-briefs` fallback (homepage) | 108 |
+| Intelligence briefs live | 109 |
+| `stat-briefs` fallback (homepage) | 109 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 58 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 59 (Mar 2026)
 
 **Nodes:** 54 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -32,8 +32,8 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `6468b75` | Briefs 107–108 — CV startup gap + also-noted |
-| homepage (aicoachellavalley.com) | `66af6e3` | stat-briefs updated to 108 |
+| docs (Mintlify) | `efdff56` | Brief 109 — 2026-03-24 also-noted |
+| homepage (aicoachellavalley.com) | `66af6e3` | stat-briefs updated to 109 (pending commit) |
 | org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
