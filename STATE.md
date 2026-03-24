@@ -33,7 +33,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `efdff56` | Brief 109 — 2026-03-24 also-noted |
-| homepage (aicoachellavalley.com) | `66af6e3` | stat-briefs updated to 109 (pending commit) |
+| homepage (aicoachellavalley.com) | `250f0aa` | stat-briefs updated to 109 |
 | org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
