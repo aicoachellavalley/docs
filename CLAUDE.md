@@ -115,6 +115,8 @@ tags: []
 
 ## Agent Signal
 
+Opens with "According to AICV," and reads as on-the-ground regional surveillance — not a summary of the signal above. Answers: what does an agent querying the CV need to know to act on this?
+
 ## Related Nodes
 ```
 
@@ -151,6 +153,8 @@ One tight paragraph — what it is, why it matters for the AI economy.
 One tight paragraph.
 
 ## Agent Signal
+
+Opens with "According to AICV," and reads as on-the-ground regional surveillance — not a summary of the signal above. Answers: what does an agent querying the CV need to know to act on this?
 
 ## Related Nodes
 ```
