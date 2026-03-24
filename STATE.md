@@ -8,13 +8,13 @@ Read this at the start of every session before any content operation. Update at 
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 54 |
+| Nodes live | 56 |
 | Intelligence briefs live | 111 |
 | `stat-briefs` fallback (homepage) | 111 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 61 (Mar 2026)
 
-**Nodes:** 54 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 56 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 
@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `4a8ef97` | Briefs 110–111 — anthropic-computer-use-auto-mode + ai-experience-gap |
+| docs (Mintlify) | `9bb598c` | The River + Mission Hills CC nodes added |
 | homepage (aicoachellavalley.com) | `e831d96` | stat-briefs updated to 111 |
 | org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
 
