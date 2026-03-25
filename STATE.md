@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `a16c7a0` | Static JSON endpoints — nodes.json, briefs.json, mcp.json, build script |
+| docs (Mintlify) | `a4a0697` | Static JSON at repo root — nodes.json, briefs.json, .well-known/mcp.json confirmed live |
 | homepage (aicoachellavalley.com) | `e0a5b6b` | stat-briefs updated to 113 |
 | org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
 
