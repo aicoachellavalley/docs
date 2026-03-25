@@ -48,6 +48,7 @@ Every node file must open with exactly these fields:
 ---
 title: ""
 description: ""
+agent_summary: ""
 city: ""
 category: "landmark"
 subcategory: ""
@@ -192,6 +193,7 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 ## How to Add a Node
 
 1. Research the location in Claude.ai
+   - Write `agent_summary` as a single sentence (max 40 words) answering the most likely cold query that would find this node — name the location, what it is, and why it matters for agents
 2. Draft MDX using the frontmatter schema and section structure above
 3. Claude Code creates the file in the correct city subfolder under `nodes/`
 4. Update `docs.json` navigation to include the new page path
