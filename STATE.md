@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `b600e2f` | agent_summary added to all 56 nodes; nodes.json updated with agent_summary field (45.7 KB) |
+| docs (Mintlify) | `ca721c6` | briefs.json now includes signal, agent_signal, context body fields (361.5 KB) |
 | homepage (aicoachellavalley.com) | `e0a5b6b` | stat-briefs updated to 113 |
 | org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
 
