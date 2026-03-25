@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `0c170c4` | Full schema coverage — all 56 nodes have status, verified, agent_intent, agent_summary |
+| docs (Mintlify) | `a1e46d5` | Schema validation added to build script — warns on missing fields at build time |
 | homepage (aicoachellavalley.com) | `e0a5b6b` | stat-briefs updated to 113 |
 | org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
 
