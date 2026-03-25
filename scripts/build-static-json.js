@@ -183,6 +183,55 @@ function buildBriefs() {
   return briefs;
 }
 
+// --- Schema validation ---
+// Warns on missing required fields — does not block execution.
+// Node required fields: agent_summary, agent_intent, status, verified
+// Brief required fields (from 2026-02-23 onward): agent_signal
+const BRIEF_AGENT_SIGNAL_CUTOFF = '2026-02-23';
+
+function validate(nodes, briefs) {
+  let warnings = 0;
+
+  // Node validation
+  const NODE_REQUIRED = ['agent_summary', 'agent_intent', 'status', 'verified'];
+  for (const node of nodes) {
+    for (const field of NODE_REQUIRED) {
+      const val = node[field];
+      const empty =
+        val === '' ||
+        val === false ||
+        (Array.isArray(val) && val.length === 0) ||
+        val === null ||
+        val === undefined;
+      if (empty) {
+        console.warn(`WARN: ${node.slug} missing ${field}`);
+        warnings++;
+      }
+    }
+  }
+
+  // Brief validation — agent_signal required from cutoff date onward
+  for (const brief of briefs) {
+    if (brief.date >= BRIEF_AGENT_SIGNAL_CUTOFF && brief.slug !== 'also-noted') {
+      if (!brief.agent_signal || brief.agent_signal === '') {
+        console.warn(`WARN: ${brief.slug} missing agent_signal`);
+        warnings++;
+      }
+    }
+  }
+
+  // Also-noted briefs are exempt from agent_signal check (different structure)
+  const eligibleBriefs = briefs.filter(
+    b => b.date >= BRIEF_AGENT_SIGNAL_CUTOFF && !b.slug.includes('also-noted')
+  );
+
+  if (warnings === 0) {
+    console.log(`Validation complete — ${nodes.length} nodes clean, ${eligibleBriefs.length} briefs clean`);
+  } else {
+    console.log(`Validation complete — ${warnings} warning${warnings === 1 ? '' : 's'} found`);
+  }
+}
+
 // --- Main ---
 function main() {
   const nodes = buildNodes();
@@ -208,7 +257,9 @@ function main() {
 
   console.log(`nodes.json  — ${nodes.length} nodes   (${(nodesSize / 1024).toFixed(1)} KB)`);
   console.log(`briefs.json — ${briefs.length} briefs (${(briefsSize / 1024).toFixed(1)} KB)`);
-  console.log('Output: public/nodes.json, public/briefs.json');
+  console.log('Output: nodes.json, briefs.json');
+
+  validate(nodes, briefs);
 }
 
 main();
