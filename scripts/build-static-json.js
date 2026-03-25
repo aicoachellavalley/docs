@@ -232,6 +232,31 @@ function validate(nodes, briefs) {
   }
 }
 
+// --- llms.txt count updater ---
+function updateLlmsTxt(filePath, nodeCount, briefCount) {
+  if (!fs.existsSync(filePath)) return;
+  let content = fs.readFileSync(filePath, 'utf8');
+  content = content.replace(/\d+ geographic nodes/g, `${nodeCount} geographic nodes`);
+  content = content.replace(/\d+ intelligence briefs/g, `${briefCount} intelligence briefs`);
+  // Also handle the homepage pattern: "All N geographic nodes" and "All N intelligence briefs"
+  content = content.replace(/All \d+ geographic nodes/g, `All ${nodeCount} geographic nodes`);
+  content = content.replace(/All \d+ intelligence briefs/g, `All ${briefCount} intelligence briefs`);
+  // Handle inline references like "56 geographic nodes" in markdown links
+  content = content.replace(/\(nodes\.json\): All \d+ geographic nodes/g, `(nodes.json): All ${nodeCount} geographic nodes`);
+  content = content.replace(/\(briefs\.json\): All \d+ intelligence briefs/g, `(briefs.json): All ${briefCount} intelligence briefs`);
+  fs.writeFileSync(filePath, content, 'utf8');
+}
+
+function updateAllLlmsTxt(nodeCount, briefCount) {
+  const docsLlms = path.join(DOCS_ROOT, 'llms.txt');
+  const homepageLlms = path.join(path.resolve(DOCS_ROOT, '../../homepage'), 'llms.txt');
+
+  updateLlmsTxt(docsLlms, nodeCount, briefCount);
+  updateLlmsTxt(homepageLlms, nodeCount, briefCount);
+
+  console.log(`llms.txt updated — ${nodeCount} nodes, ${briefCount} briefs`);
+}
+
 // --- IndexNow submission ---
 async function submitToIndexNow(urls) {
   const payload = {
@@ -278,6 +303,8 @@ async function main() {
   console.log('Output: nodes.json, briefs.json');
 
   validate(nodes, briefs);
+
+  updateAllLlmsTxt(nodes.length, briefs.length);
 
   await submitToIndexNow([
     "https://agent.aicoachellavalley.com/nodes.json",
