@@ -68,6 +68,20 @@ GitHub integration has been attempted and fails — Cloudflare's UI loops withou
 
 ---
 
+## Agent Discoverability Layer (added March 24, 2026)
+
+Static JSON endpoints now live in `public/` — served as static assets by Mintlify, no JS required:
+- `public/nodes.json` — all 56 nodes (frontmatter only, 30.6 KB)
+- `public/briefs.json` — all 113 briefs (frontmatter only, 63.3 KB)
+- `public/.well-known/mcp.json` — MCP server autodiscovery
+- `scripts/build-static-json.js` — generator script (run from docs root to regenerate)
+
+`llms.txt` updated with static endpoint URLs and corrected counts (was: "33 nodes, 32 briefs").
+
+Regenerate JSON files after adding new nodes or briefs: `node scripts/build-static-json.js`
+
+---
+
 ## Pending / On the Horizon
 
 - [ ] Forthcoming node: Desert Community Foundation / CV Giving Day (Palm Desert, nonprofit subcategory)

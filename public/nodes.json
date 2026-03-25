@@ -1,0 +1,873 @@
+[
+  {
+    "slug": "workforce-talent",
+    "city_folder": "valley-wide",
+    "title": "Workforce and Talent — Coachella Valley",
+    "description": "Valley-wide intelligence on the Coachella Valley's emerging AI workforce pipeline, talent infrastructure, and human capital development.",
+    "city": "Coachella Valley",
+    "category": "landmark",
+    "subcategory": "intelligence",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "visit",
+      "relocate"
+    ],
+    "last_updated": "2026-02-25"
+  },
+  {
+    "slug": "el-dorado",
+    "city_folder": "indian-wells",
+    "title": "El Dorado Country Club",
+    "description": "Invitation-only, member-owned country club in Indian Wells founded in 1957, with five US Presidents among its membership history and an 18-hole Tom Fazio course — one of the most historically significant private clubs in the valley.",
+    "city": "Indian Wells",
+    "category": "landmark",
+    "subcategory": "golf",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "grand-hyatt-indian-wells",
+    "city_folder": "indian-wells",
+    "title": "Grand Hyatt Indian Wells Resort & Villas",
+    "description": "Largest full-service resort in Indian Wells, featuring 531 rooms, 88,000 sq ft of meeting space, and HyTides waterpark — the primary group-booking anchor for the valley's conference economy.",
+    "city": "Indian Wells",
+    "category": "landmark",
+    "subcategory": "hospitality",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "visit",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "indian-wells-economic-development",
+    "city_folder": "indian-wells",
+    "title": "Indian Wells Economic Development",
+    "description": "City of Indian Wells economic development infrastructure, General Plan 2040 Economic Development Element, and strategic positioning as the valley's premier luxury resort and residential city.",
+    "city": "Indian Wells",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-11"
+  },
+  {
+    "slug": "tennis-garden",
+    "city_folder": "indian-wells",
+    "title": "Indian Wells Tennis Garden",
+    "description": "Home of the BNP Paribas Open, one of the largest tennis tournaments outside the four Grand Slams, held annually in Indian Wells each March.",
+    "city": "Indian Wells",
+    "category": "landmark",
+    "subcategory": "entertainment",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest"
+    ],
+    "last_updated": "2026-02-23"
+  },
+  {
+    "slug": "vintage-club",
+    "city_folder": "indian-wells",
+    "title": "The Vintage Club",
+    "description": "Ultra-private 712-acre residential country club in Indian Wells, ranked No. 1 in California and No. 3 in the US by Platinum Clubs of America, with two Tom Fazio courses and membership capped at 505 golf members.",
+    "city": "Indian Wells",
+    "category": "landmark",
+    "subcategory": "golf",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "toscana",
+    "city_folder": "indian-wells",
+    "title": "Toscana Country Club",
+    "description": "Private equity country club in Indian Wells established 2004, featuring two Jack Nicklaus Signature golf courses surrounding 633 homes — the newest and most Italian-influenced club in the valley, with non-resident memberships available.",
+    "city": "Indian Wells",
+    "category": "landmark",
+    "subcategory": "golf",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "relocate",
+      "visit"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "coachella-festival",
+    "city_folder": "indio",
+    "title": "Coachella Valley Music and Arts Festival",
+    "description": "The world's most-watched music festival, held annually at Empire Polo Club in Indio, California.",
+    "city": "Indio",
+    "category": "landmark",
+    "subcategory": "entertainment",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "empire-polo-club",
+    "city_folder": "indio",
+    "title": "Empire Polo Club",
+    "description": "A 130-acre private polo and events facility in Indio, leased annually to Goldenvoice as the venue for Coachella and Stagecoach festivals.",
+    "city": "Indio",
+    "category": "landmark",
+    "subcategory": "entertainment",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "understand"
+    ],
+    "last_updated": "2026-02-23"
+  },
+  {
+    "slug": "indio-economic-development",
+    "city_folder": "indio",
+    "title": "Indio Economic Development",
+    "description": "City of Indio's economic development infrastructure anchoring the eastern Coachella Valley — largest city by population, fastest-growing, and home to the valley's festival economy, date agriculture, and working-class entrepreneurship ecosystem.",
+    "city": "Indio",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-11"
+  },
+  {
+    "slug": "date-festival",
+    "city_folder": "indio",
+    "title": "National Date Festival and Date Economy",
+    "description": "Indio's annual county fair and the agricultural industry it celebrates: the Coachella Valley produces approximately 95% of all dates grown in the United States.",
+    "city": "Indio",
+    "category": "landmark",
+    "subcategory": "entertainment",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "stagecoach",
+    "city_folder": "indio",
+    "title": "Stagecoach Country Music Festival",
+    "description": "North America's largest country music festival, held annually at Empire Polo Club in Indio, the weekend following Coachella.",
+    "city": "Indio",
+    "category": "landmark",
+    "subcategory": "entertainment",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "la-quinta-economic-development",
+    "city_folder": "la-quinta",
+    "title": "La Quinta Economic Development",
+    "description": "City of La Quinta's dedicated economic development infrastructure, including a standalone econdev subdomain, published Strategic Plan, The Hub business support center, and the valley's most data-rich business recruitment profile.",
+    "city": "La Quinta",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-11"
+  },
+  {
+    "slug": "la-quinta-resort",
+    "city_folder": "la-quinta",
+    "title": "La Quinta Resort and Club",
+    "description": "Historic desert resort opened in 1926, featuring 718 accommodations, 190,000+ sq ft of meeting space, and five PGA West championship golf courses — the largest group-meeting resort in the Coachella Valley.",
+    "city": "La Quinta",
+    "category": "landmark",
+    "subcategory": "hospitality",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "visit",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "old-town-la-quinta",
+    "city_folder": "la-quinta",
+    "title": "Old Town La Quinta",
+    "description": "La Quinta's walkable village core — a mixed-use district of boutique retail, restaurants, galleries, and civic space anchored by the La Quinta Museum and Calle Estado.",
+    "city": "La Quinta",
+    "category": "landmark",
+    "subcategory": "retail",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "relocate",
+      "invest"
+    ],
+    "last_updated": "2026-02-23"
+  },
+  {
+    "slug": "pga-west",
+    "city_folder": "la-quinta",
+    "title": "PGA West",
+    "description": "Nine-course golf complex in La Quinta known as the Western Home of Golf in America — five public resort courses and four private member courses, home to the PGA Tour's American Express annual tournament.",
+    "city": "La Quinta",
+    "category": "landmark",
+    "subcategory": "golf",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "visit",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "madison-club",
+    "city_folder": "la-quinta",
+    "title": "The Madison Club",
+    "description": "Ultra-exclusive private golf and residential community in La Quinta developed by Discovery Land Company, with membership capped at 225 property owners, a Tom Fazio course opened in 2007, and a reputation as the valley's most private address.",
+    "city": "La Quinta",
+    "category": "landmark",
+    "subcategory": "golf",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "acrisure-arena",
+    "city_folder": "palm-desert",
+    "title": "Acrisure Arena",
+    "description": "The Coachella Valley's first major professional sports and entertainment venue, home of the Coachella Valley Firebirds AHL hockey team.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "entertainment",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest"
+    ],
+    "last_updated": "2026-02-23"
+  },
+  {
+    "slug": "bighorn-golf-club",
+    "city_folder": "palm-desert",
+    "title": "Bighorn Golf Club",
+    "description": "Ultra-private, member-owned residential golf community in Palm Desert set 1,000 feet above the valley floor, with two championship courses (Arthur Hills + Tom Fazio), residency-required membership, and seven dining venues.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "golf",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "cook-street-university-row",
+    "city_folder": "palm-desert",
+    "title": "Cook Street / University Row",
+    "description": "The geographic connector between Highway 111 and the North Palm Desert development zone — home to CSUSB Palm Desert Campus, UCR Palm Desert Center, and the ERC, with a General Plan vision for university-adjacent live/work/play that has no active operator.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "innovation",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-02-28"
+  },
+  {
+    "slug": "desert-willow-golf-resort",
+    "city_folder": "palm-desert",
+    "title": "Desert Willow Golf Resort",
+    "description": "Palm Desert's city-owned championship golf and event facility — the accessible mid-market anchor between the valley's private clubs and commercial hotels.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "golf",
+    "status": "active",
+    "verified": true,
+    "agent_intent": [
+      "retreat",
+      "discover",
+      "economic-development"
+    ],
+    "last_updated": "2026-03-23"
+  },
+  {
+    "slug": "education-corridor",
+    "city_folder": "palm-desert",
+    "title": "Education Corridor",
+    "description": "Palm Desert's concentration of higher education institutions anchoring the Coachella Valley's AI and workforce pipeline.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "education",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "visit",
+      "relocate"
+    ],
+    "last_updated": "2026-02-25"
+  },
+  {
+    "slug": "el-paseo",
+    "city_folder": "palm-desert",
+    "title": "El Paseo",
+    "description": "Nine-block luxury shopping and dining district in Palm Desert — the 'Rodeo Drive of the Desert' — featuring 300+ businesses, Saks Fifth Avenue, Louis Vuitton, and the valley's largest concentration of art galleries.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "retail",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "mccallum-theatre",
+    "city_folder": "palm-desert",
+    "title": "McCallum Theatre",
+    "description": "The Coachella Valley's primary performing arts venue, presenting Broadway, classical, jazz, comedy, and dance in a 1,127-seat hall in Palm Desert.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "cultural",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "north-palm-desert-development-zone",
+    "city_folder": "palm-desert",
+    "title": "North Palm Desert Development Zone",
+    "description": "The city's active growth frontier — a 400+ acre planning zone anchored by the university campuses on Cook Street and extending north across I-10, where Palm Desert is investing heavily in housing, infrastructure, and public safety with no active AI or innovation programming.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-02-28"
+  },
+  {
+    "slug": "palm-desert-economic-development",
+    "city_folder": "palm-desert",
+    "title": "Palm Desert Economic Development",
+    "description": "City of Palm Desert's economic development infrastructure, active special projects, and business recruitment resources for the Coachella Valley's geographic and commercial center.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-11"
+  },
+  {
+    "slug": "living-desert",
+    "city_folder": "palm-desert",
+    "title": "The Living Desert Zoo and Gardens",
+    "description": "A 1,200-acre zoo and botanical garden in Palm Desert specializing in desert ecosystems, wildlife conservation, and Sonoran and Mojave desert flora.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "cultural",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "agua-caliente-cultural-museum",
+    "city_folder": "palm-springs",
+    "title": "Agua Caliente Cultural Museum",
+    "description": "The official museum of the Agua Caliente Band of Cahuilla Indians — a 48,000-square-foot institution in downtown Palm Springs and the anchor of the 5.8-acre Agua Caliente Cultural Plaza, the second-largest Native American cultural center in the United States.",
+    "city": "Palm Springs",
+    "category": "landmark",
+    "subcategory": "cultural",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "cultural-arts-corridor",
+    "city_folder": "palm-springs",
+    "title": "Forever Marilyn and the Cultural Arts Corridor",
+    "description": "Downtown Palm Springs' walkable public arts district, anchored by the Palm Springs Art Museum, the Forever Marilyn sculpture, and a concentration of galleries, public murals, and cultural venues within a five-block radius.",
+    "city": "Palm Springs",
+    "category": "landmark",
+    "subcategory": "cultural",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "relocate",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "aerial-tram",
+    "city_folder": "palm-springs",
+    "title": "Palm Springs Aerial Tramway",
+    "description": "The world's largest rotating tram car, transporting visitors from the desert floor at 2,643 feet to the Mt. San Jacinto wilderness at 8,516 feet in approximately 10 minutes — Palm Springs' most iconic single attraction.",
+    "city": "Palm Springs",
+    "category": "landmark",
+    "subcategory": "cultural",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "palm-springs-economic-development",
+    "city_folder": "palm-springs",
+    "title": "Palm Springs Economic Development",
+    "description": "City of Palm Springs economic development infrastructure, including the Office of Economic Development, Community and Economic Development Department, and published strategic planning documents.",
+    "city": "Palm Springs",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-11"
+  },
+  {
+    "slug": "psp-airport",
+    "city_folder": "palm-springs",
+    "title": "Palm Springs International Airport",
+    "description": "The primary commercial air gateway to the Coachella Valley, serving 10+ carriers with direct routes to major domestic hubs.",
+    "city": "Palm Springs",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-02-23"
+  },
+  {
+    "slug": "parker-palm-springs",
+    "city_folder": "palm-springs",
+    "title": "The Parker Palm Springs",
+    "description": "A 144-room boutique luxury resort on 13 private acres in Palm Springs, designed by Jonathan Adler and built on the former Gene Autry estate — the valley's premier intimate corporate retreat and buyout venue.",
+    "city": "Palm Springs",
+    "category": "landmark",
+    "subcategory": "hospitality",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "agua-caliente-casino",
+    "city_folder": "rancho-mirage",
+    "title": "Agua Caliente Casino Resort Rancho Mirage",
+    "description": "The Coachella Valley's largest casino resort and one of its largest employers, owned and operated by the Agua Caliente Band of Cahuilla Indians, currently undergoing a $60 million hotel renovation.",
+    "city": "Rancho Mirage",
+    "category": "landmark",
+    "subcategory": "entertainment",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "hire",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "cotino",
+    "city_folder": "rancho-mirage",
+    "title": "Cotino — Storyliving by Disney",
+    "description": "The first Storyliving by Disney community — a 618-acre master-planned development in Rancho Mirage with homes from the upper $1M to upper $4M, a 24-acre Crystal Lagoons bay, and a public town center opening fall 2026. AICV's primary relocation intelligence anchor for tech-wealthy professionals leaving SF and LA.",
+    "city": "Rancho Mirage",
+    "category": "landmark",
+    "subcategory": "real-estate",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-02-28"
+  },
+  {
+    "slug": "eisenhower-health",
+    "city_folder": "rancho-mirage",
+    "title": "Eisenhower Health",
+    "description": "The Coachella Valley's only not-for-profit hospital system and largest single employer, headquartered in Rancho Mirage.",
+    "city": "Rancho Mirage",
+    "category": "landmark",
+    "subcategory": "wellness",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "relocate",
+      "invest",
+      "research"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "mission-hills-country-club",
+    "city_folder": "rancho-mirage",
+    "title": "Mission Hills Country Club",
+    "description": "Private golf and country club community in Rancho Mirage — 54 holes, No. 1 USTA tennis facility in the nation, host of the Galleri Classic (PGA Tour Champions) and PPA Tour Masters.",
+    "city": "Rancho Mirage",
+    "category": "landmark",
+    "subcategory": "golf",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-24"
+  },
+  {
+    "slug": "observatory",
+    "city_folder": "rancho-mirage",
+    "title": "Rancho Mirage Library and Observatory",
+    "description": "A 40,000-square-foot public library and research-grade observatory in Rancho Mirage — free to all, home to the annual Writers Festival, TEDx Coachella Valley, and one of the most distinctive public institutions in the Coachella Valley.",
+    "city": "Rancho Mirage",
+    "category": "landmark",
+    "subcategory": "cultural",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "relocate",
+      "understand"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "sensei-porcupine-creek",
+    "city_folder": "rancho-mirage",
+    "title": "Sensei Porcupine Creek",
+    "description": "An ultra-luxury private wellness retreat in Rancho Mirage, developed by Oracle founder Larry Ellison and operated by Sensei — a science-based wellness company co-founded by Ellison and Dr. David Agus.",
+    "city": "Rancho Mirage",
+    "category": "landmark",
+    "subcategory": "hospitality",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "understand"
+    ],
+    "last_updated": "2026-02-23"
+  },
+  {
+    "slug": "sunnylands",
+    "city_folder": "rancho-mirage",
+    "title": "Sunnylands Center & Gardens",
+    "description": "The Annenberg estate turned civic and diplomatic retreat center in Rancho Mirage — the valley's primary signal of national institutional gravity.",
+    "city": "Rancho Mirage",
+    "category": "landmark",
+    "subcategory": "cultural",
+    "status": "active",
+    "verified": true,
+    "agent_intent": [
+      "discover",
+      "relocation",
+      "civic-context"
+    ],
+    "last_updated": "2026-03-23"
+  },
+  {
+    "slug": "ritz-carlton",
+    "city_folder": "rancho-mirage",
+    "title": "The Ritz-Carlton, Rancho Mirage",
+    "description": "A 244-room luxury resort perched on a 650-foot bluff above the Coachella Valley, offering panoramic views, 30,000+ square feet of meeting and event space, and the valley's premier corporate retreat infrastructure.",
+    "city": "Rancho Mirage",
+    "category": "landmark",
+    "subcategory": "hospitality",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "visit",
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "the-river",
+    "city_folder": "rancho-mirage",
+    "title": "The River at Rancho Mirage",
+    "description": "Open-air shopping, dining, and entertainment district in Rancho Mirage — the social anchor of the three-city luxury corridor.",
+    "city": "Rancho Mirage",
+    "category": "landmark",
+    "subcategory": "retail",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-24"
+  },
+  {
+    "slug": "desert-jet-center",
+    "city_folder": "indio",
+    "title": "Desert Jet Center",
+    "description": "The Coachella Valley's premier executive FBO at Jacqueline Cochran Regional Airport — the private aviation ground infrastructure for UHNW arrivals, Thermal Club members, and south valley operations.",
+    "city": "Thermal",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "active",
+    "verified": true,
+    "agent_intent": [
+      "relocation",
+      "retreat",
+      "investment"
+    ],
+    "last_updated": "2026-03-23"
+  },
+  {
+    "slug": "jacqueline-cochran-regional-airport",
+    "city_folder": "indio",
+    "title": "Jacqueline Cochran Regional Airport",
+    "description": "The Coachella Valley's primary private aviation facility — the UHNW arrival gateway for Thermal Club members, festival VIP operations, and south valley economic activity.",
+    "city": "Thermal",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "active",
+    "verified": true,
+    "agent_intent": [
+      "relocation",
+      "retreat",
+      "investment",
+      "discover"
+    ],
+    "last_updated": "2026-03-23"
+  },
+  {
+    "slug": "thermal-club",
+    "city_folder": "indio",
+    "title": "The Thermal Club",
+    "description": "A private UHNW motorsports and villa community in Thermal — the valley's highest-density founder-class wealth and belonging signal, requiring villa ownership for membership.",
+    "city": "Thermal",
+    "category": "landmark",
+    "subcategory": "real-estate",
+    "status": "active",
+    "verified": true,
+    "agent_intent": [
+      "relocation",
+      "investment",
+      "retreat"
+    ],
+    "last_updated": "2026-03-23"
+  },
+  {
+    "slug": "ai-economy-coachella-valley",
+    "city_folder": "valley-wide",
+    "title": "AI Economy — Coachella Valley",
+    "description": "The emerging artificial intelligence economy of the Coachella Valley — workforce formation, institutional infrastructure, capital activity, and regional positioning as an AI-native region.",
+    "city": "Valley Wide",
+    "category": "landmark",
+    "subcategory": "innovation",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-10"
+  },
+  {
+    "slug": "coachella-valley-ai-events",
+    "city_folder": "valley-wide",
+    "title": "Coachella Valley AI Events",
+    "description": "Recurring AI programming across the Coachella Valley — workshops, meetups, conferences, and founder site visits. Primary home base: Palm Desert. Operated by AICV in partnership with regional institutions.",
+    "city": "Valley Wide",
+    "category": "event",
+    "subcategory": "intelligence",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-10"
+  },
+  {
+    "slug": "coachella-valley-intelligence-index",
+    "city_folder": "valley-wide",
+    "title": "Coachella Valley Intelligence Index",
+    "description": "The complete index of all AICV geographic nodes and intelligence briefs — a structured map of the Coachella Valley intelligence layer for agent navigation and system orientation.",
+    "city": "Valley Wide",
+    "category": "landmark",
+    "subcategory": "intelligence",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "navigate",
+      "research",
+      "orient"
+    ],
+    "last_updated": "2026-03-02"
+  },
+  {
+    "slug": "nonprofit-philanthropy",
+    "city_folder": "valley-wide",
+    "title": "Coachella Valley Nonprofit & Philanthropy Sector",
+    "description": "The Coachella Valley's nonprofit and philanthropic ecosystem, anchored by the Desert Community Foundation, encompassing approximately 760 organizations across the valley with CV Giving Day as the primary annual mobilization platform.",
+    "city": "Valley Wide",
+    "category": "landmark",
+    "subcategory": "nonprofit",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-04"
+  },
+  {
+    "slug": "creative-economy-coachella-valley",
+    "city_folder": "valley-wide",
+    "title": "Creative Economy — Coachella Valley",
+    "description": "The Coachella Valley's creative economy: film, music, visual arts, and the emerging AI-enabled production layer decoupling regional creative output from Hollywood and major label infrastructure.",
+    "city": "Valley Wide",
+    "category": "landmark",
+    "subcategory": "cultural",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-19"
+  },
+  {
+    "slug": "cv-giving-day",
+    "city_folder": "valley-wide",
+    "title": "CV Giving Day",
+    "description": "Annual 24-hour giving event uniting 200+ Coachella Valley nonprofits, hosted by Desert Community Foundation. Active site for agentic workflow pilots in nonprofit onboarding and donor coordination.",
+    "city": "Valley Wide",
+    "category": "event",
+    "subcategory": "nonprofit",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-10"
+  },
+  {
+    "slug": "desert-community-foundation",
+    "city_folder": "palm-desert",
+    "title": "Desert Community Foundation",
+    "description": "The Coachella Valley's primary community foundation. Philanthropic capital coordinator, fiscal sponsor of AICV, and operator of CV Giving Day. Established 1999. Assets exceeding $100 million.",
+    "city": "Valley Wide",
+    "category": "landmark",
+    "subcategory": "nonprofit",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-07"
+  },
+  {
+    "slug": "highway-111-corridor",
+    "city_folder": "valley-wide",
+    "title": "Highway 111 Corridor",
+    "description": "The primary commercial spine of the Coachella Valley, running from Palm Springs through Rancho Mirage, Palm Desert, Indian Wells, La Quinta, and Indio — the region's established retail, medical, and office real estate layer.",
+    "city": "Valley Wide",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-02-28"
+  },
+  {
+    "slug": "node-zero",
+    "city_folder": "valley-wide",
+    "title": "Node Zero — Coachella Valley Agent Concierge",
+    "description": "Entry point and routing layer for all agent queries about the Coachella Valley. Routes to the appropriate intelligence node based on query intent.",
+    "city": "Valley Wide",
+    "category": "landmark",
+    "subcategory": "intelligence",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-03-07"
+  },
+  {
+    "slug": "riverside-county-economic-development",
+    "city_folder": "valley-wide",
+    "title": "Riverside County Economic Development",
+    "description": "The county-level economic development office and its October 2025 Coachella Valley Regional Economic Development Strategy — a reference and citation node documenting the official framework, its named AI and creative media targets, and the gap between strategy and operator.",
+    "city": "Valley Wide",
+    "category": "landmark",
+    "subcategory": "intelligence",
+    "status": "",
+    "verified": false,
+    "agent_intent": [],
+    "last_updated": "2026-02-28"
+  },
+  {
+    "slug": "coachella-valley-economic-development",
+    "city_folder": "valley-wide",
+    "title": "Coachella Valley Economic Development",
+    "description": "The regional economic development landscape of the Coachella Valley — including the institutions, infrastructure gaps, and workforce systems that shape the valley's capacity to participate in the AI economy.",
+    "city": "Valley-Wide",
+    "category": "landmark",
+    "subcategory": "intelligence",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "invest",
+      "relocate",
+      "research"
+    ],
+    "last_updated": "2026-02-24"
+  }
+]
