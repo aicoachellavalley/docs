@@ -116,6 +116,39 @@ function buildNodes() {
   return nodes;
 }
 
+// --- Body section extractor ---
+// Extracts plain text content of a named ## section from MDX body.
+// Returns "" if the section is not found.
+function extractSection(content, sectionName) {
+  // Strip frontmatter first
+  const body = content.replace(/^---[\s\S]*?---\n/, '');
+
+  // Match from "## SectionName" to the next "##" heading (or end of file)
+  const pattern = new RegExp(
+    `##\\s+${sectionName}\\s*\\n([\\s\\S]*?)(?=\\n##\\s|$)`,
+    'i'
+  );
+  const match = body.match(pattern);
+  if (!match) return '';
+
+  let text = match[1];
+
+  // Strip markdown formatting
+  text = text
+    .replace(/\*\*(.+?)\*\*/g, '$1')   // bold
+    .replace(/\*(.+?)\*/g, '$1')         // italic
+    .replace(/`(.+?)`/g, '$1')           // inline code
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // links → label only
+    .replace(/^[-*+]\s+/gm, '')          // unordered list markers
+    .replace(/^\d+\.\s+/gm, '')          // ordered list markers
+    .replace(/^#+\s+/gm, '')             // any remaining headings
+    .replace(/\{\/\*.*?\*\/\}/gs, '')    // MDX comments
+    .replace(/\n{3,}/g, '\n\n')          // collapse extra blank lines
+    .trim();
+
+  return text;
+}
+
 // --- Build briefs.json ---
 function buildBriefs() {
   const files = walkMdx(BRIEFS_DIR);
@@ -134,7 +167,9 @@ function buildBriefs() {
       description: fm.description || '',
       date: fm.date || '',
       tags: Array.isArray(fm.tags) ? fm.tags : [],
-      signal: fm.signal || '',
+      signal: extractSection(content, 'Signal'),
+      agent_signal: extractSection(content, 'Agent Signal'),
+      context: extractSection(content, 'Context'),
     });
   }
 
