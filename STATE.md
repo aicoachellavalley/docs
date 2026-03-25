@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `f407da5` | IndexNow submission added to build script — 202 on first run, 4 URLs auto-notified |
+| docs (Mintlify) | `159a788` | llms.txt counts now auto-updated on every build script run |
 | homepage (aicoachellavalley.com) | `e0a5b6b` | stat-briefs updated to 113 |
 | org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
 
