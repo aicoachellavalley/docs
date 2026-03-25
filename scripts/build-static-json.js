@@ -95,6 +95,7 @@ function buildNodes() {
       city_folder: cityFolder,
       title: fm.title || '',
       description: fm.description || '',
+      agent_summary: fm.agent_summary || '',
       city: fm.city || '',
       category: fm.category || '',
       subcategory: fm.subcategory || '',
