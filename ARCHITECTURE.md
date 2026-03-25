@@ -119,3 +119,33 @@ Worker (`~/Projects/aicv-api/worker.js`) returns the raw Anthropic API response 
 4. Read `r.score` and derive grade client-side via `gradeFromScore()`
 
 **Never move JSON parsing or grade logic into the worker.** This was attempted March 18, 2026 and caused a cascade of response shape mismatches that broke the tool across multiple deploys. The client-side chain is battle-tested — leave it there.
+
+---
+
+## Agent Discoverability Layer
+
+AICV's core purpose is to be found and cited by AI agents. Every infrastructure decision must be evaluated against this. Lessons from March 24, 2026:
+
+**What was broken at launch and why:**
+- Mintlify uses JS rendering — agents fetching node/brief URLs got empty HTML shells
+- llms-full.txt stopped at Feb 2026, had zero node content — useless for agents
+- llms.txt had stale counts (33 nodes, 32 briefs vs actual 56/113)
+- No static machine-readable endpoints existed
+- MCP worker existed but had no autodiscovery path
+
+**What is now live:**
+- `agent.aicoachellavalley.com/nodes.json` — all nodes, flat JSON, no JS required
+- `agent.aicoachellavalley.com/briefs.json` — all briefs, flat JSON, no JS required
+- `agent.aicoachellavalley.com/.well-known/mcp.json` — MCP autodiscovery
+- Static files live at repo root (not public/) — confirmed working
+
+**Non-negotiable rules:**
+1. Run `node scripts/build-static-json.js` after every node or brief session. Commit both JSON files. Stale JSON = agents reading outdated data.
+2. Before any new Mintlify feature or plugin is added, verify it does not break static file serving at the repo root.
+3. Any new content type (beyond nodes and briefs) needs a corresponding static JSON endpoint before it's considered live.
+4. Test agent fetchability with a non-browser User-Agent before closing any infra session: `curl -A "python-requests/2.28" [URL] | head -c 200`
+
+**The three agent access paths — in order of reliability:**
+1. Static JSON endpoints (best — no JS, no bot check, one fetch)
+2. MCP worker via mcp.aicoachellavalley.com (best for structured queries)
+3. Web search → Google index → Mintlify page (weakest — JS rendering, indexing lag)

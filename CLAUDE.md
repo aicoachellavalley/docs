@@ -235,6 +235,12 @@ New entries always appended within the correct group — never restructure exist
 
 ---
 
+## Key Learnings
+
+- **Agent-readability is not automatic.** Mintlify renders via JS — agents fetching page URLs get empty shells. The static JSON endpoints (nodes.json, briefs.json at repo root) are the actual agent-readable layer. Run build-static-json.js after every content session. The MCP worker bypasses Mintlify entirely and is the preferred access path for structured agent queries.
+
+---
+
 ## Key Strategic Decisions (Do Not Revisit)
 
 - Agent-first architecture: primary audience is LLMs, secondary is humans
