@@ -93,10 +93,10 @@ GitHub integration has been attempted and fails — Cloudflare's UI loops withou
 
 ## Agent Discoverability Layer (added March 24, 2026)
 
-Static JSON endpoints now live in `public/` — served as static assets by Mintlify, no JS required:
-- `public/nodes.json` — all 56 nodes (frontmatter only, 30.6 KB)
-- `public/briefs.json` — all 113 briefs (frontmatter only, 63.3 KB)
-- `public/.well-known/mcp.json` — MCP server autodiscovery
+Static JSON endpoints live at repo root — Mintlify serves static files from repo root, not `public/`:
+- `nodes.json` — all 56 nodes (frontmatter only, 30.6 KB)
+- `briefs.json` — all 113 briefs (frontmatter only, 63.3 KB)
+- `.well-known/mcp.json` — MCP server autodiscovery
 - `scripts/build-static-json.js` — generator script (run from docs root to regenerate)
 
 `llms.txt` updated with static endpoint URLs and corrected counts (was: "33 nodes, 32 briefs").

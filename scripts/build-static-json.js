@@ -9,7 +9,7 @@ const path = require('path');
 const DOCS_ROOT = path.resolve(__dirname, '..');
 const NODES_DIR = path.join(DOCS_ROOT, 'nodes');
 const BRIEFS_DIR = path.join(DOCS_ROOT, 'intelligence-briefs');
-const PUBLIC_DIR = path.join(DOCS_ROOT, 'public');
+const PUBLIC_DIR = DOCS_ROOT; // Mintlify serves static files from repo root, not public/
 
 // --- Frontmatter parser (no external deps) ---
 function parseFrontmatter(content) {
