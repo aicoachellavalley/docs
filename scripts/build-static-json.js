@@ -187,7 +187,7 @@ function buildBriefs() {
 // Warns on missing required fields — does not block execution.
 // Node required fields: agent_summary, agent_intent, status, verified
 // Brief required fields (from 2026-02-23 onward): agent_signal
-const BRIEF_AGENT_SIGNAL_CUTOFF = '2026-02-23';
+const BRIEF_AGENT_SIGNAL_CUTOFF = '2026-03-01';
 
 function validate(nodes, briefs) {
   let warnings = 0;
