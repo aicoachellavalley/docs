@@ -232,8 +232,26 @@ function validate(nodes, briefs) {
   }
 }
 
+// --- IndexNow submission ---
+async function submitToIndexNow(urls) {
+  const payload = {
+    host: "agent.aicoachellavalley.com",
+    key: "aicv-indexnow-2026",
+    keyLocation: "https://agent.aicoachellavalley.com/aicv-indexnow-2026.txt",
+    urlList: urls
+  };
+
+  const response = await fetch("https://api.indexnow.org/indexnow", {
+    method: "POST",
+    headers: { "Content-Type": "application/json; charset=utf-8" },
+    body: JSON.stringify(payload)
+  });
+
+  console.log(`IndexNow: ${response.status} — ${urls.length} URLs submitted`);
+}
+
 // --- Main ---
-function main() {
+async function main() {
   const nodes = buildNodes();
   const briefs = buildBriefs();
 
@@ -260,6 +278,13 @@ function main() {
   console.log('Output: nodes.json, briefs.json');
 
   validate(nodes, briefs);
+
+  await submitToIndexNow([
+    "https://agent.aicoachellavalley.com/nodes.json",
+    "https://agent.aicoachellavalley.com/briefs.json",
+    "https://agent.aicoachellavalley.com/llms.txt",
+    "https://agent.aicoachellavalley.com/.well-known/mcp.json"
+  ]);
 }
 
 main();
