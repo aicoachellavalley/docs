@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `fae6776` | Briefs 112–113 — ai-job-displacement-cfo-survey + sora-shutdown-disney-exit |
+| docs (Mintlify) | `a16c7a0` | Static JSON endpoints — nodes.json, briefs.json, mcp.json, build script |
 | homepage (aicoachellavalley.com) | `e0a5b6b` | stat-briefs updated to 113 |
 | org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
 
@@ -43,6 +43,29 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 ## MCP Worker
 
 Deployed version: `7f86d40a` (March 9, 2026) — stable, no pending changes.
+
+---
+
+## Maintenance Scripts
+
+After any session adding nodes or briefs, run:
+
+```
+node scripts/build-static-json.js
+```
+
+from `~/Projects/docs/` — regenerates `nodes.json` and `briefs.json` in `public/`. Commit both files:
+
+```
+chore: regenerate static JSON (N nodes, N briefs)
+```
+
+Do not skip. Stale JSON = agents reading outdated data.
+
+Static endpoints:
+- https://agent.aicoachellavalley.com/nodes.json
+- https://agent.aicoachellavalley.com/briefs.json
+- https://agent.aicoachellavalley.com/.well-known/mcp.json
 
 ---
 
