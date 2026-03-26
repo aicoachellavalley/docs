@@ -42,7 +42,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 ## MCP Worker
 
-Deployed version: `7f86d40a` (March 9, 2026) — stable, no pending changes.
+Deployed version: `72483a7c` (March 26, 2026) — queryVenues optimized: 1 fetch (nodes.json) instead of 57 sequential MDX fetches.
 
 ---
 
