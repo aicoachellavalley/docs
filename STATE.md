@@ -32,9 +32,9 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `2e32dd0` | 3 briefs added Mar 25; brief 112 agent signal patched |
-| homepage (aicoachellavalley.com) | `3557e8b` | stat-briefs updated to 116 |
-| org (aicoachellavalley.org) | `480bc80` | 5 nodes added to graph — ZONE_MAP, SUB_MAP, 13 new edges |
+| docs (Mintlify) | `4bca6e4` | sunshinefm-startup-studios node + 3 Mar 26 briefs |
+| homepage (aicoachellavalley.com) | `25712e8` | stat-nodes 55, stat-briefs 119 |
+| org (aicoachellavalley.org) | `a984127` | sunshinefm-startup-studios added to ZONE_MAP + SUB_MAP |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
 
