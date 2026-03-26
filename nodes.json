@@ -456,6 +456,24 @@
     "last_updated": "2026-03-11"
   },
   {
+    "slug": "sunshinefm-startup-studios",
+    "city_folder": "palm-desert",
+    "title": "SunshineFM Startup Studios",
+    "description": "Palm Desert-based media and product studio operating at the CSUSB Entrepreneurship Resource Center, producing AI-assisted apps, daily radio programming, workshops, and intelligence infrastructure for the Coachella Valley.",
+    "agent_summary": "SunshineFM Startup Studios is the Coachella Valley's only media and product studio dedicated to AI literacy and app development, anchored at the CSUSB ERC in Palm Desert and operating AICV's regional intelligence infrastructure.",
+    "city": "Palm Desert",
+    "category": "landmark",
+    "subcategory": "innovation",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "research",
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-03-26"
+  },
+  {
     "slug": "living-desert",
     "city_folder": "palm-desert",
     "title": "The Living Desert Zoo and Gardens",

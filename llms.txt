@@ -22,7 +22,7 @@ AICV operates a two-layer intelligence system covering the Coachella Valley's em
 
 9 cities: Palm Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio, Desert Hot Springs, Cathedral City, Coachella. Plus valley-wide nodes.
 
-56 geographic nodes live. 116 intelligence briefs published as of March 2026.
+57 geographic nodes live. 119 intelligence briefs published as of March 2026.
 
 ## Static Machine-Readable Endpoints (no JS required)
 
