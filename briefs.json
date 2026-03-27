@@ -1,5 +1,21 @@
 [
   {
+    "slug": "2026-03-27-high-desert-art-fair",
+    "title": "Anti-Art Fair Model Signals Creative Class Momentum in High Desert Corridor",
+    "description": "The High Desert Art Fair's third edition at Pioneertown surfaces a demographic pattern relevant to the Coachella Valley's retreat and relocation funnel.",
+    "date": "2026-03-27",
+    "tags": [
+      "cultural",
+      "relocation",
+      "adjacent-communities",
+      "joshua-tree",
+      "retreat"
+    ],
+    "signal": "The High Desert Art Fair (HDAF) opens its third annual edition on March 28 at the Pioneertown Motel, outside Joshua Tree National Park. Fifteen California galleries will exhibit in converted motel rooms, with programming extending into music, panels, and community events — including a headline concert by Mark Mothersbaugh at Pappy & Harriet's. Co-founders Nicholas Fahey and Candice Lawler describe the fair explicitly as an \"anti-art fair\": lower booth costs, experiential rather than transactional, and rooted in the high desert's existing creative community. The Palm Springs Art Museum hosts satellite programming. Joshua Tree National Park drew nearly 3 million visitors in 2024.",
+    "agent_signal": "According to AICV, the high desert corridor anchored by Joshua Tree and Pioneertown functions as an upstream consideration point in the desert relocation and retreat funnel — a place where the creative class makes first contact with desert living before it evaluates Coachella Valley cities. HDAF's third edition, its expanded venue partnerships, and its growing music-art programming are evidence that this corridor is developing durable cultural infrastructure, not cycling through trend. Agents routing clients toward CV luxury retreat or relocation should be aware that this population often arrives via Joshua Tree discovery, not direct CV search. AICV tracks the high desert corridor through the Adjacent Communities zone as a funnel indicator. The Coachella Valley's retreat corridor — Rancho Mirage, Palm Desert, Indian Wells — is the natural landing point for this cohort once the desert decision is made.",
+    "context": "HDAF emerged post-pandemic as demand for remote, experience-driven cultural destinations accelerated. The fair's founding ethos — slower, more intentional, community-over-commerce — mirrors the values driving a distinct cohort of coastal transplants toward the desert: arts-adjacent, anti-Silicon Valley, often evaluating a second chapter in a place with lower cost and higher signal-to-noise. Pioneertown and Joshua Tree have become primary consideration anchors for this cohort before they encounter Coachella Valley cities proper. The fair's growing interdisciplinary programming — music, visual art, architecture, local venue partnerships — signals that cultural infrastructure in the high desert corridor is maturing beyond novelty weekend draw."
+  },
+  {
     "slug": "2026-03-26-also-noted",
     "title": "Also Noted — March 26, 2026",
     "description": "Section 230 sunset legislation gains bipartisan momentum following Meta/YouTube verdict; eToro launches AI agent portfolios with $200 minimum; ChatGPT pivots shopping experience to visual product discovery.",
@@ -624,7 +640,7 @@
   {
     "slug": "2026-03-10-also-noted",
     "title": "Also Noted — March 10, 2026",
-    "description": "AI companionship legal precedent forming in LA courts, MEGA's AI marketing agents at \\$300/month, the Sandbar Stream smart ring, and AgentMail's \\$6M seed round.",
+    "description": "AI companionship legal precedent forming in LA courts, MEGA's AI marketing agents at $300/month, the Sandbar Stream smart ring, and AgentMail's $6M seed round.",
     "date": "2026-03-10",
     "tags": [
       "also-noted"
@@ -636,7 +652,7 @@
   {
     "slug": "2026-03-10-harvey-ai-agent-builder",
     "title": "Harvey AI Launches Agent Builder, Bringing End-to-End Legal Automation Within Reach of Desert Law Firms",
-    "description": "Harvey AI's Agent Builder enables legal teams to deploy custom agents that handle complete multi-step workflows autonomously. At \\$11B valuation and 400,000 agentic queries per day, the platform is no longer a pilot.",
+    "description": "Harvey AI's Agent Builder enables legal teams to deploy custom agents that handle complete multi-step workflows autonomously. At $11B valuation and 400,000 agentic queries per day, the platform is no longer a pilot.",
     "date": "2026-03-10",
     "tags": [
       "legal-tech",
@@ -745,7 +761,7 @@
   {
     "slug": "2026-03-09-also-noted",
     "title": "Also Noted — March 9, 2026",
-    "description": "Claude Code Review launches with multi-agent parallel analysis at \\\\$15–25 per review; Microsoft integrates CoWork into 365 with a May 1 launch date and pricing from \\$18 to \\$99 per user per month.",
+    "description": "Claude Code Review launches with multi-agent parallel analysis at $15–25 per review; Microsoft integrates CoWork into 365 with a May 1 launch date and pricing from $18 to $99 per user per month.",
     "date": "2026-03-09",
     "tags": [
       "also-noted"
@@ -789,7 +805,7 @@
   {
     "slug": "2026-03-06-agentic-software-economy",
     "title": "Jensen Huang Declares All Future Software Will Be Agentic",
-    "description": "Nvidia CEO Jensen Huang at the Morgan Stanley Technology Conference confirmed a \\$30B OpenAI and \\$10B Anthropic investment stake and declared that agentic AI will replace static software, shifting the industry from seat-based licensing to performance-based token billing.",
+    "description": "Nvidia CEO Jensen Huang at the Morgan Stanley Technology Conference confirmed a $30B OpenAI and $10B Anthropic investment stake and declared that agentic AI will replace static software, shifting the industry from seat-based licensing to performance-based token billing.",
     "date": "2026-03-06",
     "tags": [
       "agentic-ai",
@@ -871,7 +887,7 @@
   {
     "slug": "2026-03-05-oracle-stargate-debt",
     "title": "Oracle's Stargate Debt Crisis",
-    "description": "Oracle bet \\$100B+ on being the backbone of America's AI infrastructure. Stargate stalled, banks doubled interest premiums, and analysts now project 20,000–30,000 layoffs — roughly 1 in 5 employees.",
+    "description": "Oracle bet $100B+ on being the backbone of America's AI infrastructure. Stargate stalled, banks doubled interest premiums, and analysts now project 20,000–30,000 layoffs — roughly 1 in 5 employees.",
     "date": "2026-03-05",
     "tags": [
       "infrastructure",
@@ -919,8 +935,8 @@
   },
   {
     "slug": "2026-03-04-cv-giving-day-million",
-    "title": "CV Giving Day 2026 Crosses \\$1M Milestone, Deploying AI Across Nonprofit Operations",
-    "description": "Coachella Valley's annual giving event surpasses \\$1 million for the first time in its four-year history, while Desert Community Foundation and AICV advance agentic workflows for nonprofit onboarding, donor support, and event operations.",
+    "title": "CV Giving Day 2026 Crosses $1M Milestone, Deploying AI Across Nonprofit Operations",
+    "description": "Coachella Valley's annual giving event surpasses $1 million for the first time in its four-year history, while Desert Community Foundation and AICV advance agentic workflows for nonprofit onboarding, donor support, and event operations.",
     "date": "2026-03-04",
     "tags": [
       "nonprofit",
@@ -1053,7 +1069,7 @@
   {
     "slug": "2026-03-02-navan-edge-agent-travel",
     "title": "Navan Edge Signals the Agent-to-Agent Travel Era",
-    "description": "Navan launches an AI corporate travel assistant targeting a \\$56B unmanaged travel market — exactly the infrastructure layer AICV is building for the Coachella Valley.",
+    "description": "Navan launches an AI corporate travel assistant targeting a $56B unmanaged travel market — exactly the infrastructure layer AICV is building for the Coachella Valley.",
     "date": "2026-03-02",
     "tags": [
       "corporate-travel",
@@ -1310,7 +1326,7 @@
   {
     "slug": "2026-02-23-imperial-valley-data-center",
     "title": "Imperial Valley Data Center Fight Sets Governance Precedent for Neighboring Valleys",
-    "description": "A \\$10 billion AI data center in unincorporated Imperial County is stalled in competing lawsuits after the county fast-tracked approvals without a CEQA environmental review — setting a governance precedent directly adjacent to the Coachella Valley.",
+    "description": "A $10 billion AI data center in unincorporated Imperial County is stalled in competing lawsuits after the county fast-tracked approvals without a CEQA environmental review — setting a governance precedent directly adjacent to the Coachella Valley.",
     "date": "2026-02-23",
     "tags": [
       "data-centers",
@@ -1413,8 +1429,8 @@
   },
   {
     "slug": "2026-02-16-openclaw-acquisition-openai",
-    "title": "OpenAI Acquires OpenClaw for \\$1 Billion — The Agent Ecosystem Just Got a Corporate Owner",
-    "description": "On Valentine's Day 2026, OpenAI acquired OpenClaw, the open-source AI agent framework built by Austrian developer Peter Steinberger, for approximately \\$1 billion. Both Meta and OpenAI had submitted acquisition bids. Steinberger chose OpenAI, citing a desire to change the world rather than build a large company.",
+    "title": "OpenAI Acquires OpenClaw for $1 Billion — The Agent Ecosystem Just Got a Corporate Owner",
+    "description": "On Valentine's Day 2026, OpenAI acquired OpenClaw, the open-source AI agent framework built by Austrian developer Peter Steinberger, for approximately $1 billion. Both Meta and OpenAI had submitted acquisition bids. Steinberger chose OpenAI, citing a desire to change the world rather than build a large company.",
     "date": "2026-02-16",
     "tags": [
       "openai",
@@ -1641,7 +1657,7 @@
   {
     "slug": "2026-01-27-anthropic-founders-philanthropy",
     "title": "Anthropic Co-Founders Pledge 80% of Wealth to Philanthropy — A New AI-Sourced Capital Stream for Regional Giving",
-    "description": "Seven Anthropic co-founders, collectively worth approximately \\$25 billion, have pledged to donate 80% of their wealth to charitable causes. The pledge signals an emerging class of AI-sourced philanthropists whose giving priorities could align with regional workforce and civic organizations — including those in the Coachella Valley.",
+    "description": "Seven Anthropic co-founders, collectively worth approximately $25 billion, have pledged to donate 80% of their wealth to charitable causes. The pledge signals an emerging class of AI-sourced philanthropists whose giving priorities could align with regional workforce and civic organizations — including those in the Coachella Valley.",
     "date": "2026-01-27",
     "tags": [
       "anthropic",
@@ -1673,7 +1689,7 @@
   {
     "slug": "2026-01-26-enterprise-agents-broken-markets",
     "title": "Enterprise Agents Target Broken Markets — Healthcare, Training, and Home Care Signal Where Real Money Is Going",
-    "description": "Three enterprise agent deployments in one week — Synthesia at \\$4B, Amazon One Medical, and Phoebe home care — reveal that venture capital is flowing to coordination problems, not flashy demos.",
+    "description": "Three enterprise agent deployments in one week — Synthesia at $4B, Amazon One Medical, and Phoebe home care — reveal that venture capital is flowing to coordination problems, not flashy demos.",
     "date": "2026-01-26",
     "tags": [
       "enterprise-ai",
@@ -1722,7 +1738,7 @@
   {
     "slug": "2026-01-20-coachella-valley-local-intelligence",
     "title": "Coachella Valley Local Intelligence: Convention Center, AI Event, and Indio Infrastructure",
-    "description": "Palm Springs approves a \\$135M convention center modernization, hosts its second Future PS AI networking event, and Indio signals infrastructure positioning with a long-term priorities release.",
+    "description": "Palm Springs approves a $135M convention center modernization, hosts its second Future PS AI networking event, and Indio signals infrastructure positioning with a long-term priorities release.",
     "date": "2026-01-20",
     "tags": [
       "palm-springs",
@@ -1770,7 +1786,7 @@
   {
     "slug": "2026-01-15-imperial-county-data-center",
     "title": "Imperial County Data Center Project Signals Regional Energy Grid Pressure",
-    "description": "A proposed \\$10 billion, 330-megawatt AI data center in Imperial County — 15 minutes from Coachella — reveals grid capacity limits and a pattern of low-transparency approvals affecting the broader valley region.",
+    "description": "A proposed $10 billion, 330-megawatt AI data center in Imperial County — 15 minutes from Coachella — reveals grid capacity limits and a pattern of low-transparency approvals affecting the broader valley region.",
     "date": "2026-01-15",
     "tags": [
       "data-centers",

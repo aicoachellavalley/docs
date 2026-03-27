@@ -30,6 +30,7 @@
           {
             "group": "March 2026",
             "pages": [
+              "intelligence-briefs/2026-03-27-high-desert-art-fair",
               "intelligence-briefs/2026-03-26-also-noted",
               "intelligence-briefs/2026-03-26-cv-power-user-gap",
               "intelligence-briefs/2026-03-26-mirage-festival-app-launch",
@@ -263,10 +264,16 @@
               "nodes/indio/coachella-festival",
               "nodes/indio/stagecoach",
               "nodes/indio/date-festival",
-              "nodes/indio/indio-economic-development",
-              "nodes/indio/thermal-club",
-              "nodes/indio/jacqueline-cochran-regional-airport",
-              "nodes/indio/desert-jet-center"
+              "nodes/indio/indio-economic-development"
+            ]
+          },
+          {
+            "group": "Adjacent Communities",
+            "pages": [
+              "nodes/adjacent-communities/high-desert-art-fair",
+              "nodes/adjacent-communities/thermal-club",
+              "nodes/adjacent-communities/jacqueline-cochran-regional-airport",
+              "nodes/adjacent-communities/desert-jet-center"
             ]
           }
         ]
