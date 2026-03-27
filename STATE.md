@@ -4,17 +4,17 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 26, 2026)
+## Live Counts (as of March 27, 2026)
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 58 |
-| Intelligence briefs live | 119 |
-| `stat-briefs` fallback (homepage) | 119 |
+| Nodes live | 59 |
+| Intelligence briefs live | 120 |
+| `stat-briefs` fallback (homepage) | 120 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 69 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026)
 
-**Nodes:** 57 across 9 cities — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 59 across 10 zones — 57 on v2 schema; 2 new adjacent-communities nodes on v2 schema.
 
 ---
 
@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `3cf561a` | Startup Studios related nodes + Rancho Mirage Econ Dev + session patches |
+| docs (Mintlify) | `9fcf524` | Adjacent Communities zone + node-zero What It Is update |
 | homepage (aicoachellavalley.com) | `96fafdb` | stat-nodes 58, stat-briefs 119 |
 | org (aicoachellavalley.org) | `160eac1` | ZONE_MAP/SUB_MAP updated for session nodes |
 
@@ -129,3 +129,4 @@ After every session that adds content:
 4. Update active month group if the month has rolled over
 5. Update last commit hash for affected repo
 6. Check off or remove completed pending items
+
