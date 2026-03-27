@@ -8,9 +8,9 @@ Read this at the start of every session before any content operation. Update at 
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 57 |
+| Nodes live | 58 |
 | Intelligence briefs live | 119 |
-| `stat-briefs` fallback (homepage) | 116 |
+| `stat-briefs` fallback (homepage) | 119 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 69 (Mar 2026)
 
@@ -32,9 +32,9 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `4bca6e4` | sunshinefm-startup-studios node + 3 Mar 26 briefs |
-| homepage (aicoachellavalley.com) | `25712e8` | stat-nodes 55, stat-briefs 119 |
-| org (aicoachellavalley.org) | `a984127` | sunshinefm-startup-studios added to ZONE_MAP + SUB_MAP |
+| docs (Mintlify) | `3cf561a` | Startup Studios related nodes + Rancho Mirage Econ Dev + session patches |
+| homepage (aicoachellavalley.com) | `96fafdb` | stat-nodes 58, stat-briefs 119 |
+| org (aicoachellavalley.org) | `160eac1` | ZONE_MAP/SUB_MAP updated for session nodes |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
 
@@ -114,6 +114,7 @@ Regenerate JSON files after adding new nodes or briefs: `node scripts/build-stat
 - [ ] Monitor for first LLM citation (crawler signposting + llms.txt in place)
 - [ ] SunshineFM newsletter cadence resumption on Beehiiv
 - [ ] Mobile mailto test for `sat@aicv.co` CTA (desktop issue is unconfigured mail client — test on iPhone)
+- [ ] Monthly node freshness audit — surface nodes where last_updated is 90+ days old; review one by one, human-verified before any commits
 - [x] DCF repo move: `git mv nodes/valley-wide/desert-community-foundation.mdx nodes/palm-desert/` + docs.json nav update — done `7cbabef`
 - [x] PSP Airport node content: add drive times table to Key Facts section — done `57d2300`
 
