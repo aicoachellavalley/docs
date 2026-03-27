@@ -103,6 +103,17 @@ Never overwrite `index.html` from an external file without diffing first.
 
 ---
 
+## Pre-commit Hook — docs repo
+
+A pre-commit hook is installed at `~/Projects/docs/.git/hooks/pre-commit`.
+It blocks commits where intelligence-briefs frontmatter contains escaped dollar
+signs (`\$`) in title or description fields. The hook is not git-tracked (lives
+in `.git/hooks/`, never committed). If the repo is cloned fresh or work moves
+to a new machine, recreate it from the hook script in CLAUDE.md session notes
+from March 26, 2026.
+
+---
+
 ## Periodic Maintenance
 
 - Node audit: run subcategory and schema audit every 20 nodes or annually — check for missing subcategory values, taxonomy drift, and v2 field compliance. Use the recon prompt from the March 7, 2026 session.
