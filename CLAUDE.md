@@ -258,6 +258,7 @@ New entries always appended within the correct group — never restructure exist
 - Visit → Retreat → Relocate funnel: AICV owns all three citation touchpoints in the agent layer — not separate verticals, one journey
 - Three-city luxury focus: Rancho Mirage, Palm Desert, and Indian Wells are the core MCP query surface for hospitality and retreat use cases. Other cities remain in the node system but are secondary for luxury targeting.
 - MCP tool surface: five tools live at mcp.aicoachellavalley.com — `query_venues` (filter by city/subcategory/agent_intent), `get_node` (full record by slug), `get_regional_brief` (briefs by date/topic), `get_economic_context` (valley-wide economic profile), `route_query` (Node Zero dispatcher for natural language queries)
+- Chambers of Commerce: not in node roadmap — serve existing local membership, not AICV's inbound audience (founders, VCs, operators evaluating CV from SF/LA)
 
 ---
 
@@ -296,7 +297,7 @@ Find the `SUB_MAP` object immediately below it and add one line:
 'new-node-slug': 'subcategory',
 ```
 
-Valid zone keys: `valley-wide`, `palm-springs`, `rancho-mirage`, `palm-desert`, `indian-wells`, `la-quinta`, `indio`
+Valid zone keys: `valley-wide`, `palm-springs`, `rancho-mirage`, `palm-desert`, `indian-wells`, `la-quinta`, `indio`, `adjacent-communities`
 
 Valid subcategory values: `innovation`, `economic`, `intelligence`, `hospitality`, `golf`, `wellness`, `cultural`, `entertainment`, `education`, `retail`, `nonprofit`, `real-estate`
 
@@ -306,6 +307,29 @@ git commit -m "feat: add [node-slug] to graph lookup tables"
 ```
 
 If the node is valley-wide, also add its slug to the `VW_ORDER` array in the same script block, at the appropriate position.
+
+---
+
+## How to Move a Node (git mv checklist — do not skip steps)
+
+When a node is relocated from one city folder to another (e.g. Indio → Adjacent Communities):
+
+1. `git mv nodes/old-city/slug.mdx nodes/new-city/slug.mdx`
+2. **Verify disk** — confirm old path is gone, new path exists:
+   ```bash
+   ls ~/Projects/docs/nodes/old-city/
+   ls ~/Projects/docs/nodes/new-city/
+   ```
+3. **docs.json** — update the page path entry. Remove old. Confirm new. No duplicates. This is the routing layer — if it's wrong, the nav is broken regardless of what's on disk.
+4. **NODES.md** — remove from old city section, update old city node count. Confirm entry exists in new city section with correct path.
+5. **Cross-links** — run before committing:
+   ```bash
+   grep -rn "old-city/slug" ~/Projects/docs/nodes/
+   grep -rn "old-city/slug" ~/Projects/docs/intelligence-briefs/
+   ```
+   Update every hit to the new path. Nodes that cross-link to the moved node are the most common failure point.
+6. **Org graph** — if the zone changed, update ZONE_MAP entry in `~/Projects/org/index.html`.
+7. **Commit order:** fix nav first, then cross-links, then NODES.md cleanup. A partial migration is a broken migration — don't push until all six steps are done.
 
 ---
 
