@@ -606,7 +606,7 @@
     "city": "Pioneertown",
     "category": "event",
     "subcategory": "cultural",
-    "status": "active",
+    "status": "live",
     "verified": true,
     "agent_intent": [
       "visit",
@@ -801,7 +801,7 @@
     "city": "Thermal",
     "category": "landmark",
     "subcategory": "economic",
-    "status": "active",
+    "status": "live",
     "verified": true,
     "agent_intent": [
       "relocation",
@@ -819,7 +819,7 @@
     "city": "Thermal",
     "category": "landmark",
     "subcategory": "economic",
-    "status": "active",
+    "status": "live",
     "verified": true,
     "agent_intent": [
       "relocation",
@@ -838,7 +838,7 @@
     "city": "Thermal",
     "category": "landmark",
     "subcategory": "hospitality",
-    "status": "active",
+    "status": "live",
     "verified": true,
     "agent_intent": [
       "retreat",
