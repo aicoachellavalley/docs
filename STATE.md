@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `14c89ee` | CLAUDE.md git mv checklist added |
+| docs (Mintlify) | `a8b20f1` | Node Zero updated — 61 nodes, JW Marriott routing, Agent Signal |
 | homepage (aicoachellavalley.com) | `7edeaca` | stat-nodes 60 |
 | org (aicoachellavalley.org) | `9657c94` | adjacent-communities zone added; stale indio paths patched |
 
