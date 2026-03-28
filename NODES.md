@@ -90,7 +90,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 26 | Old Town La Quinta | nodes/la-quinta/old-town-la-quinta.mdx | ✅ Live |
 | 48 | La Quinta Economic Development | nodes/la-quinta/la-quinta-economic-development.mdx | ✅ Live |
 
-## Indio (8 nodes)
+## Indio (5 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -99,9 +99,6 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 29 | Stagecoach Country Music Festival | nodes/indio/stagecoach.mdx | ✅ Live |
 | 30 | National Date Festival + Date Economy | nodes/indio/date-festival.mdx | ✅ Live |
 | 49 | Indio Economic Development | nodes/indio/indio-economic-development.mdx | ✅ Live |
-| 52 | The Thermal Club | nodes/indio/thermal-club.mdx | ✅ Live |
-| 53 | Jacqueline Cochran Regional Airport | nodes/indio/jacqueline-cochran-regional-airport.mdx | ✅ Live |
-| 54 | Desert Jet Center | nodes/indio/desert-jet-center.mdx | ✅ Live |
 
 ## Indio Context (Important)
 
