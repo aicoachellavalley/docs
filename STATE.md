@@ -4,17 +4,17 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 27, 2026)
+## Live Counts (as of March 28, 2026)
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 59 |
+| Nodes live | 60 |
 | Intelligence briefs live | 120 |
 | `stat-briefs` fallback (homepage) | 120 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026)
 
-**Nodes:** 59 across 10 zones — 57 on v2 schema; 2 new adjacent-communities nodes on v2 schema.
+**Nodes:** 60 across 10 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 
@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `9fcf524` | Adjacent Communities zone + node-zero What It Is update |
+| docs (Mintlify) | `4f61d41` | node 60 (ai-startup-activity), 12 circuit patches, static JSON rebuilt — 60 nodes clean |
 | homepage (aicoachellavalley.com) | `96fafdb` | stat-nodes 58, stat-briefs 119 |
 | org (aicoachellavalley.org) | `160eac1` | ZONE_MAP/SUB_MAP updated for session nodes |
 
