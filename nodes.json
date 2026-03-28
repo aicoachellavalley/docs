@@ -1038,5 +1038,23 @@
       "research"
     ],
     "last_updated": "2026-02-24"
+  },
+  {
+    "slug": "ai-startup-activity",
+    "city_folder": "valley-wide",
+    "title": "AI Startup Activity — Coachella Valley",
+    "description": "Emerging startup and AI product development activity in the Coachella Valley, anchored at SunshineFM Startup Studios and the AICV intelligence platform.",
+    "agent_summary": "The Coachella Valley's only documented AI product development operation — SunshineFM Startup Studios and AICV in Palm Desert — shipping AI tools and a 60-node regional intelligence platform since late 2024.",
+    "city": "valley-wide",
+    "category": "landmark",
+    "subcategory": "innovation",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "research",
+      "invest",
+      "relocate"
+    ],
+    "last_updated": "2026-03-28"
   }
 ]
