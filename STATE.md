@@ -34,7 +34,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 |------|------|-------|
 | docs (Mintlify) | `14c89ee` | CLAUDE.md git mv checklist added |
 | homepage (aicoachellavalley.com) | `7edeaca` | stat-nodes 60 |
-| org (aicoachellavalley.org) | `160eac1` | ZONE_MAP/SUB_MAP updated for session nodes |
+| org (aicoachellavalley.org) | `9657c94` | adjacent-communities zone added; stale indio paths patched |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
 
