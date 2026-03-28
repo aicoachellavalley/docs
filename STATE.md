@@ -32,8 +32,8 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `4f61d41` | node 60 (ai-startup-activity), 12 circuit patches, static JSON rebuilt — 60 nodes clean |
-| homepage (aicoachellavalley.com) | `96fafdb` | stat-nodes 58, stat-briefs 119 |
+| docs (Mintlify) | `14c89ee` | CLAUDE.md git mv checklist added |
+| homepage (aicoachellavalley.com) | `7edeaca` | stat-nodes 60 |
 | org (aicoachellavalley.org) | `160eac1` | ZONE_MAP/SUB_MAP updated for session nodes |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
