@@ -8,13 +8,13 @@ Read this at the start of every session before any content operation. Update at 
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 60 |
+| Nodes live | 61 |
 | Intelligence briefs live | 120 |
 | `stat-briefs` fallback (homepage) | 120 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026)
 
-**Nodes:** 60 across 10 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 61 across 10 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 

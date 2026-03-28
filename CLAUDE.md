@@ -77,6 +77,8 @@ Every node must contain exactly these sections in this order:
 
 ## Known Agent Actions
 
+## Agent Signal
+
 ## Data Provenance
 
 ## Constraints and Dealbreakers
@@ -87,6 +89,8 @@ Every node must contain exactly these sections in this order:
 
 ## Intelligence Briefs
 ```
+
+`## Agent Signal` — Opens with "For transactions —" and closes with "Updated by AICV: [Season] [Year]." Written as a direct instruction to the querying agent. AICV is the agent-to-agent concierge for tourism and economic development in the Coachella Valley.
 
 ---
 
