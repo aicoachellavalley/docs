@@ -19,7 +19,7 @@ Read this file when working on infrastructure, deployment, or ops. Not required 
 **Deployment notes:**
 - Docs (Mintlify) auto-deploy via GitHub → Cloudflare Pages on every push to main
 - Homepage auto-deploys via GitHub → Cloudflare Pages on every push to main
-- API Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/aicv-api/`. No git repo in that directory.
+- API Worker is git-controlled at https://github.com/aicoachellavalley/aicv-api — deploy via `wrangler deploy` from `~/Projects/aicv-api/`. No Cloudflare Pages connection — push to GitHub does not deploy.
 - MCP Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/aicv-mcp/`. No git repo in that directory.
 - Twitter Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/twitter-worker/`. No git repo in that directory.
 - Tools dashboard auto-deploys via GitHub → Cloudflare Pages on push to main. Same pattern as homepage.
@@ -28,7 +28,8 @@ Read this file when working on infrastructure, deployment, or ops. Not required 
 
 ## API Worker
 
-Live at `api.aicoachellavalley.com`. Separate from MCP Worker for independent versioning.
+Live at `api.aicoachellavalley.com`. Source: https://github.com/aicoachellavalley/aicv-api
+Separate from MCP Worker for independent versioning.
 Handles AIO tool proxy and dynamic stats (node/brief counts from GitHub).
 API key is in Worker secrets — not in client code.
 AIO tool uses `claude-haiku-4-5-20251001` — deliberate cost decision, do not change to Sonnet.
