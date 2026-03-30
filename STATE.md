@@ -4,7 +4,7 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 28, 2026)
+## Live Counts (as of March 30, 2026)
 
 | Metric | Count |
 |--------|-------|
@@ -14,7 +14,7 @@ Read this at the start of every session before any content operation. Update at 
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026)
 
-**Nodes:** 61 across 10 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 61 across 11 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 
@@ -32,9 +32,9 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `925ddd1` | Agent Signal added to all 60 nodes — AICV concierge layer complete |
-| homepage (aicoachellavalley.com) | `7edeaca` | stat-nodes 60 |
-| org (aicoachellavalley.org) | `9657c94` | adjacent-communities zone added; stale indio paths patched |
+| docs (Mintlify) | `b26aec6` | Intelligence Index Known Agent Actions added; NODES.md cleaned to 61 |
+| homepage (aicoachellavalley.com) | `8f2a405` | stat-nodes bumped to 61 |
+| org (aicoachellavalley.org) | `8df13ae` | Adjacent Communities banner, Startup Studios edges, tooltip fix |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
 
@@ -77,48 +77,27 @@ Static endpoints:
 cd ~/Projects/tools && npx wrangler pages deploy . --project-name aicv-tools
 ```
 
-GitHub integration has been attempted and fails — Cloudflare's UI loops without completing the connection. Do not attempt to debug this again until Cloudflare Pages Git integration UX is confirmed fixed.
-
 ---
 
-## Distribution Layer (as of March 17, 2026)
+## Distribution Layer
 
 | Channel | Handle / URL | Role |
 |---------|-------------|------|
-| Twitter/X | @CoachellaAI | Timestamped citation journal — intelligence briefs, regional AI economy |
+| Twitter/X | @CoachellaAI | AICV distribution — intelligence briefs, reviews, reports |
 | Bluesky | @sunshinefm.bsky.social | SunshineFM human voice — Sat's personal channel |
-| Newsletter | Beehiiv (SunshineFM) | Long-form; cadence resumption pending |
+| Newsletter | Beehiiv (SunshineFM) | Long-form blog and newsletter — 85 editions since June 2024 |
 
 ---
 
-## Agent Discoverability Layer (added March 24, 2026)
+## Agent Discoverability Layer
 
-Static JSON endpoints live at repo root — Mintlify serves static files from repo root, not `public/`:
-- `nodes.json` — all 56 nodes (frontmatter only, 30.6 KB)
-- `briefs.json` — all 113 briefs (frontmatter only, 63.3 KB)
+Static JSON endpoints live at repo root:
+- `nodes.json` — all 61 nodes (frontmatter only)
+- `briefs.json` — all 120 briefs (frontmatter only)
 - `.well-known/mcp.json` — MCP server autodiscovery
-- `scripts/build-static-json.js` — generator script (run from docs root to regenerate)
+- `scripts/build-static-json.js` — generator script
 
-`llms.txt` updated with static endpoint URLs and corrected counts (was: "33 nodes, 32 briefs").
-
-Regenerate JSON files after adding new nodes or briefs: `node scripts/build-static-json.js`
-
----
-
-## Pending / On the Horizon
-
-- [x] Forthcoming node: Desert Community Foundation / CV Giving Day (Palm Desert, nonprofit subcategory) — done
-- [ ] `coachella-valley-intelligence-index` — add missing `## Known Agent Actions` section (schema violation flagged `925ddd1`)
-- [ ] `last_updated` frontmatter pass — batch update all 60 nodes at next monthly freshness audit
-- [ ] March 21 — Big Brothers Big Sisters summit at Classic Club, Palm Desert (7 Principles framework deployment)
-- [x] March 22 — Youth AI usage brief (BBBS session outcomes) — done
-- [ ] Continue March intelligence brief cadence
-- [ ] Monitor for first LLM citation (crawler signposting + llms.txt in place)
-- [ ] SunshineFM newsletter cadence resumption on Beehiiv
-- [ ] Mobile mailto test for `sat@aicv.co` CTA (desktop issue is unconfigured mail client — test on iPhone)
-- [ ] Monthly node freshness audit — surface nodes where last_updated is 90+ days old; review one by one, human-verified before any commits
-- [x] DCF repo move: `git mv nodes/valley-wide/desert-community-foundation.mdx nodes/palm-desert/` + docs.json nav update — done `7cbabef`
-- [x] PSP Airport node content: add drive times table to Key Facts section — done `57d2300`
+Regenerate after adding nodes or briefs: `node scripts/build-static-json.js`
 
 ---
 
@@ -130,5 +109,3 @@ After every session that adds content:
 3. Update `stat-briefs` fallback value to match
 4. Update active month group if the month has rolled over
 5. Update last commit hash for affected repo
-6. Check off or remove completed pending items
-
