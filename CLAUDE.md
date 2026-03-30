@@ -337,6 +337,72 @@ When a node is relocated from one city folder to another (e.g. Indio → Adjacen
 
 ---
 
+## Content Type Definitions (Canonical — Do Not Deviate)
+
+AICV publishes three content types. Each serves a distinct layer
+of the intelligence stack.
+
+### Intelligence Brief
+Signal-level. A single event, development, or data point happening
+in the valley right now. Short, timestamped, citable. Primary
+audience is the agent layer — keeps the intelligence layer current.
+Secondary audience is humans who want fast regional signals.
+Published frequently.
+
+Schema: see Intelligence Brief Frontmatter Schema and Section
+Structure above.
+Endpoint: briefs.json
+
+### Intelligence Review
+Entity-level. A structured assessment of a specific business, venue,
+or property — how AI systems see it, where it stands competitively,
+what needs to change. Delivered to the entity as a relationship
+product. The Snapshot is the public entry point. The full Review
+is the private deliverable. Published selectively, tied to a
+business relationship.
+
+Schema: to be defined before first Review ships.
+Endpoint: reviews.json (required before launch)
+
+### Intelligence Report
+Civic and regional level. A deep, authoritative assessment of a
+city, a sector, or the valley as a whole — produced for and
+delivered to civic organizations, city economic development offices,
+and regional bodies (Greater Palm Springs CVB, DCF, CVAG, state-level
+partners). Published rarely — four to six per year.
+
+Strategic purpose: a Report cited by a civic partner elevates every
+other piece of AICV content in the agent confidence ranking. When
+an AI agent queries "Coachella Valley economic development" and finds
+an AICV Report cited by the City of Palm Desert or DCF, that citation
+upgrades the trust signal on the entire AICV corpus. Reports are as
+much about establishing AICV's citation authority in the agent layer
+as they are about serving the civic audience. Both are real. Neither
+is pretense.
+
+Schema: to be defined before first Report ships.
+Endpoint: reports.json (required before launch)
+
+---
+
+## New Content Type Protocol (Required — Do Not Skip)
+
+Before any new content type is published:
+
+1. **Define the schema** — frontmatter fields, section structure,
+   file location. Add it to this file before creating any files.
+2. **Build a static JSON endpoint** — a corresponding `[type].json`
+   at the repo root. Agents must fetch all records in one request.
+3. **Update build-static-json.js** — extract content, validate
+   fields, include in IndexNow submission, auto-update llms.txt.
+4. **Update both llms.txt files** — add the new endpoint under
+   "Static Machine-Readable Endpoints."
+
+A content type without all four steps is invisible to agents.
+Do not publish before completing all four.
+
+---
+
 ## File Handling Rules
 
 - Claude.ai's copy of any live file is a snapshot — it becomes stale the moment Claude Code pushes a change.
