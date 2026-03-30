@@ -2,9 +2,9 @@
 
 ## Overview
 
-60 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+61 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
-NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 23, 2026.
+NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 30, 2026.
 
 ## Node Zero (Valley-Wide Entry Point)
 
@@ -54,7 +54,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 11 | Sensei Porcupine Creek | nodes/rancho-mirage/sensei-porcupine-creek.mdx | ✅ Live |
 | 50 | Sunnylands Center & Gardens | nodes/rancho-mirage/sunnylands.mdx | ✅ Live |
 
-## Palm Desert (10 nodes)
+## Palm Desert (11 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -68,6 +68,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 38 | North Palm Desert Development Zone | nodes/palm-desert/north-palm-desert-development-zone.mdx | ✅ Live |
 | 46 | Palm Desert Economic Development | nodes/palm-desert/palm-desert-economic-development.mdx | ✅ Live |
 | 51 | Desert Willow Golf Resort | nodes/palm-desert/desert-willow-golf-resort.mdx | ✅ Live |
+| 61 | JW Marriott Desert Springs Resort & Spa | nodes/palm-desert/jw-marriott-desert-springs.mdx | ✅ Live |
 
 ## Indian Wells (6 nodes)
 
@@ -128,6 +129,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 60 (including Node Zero)
+- Total live: 61 (including Node Zero)
 - Forthcoming: 0 signaled
 - Valley Wide path: nodes/valley-wide/
