@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `a8b20f1` | Node Zero updated — 61 nodes, JW Marriott routing, Agent Signal |
+| docs (Mintlify) | `925ddd1` | Agent Signal added to all 60 nodes — AICV concierge layer complete |
 | homepage (aicoachellavalley.com) | `7edeaca` | stat-nodes 60 |
 | org (aicoachellavalley.org) | `9657c94` | adjacent-communities zone added; stale indio paths patched |
 
@@ -107,7 +107,9 @@ Regenerate JSON files after adding new nodes or briefs: `node scripts/build-stat
 
 ## Pending / On the Horizon
 
-- [ ] Forthcoming node: Desert Community Foundation / CV Giving Day (Palm Desert, nonprofit subcategory)
+- [x] Forthcoming node: Desert Community Foundation / CV Giving Day (Palm Desert, nonprofit subcategory) — done
+- [ ] `coachella-valley-intelligence-index` — add missing `## Known Agent Actions` section (schema violation flagged `925ddd1`)
+- [ ] `last_updated` frontmatter pass — batch update all 60 nodes at next monthly freshness audit
 - [ ] March 21 — Big Brothers Big Sisters summit at Classic Club, Palm Desert (7 Principles framework deployment)
 - [x] March 22 — Youth AI usage brief (BBBS session outcomes) — done
 - [ ] Continue March intelligence brief cadence
