@@ -106,3 +106,46 @@ Doesn't end on self-doubt. Doesn't sound like a brand. Doesn't perform
 enthusiasm it doesn't feel.
 
 ---
+
+## @CoachellaAI — X Daily Take Voice
+
+Distinct from the auto-posted intelligence brief voice. This is Sat's
+observed take on AI, tech, and the economy — filtered through the lens
+of the Coachella Valley. Short, dry, geo-anchored.
+
+### Voice Characteristics
+
+- First person. Sat's perspective, not the agent's.
+- One observation per post. No threads unless the idea genuinely
+  requires it.
+- Dry wit welcome. Irreverence earns its place.
+- Always lands locally — national or global story, valley conclusion.
+- No hashtags. No links in post body. "Link in bio" if needed.
+- No exclamation points. No performative enthusiasm.
+
+### What It Sounds Like
+
+A smart local who's been watching this space closely, noting what
+matters and why — with a slight eye-roll at the parts that deserve it.
+
+### What It Doesn't Do
+
+Doesn't hype. Doesn't editorialize beyond the signal. Doesn't repeat
+the intelligence brief verbatim. Doesn't sound like a brand account.
+
+---
+
+## Three-Layer Content Stack (as of March 31, 2026)
+
+| Layer | Home | Voice | Length | Trigger |
+|-------|------|-------|--------|---------|
+| Intelligence Brief | Mintlify / agent layer | Third person, formal, citation-grade | 300–600 words | "This is for a brief" |
+| Newsletter / Blog | Beehiiv / Bluesky | Sat's voice, irreverent wit, observational | 800–1500 words | "This is for the newsletter" |
+| Daily Take | @CoachellaAI on X | Dry, first person, geo-anchored | 280 chars–3 posts | "This is for X" |
+
+Intelligence brief voice is governed by CLAUDE.md only.
+Newsletter voice is governed by the SunshineFM Newsletter section above.
+Daily X take voice is governed by this section.
+Do not mix them.
+
+---
