@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `b26aec6` | Intelligence Index Known Agent Actions added; NODES.md cleaned to 61 |
+| docs (Mintlify) | `9e490de` | Canonical content type definitions — briefs, reviews, reports |
 | homepage (aicoachellavalley.com) | `8f2a405` | stat-nodes bumped to 61 |
 | org (aicoachellavalley.org) | `8df13ae` | Adjacent Communities banner, Startup Studios edges, tooltip fix |
 
