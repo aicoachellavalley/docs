@@ -9,7 +9,7 @@ Read this file when working on infrastructure, deployment, or ops. Not required 
 | Component | Local Path | URL |
 |-----------|-----------|-----|
 | Docs (Mintlify) | `~/Projects/docs/` | agent.aicoachellavalley.com |
-| Homepage (v5) | `~/Projects/homepage/index.html` | aicoachellavalley.com |
+| Homepage (v5) | `~/Projects/com/index.html` | aicoachellavalley.com |
 | Org site | `~/Projects/org/index.html` | aicoachellavalley.org |
 | API Worker | `~/Projects/aicv-api/worker.js` | api.aicoachellavalley.com |
 | MCP Worker | `~/Projects/aicv-mcp/worker.js` | mcp.aicoachellavalley.com |
@@ -89,7 +89,7 @@ The error message "Not authorized to fetch tree" is the tell.
 Before committing any updated `index.html`, always run:
 
 ```
-git diff HEAD ~/Projects/homepage/index.html
+git diff HEAD ~/Projects/com/index.html
 ```
 
 Review the diff for unintended regressions — especially the stats bar (IDs, fallback values, labels, JS handlers).
@@ -124,7 +124,7 @@ from March 26, 2026.
 
 ## AIO Tool Architecture Rule
 
-Worker (`~/Projects/aicv-api/worker.js`) returns the raw Anthropic API response unchanged. Homepage (`~/Projects/homepage/index.html`) handles all parsing:
+Worker (`~/Projects/aicv-api/worker.js`) returns the raw Anthropic API response unchanged. Homepage (`~/Projects/com/index.html`) handles all parsing:
 1. Unwrap `data.content[0].text`
 2. Strip markdown fences (``` json / ```)
 3. JSON.parse the cleaned string

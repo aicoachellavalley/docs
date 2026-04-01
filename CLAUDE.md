@@ -420,7 +420,7 @@ Do not publish before completing all four.
 - `VOICE.md` — @CoachellaAI voice and tone brief for Twitter Worker posts.
 - `NODES.md` — Full node plan with status.
 - `docs.json` — Mintlify navigation (source of truth for what's live).
-- `~/Projects/homepage/index.html` — Homepage v5 source of truth.
+- `~/Projects/com/index.html` — Homepage v5 source of truth.
 - `~/Projects/org/index.html` — Org site source of truth (aicoachellavalley.org).
 - `~/Projects/aicv-api/worker.js` — API Worker source of truth.
 - `~/Projects/aicv-api/wrangler.toml` — API Worker config.

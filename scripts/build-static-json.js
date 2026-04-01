@@ -249,7 +249,7 @@ function updateLlmsTxt(filePath, nodeCount, briefCount) {
 
 function updateAllLlmsTxt(nodeCount, briefCount) {
   const docsLlms = path.join(DOCS_ROOT, 'llms.txt');
-  const homepageLlms = path.join(path.resolve(DOCS_ROOT, '../../homepage'), 'llms.txt');
+  const homepageLlms = path.join(path.resolve(DOCS_ROOT, '../../com'), 'llms.txt');
 
   updateLlmsTxt(docsLlms, nodeCount, briefCount);
   updateLlmsTxt(homepageLlms, nodeCount, briefCount);
