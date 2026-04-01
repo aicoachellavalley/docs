@@ -8,13 +8,13 @@ Read this at the start of every session before any content operation. Update at 
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 61 |
+| Nodes live | 62 |
 | Intelligence briefs live | 120 |
 | `stat-briefs` fallback (homepage) | 120 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026)
 
-**Nodes:** 61 across 11 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 62 across 11 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 
@@ -32,10 +32,10 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `d4559f7` | rename homepage → com, update all path references |
+| docs (Mintlify) | `b46c18b` | feat: add Gardens on El Paseo node — Palm Desert retail, 62 nodes |
 | com (aicoachellavalley.com) | `6176d18` | stats bar — 3 cols, center align, new labels |
 | com/snapshots/ | `e66a31b` | Gardens on El Paseo Snapshot — first snapshot live, C/D/D grades |
-| org (aicoachellavalley.org) | `8df13ae` | Adjacent Communities banner, Startup Studios edges, tooltip fix |
+| org (aicoachellavalley.org) | `1d37f8b` | Gardens on El Paseo ZONE_MAP + SUB_MAP update |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
 
