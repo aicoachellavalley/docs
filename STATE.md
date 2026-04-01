@@ -32,7 +32,7 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `9e490de` | Canonical content type definitions — briefs, reviews, reports |
+| docs (Mintlify) | `d4559f7` | rename homepage → com, update all path references |
 | com (aicoachellavalley.com) | `6176d18` | stats bar — 3 cols, center align, new labels |
 | org (aicoachellavalley.org) | `8df13ae` | Adjacent Communities banner, Startup Studios edges, tooltip fix |
 
