@@ -54,7 +54,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 11 | Sensei Porcupine Creek | nodes/rancho-mirage/sensei-porcupine-creek.mdx | ✅ Live |
 | 50 | Sunnylands Center & Gardens | nodes/rancho-mirage/sunnylands.mdx | ✅ Live |
 
-## Palm Desert (11 nodes)
+## Palm Desert (12 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -69,6 +69,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 46 | Palm Desert Economic Development | nodes/palm-desert/palm-desert-economic-development.mdx | ✅ Live |
 | 51 | Desert Willow Golf Resort | nodes/palm-desert/desert-willow-golf-resort.mdx | ✅ Live |
 | 61 | JW Marriott Desert Springs Resort & Spa | nodes/palm-desert/jw-marriott-desert-springs.mdx | ✅ Live |
+| 62 | The Gardens on El Paseo | nodes/palm-desert/gardens-on-el-paseo.mdx | ✅ Live |
 
 ## Indian Wells (6 nodes)
 
