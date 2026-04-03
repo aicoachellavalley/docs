@@ -28,6 +28,10 @@
         "tab": "Intelligence Briefs",
         "groups": [
           {
+            "group": "April 2026",
+            "pages": []
+          },
+          {
             "group": "March 2026",
             "pages": [
               "intelligence-briefs/2026-03-27-high-desert-art-fair",

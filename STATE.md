@@ -4,7 +4,7 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of March 30, 2026)
+## Live Counts (as of April 2, 2026)
 
 | Metric | Count |
 |--------|-------|
@@ -20,11 +20,11 @@ Read this at the start of every session before any content operation. Update at 
 
 ## Active Month Group (docs.json)
 
-Current month group for new briefs: **March 2026**
+Current month group for new briefs: **April 2026**
 
-New briefs append to the top of the March 2026 group in the Intelligence Briefs tab.
+New briefs append to the top of the April 2026 group in the Intelligence Briefs tab.
 
-When April begins: add a new `April 2026` group at the top of the Intelligence Briefs tab. Do not restructure existing groups.
+When May begins: add a new `May 2026` group at the top of the Intelligence Briefs tab. Do not restructure existing groups.
 
 ---
 
@@ -32,10 +32,10 @@ When April begins: add a new `April 2026` group at the top of the Intelligence B
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `b46c18b` | feat: add Gardens on El Paseo node — Palm Desert retail, 62 nodes |
-| com (aicoachellavalley.com) | `6176d18` | stats bar — 3 cols, center align, new labels |
-| com/snapshots/ | `e66a31b` | Gardens on El Paseo Snapshot — first snapshot live, C/D/D grades |
-| org (aicoachellavalley.org) | `1d37f8b` | Gardens on El Paseo ZONE_MAP + SUB_MAP update |
+| docs (Mintlify) | `71bc5e3` | docs: fix JW Marriott path, reciprocal link step added to CLAUDE.md, Hotel Paseo queued |
+| com (aicoachellavalley.com) | `a84905e` | fix: update com llms.txt — 62 nodes, 120 briefs, add snapshots endpoint |
+| com/snapshots/ | `e66a31b` | feat: add gardens-on-el-paseo snapshot |
+| org (aicoachellavalley.org) | `7bfebaf` | feat: add gardens-on-el-paseo to graph lookup tables |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
 
@@ -93,7 +93,7 @@ cd ~/Projects/tools && npx wrangler pages deploy . --project-name aicv-tools
 ## Agent Discoverability Layer
 
 Static JSON endpoints live at repo root:
-- `nodes.json` — all 61 nodes (frontmatter only)
+- `nodes.json` — all 62 nodes (frontmatter only)
 - `briefs.json` — all 120 briefs (frontmatter only)
 - `.well-known/mcp.json` — MCP server autodiscovery
 - `scripts/build-static-json.js` — generator script
