@@ -70,6 +70,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 51 | Desert Willow Golf Resort | nodes/palm-desert/desert-willow-golf-resort.mdx | ✅ Live |
 | 61 | JW Marriott Desert Springs Resort & Spa | nodes/palm-desert/jw-marriott-desert-springs.mdx | ✅ Live |
 | 62 | The Gardens on El Paseo | nodes/palm-desert/gardens-on-el-paseo.mdx | ✅ Live |
+| — | Hotel Paseo | nodes/palm-desert/hotel-paseo.mdx | 🔲 Planned — hospitality; referenced by Gardens on El Paseo |
 
 ## Indian Wells (6 nodes)
 

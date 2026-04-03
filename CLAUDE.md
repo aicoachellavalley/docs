@@ -205,6 +205,11 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 6. Commit: `feat: add [location] node`
 7. Push to main
 8. Update STATE.md counts and last commit hash
+9. **Reciprocal links** — for every node listed in `## Related Nodes`, open that node file and add a back-link to the new node. Run before committing:
+   ```bash
+   grep -rn "new-node-slug" ~/Projects/docs/nodes/
+   ```
+   Confirm every related node has a matching link back. One-way links break agent routing and the org graph edges. This step is not optional.
 
 ---
 
