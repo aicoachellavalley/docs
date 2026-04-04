@@ -2,9 +2,9 @@
 
 ## Overview
 
-61 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+63 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
-NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of March 30, 2026.
+NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of April 3, 2026.
 
 ## Node Zero (Valley-Wide Entry Point)
 
@@ -54,7 +54,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 11 | Sensei Porcupine Creek | nodes/rancho-mirage/sensei-porcupine-creek.mdx | ✅ Live |
 | 50 | Sunnylands Center & Gardens | nodes/rancho-mirage/sunnylands.mdx | ✅ Live |
 
-## Palm Desert (12 nodes)
+## Palm Desert (13 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -70,7 +70,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 51 | Desert Willow Golf Resort | nodes/palm-desert/desert-willow-golf-resort.mdx | ✅ Live |
 | 61 | JW Marriott Desert Springs Resort & Spa | nodes/palm-desert/jw-marriott-desert-springs.mdx | ✅ Live |
 | 62 | The Gardens on El Paseo | nodes/palm-desert/gardens-on-el-paseo.mdx | ✅ Live |
-| — | Hotel Paseo | nodes/palm-desert/hotel-paseo.mdx | 🔲 Planned — hospitality; referenced by Gardens on El Paseo |
+| 63 | Hotel Paseo, Autograph Collection | nodes/palm-desert/hotel-paseo.mdx | ✅ Live |
 
 ## Indian Wells (6 nodes)
 
@@ -131,6 +131,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 61 (including Node Zero)
+- Total live: 63 (including Node Zero)
 - Forthcoming: 0 signaled
 - Valley Wide path: nodes/valley-wide/
