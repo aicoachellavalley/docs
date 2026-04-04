@@ -306,6 +306,8 @@ Find the `SUB_MAP` object immediately below it and add one line:
 'new-node-slug': 'subcategory',
 ```
 
+Add edges to `STATIC_LINKS` in `~/Projects/org/index.html`. Every node needs at least one edge — isolated dots carry no relationship signal. Use type `within` for same-corridor proximity, `cross` for general relationships, `intelligence` for connections to index or intel nodes, `spine` for innovation/economy backbone nodes, `gateway` for airport or entry point connections. Minimum one edge required before commit.
+
 Valid zone keys: `valley-wide`, `palm-springs`, `rancho-mirage`, `palm-desert`, `indian-wells`, `la-quinta`, `indio`, `adjacent-communities`
 
 Valid subcategory values: `innovation`, `economic`, `intelligence`, `hospitality`, `golf`, `wellness`, `cultural`, `entertainment`, `education`, `retail`, `nonprofit`, `real-estate`
