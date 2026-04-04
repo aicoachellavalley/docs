@@ -18,7 +18,7 @@ Read this file when working on infrastructure, deployment, or ops. Not required 
 
 **Deployment notes:**
 - Docs (Mintlify) auto-deploy via GitHub → Cloudflare Pages on every push to main
-- Homepage auto-deploys via GitHub → Cloudflare Pages on every push to main
+- Homepage does NOT auto-deploy. Deploy manually: `cd ~/Projects/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage`
 - API Worker is git-controlled at https://github.com/aicoachellavalley/aicv-api — deploy via `wrangler deploy` from `~/Projects/aicv-api/`. No Cloudflare Pages connection — push to GitHub does not deploy.
 - MCP Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/aicv-mcp/`. No git repo in that directory.
 - Twitter Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/twitter-worker/`. No git repo in that directory.
