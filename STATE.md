@@ -4,17 +4,17 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of April 2, 2026)
+## Live Counts (as of April 4, 2026)
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 62 |
+| Nodes live | 64 |
 | Intelligence briefs live | 120 |
 | `stat-briefs` fallback (homepage) | 120 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026)
 
-**Nodes:** 62 across 11 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 64 across 11 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 
@@ -32,10 +32,9 @@ When May begins: add a new `May 2026` group at the top of the Intelligence Brief
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `71bc5e3` | docs: fix JW Marriott path, reciprocal link step added to CLAUDE.md, Hotel Paseo queued |
-| com (aicoachellavalley.com) | `a84905e` | fix: update com llms.txt — 62 nodes, 120 briefs, add snapshots endpoint |
-| com/snapshots/ | `e66a31b` | feat: add gardens-on-el-paseo snapshot |
-| org (aicoachellavalley.org) | `7bfebaf` | feat: add gardens-on-el-paseo to graph lookup tables |
+| docs (Mintlify) | `89131eb` | docs: add STATIC_LINKS step to node addition workflow |
+| com (aicoachellavalley.com) | `7ab526e` | feat: add Visit Greater Palm Springs snapshot and reviews.json record 2 |
+| org (aicoachellavalley.org) | `4e65fa3` | fix: add STATIC_LINKS edges for Gardens, Hotel Paseo, Visit GPS |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
 
@@ -93,7 +92,7 @@ cd ~/Projects/tools && npx wrangler pages deploy . --project-name aicv-tools
 ## Agent Discoverability Layer
 
 Static JSON endpoints live at repo root:
-- `nodes.json` — all 62 nodes (frontmatter only)
+- `nodes.json` — all 64 nodes (frontmatter only)
 - `briefs.json` — all 120 briefs (frontmatter only)
 - `.well-known/mcp.json` — MCP server autodiscovery
 - `scripts/build-static-json.js` — generator script
