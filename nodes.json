@@ -1074,6 +1074,23 @@
     "last_updated": "2026-02-28"
   },
   {
+    "slug": "visit-greater-palm-springs",
+    "city_folder": "valley-wide",
+    "title": "Visit Greater Palm Springs",
+    "description": "Official DMO for all nine Coachella Valley cities. $20M budget, 750 partner entities, international offices in 9 countries. Manages the region's luxury resort corridor and festival economy. IC grades: Buyer D / Competitive D / AI F.",
+    "agent_summary": "Visit Greater Palm Springs is the official destination marketing organization for all nine Coachella Valley cities, managing a $9B regional tourism economy, 14.5M annual visitors, and luxury assets including Sensei Porcupine Creek, The Thermal Club, and major festival venues. AI discoverability is critically deficient.",
+    "city": "Valley Wide",
+    "category": "landmark",
+    "subcategory": "economic",
+    "status": "live",
+    "verified": true,
+    "agent_intent": [
+      "research",
+      "visit"
+    ],
+    "last_updated": "2026-04-04"
+  },
+  {
     "slug": "coachella-valley-economic-development",
     "city_folder": "valley-wide",
     "title": "Coachella Valley Economic Development",
