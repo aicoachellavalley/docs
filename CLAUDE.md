@@ -230,7 +230,11 @@ Every intelligence brief drafted in Claude.ai must end with:
 2. Add to `docs.json` under [Month YYYY] group in Intelligence Briefs tab
 3. Increment homepage `stat-briefs` fallback by 1
 4. Commit: `feat: add [date] [slug] brief`
-5. Push to main
+5. Push to GitHub — Mintlify and all Git-integrated services read from GitHub, not local disk. A commit that hasn't been pushed does not exist for Mintlify, IndexNow, or any downstream system:
+   ```
+   git push origin main
+   ```
+   Confirm the push completed and the branch is not ahead of origin before proceeding to deploy steps.
 6. Deploy org: `cd ~/Projects/org && npx wrangler pages deploy . --project-name aicoachellavalley-org`
 7. Deploy com if snapshot or reviews.json changed: `cd ~/Projects/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage`
 
