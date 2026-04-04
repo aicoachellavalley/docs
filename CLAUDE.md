@@ -210,6 +210,14 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
    grep -rn "new-node-slug" ~/Projects/docs/nodes/
    ```
    Confirm every related node has a matching link back. One-way links break agent routing and the org graph edges. This step is not optional.
+10. **Deploy org site** — graph changes are not visible until deployed:
+    ```
+    cd ~/Projects/org && npx wrangler pages deploy . --project-name aicoachellavalley-org
+    ```
+11. **Deploy com site:**
+    ```
+    cd ~/Projects/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage
+    ```
 
 ---
 
@@ -223,6 +231,8 @@ Every intelligence brief drafted in Claude.ai must end with:
 3. Increment homepage `stat-briefs` fallback by 1
 4. Commit: `feat: add [date] [slug] brief`
 5. Push to main
+6. Deploy org: `cd ~/Projects/org && npx wrangler pages deploy . --project-name aicoachellavalley-org`
+7. Deploy com if snapshot or reviews.json changed: `cd ~/Projects/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage`
 
 ---
 

@@ -69,12 +69,28 @@ Static endpoints:
 
 ---
 
-## Manual Deploy Required — aicv-tools
+## Manual Deploy Required — All Cloudflare Pages Properties
 
-`tools.aicoachellavalley.com` has NO Git connection in Cloudflare Pages. GitHub pushes do nothing. Always deploy manually:
+None of the four Cloudflare Pages properties auto-deploy from Git. Every commit requires a manual wrangler deploy.
 
+**aicoachellavalley.com** (com repo):
+```
+cd ~/Projects/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage
+```
+
+**aicoachellavalley.org** (org repo):
+```
+cd ~/Projects/org && npx wrangler pages deploy . --project-name aicoachellavalley-org
+```
+
+**tools.aicoachellavalley.com:**
 ```
 cd ~/Projects/tools && npx wrangler pages deploy . --project-name aicv-tools
+```
+
+**sunshine.fm:**
+```
+cd ~/Projects/sunshine-fm && npx wrangler pages deploy . --project-name sunshine-fm
 ```
 
 ---
