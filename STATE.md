@@ -4,7 +4,7 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of April 4, 2026)
+## Live Counts (as of April 5, 2026)
 
 | Metric | Count |
 |--------|-------|
@@ -33,8 +33,9 @@ When May begins: add a new `May 2026` group at the top of the Intelligence Brief
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `89131eb` | docs: add STATIC_LINKS step to node addition workflow |
-| com (aicoachellavalley.com) | `7ab526e` | feat: add Visit Greater Palm Springs snapshot and reviews.json record 2 |
+| com (aicoachellavalley.com) | `f76a049` | chore: remove legacy static files superseded by Astro build |
 | org (aicoachellavalley.org) | `4e65fa3` | fix: add STATIC_LINKS edges for Gardens, Hotel Paseo, Visit GPS |
+| tools (aicv-tools) | deployed April 5 | fix: key passphrase unlock on entity name, not LLM-generated slug |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
 
@@ -69,14 +70,13 @@ Static endpoints:
 
 ---
 
-## Manual Deploy Required — All Cloudflare Pages Properties
+## Deploy — Cloudflare Pages Properties
 
-None of the four Cloudflare Pages properties auto-deploy from Git. Every commit requires a manual wrangler deploy.
-
-**aicoachellavalley.com** (com repo):
+**aicoachellavalley.com** (com repo) — AUTO-DEPLOYS via git push:
 ```
-cd ~/Projects/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage
+git push origin main
 ```
+Git integration confirmed active April 5, 2026. Build command: `npm run build`. Output directory: `dist`. No manual wrangler deploy needed.
 
 **aicoachellavalley.org** (org repo):
 ```
@@ -114,6 +114,27 @@ Static JSON endpoints live at repo root:
 - `scripts/build-static-json.js` — generator script
 
 Regenerate after adding nodes or briefs: `node scripts/build-static-json.js`
+
+---
+
+## Astro Migration — Completed April 5, 2026
+
+- **Framework:** Astro v6.1.3, static output
+- **Repo:** `~/Projects/com/` — same repo, no new remote
+- **Deploy:** `git push origin main` → Cloudflare Pages git integration auto-builds
+- **Five content routes ready:** `snapshots/`, `nodes/`, `briefs/`, `reviews/`, `reports/`
+- **Snapshot schema locked:** `src/data/snapshots.json` — canonical contract for all IC review output
+- **Two snapshots live:** `visit-greater-palm-springs` (D/D/F) and `gardens-on-el-paseo` (C/D/D)
+- **Homepage:** placeholder live (`<h1>AI Coachella Valley</h1>`), full rebuild pending
+
+---
+
+## Priority Queue
+
+1. IC chair Save button — next build
+2. Homepage rebuild — port old index.html content to Astro
+3. Static nodes directory — Gemini crawlability
+4. Send the emails
 
 ---
 
