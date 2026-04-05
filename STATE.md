@@ -33,7 +33,7 @@ When May begins: add a new `May 2026` group at the top of the Intelligence Brief
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `89131eb` | docs: add STATIC_LINKS step to node addition workflow |
-| com (aicoachellavalley.com) | `f76a049` | chore: remove legacy static files superseded by Astro build |
+| com (aicoachellavalley.com) | `6dfd0ec` | feat: add dynamic node pages — 64 nodes live at aicoachellavalley.com/nodes/[slug] |
 | org (aicoachellavalley.org) | `4e65fa3` | fix: add STATIC_LINKS edges for Gardens, Hotel Paseo, Visit GPS |
 | tools (aicv-tools) | deployed April 5 | fix: key passphrase unlock on entity name, not LLM-generated slug |
 
@@ -126,6 +126,7 @@ Regenerate after adding nodes or briefs: `node scripts/build-static-json.js`
 - **Snapshot schema locked:** `src/data/snapshots.json` — canonical contract for all IC review output
 - **Two snapshots live:** `visit-greater-palm-springs` (D/D/F) and `gardens-on-el-paseo` (C/D/D)
 - **Homepage:** placeholder live (`<h1>AI Coachella Valley</h1>`), full rebuild pending
+- **Node pages:** `aicoachellavalley.com/nodes/[slug]` — all 64 nodes live, canonical tags set, Gemini-crawlable. Driven by `src/data/nodes.json`.
 
 ---
 
