@@ -34,7 +34,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `b6187a8` | docs: update STATE.md — 64 node pages live |
-| com (aicoachellavalley.com) | `a55d6ab` | feat: migrate briefs and nodes to Astro Content Collections |
+| com (aicoachellavalley.com) | `73dc4a4` | feat: migrate build script to com repo, add snapshots.json and reports.json endpoints |
 | org (aicoachellavalley.org) | `4e65fa3` | fix: add STATIC_LINKS edges for Gardens, Hotel Paseo, Visit GPS |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
@@ -115,19 +115,22 @@ Deployed version: `72483a7c` (March 26, 2026) — queryVenues optimized: 1 fetch
 After any session adding nodes or briefs:
 
 ```
-node scripts/build-static-json.js
+node scripts/build-static-json.cjs
 ```
 
-from `~/Projects/docs/` — regenerates `nodes.json` and `briefs.json`. Commit:
+from `~/Projects/com/` — regenerates `nodes.json`, `briefs.json`, `snapshots.json`, `reports.json` in `public/`. Commit:
 
 ```
 chore: regenerate static JSON (N nodes, N briefs)
 ```
 
-Static endpoints:
-- https://agent.aicoachellavalley.com/nodes.json
-- https://agent.aicoachellavalley.com/briefs.json
-- https://agent.aicoachellavalley.com/.well-known/mcp.json
+Static endpoints (canonical — served from com repo `public/`):
+- https://aicoachellavalley.com/nodes.json
+- https://aicoachellavalley.com/briefs.json
+- https://aicoachellavalley.com/snapshots.json
+- https://aicoachellavalley.com/reports.json
+
+> `agent.aicoachellavalley.com` endpoints still live during Phase 2 — retire at Phase 3 Mintlify cutover.
 
 ---
 
