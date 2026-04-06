@@ -34,7 +34,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `b6187a8` | docs: update STATE.md — 64 node pages live |
-| com (aicoachellavalley.com) | `531f5ed` | fix: IR tab card — center text, style email |
+| com (aicoachellavalley.com) | `a55d6ab` | feat: migrate briefs and nodes to Astro Content Collections |
 | org (aicoachellavalley.org) | `4e65fa3` | fix: add STATIC_LINKS edges for Gardens, Hotel Paseo, Visit GPS |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
@@ -59,15 +59,20 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 - `aicoachellavalley.com/reports/[slug]` — route ready, not yet populated
 
 **Data files:**
-- `src/data/snapshots/[slug].json` — one file per snapshot
-- `src/data/nodes/[slug].json` — one file per node (64 files)
-- Adding new content = drop a new file, push. No code changes needed.
+- `src/data/snapshots/[slug].json` — one file per snapshot (canonical)
+- `src/content/briefs/[slug].mdx` — 120 brief MDX files (Astro Content Collections)
+- `src/content/nodes/[slug].mdx` — 64 node MDX files (Astro Content Collections, flattened from city subdirs)
+- `src/data/briefs/` — RETIRED (deleted April 6, 2026)
+- `src/data/nodes/` — RETIRED (deleted April 6, 2026)
+- Adding a new brief or node = copy MDX to the relevant `src/content/` directory, push. No code changes needed.
 
 **Two snapshots live:**
 - `aicoachellavalley.com/snapshots/visit-greater-palm-springs` — D/D/F
 - `aicoachellavalley.com/snapshots/gardens-on-el-paseo` — C/D/D
 
-**Snapshot page:** Three tabs — Snapshot (public), Intelligence Review (plain text CTA, no gate), Node (pulls from matching nodes/[slug].json).
+**Snapshot page:** Three tabs — Snapshot (public), Intelligence Review (plain text CTA, no gate), Node (pulls from matching `src/content/nodes/[slug].mdx` via Content Collections).
+
+**Astro v6 render API note:** Use `render(entry)` imported from `astro:content` — NOT `entry.render()`. Applies to all collection templates.
 
 **Snapshot schema fields:** slug, entityName, metaTitle, metaDescription, datePublished, dateModified, snapshotLocation, snapshotPeriod, schema, grades, opener, methodology, findings, actions (nullable), top_gaps (nullable), cta, passphrase (nullable — not used)
 
