@@ -262,7 +262,19 @@ New entries always appended within the correct group — never restructure exist
 
 ## Key Learnings
 
-- **Agent-readability is not automatic.** Mintlify renders via JS — agents fetching page URLs get empty shells. The static JSON endpoints (nodes.json, briefs.json at repo root) are the actual agent-readable layer. Run build-static-json.js after every content session. The MCP worker bypasses Mintlify entirely and is the preferred access path for structured agent queries.
+- **Agent-readability is not automatic.** Mintlify renders via JS — agents fetching page URLs get empty shells. The static JSON endpoints (nodes.json, briefs.json, snapshots.json, reports.json in `~/Projects/com/public/`) are the actual agent-readable layer. Run `node scripts/build-static-json.cjs` from `~/Projects/com/` after every content session. The MCP worker bypasses Mintlify entirely and is the preferred access path for structured agent queries.
+
+---
+
+## Phase 2 Dual-Publish Protocol
+
+During Phase 2 (Mintlify → Astro migration), new briefs must be added to both repos:
+1. `~/Projects/docs/intelligence-briefs/` — Mintlify canonical (MCP worker source)
+2. `~/Projects/com/src/content/briefs/` — Astro canonical (SEO + agent JSON source)
+
+Run `node scripts/build-static-json.cjs` from `~/Projects/com/` after every content session.
+
+Phase 2 ends when MCP worker is re-pointed to com repo. Do not skip dual-publish until then.
 
 ---
 
@@ -414,7 +426,7 @@ Before any new content type is published:
    file location. Add it to this file before creating any files.
 2. **Build a static JSON endpoint** — a corresponding `[type].json`
    at the repo root. Agents must fetch all records in one request.
-3. **Update build-static-json.js** — extract content, validate
+3. **Update build-static-json.cjs** (`~/Projects/com/scripts/`) — extract content, validate
    fields, include in IndexNow submission, auto-update llms.txt.
 4. **Update both llms.txt files** — add the new endpoint under
    "Static Machine-Readable Endpoints."
