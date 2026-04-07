@@ -33,7 +33,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `b6187a8` | docs: update STATE.md — 64 node pages live |
+| docs (Mintlify) | `b6187a8` | read-only archive — Mintlify retired April 6, 2026 |
 | com (aicoachellavalley.com) | `3215288` | fix: repair broken node cross-links in briefs — all route to /nodes/[slug] |
 | org (aicoachellavalley.org) | `4e65fa3` | fix: add STATIC_LINKS edges for Gardens, Hotel Paseo, Visit GPS |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
@@ -129,8 +129,6 @@ Static endpoints (canonical — served from com repo `public/`):
 - https://aicoachellavalley.com/briefs.json
 - https://aicoachellavalley.com/snapshots.json
 - https://aicoachellavalley.com/reports.json
-
-> `agent.aicoachellavalley.com` endpoints still live during Phase 2 — retire at Phase 3 Mintlify cutover.
 
 ---
 
