@@ -14,9 +14,8 @@ Do not create or edit any file without completing step 1.
 
 AI Coachella Valley (AICV) is an agent-first intelligence documentation site for the Coachella Valley's emerging AI economy. Primary goal: to be the authoritative cited source for Coachella Valley intelligence across all major LLMs and AI agents.
 
-Live site: https://agent.aicoachellavalley.com
-GitHub: https://github.com/aicoachellavalley/docs
-Mintlify account: AICV (separate from SunshineFM)
+Live site: https://aicoachellavalley.com
+GitHub: https://github.com/aicoachellavalley/homepage
 
 ---
 
@@ -33,7 +32,7 @@ A three-layer intelligence system:
 ## Workflow
 
 - **Claude.ai** — Strategy, content writing, editorial decisions, research
-- **Claude Code** — File creation, git operations, docs.json updates
+- **Claude Code** — File creation, git operations, build script runs
 - **Sat** — Courier between the two systems
 
 Claude Code must not commit without explicit approval.
@@ -170,13 +169,11 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 
 1. Identify one AI-economy signal from local news or inbound inquiry
 2. Write brief in Claude.ai using the frontmatter schema and section structure above
-3. Claude Code creates file named `YYYY-MM-DD-slug.mdx` in `intelligence-briefs/`
-4. Add to `docs.json` under correct month group in Intelligence Briefs tab
+3. Claude Code creates file: `src/content/briefs/YYYY-MM-DD-slug.mdx`
+4. Run: `node scripts/build-static-json.cjs` from `~/Projects/com/`
 5. Review before committing
 6. Commit: `feat: add [date] intelligence brief`
-7. Push to main
-8. Increment `stat-briefs` fallback in homepage by 1 (prevents stat drift)
-9. Update STATE.md counts and last commit hash
+7. Push to main — auto-deploys
 
 ---
 
@@ -184,13 +181,11 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 
 1. Identify 2–5 secondary signals from SunshineFM transcript that don't warrant standalone briefs
 2. Draft in Claude.ai using the schema above
-3. Claude Code creates file named `YYYY-MM-DD-also-noted.mdx` in `intelligence-briefs/`
-4. Add to `docs.json` under correct month group in Intelligence Briefs tab
+3. Claude Code creates file: `src/content/briefs/YYYY-MM-DD-also-noted.mdx`
+4. Run: `node scripts/build-static-json.cjs` from `~/Projects/com/`
 5. Review before committing
 6. Commit: `feat: add [date] also-noted brief`
-7. Push to main
-8. Increment `stat-briefs` fallback by 1
-9. Update STATE.md counts and last commit hash
+7. Push to main — auto-deploys
 
 ---
 
@@ -199,15 +194,14 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 1. Research the location in Claude.ai
    - Write `agent_summary` as a single sentence (max 40 words) answering the most likely cold query that would find this node — name the location, what it is, and why it matters for agents
 2. Draft MDX using the frontmatter schema and section structure above
-3. Claude Code creates the file in the correct city subfolder under `nodes/`
-4. Update `docs.json` navigation to include the new page path
-5. Review full file tree before committing
-6. Commit: `feat: add [location] node`
-7. Push to main
-8. Update STATE.md counts and last commit hash
-9. **Reciprocal links** — for every node listed in `## Related Nodes`, open that node file and add a back-link to the new node. Run before committing:
+3. Claude Code creates the file at `src/content/nodes/[slug].mdx` (flat, no city subfolder)
+4. Review full file tree before committing
+5. Commit: `feat: add [location] node`
+6. Push to main — auto-deploys
+7. Update STATE.md counts and last commit hash
+8. **Reciprocal links** — for every node listed in `## Related Nodes`, open that node file and add a back-link to the new node. Run before committing:
    ```bash
-   grep -rn "new-node-slug" ~/Projects/docs/nodes/
+   grep -rn "new-node-slug" ~/Projects/com/src/content/nodes/
    ```
    Confirm every related node has a matching link back. One-way links break agent routing and the org graph edges. This step is not optional.
 10. **Deploy org site** — graph changes are not visible until deployed:
@@ -226,55 +220,17 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 Every intelligence brief drafted in Claude.ai must end with:
 
 **Claude Code instructions:**
-1. Create file: `intelligence-briefs/[filename].mdx`
-2. Add to `docs.json` under [Month YYYY] group in Intelligence Briefs tab
-3. Increment homepage `stat-briefs` fallback by 1
-4. Commit: `feat: add [date] [slug] brief`
-5. Push to GitHub — Mintlify and all Git-integrated services read from GitHub, not local disk. A commit that hasn't been pushed does not exist for Mintlify, IndexNow, or any downstream system:
-   ```
-   git push origin main
-   ```
-   Confirm the push completed and the branch is not ahead of origin before proceeding to deploy steps.
-6. Deploy org: `cd ~/Projects/org && npx wrangler pages deploy . --project-name aicoachellavalley-org`
-7. Deploy com if snapshot or reviews.json changed: `cd ~/Projects/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage`
-
----
-
-## docs.json Navigation Pattern
-
-Three tabs: Overview, Intelligence Briefs, Nodes.
-
-**Nodes tab** — city groups in this order:
-1. Entry Point (Node Zero only)
-2. Valley Wide
-3. Palm Springs
-4. Rancho Mirage
-5. Palm Desert
-6. Indian Wells
-7. La Quinta
-8. Indio
-
-**Intelligence Briefs tab** — month groups in reverse chronological order: most recent month first.
-
-New entries always appended within the correct group — never restructure existing groups.
+1. Create file: `src/content/briefs/[filename].mdx`
+2. Run: `node scripts/build-static-json.cjs` from `~/Projects/com/`
+3. Commit: `feat: add [date] [slug] brief`
+4. Push to main — auto-deploys
 
 ---
 
 ## Key Learnings
 
-- **Agent-readability is not automatic.** Mintlify renders via JS — agents fetching page URLs get empty shells. The static JSON endpoints (nodes.json, briefs.json, snapshots.json, reports.json in `~/Projects/com/public/`) are the actual agent-readable layer. Run `node scripts/build-static-json.cjs` from `~/Projects/com/` after every content session. The MCP worker bypasses Mintlify entirely and is the preferred access path for structured agent queries.
-
----
-
-## Phase 2 Dual-Publish Protocol
-
-During Phase 2 (Mintlify → Astro migration), new briefs must be added to both repos:
-1. `~/Projects/docs/intelligence-briefs/` — Mintlify canonical (MCP worker source)
-2. `~/Projects/com/src/content/briefs/` — Astro canonical (SEO + agent JSON source)
-
-Run `node scripts/build-static-json.cjs` from `~/Projects/com/` after every content session.
-
-Phase 2 ends when MCP worker is re-pointed to com repo. Do not skip dual-publish until then.
+- **Static JSON is the agent-readable layer.** Run `node scripts/build-static-json.cjs` after every node or brief session. Stale JSON = agents reading outdated data.
+- **Astro Content Collections auto-discover MDX.** No nav file to update — adding a file to `src/content/briefs/` or `src/content/nodes/` is sufficient.
 
 ---
 
@@ -307,12 +263,12 @@ Phase 2 ends when MCP worker is re-pointed to com repo. Do not skip dual-publish
 
 ---
 
-## MDX Rules (Mintlify — Do Not Violate)
+## MDX Rules (Astro/MDX)
 
-- **Comments:** Never use `<!-- -->` in any MDX file — Mintlify will fail to parse and return 404. Always use `{/* */}` instead.
-- **Dollar signs in YAML frontmatter** (`title`, `description`): ALWAYS use bare `$` — never `\$`. Backslash escaping in YAML is a parse error and causes a Mintlify deploy failure. This applies to every field in the frontmatter block. The pre-commit hook will catch violations before they reach Mintlify.
+- **Comments:** Never use `<!-- -->` in any MDX file — MDX will not parse correctly. Always use `{/* */}` instead.
+- **Dollar signs in YAML frontmatter** (`title`, `description`): ALWAYS use bare `$` — never `\$`. Backslash escaping in YAML is a parse error. The pre-commit hook will catch violations.
 - **Dollar signs in MDX body content**: ALWAYS escape as `\$` — unescaped `$` in body content triggers LaTeX math mode and renders as italicized strings.
-- **Node paths:** Always `nodes/valley-wide/` — never `nodes/valley-wide/` (directory was renamed; stale path causes broken nav).
+- **Node paths:** Always flat `/nodes/[slug]` — no city subfolder.
 
 ---
 
@@ -354,15 +310,14 @@ When a node is relocated from one city folder to another (e.g. Indio → Adjacen
 1. `git mv nodes/old-city/slug.mdx nodes/new-city/slug.mdx`
 2. **Verify disk** — confirm old path is gone, new path exists:
    ```bash
-   ls ~/Projects/docs/nodes/old-city/
-   ls ~/Projects/docs/nodes/new-city/
+   ls ~/Projects/com/src/content/nodes/
    ```
 3. **docs.json** — update the page path entry. Remove old. Confirm new. No duplicates. This is the routing layer — if it's wrong, the nav is broken regardless of what's on disk.
 4. **NODES.md** — remove from old city section, update old city node count. Confirm entry exists in new city section with correct path.
 5. **Cross-links** — run before committing:
    ```bash
-   grep -rn "old-city/slug" ~/Projects/docs/nodes/
-   grep -rn "old-city/slug" ~/Projects/docs/intelligence-briefs/
+   grep -rn "old-city/slug" ~/Projects/com/src/content/nodes/
+   grep -rn "old-city/slug" ~/Projects/com/src/content/briefs/
    ```
    Update every hit to the new path. Nodes that cross-link to the moved node are the most common failure point.
 6. **Org graph** — if the zone changed, update ZONE_MAP entry in `~/Projects/org/index.html`.
@@ -452,8 +407,7 @@ Do not publish before completing all four.
 - `STATE.md` — Live counts, active month group, last commit. Read at session start.
 - `VOICE.md` — @CoachellaAI voice and tone brief for Twitter Worker posts.
 - `NODES.md` — Full node plan with status.
-- `docs.json` — Mintlify navigation (source of truth for what's live).
-- `~/Projects/com/index.html` — Homepage v5 source of truth.
+- `~/Projects/com/` — Astro homepage source of truth (aicoachellavalley.com).
 - `~/Projects/org/index.html` — Org site source of truth (aicoachellavalley.org).
 - `~/Projects/aicv-api/worker.js` — API Worker source of truth.
 - `~/Projects/aicv-api/wrangler.toml` — API Worker config.

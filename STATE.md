@@ -34,7 +34,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `b6187a8` | docs: update STATE.md — 64 node pages live |
-| com (aicoachellavalley.com) | `73dc4a4` | feat: migrate build script to com repo, add snapshots.json and reports.json endpoints |
+| com (aicoachellavalley.com) | `3215288` | fix: repair broken node cross-links in briefs — all route to /nodes/[slug] |
 | org (aicoachellavalley.org) | `4e65fa3` | fix: add STATIC_LINKS edges for Gardens, Hotel Paseo, Visit GPS |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 

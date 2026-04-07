@@ -10,6 +10,7 @@ const DOCS_ROOT = path.resolve(__dirname, '..');
 const NODES_DIR = path.join(DOCS_ROOT, 'nodes');
 const BRIEFS_DIR = path.join(DOCS_ROOT, 'intelligence-briefs');
 const PUBLIC_DIR = DOCS_ROOT; // Mintlify serves static files from repo root, not public/
+const COM_BRIEFS_DIR = path.resolve(DOCS_ROOT, '../com/src/data/briefs');
 
 // --- Frontmatter parser (no external deps) ---
 function parseFrontmatter(content) {
@@ -183,6 +184,50 @@ function buildBriefs() {
   return briefs;
 }
 
+// --- Build per-brief JSON files for Astro com site ---
+function buildBriefFiles(briefs) {
+  if (!fs.existsSync(COM_BRIEFS_DIR)) {
+    fs.mkdirSync(COM_BRIEFS_DIR, { recursive: true });
+  }
+
+  const files = walkMdx(BRIEFS_DIR);
+  // Build a lookup from slug → raw content for body extraction
+  const contentBySlug = {};
+  for (const filePath of files) {
+    const slug = path.basename(filePath, '.mdx');
+    contentBySlug[slug] = fs.readFileSync(filePath, 'utf8');
+  }
+
+  let written = 0;
+  for (const brief of briefs) {
+    const raw = contentBySlug[brief.slug];
+    if (!raw) continue;
+
+    // Extract full body: everything after closing --- of frontmatter
+    const fmEnd = raw.indexOf('\n---\n', 3); // skip opening ---
+    const body = fmEnd !== -1 ? raw.slice(fmEnd + 5).trim() : '';
+
+    const record = {
+      slug: brief.slug,
+      title: brief.title,
+      description: brief.description,
+      date: brief.date,
+      tags: brief.tags,
+      body,
+    };
+
+    fs.writeFileSync(
+      path.join(COM_BRIEFS_DIR, `${brief.slug}.json`),
+      JSON.stringify(record, null, 2),
+      'utf8'
+    );
+    written++;
+  }
+
+  console.log(`briefs/*.json — ${written} files written to com/src/data/briefs/`);
+  return written;
+}
+
 // --- Schema validation ---
 // Warns on missing required fields — does not block execution.
 // Node required fields: agent_summary, agent_intent, status, verified
@@ -301,6 +346,8 @@ async function main() {
   console.log(`nodes.json  — ${nodes.length} nodes   (${(nodesSize / 1024).toFixed(1)} KB)`);
   console.log(`briefs.json — ${briefs.length} briefs (${(briefsSize / 1024).toFixed(1)} KB)`);
   console.log('Output: nodes.json, briefs.json');
+
+  buildBriefFiles(briefs);
 
   validate(nodes, briefs);
 
