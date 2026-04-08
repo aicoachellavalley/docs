@@ -11,6 +11,7 @@ Read this at the start of every session before any content operation. Update at 
 | Nodes live | 64 |
 | Intelligence briefs live | 120 |
 | Snapshots live | 2 |
+| Reports live | 1 |
 | `stat-briefs` fallback (homepage) | 120 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026)
@@ -34,7 +35,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `b6187a8` | read-only archive — Mintlify retired April 6, 2026 |
-| com (aicoachellavalley.com) | `3215288` | fix: repair broken node cross-links in briefs — all route to /nodes/[slug] |
+| com (aicoachellavalley.com) | `a2f0bb8` | feat: add Reports to site nav — homepage, briefs index, nodes index |
 | org (aicoachellavalley.org) | `4e65fa3` | fix: add STATIC_LINKS edges for Gardens, Hotel Paseo, Visit GPS |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
@@ -56,12 +57,13 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 - `aicoachellavalley.com/snapshots/[slug]` — dynamic, driven by `src/data/snapshots/[slug].json`
 - `aicoachellavalley.com/briefs/[slug]` — route ready, not yet populated
 - `aicoachellavalley.com/reviews/[slug]` — route ready, not yet populated
-- `aicoachellavalley.com/reports/[slug]` — route ready, not yet populated
+- `aicoachellavalley.com/reports/[slug]` — 1 report live (`state-of-ai-q1-2026`)
 
 **Data files:**
 - `src/data/snapshots/[slug].json` — one file per snapshot (canonical)
 - `src/content/briefs/[slug].mdx` — 120 brief MDX files (Astro Content Collections)
 - `src/content/nodes/[slug].mdx` — 64 node MDX files (Astro Content Collections, flattened from city subdirs)
+- `src/content/reports/[slug].mdx` — report MDX files (Astro Content Collections)
 - `src/data/briefs/` — RETIRED (deleted April 6, 2026)
 - `src/data/nodes/` — RETIRED (deleted April 6, 2026)
 - Adding a new brief or node = copy MDX to the relevant `src/content/` directory, push. No code changes needed.
@@ -73,6 +75,11 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 **Snapshot page:** Three tabs — Snapshot (public), Intelligence Review (plain text CTA, no gate), Node (pulls from matching `src/content/nodes/[slug].mdx` via Content Collections).
 
 **Astro v6 render API note:** Use `render(entry)` imported from `astro:content` — NOT `entry.render()`. Applies to all collection templates.
+
+**Report frontmatter rules:**
+- `sections` and `tags` must be single-line arrays — `parseFrontmatter()` in build-static-json.cjs cannot handle multi-line YAML arrays (produces `[]` in reports.json)
+- Do not use `{#id}` syntax in h2 headings — MDX treats `{...}` as JSX expressions; `{#slug}` is a parse error that breaks the Cloudflare build
+- Section IDs are assigned client-side by position: `sections[i]` → i-th h2 in DOM order
 
 **Snapshot schema fields:** slug, entityName, metaTitle, metaDescription, datePublished, dateModified, snapshotLocation, snapshotPeriod, schema, grades, opener, methodology, findings, actions (nullable), top_gaps (nullable), cta, passphrase (nullable — not used)
 
