@@ -9,12 +9,12 @@ Read this at the start of every session before any content operation. Update at 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 65 |
-| Intelligence briefs live | 122 |
+| Intelligence briefs live | 123 |
 | Snapshots live | 2 |
 | Reports live | 1 |
-| `stat-briefs` fallback (homepage) | 122 |
+| `stat-briefs` fallback (homepage) | 123 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 2 (Apr 2026: data-centers-coachella-valley, claude-cowork-ga)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 3 (Apr 2026: data-centers-coachella-valley, claude-cowork-ga, minor-hotels-ai-platform)
 
 **Nodes:** 65 across 12 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -61,7 +61,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 
 **Data files:**
 - `src/data/snapshots/[slug].json` — one file per snapshot (canonical)
-- `src/content/briefs/[slug].mdx` — 122 brief MDX files (Astro Content Collections)
+- `src/content/briefs/[slug].mdx` — 123 brief MDX files (Astro Content Collections)
 - `src/content/nodes/[slug].mdx` — 64 node MDX files (Astro Content Collections, flattened from city subdirs)
 - `src/content/reports/[slug].mdx` — report MDX files (Astro Content Collections)
 - `src/data/briefs/` — RETIRED (deleted April 6, 2026)
@@ -176,7 +176,7 @@ cd ~/Projects/sunshine-fm && npx wrangler pages deploy . --project-name sunshine
 ## Agent Discoverability Layer
 
 - `nodes.json` — 64 nodes (frontmatter only)
-- `briefs.json` — 122 briefs (frontmatter only)
+- `briefs.json` — 123 briefs (frontmatter only)
 - `.well-known/mcp.json` — MCP autodiscovery
 
 Regenerate: `node scripts/build-static-json.js` from `~/Projects/docs/`
