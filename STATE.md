@@ -4,19 +4,19 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of April 5, 2026)
+## Live Counts (as of April 10, 2026)
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 64 |
-| Intelligence briefs live | 120 |
+| Nodes live | 65 |
+| Intelligence briefs live | 122 |
 | Snapshots live | 2 |
 | Reports live | 1 |
-| `stat-briefs` fallback (homepage) | 120 |
+| `stat-briefs` fallback (homepage) | 122 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 2 (Apr 2026: data-centers-coachella-valley, claude-cowork-ga)
 
-**Nodes:** 64 across 11 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 65 across 12 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 
@@ -35,8 +35,8 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `b6187a8` | read-only archive — Mintlify retired April 6, 2026 |
-| com (aicoachellavalley.com) | `a2f0bb8` | feat: add Reports to site nav — homepage, briefs index, nodes index |
-| org (aicoachellavalley.org) | `4e65fa3` | fix: add STATIC_LINKS edges for Gardens, Hotel Paseo, Visit GPS |
+| com (aicoachellavalley.com) | `bb51786` | feat: add 2026-04-09 data centers brief |
+| org (aicoachellavalley.org) | `0910340` | feat: add coachella-economic-development to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
@@ -61,7 +61,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 
 **Data files:**
 - `src/data/snapshots/[slug].json` — one file per snapshot (canonical)
-- `src/content/briefs/[slug].mdx` — 120 brief MDX files (Astro Content Collections)
+- `src/content/briefs/[slug].mdx` — 122 brief MDX files (Astro Content Collections)
 - `src/content/nodes/[slug].mdx` — 64 node MDX files (Astro Content Collections, flattened from city subdirs)
 - `src/content/reports/[slug].mdx` — report MDX files (Astro Content Collections)
 - `src/data/briefs/` — RETIRED (deleted April 6, 2026)
@@ -176,7 +176,7 @@ cd ~/Projects/sunshine-fm && npx wrangler pages deploy . --project-name sunshine
 ## Agent Discoverability Layer
 
 - `nodes.json` — 64 nodes (frontmatter only)
-- `briefs.json` — 120 briefs (frontmatter only)
+- `briefs.json` — 122 briefs (frontmatter only)
 - `.well-known/mcp.json` — MCP autodiscovery
 
 Regenerate: `node scripts/build-static-json.js` from `~/Projects/docs/`
