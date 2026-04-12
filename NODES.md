@@ -2,7 +2,7 @@
 
 ## Overview
 
-64 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+65 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
 NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of April 3, 2026.
 
@@ -108,6 +108,12 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 
 Indio is the most economically layered city in the valley. Known as the City of Festivals and the Date Capital of the World — 95% of US dates are grown here. Empire Polo Club is privately owned and leased to Goldenvoice for festival events; it hosts multiple events beyond Coachella and Stagecoach. College of the Desert operates its East Valley Campus in Indio. The Indio Business Connect Center is a municipal entrepreneurship hub — candidate for a standalone Intelligence Brief, not a node.
 
+## Coachella (1 node)
+
+| # | Node | File | Status |
+|---|------|------|--------|
+| 65 | Coachella Economic Development | nodes/coachella/coachella-economic-development.mdx | ✅ Live |
+
 ## Adjacent Communities (4 nodes)
 
 | # | Node | File | Status |
@@ -132,6 +138,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 64 (including Node Zero)
+- Total live: 65 (including Node Zero)
 - Forthcoming: 0 signaled
 - Valley Wide path: nodes/valley-wide/
