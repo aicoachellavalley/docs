@@ -4,17 +4,17 @@ Read this at the start of every session before any content operation. Update at 
 
 ---
 
-## Live Counts (as of April 10, 2026)
+## Live Counts (as of April 11, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 65 |
-| Intelligence briefs live | 124 |
+| Intelligence briefs live | 126 |
 | Snapshots live | 2 |
 | Reports live | 1 |
-| `stat-briefs` fallback (homepage) | 124 |
+| `stat-briefs` fallback (homepage) | 126 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 4 (Apr 2026: data-centers-coachella-valley, claude-cowork-ga, minor-hotels-ai-platform, ai-labor-displacement-goldman)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 6 (Apr 2026: data-centers-coachella-valley, claude-cowork-ga, minor-hotels-ai-platform, ai-labor-displacement-goldman, ai-transition-risk-coachella-valley, high-desert-art-fair-coachella-contrast)
 
 **Nodes:** 65 across 12 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -35,7 +35,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `b6187a8` | read-only archive — Mintlify retired April 6, 2026 |
-| com (aicoachellavalley.com) | `bb51786` | feat: add 2026-04-09 data centers brief |
+| com (aicoachellavalley.com) | `a731337` | feat: add 2026-04-11 high-desert-art-fair-coachella-contrast brief |
 | org (aicoachellavalley.org) | `0910340` | feat: add coachella-economic-development to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
@@ -53,7 +53,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 
 **Live routes:**
 - `aicoachellavalley.com` — homepage, AIO tool live
-- `aicoachellavalley.com/nodes/[slug]` — 64 node pages, Gemini-crawlable, canonical tags set
+- `aicoachellavalley.com/nodes/[slug]` — 65 node pages, Gemini-crawlable, canonical tags set
 - `aicoachellavalley.com/snapshots/[slug]` — dynamic, driven by `src/data/snapshots/[slug].json`
 - `aicoachellavalley.com/briefs/[slug]` — route ready, not yet populated
 - `aicoachellavalley.com/reviews/[slug]` — route ready, not yet populated
@@ -61,8 +61,8 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 
 **Data files:**
 - `src/data/snapshots/[slug].json` — one file per snapshot (canonical)
-- `src/content/briefs/[slug].mdx` — 124 brief MDX files (Astro Content Collections)
-- `src/content/nodes/[slug].mdx` — 64 node MDX files (Astro Content Collections, flattened from city subdirs)
+- `src/content/briefs/[slug].mdx` — 126 brief MDX files (Astro Content Collections)
+- `src/content/nodes/[slug].mdx` — 65 node MDX files (Astro Content Collections, flattened from city subdirs)
 - `src/content/reports/[slug].mdx` — report MDX files (Astro Content Collections)
 - `src/data/briefs/` — RETIRED (deleted April 6, 2026)
 - `src/data/nodes/` — RETIRED (deleted April 6, 2026)
@@ -175,8 +175,8 @@ cd ~/Projects/sunshine-fm && npx wrangler pages deploy . --project-name sunshine
 
 ## Agent Discoverability Layer
 
-- `nodes.json` — 64 nodes (frontmatter only)
-- `briefs.json` — 124 briefs (frontmatter only)
+- `nodes.json` — 65 nodes (frontmatter only)
+- `briefs.json` — 126 briefs (frontmatter only)
 - `.well-known/mcp.json` — MCP autodiscovery
 
 Regenerate: `node scripts/build-static-json.js` from `~/Projects/docs/`
