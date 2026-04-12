@@ -21,7 +21,7 @@ Read this file when working on infrastructure, deployment, or ops. Not required 
 - API Worker is git-controlled at https://github.com/aicoachellavalley/aicv-api — deploy via `wrangler deploy` from `~/Projects/aicv-api/`. No Cloudflare Pages connection — push to GitHub does not deploy.
 - MCP Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/aicv-mcp/`. No git repo in that directory.
 - Twitter Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/twitter-worker/`. No git repo in that directory.
-- Tools dashboard auto-deploys via GitHub → Cloudflare Pages on push to main. Same pattern as homepage.
+- Tools dashboard does NOT auto-deploy. No Git connection. Always deploy manually: `cd ~/Projects/tools && npx wrangler pages deploy . --project-name aicv-tools`
 
 ---
 
@@ -61,7 +61,8 @@ Live at `twitter.aicoachellavalley.com`. Account: @CoachellaAI on X.
 Webhook verified end-to-end — any push adding a `.mdx` file to `src/content/briefs/` auto-tweets.
 Beehiiv RSS: Sundays 5pm PT.
 Manual publish (songs/reports) via MANUAL_PUBLISH_TOKEN.
-Clean deploy version: `25445dbb`.
+Clean deploy version: `f3048d63` (April 11, 2026).
+Bug fix (April 10, 2026): repo name was `com`, corrected to `homepage` on line 234. Root cause: silent 404 swallowed by try/catch — invisible until manually traced.
 
 ---
 
@@ -85,7 +86,7 @@ Review the diff for unintended regressions — especially the stats bar (IDs, fa
 
 **The four stat blocks:**
 - `stat-nodes` — Geographic nodes
-- `stat-briefs` — Intelligence briefs published (increment fallback +1 per new brief)
+- `stat-briefs` — Intelligence briefs published (JSON-driven at build time — no manual increment needed)
 - `stat-commits` — Platform commits since launch
 - `stat-words` — Words analyzed from local businesses (fallback: 10k, pulls `s.wordsAnalyzed`)
 
