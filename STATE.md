@@ -9,12 +9,12 @@ Read this at the start of every session before any content operation. Update at 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 65 |
-| Intelligence briefs live | 126 |
+| Intelligence briefs live | 129 |
 | Snapshots live | 2 |
 | Reports live | 1 |
-| `stat-briefs` fallback (homepage) | 126 |
+| `stat-briefs` fallback (homepage) | 129 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 6 (Apr 2026: data-centers-coachella-valley, claude-cowork-ga, minor-hotels-ai-platform, ai-labor-displacement-goldman, ai-transition-risk-coachella-valley, high-desert-art-fair-coachella-contrast)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 9 (Apr 2026)
 
 **Nodes:** 65 across 12 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
@@ -35,7 +35,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `b6187a8` | read-only archive — Mintlify retired April 6, 2026 |
-| com (aicoachellavalley.com) | `7a57096` | fix: update State of AI Q1 2026 published date to April 13 |
+| com (aicoachellavalley.com) | `cabde10` | feat: add 2026-04-14 ai-job-cuts and ai-jobs-false-security briefs |
 | org (aicoachellavalley.org) | `0910340` | feat: add coachella-economic-development to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
