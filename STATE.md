@@ -35,7 +35,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `b6187a8` | read-only archive — Mintlify retired April 6, 2026 |
-| com (aicoachellavalley.com) | `a731337` | feat: add 2026-04-11 high-desert-art-fair-coachella-contrast brief |
+| com (aicoachellavalley.com) | `7a57096` | fix: update State of AI Q1 2026 published date to April 13 |
 | org (aicoachellavalley.org) | `0910340` | feat: add coachella-economic-development to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
