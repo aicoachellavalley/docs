@@ -10,7 +10,7 @@ Read this at the start of every session before any content operation. Update at 
 |--------|-------|
 | Nodes live | 79 |
 | Intelligence briefs live | 129 |
-| Snapshots live | 2 |
+| Snapshots live | 3 |
 | Reports live | 1 |
 | `stat-briefs` fallback (homepage) | 129 |
 
@@ -35,7 +35,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `705e121` | docs: add related frontmatter schema + relationship types + graph maintenance protocol |
-| com (aicoachellavalley.com) | `c213f3a` | feat: add 6 local media nodes — media & journalism layer |
+| com (aicoachellavalley.com) | `c82d3b4` | feat: add Sensei Porcupine Creek snapshot — D/D/F |
 | org (aicoachellavalley.org) | `b2a489e` | feat: add 8 concept nodes to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
