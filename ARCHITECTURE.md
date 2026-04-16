@@ -25,6 +25,15 @@ Read this file when working on infrastructure, deployment, or ops. Not required 
 
 ---
 
+## IC Workflow URLs
+
+| Step | URL | Notes |
+|------|-----|-------|
+| Step 1 — Intake Form | https://tools.aicoachellavalley.com/ic-intake | Entity copy + three gap questions |
+| Step 3 — IC Chair | https://tools.aicoachellavalley.com/ic-chair.html?admin=aicv2026 | Full tool; admin param required for Save Snapshot |
+
+---
+
 ## API Worker
 
 Live at `api.aicoachellavalley.com`. Source: https://github.com/aicoachellavalley/aicv-api
