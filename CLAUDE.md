@@ -52,12 +52,22 @@ city: ""
 category: "landmark"
 subcategory: ""
 last_updated: "YYYY-MM-DD"
+related:
+  - slug: ""
+    type: ""
 ---
 ```
 
 Valid `category` values: `landmark`, `event`
 
 Valid `subcategory` values: `hospitality`, `golf`, `wellness`, `cultural`, `entertainment`, `economic`, `education`, `retail`, `intelligence`, `nonprofit`, `real-estate`, `innovation`, `media`
+
+Valid `related.type` values:
+- `supports` — this node provides evidence or context for the linked node's narrative
+- `extends` — this node deepens a concept the linked node introduces
+- `see_also` — relevant but no directional relationship; agent should know both
+- `same_corridor` — physical or geographic proximity matters for routing
+- `competitive_set` — same category, same market; IC and agent comparison context
 
 ---
 
@@ -204,6 +214,11 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
    grep -rn "new-node-slug" ~/Projects/com/src/content/nodes/
    ```
    Confirm every related node has a matching link back. One-way links break agent routing and the org graph edges. This step is not optional.
+9. **Graph maintenance (required before commit):**
+   Ask: which existing nodes does this node strengthen, extend, or contradict?
+   - Update their `related` frontmatter with the appropriate slug and type
+   - Update their `## Related Nodes` section to include a backlink
+   - One-way `related` links break graph integrity — every relationship must be reciprocal
 10. **Deploy org site** — graph changes are not visible until deployed:
     ```
     cd ~/Projects/org && npx wrangler pages deploy . --project-name aicoachellavalley-org
