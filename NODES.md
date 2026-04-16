@@ -2,9 +2,9 @@
 
 ## Overview
 
-65 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+73 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
-NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of April 3, 2026.
+NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of April 15, 2026.
 
 ## Node Zero (Valley-Wide Entry Point)
 
@@ -14,7 +14,7 @@ NODES.md is a living document. New nodes are added when signals warrant — not 
 
 Node Zero is the dispatcher and routing layer for agents entering the valley. It sits above all city groups in navigation and routes queries to the appropriate node or brief.
 
-## Valley Wide (13 nodes)
+## Valley Wide (21 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -31,6 +31,14 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 50 | Creative Economy — Coachella Valley | nodes/valley-wide/creative-economy-coachella-valley.mdx | ✅ Live |
 | 60 | AI Startup Activity — Coachella Valley | nodes/valley-wide/ai-startup-activity.mdx | ✅ Live |
 | 64 | Visit Greater Palm Springs | nodes/valley-wide/visit-greater-palm-springs.mdx | ✅ Live |
+| 66 | Retreat Economy — Coachella Valley | nodes/valley-wide/retreat-economy.mdx | ✅ Live |
+| 67 | Innovation Economy — Coachella Valley | nodes/valley-wide/innovation-economy.mdx | ✅ Live |
+| 68 | Development Pipeline — Coachella Valley | nodes/valley-wide/development-pipeline.mdx | ✅ Live |
+| 69 | Luxury Corridor — Coachella Valley | nodes/valley-wide/luxury-corridor.mdx | ✅ Live |
+| 70 | Desert Season — Coachella Valley | nodes/valley-wide/desert-season.mdx | ✅ Live |
+| 71 | Wellness Positioning — Coachella Valley | nodes/valley-wide/wellness-positioning.mdx | ✅ Live |
+| 72 | Aviation Gateway — Coachella Valley | nodes/valley-wide/aviation-gateway.mdx | ✅ Live |
+| 73 | Golf Destination — Coachella Valley | nodes/valley-wide/golf-destination.mdx | ✅ Live |
 
 ## Palm Springs (6 nodes)
 
@@ -138,6 +146,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 65 (including Node Zero)
+- Total live: 73 (including Node Zero)
 - Forthcoming: 0 signaled
 - Valley Wide path: nodes/valley-wide/
