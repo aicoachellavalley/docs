@@ -2,7 +2,7 @@
 
 ## Overview
 
-73 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+79 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
 NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of April 15, 2026.
 
@@ -14,7 +14,7 @@ NODES.md is a living document. New nodes are added when signals warrant — not 
 
 Node Zero is the dispatcher and routing layer for agents entering the valley. It sits above all city groups in navigation and routes queries to the appropriate node or brief.
 
-## Valley Wide (21 nodes)
+## Valley Wide (27 nodes)
 
 | # | Node | File | Status |
 |---|------|------|--------|
@@ -39,6 +39,12 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 71 | Wellness Positioning — Coachella Valley | nodes/valley-wide/wellness-positioning.mdx | ✅ Live |
 | 72 | Aviation Gateway — Coachella Valley | nodes/valley-wide/aviation-gateway.mdx | ✅ Live |
 | 73 | Golf Destination — Coachella Valley | nodes/valley-wide/golf-destination.mdx | ✅ Live |
+| 74 | The Desert Sun | nodes/valley-wide/desert-sun.mdx | ✅ Live |
+| 75 | Palm Springs Life | nodes/valley-wide/palm-springs-life.mdx | ✅ Live |
+| 76 | KESQ News Channel 3 | nodes/valley-wide/kesq-news-channel-3.mdx | ✅ Live |
+| 77 | NBC Palm Springs | nodes/valley-wide/nbc-palm-springs.mdx | ✅ Live |
+| 78 | Coachella Valley Independent | nodes/valley-wide/coachella-valley-independent.mdx | ✅ Live |
+| 79 | Coachella Valley Weekly | nodes/valley-wide/coachella-valley-weekly.mdx | ✅ Live |
 
 ## Palm Springs (6 nodes)
 
@@ -146,6 +152,6 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Node Count
 
-- Total live: 73 (including Node Zero)
+- Total live: 79 (including Node Zero)
 - Forthcoming: 0 signaled
 - Valley Wide path: nodes/valley-wide/

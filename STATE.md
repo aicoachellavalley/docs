@@ -8,7 +8,7 @@ Read this at the start of every session before any content operation. Update at 
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 73 |
+| Nodes live | 79 |
 | Intelligence briefs live | 129 |
 | Snapshots live | 2 |
 | Reports live | 1 |
@@ -16,7 +16,7 @@ Read this at the start of every session before any content operation. Update at 
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 9 (Apr 2026)
 
-**Nodes:** 73 across 12 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 79 across 12 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 
@@ -175,7 +175,7 @@ cd ~/Projects/sunshine-fm && npx wrangler pages deploy . --project-name sunshine
 
 ## Agent Discoverability Layer
 
-- `nodes.json` — 73 nodes (frontmatter only)
+- `nodes.json` — 79 nodes (frontmatter only)
 - `briefs.json` — 126 briefs (frontmatter only)
 - `.well-known/mcp.json` — MCP autodiscovery
 
