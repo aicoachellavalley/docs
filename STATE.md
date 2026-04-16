@@ -35,8 +35,8 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `b6187a8` | read-only archive — Mintlify retired April 6, 2026 |
-| com (aicoachellavalley.com) | `cabde10` | feat: add 2026-04-14 ai-job-cuts and ai-jobs-false-security briefs |
-| org (aicoachellavalley.org) | `0910340` | feat: add coachella-economic-development to graph lookup tables |
+| com (aicoachellavalley.com) | `4277153` | fix: normalize adjacent-communities city field in 4 nodes |
+| org (aicoachellavalley.org) | `b2a489e` | feat: add 8 concept nodes to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
 > Always verify current hash via `git log --oneline -5` before committing. Do not rely on hashes above as current.
