@@ -34,8 +34,8 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `b6187a8` | read-only archive — Mintlify retired April 6, 2026 |
-| com (aicoachellavalley.com) | `4277153` | fix: normalize adjacent-communities city field in 4 nodes |
+| docs (Mintlify) | `705e121` | docs: add related frontmatter schema + relationship types + graph maintenance protocol |
+| com (aicoachellavalley.com) | `c213f3a` | feat: add 6 local media nodes — media & journalism layer |
 | org (aicoachellavalley.org) | `b2a489e` | feat: add 8 concept nodes to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
