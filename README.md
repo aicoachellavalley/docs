@@ -1,58 +1,24 @@
-# Mintlify Starter Kit
+# AICV Playbook
 
-Use the starter kit to get your docs deployed and ready to customize.
+Canonical workflow and schema store for AI Coachella Valley.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+This repo holds:
+- CLAUDE.md — operating instructions for Claude sessions working
+  on AICV content
+- ARCHITECTURE.md — system architecture across com/, org/, and
+  related surfaces
+- NODES.md — node schema and inventory reference
+- VOICE.md — editorial voice and style
+- IC.md — Intelligence Council review framework
+- STATE.md — STRATEGIC state and North Star roadmap only
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+This repo does NOT hold:
+- Live node or brief content (that's ~/Projects/com/src/content/)
+- Operational state per repo (each operational repo keeps its
+  own STATE.md for deploy hashes, session logs, etc.)
+- Anything published to a live site
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
-
-## AI-assisted writing
-
-Set up your AI coding tool to work with Mintlify:
-
-```bash
-npx skills add https://mintlify.com/docs
-```
-
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
-
-See the [AI tools guides](/ai-tools) for tool-specific setup.
-
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```
-npm i -g mint
-```
-
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
-mint dev
-```
-
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
-
-
-
+See also:
+- ~/Projects/com/ (aicoachellavalley.com — Astro site)
+- ~/Projects/org/ (aicoachellavalley.org)
+- ~/sunshine-fm/ (sunshine.fm)

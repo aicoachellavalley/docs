@@ -147,7 +147,7 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Status Key
 
-- ✅ Live — published and in docs.json navigation
+- ✅ Live — published at `~/Projects/com/src/content/nodes/` (Astro Content Collections auto-discover; no nav file to update)
 - ⬜ Pending — planned, not yet built
 
 ## Node Count

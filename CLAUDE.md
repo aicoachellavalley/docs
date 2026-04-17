@@ -1,5 +1,34 @@
 # AICV — Project Brief for Claude Sessions
 
+## What this repo is
+
+The canonical workflow and schema store for AICV. No live content,
+no publishing. When working here, you are updating schemas, workflows,
+voice rules, or strategic state — not publishing-ready content.
+
+## State file partition
+
+STATE.md in this repo tracks STRATEGIC state only: North Star
+roadmap, milestones, major targets. Update weekly or on milestone
+completion, not per commit.
+
+OPERATIONAL state (deploy hashes, session logs, per-task tracking)
+belongs in each operational repo's own STATE.md. Do not add
+operational state to this file. If a repo doesn't have its own
+STATE.md yet, create one in that repo when first needed.
+
+## Canonical paths
+
+- Live AICV content: ~/Projects/com/src/content/
+- Live .org site: ~/Projects/org/
+- Live sunshine.fm: ~/sunshine-fm/
+- AICV Worker API: ~/Projects/aicv-api/
+- CV Intel pipeline: ~/cv-intel/
+- CV Intel agent: ~/Projects/cvintel-agent/
+- CV Intel web: ~/Projects/cvintel-web/
+
+---
+
 ## Session Start — Required
 
 Before any content operation:
@@ -327,16 +356,15 @@ When a node is relocated from one city folder to another (e.g. Indio → Adjacen
    ```bash
    ls ~/Projects/com/src/content/nodes/
    ```
-3. **docs.json** — update the page path entry. Remove old. Confirm new. No duplicates. This is the routing layer — if it's wrong, the nav is broken regardless of what's on disk.
-4. **NODES.md** — remove from old city section, update old city node count. Confirm entry exists in new city section with correct path.
-5. **Cross-links** — run before committing:
+3. **NODES.md** — remove from old city section, update old city node count. Confirm entry exists in new city section with correct path.
+4. **Cross-links** — run before committing:
    ```bash
    grep -rn "old-city/slug" ~/Projects/com/src/content/nodes/
    grep -rn "old-city/slug" ~/Projects/com/src/content/briefs/
    ```
    Update every hit to the new path. Nodes that cross-link to the moved node are the most common failure point.
-6. **Org graph** — if the zone changed, update ZONE_MAP entry in `~/Projects/org/index.html`.
-7. **Commit order:** fix nav first, then cross-links, then NODES.md cleanup. A partial migration is a broken migration — don't push until all six steps are done.
+5. **Org graph** — if the zone changed, update ZONE_MAP entry in `~/Projects/org/index.html`.
+6. **Commit order:** fix cross-links first, then NODES.md cleanup, then org graph. A partial migration is a broken migration — don't push until all five steps are done. (Astro Content Collections auto-discover the file on disk; there is no nav file to update.)
 
 ---
 
@@ -419,7 +447,7 @@ Do not publish before completing all four.
 
 - `CLAUDE.md` — This file. Session brief, workflow, schemas, procedures, strategy.
 - `ARCHITECTURE.md` — Infrastructure, deployment, ops notes, worker details. Read when working on infra.
-- `STATE.md` — Live counts, active month group, last commit. Read at session start.
+- `STATE.md` — STRATEGIC state only: live counts, distribution layer, North Star roadmap. Read at session start. Operational state (deploys, commit hashes) belongs in each operational repo's own STATE.md.
 - `VOICE.md` — @CoachellaAI voice and tone brief for Twitter Worker posts.
 - `NODES.md` — Full node plan with status.
 - `~/Projects/com/` — Astro homepage source of truth (aicoachellavalley.com).

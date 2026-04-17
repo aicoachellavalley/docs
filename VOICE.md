@@ -139,7 +139,7 @@ the intelligence brief verbatim. Doesn't sound like a brand account.
 
 | Layer | Home | Voice | Length | Trigger |
 |-------|------|-------|--------|---------|
-| Intelligence Brief | Mintlify / agent layer | Third person, formal, citation-grade | 300–600 words | "This is for a brief" |
+| Intelligence Brief | Astro site (aicoachellavalley.com) / agent layer | Third person, formal, citation-grade | 300–600 words | "This is for a brief" |
 | Newsletter / Blog | Beehiiv / Bluesky | Sat's voice, irreverent wit, observational | 800–1500 words | "This is for the newsletter" |
 | Daily Take | @CoachellaAI on X | Dry, first person, geo-anchored | 280 chars–3 posts | "This is for X" |
 

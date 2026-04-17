@@ -498,8 +498,9 @@ Every Snapshot HTML file uses this schema. Do not use Review schema.
 9. Draft Node using CLAUDE.md node schema
 10. Draft full Intelligence Review (private)
 11. Build `[slug].html` in `~/Projects/com/snapshots/`
-12. Commit node to docs repo, update docs.json nav,
-    run build-static-json.js
+12. Commit node to `~/Projects/com/src/content/nodes/` (Astro Content
+    Collections auto-discover; no nav update), then run
+    `node scripts/build-static-json.cjs` from `~/Projects/com/`
 13. Update STATE.md with new counts and commit hashes
 
 ---
@@ -507,9 +508,9 @@ Every Snapshot HTML file uses this schema. Do not use Review schema.
 ## File Locations
 
 - Snapshots: `~/Projects/com/snapshots/[slug].html`
-- Nodes: `~/Projects/docs/nodes/[city]/[slug].mdx`
+- Nodes: `~/Projects/com/src/content/nodes/[slug].mdx` (flat — no city subfolder)
 - IC prompts and outputs: session only — not archived
-- This file: `~/Projects/docs/IC.md`
+- This file: `~/Projects/aicv-playbook/IC.md`
 
 ---
 
