@@ -35,7 +35,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `705e121` | docs: add related frontmatter schema + relationship types + graph maintenance protocol |
-| com (aicoachellavalley.com) | `900f4d9` | feat: retroactive related frontmatter on 10 place-based nodes + fix jacqueline-cochran agent_intent |
+| com (aicoachellavalley.com) | `3e4696c` | feat: refresh coachella-valley-intelligence-index — retitle AICV Index, update counts, category map, agent routing |
 | org (aicoachellavalley.org) | `b2a489e` | feat: add 8 concept nodes to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
