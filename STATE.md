@@ -34,7 +34,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 
 | Repo | Hash | Notes |
 |------|------|-------|
-| docs (Mintlify) | `705e121` | docs: add related frontmatter schema + relationship types + graph maintenance protocol |
+| docs | `705e121` | docs: add related frontmatter schema + relationship types + graph maintenance protocol |
 | com (aicoachellavalley.com) | `3e4696c` | feat: refresh coachella-valley-intelligence-index — retitle AICV Index, update counts, category map, agent routing |
 | org (aicoachellavalley.org) | `b2a489e` | feat: add 8 concept nodes to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
@@ -179,7 +179,7 @@ cd ~/Projects/sunshine-fm && npx wrangler pages deploy . --project-name sunshine
 - `briefs.json` — 126 briefs (frontmatter only)
 - `.well-known/mcp.json` — MCP autodiscovery
 
-Regenerate: `node scripts/build-static-json.js` from `~/Projects/docs/`
+Regenerate: `node scripts/build-static-json.cjs` from `~/Projects/com/`
 
 ---
 
