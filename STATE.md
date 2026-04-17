@@ -8,7 +8,7 @@ Read this at the start of every session before any content operation. Update at 
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 79 |
+| Nodes live | 80 |
 | Intelligence briefs live | 129 |
 | Snapshots live | 3 |
 | Reports live | 1 |
@@ -16,7 +16,7 @@ Read this at the start of every session before any content operation. Update at 
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 9 (Apr 2026)
 
-**Nodes:** 79 across 12 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Nodes:** 80 across 12 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
 
 ---
 
@@ -35,7 +35,7 @@ When May begins: add a new `May 2026` group at the top. Do not restructure exist
 | Repo | Hash | Notes |
 |------|------|-------|
 | docs (Mintlify) | `705e121` | docs: add related frontmatter schema + relationship types + graph maintenance protocol |
-| com (aicoachellavalley.com) | `05a5b0f` | feat: add Sensei Porcupine Creek node + reciprocal backlinks on 5 concept nodes |
+| com (aicoachellavalley.com) | `0182603` | feat: add nonprofit-philanthropy and civic-infrastructure concept nodes + reciprocal backlinks |
 | org (aicoachellavalley.org) | `b2a489e` | feat: add 8 concept nodes to graph lookup tables |
 | tools (aicv-tools) | deployed April 5 | fix: IR tab plain text CTA, methodology updated |
 
