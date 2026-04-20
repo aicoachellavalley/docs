@@ -10,18 +10,18 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
-## Live Counts (as of April 15, 2026)
+## Live Counts (as of April 19, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 80 |
-| Intelligence briefs live | 129 |
+| Intelligence briefs live | 131 |
 | Snapshots live | 3 |
 | Reports live | 1 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 9 (Apr 2026)
+**Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
-**Nodes:** 80 across 12 zones — all on v2 schema with `verified`, `status`, `agent_intent` fields.
+**Verification ledger:** see `verification/SCHEMA.md` for schema v1; scaffold pending.
 
 ---
 
