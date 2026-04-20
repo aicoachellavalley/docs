@@ -19,6 +19,8 @@ The pre-partition snapshot of operational content is preserved at
 | Snapshots live | 3 |
 | Reports live | 1 |
 
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 11 (Apr 2026)
+
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
 **Verification ledger:** see `verification/SCHEMA.md` for schema v1; scaffold pending.
