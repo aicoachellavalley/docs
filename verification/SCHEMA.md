@@ -1,4 +1,4 @@
-# AICV Verification Ledger — Schema v1
+# AICV Verification Ledger — Schema v1.1
 
 The verification ledger tracks factual claims made in AICV content —
 per node, per brief, per review, per report — along with the sources
@@ -9,7 +9,7 @@ files (`.mdx`) carry prose written for agents and humans; ledger entries
 (`.json`) carry the machine-readable truth substrate behind that prose.
 The two are coupled by `id` (slug), not by mutual references.
 
-This document establishes **schema v1**. Future versions will bump
+This document establishes **schema v1.1**. Future versions will bump
 `schema_version` and require migration.
 
 ---
@@ -110,13 +110,13 @@ verification/
 
 ---
 
-## Schema v1 — fields
+## Schema v1.1 — fields
 
 ### Top-level
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `schema_version` | string | yes | `"v1"` for entries written against this document |
+| `schema_version` | string | yes | `"v1.1"` for entries written against this document |
 | `id` | string | yes | Stable slug matching the content file (e.g. `psp-airport`). Must be unique within `(surface, type)`. |
 | `surface` | enum | yes | `"com"` or `"org"` |
 | `type` | enum | yes | `"node"` \| `"brief"` \| `"review"` \| `"report"` \| `"visualization_of"` (org thin wrappers — see below) \| `"page"` (aggregate surface-level entries — see below) |
@@ -220,6 +220,7 @@ reciprocal edges.
 |---|---|---|---|
 | `target_id` | string | yes | Slug of the connected entry (e.g. `cotino`) |
 | `target_surface` | enum | yes | `"com"` or `"org"` |
+| `target_type` | enum \| null | yes | Type of the target entry. Allowed non-null values: `"node"` \| `"brief"` \| `"report"` \| `"review"` \| `"page"` \| `"visualization_of"`. `null` is a known v1.1 limitation: Shape A wrapper connections (`located_in`, `part_of`) target zone and subcategory classifications that are not ledger entries under v1.1. A dedicated taxonomy-model session (see `verification/AUDIT-2026-04-20-taxonomy.md`) will resolve whether these become first-class ledger entry types in a future SCHEMA revision, at which point `target_type` becomes required non-null. |
 | `direction` | enum | yes | `"outgoing"` \| `"incoming"` \| `"bidirectional"` |
 | `type` | string | yes | Recommended vocabulary (below), or any string. Track free-text types as candidates for promotion. |
 | `notes` | string | no | Free-text context — why this connection exists |
@@ -247,7 +248,7 @@ the vocabulary in future schema versions.
 
 ```json
 {
-  "schema_version": "v1",
+  "schema_version": "v1.1",
   "id": "psp-airport",
   "surface": "com",
   "type": "node",
@@ -296,6 +297,7 @@ the vocabulary in future schema versions.
     {
       "target_id": "aviation-gateway",
       "target_surface": "com",
+      "target_type": "node",
       "direction": "outgoing",
       "type": "part_of",
       "notes": "Frontmatter: related.type=supports → aviation-gateway"
@@ -303,6 +305,7 @@ the vocabulary in future schema versions.
     {
       "target_id": "coachella-valley-intelligence-index",
       "target_surface": "com",
+      "target_type": "node",
       "direction": "outgoing",
       "type": "references",
       "notes": "Related Nodes section"
@@ -310,6 +313,7 @@ the vocabulary in future schema versions.
     {
       "target_id": "coachella-festival",
       "target_surface": "com",
+      "target_type": "node",
       "direction": "outgoing",
       "type": "references",
       "notes": "Related Nodes section"
@@ -317,6 +321,7 @@ the vocabulary in future schema versions.
     {
       "target_id": "cotino",
       "target_surface": "com",
+      "target_type": "node",
       "direction": "outgoing",
       "type": "references",
       "notes": "Related Nodes section"
@@ -324,6 +329,7 @@ the vocabulary in future schema versions.
     {
       "target_id": "sensei-porcupine-creek",
       "target_surface": "com",
+      "target_type": "node",
       "direction": "outgoing",
       "type": "references",
       "notes": "Related Nodes section"
@@ -331,6 +337,7 @@ the vocabulary in future schema versions.
     {
       "target_id": "gardens-on-el-paseo",
       "target_surface": "com",
+      "target_type": "node",
       "direction": "outgoing",
       "type": "references",
       "notes": "Related Nodes section"
@@ -433,7 +440,7 @@ file exists, so this entry takes **Shape A**.
 
 ```json
 {
-  "schema_version": "v1",
+  "schema_version": "v1.1",
   "id": "psp-airport",
   "surface": "org",
   "type": "visualization_of",
@@ -445,6 +452,7 @@ file exists, so this entry takes **Shape A**.
     {
       "target_id": "palm-springs",
       "target_surface": "org",
+      "target_type": null,
       "direction": "outgoing",
       "type": "located_in",
       "notes": "ZONE_MAP: palm-springs/psp-airport → palm-springs"
@@ -452,6 +460,7 @@ file exists, so this entry takes **Shape A**.
     {
       "target_id": "economic",
       "target_surface": "org",
+      "target_type": null,
       "direction": "outgoing",
       "type": "part_of",
       "notes": "SUB_MAP: psp-airport → economic"
@@ -477,7 +486,13 @@ file exists, so this entry takes **Shape A**.
    - Geographic placement in a zone (`located_in palm-springs`)
      sourced from `ZONE_MAP`
    - Subcategory membership (`part_of economic`) sourced from `SUB_MAP`
-5. `review_method: "automated"` and `notes: null` — no human has
+5. Both connections carry `target_type: null` because their targets
+   (`palm-springs`, `economic`) are taxonomy references — classifying
+   concepts not modeled as ledger entries under v1.1. A dedicated
+   taxonomy-model session will resolve whether these become
+   first-class ledger entry types; at that point `target_type`
+   becomes required non-null.
+6. `review_method: "automated"` and `notes: null` — no human has
    reviewed; nothing operator-specific to record yet.
 
 A **Shape B** example would look identical in structure to the
@@ -574,7 +589,7 @@ without it, we can't answer "what fraction of claims are sourced?"
 
 ---
 
-## Known limitations of v1
+## Known limitations of v1.1
 
 - **Coarse claim extraction.** The scaffold emits roughly one claim
   per notable sentence in the "What It Is" / "Key Facts" sections.
@@ -599,7 +614,29 @@ without it, we can't answer "what fraction of claims are sourced?"
   what the scaffold emits. Scaffold completion does **not** imply
   query-ready state — it establishes the structure that verification
   fills in.
+- **`target_type: null` on taxonomy-reference connections.**
+  Shape A wrapper connections (`located_in`, `part_of`) target
+  zones and subcategories that are not ledger entries under v1.1.
+  These connections carry `target_type: null` as a documented
+  placeholder until a dedicated taxonomy-model session resolves
+  whether zones and subcategories become first-class ledger entry
+  types. See `verification/AUDIT-2026-04-20-taxonomy.md` for the
+  corpus audit that surfaced this limitation.
 
 ---
 
-*Schema v1 · authored 2026-04-19 · supersedes: none*
+## Revisions
+
+**v1 (2026-04-19):** Initial schema.
+
+**v1.1 (2026-04-20):** Adds `target_type` to connections,
+disambiguating cross-type id collisions surfaced by scaffold
+implementation (review entries share ids with subject nodes).
+Shape A wrapper connections to taxonomy references (zones,
+subcategories) carry `target_type: null`, a known limitation
+awaiting a dedicated taxonomy-model session (see
+`verification/AUDIT-2026-04-20-taxonomy.md`).
+
+---
+
+*Schema v1.1 · authored 2026-04-20 · supersedes: v1*
