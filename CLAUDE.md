@@ -23,9 +23,7 @@ STATE.md yet, create one in that repo when first needed.
 - Live .org site: ~/Projects/org/
 - Live sunshine.fm: ~/sunshine-fm/
 - AICV Worker API: ~/Projects/aicv-api/
-- CV Intel pipeline: ~/cv-intel/
-- CV Intel agent: ~/Projects/cvintel-agent/
-- CV Intel web: ~/Projects/cvintel-web/
+- CV Intel: parked 2026-04-20, lives at ~/cv-intel/ (see README there)
 
 ---
 
@@ -454,3 +452,9 @@ Do not publish before completing all four.
 - `~/Projects/org/index.html` — Org site source of truth (aicoachellavalley.org).
 - `~/Projects/aicv-api/worker.js` — API Worker source of truth.
 - `~/Projects/aicv-api/wrangler.toml` — API Worker config.
+
+---
+
+## Relationship to the SunshineFM Guide
+
+AICV and the SunshineFM Guide (sunshine.fm/guide/) are deliberately separate systems that meet at the entity level. AICV is a knowledge graph — Nodes derive meaning from their connections, and the corpus benefits from graph dynamics (embeddings, similarity, emergent relationships). The Guide is a publication — each entry is editorially complete in itself and does not use self-learning dynamics. They cross-reference via the `aicvNodeSlug` field on Guide entries and (eventually) a reciprocal field on Nodes. An entity can appear in both with different presentations: analytical view on AICV, editorial view on SunshineFM. See ~/sunshine-fm/guide-builder/README.md for the longer rationale.
