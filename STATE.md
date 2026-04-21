@@ -37,6 +37,12 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
+## Sibling projects
+
+**CV Intel status:** Parked as of 2026-04-20. Workers paused in Cloudflare dashboard (parking action in progress per parking README). `agendalink-sync` cron disabled 2026-04-21. Canonical parking state: `~/cv-intel/README.md`. Do not resume CV Intel work from AICV sessions without reading the parking README first.
+
+---
+
 ## North Star Roadmap
 
 _To be populated with strategic milestones and major targets._
