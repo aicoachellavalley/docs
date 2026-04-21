@@ -64,6 +64,10 @@ A three-layer intelligence system:
 
 Claude Code must not commit without explicit approval.
 
+**Verify before acting on production state.** Before any action that changes a production constant, hardcoded path, configuration value, or live deployed resource, verify the target via direct inspection (`git remote -v`, `curl`, file read, etc.) rather than inferring from prior conversation or tool reports. This applies whether the action is a single-line edit, a deploy, or a schema change. Cost is seconds; cost of false precision in production is hours.
+
+Surfaced 2026-04-20 when an aicv-mcp URL fix was written on top of a reconstructed inference about the GitHub remote, caught by the user before deploy. The actual remote was verified in 10 seconds via `git remote -v` and confirmed the fix was correct — but the cost of being wrong (deploying a worse bug on top of an existing one) would have been hours of rollback and re-triage.
+
 ---
 
 ## Node Frontmatter Schema (Required — Do Not Deviate)
