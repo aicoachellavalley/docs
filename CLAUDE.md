@@ -6,6 +6,14 @@ The canonical workflow and schema store for AICV. No live content,
 no publishing. When working here, you are updating schemas, workflows,
 voice rules, or strategic state — not publishing-ready content.
 
+GitHub: https://github.com/aicoachellavalley/docs
+
+**GitHub repo name vs local directory name.** This local directory is named `aicv-playbook/` but the GitHub remote is `aicoachellavalley/docs` — not `aicoachellavalley/aicv-playbook`. Any code or prompt that hardcodes GitHub raw URLs, clones from GitHub, or references the repo by name must use `docs`.
+
+Verify with: `git remote -v`
+
+Surfaced 2026-04-21 during ecosystem recon. This is the second instance of the same trap — see also com/CLAUDE.md for the trap on the homepage repo. Origin: the local directory was renamed from `docs/` to `aicv-playbook/` on 2026-04-17 (commit 627f235) for ergonomic reasons; the GitHub remote was not renamed.
+
 ## State file partition
 
 STATE.md in this repo tracks STRATEGIC state only: North Star
@@ -34,15 +42,6 @@ Before any content operation:
 2. Read ARCHITECTURE.md only if working on infrastructure, deployment, or ops
 
 Do not create or edit any file without completing step 1.
-
----
-
-## What This Is
-
-AI Coachella Valley (AICV) is an agent-first intelligence documentation site for the Coachella Valley's emerging AI economy. Primary goal: to be the authoritative cited source for Coachella Valley intelligence across all major LLMs and AI agents.
-
-Live site: https://aicoachellavalley.com
-GitHub: https://github.com/aicoachellavalley/homepage
 
 ---
 
