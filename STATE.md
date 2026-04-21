@@ -37,6 +37,38 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
+## Repositories
+
+Git-tracked AICV repositories. All live under
+`github.com/aicoachellavalley/`. Local directory name and
+GitHub remote name match EXCEPT where flagged — see each
+repo's CLAUDE.md for trap details.
+
+| Local dir | GitHub remote | Purpose |
+|---|---|---|
+| `aicv-playbook/` | `docs` ⚠ | Workflow brain, schemas, strategic state |
+| `com/` | `homepage` ⚠ | aicoachellavalley.com Astro site |
+| `org/` | `aicoachellavalley-org` | aicoachellavalley.org |
+| `tools/` | `tools` | tools.aicoachellavalley.com |
+| `aicv-api/` | `aicv-api` | AIO Tool worker |
+| `aicv-mcp/` | `aicv-mcp` | MCP worker |
+| `aicv-ic/` | `aicv-ic` | IC backend worker (NEW 2026-04-21) |
+| `twitter-worker/` | `twitter-worker` | @CoachellaAI posting (NEW 2026-04-21) |
+| `bluesky-worker/` | `bluesky-worker` | @sunshinefm posting (NEW 2026-04-21) |
+
+**⚠ = local directory name diverges from GitHub remote
+name.** See the repo's CLAUDE.md for details. Always verify
+with `git remote -v` before hardcoding GitHub URLs.
+
+**Not shown:** `agendalink-sync/` is an untracked CV Intel
+adapter cordoned 2026-04-21 — see the CV Intel parking
+README (linked in Sibling projects section below). The
+CV Intel family repos (`cv-intel`, `cvintel-agent`,
+`cvintel-cron`) are also under `github.com/aicoachellavalley/`
+but belong to CV Intel; see parking README for their status.
+
+---
+
 ## Sibling projects
 
 **CV Intel status:** Parked as of 2026-04-20. Workers paused in Cloudflare dashboard (parking action in progress per parking README). `agendalink-sync` cron disabled 2026-04-21. Canonical parking state: `~/cv-intel/README.md`. Do not resume CV Intel work from AICV sessions without reading the parking README first.
