@@ -99,6 +99,15 @@ Strategic posture locked: **"agent-ready now, SEO-ready always."** Bridge at ent
 
 At ~300 AICV entities, the corpus should produce emergent regional insights. Layer 2 build path defined: enhance build-static-json.cjs with bidirectional refs, explicit relationship types, temporal structure, aggregation surfaces. Not a new platform. See CLAUDE.md for full definition.
 
+### Milestone: Agent-readiness baselines established (2026-04-23)
+
+Both AICV domains now have documented agent-readiness baselines with deferral rationale on disk.
+
+- aicoachellavalley.com: Cloudflare 75 / Level 5 "Agent-Native" (highest tier). AICV AIO Tool: Grade A. Person schema added; entity clarity clear.
+- aicoachellavalley.org: Cloudflare 50 / Level 2. AIO Tool: B. Status pills + agent discovery infrastructure deployed. Markdown for Agents + Pro upgrade deferred pending pitch traffic.
+
+Commercial tier activated — /get-agent-ready page scoped for next build session with DCF board approval secured.
+
 ---
 
 ## How to Update This File
