@@ -23,9 +23,9 @@ This is design thinking work, not implementation. Goal: a written sketch of what
 
 ## Secondary work — technical housekeeping if time permits
 
-### 3. ~/sunshine-fm/CLAUDE.md creation
+### 3. ~/sunshine-fm/CLAUDE.md (✅ done 2026-04-22)
 
-The separate prompt in today's handoff doc. Captures SunshineFM operating context: three-part structure, deploy flow, newsroom cards-are-not-fallback warning, voice, related projects. Run as standalone Claude Code session. ~15 min.
+Already created today. No tomorrow work needed. Leaving as a placeholder for archival clarity.
 
 ### 4. Newsroom cards warning comment in sunshine-fm/index.html
 
