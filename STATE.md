@@ -10,16 +10,16 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
-## Live Counts (as of April 19, 2026)
+## Live Counts (as of April 22, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 80 |
-| Intelligence briefs live | 131 |
+| Intelligence briefs live | 132 |
 | Snapshots live | 3 |
 | Reports live | 1 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 11 (Apr 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 12 (Apr 2026)
 
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
@@ -77,7 +77,27 @@ but belong to CV Intel; see parking README for their status.
 
 ## North Star Roadmap
 
-_To be populated with strategic milestones and major targets._
+### Milestone: Tier 4 agent-readiness achieved (2026-04-22)
+
+aicoachellavalley.com is now at full Tier 4 of the four-tier agent-readiness framework:
+- Cloudflare Pro zone upgrade
+- Markdown for Agents enabled at CDN edge (Accept: text/markdown → edge-converted response with Content-Signal header)
+- Content-Signal directive live in robots.txt
+- `/.well-known/api-catalog` (RFC 9727 linkset) published
+- `/.well-known/mcp/server-card.json` (SEP-2127 draft shape) published
+- AICV MCP server at mcp.aicoachellavalley.com publicly discoverable via standard well-known path
+
+### Milestone: Pitch framing locked (2026-04-22)
+
+Four-tier agent-readiness framework crystallized as a pitch asset. Network pitch: "Join the AICV network — we represent your entity at Tier 4 without you touching your website." See CLAUDE.md for the full tier definitions.
+
+### Architecture: AICV vs SunshineFM Guide separation formalized (2026-04-22)
+
+Strategic posture locked: **"agent-ready now, SEO-ready always."** Bridge at entity level only (aicvNodeSlug on Guide entries; future sunshineFmGuideSlug on AICV nodes). Neither system auto-feeds the other.
+
+### Architecture: Collective signal vision defined (2026-04-22)
+
+At ~300 AICV entities, the corpus should produce emergent regional insights. Layer 2 build path defined: enhance build-static-json.cjs with bidirectional refs, explicit relationship types, temporal structure, aggregation surfaces. Not a new platform. See CLAUDE.md for full definition.
 
 ---
 

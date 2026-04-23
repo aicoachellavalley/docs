@@ -460,4 +460,25 @@ Do not publish before completing all four.
 
 ## Relationship to the SunshineFM Guide
 
-AICV and the SunshineFM Guide (sunshine.fm/guide/) are deliberately separate systems that meet at the entity level. AICV is a knowledge graph — Nodes derive meaning from their connections, and the corpus benefits from graph dynamics (embeddings, similarity, emergent relationships). The Guide is a publication — each entry is editorially complete in itself and does not use self-learning dynamics. They cross-reference via the `aicvNodeSlug` field on Guide entries and (eventually) a reciprocal field on Nodes. An entity can appear in both with different presentations: analytical view on AICV, editorial view on SunshineFM. See ~/sunshine-fm/guide-builder/README.md for the longer rationale.
+AICV and the SunshineFM Guide (sunshine.fm/guide/) are deliberately separate systems that meet at the entity level. AICV is a knowledge graph — Nodes derive meaning from their connections, and the corpus benefits from graph dynamics (embeddings, similarity, emergent relationships). The Guide is a publication — each entry is editorially complete in itself and does not use self-learning dynamics. They cross-reference via the `aicvNodeSlug` field on Guide entries and (eventually) a reciprocal field on Nodes. An entity can appear in both with different presentations: analytical view on AICV, editorial view on SunshineFM. Strategic posture: **"agent-ready now, SEO-ready always"** — the agentic world is arriving but not fully here, and SEO still matters for human discovery. See ~/sunshine-fm/guide-builder/README.md for the longer rationale.
+
+## Four-tier agent-readiness framework (pitch asset)
+
+Crystallized 2026-04-22. Used in AICV network pitch.
+
+- **Tier 1:** Baseline HTML only (most local businesses)
+- **Tier 2:** Good hygiene — schema.org markup + llms.txt (host-agnostic)
+- **Tier 3:** Agent-native — full schema + JSON endpoints + citation-grade content
+- **Tier 4:** Tier 3 + CDN-edge markdown negotiation + `.well-known` discovery endpoints
+
+aicoachellavalley.com sits at Tier 4 as of 2026-04-22 (Cloudflare Pro + Markdown for Agents + `/.well-known/api-catalog` + `/.well-known/mcp/server-card.json`).
+
+Network pitch: "Join the AICV network — we represent your entity at Tier 4 without you touching your website."
+
+## Collective signal vision
+
+At ~300 AICV entities with dense briefs, snapshots, and explicit relationships, the corpus is designed to produce emergent regional insights that no single source in the Coachella Valley has today: "what kinds of businesses are thriving vs 18 months ago," "which partnerships are structural vs performative," "where is wealth flowing."
+
+The "living organism of understanding" is an AICV-internal property, not cross-system. This is **Layer 2 work on existing infrastructure** — not a new platform, not a Karpathy-style wiki.
+
+Build path: enhance `build-static-json.cjs` with bidirectional references, explicit relationship types from the four-layer ecosystem framework (Direct Competitive Set, Feeder Properties, Wealth Nodes, Demand Engines), temporal structure in briefs, and aggregation surfaces. A regional intelligence substrate operating on existing AICV content types.
