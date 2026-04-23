@@ -48,6 +48,31 @@ Parked from earlier. Guide has mobile nav; root doesn't. ~30-60 min.
 - Re-run Cloudflare Agentic Readability scan on aicoachellavalley.com. Multiple dimensions should now score that were zero before: Content (Markdown for Agents), Link headers, Content Signals, API catalog, MCP Server Card.
 - Paste the live api-catalog and server-card.json URLs into the browser and capture screenshots — they're pitch assets now.
 
+## Followups from /review on commit 41cc994
+
+Both low-priority, both surfaced by tonight's /review pass. Not blocking anything; flagged so they don't drift.
+
+### 1. .com _headers cleanup (~10 min)
+
+The `/` block on the homepage still emits older Link header entries:
+- `rel="api-catalog"` (no type param)
+- `rel="describedby"` pointing to server-card.json
+
+The `/*` block added in 41cc994 emits the correct versions:
+- `rel="api-catalog"; type="application/linkset+json"`
+- `rel="mcp-server"; type="application/json"`
+
+Result: homepage emits 6 Link headers where 4 would suffice. Two are semantically duplicate. Agents parsing Link headers will dedupe or get mildly confused by `describedby` vs `mcp-server` on the same target. Fix: remove the stale `api-catalog` and `describedby` entries from the `/` block in `public/_headers`.
+
+### 2. aicv-mcp worker city enum (~5 min)
+
+The worker's `query_venues` TOOL_DEFINITIONS in `~/Projects/aicv-mcp/worker.js` lists valid cities as:
+`palm-springs, rancho-mirage, palm-desert, indian-wells, la-quinta, indio, valley-wide`
+
+Missing: `desert-hot-springs`, `cathedral-city` — both are in the AICV node system.
+
+Fix: update the `city` field description in TOOL_DEFINITIONS for `query_venues`, then `wrangler deploy` from `~/Projects/aicv-mcp/`.
+
 ## Session discipline reminders
 
 - Verification-before-inference on any production fetch, constant, config, or URL before editing
