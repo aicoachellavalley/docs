@@ -108,6 +108,12 @@ Both AICV domains now have documented agent-readiness baselines with deferral ra
 
 Commercial tier activated — /get-agent-ready page scoped for next build session with DCF board approval secured.
 
+### Milestone: Commercial tier Phase 1 launched (2026-04-23)
+
+`/get-agent-ready/` live on aicoachellavalley.com (commit `32b6981`). Standalone page separates AICV Network commercial positioning from organizational/editorial homepage narrative — resolves the Entity Clarity warning flagged in the 2026-04-23 AIO baseline. Homepage untouched. Pricing locked: AICV Ready ($1,000 + $2,500/yr), AICV Reviewed Founding ($2,500 + $5,000/yr, 10 spots), AICV Reviewed Standard ($5,000 + $7,500/yr). Founding counter 10/10. AIO grade + Cloudflare rescoring on new page deferred (worker rate limit hit on 2026-04-23); operational detail in `com/STATE.md`.
+
+**Deferred verifications scheduled 2026-04-24:** AIO Tool grade on `/get-agent-ready/` (target A); Cloudflare agent-readiness rescan on `/get-agent-ready/` (target 75+); Google Rich Results validation on `/get-agent-ready/` JSON-LD.
+
 ---
 
 ## How to Update This File

@@ -444,6 +444,13 @@ Do not publish before completing all four.
 
 ---
 
+## AIO Tool Embed Rules
+
+- **TOS modal is mandatory on any page embedding the AIO Tool widget.** Any page that embeds the AIO Tool must also include the Terms of Use footer link and modal. Reference pattern lives in `~/Projects/com/src/pages/index.astro` — footer link at line ~499, modal definition lines ~506–542. Copy all three artifacts together: modal HTML, its CSS, and the Escape-key handler. Applies to current and future pages. Surfaced during Phase 1 `/review` on commit 32b6981 — `/get-agent-ready/` initially shipped without the modal despite embedding the widget; caught and fixed pre-commit.
+- **AIO worker verification batches post-build, not same-day.** The AIO Tool worker (`aicv-api.sunshinefm.workers.dev/analyze`) rate-limits at 5 analyses per day per IP. A Claude Code build session that tests the widget during development consumes that day's verification budget. Pattern: run build-time widget functional tests on build day; run target-URL AIO grade verification the following day. Applies to any session that deploys a page embedding the AIO Tool.
+
+---
+
 ## Project File Structure
 
 - `CLAUDE.md` — This file. Session brief, workflow, schemas, procedures, strategy.
