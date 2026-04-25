@@ -140,6 +140,8 @@ Worker (`~/Projects/aicv-api/worker.js`) returns the raw Anthropic API response 
 
 **Never move JSON parsing or grade logic into the worker.** This was attempted March 18, 2026 and caused a cascade of response shape mismatches that broke the tool across multiple deploys. The client-side chain is battle-tested — leave it there.
 
+**Worker observability — content fetch logging.** Workers that fetch and process external content must log content lengths at each transformation step (fetched, cleaned, sliced, sent-to-API). Silent caps and truncation events are the failure mode worth instrumenting against. Two production-impacting bugs in 30 days (GITHUB_RAW silent fail in twitter-worker; AIO 6k slice in aicv-api, commit `91a31f4`) both ran undetected because no length logging existed at the transformation boundaries. One-line `console.log` entries at fetch boundaries are the minimum bar. Cloudflare Worker logs can be tailed in real time via `wrangler tail`.
+
 ---
 
 ## Agent Discoverability Layer
