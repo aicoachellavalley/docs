@@ -10,7 +10,7 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
-## Live Counts (as of April 23, 2026)
+## Live Counts (as of April 26, 2026)
 
 | Metric | Count |
 |--------|-------|
