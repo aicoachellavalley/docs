@@ -114,6 +114,18 @@ Commercial tier activated — /get-agent-ready page scoped for next build sessio
 
 **Deferred verifications completed 2026-04-25** (originally scheduled 2026-04-24; delayed one day by rate-limit): AIO Tool grade on `/get-agent-ready/` (78 / Grade C, 1 warn — AIO rescan surfaced a 6k content-cap truncation bug in the worker; investigated and fixed same session, `aicv-api` commit `91a31f4`); Cloudflare agent-readiness rescan (75 / Level 5 — domain infrastructure confirmed); Google Rich Results (valid — all 4 schema types confirmed). Operational detail in `com/STATE.md`.
 
+### On the horizon: User journey + waypoint naming
+
+Surfaced 2026-04-26. The four-tier framework (Tier 1–4) is the right technical taxonomy for internal use and developer-facing pitches, but numbers are the wrong shape for partner-facing communication — they read as grades and put prospects in a defensive posture.
+
+Pending work, deferred until landing page completes:
+- Build the partner-facing user journey: how a prospect goes from "never heard of AICV" to "represented in the network at the top tier"
+- Identify waypoints: landing point, self-location, visible gap, on-ramp (likely Snapshot), ongoing presence (Review portal)
+- Name the waypoints with descriptive, motion-implying language — not numbers, not aspirational grades. Names emerge from the journey, not before it.
+- Keep Tier 1–4 as internal technical vocabulary; the named waypoints are the partner-facing layer on top.
+
+Do not start this work until landing page (separate thread) is shipped.
+
 ---
 
 ## How to Update This File
