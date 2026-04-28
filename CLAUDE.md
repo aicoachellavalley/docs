@@ -277,6 +277,7 @@ Every intelligence brief drafted in Claude.ai must end with:
 - **Static JSON is the agent-readable layer.** Run `node scripts/build-static-json.cjs` after every node or brief session. Stale JSON = agents reading outdated data.
 - **Astro Content Collections auto-discover MDX.** No nav file to update — adding a file to `src/content/briefs/` or `src/content/nodes/` is sufficient.
 - **`chore(state):` messages must be distinct within a 24-hour window.** For iterative state updates within 24 hours that touch the same counts, append a sequence indicator or use a more specific message describing what the second pass actually changed — never reuse identical messages on consecutive commits, as this hides what actually changed. Surfaced 2026-04-23: commits `44d2635` and `f2ec72a` both read `chore(state): brief count 132→133, nodes 79→80`.
+- **Playbook and documentation updates: `docs:`** (edits to CLAUDE.md, STATE.md, ARCHITECTURE.md, VOICE.md, NODES.md, or HANDOFF.md). Use a specific description of what was codified, clarified, or corrected.
 
 ---
 
