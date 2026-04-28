@@ -10,16 +10,16 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
-## Live Counts (as of April 26, 2026)
+## Live Counts (as of April 28, 2026)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 80 |
-| Intelligence briefs live | 136 |
+| Intelligence briefs live | 140 |
 | Snapshots live | 3 |
-| Reports live | 1 |
+| Reports live | 2 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 16 (Apr 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 20 (Apr 2026)
 
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
@@ -113,6 +113,10 @@ Commercial tier activated — /get-agent-ready page scoped for next build sessio
 `/get-agent-ready/` live on aicoachellavalley.com (commit `32b6981`). Standalone page separates AICV Network commercial positioning from organizational/editorial homepage narrative — resolves the Entity Clarity warning flagged in the 2026-04-23 AIO baseline. Homepage untouched. Pricing locked: AICV Ready ($1,000 + $2,500/yr), AICV Reviewed Founding ($2,500 + $5,000/yr, 10 spots), AICV Reviewed Standard ($5,000 + $7,500/yr). Founding counter 10/10. AIO grade + Cloudflare rescoring on new page deferred (worker rate limit hit on 2026-04-23); operational detail in `com/STATE.md`.
 
 **Deferred verifications completed 2026-04-25** (originally scheduled 2026-04-24; delayed one day by rate-limit): AIO Tool grade on `/get-agent-ready/` (78 / Grade C, 1 warn — AIO rescan surfaced a 6k content-cap truncation bug in the worker; investigated and fixed same session, `aicv-api` commit `91a31f4`); Cloudflare agent-readiness rescan (75 / Level 5 — domain infrastructure confirmed); Google Rich Results (valid — all 4 schema types confirmed). Operational detail in `com/STATE.md`.
+
+### Milestone: First Civic Intelligence Report published (2026-04-28)
+
+"The Server Farm Next Door" — AICV Civic Intelligence Report No. 001 on data centers, AI infrastructure, and community negotiating power in the Coachella Valley. New report type (`civic-intelligence`) added alongside existing `state-of-ai` type. Reports live at `/reports/`. Static JSON and reports index updated; second report in `reports.json`.
 
 ### On the horizon: User journey + waypoint naming
 
