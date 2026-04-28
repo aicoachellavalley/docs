@@ -15,11 +15,11 @@ The pre-partition snapshot of operational content is preserved at
 | Metric | Count |
 |--------|-------|
 | Nodes live | 80 |
-| Intelligence briefs live | 133 |
+| Intelligence briefs live | 136 |
 | Snapshots live | 3 |
 | Reports live | 1 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 13 (Apr 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 16 (Apr 2026)
 
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
@@ -103,7 +103,7 @@ At ~300 AICV entities, the corpus should produce emergent regional insights. Lay
 
 Both AICV domains now have documented agent-readiness baselines with deferral rationale on disk.
 
-- aicoachellavalley.com: Cloudflare 75 / Level 5 "Agent-Native" (highest tier). AICV AIO Tool: Grade A. Person schema added; entity clarity clear.
+- aicoachellavalley.com: Cloudflare 75 / Level 5 "Agent-Native" (highest tier). AICV AIO Tool: 86 / Grade B. Person schema added; entity clarity clear.
 - aicoachellavalley.org: Cloudflare 50 / Level 2. AIO Tool: B. Status pills + agent discovery infrastructure deployed. Markdown for Agents + Pro upgrade deferred pending pitch traffic.
 
 Commercial tier activated — /get-agent-ready page scoped for next build session with DCF board approval secured.
