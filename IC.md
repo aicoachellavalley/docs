@@ -536,3 +536,56 @@ Candidates are selected based on:
 
 Do not maintain a static queue here. Start each review session
 with Sat's current candidate and run the IC from there.
+
+---
+
+## Pending Work — Two-Agent IC System (2026-04-29)
+
+Architecture decided in the 2026-04-29 session. Not yet built.
+
+### Architecture
+
+Two Managed Agents bookend the existing aicv-ic worker — worker
+unchanged:
+
+- **Pre-Council Agent** — Research and entity profiling before
+  `/intake`. Gathers current digital presence, structured data
+  signals, competitive context. Produces the entity details block
+  and self-reported gaps. City-scoped memory store retains prior
+  research for repeat entities.
+- **Post-Council Agent** — Mechanics and output handling after
+  `/chair`. Drafts Snapshot JSON, Node MDX, and private Intelligence
+  Review from the chairman's synthesized output. Routes public vs.
+  private content per the grades-go-private decision. City-scoped
+  memory store tracks what's been produced for each entity.
+
+Both agents use Anthropic Managed Agents with city-scoped memory
+stores (public beta as of 2026-04-23). Memory scope: one store per
+agent per city — ten cities, twenty stores total at full scale.
+
+Real-time search: Claude native `web_search` tool. No Exa
+dependency.
+
+### Pilot Plan
+
+One city first — Rancho Mirage is the candidate (ultra-luxury tier,
+highest-value entities, clearest IC use case). Validate the full
+Pre→Council→Post pattern on one real entity before scaling to the
+remaining nine cities.
+
+### Build Sequence
+
+1. Draft Pre-Council Agent spec as an IC.md addition (next session)
+2. Draft Post-Council Agent spec as an IC.md addition (next session)
+3. Build Pre-Council Agent for Rancho Mirage pilot
+4. Run one full review end-to-end with both agents
+5. Validate output quality vs. current manual process
+6. Scale to remaining nine cities
+
+### External Dependency
+
+LLM Council API: email sent 2026-04-28 requesting API access. Reply
+pending. Architecture works with or without the API — if unavailable,
+Pre-Council Agent prepares the intake payload, human pastes into
+llmcouncil.ai, Post-Council Agent handles the output. Full
+automation unlocks when API is available.

@@ -10,16 +10,16 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
-## Live Counts (as of April 28, 2026)
+## Live Counts (as of April 29, 2026)
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 80 |
-| Intelligence briefs live | 141 |
+| Nodes live | 81 |
+| Intelligence briefs live | 142 |
 | Snapshots live | 3 |
 | Reports live | 2 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 21 (Apr 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026)
 
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
@@ -158,6 +158,51 @@ Do not start this work until landing page (separate thread) is shipped.
 **Closed today (2026-04-29):**
 
 - Search Console Removal Request filed for agent.aicoachellavalley.com (retired surface hygiene from this morning's audit). The agent subdomain finding is unrelated to the 49-URL panel above — different property, different issue.
+
+### Strategic decision: Grades go private (2026-04-29)
+
+AICV is not a public grading authority. This decision locks the
+posture going forward and requires migration across six surfaces.
+
+- **Public Snapshots publish analytical substance only** — no letter
+  grades. The three-dimension findings, recommendations, and
+  competitive framing remain public. The grade labels (A/B/C/D/F)
+  do not.
+- **Letter grades are reserved for the private Intelligence Review**
+  delivered directly to the entity. Grades are the upsell hook —
+  the full Review with grades is what cold outreach points toward.
+- **Cold outreach reframe:** "Here's what the IC found about your
+  entity" (public Snapshot substance) → "Here's how you scored"
+  (private Review with grades) → "Here's what to do about it"
+  (12-month roadmap, AICV node).
+
+**Migration required across six surfaces:**
+
+1. **Three existing public Snapshots** — strip letter grades from
+   public-facing HTML: Sensei Porcupine Creek, Visit Greater Palm
+   Springs, The Gardens on El Paseo.
+2. **Worker CHAIR_SYSTEM prompt** — revise `aicv-ic/worker.js` to
+   separate public Snapshot output fields from private Review output
+   fields. Currently returns a single unified object. Post-migration,
+   `/chair` returns a `snapshot` object (no grades) and a `review`
+   object (grades included) — or separation happens in the client
+   layer. Architecture TBD next session.
+3. **Snapshot JSON schema** — replace `additionalProperty` grade
+   entries (buyerReadinessGrade, competitivePositioningGrade,
+   aiReadinessGrade) with structured finding fields that carry
+   substance without letter grades.
+4. **Locked Snapshot template in IC.md** — remove the grading
+   framework section (A/B/C/D/F labels) from the public Snapshot
+   template. Retain in the private Intelligence Review template.
+5. **Cold outreach pitch language** — update pitch copy so grades are
+   framed as the upsell hook, not the cold open. Cold outreach leads
+   with findings; grades appear only in the private Review delivered
+   after engagement.
+6. **Methodology copy on public Snapshots** — verify or reframe the
+   "5 randomly selected frontier AI models from a portfolio of 30"
+   language on existing public Snapshots. Ensure it accurately
+   reflects the current IC process and doesn't imply a grading
+   authority posture that contradicts the grades-go-private decision.
 
 ---
 
