@@ -45,6 +45,43 @@ Do not create or edit any file without completing step 1.
 
 ---
 
+## Session Close Protocol
+
+When closing a session — whether explicitly ("let's wrap this up",
+"close out", "we're done") or implicitly ("give me the TLDR",
+"what's next", "any final items", "what's left to do"):
+
+1. Generate playbook updates as needed: STATE.md (counts,
+   milestones, strategic decisions), IC.md (workflow changes, new
+   sections), HANDOFF.md (this thread's strategic context only).
+   Show diffs before applying. Commit as "docs: end-of-session
+   [scope]".
+
+2. Append a new entry to SESSION-LOG.md scoped to THIS thread only.
+   Use the file's header format. Include decisions, commits, open
+   questions, and hand-off note. Commit separately as "docs:
+   session-log entry — [date] [topic]". The "thread closed [time]"
+   value should be the time of the final commit, captured at the
+   end of all close-out work — not the time the entry is being
+   drafted.
+
+3. Confirm all commits pushed and report new hashes.
+
+PROACTIVE TRIGGER: If the user signals session-close intent without
+explicitly requesting close-out work, the assistant must
+proactively offer to run the protocol. The user has stated
+explicitly that they forget to ask. The assistant remembers on
+their behalf.
+
+SCOPE DISCIPLINE: Both HANDOFF.md and SESSION-LOG.md entries are
+scoped to the current thread only. Do not aggregate work from
+parallel threads, prior threads, or general project state.
+Cross-thread visibility comes from reading SESSION-LOG.md across
+dates and from `git log --all` queries — not from individual
+handoffs synthesizing it.
+
+---
+
 ## What We're Building
 
 A three-layer intelligence system:
