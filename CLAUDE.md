@@ -454,6 +454,17 @@ Do not publish before completing all four.
 - **`mailto:` links are deliberately agent-unverifiable — do not reflexively fix.** The AIO Tool cannot fetch `mailto:` destinations and will flag them as MED-tier "can't confirm target URL" findings. This is a tool limitation, not a content gap. AICV uses `mailto:sat@aicv.co` for email-only CTAs (e.g., "Submit a Brief") where no target page exists. Accept the finding; do not replace working mailto links with placeholder pages or remove the CTAs.
 - **TOS modal scope clarification (2026-04-27): The mandatory TOS modal rule applies to any page embedding the AIO Tool widget. A generalized site-wide AICV Terms of Use modal may also exist on non-widget pages (e.g. homepage footer link) — this is a different modal serving footer accessibility, not the widget-mandate modal.**
 
+### TOS Modal Surfaces — Deliberate Divergence
+
+AICV runs two TOS modals across two surfaces. They are scoped differently on purpose:
+
+| Surface | Modal title | Clause subject | Why |
+|---|---|---|---|
+| Homepage (`index.astro` lines 445–481) | AICV Terms of Use | "this site", "site content" | Homepage is the site-wide entry; AIO Tool widget is no longer embedded here (April 27, commit 472a47c). |
+| `/get-agent-ready/` (`get-agent-ready.astro` lines 714–750) | AIO Tool — Terms of Use | "this tool", "tool results" | The AIO Tool lives on this page. Tool-scoped language is contextually correct. |
+
+**Do not sync these modals without re-deriving scope.** The April 27, 2026 generalization (commit a3e0bc4) applied only to the homepage because the tool moved off it. Future legal review should treat each surface on its own terms.
+
 ---
 
 ## Project File Structure
