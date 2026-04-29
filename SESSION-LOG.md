@@ -14,7 +14,7 @@ Format per entry:
 
 ---
 
-## 2026-04-29 — IC worker hygiene + grades-go-private decision (thread closed 16:22)
+## 2026-04-29 — IC worker hygiene + grades-go-private decision (thread closed 16:25)
 
 - Decisions: grades-go-private (six-surface migration required); two-agent IC architecture (Pre-Council + Post-Council, city-scoped memory, Rancho Mirage pilot); real-time search via Claude native not Exa
 - Commits (this thread only): 06e3fdb, d1fa86a, 4c76aef, 787da8f, d2ee2e2
