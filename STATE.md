@@ -130,6 +130,35 @@ Pending work, deferred until landing page completes:
 
 Do not start this work until landing page (separate thread) is shipped.
 
+### Parked: Search Console health review (Q2 baseline)
+
+**Surfaced 2026-04-29.** While filing a Removal Request for the retired agent.* subdomain, surfaced a separate finding on aicoachellavalley.com worth a dedicated session.
+
+**Baseline as of 2026-04-29:**
+
+49 URLs not indexed, broken into five categories:
+
+| Category | Count | Source | Likely status |
+|---|---|---|---|
+| Alternate page with proper canonical tag | 12 | Website | Correct — canonical signals working as intended |
+| Page with redirect | 10 | Website | Correct — Google indexing destination URLs |
+| Not found (404) | 7 | Website | Possibly actionable — worth per-URL review |
+| Crawled - currently not indexed | 20 | Google systems | Normal for content-heavy site at Tier 4; trend gently rising |
+| Blocked due to other 4xx issue | 0 | Website | Clean |
+
+**Scope of the future session (60–90 min, focused):**
+
+- Drill per-URL into each category, especially the 7 404s and 20 currently-not-indexed pages
+- Decide per-URL: correct status, redirect needed, or indexing request warranted
+- Pair with wider Search Console sweep — sitemap freshness, Core Web Vitals, mobile usability, structured data validation
+- Establish ongoing trend monitoring cadence (monthly or quarterly check-ins)
+
+**Why parked:** Acting well requires per-URL drill-down across 49 candidates plus context from adjacent Search Console sections. Not fragmented-day work. The indexing health is not currently degraded — this is a baseline-and-improve pass, not a fix-something-broken pass.
+
+**Closed today (2026-04-29):**
+
+- Search Console Removal Request filed for agent.aicoachellavalley.com (retired surface hygiene from this morning's audit). The agent subdomain finding is unrelated to the 49-URL panel above — different property, different issue.
+
 ---
 
 ## How to Update This File
