@@ -10,11 +10,11 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
-## Live Counts (as of April 29, 2026)
+## Live Counts (as of May 3, 2026)
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 81 |
+| Nodes live | 80 |
 | Intelligence briefs live | 142 |
 | Snapshots live | 3 |
 | Reports live | 2 |
@@ -60,18 +60,7 @@ repo's CLAUDE.md for trap details.
 name.** See the repo's CLAUDE.md for details. Always verify
 with `git remote -v` before hardcoding GitHub URLs.
 
-**Not shown:** `agendalink-sync/` is an untracked CV Intel
-adapter cordoned 2026-04-21 — see the CV Intel parking
-README (linked in Sibling projects section below). The
-CV Intel family repos (`cv-intel`, `cvintel-agent`,
-`cvintel-cron`) are also under `github.com/aicoachellavalley/`
-but belong to CV Intel; see parking README for their status.
-
----
-
-## Sibling projects
-
-**CV Intel status:** Parked as of 2026-04-20. Workers paused in Cloudflare dashboard (parking action in progress per parking README). `agendalink-sync` cron disabled 2026-04-21. Canonical parking state: `~/cv-intel/README.md`. Do not resume CV Intel work from AICV sessions without reading the parking README first.
+**Not shown:** Only AICV-scoped repositories appear in this table. Repos belonging to other projects under `github.com/aicoachellavalley/` are out of scope for this STATE file.
 
 ---
 
@@ -203,6 +192,26 @@ posture going forward and requires migration across six surfaces.
    language on existing public Snapshots. Ensure it accurately
    reflects the current IC process and doesn't imply a grading
    authority posture that contradicts the grades-go-private decision.
+
+### Milestone: Second Report shipped — State of AI Q1 2026 (2026-04-28)
+
+`state-of-ai-q1-2026` published as the second AICV Report. Joins `data-centers-ai-infrastructure-coachella-valley` ("The Server Farm Next Door") in the Report layer. Reports cadence target remains 4–6/year as the citation anchor.
+
+### Milestone: Sand → paper color migration shipped (2026-05-02)
+
+Background palette migrated from warm beige (`#E8E2D0`) to warm near-white (`#FAFAF7`) across five files (tokens.css + four inline `:root` blocks in slug templates). Variable names (`--sand`, `--sand-light`, `--sand-dark`) intentionally preserved — rename deferred. Brand continuity held; legibility improved without dramatic visual shift. Step 1 of three-step legibility program; Steps 2 (postcard redesign) and 3 (print stylesheet) pending.
+
+### Architecture: Postcard Snapshot redesign concept locked (2026-05-02)
+
+Public Snapshots will collapse from "analytical page with hidden grades" to a registration card: identity + AICV layer membership + structured data + one-finding teaser + CTA to full Review. Grades become the paywall. Migration scope spans `aicv-ic/worker.js` (CHAIR_SYSTEM JSON, ~30 lines), `IC.md` template, three live Snapshots, `reviews.json` (rename to `snapshots-index.json`), and a new `snapshots/_schema.json`. Editorial shift more than code shift — primary work is writing one factual paragraph + one teaser per live entity.
+
+### Architecture: Firewall framing evolved — voice and editorial mission, not human author (2026-05-02)
+
+AICV ↔ SunshineFM separation refined: the firewall protects voice and editorial mission, not the existence of a human author. Implicit human presence is acceptable on AICV surfaces; cross-contamination at the audience level is permitted. Voice and editorial mission remain strictly separate.
+
+### Architecture: Typography audited, no action required (2026-05-02)
+
+Reading-surface body type confirmed at 16px / 1.75 line-height / 760px max-width — already in publication-grade band. Three-font system (Syne display / DM Sans body / EB Garamond editorial) is deliberately designed and stays. Font weight 300 is intentional homepage marketing copy on dark backgrounds, never reading-surface body. Print legibility (the original complaint trigger) belongs to the print stylesheet, not screen typography.
 
 ---
 
