@@ -31,7 +31,6 @@ STATE.md yet, create one in that repo when first needed.
 - Live .org site: ~/Projects/org/
 - Live sunshine.fm: ~/sunshine-fm/
 - AICV Worker API: ~/Projects/aicv-api/
-- CV Intel: parked 2026-04-20, lives at ~/cv-intel/ (see README there)
 
 ---
 
