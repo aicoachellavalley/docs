@@ -14,6 +14,36 @@ Format per entry:
 
 ---
 
+## Sunday, May 3, 2026 — STATE.md catch-up + CV Intel separation
+
+**Scope:** Strategic STATE.md was 11 days lagging from April 22. Rolled forward against verified counts; fully separated CV Intel from AICV scope.
+
+**Three commits:**
+- `2bf9305` — archived `HANDOFF.md` to `archive/cv-intel-2026-05/` with breadcrumb README
+- `e34028b` — removed CV Intel canonical path from CLAUDE.md
+- `5f7f359` — STATE.md roll-forward: counts (80/142/3/2 as of May 3), five new North Star Roadmap entries, Sibling projects section deleted, Repositories footnote rewritten as scope statement
+
+**Verification before action paid off twice:**
+1. TLDR claimed 141 briefs. Build verification said 142. April was 22, not 12 (the existing STATE.md had been wrong on April count for at least 11 days, undetected).
+2. Pre-existing STATE.md said 81 nodes. Build verification said 80. The phantom +1 was `src/content/nodes/CLAUDE.md` — a per-collection instruction file that naive directory-listing counts as a node. nodes.json length is authoritative; `ls | wc -l` is not.
+
+**Five roadmap entries added:**
+- Milestone: Second Report shipped — State of AI Q1 2026 (2026-04-28)
+- Milestone: Sand → paper color migration shipped (2026-05-02)
+- Architecture: Postcard Snapshot redesign concept locked (2026-05-02)
+- Architecture: Firewall framing evolved — voice and editorial mission, not human author (2026-05-02)
+- Architecture: Typography audited, no action required (2026-05-02)
+
+**On the postcard milestone framing:** Recorded as "Architecture" not "Milestone" because the concept is locked but unshipped. Same logic for firewall and typography. Only genuinely-completed work carries "Milestone:" prefix. Worth holding the line on this distinction — it keeps strategic STATE truthful as a record of what's *done* rather than what's *planned*.
+
+**One stray reference carried to tomorrow:** `TOMORROW.md` line 41 still references CV Intel resumption. One-line surgical delete recommended as first action of next session.
+
+**Out of scope but worth noting:** SunshineFM aggregate counter on the website shows 143 briefs; AICV nodes.json says 142. Possible build-staleness on one surface or the other. Not blocking. Worth a check tomorrow if briefs cadence resumes.
+
+**Session closed clean. ~30 minutes for what was scoped as 15. The extra 15 was the verification round that caught the 81→80 phantom — worth every second.**
+
+---
+
 ## 2026-05-02 — Color swap + typography audit + IC architecture lock
 
 - Decisions: sand → paper color migration (Option B — keep --sand names, swap values only; rename deferred); firewall framing evolved — implicit human presence permitted, explicit editorial voice not; postcard Snapshot concept locked (one-finding teaser, worker CHAIR_SYSTEM simplification)
