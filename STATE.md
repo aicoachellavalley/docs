@@ -209,6 +209,10 @@ Public Snapshots will collapse from "analytical page with hidden grades" to a re
 
 AICV ↔ SunshineFM separation refined: the firewall protects voice and editorial mission, not the existence of a human author. Implicit human presence is acceptable on AICV surfaces; cross-contamination at the audience level is permitted. Voice and editorial mission remain strictly separate.
 
+### Milestone: Get Agent Ready V2 desktop recalibration shipped (2026-05-07)
+
+`/get-agent-ready/` V2 desktop recalibration live (commit `8ea075d`). Hero h1 84px, diagnostic h2 56px, section h2s unified at 44px, about at 28px. Section padding 64→96px desktop. Inner wrapper gains 48px horizontal padding. Tier price block softened to 17px DM Sans 400 (Setup/Annual labels replace Deployment jargon). Scarcity copy updated to "Limited to 10 Founding Members." 12px pine-tint strip replaced with full-width pine-mist tagline band. All changes scale proportionally on mobile via updated ≤768px breakpoint.
+
 ### Milestone: Get Agent Ready V2 shipped (2026-04-29)
 
 `/get-agent-ready/` rebuilt from V7.7 (8-section education surface) to V2 (6-section qualification surface). Commit `624f71d` on `com/`. Key changes: split-color volt diagnostic headline, inline booking strip above tier cards, Proof of Work button → Node Zero, blueprint figures across five sections, `--pine-tint` and `--pine-mist` palette tokens added to `tokens.css`, fiscal sponsorship + email moved to footer fields inside the close section. FAQ removed from the page; booking section collapsed. Copy revised throughout for visibility metaphor consistency.
