@@ -209,6 +209,10 @@ Public Snapshots will collapse from "analytical page with hidden grades" to a re
 
 AICV ↔ SunshineFM separation refined: the firewall protects voice and editorial mission, not the existence of a human author. Implicit human presence is acceptable on AICV surfaces; cross-contamination at the audience level is permitted. Voice and editorial mission remain strictly separate.
 
+### Milestone: Get Agent Ready V2 shipped (2026-04-29)
+
+`/get-agent-ready/` rebuilt from V7.7 (8-section education surface) to V2 (6-section qualification surface). Commit `624f71d` on `com/`. Key changes: split-color volt diagnostic headline, inline booking strip above tier cards, Proof of Work button → Node Zero, blueprint figures across five sections, `--pine-tint` and `--pine-mist` palette tokens added to `tokens.css`, fiscal sponsorship + email moved to footer fields inside the close section. FAQ removed from the page; booking section collapsed. Copy revised throughout for visibility metaphor consistency.
+
 ### Architecture: Typography audited, no action required (2026-05-02)
 
 Reading-surface body type confirmed at 16px / 1.75 line-height / 760px max-width — already in publication-grade band. Three-font system (Syne display / DM Sans body / EB Garamond editorial) is deliberately designed and stays. Font weight 300 is intentional homepage marketing copy on dark backgrounds, never reading-surface body. Print legibility (the original complaint trigger) belongs to the print stylesheet, not screen typography.
