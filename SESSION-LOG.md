@@ -14,6 +14,13 @@ Format per entry:
 
 ---
 
+## 2026-05-11 — Briefs
+
+- 📡 Coachella data center town hall: six buildings, heated opposition, no resolution — May 11, 2026
+- Commit: `c7ed43a` — full scope update from town hall (six buildings, 3M sq ft, 270–300 MW); Stronghold–Hernandez campaign finance confirmed; siting proximity documented
+
+---
+
 ## Sunday, May 3, 2026 — STATE.md catch-up + CV Intel separation
 
 **Scope:** Strategic STATE.md was 11 days lagging from April 22. Rolled forward against verified counts; fully separated CV Intel from AICV scope.
