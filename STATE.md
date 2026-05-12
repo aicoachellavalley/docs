@@ -21,6 +21,12 @@ The pre-partition snapshot of operational content is preserved at
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026)
 
+**Brief count discrepancy flagged 2026-05-11 (not fixed this
+pass):** `src/content/briefs/` contains 143 files on disk;
+`stats.json` reports 142; `coachella-valley-intelligence-index`
+node description references 131. Source of drift unknown.
+Queued for reconciliation.
+
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
 **Verification ledger:** see `verification/SCHEMA.md` for schema v1; scaffold deferred — revisit when nodes reach 100
@@ -193,6 +199,17 @@ posture going forward and requires migration across six surfaces.
    reflects the current IC process and doesn't imply a grading
    authority posture that contradicts the grades-go-private decision.
 
+**Executed on public surfaces 2026-05-11** (commit `44482c7`):
+`public/reviews.json` deleted. Top-level grades and per-finding
+`grade` fields removed from all three snapshot JSONs. Grade
+frontmatter removed from `gardens-on-el-paseo` and
+`visit-greater-palm-springs` node MDX. Snapshot template
+(`[slug].astro`) guarded for grades-absent rendering — IC Grades
+and Grade Key sections now conditional; per-finding badge
+suppressed when grade absent. Homepage stat replaced with
+snapshots-backed "Agentic Reviews" (count: 3). Verified live
+at aicoachellavalley.com.
+
 ### Milestone: Second Report shipped — State of AI Q1 2026 (2026-04-28)
 
 `state-of-ai-q1-2026` published as the second AICV Report. Joins `data-centers-ai-infrastructure-coachella-valley` ("The Server Farm Next Door") in the Report layer. Reports cadence target remains 4–6/year as the citation anchor.
@@ -220,6 +237,57 @@ AICV ↔ SunshineFM separation refined: the firewall protects voice and editoria
 ### Architecture: Typography audited, no action required (2026-05-02)
 
 Reading-surface body type confirmed at 16px / 1.75 line-height / 760px max-width — already in publication-grade band. Three-font system (Syne display / DM Sans body / EB Garamond editorial) is deliberately designed and stays. Font weight 300 is intentional homepage marketing copy on dark backgrounds, never reading-surface body. Print legibility (the original complaint trigger) belongs to the print stylesheet, not screen typography.
+
+### Milestone: May 11 model locked — two products, vocabulary, audience, taxonomy, architecture (2026-05-11)
+
+**Two-product model:**
+- **Agent on the AICV Network** — base product. The entity's
+  structured node on the network, built and maintained by AICV.
+- **Agent Premium** — upgrade tier. Includes an LLM Council
+  review producing the **Agentic Review** (private deliverable)
+  as the differentiating artifact.
+
+**Vocabulary locked:**
+- "Node" stays internal. Customer-facing term is "agent on the
+  network."
+- **LLM Council** replaces Intelligence Council internally and
+  externally.
+- "Snapshot" retires as a public term. **Agentic Review** is
+  the artifact the Council produces.
+
+**Audience and positioning:**
+- SF/LA newly-vested founder cohort is the named primary audience
+  — tech-wealth migrating from the venture and startup ecosystem.
+- Positioning honest about being early — aspirational framing,
+  not accomplished-scale.
+
+**SunshineFM Guide / AICV Network:**
+- ~80% candidate pool overlap. Independent selection criteria:
+  Guide selects for editorial fit; network selects for
+  agent-readiness and commercial intent. Shared pool, separate
+  editorial gates.
+
+**Taxonomy axes locked:**
+- **Funnel-stage axis:** visit / fall-in-love / retreat /
+  satellite / relocate / build. Existing `agent_intent` field
+  encodes this informally; formal enforcement deferred.
+- **Life-domain axis:** 14-domain target density; canonical
+  domain enum deferred to a future taxonomy session. The two
+  axes are orthogonal.
+
+**Agent architecture:**
+- Per-city agent runtime writes to per-entity records (hybrid
+  architecture). City-scoped, not system-wide.
+- **Rancho Mirage named prototype city.** Cotino — the
+  1,900-home Disney-branded master-planned community currently
+  building out — is AICV's primary relocation intelligence
+  anchor for tech-wealthy professionals migrating from SF and
+  LA, making Rancho Mirage the highest-leverage city for
+  prototyping the funnel-aware agent runtime against the named
+  primary audience.
+- Architecture is distinct from cv-intel civic-watchdog
+  inheritance; AICV agent scope is commercial and
+  intelligence-layer.
 
 ---
 

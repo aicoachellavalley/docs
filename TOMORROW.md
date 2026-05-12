@@ -1,80 +1,57 @@
-# Tomorrow — 2026-04-23 (Thursday)
+# Tomorrow — 2026-05-11
 
-## Primary work
+## Priority queue
 
-### 1. SunshineFM Guide — DCF entry (editorial, you + Claude)
+### 1. Landing page rewrite — May 11 vocabulary
 
-Core block. Desert Community Foundation will be the first Guide entry at sunshine.fm/guide/desert-community-foundation/. This establishes SunshineFM Guide voice on a real entity and validates the template/schema shape before scaling.
+`/get-agent-ready/` was written before vocabulary was locked.
+Rewrite to reflect current model:
+- Customer-facing: "agent on the network" (not "node")
+- LLM Council (not Intelligence Council)
+- Agentic Review (not Snapshot, not Intelligence Review)
+- Two-product framing: Agent on the AICV Network (base) /
+  Agent Premium (LLM Council review + Agentic Review artifact)
+- SF/LA newly-vested founder cohort named explicitly as the
+  target audience
 
-Subtasks:
-- **Template redesign** (~30 min). The current authoring template feels like a form, not a working document. Needs structure, inline guidance, natural section ordering.
-- **Decide DCF schema.org type** (~5 min). `civic-institution` currently defaults to Organization. NGO or Foundation may be more accurate.
-- **Author DCF entry** (~75-90 min). First Guide entry. Sets editorial voice precedent. Output: deployed entry at sunshine.fm/guide/desert-community-foundation/.
+### 2. Rancho Mirage city-agent prototype spec
 
-### 2. AICV Layer 2 design session (strategy, you + Claude)
+First city-scoped agent runtime. Write the spec before building:
+- Entity scope: which Rancho Mirage nodes get per-entity records
+- Runtime architecture: how the city-agent writes to entity records
+- Output format: what an entity record looks like post-run
+- Integration: how the prototype feeds the LLM Council intake flow
 
-If time and energy permit after DCF. Design the "collective signal" build:
-- What relationship types matter for AICV specifically? (Start from the four-layer framework and adapt.)
-- What does a node page need to surface that it doesn't today? (Referenced-by briefs, adjacent entities, etc.)
-- What aggregations should be queryable? ("Show me all hospitality nodes in Palm Desert with briefs in last 90 days")
-- What's the minimum viable first build — which relationship type first, which aggregation first?
+### 3. Founding Member outreach — HELD
 
-This is design thinking work, not implementation. Goal: a written sketch of what Layer 2 looks like before any code is written.
+Sensei Porcupine Creek, Visit Greater Palm Springs, and The
+Gardens on El Paseo have public Agentic Reviews and existing
+nodes. These are the natural first Founding Member targets.
 
-## Secondary work — technical housekeeping if time permits
+**Held until the Rancho Mirage prototype produces at least one
+entity record.** Need evidence before outreach.
 
-### 3. ~/sunshine-fm/CLAUDE.md (✅ done 2026-04-22)
+## Cleanup queue (small, non-blocking)
 
-Already created today. No tomorrow work needed. Leaving as a placeholder for archival clarity.
+- **Brief count reconciliation:** 143 files on disk; `stats.json`
+  reports 142; Index node says 131. ~15 min to identify and
+  resolve.
+- **`tokens.css` fork:** `com` and `guide-builder` have diverged.
+  Variable names (`--sand`, etc.) inconsistent. Low priority.
+- **`snapshots.json` grades artifact:** All three entries have
+  `grades: {}` (empty object). Cosmetic; not user-facing.
+- **Comprehensive snapshot→agentic-review rename:** IC.md
+  template, `aicv-ic/worker.js` CHAIR_SYSTEM prompt, and
+  remaining playbook docs still use "Snapshot" terminology.
+  Do not rename piecemeal — defer until full IC.md update pass.
 
-### 4. Newsroom cards warning comment in sunshine-fm/index.html
+## Parked
 
-Prevents a future regression where the curated cards in the .catch() block get mistaken for throwaway fallback content. ~5 min.
-
-### 5. Mobile nav for sunshine.fm root homepage
-
-Parked from earlier. Guide has mobile nav; root doesn't. ~30-60 min.
-
-## Parked — don't touch unless you genuinely want to
-
-- Automated ZONE_MAP/SUB_MAP sync on .org graph (waits for Layer 2 session to decide if this lives in nodes.json or a separate sync mechanism)
-- CV Intel resumption (parked 2026-04-20, see ~/cv-intel/README.md)
-- Sensei Porcupine Creek IC run
-- Hotel Paseo node
-
-## Known not-blocking but worth eyeballing
-
-- Re-run AIO Tool on aicoachellavalley.org after yesterday's content truth commits. Grade should move from B to A (HIGH fix around program status was addressed).
-- Re-run Cloudflare Agentic Readability scan on aicoachellavalley.com. Multiple dimensions should now score that were zero before: Content (Markdown for Agents), Link headers, Content Signals, API catalog, MCP Server Card.
-- Paste the live api-catalog and server-card.json URLs into the browser and capture screenshots — they're pitch assets now.
-
-## Followups from /review on commit 41cc994
-
-Both low-priority, both surfaced by tonight's /review pass. Not blocking anything; flagged so they don't drift.
-
-### 1. .com _headers cleanup (~10 min)
-
-The `/` block on the homepage still emits older Link header entries:
-- `rel="api-catalog"` (no type param)
-- `rel="describedby"` pointing to server-card.json
-
-The `/*` block added in 41cc994 emits the correct versions:
-- `rel="api-catalog"; type="application/linkset+json"`
-- `rel="mcp-server"; type="application/json"`
-
-Result: homepage emits 6 Link headers where 4 would suffice. Two are semantically duplicate. Agents parsing Link headers will dedupe or get mildly confused by `describedby` vs `mcp-server` on the same target. Fix: remove the stale `api-catalog` and `describedby` entries from the `/` block in `public/_headers`.
-
-### 2. aicv-mcp worker city enum (~5 min)
-
-The worker's `query_venues` TOOL_DEFINITIONS in `~/Projects/aicv-mcp/worker.js` lists valid cities as:
-`palm-springs, rancho-mirage, palm-desert, indian-wells, la-quinta, indio, valley-wide`
-
-Missing: `desert-hot-springs`, `cathedral-city` — both are in the AICV node system.
-
-Fix: update the `city` field description in TOOL_DEFINITIONS for `query_venues`, then `wrangler deploy` from `~/Projects/aicv-mcp/`.
-
-## Session discipline reminders
-
-- Verification-before-inference on any production fetch, constant, config, or URL before editing
-- Recon before action — read current state first
-- Claude.ai for strategy/drafting, Claude Code for file operations; Sat is the courier
+- IC.md: Intelligence Council → LLM Council rename. Deferred
+  until IC.md update session.
+- Search Console health review (Q2 baseline) — see STATE.md
+  entry dated 2026-04-29.
+- User journey + waypoint naming — see STATE.md. Deferred until
+  landing page ships.
+- `aicv-mcp` `query_venues` city enum (missing
+  `desert-hot-springs`, `cathedral-city`).
