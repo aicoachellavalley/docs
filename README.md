@@ -11,6 +11,8 @@ This repo holds:
 - VOICE.md — editorial voice and style
 - IC.md — Intelligence Council review framework
 - STATE.md — STRATEGIC state and North Star roadmap only
+- TAXONOMY.md — canonical city/region values and shorthand rules
+- SESSION-LOG.md — append-only cross-thread session log
 
 This repo does NOT hold:
 - Live node or brief content (that's ~/Projects/com/src/content/)
