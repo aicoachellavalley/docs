@@ -15,17 +15,13 @@ The pre-partition snapshot of operational content is preserved at
 | Metric | Count |
 |--------|-------|
 | Nodes live | 80 |
-| Intelligence briefs live | 142 |
+| Intelligence briefs live | 145 |
 | Snapshots live | 3 |
 | Reports live | 2 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026) · 3 (May 2026)
 
-**Brief count discrepancy flagged 2026-05-11 (not fixed this
-pass):** `src/content/briefs/` contains 143 files on disk;
-`stats.json` reports 142; `coachella-valley-intelligence-index`
-node description references 131. Source of drift unknown.
-Queued for reconciliation.
+**Brief count reconciled 2026-05-19:** discrepancy flagged 2026-05-11 resolved. Disk, stats.json, and STATE.md now in sync at 145. `coachella-valley-intelligence-index` node description referencing 131 is a stale prose string, not a count field — update deferred.
 
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
