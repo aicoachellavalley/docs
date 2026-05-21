@@ -541,3 +541,14 @@ At ~300 AICV entities with dense briefs, snapshots, and explicit relationships, 
 The "living organism of understanding" is an AICV-internal property, not cross-system. This is **Layer 2 work on existing infrastructure** — not a new platform, not a Karpathy-style wiki.
 
 Build path: enhance `build-static-json.cjs` with bidirectional references, explicit relationship types from the four-layer ecosystem framework (Direct Competitive Set, Feeder Properties, Wealth Nodes, Demand Engines), temporal structure in briefs, and aggregation surfaces. A regional intelligence substrate operating on existing AICV content types.
+
+---
+
+## Schema maintenance rule
+
+Any change to the `domain`, `city`, or `funnel_stages` enums
+in `com/src/content.config.ts` must be followed in the same
+session by a matching update to
+`aicv-playbook/prompts/node-intake-v0.md`.
+Enum changes and prompt updates are a single atomic operation
+— not a follow-up task.
