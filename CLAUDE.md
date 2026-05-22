@@ -274,22 +274,23 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 4. Review full file tree before committing
 5. Commit: `feat: add [location] node`
 6. Push to main — auto-deploys
-7. Update STATE.md counts and last commit hash
-8. **Reciprocal links** — for every node listed in `## Related Nodes`, open that node file and add a back-link to the new node. Run before committing:
+7. **Run static JSON build** — from `~/Projects/com/`, run `node scripts/build-static-json.cjs`. This regenerates `nodes.json` so the agent-readable static endpoints reflect the new node. Without this step, MCP queries against the static layer return stale data.
+8. Update STATE.md counts and last commit hash
+9. **Reciprocal links** — for every node listed in `## Related Nodes`, open that node file and add a back-link to the new node. Run before committing:
    ```bash
    grep -rn "new-node-slug" ~/Projects/com/src/content/nodes/
    ```
    Confirm every related node has a matching link back. One-way links break agent routing and the org graph edges. This step is not optional.
-9. **Graph maintenance (required before commit):**
-   Ask: which existing nodes does this node strengthen, extend, or contradict?
-   - Update their `related` frontmatter with the appropriate slug and type
-   - Update their `## Related Nodes` section to include a backlink
-   - One-way `related` links break graph integrity — every relationship must be reciprocal
-10. **Deploy org site** — graph changes are not visible until deployed:
+10. **Graph maintenance (required before commit):**
+    Ask: which existing nodes does this node strengthen, extend, or contradict?
+    - Update their `related` frontmatter with the appropriate slug and type
+    - Update their `## Related Nodes` section to include a backlink
+    - One-way `related` links break graph integrity — every relationship must be reciprocal
+11. **Deploy org site** — graph changes are not visible until deployed:
     ```
     cd ~/Projects/org && npx wrangler pages deploy . --project-name aicoachellavalley-org
     ```
-11. **Deploy com site:**
+12. **Deploy com site:**
     ```
     cd ~/Projects/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage
     ```

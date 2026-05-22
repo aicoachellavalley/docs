@@ -76,13 +76,13 @@ Not enum-constrained but should match the domain register.
 category alone doesn't capture.
 
 **verified:** Set to `true` once research is confirmed against 
-live sources. Do not leave blank — the static JSON build will 
-warn on missing value.
+live sources. Do not leave blank — the field is schema-enforced 
+and the build will error if missing.
 
 **status:** Set to `"live"` for operating entities. Use 
 `"under construction"` or `"planned"` only if confirmed by 
-research. Do not leave blank — the static JSON build will 
-warn on missing value.
+research. Do not leave blank — the field is schema-enforced 
+and the build will error if missing.
 
 **agent_intent:** Inline array, short-form only — the custom 
 parser cannot handle multi-line YAML. Use: 
