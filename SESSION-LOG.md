@@ -21,10 +21,10 @@ Format per entry:
 - Decisions: Lighthouse Agentic Browsing added as fourth methodology pillar; public get-agent-ready copy updated to reflect four-pillar model; `three-part` → `multi-part proprietary` scoring model language locked
 - Decisions: Schema hardening — `agent_summary`, `verified`, `status` promoted to Zod-required in `content.config.ts`; two legacy `"active"` status values corrected to `"live"` (desert-willow-golf-resort, sunnylands); cotino Related Nodes converted from display names to slugs
 - Decisions: Node workflow hardened — step 7 (run build-static-json.cjs) added to "How to Add a Node" in CLAUDE.md; steps renumbered 8–12
-- Commits (com): `82dfe94` (Lighthouse methodology copy), `106b39e` (schema hardening + corpus fixes)
+- Commits (com): `82dfe94` (Lighthouse methodology copy), `106b39e` (schema hardening + corpus fixes), `071b8c6` (gitignore five auto-generated `public/` artifacts — `llms-full.txt`, `nodes.json`, `briefs.json`, `snapshots.json`, `reports.json` — matching existing `stats.json` convention; end-to-end verified via post-deploy fetch, Cloudflare Pages build pipeline regenerates and serves files correctly from `dist/`)
 - Commits (aicv-playbook): `500d505` (MVA.md), `8b96102` (schema/prompt atomic update)
 - Artifacts: Lighthouse baseline audit at `audits/lighthouse/2026-05-22/` (untracked — 8 surfaces, SUMMARY.md)
-- Open questions: `llms-full.txt` / `nodes.json` build-artifact git-tracking convention (research pass spawned); WebMCP not yet implemented on any AICV surface; Premium transaction handoff design still pending
+- Open questions: WebMCP not yet implemented on any AICV surface; Premium transaction handoff design still pending; node count discrepancy between `llms-full.txt` (81 nodes) and `nodes.json` (80 nodes) as of 2026-05-22 — two generators pull from same source but apply different filtering, likely deliberate (status or verified filter) but not confirmed, worth a brief investigation when corpus grows or delta widens, low urgency
 - Hand-off to: STATE.md update for schema version and workflow changes; Sunshine FM handoff prompt pending; talking-points doc to be referenced in any new LLM Council or outreach session
 
 ---
