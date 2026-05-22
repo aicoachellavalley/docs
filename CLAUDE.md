@@ -552,3 +552,5 @@ session by a matching update to
 `aicv-playbook/prompts/node-intake-v0.md`.
 Enum changes and prompt updates are a single atomic operation
 — not a follow-up task.
+
+Product and MVA architecture: MVA.md
