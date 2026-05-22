@@ -14,6 +14,21 @@ Format per entry:
 
 ---
 
+## 2026-05-22 — Agentic web positioning + schema hardening + Lighthouse audit
+
+2026-05-22 — Talking-points doc created. `TALKING-POINTS-AGENTIC-WEB-2026.md` added to playbook root. Vocabulary alignment for any conversation about Google I/O 2026 and AICV's position in the agentic web. Internal infrastructure, not marketing copy. To be refreshed quarterly or when significant new agentic-web announcements land.
+
+- Decisions: Lighthouse Agentic Browsing added as fourth methodology pillar; public get-agent-ready copy updated to reflect four-pillar model; `three-part` → `multi-part proprietary` scoring model language locked
+- Decisions: Schema hardening — `agent_summary`, `verified`, `status` promoted to Zod-required in `content.config.ts`; two legacy `"active"` status values corrected to `"live"` (desert-willow-golf-resort, sunnylands); cotino Related Nodes converted from display names to slugs
+- Decisions: Node workflow hardened — step 7 (run build-static-json.cjs) added to "How to Add a Node" in CLAUDE.md; steps renumbered 8–12
+- Commits (com): `82dfe94` (Lighthouse methodology copy), `106b39e` (schema hardening + corpus fixes)
+- Commits (aicv-playbook): `500d505` (MVA.md), `8b96102` (schema/prompt atomic update)
+- Artifacts: Lighthouse baseline audit at `audits/lighthouse/2026-05-22/` (untracked — 8 surfaces, SUMMARY.md)
+- Open questions: `llms-full.txt` / `nodes.json` build-artifact git-tracking convention (research pass spawned); WebMCP not yet implemented on any AICV surface; Premium transaction handoff design still pending
+- Hand-off to: STATE.md update for schema version and workflow changes; Sunshine FM handoff prompt pending; talking-points doc to be referenced in any new LLM Council or outreach session
+
+---
+
 ## 2026-05-11 — Briefs
 
 - 📡 Coachella data center town hall: six buildings, heated opposition, no resolution — May 11, 2026
