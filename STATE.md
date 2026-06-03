@@ -14,7 +14,7 @@ The pre-partition snapshot of operational content is preserved at
 
 | Metric | Count |
 |--------|-------|
-| Nodes live | 80 |
+| Nodes live | 81 |
 | Intelligence briefs live | 149 |
 | Snapshots live | 3 |
 | Reports live | 2 |
@@ -284,6 +284,10 @@ Reading-surface body type confirmed at 16px / 1.75 line-height / 760px max-width
 - Architecture is distinct from cv-intel civic-watchdog
   inheritance; AICV agent scope is commercial and
   intelligence-layer.
+
+### Milestone: Lighthouse 13.3 Agentic Browsing baseline + WebMCP reference implementation (2026-06-03)
+
+Both .com and .org score 1.0 on Lighthouse 13.3 Agentic Browsing (3/3 weighted audits pass: accessibility tree, CLS, llms.txt). Declarative WebMCP annotation shipped on /get-agent-ready/ analyzer as reference implementation (`<form toolname="analyze_agent_readiness" tooldescription="...">` with `toolparamdescription` on the URL input); audits remain `notApplicable` until Chrome 149 origin trial removes the `enable-webmcp-testing` flag gate. Bidirectional Organization schema sameAs established between .com and .org. Confirmed: .com is the canonical agent surface; repos stay proof-of-work, not a parallel data API. Six commits to homepage, two to org.
 
 ---
 

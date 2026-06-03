@@ -2,7 +2,7 @@
 
 ## Overview
 
-80 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
+81 live nodes representing key institutions, landmarks, and developments across the Coachella Valley. Organized by city. Each node is a persistent MDX file in the /nodes directory.
 
 NODES.md is a living document. New nodes are added when signals warrant — not by quota or predetermined list. The nodes below represent current best knowledge as of May 11, 2026.
 
@@ -29,7 +29,7 @@ Node Zero is the dispatcher and routing layer for agents entering the valley. It
 | 10 | Coachella Valley AI Events | nodes/valley-wide/coachella-valley-ai-events.mdx | ✅ Live |
 | 11 | AI Economy — Coachella Valley | nodes/valley-wide/ai-economy-coachella-valley.mdx | ✅ Live |
 | 12 | Creative Economy — Coachella Valley | nodes/valley-wide/creative-economy-coachella-valley.mdx | ✅ Live |
-| 13 | AI Startup Activity — Coachella Valley | nodes/valley-wide/ai-startup-activity.mdx | ✅ Live |
+| 13 | AI Startup Activity — Coachella Valley | nodes/valley-wide/ai-startup-activity.mdx | ✅ Live — deprecated stub → ai-economy-coachella-valley |
 | 14 | Visit Greater Palm Springs | nodes/valley-wide/visit-greater-palm-springs.mdx | ✅ Live |
 | 15 | Retreat Economy — Coachella Valley | nodes/valley-wide/retreat-economy.mdx | ✅ Live |
 | 16 | Innovation Economy — Coachella Valley | nodes/valley-wide/innovation-economy.mdx | ✅ Live |
@@ -153,10 +153,11 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 ## Status Key
 
 - ✅ Live — published at `~/Projects/com/src/content/nodes/` (Astro Content Collections auto-discover; no nav file to update)
+- ✅ Live — deprecated stub: slug preserved to avoid 404s; content merged to indicated node; body is a redirect blockquote only
 - ⬜ Pending — planned, not yet built
 
 ## Node Count
 
-- Total live: 80 (including Node Zero)
+- Total live: 81 (including Node Zero)
 - Forthcoming: 0 signaled
 - Valley Wide path: nodes/valley-wide/

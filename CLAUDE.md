@@ -356,6 +356,14 @@ Every intelligence brief drafted in Claude.ai must end with:
 
 ---
 
+## Build Verification
+
+Before pushing content changes (`.mdx`, `.astro`, anything build-time), run `npm run build` locally. Cloudflare Pages silently keeps serving the last good build while failed builds queue up — confirmed 2026-06-03, when 4 commits stalled behind an MDX comment syntax error from a prior session. The site appeared healthy; the pipeline was not.
+
+After any push that touches the homepage repo, verify deploy completion in Cloudflare or curl the live site to confirm changes are reflected. If a deploy fails, fix the build before any further commits — additional pushes will queue silently behind the failure.
+
+---
+
 ## How to Add a Node — Graph Maintenance Step (Required)
 
 Every time a new node is added, the org homepage graph must also be updated. This is a required step in the node addition workflow — do it in the same session, same commit if possible.

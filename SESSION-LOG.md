@@ -14,6 +14,38 @@ Format per entry:
 
 ---
 
+## 2026-06-03 — Gemini-feedback triage + Lighthouse 13.3 baseline + WebMCP reference implementation (thread closed ~14:30 PT)
+
+- Decisions:
+  - Verified each of three Gemini feedback documents against actual sources before acting. Two of the four headline recommendations in the first doc were either already done (llms.txt existed) or not part of the Lighthouse audit (JSON-LD sameAs, tables).
+  - Reciprocated Organization sameAs (.com had omitted .org; both now bind bidirectionally).
+  - Added aria-labels to the five AIO diagnostic buttons on /get-agent-ready/.
+  - Switched _headers Link relation from rel="service-doc" (semantically wrong) to rel="llms-txt" / rel="llms-full-txt" (emerging Mintlify-led convention); added llms-full.txt advertising.
+  - REJECTED Gemini's GitHub-raw-data play — would have recreated the GITHUB_RAW silent-failure pattern and violated single-source-of-truth rule.
+  - REJECTED .org WebMCP mirror — no interactive tool surface justifies it; static-by-design.
+  - .com README rewrite (2-line stub → repo-explainer); .org README diverged from llms.txt by audience (README explains the repo, llms.txt explains the organization).
+  - Lighthouse 13.3 baseline: both sites 1.0 (3/3 weighted audits pass).
+  - WebMCP declarative annotation on /get-agent-ready/ analyzer — `<form toolname="analyze_agent_readiness" tooldescription="..." novalidate>` wrapping URL input with `toolparamdescription` and `name="url"`. Reference implementation; audits will not flip from `notApplicable` until Chrome 149 origin trial.
+  - Discovered Cloudflare Pages silent-failure pattern: 4 commits stalled behind a broken build (HTML comments in MDX from a prior session — violated a rule already in CLAUDE.md at line 352). Fix at `90f4ac8` unblocked the queue; all 5 stuck commits deployed in one batch. New Build Verification section added to CLAUDE.md.
+- Commits (homepage / .com):
+  - d773772 — schema: add aicoachellavalley.org to Organization sameAs
+  - 9a3d217 — a11y: add aria-labels to AIO diagnostic buttons
+  - b7e1515 — headers: advertise llms.txt and llms-full.txt with rel="llms-txt"
+  - d7d0cb5 — docs: replace stub README with repo-explainer
+  - 90f4ac8 — fix(mdx): replace HTML comments with JSX comments to unblock build
+  - b07f207 — feat(webmcp): annotate /get-agent-ready/ analyzer as declarative WebMCP tool
+- Commits (aicoachellavalley-org / .org):
+  - f082378 — docs: replace duplicate org-pitch with repo-explainer
+  - (4 prior-session commits rode along on the same push: 4b5abff, 54d5c9b, 131cd97, a477354)
+- Open questions:
+  - WebMCP audits will activate when Chrome 149 ships the origin trial removing the `enable-webmcp-testing` flag gate. Passive wait; re-run Lighthouse then.
+  - Cloudflare Pages build-failure notifications — worth configuring so the silent-failure pattern can't repeat. Not done in this session.
+  - CATEGORIES.md still missing — flagged in earlier sessions, not yet created. No action this session.
+  - WebMCP spec is still in draft. Today's annotations may need revision as the spec firms up.
+- Hand-off to: next session — optional WebMCP re-audit when Chrome 149 lands; Cloudflare Pages notification setup; CATEGORIES.md decision.
+
+---
+
 ## 2026-05-22 — Agentic web positioning + schema hardening + Lighthouse audit
 
 2026-05-22 — Talking-points doc created. `TALKING-POINTS-AGENTIC-WEB-2026.md` added to playbook root. Vocabulary alignment for any conversation about Google I/O 2026 and AICV's position in the agentic web. Internal infrastructure, not marketing copy. To be refreshed quarterly or when significant new agentic-web announcements land.
