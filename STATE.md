@@ -15,11 +15,11 @@ The pre-partition snapshot of operational content is preserved at
 | Metric | Count |
 |--------|-------|
 | Nodes live | 81 |
-| Intelligence briefs live | 150 |
+| Intelligence briefs live | 151 |
 | Snapshots live | 3 |
 | Reports live | 2 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026) · 7 (May 2026) · 1 (Jun 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026) · 7 (May 2026) · 2 (Jun 2026)
 
 **Brief count reconciled 2026-05-19:** discrepancy flagged 2026-05-11 resolved. Disk, stats.json, and STATE.md now in sync at 145. `coachella-valley-intelligence-index` node description referencing 131 is a stale prose string, not a count field — update deferred.
 
