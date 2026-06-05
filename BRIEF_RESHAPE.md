@@ -163,7 +163,9 @@ Common removals at reshape time:
 - Editorial advocacy or calls to action
 - First-person voice, parentheticals, asides
 - Speculative outlook unless attributed
-- Quotes longer than fifteen words (paraphrase instead)
+- Prefer paraphrase. Use direct quotes only when exact wording
+  is itself the signal (legal language, on-the-record
+  commitments, signature phrasing that paraphrase would flatten)
 
 The brief is impersonal documentary voice. Sat is never named. AICV is
 referenced in third person.
