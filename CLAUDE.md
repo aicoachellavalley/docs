@@ -244,7 +244,7 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 ## How to Add an Intelligence Brief
 
 1. Identify one AI-economy signal from local news or inbound inquiry
-2. Write brief in Claude.ai using the frontmatter schema and section structure above
+2. Write brief in Claude.ai per BRIEF_RESHAPE.md (essence → MDX)
 3. Claude Code creates file: `src/content/briefs/YYYY-MM-DD-slug.mdx`
 4. Run: `node scripts/build-static-json.cjs` from `~/Projects/com/`
 5. Review before committing
