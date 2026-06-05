@@ -44,6 +44,11 @@ entity record.** Need evidence before outreach.
   template, `aicv-ic/worker.js` CHAIR_SYSTEM prompt, and
   remaining playbook docs still use "Snapshot" terminology.
   Do not rename piecemeal — defer until full IC.md update pass.
+- **IndexNow 403:** `build-static-json.cjs` reported `IndexNow:
+  403 — 4 URLs submitted` during 2026-06-05 anthropic-pause brief
+  publish (com commit `37a47cc`). Brief publishing not blocked —
+  ping doesn't gate Cloudflare deploy. Likely API key/quota issue;
+  verify key in worker env and retry. ~15 min.
 
 ## Parked
 
