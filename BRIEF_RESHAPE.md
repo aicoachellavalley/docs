@@ -184,7 +184,7 @@ Checklist before couriering to Claude Code:
 - [ ] `**Date:** Month DD, YYYY` long-form present
 - [ ] All Related Node slugs verified live on disk
 - [ ] No HTML comments
-- [ ] No quotes over fifteen words
+- [ ] Direct quotes pass the "exact wording is the signal" test (Step 6)
 - [ ] Filename matches disk convention: `YYYY-MM-DD-slug-words.mdx`
 - [ ] Sat not named in body
 - [ ] AICV third-person throughout
