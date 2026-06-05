@@ -59,7 +59,9 @@ Four fields. Order matters.
 - **description** — one to two sentences. States the signal and its
   immediate significance. Bare `$` in dollar amounts (never `\$` in
   frontmatter).
-- **date** — `"YYYY-MM-DD"`. Day of publish, not source date.
+- **date** — `"YYYY-MM-DD"`. Day of publish for analytical pieces.
+  Breaking news may be dated to the event itself when timestamp
+  accuracy matters to the historical record.
 - **tags** — 5–6 lowercase-hyphenated topical tags, `coachella-valley`
   always last. Reserve `also-noted` for Also Noted roundups.
 
