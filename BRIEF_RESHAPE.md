@@ -192,6 +192,18 @@ Checklist before couriering to Claude Code:
 Once clean, courier to Claude Code with the standard publish flow:
 create file → run `node scripts/build-static-json.cjs` → commit → push.
 
+After commit + push, verify deploy completion:
+
+1. Curl the brief URL — confirm HTTP 200, follow one 308 if
+   present, surface anything else immediately.
+2. Grep the `/briefs/` index page for the new slug — confirm
+   appearance and approximate position.
+3. If the first curl returns a 4xx/5xx within the polling window,
+   surface immediately. Do not retry past the budget.
+
+Sub-minute total wall-time on the homepage repo. Catches silent
+build failures, slug typos, queue stalls.
+
 ---
 
 ## Wire-up
