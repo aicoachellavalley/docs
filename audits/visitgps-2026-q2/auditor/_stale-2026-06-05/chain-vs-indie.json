@@ -1,0 +1,170 @@
+{
+  "chain": {
+    "total": 9,
+    "unique_businesses": 6,
+    "mean_score_excluding_Z": 2.778,
+    "tier_A": 0,
+    "tier_B": 4,
+    "tier_C": 2,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "by_strategic_bucket": {
+      "Dining": {
+        "total": 4,
+        "unique_businesses": 3,
+        "mean_score_excluding_Z": 1.0,
+        "tier_A": 0,
+        "tier_B": 1,
+        "tier_C": 0,
+        "tier_D": 3,
+        "tier_Z": 0,
+        "chain_count": 4,
+        "indie_count": 0
+      },
+      "Retail & Services": {
+        "total": 2,
+        "unique_businesses": 2,
+        "mean_score_excluding_Z": 3.0,
+        "tier_A": 0,
+        "tier_B": 0,
+        "tier_C": 2,
+        "tier_D": 0,
+        "tier_Z": 0,
+        "chain_count": 2,
+        "indie_count": 0
+      },
+      "Lodging": {
+        "total": 1,
+        "unique_businesses": 1,
+        "mean_score_excluding_Z": 5.0,
+        "tier_A": 0,
+        "tier_B": 1,
+        "tier_C": 0,
+        "tier_D": 0,
+        "tier_Z": 0,
+        "chain_count": 1,
+        "indie_count": 0
+      },
+      "Meetings & Events": {
+        "total": 2,
+        "unique_businesses": 1,
+        "mean_score_excluding_Z": 5.0,
+        "tier_A": 0,
+        "tier_B": 2,
+        "tier_C": 0,
+        "tier_D": 0,
+        "tier_Z": 0,
+        "chain_count": 2,
+        "indie_count": 0
+      }
+    }
+  },
+  "indie": {
+    "total": 643,
+    "unique_businesses": 637,
+    "mean_score_excluding_Z": 3.951,
+    "tier_A": 5,
+    "tier_B": 22,
+    "tier_C": 8,
+    "tier_D": 6,
+    "tier_Z": 602,
+    "by_strategic_bucket": {
+      "Dining": {
+        "total": 114,
+        "unique_businesses": 114,
+        "mean_score_excluding_Z": 3.25,
+        "tier_A": 1,
+        "tier_B": 3,
+        "tier_C": 3,
+        "tier_D": 1,
+        "tier_Z": 106,
+        "chain_count": 0,
+        "indie_count": 114
+      },
+      "Experiences": {
+        "total": 25,
+        "unique_businesses": 25,
+        "mean_score_excluding_Z": 5.2,
+        "tier_A": 0,
+        "tier_B": 5,
+        "tier_C": 0,
+        "tier_D": 0,
+        "tier_Z": 20,
+        "chain_count": 0,
+        "indie_count": 25
+      },
+      "Lodging": {
+        "total": 14,
+        "unique_businesses": 13,
+        "mean_score_excluding_Z": 4.429,
+        "tier_A": 0,
+        "tier_B": 6,
+        "tier_C": 0,
+        "tier_D": 1,
+        "tier_Z": 7,
+        "chain_count": 0,
+        "indie_count": 14
+      },
+      "Retail & Services": {
+        "total": 51,
+        "unique_businesses": 51,
+        "mean_score_excluding_Z": 2.143,
+        "tier_A": 0,
+        "tier_B": 2,
+        "tier_C": 3,
+        "tier_D": 2,
+        "tier_Z": 44,
+        "chain_count": 0,
+        "indie_count": 51
+      },
+      "Meetings & Events": {
+        "total": 34,
+        "unique_businesses": 32,
+        "mean_score_excluding_Z": 4.5,
+        "tier_A": 3,
+        "tier_B": 4,
+        "tier_C": 2,
+        "tier_D": 1,
+        "tier_Z": 24,
+        "chain_count": 0,
+        "indie_count": 34
+      },
+      "Mobility": {
+        "total": 4,
+        "unique_businesses": 4,
+        "mean_score_excluding_Z": 4.333,
+        "tier_A": 1,
+        "tier_B": 1,
+        "tier_C": 0,
+        "tier_D": 1,
+        "tier_Z": 1,
+        "chain_count": 0,
+        "indie_count": 4
+      },
+      "(uncategorized)": {
+        "total": 342,
+        "unique_businesses": 342,
+        "mean_score_excluding_Z": 6.0,
+        "tier_A": 0,
+        "tier_B": 1,
+        "tier_C": 0,
+        "tier_D": 0,
+        "tier_Z": 341,
+        "chain_count": 0,
+        "indie_count": 342
+      },
+      "(unmapped)": {
+        "total": 59,
+        "unique_businesses": 59,
+        "mean_score_excluding_Z": 0.0,
+        "tier_A": 0,
+        "tier_B": 0,
+        "tier_C": 0,
+        "tier_D": 0,
+        "tier_Z": 59,
+        "chain_count": 0,
+        "indie_count": 59
+      }
+    }
+  }
+}

@@ -1,0 +1,664 @@
+{
+  "EAT & DRINK": {
+    "total": 12,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 12,
+    "chain_count": 0,
+    "indie_count": 12,
+    "top_5_scores": [
+      {
+        "name": "$5 Pizza Place",
+        "score": 0,
+        "weburl": "https://www.5dollarpizzaplace.com/"
+      },
+      {
+        "name": "1/2sies Co.",
+        "score": 0,
+        "weburl": "https://12siesco.com/"
+      },
+      {
+        "name": "262 Rooftop Bar & Grill",
+        "score": 0,
+        "weburl": "https://www.rooftop262.com/"
+      },
+      {
+        "name": "360 Sports at Agua Caliente Casino Cathedral City",
+        "score": 0,
+        "weburl": "https://aguacalientecasinos.com/nightlife/360-sports-bar/"
+      },
+      {
+        "name": "360 Sports at Agua Caliente Casino Palm Springs",
+        "score": 0,
+        "weburl": "https://aguacalientecasinos.com/dining/360-sports/"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "4 Saints at Kimpton Rowan Palm Springs Hotel",
+        "score": 0,
+        "weburl": "https://www.4saintspalmsprings.com/"
+      },
+      {
+        "name": "533 Viet Fusion",
+        "score": 0,
+        "weburl": "https://www.533vietfusion.com/"
+      },
+      {
+        "name": "85\u00b0C Bakery Cafe",
+        "score": 0,
+        "weburl": "https://www.85cbakerycafe.com/"
+      },
+      {
+        "name": "9 1/2 Bar & Kitchen",
+        "score": 0,
+        "weburl": "https://di71.com/dining/"
+      },
+      {
+        "name": "Acai Oasis",
+        "score": 0,
+        "weburl": "https://acaioasis.com/"
+      }
+    ]
+  },
+  "ARTS & CULTURE": {
+    "total": 3,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 3,
+    "chain_count": 0,
+    "indie_count": 3,
+    "top_5_scores": [
+      {
+        "name": "\u00c9lan Vital Studio",
+        "score": 0,
+        "weburl": "https://elanvitalgalleries.com/"
+      },
+      {
+        "name": "A. Picardo Arts - Anthony Picardo",
+        "score": 0,
+        "weburl": "https://www.apicardo.com/"
+      },
+      {
+        "name": "Aaron Allen Art Studio",
+        "score": 0,
+        "weburl": "https://www.aaronallenart.org/"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "\u00c9lan Vital Studio",
+        "score": 0,
+        "weburl": "https://elanvitalgalleries.com/"
+      },
+      {
+        "name": "A. Picardo Arts - Anthony Picardo",
+        "score": 0,
+        "weburl": "https://www.apicardo.com/"
+      },
+      {
+        "name": "Aaron Allen Art Studio",
+        "score": 0,
+        "weburl": "https://www.aaronallenart.org/"
+      }
+    ]
+  },
+  "THINGS TO DO": {
+    "total": 4,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 4,
+    "chain_count": 0,
+    "indie_count": 4,
+    "top_5_scores": [
+      {
+        "name": "29 Palms Artist Gallery",
+        "score": 0,
+        "weburl": "https://www.29palmsartgallery.com"
+      },
+      {
+        "name": "29 Palms Creative Center and Gallery",
+        "score": 0,
+        "weburl": "http://www.29palmsart.com/"
+      },
+      {
+        "name": "29 Palms Spa & Nails",
+        "score": 0,
+        "weburl": null
+      },
+      {
+        "name": "A Fox Salon",
+        "score": 0,
+        "weburl": null
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "29 Palms Artist Gallery",
+        "score": 0,
+        "weburl": "https://www.29palmsartgallery.com"
+      },
+      {
+        "name": "29 Palms Creative Center and Gallery",
+        "score": 0,
+        "weburl": "http://www.29palmsart.com/"
+      },
+      {
+        "name": "29 Palms Spa & Nails",
+        "score": 0,
+        "weburl": null
+      },
+      {
+        "name": "A Fox Salon",
+        "score": 0,
+        "weburl": null
+      }
+    ]
+  },
+  "PLACES TO STAY": {
+    "total": 3,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 3,
+    "chain_count": 0,
+    "indie_count": 3,
+    "top_5_scores": [
+      {
+        "name": "29 Palms Inn",
+        "score": 0,
+        "weburl": "https://www.29palmsinn.com"
+      },
+      {
+        "name": "9 Palms Inn",
+        "score": 0,
+        "weburl": "https://www.9palmsinn.com"
+      },
+      {
+        "name": "A Nights Inn",
+        "score": 0,
+        "weburl": "https://www.anightsinnridgecrest.us/"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "29 Palms Inn",
+        "score": 0,
+        "weburl": "https://www.29palmsinn.com"
+      },
+      {
+        "name": "9 Palms Inn",
+        "score": 0,
+        "weburl": "https://www.9palmsinn.com"
+      },
+      {
+        "name": "A Nights Inn",
+        "score": 0,
+        "weburl": "https://www.anightsinnridgecrest.us/"
+      }
+    ]
+  },
+  "STAY": {
+    "total": 15,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 15,
+    "chain_count": 0,
+    "indie_count": 15,
+    "top_5_scores": [
+      {
+        "name": "2Br Golfside Getaway in Desert Falls",
+        "score": 0,
+        "weburl": "https://smartervacation.rentals/properties/?listing_id=6748c82be407c6000e592f58&state=&city=Palm+Desert&t-start=&t-end=&minOccupancy="
+      },
+      {
+        "name": "3/BDR Private Oasis, Pool | Spa",
+        "score": 0,
+        "weburl": "https://www.airbnb.com/rooms/17748258"
+      },
+      {
+        "name": "3bd Modern Home in Gated Comm. 1mi To Festivals",
+        "score": 0,
+        "weburl": "https://www.airbnb.com/rooms/786301340380907021?guests=1&adults=1&s=67&unique_share_id=dccd3dbf-30c0-408f-b9d7-824fd7f33e23"
+      },
+      {
+        "name": "3BR Spanish Townhome Resort Style Living and Views",
+        "score": 0,
+        "weburl": "https://www.airbnb.com/rooms/51688511?guests=1&adults=1&s=67&unique_share_id=d5965003-28aa-4efc-89fe-ce757bfbdb72"
+      },
+      {
+        "name": "4 Seasons at Desert Breezes",
+        "score": 0,
+        "weburl": null
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "7 Springs Inn & Suites",
+        "score": 0,
+        "weburl": "https://www.7-springs.com"
+      },
+      {
+        "name": "A+ Privacy! 49-Jet Spa\u2022 Minigolf\u2022 Projector\u2022 Games",
+        "score": 0,
+        "weburl": "http://airbnb.com/h/lalunapalms"
+      },
+      {
+        "name": "A Place In The Sun Garden Hotel",
+        "score": 0,
+        "weburl": "https://www.aplaceinthesunhotel.com"
+      },
+      {
+        "name": "Ace Hotel & Swim Club",
+        "score": 0,
+        "weburl": "https://www.acehotel.com/palmsprings"
+      },
+      {
+        "name": "Acres Landing",
+        "score": 0,
+        "weburl": "https://www.acreslanding.com/"
+      }
+    ]
+  },
+  "SHOPPING": {
+    "total": 4,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 4,
+    "chain_count": 0,
+    "indie_count": 4,
+    "top_5_scores": [
+      {
+        "name": "4 Seasons Swimwear",
+        "score": 0,
+        "weburl": "https://4-seasons-swimwear.business.site/"
+      },
+      {
+        "name": "A Gallery Fine Art",
+        "score": 0,
+        "weburl": "https://www.agalleryfineart.com/homepage.html"
+      },
+      {
+        "name": "A la Mod",
+        "score": 0,
+        "weburl": "https://www.alamod768.com"
+      },
+      {
+        "name": "A to Z Desert Mercantile",
+        "score": 0,
+        "weburl": "https://covetps.com/pages/a-to-z-desert-mercantile"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "4 Seasons Swimwear",
+        "score": 0,
+        "weburl": "https://4-seasons-swimwear.business.site/"
+      },
+      {
+        "name": "A Gallery Fine Art",
+        "score": 0,
+        "weburl": "https://www.agalleryfineart.com/homepage.html"
+      },
+      {
+        "name": "A la Mod",
+        "score": 0,
+        "weburl": "https://www.alamod768.com"
+      },
+      {
+        "name": "A to Z Desert Mercantile",
+        "score": 0,
+        "weburl": "https://covetps.com/pages/a-to-z-desert-mercantile"
+      }
+    ]
+  },
+  "WEDDINGS": {
+    "total": 3,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 3,
+    "chain_count": 0,
+    "indie_count": 3,
+    "top_5_scores": [
+      {
+        "name": "533 Viet Fusion",
+        "score": 0,
+        "weburl": "https://www.533vietfusion.com/"
+      },
+      {
+        "name": "A Transportation Service, LLC",
+        "score": 0,
+        "weburl": "https://www.palmspringsprivatecarservice.com"
+      },
+      {
+        "name": "Ace Hotel & Swim Club",
+        "score": 0,
+        "weburl": "https://www.acehotel.com/palmsprings"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "533 Viet Fusion",
+        "score": 0,
+        "weburl": "https://www.533vietfusion.com/"
+      },
+      {
+        "name": "A Transportation Service, LLC",
+        "score": 0,
+        "weburl": "https://www.palmspringsprivatecarservice.com"
+      },
+      {
+        "name": "Ace Hotel & Swim Club",
+        "score": 0,
+        "weburl": "https://www.acehotel.com/palmsprings"
+      }
+    ]
+  },
+  "GROUP VENUES": {
+    "total": 3,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 3,
+    "chain_count": 0,
+    "indie_count": 3,
+    "top_5_scores": [
+      {
+        "name": "533 Viet Fusion",
+        "score": 0,
+        "weburl": "https://www.533vietfusion.com/"
+      },
+      {
+        "name": "Ace Hotel & Swim Club",
+        "score": 0,
+        "weburl": "https://www.acehotel.com/palmsprings"
+      },
+      {
+        "name": "Acrisure Arena",
+        "score": 0,
+        "weburl": "https://acrisurearena.com/"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "533 Viet Fusion",
+        "score": 0,
+        "weburl": "https://www.533vietfusion.com/"
+      },
+      {
+        "name": "Ace Hotel & Swim Club",
+        "score": 0,
+        "weburl": "https://www.acehotel.com/palmsprings"
+      },
+      {
+        "name": "Acrisure Arena",
+        "score": 0,
+        "weburl": "https://acrisurearena.com/"
+      }
+    ]
+  },
+  "RELOCATION & RESOURCES": {
+    "total": 3,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 3,
+    "chain_count": 0,
+    "indie_count": 3,
+    "top_5_scores": [
+      {
+        "name": "7 Lakes Golf & Country Club Sales & Rentals",
+        "score": 0,
+        "weburl": "https://www.7lakescountryclub.com"
+      },
+      {
+        "name": "AAA Palm Springs",
+        "score": 0,
+        "weburl": "https://www.aaa.com"
+      },
+      {
+        "name": "AAA Westways - Auto Club of Southern California",
+        "score": 0,
+        "weburl": "https://www.calif.aaa.com/publications.html"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "7 Lakes Golf & Country Club Sales & Rentals",
+        "score": 0,
+        "weburl": "https://www.7lakescountryclub.com"
+      },
+      {
+        "name": "AAA Palm Springs",
+        "score": 0,
+        "weburl": "https://www.aaa.com"
+      },
+      {
+        "name": "AAA Westways - Auto Club of Southern California",
+        "score": 0,
+        "weburl": "https://www.calif.aaa.com/publications.html"
+      }
+    ]
+  },
+  "MEETING & EVENT RESOURCES": {
+    "total": 6,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 6,
+    "chain_count": 0,
+    "indie_count": 6,
+    "top_5_scores": [
+      {
+        "name": "849EVENTS",
+        "score": 0,
+        "weburl": "https://849events.com"
+      },
+      {
+        "name": "A New Team",
+        "score": 0,
+        "weburl": "https://www.anewteam.com"
+      },
+      {
+        "name": "Academy of Musical Performance",
+        "score": 0,
+        "weburl": "https://ampcv.org/"
+      },
+      {
+        "name": "ACCESS Destination Services",
+        "score": 0,
+        "weburl": "https://www.accessdmc.com/"
+      },
+      {
+        "name": "Ace Transportation, Inc.",
+        "score": 0,
+        "weburl": "https://www.acerides.com"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "A New Team",
+        "score": 0,
+        "weburl": "https://www.anewteam.com"
+      },
+      {
+        "name": "Academy of Musical Performance",
+        "score": 0,
+        "weburl": "https://ampcv.org/"
+      },
+      {
+        "name": "ACCESS Destination Services",
+        "score": 0,
+        "weburl": "https://www.accessdmc.com/"
+      },
+      {
+        "name": "Ace Transportation, Inc.",
+        "score": 0,
+        "weburl": "https://www.acerides.com"
+      },
+      {
+        "name": "Acrisure Arena",
+        "score": 0,
+        "weburl": "https://acrisurearena.com/"
+      }
+    ]
+  },
+  "(uncategorized)": {
+    "total": 4,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 4,
+    "chain_count": 0,
+    "indie_count": 4,
+    "top_5_scores": [
+      {
+        "name": "9/11 Art Memorial",
+        "score": 0,
+        "weburl": null
+      },
+      {
+        "name": "9/11 Memorial",
+        "score": 0,
+        "weburl": null
+      },
+      {
+        "name": "Acknowledgement Areas: Veterans",
+        "score": 0,
+        "weburl": null
+      },
+      {
+        "name": "AcQPoint Wellness Center",
+        "score": 0,
+        "weburl": "https://acqpoint.com/"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "9/11 Art Memorial",
+        "score": 0,
+        "weburl": null
+      },
+      {
+        "name": "9/11 Memorial",
+        "score": 0,
+        "weburl": null
+      },
+      {
+        "name": "Acknowledgement Areas: Veterans",
+        "score": 0,
+        "weburl": null
+      },
+      {
+        "name": "AcQPoint Wellness Center",
+        "score": 0,
+        "weburl": "https://acqpoint.com/"
+      }
+    ]
+  },
+  "BUSINESS & PROFESSIONAL SERVICES": {
+    "total": 3,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 3,
+    "chain_count": 0,
+    "indie_count": 3,
+    "top_5_scores": [
+      {
+        "name": "95.9 The Oasis",
+        "score": 0,
+        "weburl": "https://www.959theoasis.com"
+      },
+      {
+        "name": "A Streetcar Named Design",
+        "score": 0,
+        "weburl": "https://www.astreetcar.com"
+      },
+      {
+        "name": "ACE Parking",
+        "score": 0,
+        "weburl": null
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "95.9 The Oasis",
+        "score": 0,
+        "weburl": "https://www.959theoasis.com"
+      },
+      {
+        "name": "A Streetcar Named Design",
+        "score": 0,
+        "weburl": "https://www.astreetcar.com"
+      },
+      {
+        "name": "ACE Parking",
+        "score": 0,
+        "weburl": null
+      }
+    ]
+  },
+  "GETTING HERE & AROUND": {
+    "total": 3,
+    "mean_score": 0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 3,
+    "chain_count": 0,
+    "indie_count": 3,
+    "top_5_scores": [
+      {
+        "name": "A to Z Transportation",
+        "score": 0,
+        "weburl": "https://atoztransportations.com/"
+      },
+      {
+        "name": "A Transportation Service, LLC",
+        "score": 0,
+        "weburl": "https://www.palmspringsprivatecarservice.com"
+      },
+      {
+        "name": "Ace Transportation, Inc.",
+        "score": 0,
+        "weburl": "https://www.acerides.com"
+      }
+    ],
+    "bottom_5_scores": [
+      {
+        "name": "A to Z Transportation",
+        "score": 0,
+        "weburl": "https://atoztransportations.com/"
+      },
+      {
+        "name": "A Transportation Service, LLC",
+        "score": 0,
+        "weburl": "https://www.palmspringsprivatecarservice.com"
+      },
+      {
+        "name": "Ace Transportation, Inc.",
+        "score": 0,
+        "weburl": "https://www.acerides.com"
+      }
+    ]
+  }
+}

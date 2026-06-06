@@ -1,0 +1,52 @@
+{
+  "site_loads": {
+    "pass_count": 2429,
+    "n": 3333,
+    "pass_rate": 0.7288
+  },
+  "nap_consistent": {
+    "pass_count": 168,
+    "n": 3333,
+    "pass_rate": 0.0504
+  },
+  "mobile_ready": {
+    "pass_count": 2425,
+    "n": 3333,
+    "pass_rate": 0.7276
+  },
+  "schema_present": {
+    "pass_count": 0,
+    "n": 3333,
+    "pass_rate": 0.0
+  },
+  "og_metadata": {
+    "pass_count": 1244,
+    "n": 3333,
+    "pass_rate": 0.3732
+  },
+  "faq_present": {
+    "pass_count": 438,
+    "n": 3333,
+    "pass_rate": 0.1314
+  },
+  "content_fresh": {
+    "pass_count": 271,
+    "n": 3333,
+    "pass_rate": 0.0813
+  },
+  "citation_density": {
+    "pass_count": 323,
+    "n": 3333,
+    "pass_rate": 0.0969
+  },
+  "llms_txt_present": {
+    "pass_count": 784,
+    "n": 3333,
+    "pass_rate": 0.2352
+  },
+  "gbp_linked": {
+    "pass_count": 831,
+    "n": 3333,
+    "pass_rate": 0.2493
+  }
+}

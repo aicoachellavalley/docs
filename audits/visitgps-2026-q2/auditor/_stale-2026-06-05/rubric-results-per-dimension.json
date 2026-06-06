@@ -1,0 +1,52 @@
+{
+  "site_loads": {
+    "pass_count": 36,
+    "n": 50,
+    "pass_rate": 0.72
+  },
+  "nap_consistent": {
+    "pass_count": 19,
+    "n": 50,
+    "pass_rate": 0.38
+  },
+  "mobile_ready": {
+    "pass_count": 39,
+    "n": 50,
+    "pass_rate": 0.78
+  },
+  "schema_present": {
+    "pass_count": 23,
+    "n": 50,
+    "pass_rate": 0.46
+  },
+  "og_metadata": {
+    "pass_count": 21,
+    "n": 50,
+    "pass_rate": 0.42
+  },
+  "faq_present": {
+    "pass_count": 11,
+    "n": 50,
+    "pass_rate": 0.22
+  },
+  "content_fresh": {
+    "pass_count": 31,
+    "n": 50,
+    "pass_rate": 0.62
+  },
+  "citation_density": {
+    "pass_count": 7,
+    "n": 50,
+    "pass_rate": 0.14
+  },
+  "llms_txt_present": {
+    "pass_count": 8,
+    "n": 50,
+    "pass_rate": 0.16
+  },
+  "gbp_linked": {
+    "pass_count": 19,
+    "n": 50,
+    "pass_rate": 0.38
+  }
+}

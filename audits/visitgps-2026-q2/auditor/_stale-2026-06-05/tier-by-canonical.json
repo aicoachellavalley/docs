@@ -1,0 +1,259 @@
+{
+  "Dining": {
+    "total": 118,
+    "unique_businesses": 117,
+    "mean_score_excluding_Z": 2.5,
+    "tier_A": 1,
+    "tier_B": 4,
+    "tier_C": 3,
+    "tier_D": 4,
+    "tier_Z": 106,
+    "chain_count": 4,
+    "indie_count": 114,
+    "raw_labels_included": [
+      "EAT & DRINK"
+    ]
+  },
+  "Arts & Culture": {
+    "total": 6,
+    "unique_businesses": 6,
+    "mean_score_excluding_Z": 5.0,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 3,
+    "chain_count": 0,
+    "indie_count": 6,
+    "raw_labels_included": [
+      "ARTS & CULTURE"
+    ]
+  },
+  "Activities": {
+    "total": 19,
+    "unique_businesses": 19,
+    "mean_score_excluding_Z": 5.5,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 17,
+    "chain_count": 0,
+    "indie_count": 19,
+    "raw_labels_included": [
+      "ACTIVITIES & RECREATION",
+      "THINGS TO DO"
+    ]
+  },
+  "Lodging": {
+    "total": 15,
+    "unique_businesses": 14,
+    "mean_score_excluding_Z": 4.5,
+    "tier_A": 0,
+    "tier_B": 7,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 7,
+    "chain_count": 1,
+    "indie_count": 14,
+    "raw_labels_included": [
+      "PLACES TO STAY",
+      "STAY"
+    ]
+  },
+  "Shopping": {
+    "total": 36,
+    "unique_businesses": 36,
+    "mean_score_excluding_Z": 2.0,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 32,
+    "chain_count": 0,
+    "indie_count": 36,
+    "raw_labels_included": [
+      "SHOPPING"
+    ]
+  },
+  "Weddings": {
+    "total": 12,
+    "unique_businesses": 12,
+    "mean_score_excluding_Z": 4.0,
+    "tier_A": 1,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 9,
+    "chain_count": 1,
+    "indie_count": 11,
+    "raw_labels_included": [
+      "WEDDINGS"
+    ]
+  },
+  "Group Venues": {
+    "total": 4,
+    "unique_businesses": 4,
+    "mean_score_excluding_Z": 5.667,
+    "tier_A": 1,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 1,
+    "chain_count": 1,
+    "indie_count": 3,
+    "raw_labels_included": [
+      "GROUP VENUES"
+    ]
+  },
+  "Relocation": {
+    "total": 10,
+    "unique_businesses": 10,
+    "mean_score_excluding_Z": 2.667,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 3,
+    "tier_D": 0,
+    "tier_Z": 7,
+    "chain_count": 2,
+    "indie_count": 8,
+    "raw_labels_included": [
+      "RELOCATION & RESOURCES"
+    ]
+  },
+  "Meeting Resources": {
+    "total": 20,
+    "unique_businesses": 20,
+    "mean_score_excluding_Z": 4.333,
+    "tier_A": 1,
+    "tier_B": 3,
+    "tier_C": 2,
+    "tier_D": 0,
+    "tier_Z": 14,
+    "chain_count": 0,
+    "indie_count": 20,
+    "raw_labels_included": [
+      "MEETING & EVENT RESOURCES"
+    ]
+  },
+  "Professional Services": {
+    "total": 7,
+    "unique_businesses": 7,
+    "mean_score_excluding_Z": 2.5,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 5,
+    "chain_count": 0,
+    "indie_count": 7,
+    "raw_labels_included": [
+      "BUSINESS & PROFESSIONAL SERVICES"
+    ]
+  },
+  "Transportation": {
+    "total": 4,
+    "unique_businesses": 4,
+    "mean_score_excluding_Z": 4.333,
+    "tier_A": 1,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 1,
+    "chain_count": 0,
+    "indie_count": 4,
+    "raw_labels_included": [
+      "GETTING HERE & AROUND"
+    ]
+  },
+  "(uncategorized)": {
+    "total": 342,
+    "unique_businesses": 342,
+    "mean_score_excluding_Z": 6.0,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 341,
+    "chain_count": 0,
+    "indie_count": 342,
+    "raw_labels_included": [
+      "(null)"
+    ]
+  },
+  "(unmapped: HIKING TRAILS)": {
+    "total": 52,
+    "unique_businesses": 52,
+    "mean_score_excluding_Z": 0.0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 52,
+    "chain_count": 0,
+    "indie_count": 52,
+    "raw_labels_included": [
+      "HIKING TRAILS"
+    ]
+  },
+  "(unmapped: VISITOR INFORMATION)": {
+    "total": 3,
+    "unique_businesses": 3,
+    "mean_score_excluding_Z": 0.0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 3,
+    "chain_count": 0,
+    "indie_count": 3,
+    "raw_labels_included": [
+      "VISITOR INFORMATION"
+    ]
+  },
+  "(unmapped: CANNABIS)": {
+    "total": 1,
+    "unique_businesses": 1,
+    "mean_score_excluding_Z": 0.0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 1,
+    "chain_count": 0,
+    "indie_count": 1,
+    "raw_labels_included": [
+      "CANNABIS"
+    ]
+  },
+  "(unmapped: FILM PRODUCTION SERVICES)": {
+    "total": 2,
+    "unique_businesses": 2,
+    "mean_score_excluding_Z": 0.0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 2,
+    "chain_count": 0,
+    "indie_count": 2,
+    "raw_labels_included": [
+      "FILM PRODUCTION SERVICES"
+    ]
+  },
+  "(unmapped: GOLF)": {
+    "total": 1,
+    "unique_businesses": 1,
+    "mean_score_excluding_Z": 0.0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 1,
+    "chain_count": 0,
+    "indie_count": 1,
+    "raw_labels_included": [
+      "GOLF"
+    ]
+  }
+}

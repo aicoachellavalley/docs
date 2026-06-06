@@ -1,0 +1,976 @@
+{
+  "fetched_at_iso": "2026-06-05T05:35:40-07:00",
+  "count": 194,
+  "pruned": [
+    {
+      "vgps_id": "56201",
+      "slug": "*desert-oasis*-large-pool-spa-%2b-firepit-%2b-gameroom",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "46804",
+      "slug": "*heated-pool-*spa-*firepit-*gameroom-*sand-court-*mid-century-modern-*1-3rd-acre-*near-downtown",
+      "reason": "kw:firepit"
+    },
+    {
+      "vgps_id": "60441",
+      "slug": "003510-rvc",
+      "reason": "re:^\\d+-rvc"
+    },
+    {
+      "vgps_id": "44826",
+      "slug": "003616-rvc",
+      "reason": "re:^\\d+-rvc"
+    },
+    {
+      "vgps_id": "60437",
+      "slug": "003623-rvc",
+      "reason": "re:^\\d+-rvc"
+    },
+    {
+      "vgps_id": "37215",
+      "slug": "1501-uptown-gastropub",
+      "reason": "re:^\\d{4,}-"
+    },
+    {
+      "vgps_id": "61352",
+      "slug": "2br-2ba-condo-with-mountain-view-and-4-pools",
+      "reason": "re:\\b\\d+br-\\d"
+    },
+    {
+      "vgps_id": "43764",
+      "slug": "365-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "57892",
+      "slug": "3br3ba-home-private-pool-spa-with-desert-and-mtn-views",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "48817",
+      "slug": "3rd-rock%3a-designed-for-the-luxury-vacation-experience!-2bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "38048",
+      "slug": "5-bed-palm-springs-estate-%7c-sleeps-10-pool-%26-games",
+      "reason": "re:sleeps-\\d"
+    },
+    {
+      "vgps_id": "33684",
+      "slug": "acme-house-company-property-management",
+      "reason": "kw:acme-house"
+    },
+    {
+      "vgps_id": "24907",
+      "slug": "acme-house-company-vacation-rentals",
+      "reason": "kw:acme-house"
+    },
+    {
+      "vgps_id": "40849",
+      "slug": "alexander-on-bedford-great-for-groups!-space-for-zoom-calls!-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40893",
+      "slug": "alexander-sunrise-amazing-mountain-views!-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51328",
+      "slug": "alluring-palms%3a-resort-style-private-backyard-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "35536",
+      "slug": "alta-mira-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "49208",
+      "slug": "amazing-condo-with-mountain-view-and-pool-spa",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "48085",
+      "slug": "amg-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "40338",
+      "slug": "andiamo-al-sole%3a-read-the-reviews!-resort-style-pool-yard!-3bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "37845",
+      "slug": "andreas-hills-paradise-estate-palatial-5bd-6-5ba-estate-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40182",
+      "slug": "apollo-1000%3a-space-age-spectacular-3bd-3ba-private-estate-home-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "43766",
+      "slug": "arcadia-desert-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "43771",
+      "slug": "arrived-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "39091",
+      "slug": "atomic-ranch-heaven-walk-to-downtown!-3bd-2-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "50825",
+      "slug": "azul-desert-escape-sleeps-8-4-bedrooms-3-bathrooms",
+      "reason": "re:sleeps-\\d"
+    },
+    {
+      "vgps_id": "39227",
+      "slug": "beautiful-historic-spanish-casita-for-vacation-stay-w-new-pool-%2b-spa-la-quinta-cove",
+      "reason": "kw:casita"
+    },
+    {
+      "vgps_id": "41068",
+      "slug": "belding-bliss-featured-during-modernism-week!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51331",
+      "slug": "blue-oasis%3a-designer-aesthetic-free-flowing-oasis!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40201",
+      "slug": "blue-waters-at-andreas-hills-quiet-%26-serene-retreat!-4bd-3-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41008",
+      "slug": "boho-rhapsody-walk-to-town!-2bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40053",
+      "slug": "boo-boos-hideaway%3a-easy-walk-to-palm-canyon-drive-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "37965",
+      "slug": "breathtaking-views!-private-pool-spa-courtyard-fireplace-patio-bar-bbq-legends-retreat",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "47055",
+      "slug": "bright-%26-spacious-desert-hot-springs-3bd-pool-spa",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "40657",
+      "slug": "bubble-gum-modern-mid-century-alexander-read-the-reviews!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51327",
+      "slug": "camino-mountain-villa-serene-sprawling-villa-retreat!-3bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40845",
+      "slug": "canary-palms-featured-on-modernism-neighborhood-tour-2bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40889",
+      "slug": "casa-azul-walled-%26-gated-compound-4-king-bedrooms-4-baths-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51320",
+      "slug": "casa-cactus%3a-spacious-oasis-retreat-in-deepwell-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51334",
+      "slug": "casa-de-tierra%3a-featured-in-architectural-digest-4bd-4-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51324",
+      "slug": "casa-del-lobo-stunning-custom-built-spanish-style-home-4bd-2-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39515",
+      "slug": "casa-escuela-mid-mod-pool-home-w-private-resort-style-yard!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "48984",
+      "slug": "casa-morongo-a-private-mid-century-luxury-oasis!-4bd-4ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41052",
+      "slug": "casa-zen-fabulous-listing!-3bd-3-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41218",
+      "slug": "casita-bonita-private-yard-w-fabulous-mountain-views-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39253",
+      "slug": "chi-chi-house%3a-huge-private-pool-yard!-3bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "48985",
+      "slug": "citron-oasis-classic-alexander-home-in-racquet-club-estates!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40562",
+      "slug": "come-fly-with-me-private-resort-style-yard!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39115",
+      "slug": "cool-ranch-mid-mod-ranch-with-resort-style-pool-yard!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51326",
+      "slug": "deeply-madly-palm-springs%3a-design-forward-vacation-home!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40532",
+      "slug": "deepwell-modern%3a-very-private-4-bedroom-pool-yard!-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51322",
+      "slug": "desert-daydreams%3a-private-yard-with-saltwater-pool!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40938",
+      "slug": "desert-eden-spectacular-country-club-yard-3bd-2a-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "58716",
+      "slug": "desert-glow-pool-hot-tub-game-room-%26-stunning-views",
+      "reason": "kw:game-room"
+    },
+    {
+      "vgps_id": "41364",
+      "slug": "desert-oasis-saltwater-pool-spa-%26-mountain-views!",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "57823",
+      "slug": "desert-spring-resort-casita",
+      "reason": "kw:casita"
+    },
+    {
+      "vgps_id": "40730",
+      "slug": "double-down-hideaway-value-priced-right-downtown!-2bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40444",
+      "slug": "downtown-winner-at-plaza-villas%3a-in-town-location!-2bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41331",
+      "slug": "draves-estate-the-west-elm-house-2021-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "48991",
+      "slug": "eclectic-vibe%3a-stunning-contemporary-modern-home!-3b-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "38634",
+      "slug": "fab-four-at-el-mirador-4bd-3ba-gorgeous-midcentury-pool-home-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "18533",
+      "slug": "fairway-vacation-rentals-by-meredith-lodging",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "38056",
+      "slug": "far-far-away-in-vista-la-palmas-great-for-families!-4bd-4ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "38621",
+      "slug": "fiesta-in-the-sun-3bd-2-5ba-super-swanky-private-pool-yard!-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40926",
+      "slug": "five-bedroom-estate-with-pool-spa-putting-green-basketball-hoop-and-guest-casita",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "43765",
+      "slug": "five-star-vacation-rentals-la-quinta",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "40613",
+      "slug": "for-the-record-read-the-reviews!-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "47190",
+      "slug": "four-bedroom-south-palm-springs-home-with-large-pool-spa-fire-pit-and-covered",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "37762",
+      "slug": "funtopia-in-the-canyons-3bd-2-5ba-absolutely-stunning-executive-home-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "21490",
+      "slug": "gameroom-gallery",
+      "reason": "kw:gameroom"
+    },
+    {
+      "vgps_id": "53056",
+      "slug": "gentle-elephant-oasis-offers-4%2b3-pool-spa-gas-grill-outdoor-bar-free-amenities",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "39383",
+      "slug": "glass-%26-steel-house-read-the-reviews!-walk-to-town!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "43272",
+      "slug": "golden-sunset-saltwater-pool-spa-%2b-putting-green-%2b-firepit-%2b-gameroom",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "39554",
+      "slug": "golfviews%7cpgaw-palmer%7cwaterfall-pool-casita-fireplace",
+      "reason": "kw:casita"
+    },
+    {
+      "vgps_id": "41909",
+      "slug": "gorgeous-home-pool-spa-pga-west-palmer-fabulous-outdoor-setting-fire-pit-new-listing",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "45107",
+      "slug": "greenday-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "40616",
+      "slug": "happy-hour-designer-luxury!-walled-%26-gated-mid-mod-home!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "48365",
+      "slug": "heated-pool-spa-minigolf-pets-games-1gb-wifi",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "58640",
+      "slug": "homes-hosted-by-locale-concierge",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "59258",
+      "slug": "hot-spot!-pool-spa-walk-to-pickleball-%26-more",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "39099",
+      "slug": "house-of-stardust-private-pool-yard!-4bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "49273",
+      "slug": "indio-retreat%3a-pool-%2b-game-room-pet-friendly",
+      "reason": "kw:game-room"
+    },
+    {
+      "vgps_id": "40661",
+      "slug": "jagger-house%3a-a-rockers-paradise-made-for-relaxing!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "43273",
+      "slug": "koi-springs-mineral-saltwater-pool-%26-spa-oasis-with-fantastic-views-koi-pond-and-fire-pit",
+      "reason": "kw:fire-pit"
+    },
+    {
+      "vgps_id": "24832",
+      "slug": "la-casita-restaurant",
+      "reason": "kw:casita"
+    },
+    {
+      "vgps_id": "33328",
+      "slug": "la-casita",
+      "reason": "kw:casita"
+    },
+    {
+      "vgps_id": "40566",
+      "slug": "la-joya-moderna-grand-mid-mod-in-vista-las-palmas-3bd-3-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "43772",
+      "slug": "la-quinta-internet-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "39741",
+      "slug": "la-quinta-sky-3br-3ba-lic-%23259078",
+      "reason": "re:\\b\\d+br-\\d"
+    },
+    {
+      "vgps_id": "57602",
+      "slug": "large-villa-%2b-large-backyard-putting-green-%26-game-room",
+      "reason": "kw:game-room"
+    },
+    {
+      "vgps_id": "40743",
+      "slug": "lemon-twist-very-private-palm-springs-pool-yard!-4bd-3b-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40654",
+      "slug": "lenas-hideaway-super-swanky-mid-mod-home!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41214",
+      "slug": "little-tuscany-holiday-house-3bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51319",
+      "slug": "lola-vista-stunning-home-in-the-historic-las-palmas-4bd-4-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41078",
+      "slug": "lost-oasis-hosted-by-ryson-desert-vacations",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41508",
+      "slug": "luxurious-palm-springs-vacation-rental-on-park-like-grounds",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "23196",
+      "slug": "luxury-leasing-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "39412",
+      "slug": "marcia!-marcia!-marcia!-fabulous-mid-mod-vacation-home!-4bd-3-ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40410",
+      "slug": "mellow-yellow-butterfly-featured-on-modernism!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "38633",
+      "slug": "mid-century-krisel-house-w-salt-water-pool-firepit-raquet-club-area",
+      "reason": "kw:firepit"
+    },
+    {
+      "vgps_id": "51349",
+      "slug": "mid-century-mood-house-fabulous-alexander-home-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "49104",
+      "slug": "mid-mod-paradise-4-king-bedrooms-with-en-suites!-4bd-4-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40570",
+      "slug": "mid-mod-sunsation-mid-mod-palm-springs-home!-3bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51343",
+      "slug": "midcentury-cool-fabulous-pool-yard!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39559",
+      "slug": "mnt-lake-views%7cpgaw-remodeled-palmer%7cpool-spaclose",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "60847",
+      "slug": "modern-4br-mountain-views-heated-pool-spa-bbq",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "38329",
+      "slug": "modern-loma-vista-3bd-2ba-private-yard-heated-pool-spa-and-firepit-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41330",
+      "slug": "modern-luxe-luxury-home-w-spectacular-mountain-views!-3bd-3-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40863",
+      "slug": "modern-marion-at-twin-palms-walk-to-palm-canyon-drive!-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "38050",
+      "slug": "modern-ranch-heaven%3a-2bd-2ba-midcentury-ranch-home-in-ruth-hardy-park!-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51348",
+      "slug": "mon-cheri-estate-luxurious-celebrity-style-home!-4bd-4-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51332",
+      "slug": "moonrise-kingdom-beautiful-designer-home-in-twin-palms-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "47896",
+      "slug": "moroccan-desert-oasis-5bed-3-bath-salt-pool-spa-bbq-gameroom",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "40652",
+      "slug": "mostero-house-at-old-las-palmas-4-bedroom-suites!-4bd-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41775",
+      "slug": "mountain-view-oasis-at-pga-west-read-the-reviews!-3bd-2-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40884",
+      "slug": "movie-colony-palms-walk-to-palm-canyon-drive!-3bd-2-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51318",
+      "slug": "my-kind-of-zen%3a-walled-%26-gated-for-privacy-close-to-town!-3bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41822",
+      "slug": "new-listing!-top-of-la-quinta-cove-private-home-%7c-casita-%7cpool-spa-%7c-next-to-hiking-trails",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "33372",
+      "slug": "old-guest-house-museum",
+      "reason": "kw:guest-house"
+    },
+    {
+      "vgps_id": "48588",
+      "slug": "outdoor-soaking-tub-shower-private-fire-pit-bbq",
+      "reason": "kw:fire-pit"
+    },
+    {
+      "vgps_id": "39547",
+      "slug": "p-g-a-w%7csaltwater-pool-spa%7cmisters%7cbeautiful-views",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "40473",
+      "slug": "palm-breeze%3a-4bd-3ba-fabulous-mid-mod-home-featured-in-atomic-ranch!-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40627",
+      "slug": "palm-grove-luxury-mid-mod-vacation-home!-5bd-4ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39645",
+      "slug": "palm-springs-trousdale-iconic-mid-mod-vacation-home-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "38003",
+      "slug": "palmercoursepgaw%7c2nd-hole%7cdog-friendly%7cpool-spa",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "38298",
+      "slug": "papillon-palm-springs-3bd-3ba-classic-alexander-butterfly-home!-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51333",
+      "slug": "paradise-splash-at-little-tuscany-resort-style-pool-yard!-4bd-4ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51335",
+      "slug": "pavilion-palm-springs%3a-modern-home-in-movie-colony-east-2bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51330",
+      "slug": "pearl-gardens-villa%3a-upscale-home-with-backyard-oasis!-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41517",
+      "slug": "pga-w-villa-royal-st-george-mnt-%26-greg-norman-course-views-private-pool-spa-bar%26fireplace",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "38010",
+      "slug": "pga-west-4-br-4-1-2-ba-w-spa-and-heated-pool!-utilities-included!",
+      "reason": "kw:-ba-"
+    },
+    {
+      "vgps_id": "51340",
+      "slug": "picture-perfect-retreat%3a-old-hollywood-meets-modern-luxury-3bd-3-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "35972",
+      "slug": "poolside-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "41898",
+      "slug": "premium-pga-west-location-large-saltwater-pool-spa-fire-pit-spectacular-mtn-views",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "40501",
+      "slug": "pretty-in-pink-at-indian-canyons-stunning-executive-home!-4bd-3-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "43104",
+      "slug": "private-guesthouse-poolside-suite-700sf-1-br-lr-2-full-ba-knette-palm-desert",
+      "reason": "kw:guesthouse"
+    },
+    {
+      "vgps_id": "38004",
+      "slug": "prvt-pool-spa%2bmisters%7cclose-to-indian-wells-tennis",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "39293",
+      "slug": "ps-smile%3a-a-happy-place-in-the-heart-of-palm-springs!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39457",
+      "slug": "pvt-saltwater-pool-spa%7ccasita%7cfirepit%7cpgaw%7cmtview",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "38103",
+      "slug": "r-%26-r-rendezvous-3bd-2ba-half-mile-to-palm-canyon-drive-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "46763",
+      "slug": "rather-be-desert-getaway-sleeps-8-3-bedrooms-2-bathrooms",
+      "reason": "re:sleeps-\\d"
+    },
+    {
+      "vgps_id": "33685",
+      "slug": "real-estate-services-from-acme-house-co",
+      "reason": "kw:acme-house"
+    },
+    {
+      "vgps_id": "38049",
+      "slug": "reeves-garden-house-3bd-3ba-celebrity-pedigree-pool-home!-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41464",
+      "slug": "remodeled-luxury-pga-west-home-w-saltwater-pool-spa-awesome-mountain-%26-golf-course-views",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "51336",
+      "slug": "risky-business-great-for-families-close-to-town!-4bd-2-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "33613",
+      "slug": "roadrunner-golf-and-country-club-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "51341",
+      "slug": "royal-escape-resort-style-yard-in-movie-colony-east-3bd-4ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "43775",
+      "slug": "royale-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "41147",
+      "slug": "runway-at-palm-springs-stunning-house-w-resort-style-yard-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "38668",
+      "slug": "ruth-hardy-park-oasis%3a-walk-to-downtown!-2bd-2-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "43388",
+      "slug": "ryson-desert-vacations",
+      "reason": "kw:ryson-desert"
+    },
+    {
+      "vgps_id": "40008",
+      "slug": "san-jacinto-hacienda-resort-style-pool-home-3bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40292",
+      "slug": "san-lucas-hideout%3a-private-walled-compound!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39102",
+      "slug": "san-sorento-house-majestic-mountain-views!-4bd-2-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40792",
+      "slug": "serendipity-palm-springs-high-end-luxury!-designer-home!-2bd-3ba-hosted-by-acme-house-compaany",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "56200",
+      "slug": "serenity-now!-palm-springs-home-with-pool-spa-and-outdoor-shower",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "41031",
+      "slug": "shag-lover-mid-mod-palm-springs-house!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39695",
+      "slug": "shaken-not-stirred-in-sunrise-park-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "46656",
+      "slug": "soul-haven%3a-pvt-resort-style-home-w-pool-spa-ppong-%26-3-fp%e2%80%99s!",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "40319",
+      "slug": "spero-estate-spectacular-executive-villa!-5bd-6ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "50164",
+      "slug": "stylish-desert-oasis-heated-pool-spa-sleeps-14%2b",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "40342",
+      "slug": "sun-haven-escape%3a-palm-springs!-4-bedroom!-close-to-town!-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39873",
+      "slug": "sunny-palms-at-warm-sands%3a-walk-to-palm-canyon-drive!-3bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "48532",
+      "slug": "sunrise-hideaway-3bd-3bath-sleeps-8%2b",
+      "reason": "re:\\b\\d+bd-\\d"
+    },
+    {
+      "vgps_id": "41004",
+      "slug": "terra-soul%3a-pool-hot-tub-fire-pit-%26-style!",
+      "reason": "kw:fire-pit"
+    },
+    {
+      "vgps_id": "40641",
+      "slug": "thanks-for-the-memory-once-home-to-bob-%26-dolores-hope!-5bd-7ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "37963",
+      "slug": "the-arrow-4-bd-3-5-ba-swanky-palm-springs-vibe!-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "48471",
+      "slug": "the-balloon-casita-llc",
+      "reason": "kw:casita"
+    },
+    {
+      "vgps_id": "48472",
+      "slug": "the-balloon-casita-llc",
+      "reason": "kw:casita"
+    },
+    {
+      "vgps_id": "48473",
+      "slug": "the-balloon-casita-llc",
+      "reason": "kw:casita"
+    },
+    {
+      "vgps_id": "56366",
+      "slug": "the-cactus-house-airbnb%3a-private-pool-hot-tub-mini-golf-%26-amazing-views!",
+      "reason": "kw:airbnb"
+    },
+    {
+      "vgps_id": "40910",
+      "slug": "the-clever-cactus-walk-to-palm-canyon-drive!3bd-4ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40073",
+      "slug": "the-great-escape-3bd-3ba-classic-mid-mod-home-w-resort-style-yard!-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "41263",
+      "slug": "the-icon-at-indian-canyons-gorgeous-listing!-4bd-4-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40336",
+      "slug": "the-nest%3a-walk-to-town!-2bd-2ba-fabulous-private-pool-yard-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51321",
+      "slug": "the-riverside%3a-moroccan-chic-gorgeous-resort-style-yard-4bd-4ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "49173",
+      "slug": "the-sundance-inn-dio%3a-sleeps-10-%2b-dog!",
+      "reason": "re:sleeps-\\d"
+    },
+    {
+      "vgps_id": "40038",
+      "slug": "three-amigos-ranch%3a-fabulous-mid-mod-vacation-rental!-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39869",
+      "slug": "three-bedroom-mid-century-modern-home-with-pool-spa-and-fire-pit",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "39384",
+      "slug": "three-bedroom-with-saltwater-pool-spa-two-fire-pits-outdoor-shower-games-galore",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "61648",
+      "slug": "tolosa-coachella-villa-with-gameroom",
+      "reason": "kw:gameroom"
+    },
+    {
+      "vgps_id": "50286",
+      "slug": "tropical-oasis-at-indian-palms-w-pool-spa-mountain-view-close-to-music-festivals-in-golf-resort",
+      "reason": "kw:pool-spa"
+    },
+    {
+      "vgps_id": "28737",
+      "slug": "turnkey-vacation-rentals",
+      "reason": "kw:vacation-rental"
+    },
+    {
+      "vgps_id": "40698",
+      "slug": "under-the-palms-resort-style-pool-yard!-3bd-2ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "25861",
+      "slug": "vacation-palm-springs-by-vacasa-real-estate",
+      "reason": "kw:vacasa"
+    },
+    {
+      "vgps_id": "12644",
+      "slug": "vacation-palm-springs-by-vacasa",
+      "reason": "kw:vacasa"
+    },
+    {
+      "vgps_id": "25860",
+      "slug": "vacation-palm-springs-by-vacasa",
+      "reason": "kw:vacasa"
+    },
+    {
+      "vgps_id": "58641",
+      "slug": "venues-hosted-by-locale-concierge",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40125",
+      "slug": "veranda-aqua-colorful-design-%26-open-concept-living-3bd-3-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51339",
+      "slug": "villa-del-sol-spectacular-stunning-mid-century-jewel!-4bd-3ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "40403",
+      "slug": "west-elm-house-2017%3a-the-alexander-3bd-2ba-fabulous-pool-yard!-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "38070",
+      "slug": "west-elm-house-2019%3a-the-seven-eighty-4bd-3-5ba-stunning-estate-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "51345",
+      "slug": "xoxo-palm-springs-luxury-executive-home!-3bd-4ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    },
+    {
+      "vgps_id": "39720",
+      "slug": "zen-dreams%3a-read-the-reviews!-3bd-2-5ba-hosted-by-acme-house-company",
+      "reason": "kw:hosted-by"
+    }
+  ]
+}

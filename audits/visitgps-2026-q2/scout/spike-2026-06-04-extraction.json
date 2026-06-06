@@ -1,0 +1,152 @@
+[
+  {
+    "bucket": "attraction",
+    "slug": "aerial-tramway",
+    "weburl": "https://www.pstramway.com",
+    "email": "pstramway@pstramway.com",
+    "phone": "(760) 325-1391",
+    "tollfree": "(888) 515-TRAM (8726)",
+    "category": "SHOPPING",
+    "subcategories": [
+      "SHOPPING",
+      "Gifts|Specialty"
+    ],
+    "recid": "15041",
+    "weburl_context": "s\":\"65_15041\",\"custom_youtube_views\":\"116_15041\",\"custom_referrals_viator\":\"121_15041\",\"custom_pinterest_click_thrus\":\"119_15041\",\"custom_pinterest_views\":\"118_15041\",\"core_twitter_click\":\"13_15041\"},\"weburl\":\"https://www.pstramway.com\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":885,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":885,\"value_string\":\"885\"}},\"per"
+  },
+  {
+    "bucket": "attraction",
+    "slug": "moorten-garden",
+    "weburl": "https://www.moortenbotanicalgarden.com/",
+    "email": "clarkmoorten@yahoo.com",
+    "phone": "(760) 327-6555",
+    "tollfree": null,
+    "category": "GROUP VENUES",
+    "subcategories": [
+      "GROUP VENUES",
+      "Off-Site Venues"
+    ],
+    "recid": "22377",
+    "weburl_context": "s\":\"65_22377\",\"custom_youtube_views\":\"116_22377\",\"custom_referrals_viator\":\"121_22377\",\"custom_pinterest_click_thrus\":\"119_22377\",\"custom_pinterest_views\":\"118_22377\",\"core_twitter_click\":\"13_22377\"},\"weburl\":\"https://www.moortenbotanicalgarden.com/\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":364,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":364,\"value_string"
+  },
+  {
+    "bucket": "hotel",
+    "slug": "ace-hotel",
+    "weburl": "https://www.acehotel.com/palmsprings",
+    "email": "enquire.ps@acehotel.com",
+    "phone": "(760) 325-9900",
+    "tollfree": "(877) 223-5050",
+    "category": "STAY",
+    "subcategories": [
+      "STAY",
+      "Hotels|Resorts"
+    ],
+    "recid": "21185",
+    "weburl_context": "s\":\"65_21185\",\"custom_youtube_views\":\"116_21185\",\"custom_referrals_viator\":\"121_21185\",\"custom_pinterest_click_thrus\":\"119_21185\",\"custom_pinterest_views\":\"118_21185\",\"core_twitter_click\":\"13_21185\"},\"weburl\":\"https://www.acehotel.com/palmsprings\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":187,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":187,\"value_string\":\""
+  },
+  {
+    "bucket": "hotel",
+    "slug": "adara-hotel",
+    "weburl": "https://www.adarapalmsprings.com/",
+    "email": "knightsinnps@gmail.com",
+    "phone": "(760) 320-7767",
+    "tollfree": "(888) 416-9450",
+    "category": "STAY",
+    "subcategories": [
+      "STAY",
+      "Boutique Hotels|Inns"
+    ],
+    "recid": "16759",
+    "weburl_context": "s\":\"65_16759\",\"custom_youtube_views\":\"116_16759\",\"custom_referrals_viator\":\"121_16759\",\"custom_pinterest_click_thrus\":\"119_16759\",\"custom_pinterest_views\":\"118_16759\",\"core_twitter_click\":\"13_16759\"},\"weburl\":\"https://www.adarapalmsprings.com/\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":825,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":825,\"value_string\":\"825"
+  },
+  {
+    "bucket": "hotel",
+    "slug": "descanso-resort",
+    "weburl": "https://descansoresort.com/",
+    "email": "relax@descansoresort.com",
+    "phone": "(760) 320-1928",
+    "tollfree": null,
+    "category": "STAY",
+    "subcategories": [
+      "STAY",
+      "LGBTQ+ Hotels|Resorts"
+    ],
+    "recid": "24411",
+    "weburl_context": "s\":\"65_24411\",\"custom_youtube_views\":\"116_24411\",\"custom_referrals_viator\":\"121_24411\",\"custom_pinterest_click_thrus\":\"119_24411\",\"custom_pinterest_views\":\"118_24411\",\"core_twitter_click\":\"13_24411\"},\"weburl\":\"https://descansoresort.com/\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":437,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":437,\"value_string\":\"437\"}},\"p"
+  },
+  {
+    "bucket": "restaurant",
+    "slug": "boozehounds",
+    "weburl": "https://boozehoundsps.com/",
+    "email": "info@boozehoundsps.com",
+    "phone": "(760) 656-0067",
+    "tollfree": null,
+    "category": "EAT & DRINK",
+    "subcategories": [
+      "EAT & DRINK",
+      "Californian"
+    ],
+    "recid": "37345",
+    "weburl_context": "s\":\"65_37345\",\"custom_youtube_views\":\"116_37345\",\"custom_referrals_viator\":\"121_37345\",\"custom_pinterest_click_thrus\":\"119_37345\",\"custom_pinterest_views\":\"118_37345\",\"core_twitter_click\":\"13_37345\"},\"weburl\":\"https://boozehoundsps.com/\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":344,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":344,\"value_string\":\"344\"}},\"pe"
+  },
+  {
+    "bucket": "restaurant",
+    "slug": "la-copine-kitchen",
+    "weburl": "https://www.lacopinekitchen.com/",
+    "email": null,
+    "phone": "(760) 289-8537",
+    "tollfree": null,
+    "category": "EAT & DRINK",
+    "subcategories": [
+      "EAT & DRINK",
+      "American"
+    ],
+    "recid": "34004",
+    "weburl_context": "s\":\"65_34004\",\"custom_youtube_views\":\"116_34004\",\"custom_referrals_viator\":\"121_34004\",\"custom_pinterest_click_thrus\":\"119_34004\",\"custom_pinterest_views\":\"118_34004\",\"core_twitter_click\":\"13_34004\"},\"weburl\":\"https://www.lacopinekitchen.com/\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":4357,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":4357,\"value_string\":\"43"
+  },
+  {
+    "bucket": "restaurant",
+    "slug": "panera-bread",
+    "weburl": "https://www.panerabread.com",
+    "email": null,
+    "phone": "(760) 568-6160",
+    "tollfree": null,
+    "category": "EAT & DRINK",
+    "subcategories": [
+      "EAT & DRINK",
+      "American"
+    ],
+    "recid": "28836",
+    "weburl_context": "s\":\"65_28836\",\"custom_youtube_views\":\"116_28836\",\"custom_referrals_viator\":\"121_28836\",\"custom_pinterest_click_thrus\":\"119_28836\",\"custom_pinterest_views\":\"118_28836\",\"core_twitter_click\":\"13_28836\"},\"weburl\":\"https://www.panerabread.com\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":2316,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":2316,\"value_string\":\"2316\"}}"
+  },
+  {
+    "bucket": "venue",
+    "slug": "acrisure-arena",
+    "weburl": "https://acrisurearena.com/",
+    "email": "GuestServices@AcrisureArena.com",
+    "phone": "(760) 835-8778",
+    "tollfree": "(888) 695-8778",
+    "category": "GROUP VENUES",
+    "subcategories": [
+      "GROUP VENUES",
+      "Off-Site Venues"
+    ],
+    "recid": "45332",
+    "weburl_context": "s\":\"65_45332\",\"custom_youtube_views\":\"116_45332\",\"custom_referrals_viator\":\"121_45332\",\"custom_pinterest_click_thrus\":\"119_45332\",\"custom_pinterest_views\":\"118_45332\",\"core_twitter_click\":\"13_45332\"},\"weburl\":\"https://acrisurearena.com/\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":8,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":8,\"value_string\":\"8\"}},\"permitID"
+  },
+  {
+    "bucket": "venue",
+    "slug": "sunnylands",
+    "weburl": "https://sunnylands.org",
+    "email": "contact@sunnylands.org",
+    "phone": "(760) 202-2222",
+    "tollfree": null,
+    "category": "ARTS & CULTURE",
+    "subcategories": [
+      "Museums",
+      "ARTS & CULTURE"
+    ],
+    "recid": "23109",
+    "weburl_context": "s\":\"65_23109\",\"custom_youtube_views\":\"116_23109\",\"custom_referrals_viator\":\"121_23109\",\"custom_pinterest_click_thrus\":\"119_23109\",\"custom_pinterest_views\":\"118_23109\",\"core_twitter_click\":\"13_23109\"},\"weburl\":\"https://sunnylands.org\",\"listingudfs_object\":{\"421\":{\"name\":\"Random Sort Order\",\"value\":3889,\"digits\":0,\"fieldid\":421,\"typeid\":4,\"type\":\"Number\",\"value_raw\":3889,\"value_string\":\"3889\"}},\"per"
+  }
+]

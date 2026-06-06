@@ -1,0 +1,209 @@
+{
+  "records_in": 4276,
+  "records_out": 4276,
+  "parse_failures": 0,
+  "bucket_counts": {
+    "kept_for_scoring": 3333,
+    "no_weburl": 294,
+    "platform_excluded": 118,
+    "subcategory_excluded": 223,
+    "public_art_excluded": 308
+  },
+  "recovered_count": 285,
+  "still_empty_primary_category": 312,
+  "still_empty_samples": [
+    {
+      "vgps_id": "35531",
+      "name": "$5 Pizza Place",
+      "subcategories": [
+        "Pizza"
+      ],
+      "weburl": "https://www.5dollarpizzaplace.com/"
+    },
+    {
+      "vgps_id": "35307",
+      "name": "\u00c9lan Vital Studio",
+      "subcategories": [
+        "Art Galleries"
+      ],
+      "weburl": "https://elanvitalgalleries.com/"
+    },
+    {
+      "vgps_id": "61626",
+      "name": "1/2sies Co.",
+      "subcategories": [
+        "Ice Cream|Frozen Treats"
+      ],
+      "weburl": "https://12siesco.com/"
+    },
+    {
+      "vgps_id": "54137",
+      "name": "262 Rooftop Bar & Grill",
+      "subcategories": [
+        "American"
+      ],
+      "weburl": "https://www.rooftop262.com/"
+    },
+    {
+      "vgps_id": "33163",
+      "name": "29 Palms Artist Gallery",
+      "subcategories": [
+        "Art & Culture"
+      ],
+      "weburl": "https://www.29palmsartgallery.com"
+    },
+    {
+      "vgps_id": "33164",
+      "name": "29 Palms Creative Center and Gallery",
+      "subcategories": [
+        "Art & Culture"
+      ],
+      "weburl": "http://www.29palmsart.com/"
+    },
+    {
+      "vgps_id": "33465",
+      "name": "29 Palms Inn",
+      "subcategories": [
+        "Hotels & Resorts"
+      ],
+      "weburl": "https://www.29palmsinn.com"
+    },
+    {
+      "vgps_id": "33165",
+      "name": "29 Palms Spa & Nails",
+      "subcategories": [
+        "Spas & Salons"
+      ],
+      "weburl": null
+    },
+    {
+      "vgps_id": "59989",
+      "name": "2Br Golfside Getaway in Desert Falls",
+      "subcategories": [
+        "Vacation Rental Homes"
+      ],
+      "weburl": "https://smartervacation.rentals/properties/?listing_id=6748c82be407c6000e592f58&state=&city=Palm+Desert&t-start=&t-end=&minOccupancy="
+    },
+    {
+      "vgps_id": "46951",
+      "name": "3/BDR Private Oasis, Pool | Spa",
+      "subcategories": [
+        "Vacation Rental Homes"
+      ],
+      "weburl": "https://www.airbnb.com/rooms/17748258"
+    },
+    {
+      "vgps_id": "35798",
+      "name": "360 Sports at Agua Caliente Casino Cathedral City",
+      "subcategories": [
+        "American"
+      ],
+      "weburl": "https://aguacalientecasinos.com/nightlife/360-sports-bar/"
+    },
+    {
+      "vgps_id": "46528",
+      "name": "360 Sports at Agua Caliente Casino Palm Springs",
+      "subcategories": [
+        "Sports Bar|Pub"
+      ],
+      "weburl": "https://aguacalientecasinos.com/dining/360-sports/"
+    },
+    {
+      "vgps_id": "34473",
+      "name": "360 Sports at Agua Caliente Resort Casino Spa Rancho Mirage",
+      "subcategories": [
+        "American"
+      ],
+      "weburl": "https://aguacalientecasinos.com/nightlife/360-sports-bar/"
+    },
+    {
+      "vgps_id": "49633",
+      "name": "3bd Modern Home in Gated Comm. 1mi To Festivals",
+      "subcategories": [
+        "Vacation Rental Homes"
+      ],
+      "weburl": "https://www.airbnb.com/rooms/786301340380907021?guests=1&adults=1&s=67&unique_share_id=dccd3dbf-30c0-408f-b9d7-824fd7f33e23"
+    },
+    {
+      "vgps_id": "45975",
+      "name": "3BR Spanish Townhome Resort Style Living and Views",
+      "subcategories": [
+        "Vacation Rental Homes"
+      ],
+      "weburl": "https://www.airbnb.com/rooms/51688511?guests=1&adults=1&s=67&unique_share_id=d5965003-28aa-4efc-89fe-ce757bfbdb72"
+    },
+    {
+      "vgps_id": "34643",
+      "name": "4 Paws Coffee Co.",
+      "subcategories": [
+        "Coffee|Tea House"
+      ],
+      "weburl": "https://4pawscoffeeco.com/"
+    },
+    {
+      "vgps_id": "33048",
+      "name": "4 Saints at Kimpton Rowan Palm Springs Hotel",
+      "subcategories": [
+        "Mediterranean"
+      ],
+      "weburl": "https://www.4saintspalmsprings.com/"
+    },
+    {
+      "vgps_id": "37284",
+      "name": "4 Seasons at Desert Breezes",
+      "subcategories": [
+        "Timeshares"
+      ],
+      "weburl": null
+    },
+    {
+      "vgps_id": "6778",
+      "name": "4 Seasons Swimwear",
+      "subcategories": [
+        "Apparel|Jewelry|Accessories"
+      ],
+      "weburl": "https://4-seasons-swimwear.business.site/"
+    },
+    {
+      "vgps_id": "45798",
+      "name": "4Bed/2Bath Private Saltwater Pool & Spa, Large Family Home, Contact-less Check-in",
+      "subcategories": [
+        "Vacation Rental Homes"
+      ],
+      "weburl": "https://VRBO.com/203069"
+    }
+  ],
+  "raw_metacategory_counts": {
+    "EAT & DRINK": 956,
+    "STAY": 548,
+    "(empty)": 312,
+    "SHOPPING": 302,
+    "RELOCATION & RESOURCES": 270,
+    "MEETING & EVENT RESOURCES": 243,
+    "SPAS, BEAUTY & WELLNESS": 224,
+    "ACTIVITIES & RECREATION": 199,
+    "WEDDINGS": 168,
+    "GROUP VENUES": 148,
+    "PLACES TO STAY": 143,
+    "THINGS TO DO": 137,
+    "ARTS & CULTURE": 106,
+    "BUSINESS & PROFESSIONAL SERVICES": 106,
+    "GOLF": 70,
+    "HIKING TRAILS": 68,
+    "GETTING HERE & AROUND": 61,
+    "DOG-FRIENDLY RESOURCES": 61,
+    "VISITOR INFORMATION": 42,
+    "TOURS": 39,
+    "GETTING HERE": 20,
+    "FILM PRODUCTION SERVICES": 20,
+    "CANNABIS": 17,
+    "CASINOS & ENTERTAINMENT": 16
+  },
+  "output_files": {
+    "partner-directory-clean.json": 3333,
+    "inventory-no-weburl.jsonl": 294,
+    "inventory-platform-excluded.jsonl": 118,
+    "excluded-rentals.jsonl": 223,
+    "inventory-public-art-excluded.jsonl": 308
+  }
+}

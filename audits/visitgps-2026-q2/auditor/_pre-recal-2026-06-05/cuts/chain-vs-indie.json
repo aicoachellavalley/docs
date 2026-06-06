@@ -1,0 +1,194 @@
+{
+  "chain": {
+    "total": 219,
+    "unique_businesses": 171,
+    "mean_score_excluding_Z": 2.155,
+    "tier_A": 14,
+    "tier_B": 66,
+    "tier_C": 23,
+    "tier_D": 116,
+    "tier_Z": 0,
+    "by_strategic_bucket": {
+      "Experiences": {
+        "total": 29,
+        "unique_businesses": 24,
+        "tier_A": 1,
+        "tier_B": 9,
+        "tier_C": 1,
+        "tier_D": 18,
+        "tier_Z": 0,
+        "chain_count": 29,
+        "indie_count": 0,
+        "mean_score_excluding_Z": 2.0
+      },
+      "Dining": {
+        "total": 62,
+        "unique_businesses": 54,
+        "tier_A": 6,
+        "tier_B": 33,
+        "tier_C": 8,
+        "tier_D": 15,
+        "tier_Z": 0,
+        "chain_count": 62,
+        "indie_count": 0,
+        "mean_score_excluding_Z": 3.435
+      },
+      "Lodging": {
+        "total": 80,
+        "unique_businesses": 75,
+        "tier_A": 2,
+        "tier_B": 10,
+        "tier_C": 10,
+        "tier_D": 58,
+        "tier_Z": 0,
+        "chain_count": 80,
+        "indie_count": 0,
+        "mean_score_excluding_Z": 1.087
+      },
+      "Retail & Services": {
+        "total": 12,
+        "unique_businesses": 11,
+        "tier_A": 1,
+        "tier_B": 4,
+        "tier_C": 4,
+        "tier_D": 3,
+        "tier_Z": 0,
+        "chain_count": 12,
+        "indie_count": 0,
+        "mean_score_excluding_Z": 2.833
+      },
+      "Meetings & Events": {
+        "total": 29,
+        "unique_businesses": 25,
+        "tier_A": 2,
+        "tier_B": 7,
+        "tier_C": 0,
+        "tier_D": 20,
+        "tier_Z": 0,
+        "chain_count": 29,
+        "indie_count": 0,
+        "mean_score_excluding_Z": 1.724
+      },
+      "Wellness": {
+        "total": 7,
+        "unique_businesses": 7,
+        "tier_A": 2,
+        "tier_B": 3,
+        "tier_C": 0,
+        "tier_D": 2,
+        "tier_Z": 0,
+        "chain_count": 7,
+        "indie_count": 0,
+        "mean_score_excluding_Z": 4.286
+      }
+    }
+  },
+  "indie": {
+    "total": 3408,
+    "unique_businesses": 2904,
+    "mean_score_excluding_Z": 3.478,
+    "tier_A": 211,
+    "tier_B": 1581,
+    "tier_C": 646,
+    "tier_D": 676,
+    "tier_Z": 294,
+    "by_strategic_bucket": {
+      "Dining": {
+        "total": 894,
+        "unique_businesses": 851,
+        "tier_A": 47,
+        "tier_B": 412,
+        "tier_C": 169,
+        "tier_D": 160,
+        "tier_Z": 106,
+        "chain_count": 0,
+        "indie_count": 894,
+        "mean_score_excluding_Z": 3.523
+      },
+      "Experiences": {
+        "total": 604,
+        "unique_businesses": 527,
+        "tier_A": 42,
+        "tier_B": 248,
+        "tier_C": 121,
+        "tier_D": 120,
+        "tier_Z": 73,
+        "chain_count": 0,
+        "indie_count": 604,
+        "mean_score_excluding_Z": 3.371
+      },
+      "Lodging": {
+        "total": 272,
+        "unique_businesses": 256,
+        "tier_A": 21,
+        "tier_B": 136,
+        "tier_C": 42,
+        "tier_D": 66,
+        "tier_Z": 7,
+        "chain_count": 0,
+        "indie_count": 272,
+        "mean_score_excluding_Z": 3.562
+      },
+      "Retail & Services": {
+        "total": 764,
+        "unique_businesses": 718,
+        "tier_A": 34,
+        "tier_B": 350,
+        "tier_C": 147,
+        "tier_D": 179,
+        "tier_Z": 54,
+        "chain_count": 0,
+        "indie_count": 764,
+        "mean_score_excluding_Z": 3.245
+      },
+      "Meetings & Events": {
+        "total": 530,
+        "unique_businesses": 440,
+        "tier_A": 42,
+        "tier_B": 268,
+        "tier_C": 111,
+        "tier_D": 85,
+        "tier_Z": 24,
+        "chain_count": 0,
+        "indie_count": 530,
+        "mean_score_excluding_Z": 3.713
+      },
+      "Mobility": {
+        "total": 123,
+        "unique_businesses": 102,
+        "tier_A": 5,
+        "tier_B": 61,
+        "tier_C": 30,
+        "tier_D": 23,
+        "tier_Z": 4,
+        "chain_count": 0,
+        "indie_count": 123,
+        "mean_score_excluding_Z": 3.37
+      },
+      "Wellness": {
+        "total": 217,
+        "unique_businesses": 212,
+        "tier_A": 20,
+        "tier_B": 103,
+        "tier_C": 26,
+        "tier_D": 42,
+        "tier_Z": 26,
+        "chain_count": 0,
+        "indie_count": 217,
+        "mean_score_excluding_Z": 3.764
+      },
+      "(uncategorized)": {
+        "total": 4,
+        "unique_businesses": 4,
+        "tier_A": 0,
+        "tier_B": 3,
+        "tier_C": 0,
+        "tier_D": 1,
+        "tier_Z": 0,
+        "chain_count": 0,
+        "indie_count": 4,
+        "mean_score_excluding_Z": 4.25
+      }
+    }
+  }
+}

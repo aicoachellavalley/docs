@@ -1,0 +1,131 @@
+{
+  "Dining": {
+    "total": 118,
+    "unique_businesses": 117,
+    "mean_score_excluding_Z": 2.5,
+    "tier_A": 1,
+    "tier_B": 4,
+    "tier_C": 3,
+    "tier_D": 4,
+    "tier_Z": 106,
+    "chain_count": 4,
+    "indie_count": 114,
+    "canonical_categories_included": [
+      "Dining"
+    ]
+  },
+  "Experiences": {
+    "total": 25,
+    "unique_businesses": 25,
+    "mean_score_excluding_Z": 5.2,
+    "tier_A": 0,
+    "tier_B": 5,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 20,
+    "chain_count": 0,
+    "indie_count": 25,
+    "canonical_categories_included": [
+      "Activities",
+      "Arts & Culture"
+    ]
+  },
+  "Lodging": {
+    "total": 15,
+    "unique_businesses": 14,
+    "mean_score_excluding_Z": 4.5,
+    "tier_A": 0,
+    "tier_B": 7,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 7,
+    "chain_count": 1,
+    "indie_count": 14,
+    "canonical_categories_included": [
+      "Lodging"
+    ]
+  },
+  "Retail & Services": {
+    "total": 53,
+    "unique_businesses": 53,
+    "mean_score_excluding_Z": 2.333,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 5,
+    "tier_D": 2,
+    "tier_Z": 44,
+    "chain_count": 2,
+    "indie_count": 51,
+    "canonical_categories_included": [
+      "Professional Services",
+      "Relocation",
+      "Shopping"
+    ]
+  },
+  "Meetings & Events": {
+    "total": 36,
+    "unique_businesses": 33,
+    "mean_score_excluding_Z": 4.583,
+    "tier_A": 3,
+    "tier_B": 6,
+    "tier_C": 2,
+    "tier_D": 1,
+    "tier_Z": 24,
+    "chain_count": 2,
+    "indie_count": 34,
+    "canonical_categories_included": [
+      "Group Venues",
+      "Meeting Resources",
+      "Weddings"
+    ]
+  },
+  "Mobility": {
+    "total": 4,
+    "unique_businesses": 4,
+    "mean_score_excluding_Z": 4.333,
+    "tier_A": 1,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 1,
+    "chain_count": 0,
+    "indie_count": 4,
+    "canonical_categories_included": [
+      "Transportation"
+    ]
+  },
+  "(uncategorized)": {
+    "total": 342,
+    "unique_businesses": 342,
+    "mean_score_excluding_Z": 6.0,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 341,
+    "chain_count": 0,
+    "indie_count": 342,
+    "canonical_categories_included": [
+      "(uncategorized)"
+    ]
+  },
+  "(unmapped)": {
+    "total": 59,
+    "unique_businesses": 59,
+    "mean_score_excluding_Z": 0.0,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 59,
+    "chain_count": 0,
+    "indie_count": 59,
+    "canonical_categories_included": [
+      "(unmapped: CANNABIS)",
+      "(unmapped: FILM PRODUCTION SERVICES)",
+      "(unmapped: GOLF)",
+      "(unmapped: HIKING TRAILS)",
+      "(unmapped: VISITOR INFORMATION)"
+    ]
+  }
+}

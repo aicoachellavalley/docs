@@ -1,0 +1,2293 @@
+{
+  "_note": "Sub-categories from VGPS catname array. A partner with multiple subcategories counts in each, so totals here will exceed the global record count.",
+  "Pizza": {
+    "primary_canonical": "Dining",
+    "total": 31,
+    "tier_A": 2,
+    "tier_B": 15,
+    "tier_C": 8,
+    "tier_D": 6,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.452
+  },
+  "Art Galleries": {
+    "primary_canonical": "Arts & Culture",
+    "total": 57,
+    "tier_A": 4,
+    "tier_B": 23,
+    "tier_C": 18,
+    "tier_D": 11,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.143
+  },
+  "Ice Cream|Frozen Treats": {
+    "primary_canonical": "Dining",
+    "total": 34,
+    "tier_A": 1,
+    "tier_B": 14,
+    "tier_C": 8,
+    "tier_D": 8,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 3.226
+  },
+  "American": {
+    "primary_canonical": "Dining",
+    "total": 184,
+    "tier_A": 10,
+    "tier_B": 94,
+    "tier_C": 30,
+    "tier_D": 33,
+    "tier_Z": 17,
+    "mean_score_excluding_Z": 3.665
+  },
+  "Art & Culture": {
+    "primary_canonical": "Activities",
+    "total": 13,
+    "tier_A": 0,
+    "tier_B": 9,
+    "tier_C": 2,
+    "tier_D": 1,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.75
+  },
+  "Hotels & Resorts": {
+    "primary_canonical": "Lodging",
+    "total": 58,
+    "tier_A": 6,
+    "tier_B": 17,
+    "tier_C": 12,
+    "tier_D": 23,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.741
+  },
+  "Sports Bar|Pub": {
+    "primary_canonical": "Dining",
+    "total": 21,
+    "tier_A": 3,
+    "tier_B": 6,
+    "tier_C": 4,
+    "tier_D": 4,
+    "tier_Z": 4,
+    "mean_score_excluding_Z": 3.647
+  },
+  "Coffee|Tea House": {
+    "primary_canonical": "Dining",
+    "total": 56,
+    "tier_A": 3,
+    "tier_B": 23,
+    "tier_C": 11,
+    "tier_D": 11,
+    "tier_Z": 8,
+    "mean_score_excluding_Z": 3.333
+  },
+  "Mediterranean": {
+    "primary_canonical": "Dining",
+    "total": 21,
+    "tier_A": 1,
+    "tier_B": 10,
+    "tier_C": 3,
+    "tier_D": 2,
+    "tier_Z": 5,
+    "mean_score_excluding_Z": 3.938
+  },
+  "Apparel|Jewelry|Accessories": {
+    "primary_canonical": "Shopping",
+    "total": 110,
+    "tier_A": 2,
+    "tier_B": 50,
+    "tier_C": 15,
+    "tier_D": 30,
+    "tier_Z": 13,
+    "mean_score_excluding_Z": 3.041
+  },
+  "Vietnamese": {
+    "primary_canonical": "Dining",
+    "total": 7,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.2
+  },
+  "Rehearsal Dinners": {
+    "primary_canonical": "Weddings",
+    "total": 12,
+    "tier_A": 2,
+    "tier_B": 9,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Restaurants": {
+    "primary_canonical": "Group Venues",
+    "total": 39,
+    "tier_A": 9,
+    "tier_B": 25,
+    "tier_C": 4,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.154
+  },
+  "Real Estate|Realtors": {
+    "primary_canonical": "Relocation",
+    "total": 46,
+    "tier_A": 2,
+    "tier_B": 20,
+    "tier_C": 12,
+    "tier_D": 11,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.044
+  },
+  "Boutique Hotels|Inns": {
+    "primary_canonical": "Lodging",
+    "total": 77,
+    "tier_A": 8,
+    "tier_B": 45,
+    "tier_C": 13,
+    "tier_D": 10,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.224
+  },
+  "Budget Friendly|Moderate Hotels": {
+    "primary_canonical": "Lodging",
+    "total": 48,
+    "tier_A": 0,
+    "tier_B": 11,
+    "tier_C": 5,
+    "tier_D": 26,
+    "tier_Z": 6,
+    "mean_score_excluding_Z": 1.571
+  },
+  "Catering|Bartending": {
+    "primary_canonical": "Meeting Resources",
+    "total": 41,
+    "tier_A": 1,
+    "tier_B": 19,
+    "tier_C": 11,
+    "tier_D": 7,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 3.263
+  },
+  "Bakery": {
+    "primary_canonical": "Dining",
+    "total": 24,
+    "tier_A": 2,
+    "tier_B": 12,
+    "tier_C": 3,
+    "tier_D": 3,
+    "tier_Z": 4,
+    "mean_score_excluding_Z": 3.8
+  },
+  "Burgers": {
+    "primary_canonical": "Dining",
+    "total": 13,
+    "tier_A": 0,
+    "tier_B": 6,
+    "tier_C": 5,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.846
+  },
+  "TV|Print|Radio Media": {
+    "primary_canonical": "Professional Services",
+    "total": 15,
+    "tier_A": 0,
+    "tier_B": 8,
+    "tier_C": 3,
+    "tier_D": 4,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Home": {
+    "primary_canonical": "Shopping",
+    "total": 45,
+    "tier_A": 0,
+    "tier_B": 20,
+    "tier_C": 14,
+    "tier_D": 8,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 3.119
+  },
+  "Team Building|Group Activities": {
+    "primary_canonical": "Meeting Resources",
+    "total": 22,
+    "tier_A": 1,
+    "tier_B": 13,
+    "tier_C": 4,
+    "tier_D": 2,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Motels": {
+    "primary_canonical": "Lodging",
+    "total": 46,
+    "tier_A": 0,
+    "tier_B": 14,
+    "tier_C": 7,
+    "tier_D": 25,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 1.717
+  },
+  "Graphic Design|Web Development": {
+    "primary_canonical": "Professional Services",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.2
+  },
+  "Limousine|Sedan Services": {
+    "primary_canonical": "Transportation",
+    "total": 16,
+    "tier_A": 2,
+    "tier_B": 5,
+    "tier_C": 3,
+    "tier_D": 5,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.2
+  },
+  "Transportation": {
+    "primary_canonical": "Activities",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 2,
+    "tier_D": 2,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 2.0
+  },
+  "Visitor Services|Maps|Guides": {
+    "primary_canonical": "Relocation",
+    "total": 10,
+    "tier_A": 0,
+    "tier_B": 9,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.5
+  },
+  "Live Music|DJs": {
+    "primary_canonical": "Meeting Resources",
+    "total": 16,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 7,
+    "tier_D": 4,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 2.143
+  },
+  "Smoothies|Juice Bar": {
+    "primary_canonical": "Dining",
+    "total": 8,
+    "tier_A": 0,
+    "tier_B": 6,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.714
+  },
+  "Destination Management Companies": {
+    "primary_canonical": "Meeting Resources",
+    "total": 13,
+    "tier_A": 0,
+    "tier_B": 8,
+    "tier_C": 2,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.077
+  },
+  "Hotels|Resorts": {
+    "primary_canonical": "Lodging",
+    "total": 60,
+    "tier_A": 5,
+    "tier_B": 22,
+    "tier_C": 5,
+    "tier_D": 28,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.733
+  },
+  "Hotels": {
+    "primary_canonical": "Group Venues",
+    "total": 39,
+    "tier_A": 1,
+    "tier_B": 15,
+    "tier_C": 2,
+    "tier_D": 21,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.436
+  },
+  "Ceremony|Reception Venues": {
+    "primary_canonical": "Weddings",
+    "total": 60,
+    "tier_A": 8,
+    "tier_B": 27,
+    "tier_C": 11,
+    "tier_D": 11,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 3.825
+  },
+  "Transportation Coordinators|Charters": {
+    "primary_canonical": "Meeting Resources",
+    "total": 4,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.5
+  },
+  "Wellness": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 33,
+    "tier_A": 4,
+    "tier_B": 20,
+    "tier_C": 4,
+    "tier_D": 3,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 4.419
+  },
+  "Hot Mineral Water Spa Hotels": {
+    "primary_canonical": "Lodging",
+    "total": 23,
+    "tier_A": 1,
+    "tier_B": 14,
+    "tier_C": 5,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.783
+  },
+  "Off-Site Venues": {
+    "primary_canonical": "Group Venues",
+    "total": 55,
+    "tier_A": 8,
+    "tier_B": 28,
+    "tier_C": 14,
+    "tier_D": 4,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.13
+  },
+  "Sports Venues": {
+    "primary_canonical": "Group Venues",
+    "total": 15,
+    "tier_A": 1,
+    "tier_B": 7,
+    "tier_C": 3,
+    "tier_D": 4,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Travel Agencies": {
+    "primary_canonical": "Relocation",
+    "total": 4,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 2,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.75
+  },
+  "Community Parks": {
+    "primary_canonical": "Activities",
+    "total": 51,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 5,
+    "tier_D": 43,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 0.42
+  },
+  "Activities": {
+    "primary_canonical": "Activities",
+    "total": 21,
+    "tier_A": 4,
+    "tier_B": 10,
+    "tier_C": 5,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.476
+  },
+  "Mexican": {
+    "primary_canonical": "Dining",
+    "total": 136,
+    "tier_A": 6,
+    "tier_B": 50,
+    "tier_C": 28,
+    "tier_D": 33,
+    "tier_Z": 19,
+    "mean_score_excluding_Z": 3.034
+  },
+  "MedSpas": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 12,
+    "tier_A": 1,
+    "tier_B": 8,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.083
+  },
+  "Nature|Eco Tours": {
+    "primary_canonical": "Tours",
+    "total": 9,
+    "tier_A": 4,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.889
+  },
+  "Airlines": {
+    "primary_canonical": "Transportation",
+    "total": 23,
+    "tier_A": 1,
+    "tier_B": 10,
+    "tier_C": 6,
+    "tier_D": 6,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.913
+  },
+  "Event Coordinators|Party Services|Rentals": {
+    "primary_canonical": "Meeting Resources",
+    "total": 31,
+    "tier_A": 1,
+    "tier_B": 18,
+    "tier_C": 5,
+    "tier_D": 4,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 3.679
+  },
+  "Beauty|Cosmetic": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 70,
+    "tier_A": 3,
+    "tier_B": 19,
+    "tier_C": 7,
+    "tier_D": 25,
+    "tier_Z": 16,
+    "mean_score_excluding_Z": 2.463
+  },
+  "Live Entertainment Venues": {
+    "primary_canonical": "Entertainment",
+    "total": 10,
+    "tier_A": 2,
+    "tier_B": 4,
+    "tier_C": 1,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Chambers|Bureaus|Associations": {
+    "primary_canonical": "Professional Services",
+    "total": 21,
+    "tier_A": 0,
+    "tier_B": 11,
+    "tier_C": 7,
+    "tier_D": 2,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.4
+  },
+  "Casinos": {
+    "primary_canonical": "Entertainment",
+    "total": 6,
+    "tier_A": 1,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.167
+  },
+  "Museums": {
+    "primary_canonical": "Activities",
+    "total": 31,
+    "tier_A": 1,
+    "tier_B": 13,
+    "tier_C": 10,
+    "tier_D": 7,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.097
+  },
+  "Resort Spas": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 22,
+    "tier_A": 3,
+    "tier_B": 9,
+    "tier_C": 3,
+    "tier_D": 7,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.409
+  },
+  "Air Charters|Services": {
+    "primary_canonical": "Transportation",
+    "total": 9,
+    "tier_A": 0,
+    "tier_B": 6,
+    "tier_C": 3,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.667
+  },
+  "Italian": {
+    "primary_canonical": "Dining",
+    "total": 47,
+    "tier_A": 2,
+    "tier_B": 29,
+    "tier_C": 10,
+    "tier_D": 4,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.822
+  },
+  "Florists": {
+    "primary_canonical": "Weddings",
+    "total": 10,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 2,
+    "tier_D": 6,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 1.6
+  },
+  "Car Rentals": {
+    "primary_canonical": "Transportation",
+    "total": 10,
+    "tier_A": 0,
+    "tier_B": 6,
+    "tier_C": 3,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.5
+  },
+  "New Home Communities": {
+    "primary_canonical": "Relocation",
+    "total": 11,
+    "tier_A": 3,
+    "tier_B": 6,
+    "tier_C": 2,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.818
+  },
+  "Grooming|Boarding": {
+    "primary_canonical": "Pet Services",
+    "total": 16,
+    "tier_A": 0,
+    "tier_B": 4,
+    "tier_C": 2,
+    "tier_D": 5,
+    "tier_Z": 5,
+    "mean_score_excluding_Z": 2.364
+  },
+  "Californian": {
+    "primary_canonical": "Dining",
+    "total": 46,
+    "tier_A": 6,
+    "tier_B": 22,
+    "tier_C": 7,
+    "tier_D": 10,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.867
+  },
+  "Mobile Spa Services": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 6,
+    "tier_A": 2,
+    "tier_B": 2,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.5
+  },
+  "Taxi|Shuttle|Ridesharing": {
+    "primary_canonical": "Transportation",
+    "total": 8,
+    "tier_A": 0,
+    "tier_B": 5,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.75
+  },
+  "Associations": {
+    "primary_canonical": "Visitor Services",
+    "total": 8,
+    "tier_A": 1,
+    "tier_B": 4,
+    "tier_C": 2,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.625
+  },
+  "FootGolf": {
+    "primary_canonical": "Golf",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.2
+  },
+  "Medical Services|Immediate Care": {
+    "primary_canonical": "Relocation",
+    "total": 10,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 2,
+    "tier_D": 5,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 1.9
+  },
+  "Shuttle|Train Services": {
+    "primary_canonical": "Transportation",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.8
+  },
+  "Easy": {
+    "primary_canonical": "Outdoor Recreation",
+    "total": 21,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 3,
+    "tier_D": 3,
+    "tier_Z": 14,
+    "mean_score_excluding_Z": 1.857
+  },
+  "Resale|Vintage|Consignment": {
+    "primary_canonical": "Shopping",
+    "total": 47,
+    "tier_A": 2,
+    "tier_B": 24,
+    "tier_C": 7,
+    "tier_D": 4,
+    "tier_Z": 10,
+    "mean_score_excluding_Z": 3.649
+  },
+  "Veterinarians|Hospitals": {
+    "primary_canonical": "Pet Services",
+    "total": 14,
+    "tier_A": 3,
+    "tier_B": 9,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Animal Shelters": {
+    "primary_canonical": "Pet Services",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 4,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.5
+  },
+  "Performing Arts": {
+    "primary_canonical": "Arts & Culture",
+    "total": 32,
+    "tier_A": 0,
+    "tier_B": 20,
+    "tier_C": 4,
+    "tier_D": 8,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.406
+  },
+  "Property Management": {
+    "primary_canonical": "Relocation",
+    "total": 4,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.5
+  },
+  "Fitness": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 37,
+    "tier_A": 5,
+    "tier_B": 22,
+    "tier_C": 6,
+    "tier_D": 2,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 4.629
+  },
+  "Chambers & Visitor Centers": {
+    "primary_canonical": "Visitor Services",
+    "total": 34,
+    "tier_A": 0,
+    "tier_B": 15,
+    "tier_C": 11,
+    "tier_D": 5,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 3.226
+  },
+  "Gifts|Specialty": {
+    "primary_canonical": "Shopping",
+    "total": 47,
+    "tier_A": 2,
+    "tier_B": 22,
+    "tier_C": 12,
+    "tier_D": 8,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 3.568
+  },
+  "Art Classes": {
+    "primary_canonical": "Arts & Culture",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.0
+  },
+  "Publications": {
+    "primary_canonical": "Professional Services",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.5
+  },
+  "Libraries": {
+    "primary_canonical": "Relocation",
+    "total": 9,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 2,
+    "tier_D": 6,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 1.0
+  },
+  "Shopping": {
+    "primary_canonical": "Activities",
+    "total": 22,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 7,
+    "tier_D": 5,
+    "tier_Z": 7,
+    "mean_score_excluding_Z": 1.933
+  },
+  "Photographers l Photographic Services": {
+    "primary_canonical": "Meeting Resources",
+    "total": 24,
+    "tier_A": 2,
+    "tier_B": 8,
+    "tier_C": 8,
+    "tier_D": 6,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.833
+  },
+  "Wedding Planners": {
+    "primary_canonical": "Weddings",
+    "total": 12,
+    "tier_A": 0,
+    "tier_B": 7,
+    "tier_C": 3,
+    "tier_D": 0,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 4.3
+  },
+  "Food|Wine|Beer Tours": {
+    "primary_canonical": "Tours",
+    "total": 4,
+    "tier_A": 1,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.5
+  },
+  "Photographers|Videographers": {
+    "primary_canonical": "Weddings",
+    "total": 15,
+    "tier_A": 1,
+    "tier_B": 5,
+    "tier_C": 3,
+    "tier_D": 5,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 2.714
+  },
+  "Food|Beverage": {
+    "primary_canonical": "Shopping",
+    "total": 24,
+    "tier_A": 0,
+    "tier_B": 15,
+    "tier_C": 3,
+    "tier_D": 5,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.261
+  },
+  "Utilities|Public Service": {
+    "primary_canonical": "Relocation",
+    "total": 36,
+    "tier_A": 0,
+    "tier_B": 17,
+    "tier_C": 10,
+    "tier_D": 9,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.944
+  },
+  "Concierge Services": {
+    "primary_canonical": "Relocation",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 1.333
+  },
+  "Staffing|Administrative Services": {
+    "primary_canonical": "Meeting Resources",
+    "total": 8,
+    "tier_A": 1,
+    "tier_B": 6,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Child Care Services": {
+    "primary_canonical": "Relocation",
+    "total": 6,
+    "tier_A": 1,
+    "tier_B": 1,
+    "tier_C": 2,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Autism Support Services": {
+    "primary_canonical": "Relocation",
+    "total": 7,
+    "tier_A": 1,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 5.5
+  },
+  "Beauty Supplies": {
+    "primary_canonical": "Shopping",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.4
+  },
+  "AV|Lighting|Staging": {
+    "primary_canonical": "Meeting Resources",
+    "total": 13,
+    "tier_A": 0,
+    "tier_B": 5,
+    "tier_C": 6,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Catering|Bartending Services": {
+    "primary_canonical": "Weddings",
+    "total": 18,
+    "tier_A": 0,
+    "tier_B": 11,
+    "tier_C": 4,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.667
+  },
+  "Peruvian": {
+    "primary_canonical": "Dining",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 0.0
+  },
+  "Barbecue": {
+    "primary_canonical": "Dining",
+    "total": 9,
+    "tier_A": 0,
+    "tier_B": 5,
+    "tier_C": 2,
+    "tier_D": 0,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 4.286
+  },
+  "Deli": {
+    "primary_canonical": "Dining",
+    "total": 22,
+    "tier_A": 0,
+    "tier_B": 12,
+    "tier_C": 2,
+    "tier_D": 3,
+    "tier_Z": 5,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Bachelor/ette Parties": {
+    "primary_canonical": "Weddings",
+    "total": 9,
+    "tier_A": 0,
+    "tier_B": 7,
+    "tier_C": 2,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.778
+  },
+  "Bar|Pub": {
+    "primary_canonical": "Dining",
+    "total": 13,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 3,
+    "tier_D": 3,
+    "tier_Z": 5,
+    "mean_score_excluding_Z": 1.875
+  },
+  "Hot-Air Ballooning|Air Tours": {
+    "primary_canonical": "Activities",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Crafts|Art|Dance": {
+    "primary_canonical": "Activities",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 4,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.333
+  },
+  "Chinese|Asian": {
+    "primary_canonical": "Dining",
+    "total": 11,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 1,
+    "tier_D": 5,
+    "tier_Z": 4,
+    "mean_score_excluding_Z": 1.143
+  },
+  "Financial Services": {
+    "primary_canonical": "Professional Services",
+    "total": 13,
+    "tier_A": 0,
+    "tier_B": 11,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.154
+  },
+  "Nightclub|Lounge": {
+    "primary_canonical": "Dining",
+    "total": 34,
+    "tier_A": 1,
+    "tier_B": 19,
+    "tier_C": 7,
+    "tier_D": 5,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.875
+  },
+  "RVs & Camping": {
+    "primary_canonical": "Lodging",
+    "total": 23,
+    "tier_A": 1,
+    "tier_B": 12,
+    "tier_C": 4,
+    "tier_D": 6,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.261
+  },
+  "Thai": {
+    "primary_canonical": "Dining",
+    "total": 13,
+    "tier_A": 0,
+    "tier_B": 8,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.636
+  },
+  "Asian": {
+    "primary_canonical": "Dining",
+    "total": 11,
+    "tier_A": 0,
+    "tier_B": 4,
+    "tier_C": 2,
+    "tier_D": 4,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 2.8
+  },
+  "Beauty|Makeup": {
+    "primary_canonical": "Weddings",
+    "total": 7,
+    "tier_A": 2,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 3,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 2.5
+  },
+  "Attractions": {
+    "primary_canonical": "Activities",
+    "total": 82,
+    "tier_A": 7,
+    "tier_B": 38,
+    "tier_C": 19,
+    "tier_D": 16,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.462
+  },
+  "Ambassador Benefits": {
+    "primary_canonical": "Activities",
+    "total": 9,
+    "tier_A": 3,
+    "tier_B": 6,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.778
+  },
+  "Airports": {
+    "primary_canonical": "Transportation",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.8
+  },
+  "Signs|Displays": {
+    "primary_canonical": "Meeting Resources",
+    "total": 4,
+    "tier_A": 1,
+    "tier_B": 1,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Sushi": {
+    "primary_canonical": "Dining",
+    "total": 16,
+    "tier_A": 1,
+    "tier_B": 10,
+    "tier_C": 1,
+    "tier_D": 3,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.733
+  },
+  "Community Service": {
+    "primary_canonical": "Meeting Resources",
+    "total": 27,
+    "tier_A": 3,
+    "tier_B": 19,
+    "tier_C": 1,
+    "tier_D": 3,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.654
+  },
+  "Bicycle Tours|Rentals": {
+    "primary_canonical": "Activities",
+    "total": 15,
+    "tier_A": 2,
+    "tier_B": 10,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.786
+  },
+  "Jeep|Humvee": {
+    "primary_canonical": "Activities",
+    "total": 2,
+    "tier_A": 2,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 7.0
+  },
+  "Hiking Tours": {
+    "primary_canonical": "Tours",
+    "total": 6,
+    "tier_A": 1,
+    "tier_B": 4,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Moderate": {
+    "primary_canonical": "Outdoor Recreation",
+    "total": 35,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 4,
+    "tier_D": 2,
+    "tier_Z": 27,
+    "mean_score_excluding_Z": 2.625
+  },
+  "Advertising|Marketing|Public Relations": {
+    "primary_canonical": "Professional Services",
+    "total": 9,
+    "tier_A": 0,
+    "tier_B": 6,
+    "tier_C": 2,
+    "tier_D": 0,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.375
+  },
+  "LGBTQ+ Friendly": {
+    "primary_canonical": "Dining",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Day Spas": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 23,
+    "tier_A": 4,
+    "tier_B": 14,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 4.762
+  },
+  "Natural Medicine|Holistic Healing": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 11,
+    "tier_A": 0,
+    "tier_B": 6,
+    "tier_C": 2,
+    "tier_D": 1,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.778
+  },
+  "Live Entertainment|DJs": {
+    "primary_canonical": "Weddings",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 2,
+    "tier_D": 2,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 1.25
+  },
+  "Golf": {
+    "primary_canonical": "Activities",
+    "total": 7,
+    "tier_A": 1,
+    "tier_B": 2,
+    "tier_C": 4,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.857
+  },
+  "Auto|Motorcycle|RV Dealers": {
+    "primary_canonical": "Relocation",
+    "total": 16,
+    "tier_A": 0,
+    "tier_B": 8,
+    "tier_C": 2,
+    "tier_D": 6,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.75
+  },
+  "LGBT Tours": {
+    "primary_canonical": "Tours",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Pet Supplies": {
+    "primary_canonical": "Pet Services",
+    "total": 11,
+    "tier_A": 2,
+    "tier_B": 3,
+    "tier_C": 4,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.727
+  },
+  "Restaurant Supply": {
+    "primary_canonical": "Professional Services",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.0
+  },
+  "International": {
+    "primary_canonical": "Dining",
+    "total": 16,
+    "tier_A": 0,
+    "tier_B": 6,
+    "tier_C": 6,
+    "tier_D": 2,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.357
+  },
+  "Vegetarian|Vegan": {
+    "primary_canonical": "Dining",
+    "total": 7,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 3,
+    "tier_D": 0,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.333
+  },
+  "Promotional Products|Specialty Advertising": {
+    "primary_canonical": "Meeting Resources",
+    "total": 8,
+    "tier_A": 0,
+    "tier_B": 5,
+    "tier_C": 3,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.875
+  },
+  "Colleges|Schools": {
+    "primary_canonical": "Relocation",
+    "total": 17,
+    "tier_A": 0,
+    "tier_B": 12,
+    "tier_C": 2,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.647
+  },
+  "Breakfast|Brunch": {
+    "primary_canonical": "Dining",
+    "total": 25,
+    "tier_A": 1,
+    "tier_B": 10,
+    "tier_C": 9,
+    "tier_D": 2,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 3.5
+  },
+  "Craft Breweries|Distilleries": {
+    "primary_canonical": "Dining",
+    "total": 12,
+    "tier_A": 1,
+    "tier_B": 10,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Catering": {
+    "primary_canonical": "Dining",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 0.0
+  },
+  "Equipment Rentals": {
+    "primary_canonical": "Film Production",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Fast Food": {
+    "primary_canonical": "Dining",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 2,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.167
+  },
+  "Shopping Districts": {
+    "primary_canonical": "Shopping",
+    "total": 14,
+    "tier_A": 0,
+    "tier_B": 9,
+    "tier_C": 3,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.071
+  },
+  "Golf Car Rentals|Sales|Repairs": {
+    "primary_canonical": "Golf",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "French": {
+    "primary_canonical": "Dining",
+    "total": 18,
+    "tier_A": 3,
+    "tier_B": 7,
+    "tier_C": 5,
+    "tier_D": 1,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.812
+  },
+  "Golf Schools|Clinics": {
+    "primary_canonical": "Golf",
+    "total": 7,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 2,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.143
+  },
+  "Cakes|Bakeries": {
+    "primary_canonical": "Weddings",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 1.8
+  },
+  "Building Industry Services": {
+    "primary_canonical": "Professional Services",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 1.0
+  },
+  "Movie Theaters": {
+    "primary_canonical": "Activities",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 3,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.333
+  },
+  "Dry Cleaning|Laundry Services": {
+    "primary_canonical": "Relocation",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Dog Parks|Hiking": {
+    "primary_canonical": "Pet Services",
+    "total": 8,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 5,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 0.5
+  },
+  "Stargazing": {
+    "primary_canonical": "Activities",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Seafood": {
+    "primary_canonical": "Dining",
+    "total": 18,
+    "tier_A": 1,
+    "tier_B": 7,
+    "tier_C": 2,
+    "tier_D": 8,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.778
+  },
+  "Farmers Markets": {
+    "primary_canonical": "Shopping",
+    "total": 10,
+    "tier_A": 0,
+    "tier_B": 4,
+    "tier_C": 4,
+    "tier_D": 0,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.5
+  },
+  "Eldercare": {
+    "primary_canonical": "Relocation",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Steakhouse": {
+    "primary_canonical": "Dining",
+    "total": 15,
+    "tier_A": 3,
+    "tier_B": 8,
+    "tier_C": 1,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Testing | Vaccine Verification Services": {
+    "primary_canonical": "Meeting Resources",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.0
+  },
+  "Wine Lounges": {
+    "primary_canonical": "Dining",
+    "total": 13,
+    "tier_A": 1,
+    "tier_B": 12,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.923
+  },
+  "Dispensaries": {
+    "primary_canonical": "Cannabis",
+    "total": 16,
+    "tier_A": 0,
+    "tier_B": 9,
+    "tier_C": 2,
+    "tier_D": 4,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.533
+  },
+  "Japanese": {
+    "primary_canonical": "Dining",
+    "total": 17,
+    "tier_A": 0,
+    "tier_B": 12,
+    "tier_C": 5,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.059
+  },
+  "Sightseeing": {
+    "primary_canonical": "Activities",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 2,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.8
+  },
+  "LGBTQ+ Hotels|Resorts": {
+    "primary_canonical": "Lodging",
+    "total": 11,
+    "tier_A": 2,
+    "tier_B": 7,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.091
+  },
+  "Professional|Consulting Services": {
+    "primary_canonical": "Professional Services",
+    "total": 7,
+    "tier_A": 1,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.333
+  },
+  "Luxury Hotels": {
+    "primary_canonical": "Lodging",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 4,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Golf Courses|Driving Ranges": {
+    "primary_canonical": "Golf",
+    "total": 50,
+    "tier_A": 4,
+    "tier_B": 36,
+    "tier_C": 7,
+    "tier_D": 2,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.408
+  },
+  "Tennis": {
+    "primary_canonical": "Activities",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Chinese": {
+    "primary_canonical": "Dining",
+    "total": 16,
+    "tier_A": 3,
+    "tier_B": 3,
+    "tier_C": 4,
+    "tier_D": 3,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 3.462
+  },
+  "Date Farms": {
+    "primary_canonical": "Activities",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Party Rentals|D\u00e9cor": {
+    "primary_canonical": "Weddings",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.667
+  },
+  "Artists|Art Schools": {
+    "primary_canonical": "Relocation",
+    "total": 24,
+    "tier_A": 0,
+    "tier_B": 4,
+    "tier_C": 12,
+    "tier_D": 7,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 1.87
+  },
+  "Horseback Riding|Polo|Equestrian": {
+    "primary_canonical": "Activities",
+    "total": 9,
+    "tier_A": 2,
+    "tier_B": 2,
+    "tier_C": 3,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.222
+  },
+  "Sets|Sound Stages": {
+    "primary_canonical": "Film Production",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Officiants|Ministers": {
+    "primary_canonical": "Weddings",
+    "total": 7,
+    "tier_A": 1,
+    "tier_B": 0,
+    "tier_C": 2,
+    "tier_D": 3,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 1.833
+  },
+  "Continental": {
+    "primary_canonical": "Dining",
+    "total": 5,
+    "tier_A": 2,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.8
+  },
+  "Waterparks": {
+    "primary_canonical": "Activities",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.0
+  },
+  "Production Services": {
+    "primary_canonical": "Film Production",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 4,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 1.5
+  },
+  "ATV|Off-Road Rentals": {
+    "primary_canonical": "Activities",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.667
+  },
+  "Filming Location": {
+    "primary_canonical": "Film Production",
+    "total": 7,
+    "tier_A": 1,
+    "tier_B": 5,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.714
+  },
+  "Public Transportation": {
+    "primary_canonical": "Transportation",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "LGBTQ+ Owned|Operated": {
+    "primary_canonical": "(uncategorized)",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 6.0
+  },
+  "LGBTQ+ OWNED|OPERATED": {
+    "primary_canonical": "(uncategorized)",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 6.0
+  },
+  "Historic|Celebrity Homes": {
+    "primary_canonical": "Arts & Culture",
+    "total": 7,
+    "tier_A": 1,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 4.8
+  },
+  "Spas & Salons": {
+    "primary_canonical": "Activities",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 4,
+    "mean_score_excluding_Z": 1.0
+  },
+  "Places of Worship": {
+    "primary_canonical": "Relocation",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 2,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.667
+  },
+  "CVB Corporate Partners": {
+    "primary_canonical": "Professional Services",
+    "total": 10,
+    "tier_A": 1,
+    "tier_B": 4,
+    "tier_C": 1,
+    "tier_D": 4,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.9
+  },
+  "Art|Entertainment|Unique Talent": {
+    "primary_canonical": "Meeting Resources",
+    "total": 12,
+    "tier_A": 0,
+    "tier_B": 6,
+    "tier_C": 2,
+    "tier_D": 2,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 3.6
+  },
+  "Coffee Shop": {
+    "primary_canonical": "Dining",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 3,
+    "mean_score_excluding_Z": 1.5
+  },
+  "Senior Centers": {
+    "primary_canonical": "Relocation",
+    "total": 9,
+    "tier_A": 1,
+    "tier_B": 2,
+    "tier_C": 2,
+    "tier_D": 4,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.444
+  },
+  "Florists|Plant Rentals": {
+    "primary_canonical": "Meeting Resources",
+    "total": 12,
+    "tier_A": 1,
+    "tier_B": 8,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.167
+  },
+  "Coworking": {
+    "primary_canonical": "Relocation",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Celebrity|City Tours": {
+    "primary_canonical": "Tours",
+    "total": 17,
+    "tier_A": 1,
+    "tier_B": 9,
+    "tier_C": 6,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.647
+  },
+  "Greek": {
+    "primary_canonical": "Dining",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 0.0
+  },
+  "Printing Services": {
+    "primary_canonical": "Professional Services",
+    "total": 10,
+    "tier_A": 5,
+    "tier_B": 2,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.7
+  },
+  "BBQ": {
+    "primary_canonical": "Dining",
+    "total": 4,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 2.5
+  },
+  "Family Fun": {
+    "primary_canonical": "Activities",
+    "total": 14,
+    "tier_A": 1,
+    "tier_B": 8,
+    "tier_C": 2,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.643
+  },
+  "Shopping Centers|Food Courts": {
+    "primary_canonical": "Dining",
+    "total": 4,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Event Venues": {
+    "primary_canonical": "Activities",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.0
+  },
+  "Health & Wellness": {
+    "primary_canonical": "Activities",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 2,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.333
+  },
+  "Natural Mineral Water Spas": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.4
+  },
+  "Nutrition": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 4,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 2,
+    "mean_score_excluding_Z": 5.5
+  },
+  "Moving|Shipping|Storage": {
+    "primary_canonical": "Relocation",
+    "total": 13,
+    "tier_A": 5,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 6,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.615
+  },
+  "Wedding Attire": {
+    "primary_canonical": "Weddings",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Japanese|Sushi": {
+    "primary_canonical": "Dining",
+    "total": 5,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 1.75
+  },
+  "Parking Services": {
+    "primary_canonical": "Meeting Resources",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Hotel Services": {
+    "primary_canonical": "Professional Services",
+    "total": 4,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 3,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 0.0
+  },
+  "Visitor Centers": {
+    "primary_canonical": "Relocation",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.5
+  },
+  "Tours": {
+    "primary_canonical": "Cannabis",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 0.0
+  },
+  "Business Development": {
+    "primary_canonical": "Relocation",
+    "total": 7,
+    "tier_A": 0,
+    "tier_B": 3,
+    "tier_C": 1,
+    "tier_D": 2,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 2.833
+  },
+  "Car Wash": {
+    "primary_canonical": "Relocation",
+    "total": 3,
+    "tier_A": 1,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 3.5
+  },
+  "Brochure Distribution|Display Services": {
+    "primary_canonical": "Professional Services",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Bus Charters|Leasing": {
+    "primary_canonical": "Transportation",
+    "total": 3,
+    "tier_A": 1,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 6.0
+  },
+  "Housekeepers|Cleaners": {
+    "primary_canonical": "Relocation",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 6.0
+  },
+  "Insurance": {
+    "primary_canonical": "Professional Services",
+    "total": 2,
+    "tier_A": 1,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.5
+  },
+  "Models|Talent Agencies": {
+    "primary_canonical": "Film Production",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.0
+  },
+  "City|County Government": {
+    "primary_canonical": "Relocation",
+    "total": 23,
+    "tier_A": 1,
+    "tier_B": 10,
+    "tier_C": 3,
+    "tier_D": 9,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.826
+  },
+  "Art Tours": {
+    "primary_canonical": "Tours",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.0
+  },
+  "Pet Sitting|Dog Walking": {
+    "primary_canonical": "Pet Services",
+    "total": 6,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 2,
+    "tier_D": 3,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 1.667
+  },
+  "Medical Tourism": {
+    "primary_canonical": "Spas & Wellness",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Pickleball": {
+    "primary_canonical": "Activities",
+    "total": 12,
+    "tier_A": 0,
+    "tier_B": 6,
+    "tier_C": 1,
+    "tier_D": 5,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.667
+  },
+  "Computer Networks|Rentals": {
+    "primary_canonical": "Professional Services",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 0.0
+  },
+  "E-bike|Motorcycle Rentals": {
+    "primary_canonical": "Activities",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.5
+  },
+  "COVID19 Restaurants": {
+    "primary_canonical": "(uncategorized)",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Coworking|Office Space|Equipment": {
+    "primary_canonical": "Professional Services",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 5.0
+  },
+  "Ice Cream": {
+    "primary_canonical": "Dining",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 4.0
+  },
+  "Sculptures": {
+    "primary_canonical": "(uncategorized)",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 0.0
+  },
+  "artsGPS": {
+    "primary_canonical": "(uncategorized)",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 0.0
+  },
+  "Golf Shopping|Services": {
+    "primary_canonical": "Golf",
+    "total": 5,
+    "tier_A": 1,
+    "tier_B": 4,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 5.4
+  },
+  "Golf Tee-Time Reservations": {
+    "primary_canonical": "Golf",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 6.0
+  },
+  "Indian": {
+    "primary_canonical": "Dining",
+    "total": 4,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 2,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.5
+  },
+  "Car Dealerships": {
+    "primary_canonical": "Relocation",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 1,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.5
+  },
+  "Rock Climbing|Bouldering": {
+    "primary_canonical": "Activities",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 0.0
+  },
+  "Difficult": {
+    "primary_canonical": "Outdoor Recreation",
+    "total": 12,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 11,
+    "mean_score_excluding_Z": 3.0
+  },
+  "Public Speakers": {
+    "primary_canonical": "Meeting Resources",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.0
+  },
+  "Awards|Trophies": {
+    "primary_canonical": "Meeting Resources",
+    "total": 2,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 2,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.5
+  },
+  "Security": {
+    "primary_canonical": "Meeting Resources",
+    "total": 3,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 4.5
+  },
+  "Favors|Gifts": {
+    "primary_canonical": "Weddings",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 1,
+    "tier_D": 0,
+    "tier_Z": 0,
+    "mean_score_excluding_Z": 2.0
+  },
+  "Location Specialists": {
+    "primary_canonical": "Film Production",
+    "total": 1,
+    "tier_A": 0,
+    "tier_B": 0,
+    "tier_C": 0,
+    "tier_D": 0,
+    "tier_Z": 1,
+    "mean_score_excluding_Z": 0.0
+  }
+}

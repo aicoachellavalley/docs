@@ -1,0 +1,133 @@
+{
+  "Dining": {
+    "total": 956,
+    "unique_businesses": 905,
+    "tier_A": 17,
+    "tier_B": 374,
+    "tier_C": 289,
+    "tier_D": 170,
+    "tier_Z": 106,
+    "chain_count": 62,
+    "indie_count": 894,
+    "mean_score_excluding_Z": 3.009,
+    "canonical_categories_included": [
+      "Dining"
+    ]
+  },
+  "Experiences": {
+    "total": 633,
+    "unique_businesses": 551,
+    "tier_A": 10,
+    "tier_B": 226,
+    "tier_C": 186,
+    "tier_D": 138,
+    "tier_Z": 73,
+    "chain_count": 29,
+    "indie_count": 604,
+    "mean_score_excluding_Z": 2.814,
+    "canonical_categories_included": [
+      "Activities",
+      "Arts & Culture",
+      "Entertainment",
+      "Golf",
+      "Outdoor Recreation",
+      "Tours"
+    ]
+  },
+  "Lodging": {
+    "total": 352,
+    "unique_businesses": 331,
+    "tier_A": 7,
+    "tier_B": 131,
+    "tier_C": 92,
+    "tier_D": 115,
+    "tier_Z": 7,
+    "chain_count": 80,
+    "indie_count": 272,
+    "mean_score_excluding_Z": 2.545,
+    "canonical_categories_included": [
+      "Lodging"
+    ]
+  },
+  "Retail & Services": {
+    "total": 776,
+    "unique_businesses": 729,
+    "tier_A": 9,
+    "tier_B": 272,
+    "tier_C": 264,
+    "tier_D": 177,
+    "tier_Z": 54,
+    "chain_count": 12,
+    "indie_count": 764,
+    "mean_score_excluding_Z": 2.687,
+    "canonical_categories_included": [
+      "Cannabis",
+      "Film Production",
+      "Pet Services",
+      "Professional Services",
+      "Relocation",
+      "Shopping"
+    ]
+  },
+  "Meetings & Events": {
+    "total": 559,
+    "unique_businesses": 465,
+    "tier_A": 6,
+    "tier_B": 249,
+    "tier_C": 185,
+    "tier_D": 95,
+    "tier_Z": 24,
+    "chain_count": 29,
+    "indie_count": 530,
+    "mean_score_excluding_Z": 3.064,
+    "canonical_categories_included": [
+      "Group Venues",
+      "Meeting Resources",
+      "Weddings"
+    ]
+  },
+  "Mobility": {
+    "total": 123,
+    "unique_businesses": 102,
+    "tier_A": 2,
+    "tier_B": 38,
+    "tier_C": 57,
+    "tier_D": 22,
+    "tier_Z": 4,
+    "chain_count": 0,
+    "indie_count": 123,
+    "mean_score_excluding_Z": 2.807,
+    "canonical_categories_included": [
+      "Transportation",
+      "Visitor Services"
+    ]
+  },
+  "Wellness": {
+    "total": 224,
+    "unique_businesses": 219,
+    "tier_A": 7,
+    "tier_B": 96,
+    "tier_C": 54,
+    "tier_D": 41,
+    "tier_Z": 26,
+    "chain_count": 7,
+    "indie_count": 217,
+    "mean_score_excluding_Z": 3.288,
+    "canonical_categories_included": [
+      "Spas & Wellness"
+    ]
+  },
+  "(uncategorized)": {
+    "total": 4,
+    "unique_businesses": 4,
+    "tier_A": 0,
+    "tier_B": 2,
+    "tier_C": 1,
+    "tier_D": 1,
+    "tier_Z": 0,
+    "chain_count": 0,
+    "indie_count": 4,
+    "mean_score_excluding_Z": 3.25,
+    "canonical_categories_included": []
+  }
+}

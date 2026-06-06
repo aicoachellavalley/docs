@@ -1,0 +1,47 @@
+Recalibrating 14 chunks across ~3333 weburl-eligible records
+
+PRE-RECAL state (across chunks 0-13):
+  total: 3333
+  tier A: 225
+  tier B: 1647
+  tier C: 669
+  tier D: 792
+  schema_present pass: 0 (0.0%)
+  nap_consistent pass: 168 (5.0%)
+  ...200/3333 (7.0/s, ETA 449s)
+  ...400/3333 (5.6/s, ETA 523s)
+  ...600/3333 (6.2/s, ETA 441s)
+  ...800/3333 (5.1/s, ETA 499s)
+  ...1000/3333 (4.6/s, ETA 503s)
+  ...1200/3333 (3.9/s, ETA 542s)
+  ...1400/3333 (4.3/s, ETA 450s)
+  ...1600/3333 (4.4/s, ETA 392s)
+  ...1800/3333 (4.5/s, ETA 342s)
+  ...2000/3333 (4.6/s, ETA 290s)
+  ...2200/3333 (4.8/s, ETA 237s)
+  ...2400/3333 (4.7/s, ETA 200s)
+  ...2600/3333 (4.9/s, ETA 150s)
+  ...2800/3333 (4.8/s, ETA 110s)
+  ...3000/3333 (4.7/s, ETA 71s)
+  ...3200/3333 (4.3/s, ETA 31s)
+
+Processed 3333 records in 764s; fetch failures: 969
+
+POST-RECAL state (across chunks 0-13):
+  total: 3333
+  tier A: 58  (Δ -167)
+  tier B: 1388  (Δ -259)
+  tier C: 1128  (Δ +459)
+  tier D: 759  (Δ -33)
+  schema_present pass: 1314 (39.4%)  (Δ +1314)
+  nap_consistent pass: 1145 (34.4%)  (Δ +977)
+
+Score shift distribution (post - pre):
+  up_3      : 0
+  up_2      : 15
+  up_1      : 132
+  no_change : 1686
+  down      : 1500
+
+Methodology written to /Users/macmini/Projects/aicv-playbook/audits/visitgps-2026-q2/auditor/RECAL-METHODOLOGY-2026-06-05.md
+Next step: run reaggregate.py to re-emit all six cuts + CSV + wide-scan.json
