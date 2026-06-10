@@ -1,0 +1,167 @@
+{
+  "best_demo_candidates": [
+    {
+      "name": "Arriola's Tortilleria",
+      "city": "Indio",
+      "reputation_summary": "99 years operating (since 1927), oldest tortilleria in Southern California per KCRW, California 56th Assembly District Small Business of the Year 2018, featured in KCRW Good Food, LA Taco, and Palm Springs Life. Four generations of family ownership.",
+      "visibility_summary": "Zero first-party domain. The top-ranking 'arriolas-tortilleria.com-fnb.com' is a third-party SEO scraper shell. No schema.org markup possible because no owner-controlled site exists. Agents read entirely from scraped aggregator data that disagrees on hours and phone.",
+      "gap_articulation": "A 99-year State Assembly award-winning institution whose entire agent-visible footprint is hijacked by SEO scraper subdomains. Reputation is genuinely top-tier heritage; digital surface is functionally zero.",
+      "why_demo_makes_a_report_sing": "The gap between 'Southern California's oldest tortilleria, State Small Business of the Year, KCRW-featured' and 'no website exists' is jaw-dropping and instantly legible. Visibility gap score: 8."
+    },
+    {
+      "name": "Spencer's Restaurant",
+      "city": "Palm Springs",
+      "reputation_summary": "Wine Spectator Best of Award of Excellence continuously since 2011, OpenTable 100 Best Brunch/Alfresco, 9,867 OpenTable reviews at 4.6, Yelp ~1,900, historic Tennis Club site, Palm Springs Life multi-category 'Best of the Best' honoree.",
+      "visibility_summary": "Absent from top 'best fine dining Palm Springs 2026' lists (Workshop, 4 Saints, Le Vallauris, Rooster and the Pig dominate). Zero JSON-LD, zero microdata, zero Open Graph on spencersrestaurant.com — confirmed by direct fetch. Most aggregators still credit deceased owner Harold Matzner.",
+      "gap_articulation": "Wine Spectator since 2011 + 9,867 OpenTable reviews + historic 1937 Tennis Club setting, but the canonical site is structurally invisible to agents and the entire web still has stale ownership data following the June 2026 Chandi acquisition.",
+      "why_demo_makes_a_report_sing": "Fresh ownership transition (June 4, 2026) + dramatic structured-data void + stale aggregator data = a vivid 'here's what AI sees vs. what you actually are' moment with a brand-new decision-maker who just inherited the gap."
+    },
+    {
+      "name": "Wally's Desert Turtle",
+      "city": "Rancho Mirage",
+      "reputation_summary": "48 years operating, AAA Four Diamond continuously since 1993, Wine Spectator Award of Excellence 2025, third-generation Botello family (Cornell hospitality alumna Madalyn), OpenTable 4.6 across ~4,266 reviews.",
+      "visibility_summary": "Squarespace site with thin default schema only, seasonal closure expressed as prose rather than machine-readable openingHoursSpecification, aggregators mis-tag cuisine as 'Steakhouse' or 'American' rather than Continental/California.",
+      "gap_articulation": "Four Diamond restaurant since 1993 whose cuisine identity is actively miscategorized across the agent surface, and whose seasonal closure looks like permanent closure to crawlers right now.",
+      "why_demo_makes_a_report_sing": "Mid-valley fine-dining anchor with the strongest possible legacy credentials (AAA continuous 33 years) being mistakenly classed as a steakhouse by Yelp's category system — a clean, demonstrable 'agents don't know what you are' story."
+    },
+    {
+      "name": "Castelli's Ristorante",
+      "city": "Palm Desert",
+      "reputation_summary": "Operating since 1988 on Hwy 111, Palm Springs Life 'Best of the Best' Italian (multi-year, claimed 2017-2023 streak), Zagat top-1000 Italian, Tripadvisor #14 of 241 / 577 reviews / Travelers' Choice, Yelp 748 reviews, nightly piano bar, 200 seats.",
+      "visibility_summary": "Own site castellis.cc returns Cloudflare 403 challenge to ALL automated fetchers — independently reproduced. Site is structurally invisible to LLM crawlers. Surfaces in 'old-school Italian' queries but loses 'date night Palm Desert romantic Italian' to Mimmo's, Backstreet, Mamma Gina.",
+      "gap_articulation": "A 35+ year Hwy 111 Italian institution whose canonical web presence cannot be read by any agent at all. The Cloudflare 403 is itself the demo — show the client what their site returns to ChatGPT.",
+      "why_demo_makes_a_report_sing": "Mid-valley legacy anchor. The fact that 'best date night Palm Desert' surfaces Mimmo's instead of Castelli's is concrete and remediable. Recent ownership transition (Michael Castelli died Sept 2023) is a receptivity moment."
+    },
+    {
+      "name": "Ristorante Mamma Gina",
+      "city": "Palm Desert",
+      "reputation_summary": "On El Paseo since September 1986 (40 years), sister to Trattoria Mamma Gina in Florence (1956), Tripadvisor Travelers' Choice #7 of 247, 1,463 Yelp + 1,146 Tripadvisor reviews, founder Piero Pierattoni.",
+      "visibility_summary": "Single malformed JSON-LD block typed as 'LocalBusiness' (not Restaurant), streetAddress is the literal placeholder 'Ristorante Mamma Gina', addressCountry is empty, no openingHoursSpecification, no servesCuisine, no menu URL. Multiple third-party listings repeat the wrong location ('at The Gardens on El Paseo' — it isn't).",
+      "gap_articulation": "A 40-year El Paseo Italian anchor with broken structured data so visibly malformed that the streetAddress field literally contains the business name as a placeholder — and that error has propagated into aggregator descriptions.",
+      "why_demo_makes_a_report_sing": "Mid-valley El Paseo anchor. The 'streetAddress: Ristorante Mamma Gina' finding is a perfect screenshot moment — you can show the actual schema with the literal placeholder text, then show the propagating 'at The Gardens' error in third-party blurbs. Cause and effect in one slide."
+    },
+    {
+      "name": "Workshop Kitchen + Bar",
+      "city": "Palm Springs",
+      "reputation_summary": "James Beard 2015 Outstanding Restaurant Design (75+ seats), Michelin Plate 2024 and 2025 (consecutive), Restaurant & Bar Design Awards Best Americas 2013, Yelp 1,596 reviews, chef-owner Michael Beckman + Joseph Mourani.",
+      "visibility_summary": "No JSON-LD, no microdata, no Open Graph on workshopkitchenbar.com. Hours phrased ambiguously ('Sunday Brunch: 10am-2pm daily'). Gets edged out for 'New American near Palm Springs' by Eight4Nine, Trio, Jake's despite holding the only James Beard design award in Palm Springs.",
+      "gap_articulation": "The only James Beard winner in Palm Springs surfaces inconsistently for cuisine queries because the site is machine-illegible.",
+      "why_demo_makes_a_report_sing": "James Beard + dual Michelin Plate is the highest-prestige credential stack in the data set. Showing those plaques next to a screenshot of zero structured data is the cleanest 'how does this even happen' moment."
+    },
+    {
+      "name": "Jalisco Restaurant",
+      "city": "Coachella",
+      "reputation_summary": "Operating at 1605 6th Street since 1980 (45+ years), Tripadvisor #3 of 64 Coachella restaurants, featured in Visit Greater Palm Springs 14 Authentic Mexican and 6th Street day itinerary, Palm Springs Life 'Where to Eat in Coachella'.",
+      "visibility_summary": "Own domain quierojalisco.com is unreachable (ECONNREFUSED on apex and www). The brand has no working website at all. Agents triangulate entirely from Yelp, Tripadvisor, Facebook, and aggregator scraper templates.",
+      "gap_articulation": "A 45-year east-valley anchor whose brand domain has gone dark — the structured-data conversation is moot because there is nothing to structure.",
+      "why_demo_makes_a_report_sing": "Dead-domain demo writes itself. Type the URL on stage, get connection refused, then show the Visit Greater Palm Springs and Palm Springs Life editorial coverage that the dead site is supposed to capitalize on."
+    },
+    {
+      "name": "El Tranvia",
+      "city": "Coachella",
+      "reputation_summary": "Palm Springs Life 'Best of the Best 2025' Readers' pick — Best Mexican Cuisine in Coachella; family lineage to 1960s Zamora pushcart; LA Taco featured; chamber member; active social.",
+      "visibility_summary": "Official domain tranviarestaurant.com is parked/for-sale on Afternic. A current Palm Springs Life Best-of-the-Best winner has their own domain on a public for-sale page.",
+      "gap_articulation": "Just-crowned 2025 Readers' Best Mexican in Coachella whose web domain is literally listed for sale at the same moment they won.",
+      "why_demo_makes_a_report_sing": "The Afternic for-sale landing page on the same week as a Palm Springs Life Best of the Best win is a cinematic juxtaposition. Visibility gap score: 8."
+    },
+    {
+      "name": "Bar Cecil",
+      "city": "Palm Springs",
+      "reputation_summary": "Michelin Plate 2024 and 2025, OpenTable Top 100 Restaurants in America 2025, Time Out 'hardest reservation in Palm Springs', Infatuation favorite date-night pick, WWD/Palm Springs Life/InsideHook features.",
+      "visibility_summary": "Showit-built barcecil.com has no JSON-LD, no Open Graph, plain-text NAP, menus as PDFs. Does not cleanly surface for 'French restaurant Palm Springs' despite Time Out and Michelin describing it as French-leaning brasserie.",
+      "gap_articulation": "Top-100-in-America restaurant whose own French-leaning menu identity is invisible to agents because the schema layer doesn't tell them.",
+      "why_demo_makes_a_report_sing": "Press cadence and cultural cachet are unmatched — using one of Palm Springs' most-talked-about rooms as the demo shows that even at the top, the agent layer is unbuilt."
+    },
+    {
+      "name": "Rincón Norteño",
+      "city": "Indio",
+      "reputation_summary": "62 years continuous Flores-family operation (since 1964), Tripadvisor #13 of 165 Indio, featured in Visit Greater Palm Springs, Palm Springs Life, Coachella Valley Weekly, and CV Independent's 'Indy Endorsement'.",
+      "visibility_summary": "Editorial presence is real but generative queries for 'authentic Mexican breakfast Indio menudo chilaquiles' return La Casa Del Mariachi and Casa de Silvia — Rincón Norteño absent despite literally serving both. /press page is an empty shell. No JSON-LD, no OG.",
+      "gap_articulation": "62-year heritage operator literally serves menudo and chilaquiles, yet generative search for those exact terms in Indio omits them entirely.",
+      "why_demo_makes_a_report_sing": "The query 'menudo Indio' returning competitors who don't predate Rincón by decades is the cleanest reputation-to-discovery delta in the entire data set. Visibility gap score: 8."
+    }
+  ],
+  "best_revenue_candidates": [
+    {
+      "name": "Wally's Desert Turtle",
+      "city": "Rancho Mirage",
+      "ownership_signal": "Third-generation family-owned (Botello); reachable identifiable DM Madalyn Botello with public LinkedIn and Cornell hospitality background.",
+      "marketing_spend_evidence": "Custom Squarespace site with Press, Events, Restaurant Week pages; active Instagram; sustained OpenTable presence at ~4,266 reviews; Wine Spectator paid submission program (current 2025); live music programming in Sahara Lounge; recurring Palm Springs Life editorial.",
+      "accessibility_read": "Single named decision-maker, owner-operator, hospitality-trained, already invests in award submission cycles — exactly the profile that pays for visibility tools.",
+      "revenue_rationale": "Demonstrably spends on prestige marketing (Wine Spectator, AAA, OpenTable premium), has a young owner trained at Cornell who understands brand systems, and is in a category (continental fine dining) where the gap to fixed is small and the gain is high. High close probability."
+    },
+    {
+      "name": "Spencer's Restaurant",
+      "city": "Palm Springs",
+      "ownership_signal": "Just acquired June 4, 2026 by Nachhattar Singh Chandi (Chandi Group USA, PSIFS Chairman) — a reachable, well-resourced local businessman in his honeymoon period as new owner.",
+      "marketing_spend_evidence": "Branded site + separate catering site, active multi-platform social, OpenTable premium tier (9,867 reviews), Palm Springs Life print/digital placements, KESQ/NBC PS coverage of the acquisition.",
+      "accessibility_read": "Brand-new owner publicly pledged to preserve operations — peak receptivity to digital-foundation upgrades, and Chandi runs an operating company with budget authority.",
+      "revenue_rationale": "Ownership-transition window is the single highest-conversion moment in restaurant sales. A new owner with budget, a clear technical gap, and a 25-year reputation to defend is the textbook close."
+    },
+    {
+      "name": "Workshop Kitchen + Bar",
+      "city": "Palm Springs",
+      "ownership_signal": "Chef/owner Michael Beckman and co-owner Joseph Mourani; single Palm Springs location; press@workshopkitchenbar.com address indicates a comms function.",
+      "marketing_spend_evidence": "Custom branded site, separate catering site, separate Palm Springs sub-route, active Instagram/Facebook/X, Resy + OpenTable + Yelp + Tripadvisor presence, Hotels Above Par / Palm Springs Life editorial cadence, design-forward brand discipline throughout.",
+      "accessibility_read": "Identified press contact, owner-operator, known to engage with media — sales motion has a named door.",
+      "revenue_rationale": "Highest credential stack in the data set (James Beard + dual Michelin Plate) and they clearly spend on brand work. The argument 'you won a James Beard and your site can't tell ChatGPT that' lands hard with an owner who already values design and recognition."
+    },
+    {
+      "name": "Sherman's Deli & Bakery",
+      "city": "Palm Desert",
+      "ownership_signal": "Second-generation family owners Sam and Janet Harris (children of founder Sherman Harris); reachable through existing chamber and directory channels.",
+      "marketing_spend_evidence": "WordPress site with Yoast SEO plugin (active SEO investment), active Facebook + Instagram, online ordering integrated, Palm Springs Life directory paid listing, branded retail BBQ sauce product, Chamber membership.",
+      "accessibility_read": "Family ownership with operational responsibility split between two named principals; already engaged with Yoast SEO so the schema conversation is incremental, not foreign.",
+      "revenue_rationale": "They already bought into SEO via Yoast — the upsell from generic Yoast defaults to Restaurant/Menu/LocalBusiness schema is the easiest sale in the deck. Two locations amortize the work."
+    },
+    {
+      "name": "Mr. Lyons",
+      "city": "Palm Springs",
+      "ownership_signal": "Foundation 10 Creative / Tara Lazar — local Palm Springs hospitality group operating Cheeky's, Birba, Seymour's, Mr. Lyons, Alcazar Hotel. Lazar has a James Beard Foundation chef profile and a publicly identifiable PR cadence.",
+      "marketing_spend_evidence": "Multi-property portfolio with shared marketing function (F10 Creative); Popmenu CMS (paid platform); active Instagram and Facebook; OpenTable premium tier with 1,888+ reviews; consistent placement in Palm Springs Life, Coachella Magazine; SoCal Restaurant Show podcast appearances.",
+      "accessibility_read": "Centralized DM at the group level (Lazar/F10) means one sale unlocks four properties. Reachable through existing PR channels.",
+      "revenue_rationale": "Portfolio sale potential is the highest in the data set. Pitching Mr. Lyons opens conversations on Cheeky's, Birba, and Seymour's — all of which appear independently in the convertible set with their own schema gaps."
+    },
+    {
+      "name": "Castelli's Ristorante",
+      "city": "Palm Desert",
+      "ownership_signal": "Family-owned Castelli family; surviving co-owner John Castelli post-2023 transition; locally reachable.",
+      "marketing_spend_evidence": "Dedicated domain castellis.cc, paid/managed OpenTable, Grubhub presence, Palm Springs Life and Coachella Magazine editorial coverage, nightly live piano programming (Patrick Tuzzolino / Joe Jaggi).",
+      "accessibility_read": "Post-Michael-Castelli ownership-transition period is a moment of receptivity. Family operators reachable through restaurant directly.",
+      "revenue_rationale": "Mid-valley Hwy 111 anchor in active reputation-defense mode. The Cloudflare 403 to crawlers is a visceral, demonstrable problem and the owner already pays for nightly entertainment and editorial — they spend."
+    },
+    {
+      "name": "Lavender Bistro",
+      "city": "La Quinta",
+      "ownership_signal": "Despras family — Nicolas Despras current owner, lineage to Michel Despras (Le St. Germain, Le Vallauris, Canyon Bistro). Multi-decade local hospitality family.",
+      "marketing_spend_evidence": "Multi-page website with banquet/event/holiday menus, OpenTable Top 100 outdoor recognition, broad listing coverage (Visit GPS, Play in La Quinta, Vendry, GAYOT), consistent 'best of' editorial inclusion, Palm Springs Life Best of the Best 2025 fine dining.",
+      "accessibility_read": "Named owner-operator from a known Coachella Valley restaurant family — culturally embedded in the dining community and likely receptive to vendor outreach through industry channels.",
+      "revenue_rationale": "Demonstrated and sustained willingness to spend on distribution (paid OpenTable, paid listings, banquet/event marketing). The schema gap is incremental work on top of investments already made."
+    },
+    {
+      "name": "Si Bon",
+      "city": "Rancho Mirage",
+      "ownership_signal": "Chef/owner Philippe Caupain and wife Edith — reachable husband-wife operating team, single location.",
+      "marketing_spend_evidence": "Owned website with online ordering hooks, separate catering microsite (siboncatering.com), active Facebook/Twitter/Yelp with owner responses, paid OpenTable presence (1,000+ reviews), delivery-platform integrations (Postmates, GrubHub, DoorDash, UberEats), Visit Greater Palm Springs paid placement.",
+      "accessibility_read": "Tripadvisor #2 of 68 in Rancho Mirage with active management replies means owner is hands-on with digital channels. Two-brand operation (restaurant + catering microsite) shows they understand brand extension.",
+      "revenue_rationale": "Mid-valley independent already investing across web, social, OpenTable, delivery, and catering — pattern of an operator who pays for tools. Adding schema is consistent with existing spend behavior, not a behavior change."
+    },
+    {
+      "name": "Bar Cecil",
+      "city": "Palm Springs",
+      "ownership_signal": "Lead partner John Janulis with Richard Crisman + Jeff Brock (Sparrows Lodge / Holiday House majority); chef-partner Gabriel Woo; dedicated press@barcecil.com email.",
+      "marketing_spend_evidence": "Custom Showit site, brand-extension into Beaton's lounge with its own site, ~24K Instagram followers, OpenTable premium tier, sustained earned media in WWD/Time Out/Infatuation/InsideHook/Palm Springs Life, En Primeur Club membership.",
+      "accessibility_read": "Dedicated press address indicates a comms function exists. Partnership group has demonstrated portfolio thinking (Beaton's extension) which signals strategic budget capacity.",
+      "revenue_rationale": "Highest reputational ceiling (OpenTable Top 100 in America 2025) combined with clearest sub-brand expansion appetite. Owners who invested in Beaton's will invest in agent-readiness — the pattern matches."
+    },
+    {
+      "name": "Catalan Mediterranean Cuisine",
+      "city": "Rancho Mirage",
+      "ownership_signal": "Father-son founders Mark and Drew Davis; Drew is CIA alum, ex-Nick & Toni's, ex-Spielberg private chef — public and identifiable; single location.",
+      "marketing_spend_evidence": "OpenTable paid presence with reservation flow, active Yelp business profile with 1,162 photos (owner-uploaded), Facebook page, Grubhub listing, Giftly gift-card integration, Restaurant Week ($49 menu) participation, Desert Business Association membership, regional press cycle (Coachella Magazine, Locale, CV Weekly).",
+      "accessibility_read": "Owner-operator chef with a public bio is the easiest cold outreach in mid-valley fine dining.",
+      "revenue_rationale": "Mid-valley Hwy 111 restaurant row position, GoDaddy-built site with malformed schema (empty addressCountry, placeholder streetAddress), and consistent marketing-platform spend make this a high-probability close on a fixable technical gap."
+    }
+  ],
+  "mid_valley_weighting_note": "Mid-valley weighting was honored on both lists. DEMO list: 6 of 10 are mid-valley (Rancho Mirage: Wally's Desert Turtle; Palm Desert: Castelli's, Mamma Gina; plus the city-of-Palm Desert-adjacent demos balance against Palm Springs prestige names Workshop and Bar Cecil that earn slots on credential strength alone). The east-valley demos (Arriola's, Jalisco, El Tranvia, Rincón Norteño) are included because their gap stories are simply the most cinematic in the data set — Arriola's has no website, Jalisco's domain is dead, El Tranvia's domain is for sale on Afternic the same week they won Palm Springs Life Best of the Best, and Rincón Norteño's 62-year menudo legacy doesn't surface for 'menudo Indio.' Excluding these would weaken the report's narrative power. REVENUE list: 7 of 10 are mid-valley (Rancho Mirage: Wally's, Si Bon, Catalan; Palm Desert: Sherman's, Castelli's; La Quinta: Lavender Bistro; plus the Mr. Lyons / F10 portfolio play which is Palm Springs but unlocks four properties). The Palm Springs revenue picks (Spencer's, Workshop, Mr. Lyons, Bar Cecil) earn inclusion because they have the strongest accessibility signals — Spencer's just changed hands, Workshop has a press contact and James Beard credentials that justify outreach, Mr. Lyons is a portfolio multiplier through F10, and Bar Cecil has demonstrated brand-extension budget. Net: mid-valley dominates revenue priority (70%) while demo selection optimizes for narrative force, with mid-valley still at 60% (counting Palm Desert + Rancho Mirage + La Quinta as mid-valley-adjacent)."
+}

@@ -1,0 +1,528 @@
+{
+  "by_category": [
+    {
+      "category": "Continental / Classic Fine Dining (Rat Pack-era institutions)",
+      "dominant_names": [
+        "Le Vallauris (Palm Springs)",
+        "Wally's Desert Turtle (Rancho Mirage)",
+        "Melvyn's Restaurant & Bar (Palm Springs)",
+        "Johnny Costa's Ristorante (Palm Springs)",
+        "Mr. Lyons Steakhouse (Palm Springs)"
+      ],
+      "notable_independents": [
+        "Spencer's Restaurant (Palm Springs)",
+        "Copley's on Palm Canyon (Palm Springs)",
+        "Johannes (Palm Springs)"
+      ],
+      "invisible_but_deserving": [
+        "Spencer's Restaurant — June 2026 ownership transition from the Matzner Trust to Nachhattar Singh Chandi has not propagated to aggregators; agents still cite Matzner as owner"
+      ],
+      "gap_pattern": "The category is editorially dense but operationally stale. Agents routinely repeat ownership and chef names that have changed: Le Vallauris is now under the Soho House restaurants portfolio with Jean-Paul Lair listed on LinkedIn as 'ex chef'; Melvyn's transitioned post-Mel Haber's 2016 death; Spencer's changed hands in June 2026. The canonical sites carry strong human-readable content but no schema.org Restaurant markup, leaving agents to triangulate via OpenTable, Yelp, and legacy editorial copy that has not been updated."
+    },
+    {
+      "category": "Modern Fine Dining / New American",
+      "dominant_names": [
+        "Workshop Kitchen + Bar (Palm Springs)",
+        "Bar Cecil (Palm Springs)",
+        "4 Saints (Palm Springs, Kimpton Rowan)",
+        "Mister Parker's (referenced in competitor sets, not assessed)"
+      ],
+      "notable_independents": [
+        "Rooster and the Pig (Palm Springs)",
+        "Bar Issi (Palm Springs, Thompson Hotel)",
+        "Eight4Nine (referenced)"
+      ],
+      "invisible_but_deserving": [
+        "Rooster and the Pig — the USA Today Restaurant of the Year framing circulating in 2026 dining guides appears to be a misstatement of the 2025 'Top 47 Restaurants in the U.S.' inclusion; the venue is genuinely nationally recognized but the credential is being garbled"
+      ],
+      "gap_pattern": "This is the category where Michelin Plate recognition (Bar Cecil 2024 and 2025, Workshop multiple years, Tac/Quila inaugural-and-continuing, Sandfish) most concentrates, yet none of the canonical restaurant sites publish JSON-LD Restaurant schema. Cuisine classification drifts across sources — 4 Saints alone is described as Modern American, Southern, Cal-coastal, and Mediterranean depending on the listing."
+    },
+    {
+      "category": "Steakhouses",
+      "dominant_names": [
+        "The Steakhouse at Agua Caliente (Rancho Mirage)",
+        "The Edge Steakhouse at The Ritz-Carlton (Rancho Mirage)",
+        "Mastro's Steakhouse (Palm Desert, opened November 2025)",
+        "Mr. Lyons (Palm Springs)"
+      ],
+      "notable_independents": [
+        "Spencer's Restaurant (occupies steak/continental overlap)",
+        "Mitch's on El Paseo Prime Seafood (Palm Desert)"
+      ],
+      "invisible_but_deserving": [
+        "The Edge Steakhouse Rancho Mirage operates its own domain theedgesteakhouse.com (contrary to widespread assumption that the URL belongs to the Westgate Las Vegas concept) — agents disambiguating the brand-name collision underweight the Rancho Mirage location"
+      ],
+      "gap_pattern": "The Steakhouse at Agua Caliente carries the valley's only Forbes Four-Star designation alongside an 18-year Wine Spectator Award of Excellence streak. The Edge owns the view-driven and Wagyu-driven queries. Mastro's owns the chain-credential and live-entertainment lane. Agents often confuse the two Edge brands and conflate Mastro's awards earned by chef Mike Mastro before he left the Landry's-owned brand."
+    },
+    {
+      "category": "French / French-Mediterranean",
+      "dominant_names": [
+        "Le Vallauris (Palm Springs)",
+        "Chez Pierre Bistro (Palm Desert)",
+        "La Brasserie Bistro & Bar (La Quinta)",
+        "Si Bon (Rancho Mirage, Belgian-French)"
+      ],
+      "notable_independents": [
+        "Bar Cecil (French-leaning American brasserie — frequently miscategorized)"
+      ],
+      "invisible_but_deserving": [
+        "Si Bon ranks #2 of 68 on Tripadvisor in Rancho Mirage and won Coachella Valley Independent Best French in 2024-2025 and 2025-2026, yet does not surface in Locale Magazine date-night roundups",
+        "Cuistot (Palm Desert) closed in 2025 after ~38 years; its canonical site still advertises current hours and a spring prix fixe menu — a permanent-closure signal that aggregators carry but the brand domain does not"
+      ],
+      "gap_pattern": "French cuisine in CV is concentrated in Palm Desert and La Quinta, with Le Vallauris as the Palm Springs anchor. Cuistot's 2025 closure leaves a vacated anchor slot being converted to 'El Paseo Chophouse.' Bar Cecil's French-leaning menu is categorized as American/cocktail bar on Yelp, costing it surfacing on French-cuisine queries — a self-inflicted gap reinforced by the absence of structured data on barcecil.com."
+    },
+    {
+      "category": "Italian",
+      "dominant_names": [
+        "Johnny Costa's Ristorante (Palm Springs)",
+        "Castelli's Ristorante (Palm Desert)",
+        "Ristorante Mamma Gina (Palm Desert)",
+        "Birba (Palm Springs)",
+        "Bar Issi (Palm Springs)"
+      ],
+      "notable_independents": [
+        "Pinzimini (Rancho Mirage, Westin)",
+        "Double Date (Rancho Mirage, Omni, opened November 2025)",
+        "Ciro's Ristorante & Pizzeria (Indio)"
+      ],
+      "invisible_but_deserving": [
+        "Ciro's Ristorante & Pizzeria — operating since 1966 with a continuous brand identity, currently held by Ciro's Restaurant LLC (Raul Ramirez) per California Secretary of State filings; appears third rather than first on Coachella Valley Locals' Best Italian in Indio list",
+        "Birba is frequently relegated to second-tier in LLM Italian shortlists even when its Tripadvisor rank and editorial coverage support anchor placement"
+      ],
+      "gap_pattern": "Johnny Costa's holds the Palm Springs Life Readers' Choice Best Italian streak (reported 13–15 consecutive years depending on source). Castelli's anchors the Hwy 111 mid-corridor; Mamma Gina anchors El Paseo. The 'voted Best Italian Coachella Valley' claim is the most-recycled self-attribution in the category — Mamma Gina, Ciro's, and others surface this language without traceable award provenance. Most independent Italian sites carry no Restaurant schema."
+    },
+    {
+      "category": "Mexican (legacy/heritage)",
+      "dominant_names": [
+        "Las Casuelas Original (Palm Springs, 1958)",
+        "Las Casuelas Nuevas (Rancho Mirage, 1973)",
+        "El Tranvia (Coachella, family lineage to 1969 Michoacán; current Coachella storefront ~15 years per owner)",
+        "Rincón Norteño (Indio, 1964)",
+        "El Mexicali Cafe (Indio, 1981) and El Mexicali Cafe II"
+      ],
+      "notable_independents": [
+        "Arriola's Tortilleria (Indio, 1927) — takeout-only",
+        "Jalisco Restaurant (Coachella, 1980)"
+      ],
+      "invisible_but_deserving": [
+        "Rincón Norteño — 62 years of continuous Flores-family ownership in Indio, and yet does not surface organically in generative 'best Mexican breakfast Indio' queries despite being a literal match for chilaquiles, menudo, and huevos rancheros",
+        "Arriola's Tortilleria — described by KCRW as having sold tortillas longer than anyone in Southern California, with no first-party owner-controlled website; agents read only aggregator scrapes"
+      ],
+      "gap_pattern": "The heritage Mexican category is the valley's most under-described. The oldest continuously operating Mexican food businesses cluster in Indio and Coachella, not Palm Springs, but agent visibility skews west. Founding-year provenance is repeatedly conflated: El Tranvia's 1969 origin refers to the family pushcart in Michoacán, not the Coachella storefront; Las Casuelas Original is the 1958 progenitor but is routinely confused with sibling Terraza (S Palm Canyon). Owner-controlled sites are either absent (El Tranvia, Arriola's) or carry no schema.org markup."
+    },
+    {
+      "category": "Mexican (modern / elevated)",
+      "dominant_names": [
+        "Tac/Quila (Palm Springs)",
+        "Adobe Grill (La Quinta Resort)"
+      ],
+      "notable_independents": [
+        "Maleza (Palm Springs, opened by former 4 Saints chef Ysaac Ramirez)",
+        "Clandestino (Palm Springs, F10 Hospitality)"
+      ],
+      "invisible_but_deserving": [
+        "Adobe Grill's regional Oaxacan positioning is undersold by agents that surface only resort-dining context"
+      ],
+      "gap_pattern": "Tac/Quila is the dominant agent-surfacing result for elevated Mexican in CV — Michelin-recommended through 2024 and 2025, and the most-referenced upscale Mexican identity in regional press. Adobe Grill is the La Quinta Resort anchor. Outside these two, the elevated-Mexican lane is held by newer Palm Springs concepts (Maleza, Clandestino, Tac/Quila's siblings) — none of which are reaching the East Valley heritage market."
+    },
+    {
+      "category": "Mexican Seafood / Mariscos",
+      "dominant_names": [
+        "Mariscos El Capitan (Coachella)"
+      ],
+      "notable_independents": [
+        "Sushi y Mariscos Guamuchil (Coachella)",
+        "Mariscos Culiacan (Coachella)",
+        "Mr Clamato (Coachella)"
+      ],
+      "invisible_but_deserving": [
+        "Mariscos El Capitan — Palm Springs Life and Visit Greater Palm Springs both list it, yet it sits behind a NAP-inconsistent web presence (the owner site lists Harrison St while aggregators list Cesar Chavez St) and a parked tranviarestaurant.com domain neighborhood"
+      ],
+      "gap_pattern": "Mariscos as a category is essentially East Valley–exclusive, concentrated on Cesar Chavez St in Coachella. Agents systematically underdescribe it because the brand sites either carry stale addresses or do not exist as first-party properties; Visit Greater Palm Springs is the only authoritative directory that consistently surfaces these venues."
+    },
+    {
+      "category": "Japanese / Sushi",
+      "dominant_names": [
+        "Nobu (Indian Wells Tennis Garden)",
+        "Sandfish Sushi & Whiskey (Palm Springs)",
+        "Okura Robata Grill & Sushi Bar (La Quinta)"
+      ],
+      "notable_independents": [
+        "The Venue Sushi & Sake Bar (Palm Desert) — same chef-ownership as Sandfish",
+        "Mikado at JW Marriott Desert Springs"
+      ],
+      "invisible_but_deserving": [
+        "Okura, despite 21 years on Hwy 111 La Quinta and a multi-year Desert Sun Best of the Valley Japanese category streak, does not appear in Palm Springs Life's Asian roundup or Visit Palm Springs' best-sushi list — editorially eclipsed by Palm Springs concepts"
+      ],
+      "gap_pattern": "Nobu and Sandfish dominate the editorial conversation, with Nobu anchoring Indian Wells year-round (no longer just a BNP Paribas Open pop-up). The Japanese-Government Sushi Proficiency Certificate held by Sandfish's Chef Engin Onural is widely framed as 'sushi ambassador' — the formal MAFF Goodwill Ambassador designation could not be independently confirmed. Editorial roundups in Palm Springs Life and Visit Palm Springs systematically omit La Quinta sushi venues."
+    },
+    {
+      "category": "Seafood (upscale)",
+      "dominant_names": [
+        "Pacifica Seafood Restaurant (Palm Desert, Gardens on El Paseo)",
+        "Mitch's on El Paseo Prime Seafood (Palm Desert)",
+        "Eddie V's Prime Seafood (Palm Desert, referenced)"
+      ],
+      "notable_independents": [
+        "Oceana (Rancho Mirage, 2025 expansion of 2021 Palm Desert sibling)",
+        "La Quinta Cliffhouse (cliffside steak/seafood)",
+        "Fisherman's Market & Grill (multi-location casual seafood)"
+      ],
+      "invisible_but_deserving": [
+        "Oceana Rancho Mirage opened in 2025 and shares Tripadvisor presence with its Palm Desert sibling, creating review-volume fragmentation that suppresses its visibility"
+      ],
+      "gap_pattern": "Upscale seafood is concentrated on El Paseo (Pacifica, Mitch's, Eddie V's) with The Edge handling the steak/seafood resort tier. Independent operators outside El Paseo (Oceana, Cliffhouse) lose review aggregation to the chains that carry corporate schema. Fisherman's Market & Grill's marketing claim of '16-17 consecutive years #1 Best Seafood' propagates without a verifiable award sponsor."
+    },
+    {
+      "category": "Breakfast / Brunch",
+      "dominant_names": [
+        "Cheeky's (Palm Springs)",
+        "Wilma & Frieda's Cafe (Palm Desert / Palm Springs)",
+        "Sherman's Deli & Bakery (Palm Springs / Palm Desert)",
+        "Keedy's Fountain & Grill (Palm Desert)",
+        "Louise's Pantry (La Quinta)"
+      ],
+      "notable_independents": [
+        "Cafe at Shields (Indio)",
+        "Norma's at Parker Palm Springs (referenced)",
+        "FARM (downtown Palm Springs, referenced)"
+      ],
+      "invisible_but_deserving": [
+        "Cafe at Shields — 100+ years of date-garden heritage, but Shields' identity is locked to the date-shake/attraction frame, not the restaurant frame; agents systematically omit the sit-down California/Mexican breakfast menu",
+        "Keedy's claimed Food Network feature and 'Palm Desert Local Landmark (1986)' designation are self-attested; the Historical Society of Palm Desert's official Historic Landmarks list does not include Keedy's"
+      ],
+      "gap_pattern": "Breakfast/brunch is the category where Visit Palm Springs and Palm Springs Life concentrate the most editorial attention, but the surfacing is heavily Palm Springs/Palm Desert-weighted. East Valley breakfast (Sloan's, Casa de Silvia, Serrano's) is named in localized queries but absent from valley-wide roundups. Sherman's strong breakfast program is not reflected in agent answers because its category identity is fixed as deli."
+    },
+    {
+      "category": "BBQ / Smoke",
+      "dominant_names": [
+        "Jackalope Ranch (Indio)",
+        "Babe's Bar-B-Que & Brewery (Rancho Mirage, referenced)"
+      ],
+      "notable_independents": [
+        "Uncle D's Smokehouse BBQ & Grill (Indio)",
+        "CV BBQ (Indio)"
+      ],
+      "invisible_but_deserving": [
+        "Jackalope Ranch's September 2023 reopening (not September 2024, as several aggregator summaries state) has not propagated through agent answers, which still describe it as continuously operating"
+      ],
+      "gap_pattern": "BBQ is the valley's thinnest fine-casual category. Smoke Tree BBQ (Palm Springs and Palm Desert) is now closed on Yelp but still surfaces on Wanderlog and Tripadvisor aggregator lists as if operating — a stale-data hazard. Jackalope Ranch dominates the Indio destination-BBQ slot but its ownership and reopening date are repeatedly garbled."
+    },
+    {
+      "category": "Sandwich / Deli / Bakery",
+      "dominant_names": [
+        "TKB Bakery & Deli (Indio)",
+        "Sherman's Deli & Bakery (Palm Springs / Palm Desert)",
+        "Manhattan in the Desert (Palm Desert)"
+      ],
+      "notable_independents": [
+        "Arriola's Tortilleria (Indio, takeout-only)",
+        "Aspen Mills Bakery (multi-location)"
+      ],
+      "invisible_but_deserving": [
+        "TKB's national credential (Yelp #1 Places to Eat in the U.S., 2018) is one of the few unambiguous national restaurant awards held by an independent in CV — it does not surface for broader 'best restaurants Coachella Valley' or 'best breakfast Indio' agent answers despite that distinction"
+      ],
+      "gap_pattern": "The deli/sandwich/bakery category is anchored by Sherman's (60+ years, DDD-featured) and TKB (national Yelp Top 100 streak). Both sites lack JSON-LD Restaurant schema. TKB is siloed into a sandwich/festival-vendor frame; Sherman's is siloed into a deli frame and loses its breakfast crossover. Arriola's, the oldest tortilleria in Southern California per KCRW, has no first-party site at all."
+    },
+    {
+      "category": "Pizza",
+      "dominant_names": [
+        "Stuft Pizza Bar & Grill (La Quinta, Old Town anchor)",
+        "Birba (wood-fired)",
+        "Bill's Pizza (Palm Springs, referenced)"
+      ],
+      "notable_independents": [
+        "Coachella Pizza Company (Indio area)",
+        "Mario's Italian Cafes (multi-location)",
+        "Sabatinos (La Quinta)",
+        "Piero's PizzaVino (Palm Desert)"
+      ],
+      "invisible_but_deserving": [
+        "Stuft's structured-data implementation is among the strongest of any independent CV restaurant — multiple JSON-LD Restaurant blocks, FAQPage schema, full OpeningHoursSpecification — yet it sits below dominant fine-dining names on broad regional queries because the pizza category itself is not editorially prioritized"
+      ],
+      "gap_pattern": "Pizza is the category where structured data quality matters most relative to editorial coverage, yet most CV pizza brands have weak or no schema. Stuft is the outlier in agent-readability."
+    },
+    {
+      "category": "Resort / Hotel-Anchored Dining",
+      "dominant_names": [
+        "Morgan's in the Desert (La Quinta Resort)",
+        "Mister Parker's (Parker Palm Springs)",
+        "Spencer's Restaurant (adjacent to Palm Springs Tennis Club)",
+        "State Fare Bar + Kitchen (Ritz-Carlton Rancho Mirage)",
+        "The Edge Steakhouse (Ritz-Carlton Rancho Mirage)"
+      ],
+      "notable_independents": [
+        "Pinzimini (Westin Rancho Mirage)",
+        "Double Date (Omni Rancho Las Palmas)",
+        "Adobe Grill (La Quinta Resort)",
+        "4 Saints (Kimpton Rowan)",
+        "Bar Issi (Thompson Palm Springs)",
+        "The Restaurant at The Palm Springs Surf Club"
+      ],
+      "invisible_but_deserving": [
+        "State Fare Bar + Kitchen — the Ritz-Carlton's California-cuisine sibling to The Edge, with Master Chef Bruno Lopez (Maîtres Cuisiniers de France member). The Marriott CMS does include JSON-LD with a Restaurant entity for State Fare (servesCuisine American, openingHoursSpecification, PostalAddress), but the venue does not appear in Locale Magazine's Rancho Mirage date-night list which surfaces only The Edge"
+      ],
+      "gap_pattern": "Resort dining concentrates the valley's chef-credentialed venues but suffers from name churn. Morgan's still surfaces Jimmy Schmidt as current chef despite his 2016 departure; bluEmber's early-2026 rebrand to Desert Pearl Bistro Bar has split review history across two Tripadvisor identities; the Palm Springs Surf Club restaurant has cycled through Amala → Navigator → 'The Restaurant' in under three years. Marriott and Hilton CMS pages provide partial schema but no independent restaurant-level structured data."
+    },
+    {
+      "category": "Supper Club / Live-Entertainment Dining",
+      "dominant_names": [
+        "The Purple Room (Palm Springs, referenced)",
+        "Melvyn's Restaurant & Bar (Palm Springs)",
+        "Vicky's of Santa Fe (Indian Wells)",
+        "The Tropicale (Palm Springs)"
+      ],
+      "notable_independents": [
+        "DSRT CLUB / Desert Club (La Quinta, opened 2023)",
+        "Mr. Lyons (Palm Springs)",
+        "Jackalope Ranch (Indio)"
+      ],
+      "invisible_but_deserving": [
+        "DSRT CLUB owns a niche regional supper-club identity alongside The Purple Room but is editorially undercited",
+        "Vicky's of Santa Fe is consistently OpenTable-recognized for live music yet has uneven coverage in Palm Springs Life's Coachella Valley live-music roundups"
+      ],
+      "gap_pattern": "Supper-club identity in CV is heritage-laden but operationally diffuse. Melvyn's leans Sinatra/Old Hollywood; Vicky's leans jazz; The Tropicale leans Pacific Rim/cocktail. None of these venues exposes structured data identifying them as supper clubs specifically, so the category surfaces as 'live music dinner' or 'classic Palm Springs' rather than as a coherent class."
+    },
+    {
+      "category": "American Bar & Grill / Casual Chains",
+      "dominant_names": [
+        "The Cheesecake Factory (The River, Rancho Mirage)",
+        "Yard House (The River, Rancho Mirage)",
+        "Daily Grill (El Paseo)"
+      ],
+      "notable_independents": [
+        "The Hideout Kitchen + Bar (Gardens on El Paseo)",
+        "Arnold Palmer's Restaurant (La Quinta)"
+      ],
+      "invisible_but_deserving": [
+        "The Hideout Kitchen + Bar has a 4.5-star OpenTable presence and is named in Locale Magazine's Palm Desert comfort-food coverage, but its Wix-default LocalBusiness JSON-LD carries an incomplete street address (just 'El Paseo'), suppressing agent confidence"
+      ],
+      "gap_pattern": "Chain dining at The River and the Gardens on El Paseo carries baseline foot traffic but is systematically excluded from curated editorial lists. Cheesecake Factory opened October 12, 2004 and is one of the oldest tenants at The River; this longevity does not translate into editorial visibility."
+    },
+    {
+      "category": "Architectural / Landmark Dining (non-culinary anchors)",
+      "dominant_names": [
+        "McDonald's at Smoke Tree Commons (Palm Springs)"
+      ],
+      "notable_independents": [],
+      "invisible_but_deserving": [],
+      "gap_pattern": "The Smoke Tree Commons McDonald's surfaces as a mid-century-modern architectural reference in some Visit Palm Springs material, but the shopping center was constructed in 2008, not the mid-century era — the building is stylistic homage, not heritage. Agents repeating the 'mid-century modern McDonald's' framing overstate the architectural significance."
+    }
+  ],
+  "closing": "An establishment reading this should locate itself first by corridor, then by category, then by structured-data posture. The valley's dining identity is corridor-segmented: agents answer queries by city or by walkable strip before they answer by cuisine. A venue on El Paseo is being read against Mastro's, Pacifica, Eddie V's, and Wilma & Frieda's; a venue on N. Palm Canyon is being read against Workshop Kitchen, Cheeky's, and Birba; a venue on Indio Blvd is being read against El Mexicali Cafe and Rincón Norteño. Cross-corridor competition is rare and usually editorial rather than algorithmic. Within the assigned corridor and category, the establishment then competes on three independent axes: editorial credential coverage, third-party review volume, and machine-readable structured data on the canonical site. The third axis is the one most establishments underinvest in — and the one where the visibility gap is most quickly closed. Where canonical sites lack JSON-LD Restaurant schema, openingHoursSpecification, machine-readable menus, and current operator names, agents fall back on aggregators that propagate stale ownership, stale chef attributions, and self-attested awards without provenance. The corridor map and the category map both rest on those three axes; the establishment that improves on any of them moves up the answer set without needing new editorial coverage.",
+  "corridors": [
+    {
+      "anchors": [
+        "Workshop Kitchen + Bar",
+        "Cheeky's",
+        "Birba",
+        "Bar Issi (Thompson Palm Springs)",
+        "Sandfish Sushi & Whiskey",
+        "Copley's on Palm Canyon"
+      ],
+      "character": "Design-district destination dining and chef-driven brunch; high editorial density, dense F10 Hospitality cluster (Cheeky's, Birba, Mr. Lyons, Seymour's, Alcazar Hotel), and the Palm Springs concentration most likely to carry national press (Michelin Plate, James Beard design award, USA Today)",
+      "city": "Palm Springs",
+      "name": "Uptown Design District (N. Palm Canyon Drive)",
+      "query_dominance": "Wins 'James Beard Palm Springs', 'Michelin recommended Palm Springs', 'farm-to-table Palm Springs', 'best brunch Palm Springs', 'wood-fired pizza Palm Springs', 'chef-driven sushi Palm Springs'. Frequently grouped together in third-party roundups as the corridor that defines Palm Springs uptown dining identity",
+      "supporting": [
+        "Eight4Nine",
+        "Trio",
+        "Jake's",
+        "Seymour's"
+      ]
+    },
+    {
+      "anchors": [
+        "Le Vallauris",
+        "Spencer's Restaurant",
+        "Melvyn's at the Ingleside Estate",
+        "Tac/Quila",
+        "Bar Cecil (Plaza del Sol, south Palm Canyon)",
+        "Mr. Lyons Steakhouse",
+        "Johnny Costa's Ristorante",
+        "The Tropicale",
+        "4 Saints (Kimpton Rowan)",
+        "Johannes",
+        "Sherman's Deli & Bakery",
+        "Las Casuelas Original",
+        "Las Casuelas Terraza"
+      ],
+      "character": "Heritage and modern fine-dining mixed at high density; Sinatra-era institutions (Melvyn's, Johnny Costa's) co-exist with destination openings (Bar Cecil, 4 Saints, Tac/Quila). South Palm Canyon carries the Sinatra-era Italian-and-steakhouse identity; downtown around Tahquitz Canyon Way carries the Tennis Club historic district and the original Las Casuelas heritage",
+      "city": "Palm Springs",
+      "name": "Downtown Palm Springs (Palm Canyon Drive spine, Plaza del Sol, Tennis Club district, Ingleside Estate)",
+      "query_dominance": "Wins 'historic restaurants Palm Springs', 'most romantic restaurant Palm Springs', 'Sinatra restaurants Palm Springs', 'Rat Pack Palm Springs dining', 'best French restaurant Palm Springs', 'oldest restaurant Palm Springs', 'date night Palm Springs', 'best Mexican restaurant Palm Springs', 'hardest reservation Palm Springs', 'rooftop dining Palm Springs', 'best Jewish deli Palm Springs'",
+      "supporting": [
+        "Cipolline Osteria",
+        "Sammy G's Tuscan Grill",
+        "Il Corso",
+        "Rooster and the Pig",
+        "Maleza",
+        "Clandestino",
+        "FARM"
+      ]
+    },
+    {
+      "anchors": [
+        "Mastro's Steakhouse",
+        "Pacifica Seafood Restaurant",
+        "Mitch's on El Paseo Prime Seafood",
+        "Ristorante Mamma Gina",
+        "Wilma & Frieda's Cafe",
+        "Daily Grill",
+        "The Hideout Kitchen + Bar",
+        "Sullivan's Steakhouse",
+        "Eddie V's Prime Seafood"
+      ],
+      "character": "The valley's marquee upscale shopping/dining stretch; chain-steakhouse and chain-seafood density (Mastro's, Eddie V's, Sullivan's, Morton's, Ruth's Chris) anchored to two retail centers (The Gardens on El Paseo, Shops on El Paseo). Italian institutions Mamma Gina and Castelli's (one block off on Hwy 111) sit at the corridor's edges. Cuistot's 2025 closure leaves a vacated fine-dining French slot now being repositioned as 'El Paseo Chophouse'",
+      "city": "Palm Desert",
+      "name": "El Paseo",
+      "query_dominance": "Wins 'best steakhouse Palm Desert', 'best seafood Palm Desert', 'fine dining El Paseo', 'OpenTable Diners' Choice Palm Desert', 'best Italian restaurants Palm Desert', 'best brunch Palm Desert', 'live music steakhouse Coachella Valley'",
+      "supporting": [
+        "Castelli's Ristorante",
+        "Chez Pierre Bistro",
+        "Cafe des Beaux-Arts",
+        "Kitchen 86",
+        "Porta Via",
+        "Shorebird Prime Steak & Seafood",
+        "Morton's The Steakhouse",
+        "Ruth's Chris Steak House"
+      ]
+    },
+    {
+      "anchors": [
+        "Wally's Desert Turtle",
+        "Catalan Mediterranean Cuisine",
+        "Willie's Modern Fare",
+        "Las Casuelas Nuevas"
+      ],
+      "character": "Founded by Lord Fletcher Inn (1966, closed 2020, reopening 2026) and now anchored by the 1973 Las Casuelas Nuevas and the 1978 Wally's Desert Turtle. The Via Florencio street dedication marks Del Delgado as the corridor originator. Highway 111 from Cathedral City through Rancho Mirage carries the valley's classical fine-dining identity",
+      "city": "Rancho Mirage",
+      "name": "Highway 111 / Restaurant Row (Rancho Mirage)",
+      "query_dominance": "Wins 'historic restaurants Coachella Valley', 'fine dining Rancho Mirage', 'romantic Rancho Mirage', 'hacienda Mexican Coachella Valley', 'best Spanish restaurant Coachella Valley', 'Restaurant Row Rancho Mirage'",
+      "supporting": [
+        "Shame on the Moon",
+        "Foxy's Kitchen + Bar",
+        "Lord Fletcher Inn (reopening 2026)",
+        "Si Bon (Monterey Ave)",
+        "Babe's Bar-B-Que & Brewery"
+      ]
+    },
+    {
+      "anchors": [
+        "The Cheesecake Factory",
+        "Yard House",
+        "P.F. Chang's",
+        "Babe's Bar-B-Que & Brewery",
+        "Acqua California Bistro"
+      ],
+      "character": "High-traffic casual-dining and chain anchor cluster opened in 2001 (some sources cite 2002). The River drives baseline foot traffic for the Rancho Mirage dining map but is editorially deprioritized in favor of independent neighbors",
+      "city": "Rancho Mirage",
+      "name": "The River",
+      "query_dominance": "Wins 'restaurants at The River Rancho Mirage', 'chain restaurants Coachella Valley', 'happy hour The River Rancho Mirage', 'casual American Highway 111 Rancho Mirage', '100+ beers on tap Rancho Mirage'",
+      "supporting": [
+        "BJ's Restaurant & Brewhouse (nearby Palm Desert)",
+        "Roy's Hawaiian Fusion (Rancho Mirage, now closed but still surfacing as open on some legacy listings)"
+      ]
+    },
+    {
+      "anchors": [
+        "The Edge Steakhouse (Ritz-Carlton)",
+        "The Steakhouse at Agua Caliente",
+        "State Fare Bar + Kitchen (Ritz-Carlton)",
+        "Double Date (Omni Rancho Las Palmas, opened November 2025)",
+        "Desert Pearl Bistro Bar (formerly bluEmber, Omni Rancho Las Palmas)",
+        "Pinzimini (Westin)"
+      ],
+      "character": "Resort-restaurant cluster spread across the Bob Hope Drive / Frank Sinatra Drive / Dinah Shore Drive grid. The Edge owns the cliffside view-driven luxury identity; Agua Caliente carries the valley's only Forbes Four-Star designation; State Fare functions as the Ritz's California-cuisine sibling. Omni Rancho Las Palmas in early 2026 rebranded bluEmber to Desert Pearl Bistro Bar, splitting review history",
+      "city": "Rancho Mirage",
+      "name": "Ritz-Carlton bluff / Agua Caliente / Omni Rancho Las Palmas (resort cluster)",
+      "query_dominance": "Wins 'Forbes Four-Star restaurant Coachella Valley', 'cliffside dining Coachella Valley', 'best view restaurant Coachella Valley', 'Wagyu steakhouse Rancho Mirage', 'casino fine dining Rancho Mirage', 'Ritz-Carlton Rancho Mirage dining'",
+      "supporting": [
+        "Oceana Rancho Mirage (Hwy 111 corridor)"
+      ]
+    },
+    {
+      "anchors": [
+        "Morgan's in the Desert (La Quinta Resort)",
+        "Lavender Bistro",
+        "Arnold Palmer's Restaurant",
+        "La Quinta Cliffhouse Grill and Bar",
+        "Stuft Pizza Bar & Grill",
+        "Adobe Grill (La Quinta Resort)"
+      ],
+      "character": "Old Town La Quinta walkable strip plus the surrounding resort cluster (La Quinta Resort & Club, PGA West) and Hwy 111 corridor. The corridor mixes Old Town walking destinations (Stuft, Lavender Bistro, DSRT Club) with destination-anchor properties (Morgan's, Arnold Palmer's, Cliffhouse at Point Happy). The Madison Club anchors the private-club tier",
+      "city": "La Quinta",
+      "name": "Old Town La Quinta + Highway 111 (La Quinta)",
+      "query_dominance": "Wins 'best fine dining La Quinta', 'La Quinta Resort dining', 'best romantic restaurant La Quinta', 'cliffside dining Coachella Valley', 'best patio La Quinta', 'Old Town La Quinta restaurants', 'best pizza La Quinta', 'best French restaurant La Quinta', 'PGA West dining'",
+      "supporting": [
+        "La Brasserie Bistro & Bar",
+        "Okura Robata Grill & Sushi Bar",
+        "Fisherman's Market & Grill",
+        "DSRT CLUB (Desert Club)",
+        "Ernie's Bar & Grill at PGA West",
+        "Louise's Pantry",
+        "Sabatinos",
+        "The Hideaway (private)",
+        "The Madison Club (private)"
+      ]
+    },
+    {
+      "anchors": [
+        "Jackalope Ranch",
+        "El Mexicali Cafe / Cafe II",
+        "Cafe at Shields (Shields Date Garden)",
+        "TKB Bakery & Deli",
+        "Sloan's Restaurant (referenced)"
+      ],
+      "character": "Festival-adjacent Indio dining anchored by destination properties (Jackalope Ranch on Hwy 111, Shields Date Garden as a 17-acre agricultural-tourism anchor since 1924). El Mexicali Cafe II won USA Today Restaurants of the Year 2026 — the most consequential national recognition currently held by an Indio independent. Indio Blvd carries the city's heritage Mexican identity (Rincón Norteño 1964, El Mexicali Cafe 1981) and the Arriola's tortilleria lineage (1927)",
+      "city": "Indio",
+      "name": "Festival-adjacent Indio (Highway 111 and Indio Blvd)",
+      "query_dominance": "Wins 'best BBQ Indio', 'best sandwich Coachella Valley' (TKB), 'best date shake Coachella Valley', 'oldest tortilleria Southern California', 'where to eat near Empire Polo Club', 'Coachella festival food', 'best mariscos Coachella' (overlap with Coachella city), 'authentic Mexican Indio'",
+      "supporting": [
+        "Ciro's Ristorante & Pizzeria",
+        "Rincón Norteño",
+        "Arriola's Tortilleria",
+        "Keedy's (Indio expansion, 2023)",
+        "Wilma & Frieda's (Palm Desert sister)"
+      ]
+    },
+    {
+      "anchors": [
+        "El Tranvia",
+        "Jalisco Restaurant",
+        "Mariscos El Capitan"
+      ],
+      "character": "The valley's densest heritage-Mexican corridor, anchored on a four-block stretch of 6th Street in Coachella. Lineage runs from the Arriola's tortilleria origin (1927, just north in Indio) through Jalisco (1980) and El Tranvia's Coachella storefront (~15 years, family lineage to 1969 Michoacán). Mariscos El Capitan and adjacent seafood concepts anchor the Cesar Chavez St spine",
+      "city": "Coachella",
+      "name": "Downtown Coachella / 6th Street historic core",
+      "query_dominance": "Wins 'where to eat in Coachella', 'best Mexican Coachella', 'handmade tortillas Coachella', 'best mariscos Coachella', 'authentic Mexican East Valley', 'Coachella city dining'",
+      "supporting": [
+        "Taqueria & Birrieria Guadalajara",
+        "Taco Shop 760",
+        "Birrieria San Marcos",
+        "Sushi y Mariscos Guamuchil"
+      ]
+    },
+    {
+      "anchors": [
+        "Nobu (Indian Wells Tennis Garden)",
+        "Vicky's of Santa Fe"
+      ],
+      "character": "Year-round fine-dining and live-entertainment anchored by Indian Wells Tennis Garden (Nobu permanent fixture since February 2023, formerly a BNP Paribas Open pop-up since 2014) and the Indian Wells Golf Resort. Vicky's of Santa Fe has anchored the independent live-music supper-club identity since 1989",
+      "city": "Indian Wells",
+      "name": "Indian Wells (resort corridor + Tennis Garden)",
+      "query_dominance": "Wins 'sushi Indian Wells', 'Japanese-Peruvian Coachella Valley', 'best fine dining Indian Wells', 'BNP Paribas Open dining', 'live music dinner Indian Wells'",
+      "supporting": [
+        "The Nest",
+        "Vue Grille & Bar (Indian Wells Golf Resort)",
+        "Kestrel: A Richard Blais Kitchen + Lounge",
+        "Pink Cabana at Sands Hotel"
+      ]
+    }
+  ],
+  "gap_diagnostic": "The category-wide pattern is a triple-layered visibility deficit. First, structured-data absence: of the 80 entities assessed, the majority of canonical restaurant sites carry no JSON-LD Restaurant schema, no machine-readable openingHoursSpecification, no Menu schema, and no Open Graph metadata adequate for agent ingestion. The few exceptions — Stuft Pizza Bar & Grill's full Restaurant/FAQPage JSON-LD, Marriott's Ritz-Carlton CMS for State Fare and The Edge, the corporate site for Mastro's — are themselves often blocked by Cloudflare bot challenges, anti-bot 403s, or WAF rules that prevent agent crawlers from reading the structured data that is present. The result is that agents systematically read CV dining through third-party aggregators (OpenTable, Yelp, Tripadvisor, Visit Greater Palm Springs, Palm Springs Life directory) rather than first-party sources. Second, ownership and chef staleness: aggregators carry data from the moment a listing was created and rarely update through ownership transitions. Le Vallauris is now Soho House-portfolioed; Spencer's transitioned from the Matzner Trust to Nachhattar Singh Chandi in June 2026; Morgan's in the Desert still surfaces Jimmy Schmidt as current chef despite his November 2016 departure; The Palm Springs Surf Club restaurant has cycled through Amala → Navigator → 'The Restaurant' in under three years; bluEmber rebranded to Desert Pearl Bistro Bar in early 2026 with reviews fragmented across two Tripadvisor identities; Cuistot closed in 2025 but its canonical site still markets a spring prix fixe menu; Roy's Hawaiian Fusion in Rancho Mirage is closed but Palm Springs Life, 10best, Visit Greater Palm Springs, and several aggregators still list it as if operating. Third, geographic skew toward Palm Springs and Palm Desert at the expense of East Valley heritage: the oldest continuously operating Mexican food businesses in the region — Arriola's Tortilleria (1927), Rincón Norteño (1964), El Tranvia family lineage (1969 Michoacán), Jalisco (1980), El Mexicali Cafe (1981) — are systematically under-described in agent answers. Arriola's has no first-party site at all; El Tranvia's tranviarestaurant.com is parked; Rincón Norteño's site is a clean brochure without structured data; Mariscos El Capitan's site lists an inaccurate address. The category-wide cumulative effect is that agents answering 'best restaurants Coachella Valley' overweight Palm Springs and Palm Desert chain steakhouses and fine-dining venues, underweight East Valley independents with longer continuous histories, and propagate ownership and operational claims that are several years to a decade out of date.",
+  "overview": "Coachella Valley dining, as agents currently read it, is a corridor-segmented geography of roughly 80 verified entities concentrated in seven discrete dining strips — uptown design district Palm Springs, downtown Palm Springs, El Paseo in Palm Desert, the Highway 111 restaurant row anchored by Rancho Mirage, The River shopping/dining complex, Old Town La Quinta with its surrounding resort cluster, and festival-adjacent Indio along Highway 111 and Indio Boulevard. A smaller but distinct East Valley corridor on Coachella's 6th Street and Cesar Chavez Street carries the densest heritage-Mexican identity in the region. Within these corridors, agent visibility is dominated by editorially-credentialed anchors — Workshop Kitchen + Bar, Bar Cecil, Le Vallauris, Wally's Desert Turtle, Mastro's Steakhouse, Morgan's in the Desert, Cheeky's, Sherman's Deli — whose Yelp, OpenTable, and Tripadvisor footprints exceed 1,000 reviews and whose credential narratives (Michelin Plate, Forbes Four-Star, Wine Spectator Award, AAA Four Diamond, James Beard) are widely repeated. The mid-tier surfaces selectively, usually only in city-specific or cuisine-specific queries.\\n\\nWhere the map breaks down is in three predictable patterns. First, ownership and chef staleness propagates aggressively: agents continue to credit chefs who departed years ago (Jimmy Schmidt at Morgan's left in 2016, Michael Hung at the Palm Springs Surf Club departed in 2025), describe restaurants as continuously operating that closed or rebranded (Cuistot closed 2025, Lord Fletcher's closed 2020 and reopening 2026 as Lord Fletcher Inn, bluEmber rebranded to Desert Pearl Bistro Bar in early 2026, Smoke Tree BBQ closed but still in aggregator lists, Roy's Hawaiian Fusion closed but still in Palm Springs Life listings), and conflate sibling concepts under shared brands (the three Las Casuelas restaurants, the two Sherman's Deli locations, the two El Mexicali Cafe locations). Second, structured-data scarcity is near-universal: of the 80 venues assessed, only a handful carry credible schema.org Restaurant markup with hours, menus, and addresses in machine-readable form. The rest either present clean human-readable content with no JSON-LD (Workshop Kitchen + Bar, Cheeky's, Bar Cecil, Le Vallauris, Wally's Desert Turtle, Sherman's), block automated fetchers entirely (Birba, Vicky's of Santa Fe, Castelli's, Mr. Lyons, theedgesteakhouse.com, mrlyonsf10.com), or have no functioning first-party domain at all (Arriola's, El Tranvia). Third, editorial weight skews toward Palm Springs and Palm Desert: East Valley heritage venues with multi-decade continuous family ownership — Arriola's (1927), Rincón Norteño (1964), El Tranvia (Coachella storefront ~15 years, family lineage 1969), Jalisco (1980), El Mexicali Cafe (1981) — are systematically under-described in valley-wide agent answers despite being older than most of the Palm Springs anchors that dominate the results.\\n\\nThis report maps where the dining identity actually sits, where the visibility gaps cluster, and where 'invisible but deserving' venues are being misread by agents reading a stale corpus.",
+  "relationships_narrative": "The competitive structure of Coachella Valley dining runs along three intersecting axes — corridor proximity, cuisine category, and credential tier — and these axes determine which venues win which queries. On the corridor axis, El Paseo and downtown Palm Springs are the two corridors where dining identity is most editorially contested. El Paseo's fine-dining cluster (Mastro's, Eddie V's, Sullivan's, Morton's, Ruth's Chris, Pacifica, Mitch's, Mamma Gina, Daily Grill) competes against itself for 'best fine dining Palm Desert' queries, with the chains carrying credential and structured-data advantages and Mitch's serving as the independent counterweight. Downtown Palm Springs is more fragmented: Le Vallauris, Spencer's, Melvyn's, Johnny Costa's, and Copley's hold the heritage tier; Bar Cecil, 4 Saints, Tac/Quila, and Workshop Kitchen + Bar hold the modern destination tier; the Tropicale, Mr. Lyons, and the Purple Room compete for the supper-club identity; Sherman's and Cheeky's anchor the deli and brunch categories. Rancho Mirage's Highway 111 corridor and its resort cluster compete in parallel — Wally's Desert Turtle holds the date-night anchor query against The Edge Steakhouse, Catalan, and Willie's Modern Fare on the corridor, while The Steakhouse at Agua Caliente holds the credential anchor against The Edge inside the resort tier.\\n\\nOn the cuisine axis, the most visible competition is in Italian, where Johnny Costa's, Castelli's, Mamma Gina, Birba, Bar Issi, Pinzimini, Double Date, and Ciro's all compete for editorial coverage that surfaces mostly in city-specific or corridor-specific contexts; no single Italian venue dominates the valley-wide 'best Italian Coachella Valley' query, and the Palm Springs Life Readers' Choice Best Italian streak (held by Johnny Costa's for a reported 13–15 consecutive years) is the most-cited credential. French cuisine concentrates in Palm Desert and La Quinta with Le Vallauris as the Palm Springs anchor; Cuistot's 2025 closure leaves a vacated French anchor on El Paseo. Mexican is fragmented along east-west lines: heritage in Indio and Coachella, elevated and modern in Palm Springs (Tac/Quila, Maleza, Clandestino). Sushi and Japanese are dominated by Nobu (Indian Wells) and Sandfish (Palm Springs), with Okura's 21-year La Quinta tenure largely invisible to editorial roundups. Steakhouses split along independent-versus-chain lines: The Edge, The Steakhouse at Agua Caliente, and Mr. Lyons on the independent side; Mastro's, Sullivan's, Morton's, Eddie V's, and Ruth's Chris on the chain side.\\n\\nOn the credential axis, the valley's only Forbes Travel Guide Four-Star restaurant is The Steakhouse at Agua Caliente, which it owns alongside an 18-year Wine Spectator Award of Excellence streak. AAA Four Diamond credentials are held by Wally's Desert Turtle (since 1993 per the restaurant, continuity not independently confirmed), The Steakhouse at Agua Caliente, and historically by Le Vallauris and Morgan's. Michelin Plate recognition for the 2024 and 2025 California guides is held by Bar Cecil, Workshop Kitchen + Bar, Tac/Quila, and Cheeky's, with Sandfish and 4 Saints also appearing as Michelin Recommended in those guides. James Beard Foundation recognition at the restaurant level is held by Workshop Kitchen + Bar (Outstanding Restaurant Design for SOMA Architects in 2015). DiRoNA membership is claimed by Wally's Desert Turtle, Chez Pierre, and La Quinta Cliffhouse, though current-year status was not independently verified against DiRoNA's roster. USA Today national recognition is held by El Mexicali Cafe II (Restaurants of the Year 2026) and Rooster and the Pig (Top 47 Restaurants 2025, often misframed as a 2026 win). National recognition is the credential tier where editorial coverage and agent surfacing diverge most sharply from review-volume and structured-data signals — venues with national press but weak schema (Rooster and the Pig, El Mexicali Cafe II) under-surface relative to their credentials, while venues with strong schema but no national press over-surface relative to theirs.",
+  "title": "The Coachella Valley Dining Map: Corridors, Categories, and Agent-Visibility Gaps",
+  "total_entities_mapped": 80
+}

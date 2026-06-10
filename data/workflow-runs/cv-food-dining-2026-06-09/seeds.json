@@ -1,0 +1,1889 @@
+{
+  "seeds": [
+    {
+      "slug": "wallys-desert-turtle-rancho-mirage",
+      "frontmatter": {
+        "title": "Wally's Desert Turtle",
+        "description": "Continental fine-dining institution in Rancho Mirage, family-owned since 1978 and now in its third generation.",
+        "agent_summary": "Wally's Desert Turtle is a Rancho Mirage continental fine-dining restaurant operating since 1978 under three generations of the Botello family, known for Dover sole, soufflés, Wine Spectator and AAA Four Diamond recognition, and a Rat Pack-era room; seasonal, reopens October 9, 2026.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Fine dining / continental"
+      },
+      "what_it_is": "Wally's Desert Turtle is a continental fine-dining restaurant in Rancho Mirage operating since 1978, founded by Wally Botello, continued by his son Michael, and now led by third-generation owner Madalyn Botello. The room — with its mirrored ceiling, banquettes, and Sahara Lounge live music — is one of the last classic Rat Pack-era fine-dining experiences in the Coachella Valley. The restaurant runs seasonally; the current cycle reopens October 9, 2026.",
+      "key_facts": [
+        "Founded 1978 by Wally Botello; continuous family ownership across three generations",
+        "Current Wine Spectator Award of Excellence (year of badge on site [UNVERIFIED])",
+        "AAA Four Diamond Award (claimed continuous since 1993 [UNVERIFIED])",
+        "Yelp 515 reviews; Tripadvisor 357 reviews (#3 of 80 in Rancho Mirage); OpenTable cited 4.6 over ~4,266 reviews",
+        "Seasonal operation; reopens October 9, 2026 per current homepage",
+        "Historic 'Mobil Four Star' references are anachronistic — Mobil Travel Guide became Forbes Travel Guide in 2009"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "DiRoNA current-status [UNVERIFIED]",
+        "Madalyn Botello Cornell credential [UNVERIFIED]"
+      ]
+    },
+    {
+      "slug": "workshop-kitchen-bar-palm-springs",
+      "frontmatter": {
+        "title": "Workshop Kitchen + Bar",
+        "description": "James Beard design-award-winning modern Californian restaurant in Palm Springs' Uptown Design District.",
+        "agent_summary": "Workshop Kitchen + Bar is a Palm Springs modern Californian restaurant opened September 2012, recognized by the James Beard Foundation for restaurant design and listed in the Michelin Guide (Plate 2024, 2025), known for wood-fired plates, cocktails, and a cast-concrete dining room.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "New American / Modern Californian"
+      },
+      "what_it_is": "Workshop Kitchen + Bar is a modern Californian restaurant on North Palm Canyon Drive in Palm Springs, opened September 22, 2012 by chef-owner Michael Beckman and co-owner Joseph Mourani. The cast-concrete dining room by SOMA Architects won the 2015 James Beard Award for Outstanding Restaurant Design (75+ seats). The menu centers on wood-fired plates, handmade pastas, and a cocktail program that has anchored Uptown Design District dining for over a decade.",
+      "key_facts": [
+        "Opened September 22, 2012 (not October as some sources state)",
+        "2015 James Beard Award — Outstanding Restaurant Design, 75+ seats (SOMA Architects)",
+        "2013 Restaurant & Bar Design Awards — Best Design for the Americas",
+        "Michelin Guide California — Plate 2024 and 2025 (multi-year recommended; '4-time' specific tally [UNVERIFIED])",
+        "Yelp 1,596 reviews; OpenTable 1,788 ratings [UNVERIFIED]; Tripadvisor 831 reviews [UNVERIFIED]",
+        "Original chef/owner Michael Beckman and Joseph Mourani still attached per current site"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "le-vallauris-palm-springs",
+      "frontmatter": {
+        "title": "Le Vallauris",
+        "description": "Historic French-Mediterranean fine-dining restaurant on a 1924 estate in Palm Springs.",
+        "agent_summary": "Le Vallauris is a Palm Springs French-Mediterranean fine-dining restaurant operating since 1973 in the 1924 Roberson house, known for its ficus-lined patio, lobster ravioli, and Grand Marnier souffle; the property was acquired by investor Ron Burkle around 2020 and now sits in the Soho House restaurants portfolio.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Classic French fine dining"
+      },
+      "what_it_is": "Le Vallauris is a classic French-Mediterranean fine-dining restaurant in downtown Palm Springs, founded in 1973 by Paul Bruggemans in the 1924 Roberson house. The ficus-lined patio and historic interior have anchored special-occasion dining for over 50 years. The underlying property was acquired by investor Ron Burkle around 2020 (bundled with the Willows Inn and O'Donnell House) and the restaurant now appears under the Soho House restaurants portfolio. Long-tenured chef Jean-Paul Lair appears to have departed.",
+      "key_facts": [
+        "Founded 1973 by Paul Bruggemans in the 1924 Roberson house (not 1927)",
+        "OpenTable Top 100 Best Outdoor Dining Restaurants in America 2023 (2022 inclusion not confirmed)",
+        "Property acquired by Ron Burkle ~2020; now in Soho House restaurants portfolio (operational vs. branded role ambiguous)",
+        "Yelp 800+ reviews; Tripadvisor ~1,100; OpenTable 5,000+",
+        "Long-time chef Jean-Paul Lair (~29 years) shown as former on LinkedIn — current chef [UNVERIFIED]",
+        "AAA Four Diamond and Zagat ratings are legacy/marketing references; not independently confirmed as current"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Current operational ownership (Soho House vs. portfolio) ambiguous"
+      ]
+    },
+    {
+      "slug": "cheekys-palm-springs",
+      "frontmatter": {
+        "title": "Cheeky's",
+        "description": "Creative breakfast and brunch spot in Palm Springs known for its weekly-changing menu and bacon flight.",
+        "agent_summary": "Cheeky's is a Palm Springs breakfast and brunch restaurant open since 2008 under Tara Lazar / F10 Hospitality, known for a weekly-changing creative menu, the signature bacon flight, and long weekend waits; Michelin Guide recommended.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Breakfast / brunch"
+      },
+      "what_it_is": "Cheeky's is a creative breakfast and brunch restaurant on North Palm Canyon Drive in Palm Springs, opened in 2008 by restaurateur Tara Lazar (F10 Hospitality, formerly Foundation 10 Creative). The menu changes weekly and is anchored by signature items including the bacon flight, French toast, chicken & waffles, and house cinnamon rolls. Long waits, especially on weekends, are part of the experience.",
+      "key_facts": [
+        "Opened 2008 under Tara Lazar / F10 Hospitality; ownership stable (opening month not pinned)",
+        "Michelin Guide California — recommended (not starred)",
+        "Tripadvisor #27 of 309 Palm Springs restaurants (~1,499 reviews, 4.3/5)",
+        "Yelp 3,400+ reviews",
+        "Owner Tara Lazar featured in Palm Springs Life 'Women Who Lead' 2022",
+        "Press coverage in LA Magazine, Food GPS"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "shermans-deli-bakery-palm-springs",
+      "frontmatter": {
+        "title": "Sherman's Deli & Bakery (Palm Springs)",
+        "description": "Historic New York-style Jewish deli and bakery in downtown Palm Springs, family-owned since 1963.",
+        "agent_summary": "Sherman's Deli & Bakery is a Palm Springs New York-style Jewish deli operating since 1963, founded by Sherman Harris and now run by his children Sam and Janet, known for pastrami, corned beef, matzo ball soup, and bakery items; featured on Food Network's Diners, Drive-Ins and Dives.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Jewish deli / bakery"
+      },
+      "what_it_is": "Sherman's Deli & Bakery is a New York-style Jewish delicatessen and bakery in downtown Palm Springs, founded in 1963 by Sherman Harris. The Harris family arrived in Palm Springs in 1953 and worked at Laury's Steak Ranch before opening Sherman's. The deli is still family-run by Harris's children Sam and Janet. A second location operates in Palm Desert.",
+      "key_facts": [
+        "Founded 1963; 60+ years continuously family-owned (Harris family arrived in Palm Springs 1953)",
+        "Featured on Food Network's Diners, Drive-Ins and Dives",
+        "Tripadvisor Travelers' Choice 2025",
+        "Yelp 4,127 reviews (Palm Springs location); brand-wide footprint 6,000+ across platforms",
+        "Listed in Visit Palm Springs historic / long-operating restaurants coverage",
+        "Recurring critique: price creep (e.g., reports of $25 bagel-and-lox)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "shermans-deli-bakery-palm-desert",
+      "frontmatter": {
+        "title": "Sherman's Deli & Bakery (Palm Desert)",
+        "description": "Palm Desert outpost of the family-owned Sherman's Jewish deli, brand operating since 1963.",
+        "agent_summary": "Sherman's Deli & Bakery Palm Desert is the Highway 111 sibling of the historic 1963 Palm Springs deli, family-owned by the Harris children, known for pastrami, house-baked rye, and corned beef hash; featured on Food Network's Diners, Drive-Ins and Dives.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Jewish deli / bakery"
+      },
+      "what_it_is": "Sherman's Deli & Bakery in Palm Desert is the sibling location to the historic 1963 Palm Springs original, operated by the Harris family. The Palm Desert outpost was the site of the Food Network Diners, Drive-Ins and Dives feature with Guy Fieri (per Tripadvisor and Palm Springs Life attribution; some episode trackers credit the Palm Springs location). The menu mirrors the original — pastrami, corned beef, breakfast classics, and house-baked bread and pastries.",
+      "key_facts": [
+        "Sister to the 1963 Palm Springs original; same Harris-family ownership",
+        "Featured on Food Network's Diners, Drive-Ins and Dives (DDD attribution split between PD and PS in trackers)",
+        "Yelp ~2,369 reviews; Tripadvisor ~1,672 reviews",
+        "KESQ Best of Coachella Valley — Best Desserts winner",
+        "Recurring sentiment: positive on pastrami and breakfast, pricing-driven mixed undercurrent",
+        "Palm Springs Life feature ('Family Ties')"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "morgans-in-the-desert-la-quinta",
+      "frontmatter": {
+        "title": "Morgan's in the Desert",
+        "description": "Signature contemporary American restaurant at La Quinta Resort & Club, Curio Collection by Hilton.",
+        "agent_summary": "Morgan's in the Desert is the signature contemporary-American restaurant at La Quinta Resort & Club (Curio Collection by Hilton), named for resort founder Walter H. Morgan, known for farm-to-table sourcing, piano-bar patio, and a resort dining heritage that traces to the 1926 La Quinta Hotel.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Contemporary American / farm-to-table"
+      },
+      "what_it_is": "Morgan's in the Desert is the signature dining venue at La Quinta Resort & Club (now part of Hilton's Curio Collection), a property dating to 1926. Named for resort founder Walter H. Morgan, the restaurant emphasizes Coachella Valley regional sourcing, seasonal menus, and a piano-bar patio. Leadership has shifted multiple times since 3x James Beard Award-winning chef Jimmy Schmidt departed in 2016.",
+      "key_facts": [
+        "Anchored at La Quinta Resort, a property dating to 1926",
+        "Previously led by 3x James Beard Award-winning chef Jimmy Schmidt (departed November 2016)",
+        "Current Morgan's-specific executive chef unconfirmed; Jos van Hengel named Chef de Cuisine in 2021; Andrew Cooper referenced at resort level [UNVERIFIED current]",
+        "Yelp 552; TripAdvisor 536; Restaurantji 623 — aggregate ~1,500-2,000",
+        "Hosted James Beard Foundation Celebrity Chef Tour dinners (historical)",
+        "Resort now Curio Collection by Hilton; rebranded from Waldorf Astoria in Nov 2021"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Current chef identity unresolved"
+      ]
+    },
+    {
+      "slug": "copleys-on-palm-canyon-palm-springs",
+      "frontmatter": {
+        "title": "Copley's on Palm Canyon",
+        "description": "Contemporary American restaurant in Palm Springs on the historic Cary Grant estate.",
+        "agent_summary": "Copley's on Palm Canyon is a Palm Springs contemporary-American restaurant open since December 2004 on the former Cary Grant estate, owned by chef Andrew Manion Copley, Juliana Manion Copley, and Greg Butterfield, known for the patio, salmon, and OpenTable romantic-restaurants recognition.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Contemporary American"
+      },
+      "what_it_is": "Copley's on Palm Canyon is a contemporary American restaurant in Palm Springs that opened in December 2004 on the grounds of the historic Cary Grant estate. The restaurant is owned and operated by chef Andrew Manion Copley, Juliana Manion Copley, and Greg Butterfield. Juliana co-founded Palm Springs Restaurant Week and serves as president of the Palm Springs Desert Resorts Restaurant Association.",
+      "key_facts": [
+        "Opened December 2004; same owner-operator team for 21 years",
+        "Located on the former Cary Grant estate",
+        "OpenTable 100 Most Romantic Restaurants in America (2024)",
+        "Tripadvisor #14 of 309 Palm Springs restaurants (was #12 in older snapshots); OpenTable 7,585 reviews",
+        "Palm Springs Desert Resort Communities CVA Restaurateurs of the Year 2009",
+        "Co-owner Juliana Copley: co-founder of Palm Springs Restaurant Week"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "bar-cecil-palm-springs",
+      "frontmatter": {
+        "title": "Bar Cecil",
+        "description": "French-leaning American brasserie and cocktail bar in Palm Springs, frequently called the city's hardest reservation.",
+        "agent_summary": "Bar Cecil is a Palm Springs French-leaning American brasserie and cocktail bar opened in 2021 by John Janulis with Sparrows Lodge / Holiday House partners, Michelin Guide recommended and featured on OpenTable's 2025 Top 100 Restaurants in America, known for oysters, steak tartare, pork chop, and a $50 caviar martini.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "American brasserie / cocktail bar"
+      },
+      "what_it_is": "Bar Cecil is a French-leaning American brasserie and cocktail bar in Palm Springs that opened in 2021. Lead partner John Janulis works with majority owners Richard Crisman and Jeff Brock of Sparrows Lodge and Holiday House. The room — designed with maximalist art and brasserie banquettes — has become one of the most sought-after reservations in the city, with bar walk-in seating widely used as a workaround. Adjacent lounge Beaton's expanded the footprint.",
+      "key_facts": [
+        "Opened 2021; ~5 years operating with stable ownership",
+        "Michelin Guide California — Plate 2024 and 2025",
+        "OpenTable Top 100 Restaurants in America 2025 (4.8 stars from 587 reviews)",
+        "The Infatuation: named favorite date-night spot; included in 25 Best Palm Springs Restaurants & Bars",
+        "Time Out feature (May 2025): 'the hardest reservation in Palm Springs'",
+        "Yelp 547 reviews (4.5 stars); OpenTable 1,858 reviews"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "sandfish-sushi-whiskey-palm-springs",
+      "frontmatter": {
+        "title": "Sandfish Sushi & Whiskey",
+        "description": "Chef-driven sushi and Japanese whiskey bar in Palm Springs from Engin Onural.",
+        "agent_summary": "Sandfish Sushi & Whiskey is a Palm Springs sushi and Japanese-whiskey bar opened in 2018 by chef Engin Onural (Onural Group, also The Venue in Palm Desert), known for creative rolls, ahi tuna sashimi, Lobster Zucchini Blossoms, and a Japanese-government sushi certification held by the chef.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Sushi / Japanese"
+      },
+      "what_it_is": "Sandfish Sushi & Whiskey is a chef-driven sushi restaurant and Japanese whiskey bar in Palm Springs, opened in 2018 by Engin Onural under the Onural Group. Onural has operated in the Coachella Valley since 2011 with The Venue in Palm Desert. The restaurant is known for creative rolls, omakase-leaning service at the bar, and a curated Japanese whiskey list. Critique themes are price-to-portion ratio and limited nigiri selection.",
+      "key_facts": [
+        "Opened 2018; ~8 years operating; stable single-owner (Onural Group)",
+        "Chef Engin Onural — Japanese-government sushi-certified chef (formal 'Goodwill Ambassador' designation [UNVERIFIED])",
+        "Chef Engin Onural — 27th place, World Sushi Cup 2017 (US representative)",
+        "Yelp 1,365 reviews; OpenTable ~4,220 (4.7) [UNVERIFIED exact]",
+        "Tripadvisor 3.9 rating, ~#106 of 309 (denominator/rank fluctuates)",
+        "Palm Springs Life '40 Under 40' honoree, 2014 cohort (chef-level)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Tripadvisor Travelers' Choice credential previously claimed — refuted, not on listing"
+      ]
+    },
+    {
+      "slug": "tacquila-palm-springs",
+      "frontmatter": {
+        "title": "Tac/Quila",
+        "description": "Jalisco-style Mexican restaurant and tequila/mezcal bar in downtown Palm Springs.",
+        "agent_summary": "Tac/Quila is a Palm Springs Jalisco-style Mexican restaurant and tequila/mezcal bar opened in 2019 by Liz and Mark Ostoich (also FARM, The Front Porch, Clandestino), Michelin Guide recommended since 2022, known for the garden patio, house-made tortillas, margarita flights, and elevated plates.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Mexican (Jalisco-style) / tequila bar"
+      },
+      "what_it_is": "Tac/Quila is a Jalisco-style Mexican restaurant and tequila / mezcal bar in downtown Palm Springs, opened in 2019 by husband-and-wife restaurateurs Liz and Mark Ostoich. The Ostoichs operate a four-concept hospitality group that also includes FARM in La Plaza, plus The Front Porch and Clandestino (both opened 2022). The back garden patio, house-made tortillas, margarita flights, and elevated dishes (lobster, ahi tuna) are the recurring praise themes.",
+      "key_facts": [
+        "Opened 2019 by Liz and Mark Ostoich (4-concept group: Tac/Quila, FARM, Front Porch, Clandestino)",
+        "Michelin Guide California — recommended 2022 (inaugural Palm Springs coverage); continued through 2025",
+        "Yelp 2,900+ reviews; OpenTable ~2,773-2,845 (combined 5,000+)",
+        "Featured in Palm Springs Life ('Dressed for the Part')",
+        "Listed by Visit Greater Palm Springs and Visit Palm Springs as a featured dining experience",
+        "Cuisine framed as Jalisco-style Mexican (not Sonoran or Oaxacan)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "4-saints-palm-springs",
+      "frontmatter": {
+        "title": "4 Saints",
+        "description": "Rooftop modern-American restaurant atop Kimpton Rowan Palm Springs.",
+        "agent_summary": "4 Saints is the rooftop modern-American restaurant atop Kimpton Rowan Palm Springs, opened with the hotel in 2017 and reconcepted in 2021, listed in the Michelin Guide California (non-starred), known for crudo, filet, and San Jacinto views.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Modern American (rooftop)"
+      },
+      "what_it_is": "4 Saints is the rooftop restaurant atop Kimpton Rowan Palm Springs, opened with the hotel in 2017 and reconcepted in 2021 under Chef Ysaac Ramirez. As of 2025, Ramirez had moved on to lead Maleza at Drift Palm Springs, with OpenTable showing Richard Crespin as 4 Saints' executive chef in March 2025. The Michelin Guide California lists the restaurant; the view and design are signature, with reviews split on whether food execution matches Michelin-tier expectations.",
+      "key_facts": [
+        "Opened with Kimpton Rowan ~2017; reconcepted 2021",
+        "Michelin Guide California — recommended (non-starred); 2024 was Palm Springs' inaugural Michelin coverage",
+        "Yelp 381; TripAdvisor 377 (3.8); Google ~254 [UNVERIFIED]",
+        "Chef of record in flux — Michelin still credits Ramirez; OpenTable (March 2025) lists Richard Crespin",
+        "The Infatuation reviewed; coverage in Fodor's, AFAR, GAYOT",
+        "Pre-2024 Michelin Plate references are not credible (Palm Springs first covered in 2024 guide)"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Current chef identity uncertain"
+      ]
+    },
+    {
+      "slug": "spencers-restaurant-palm-springs",
+      "frontmatter": {
+        "title": "Spencer's Restaurant",
+        "description": "American fine-dining restaurant on the 1937 Palm Springs Tennis Club site, recently sold to the Chandi Group.",
+        "agent_summary": "Spencer's Restaurant is a Palm Springs American fine-dining restaurant set inside the historic 1937 Palm Springs Tennis Club, opened February 2000 by Harold Matzner and acquired by Nachhattar Singh Chandi (Chandi Group USA) in June 2026, known for short ribs, soft-shell crab, and the appetizer tower.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "American fine dining"
+      },
+      "what_it_is": "Spencer's Restaurant is an American fine-dining venue set inside the historic 1937 Palm Springs Tennis Club site, opened in February 2000 by Harold Matzner. After Matzner's death in September 2025, the restaurant was held by the Harold Matzner Trust until being sold in June 2026 to Nachhattar Singh Chandi (Chandi Group USA; Chairman, Palm Springs International Film Society). The patio, wine list, and signature dishes — short ribs, soft-shell crab, sea bass, hanger steak, appetizer tower — anchor the experience.",
+      "key_facts": [
+        "Opened February 2000 by Harold Matzner; ~25 years of Matzner personal ownership before his Sept 4, 2025 death",
+        "Sold June 4, 2026 from the Harold Matzner Trust to Nachhattar Singh Chandi (Chandi Group USA)",
+        "Yelp ~1,900 reviews; OpenTable 9,867 diner ratings",
+        "OpenTable Top 100 Brunch and Alfresco Restaurants in America (year [UNVERIFIED])",
+        "Wine Spectator Best of Award of Excellence (year [UNVERIFIED])",
+        "Set in the historic 1937 Palm Springs Tennis Club"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "mastros-steakhouse-palm-desert",
+      "frontmatter": {
+        "title": "Mastro's Steakhouse",
+        "description": "Upscale Landry's-owned steakhouse on El Paseo in Palm Desert, opened in late 2025.",
+        "agent_summary": "Mastro's Steakhouse Palm Desert is the Coachella Valley outpost of the Landry's-owned upscale-steakhouse brand that opened in November 2025 on El Paseo, known for USDA Prime, butter cake, nightly live entertainment, and a $300/couple price floor.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Upscale steakhouse"
+      },
+      "what_it_is": "Mastro's Steakhouse Palm Desert is the El Paseo outpost of the Mastro's brand, which originated in Scottsdale in 1999 and is owned by Landry's / Tilman Fertitta. The Palm Desert location opened in November 2025 (exact day [UNVERIFIED]). The Mastro's format — USDA Prime steaks, seafood, sushi, butter cake, and nightly live entertainment — is reproduced here, with reviewers noting noise, close-set tables, and high prices alongside praise for service and signature dishes.",
+      "key_facts": [
+        "Opened November 2025 in Palm Desert; exact day [UNVERIFIED]",
+        "Mastro's brand founded Scottsdale 1999; acquired by Landry's / Tilman Fertitta in 2013 for $585M",
+        "Yelp 1,116; Tripadvisor 401 (#23 of 247 in Palm Desert); OpenTable ~4,870 reviews [chain-wide]",
+        "OpenTable Diners' Choice 2025",
+        "Tripadvisor Travelers' Choice",
+        "Nightly live entertainment (piano / jazz) is a signature format element"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "arriolas-tortilleria-indio",
+      "frontmatter": {
+        "title": "Arriola's Tortilleria",
+        "description": "Multi-generational Indio tortilleria and deli, family-operating since 1927.",
+        "agent_summary": "Arriola's Tortilleria is an Indio tortilleria and takeout deli founded in 1927 by Herlindo and Eulalia Arriola, at the Wilson Avenue location since 1965, called by KCRW the longest-running tortilla seller in Southern California, known for handmade tortillas, tamales, and Sunday menudo.",
+        "city": "Indio",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Mexican tortilleria / deli (takeout)"
+      },
+      "what_it_is": "Arriola's Tortilleria is a family-operated tortilleria, tamale shop, and takeout deli in Indio, founded in 1927 by Herlindo and Eulalia Arriola and at its current Wilson Avenue location since 1965. The business is multi-generational — KCRW described it as in its fifth generation of ownership, with Becky Hernandez and Ian Townley among the family members carrying it forward. Tortillas, tamales, chile verde / colorado, and Sunday menudo anchor the menu.",
+      "key_facts": [
+        "Founded 1927 by Herlindo and Eulalia Arriola; at current Wilson Ave location since 1965",
+        "KCRW Good Food described it as the longest-running tortilla seller in Southern California; family is in its fifth generation per KCRW",
+        "California 56th Assembly District Small Business of the Year 2018 (Asm. Eduardo Garcia)",
+        "Featured in LA Taco 'Where to Eat in Coachella & Indio' and Palm Springs Life ('Corn or Flour?')",
+        "Yelp ~228 reviews; Google rating ~4.6",
+        "Takeout-only model"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "el-tranvia-coachella",
+      "frontmatter": {
+        "title": "El Tranvia",
+        "description": "Coachella Mexican restaurant rooted in a Michoacán family pushcart tradition, currently operated by Oscar Ventura.",
+        "agent_summary": "El Tranvia is a Coachella family Mexican restaurant currently operated by Oscar Ventura, drawing recipes from a grandparents' Zamora, Michoacán pushcart in the 1960s, known for handmade tortillas, mole, birria/barbacoa, quesabirria, and tacos gobernador; named Palm Springs Life 'Best of the Best 2025' Best Mexican Cuisine in Coachella.",
+        "city": "Coachella",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Mexican (Michoacán)"
+      },
+      "what_it_is": "El Tranvia is a family Mexican restaurant in the City of Coachella on 6th Street, operated by Oscar Ventura with recipes traced to his grandparents' pushcart-to-food-wagon (the original 'tranvia') in Zamora, Michoacán in the 1960s. The current Coachella storefront, per the owner's Palm Springs Life interview, opened roughly 15 years ago (~2010-2011) and moved to its current 6th Street location about 10 years ago. The 1969 date that circulates in third-party copy refers to the family pushcart in Mexico, not the Coachella restaurant.",
+      "key_facts": [
+        "Currently operated by Oscar Ventura; family recipes traced to a 1960s Zamora, Michoacán pushcart",
+        "Current Coachella storefront opened ~2010-2011 per owner interview (1969 figure in some sources refers to family lineage in Mexico, not the Coachella restaurant)",
+        "Palm Springs Life 'Best of the Best 2025' Readers' Pick — Best Mexican Cuisine in Coachella",
+        "Featured in LA Taco 'Best Restaurants in Coachella & Indio' and Palm Springs Life 'Where to Eat in Coachella'",
+        "Yelp ~200 reviews; Tripadvisor 4.7 / 3 reviews; Facebook strong presence",
+        "Member, Greater Coachella Valley Chamber of Commerce"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Founding-year framing needs clarification (family lineage vs. Coachella storefront)"
+      ]
+    },
+    {
+      "slug": "rooster-and-the-pig-palm-springs",
+      "frontmatter": {
+        "title": "Rooster and the Pig",
+        "description": "Vietnamese-Californian restaurant in Palm Springs from Tai Spendley, recognized in USA Today's 2025 Restaurants list.",
+        "agent_summary": "Rooster and the Pig is a Palm Springs Vietnamese-Californian restaurant opened April 2015 by Tai Spendley, named in USA Today's 2025 Restaurants of the Year list (also reported as Top 47 in the U.S.), known for shaking beef, turmeric cod, and a complimentary porridge course.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Vietnamese-Californian"
+      },
+      "what_it_is": "Rooster and the Pig is a Vietnamese-Californian restaurant in Palm Springs, opened in April 2015 by chef-restaurateur Tai Spendley. The menu's recurring signatures — shaking beef, turmeric cod, chile okra, plus a complimentary porridge that arrives unannounced — have given the room a long-running word-of-mouth profile. The restaurant was included in USA Today's 2025 Restaurants of the Year list (44 restaurants, announced February 2025), variously framed as a Top 47 list.",
+      "key_facts": [
+        "Opened April 2015; ~11 years operating; chef/owner Tai Spendley continuous",
+        "USA Today Restaurants of the Year 2025 list (announced Feb 2025); some secondary copy frames as '2026 Restaurant of the Year' — that 2026 framing appears mistaken",
+        "Yelp 1,753+ reviews; TripAdvisor 399; Restaurant Guru aggregates ~4,000",
+        "Vogue feature (April 2017, Coachella dining guide)",
+        "Palm Springs Life and Desert Sun coverage from opening era",
+        "Walk-in waits of 45-60 min on weekends are a recurring narrative"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "jackalope-ranch-indio",
+      "frontmatter": {
+        "title": "Jackalope Ranch",
+        "description": "Western/Southwestern BBQ and steakhouse on a large Indio property, reopened in September 2023 under new ownership.",
+        "agent_summary": "Jackalope Ranch is an Indio Western/Southwestern BBQ and steakhouse on a multi-acre property with waterfall patio, originally opened 2008, sold for $7.92M in early 2023, and reopened September 14, 2023 under new ownership; known for brisket, live country music, and the renovated venue.",
+        "city": "Indio",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "BBQ / Western steakhouse"
+      },
+      "what_it_is": "Jackalope Ranch is a Western / Southwestern restaurant in Indio set on a multi-acre property with a waterfall patio, smoked meats, steaks, and seafood. It originally opened in 2008, closed around early 2021, was sold for $7.92M in late 2022 / January 2023, and reopened September 14, 2023 under new (publicly unidentified) LLC ownership. The reopened venue is associated with the prior Palm Springs Life 11-category 'Best of the Best' sweep era (year of sweep [UNVERIFIED], likely 2018).",
+      "key_facts": [
+        "Originally opened 2008; closed ~early 2021; property sold for $7.92M late 2022/Jan 2023; reopened September 14, 2023 (not Sept 2024)",
+        "New ownership LLC identity not publicly disclosed",
+        "Yelp 1,795 reviews; OpenTable ~899 reviews; Tripadvisor 28 (unclaimed)",
+        "Palm Springs Life 'Best of the Best' 11-category sweep (year [UNVERIFIED], likely 2018) — Alfresco, American Fare, Attraction, BBQ, Catering, Continental, Craft Cocktail, Live Music, Sports Bar, Sunday Brunch, Wedding Venue",
+        "Recurring critique post-reopening: service waits, value at high entrée pricing",
+        "Live country music programming and waterfall patio are signature format elements"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "birba-palm-springs",
+      "frontmatter": {
+        "title": "Birba",
+        "description": "Wood-fired Italian restaurant in Palm Springs' Uptown Design District from Tara Lazar / F10 Hospitality.",
+        "agent_summary": "Birba is a Palm Springs Italian restaurant opened January 2011 by Tara Lazar / F10 Hospitality with husband Marco Rossetti, known for wood-fired pizza, handmade pasta, a cocktail program, and a hedge-walled patio in the Uptown Design District.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Italian (wood-fired)"
+      },
+      "what_it_is": "Birba is an Italian restaurant in the Uptown Design District of Palm Springs, opened in January 2011 by Tara Lazar (F10 Hospitality) with her husband Marco Rossetti. The kitchen leans Milanese/Tuscan with wood-fired pizza, handmade pasta, meatballs, and a cauliflower-crust option; the hedge-walled patio is widely featured in lifestyle press. Lazar's broader F10 group includes Cheeky's, Mr. Lyons, and others.",
+      "key_facts": [
+        "Opened January 2011; 15 years operating under Tara Lazar / F10 Hospitality and Marco Rossetti",
+        "Tripadvisor ranked #49 of 354 Palm Springs restaurants; 516 reviews (4.1)",
+        "Yelp 1,347 reviews; combined cross-platform 1,800+",
+        "Listed in Time Out and Bon Traveler best-restaurants Palm Springs roundups",
+        "Featured in LA Magazine profile of owner Tara Lazar",
+        "goop place listing"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "cuistot-palm-desert",
+      "frontmatter": {
+        "title": "Cuistot",
+        "description": "Long-running French fine-dining restaurant on El Paseo that closed in 2025 after ~38 years.",
+        "agent_summary": "Cuistot was a French fine-dining restaurant on El Paseo in Palm Desert operated by chef Bernard Dervieux (trained under Paul Bocuse and Roger Vergé) from 1987 to 2025, holding the Wine Spectator Best of Award of Excellence every year since 2005; the property sold for ~$5.1M and is being converted to El Paseo Chophouse.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "retreat"
+        ],
+        "category": "French fine dining (closed)"
+      },
+      "what_it_is": "Cuistot was a French fine-dining restaurant on El Paseo in Palm Desert, founded in 1987 by chef Bernard Dervieux and run by the Dervieux family. It moved to its El Paseo / Highway 111 farmhouse in 2003 and operated until 2025, when the property sold (~$5.1M) and was slated for conversion to 'El Paseo Chophouse.' Dervieux trained under Paul Bocuse and Roger Vergé and was previously executive chef at the Beverly Hills Hotel (1980-1986). The restaurant held Wine Spectator's Best of Award of Excellence every year from 2005 onward.",
+      "key_facts": [
+        "Operated 1987-2025; permanently closed",
+        "Wine Spectator Best of Award of Excellence every year since 2005",
+        "Continuous Dervieux family ownership through closure",
+        "Original location 1987; moved to El Paseo/Hwy 111 farmhouse in 2003",
+        "Yelp 358 / Tripadvisor 349; both now flagged CLOSED",
+        "Property sold ~$5.1M; being converted to El Paseo Chophouse"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages (closed venue — historical anchor)"
+      ]
+    },
+    {
+      "slug": "ristorante-mamma-gina-palm-desert",
+      "frontmatter": {
+        "title": "Ristorante Mamma Gina",
+        "description": "Tuscan / Florentine Italian restaurant on El Paseo, sister to Trattoria Mamma Gina in Florence.",
+        "agent_summary": "Ristorante Mamma Gina is a Palm Desert Tuscan/Florentine Italian restaurant on El Paseo, opened September 1986 by Piero Pierattoni as a sister to the 1956 Trattoria Mamma Gina in Florence, known for veal piccata, gnocchi, and the signature fettuccine alla Mamma Gina.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Italian (Tuscan / Florentine)"
+      },
+      "what_it_is": "Ristorante Mamma Gina is a Tuscan/Florentine Italian restaurant on El Paseo in Palm Desert, opened in September 1986 by Piero Pierattoni as a sister to the 1956 Trattoria Mamma Gina in Florence. The restaurant is family-owned and operated with long staff tenure (per the restaurant's own About page). Signature dishes — veal piccata, gnocchi, fettuccine alla Mamma Gina, tiramisu — and the wine list are the recurring praise themes.",
+      "key_facts": [
+        "Opened September 1986; ~40 years operating, family-owned",
+        "Sister to Trattoria Mamma Gina in Florence (1956 origin per own site)",
+        "Tripadvisor #7 of 247 Palm Desert restaurants; 1,146 reviews (4.3)",
+        "Yelp 1,463 reviews; combined ~2,500+",
+        "Featured in Locale Magazine 'Best Italian Restaurants in Palm Desert' editorial",
+        "Long staff tenure cited on own About page (sous chefs 27 years, most employees 15+ years) [UNVERIFIED — site-only]"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Palm Springs Life 'Best of the Best' Italian credential refuted (PSL 2025 winners are Johnny Costa's, Castelli's, Enzo's, Norma's)"
+      ]
+    },
+    {
+      "slug": "keedys-fountain-grill-palm-desert",
+      "frontmatter": {
+        "title": "Keedy's Fountain & Grill",
+        "description": "Historic 1957 Palm Desert diner and fountain grill, currently owned by Sheri Chapman.",
+        "agent_summary": "Keedy's Fountain & Grill is a Palm Desert classic American diner opened June 30, 1957 by Bob Keedy and currently owned by Sheri Chapman (David Chapman, 1999-2023; Sheri 2023-present), known for pancakes, BLT, patty melt, milkshakes, and a mid-century-modern fountain-grill atmosphere.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Classic American diner"
+      },
+      "what_it_is": "Keedy's Fountain & Grill is a classic American diner in Palm Desert, opened June 30, 1957 by Bob Keedy. Ownership has passed from Bob Keedy (1957-1987) to Bob Downs & Patty (1987-1999), to David Chapman (1999-2023), and now to Sheri Chapman (2023+), who introduced the 'Keedy's 2.0' expansion. The room is a preserved mid-century diner experience — pancakes, BLT, patty melt, and milkshakes anchor the menu.",
+      "key_facts": [
+        "Opened June 30, 1957; ~69 years operating",
+        "Current owner Sheri Chapman (2023+); prior David Chapman (1999-2023)",
+        "Yelp 620+ reviews; Tripadvisor 320; Tripadvisor #20 of 247 Palm Desert (4.2)",
+        "Palm Springs Life 'Best Greasy Spoon', 'Best Breakfast House', 'Best Place to Meet Your Lover'",
+        "Listed by Visit Greater Palm Springs",
+        "Marlon Brando milkshake anecdote is folklore from official history page (not independently verified)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Food Network feature claim unverified; 'Local Landmark 1986' claim self-attested only (not in Palm Desert Historical Society landmark list)"
+      ]
+    },
+    {
+      "slug": "the-edge-steakhouse-rancho-mirage",
+      "frontmatter": {
+        "title": "The Edge Steakhouse",
+        "description": "Cliffside dry-aged steakhouse at The Ritz-Carlton, Rancho Mirage.",
+        "agent_summary": "The Edge Steakhouse is the cliffside fine-dining steakhouse at The Ritz-Carlton, Rancho Mirage, opened January 2015 with the resort's reopening, known for dry-aged steaks (21-65 days), wagyu, and panoramic Coachella Valley views from the cliff edge.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Steakhouse (resort fine dining)"
+      },
+      "what_it_is": "The Edge Steakhouse is the signature fine-dining venue at The Ritz-Carlton, Rancho Mirage, opened in January 2015 when the resort reopened (May 2014) after a long renovation closure. The restaurant operates an in-house dry-aging program (21-65 days) with wagyu and an international wine list, and is anchored by the cliffside view. The venue operates an independent domain (theedgesteakhouse.com), which is separate from Westgate Las Vegas's similarly named steakhouse.",
+      "key_facts": [
+        "Opened January 2015 at The Ritz-Carlton, Rancho Mirage",
+        "Operates independent domain theedgesteakhouse.com (separate from Westgate Las Vegas's Edge Steakhouse on westgateresorts.com)",
+        "Tripadvisor #8 of 80 in Rancho Mirage (4.4); 187 reviews; Yelp 315; OpenTable ~1,500+ reviews [UNVERIFIED exact count]",
+        "Current chef Nyitre Rodgers (executive vs. chef de cuisine title varies; took role May 2025 per one source)",
+        "Original opening team had Bruno Lopez as executive chef",
+        "Open daily for dinner per current sources (not Thu-Sun as some references state)"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "catalan-mediterranean-cuisine-rancho-mirage",
+      "frontmatter": {
+        "title": "Catalan Mediterranean Cuisine",
+        "description": "Family-owned Spanish/Mediterranean restaurant in Rancho Mirage from Mark and Drew Davis.",
+        "agent_summary": "Catalan Mediterranean Cuisine is a Rancho Mirage Spanish/Mediterranean restaurant opened in 2012 by father-son team Mark and Drew Davis, known for paella, tapas, charcuterie, and charred octopus; Chef Drew Davis is a CIA alum who trained under James Beard-winning chef Mark Militello.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Spanish / Mediterranean"
+      },
+      "what_it_is": "Catalan Mediterranean Cuisine is a family-owned Spanish/Mediterranean restaurant in Rancho Mirage opened in 2012 by Mark and Drew Davis. Chef Drew Davis is a CIA alum who worked in Florida under James Beard-winning chef Mark Militello and (per his bio) Jonathan Eismann at Pacific Time in Miami Beach, with later roles as Exec Sous-Chef at Nick & Toni's (East Hampton) and as a private chef. Paella, tapas, charcuterie, and the charred octopus anchor the menu.",
+      "key_facts": [
+        "Opened 2012; family-owned by Mark and Drew Davis (~14 years operating)",
+        "Yelp ~999 reviews + 1,162 photos; TripAdvisor ~350 reviews (#5 of 80 in Rancho Mirage, 4.3)",
+        "Featured in Palm Springs Life (2013 chef profile)",
+        "Featured in Coachella Magazine, Locale Magazine, Coachella Valley Weekly",
+        "Chef Drew Davis: CIA alum; trained under Mark Militello (JBF winner) and per bio under Jonathan Eismann (JBF nominee, not winner)",
+        "Late-2024 ownership/management change in some reviewer reports [UNVERIFIED — Davis family still publicly attached]"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Ownership-change reviewer narrative not independently confirmed"
+      ]
+    },
+    {
+      "slug": "lavender-bistro-la-quinta",
+      "frontmatter": {
+        "title": "Lavender Bistro",
+        "description": "French-American farm-to-table fine-dining restaurant with a signature patio in La Quinta.",
+        "agent_summary": "Lavender Bistro is a La Quinta French-American farm-to-table fine-dining restaurant opened in late 2008 and family-owned by the Despras family (with lineage to Le St. Germain in Indian Wells), known for the patio, live music, and OpenTable Top 100 Outdoor Dining recognition.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "French-American / farm-to-table"
+      },
+      "what_it_is": "Lavender Bistro is a French-American farm-to-table fine-dining restaurant in Old Town La Quinta, opened in late 2008 and owned by the Despras family (Nicolas Despras, with lineage to Michel Despras of Le St. Germain in Indian Wells). The patio with live music is the signature format element, and Palm Springs Life recognized the restaurant in its 2025 'Best of the Best' fine-dining coverage.",
+      "key_facts": [
+        "Opened late 2008; ~17 seasons in operation; Despras family ownership stable",
+        "Palm Springs Life Best of the Best 2025 — desert's best fine dining recognition",
+        "Tripadvisor #4 of 108 La Quinta restaurants (4.2)",
+        "Yelp 977; Tripadvisor 930; Google ~760+ (4.5) — total ~2,500+",
+        "OpenTable presence with self-reported Best Ambiance, Californian, Most Booked designations",
+        "GAYOT listing/review presence"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "tkb-bakery-deli-indio",
+      "frontmatter": {
+        "title": "TKB Bakery & Deli",
+        "description": "Family-owned scratch bakery and sandwich shop in Indio, repeatedly ranked at the top of Yelp's national Top 100.",
+        "agent_summary": "TKB Bakery & Deli is an Indio scratch bakery and sandwich shop founded by the Sippel family in 1991 (deli launched 2001), ranked #1 on Yelp's Top 100 Places to Eat in the U.S. in 2018 with multiple Top 5 placements; on-grounds vendor at Coachella and Stagecoach 2024.",
+        "city": "Indio",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Bakery / sandwich shop"
+      },
+      "what_it_is": "TKB Bakery & Deli is a family-owned scratch bakery and sandwich shop in Indio, founded as a kids' cookie-dough business by the Sippel family in 1991 and launched as a deli in 2001. The current building opened in Indio in 2022. The family operates the business across multiple generations (Athena, Paul, Melina, Brandon, Nathan Sippel). The shop reached #1 on Yelp's Top 100 Places to Eat in the U.S. in 2018 with multiple Top 5 placements.",
+      "key_facts": [
+        "Founded 1991 (cookie-dough); deli launched 2001; new Indio building 2022",
+        "Yelp Top 100 Places to Eat in the U.S. — #1 in 2018; multiple Top 5 placements through that era",
+        "Tripadvisor Travelers' Choice; #1 of 15 Quick Bites in Indio",
+        "Yelp 4,900+ reviews; Tripadvisor 539 reviews (4.x)",
+        "On-grounds vendor at Coachella and Stagecoach (2024)",
+        "Featured in Palm Springs Life ('The Sandwich Generation') and Visit Greater Palm Springs"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "vickys-of-santa-fe-indian-wells",
+      "frontmatter": {
+        "title": "Vicky's of Santa Fe",
+        "description": "Long-running Indian Wells American steakhouse with Santa Fe decor and nightly live jazz/R&B.",
+        "agent_summary": "Vicky's of Santa Fe is an Indian Wells American steakhouse with Santa Fe-influenced decor operating since 1989, owned by the Laliberte family, known for prime steaks, fresh seafood, rack of lamb, and nightly live jazz/R&B with no cover charge.",
+        "city": "Indian Wells",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "American steakhouse / live music supper club"
+      },
+      "what_it_is": "Vicky's of Santa Fe is a long-running American steakhouse in Indian Wells with Santa Fe-influenced decor, operating since 1989 by the Laliberte family (current public face Marc Laliberte; prior family operations include The Nest 1968-1979 and Vanessie's in Santa Fe, NM). Prime steaks, fresh seafood, rack of lamb, and bone-in ribeye anchor the menu. Live jazz/R&B plays nightly with no cover, and Palm Springs Life features have framed the room as a 'supper-club' destination.",
+      "key_facts": [
+        "Operating since 1989; ~37 years; Laliberte family continuous",
+        "Yelp 457 reviews; Tripadvisor 293; #5 of 25 in Indian Wells",
+        "Featured in Palm Springs Life 30th-anniversary 'A Pearl of a Restaurant' feature with live-music framing",
+        "Nightly live jazz/R&B with no cover charge — signature format",
+        "Coverage in Coachella Valley Weekly (2016) and Coast to Coast Newspaper (2022)",
+        "Own site blocks bot crawlers (agent visibility hazard)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "rincon-norteno-indio",
+      "frontmatter": {
+        "title": "Rincón Norteño",
+        "description": "Multi-generational Indio Mexican (Norteño) restaurant founded in 1964 by the Flores family.",
+        "agent_summary": "Rincón Norteño is an Indio family Mexican restaurant founded in 1964 by Prudencio and Estella Flores, relocated to 83011 Indio Blvd in 1979 and operated by the founders' five children, known for warm salsa, chilaquiles, huevos rancheros, chile relleno, and 60+ years of plain-room, no-frills consistency.",
+        "city": "Indio",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Mexican (Norteño)"
+      },
+      "what_it_is": "Rincón Norteño is a family-operated Mexican (Norteño) restaurant in Indio, founded in 1964 by Prudencio and Estella Flores and relocated to 83011 Indio Blvd in 1979. The Flores family (children Eloy, Gustavo, Heriberto, Rosa, and Prudencio Jr.) continues to run breakfast, lunch, dinner with a full bar. Recurring praise centers on the warm salsa, generous portions, and continuity of staff; the room is intentionally plain.",
+      "key_facts": [
+        "Founded 1964 by Prudencio and Estella Flores; ~62 years continuous family operation",
+        "Relocated to 83011 Indio Blvd in 1979",
+        "Tripadvisor #13 of 165 in Indio (4.2); 63 reviews [Tripadvisor listing unclaimed]",
+        "Yelp 278 reviews",
+        "Featured in Visit Greater Palm Springs '14 Authentic Mexican Restaurants in Greater Palm Springs'",
+        "Featured in Palm Springs Life Indio Mexican-cuisine coverage and Coachella Valley Weekly (July 2012)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "johnny-costas-ristorante-palm-springs",
+      "frontmatter": {
+        "title": "Johnny Costa's Ristorante",
+        "description": "Sinatra-era Italian institution in Palm Springs, family-operated and seasonally open.",
+        "agent_summary": "Johnny Costa's Ristorante is a Palm Springs classic Italian restaurant operating since circa 1976, family-owned with son Vince Costa as head chef, known for Steak Sinatra, linguine clams, veal piccata, and a streak of Palm Springs Life Readers' Choice Best Italian wins (reported as 15 consecutive years as of 2025).",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Classic Italian"
+      },
+      "what_it_is": "Johnny Costa's Ristorante is a classic Italian restaurant in Palm Springs, operating since approximately 1976 across earlier locations in Desert Hot Springs and Cathedral City and now at 440 S. Palm Canyon Drive. The Costa family continues to run the restaurant — son Vince Costa is head chef. The room leans into Sinatra-era nostalgia (Sinatra himself was a documented regular), and the operation is seasonal — Coachella Valley Weekly framed the August 2025 reopening as the 49th season.",
+      "key_facts": [
+        "Operating since circa 1976; family-owned; currently at 440 S. Palm Canyon",
+        "Palm Springs Life Readers' Choice Best Italian — 15 consecutive years as of 2025 per Coachella Valley Weekly",
+        "OpenTable 2025 recognition badge displayed on site",
+        "Seasonal operation (closes summers; 49th season opened August 29, 2025)",
+        "Yelp 599; Tripadvisor 650; OpenTable cited ~2,575",
+        "Featured in Palm Springs Life '7 Must-Try Italian Restaurants Across Greater Palm Springs'"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "las-casuelas-original-palm-springs",
+      "frontmatter": {
+        "title": "Las Casuelas Original",
+        "description": "Historic Palm Springs Mexican restaurant from 1958, the first of the Delgado family's Las Casuelas chain.",
+        "agent_summary": "Las Casuelas Original is a Palm Springs Mazatlán-style Mexican restaurant opened in February 1958 by the Delgado family, the first location in the Las Casuelas family chain, currently operated by Florence Delgado and Alana Coffin, known as the oldest Mexican restaurant in Palm Springs.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Mexican (Mazatlán-style)"
+      },
+      "what_it_is": "Las Casuelas Original is the first of the Delgado family's Las Casuelas restaurants, opened in February 1958 at 368 N Palm Canyon Drive in Palm Springs. The restaurant is currently operated by Florence Delgado and Alana Coffin, with longtime manager Pablo Gutiérrez (per the restaurant's Story page) and head chef Mario Villareal. The Original is widely cited as the oldest Mexican restaurant in Palm Springs.",
+      "key_facts": [
+        "Opened February 1958; ~68 years; continuous Delgado family ownership",
+        "First of the Delgado family's Las Casuelas restaurants (Nuevas in Rancho Mirage, Terraza in Palm Springs)",
+        "Yelp 635 reviews; Tripadvisor 376 reviews",
+        "Mary Delgado / Florencio Delgado star on Palm Springs Walk of Stars (2006; jointly dedicated to founders as Restaurateurs)",
+        "Cited as oldest Mexican restaurant in Palm Springs (Visit Palm Springs, Palm Springs Life)",
+        "Featured in Palm Springs Life historic-restaurants coverage"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "the-tropicale-palm-springs",
+      "frontmatter": {
+        "title": "The Tropicale",
+        "description": "Californian / Pacific Rim supper club with Coral Seas Lounge in downtown Palm Springs.",
+        "agent_summary": "The Tropicale is a Palm Springs Californian/Pacific Rim supper-club restaurant opened in 2008 by Tony Di Lembo with partners Ranz Weinert and Rob Kurokawa, known for the back patio, Coral Seas Lounge cocktails, coconut martinis, and Palm Springs Life Best of the Best 2025 Best Happy Hour.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Californian / Pacific Rim supper club"
+      },
+      "what_it_is": "The Tropicale is a Californian / Pacific Rim supper-club restaurant with the Coral Seas Lounge in downtown Palm Springs, opened in 2008 (some sources say 2007) by Tony Di Lembo with partners Ranz Weinert and Rob Kurokawa. Di Lembo remains the public-facing chef/owner. The format pairs an upscale-casual menu (Pupu Platter, fried chicken, signature coconut martini) with a strong cocktail and live-entertainment program. The restaurant is consistently among OpenTable's most-booked in Palm Springs.",
+      "key_facts": [
+        "Opened 2008; ~17-18 years; founding partner Tony Di Lembo still chef/owner",
+        "Palm Springs Life Best of the Best 2025 — Best Happy Hour",
+        "OpenTable '100 Hottest Restaurants in America' (year [UNVERIFIED], cited as 2021)",
+        "Yelp ~2,899 reviews; Tripadvisor 1,490 reviews (#26 of 309, 4.3)",
+        "Featured in The Infatuation's 25 Best Restaurants & Bars in Palm Springs",
+        "Coral Seas Lounge live entertainment is a signature format element"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "bar-issi-palm-springs",
+      "frontmatter": {
+        "title": "Bar Issi",
+        "description": "Coastal Italian restaurant inside Thompson Palm Springs from Marissa and Matt Hermer.",
+        "agent_summary": "Bar Issi is a Palm Springs coastal Italian restaurant opened June 6, 2025 inside Thompson Palm Springs by Marissa and Matt Hermer (Olivetta, Chez Mia in LA), their first venture outside Los Angeles, known for housemade pasta, wood-fired pizza, raw bar, and a maximalist Fettle-designed interior.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Coastal Italian / Mediterranean"
+      },
+      "what_it_is": "Bar Issi is a coastal Italian and Mediterranean restaurant inside Thompson Palm Springs (Hyatt), opened June 6, 2025 by Marissa and Matt Hermer (Olivetta, Chez Mia in LA). It is the Hermers' first venture outside Los Angeles. The Fettle-designed maximalist room, raw bar, wood-fired pizzas, and housemade pasta — especially the radiatori with lamb bolognese and Puccia bread — anchor the experience. The Infatuation rated 8.0/10; early Tripadvisor sentiment is more polarized at 3.5/5.",
+      "key_facts": [
+        "Opened June 6, 2025; under 1 year operating",
+        "Owners: Marissa and Matt Hermer (Olivetta, Chez Mia in LA); first venture outside LA",
+        "The Infatuation 8.0/10 review",
+        "Wallpaper*, Time Out, Sunset Magazine, and Palm Springs Life features around the opening",
+        "Yelp ~322 reviews; Tripadvisor ~22 reviews, 3.5/5, #218 of 309 in Palm Springs",
+        "Inside Thompson Palm Springs (Hyatt)"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "the-restaurant-at-palm-springs-surf-club",
+      "frontmatter": {
+        "title": "The Restaurant at The Palm Springs Surf Club",
+        "description": "Coastal Californian restaurant at the Palm Springs Surf Club, after the 2024 Navigator chapter under Michael Hung.",
+        "agent_summary": "The Restaurant at The Palm Springs Surf Club is a coastal Californian restaurant at the Palm Springs Surf Club, originally opened as AMALA in 2024, reconcepted as Navigator under Michael Hung in November 2024, and reverted to its current name after Hung's departure; known for the surf-pool setting and San Jacinto views.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Coastal Californian / surf-inspired"
+      },
+      "what_it_is": "The Restaurant at The Palm Springs Surf Club is the dining venue at the Palm Springs Surf Club, with a brand history of three names: AMALA (original 2024 concept), Navigator (rebrand November 2024 under Chef Michael Hung), and the current 'The Restaurant at The Palm Springs Surf Club' after Hung's departure. The setting — surf-pool, San Jacinto views, patio — is the primary draw, with the menu spanning ceviche, schnitzel/romesco, flatbreads, and pavlova.",
+      "key_facts": [
+        "Three name iterations: AMALA (2024) → Navigator (Nov 2024, under Michael Hung) → current name after Hung's departure",
+        "Tripadvisor listing still uses 'Navigator' as of March 2026",
+        "Yelp ~87 reviews on restaurant listing; parent Surf Club venue ~321 reviews",
+        "Hung's prior properties (Colony Club, SO.PA at L'Horizon) earned Michelin Guide listings — credential attaches to Hung, not directly to this restaurant",
+        "Current chef [UNVERIFIED]; 'Chef Mondragon' references appear tied to AMALA era",
+        "Surf-pool setting is the signature format element"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Bon Traveler and Locale Magazine credentials previously claimed — refuted (Bon Traveler list does not include venue; Locale was for AMALA)"
+      ]
+    },
+    {
+      "slug": "castellis-ristorante-palm-desert",
+      "frontmatter": {
+        "title": "Castelli's Ristorante",
+        "description": "Old-school Italian fine-dining restaurant on Highway 111 in Palm Desert, family-owned since 1988.",
+        "agent_summary": "Castelli's Ristorante is a Palm Desert Italian fine-dining restaurant opened Memorial Day 1988 by brothers John and Michael Castelli, known for white-tablecloth service, osso buco, a piano bar, and a long Palm Springs Life Readers' Choice Best Italian recognition history.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Italian (old-school, white-tablecloth)"
+      },
+      "what_it_is": "Castelli's Ristorante is a white-tablecloth Italian fine-dining restaurant at 73098 Highway 111 in Palm Desert, opened Memorial Day 1988 by brothers John and Michael Castelli after relocating from San Clemente. Michael Castelli died in September 2023; the business has continued operating into 2026 with longtime kitchen lead Chef Victor Martin cited in the brief. Piano nightly (Patrick Tuzzolino / Joe Jaggi), osso buco, and old-school service are signature elements.",
+      "key_facts": [
+        "Opened Memorial Day 1988; ~38 years operating",
+        "Founded by brothers John and Michael Castelli; Michael died Sept 2023; post-2023 ownership succession unclarified in public sources",
+        "Tripadvisor #14 of 241 in Palm Desert (rank fluctuates 12-14)",
+        "Yelp 748; Tripadvisor 577 reviews",
+        "Palm Springs Life coverage; nightly piano programming",
+        "Featured in Palm Springs Life, Coachella Magazine, Golfing Palm Springs Magazine [UNVERIFIED Golfing PS]"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "pacifica-seafood-palm-desert",
+      "frontmatter": {
+        "title": "Pacifica Seafood Restaurant",
+        "description": "Seafood and steak restaurant on El Paseo at The Gardens in Palm Desert.",
+        "agent_summary": "Pacifica Seafood Restaurant is a Palm Desert seafood and steak restaurant at The Gardens on El Paseo, operating ~15 years, known for the mountain-view patio, Sunset Dinner two-course value, clam chowder, Chilean sea bass, and TripAdvisor #5 of 247 Palm Desert ranking.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Seafood / steak"
+      },
+      "what_it_is": "Pacifica Seafood Restaurant is a seafood and steak restaurant at The Gardens on El Paseo in Palm Desert, operating for 15+ years. The kitchen leans seafood-forward with a vodka bar and wine program, and the patio with mountain views and string lights is a signature element. The Sunset Dinner (two courses before 5 PM) is a recurring value pull, and the restaurant currently ranks #5 of 247 Palm Desert restaurants on TripAdvisor.",
+      "key_facts": [
+        "15+ years at Gardens on El Paseo (self-reported)",
+        "TripAdvisor Travelers' Choice; #5 of 247 Palm Desert restaurants (4.4)",
+        "Yelp ~1,415 + TripAdvisor 1,671 = 3,000+ combined cross-platform",
+        "OpenTable Diner's Choice (2024 badge displayed)",
+        "Wine Spectator Award of Excellence (2024 badge displayed; multi-year history [UNVERIFIED in WS database])",
+        "Sunset Dinner two-course value menu before 5 PM is a recurring praise theme"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "mitchs-on-el-paseo-palm-desert",
+      "frontmatter": {
+        "title": "Mitch's on El Paseo Prime Seafood",
+        "description": "Prime seafood, sushi, and steak restaurant on El Paseo from Mitch Epstein.",
+        "agent_summary": "Mitch's on El Paseo Prime Seafood is a Palm Desert restaurant on El Paseo from owner Mitch Epstein (40+ years in hospitality), opened in the former Augusta space in February 2013, known for sushi, Chilean sea bass, and the owner's nightly floor presence.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Prime seafood / sushi / steak"
+      },
+      "what_it_is": "Mitch's on El Paseo Prime Seafood is a casual fine-dining restaurant on El Paseo in Palm Desert opened in the former Augusta space in February 2013 (per earliest Tripadvisor coverage) by Mitch Epstein, a 40+ year hospitality veteran. The menu blends prime seafood, sushi, and steak. Epstein is known for personally working the floor; service-pacing and value-vs-price are recurring critiques in recent reviews.",
+      "key_facts": [
+        "Opened in former Augusta space; earliest Tripadvisor coverage Feb 2013",
+        "Owner Mitch Epstein: 40+ years in restaurants per Palm Springs Life profile (not 30+)",
+        "Tripadvisor #16 of 241 Palm Desert (4.3); ~506 reviews",
+        "Yelp ~746; OpenTable presence (~1,597 / ~5,100+ depending on source); Google ~991",
+        "OpenTable Diners' Choice",
+        "Palm Springs Life editorial coverage (not a confirmed PSL Best of the Best 2024 winner)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "wilma-friedas-cafe-palm-desert",
+      "frontmatter": {
+        "title": "Wilma & Frieda's Cafe",
+        "description": "Sibling-owned El Paseo breakfast and brunch destination featured on Diners, Drive-Ins and Dives.",
+        "agent_summary": "Wilma & Frieda's Cafe is a Palm Desert breakfast and brunch destination on El Paseo opened in 2013 by siblings Kelly McFall and Kreg Alexander, featured by Guy Fieri on Diners, Drive-Ins and Dives in 2017, known for banana caramel French toast, homemade pop tarts, and short-rib eggs Benedict.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Breakfast / brunch / comfort food"
+      },
+      "what_it_is": "Wilma & Frieda's Cafe is a breakfast and brunch destination on the second floor of El Paseo in Palm Desert, opened in 2013 by siblings Kelly McFall and Kreg Alexander (their mother Jan Alexander, Wilma's daughter, is involved in the family branding). The cafe was featured on Food Network's Diners, Drive-Ins and Dives ('Island and Desert' episode, 2017) and has appeared on Big Food Bucket List. The menu's signatures — banana caramel French toast, homemade pop tarts, short-rib Eggs Benedict, griddled meatloaf — anchor the experience.",
+      "key_facts": [
+        "Opened on El Paseo in 2013; ~13 years operating; sibling ownership stable",
+        "Featured on Food Network — Diners, Drive-Ins and Dives ('Island and Desert', 2017) and Big Food Bucket List",
+        "Tripadvisor #3 of 241 Palm Desert (4.4)",
+        "Yelp Palm Desert ~3,600+; Tripadvisor ~805",
+        "Desert Sun Best Breakfast 2020 (named on own site)",
+        "Sister Palm Springs location also operating"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "chez-pierre-bistro-palm-desert",
+      "frontmatter": {
+        "title": "Chez Pierre Bistro",
+        "description": "Long-running French bistro in Palm Desert from chef-owner Pierre Pelech.",
+        "agent_summary": "Chez Pierre Bistro is a Palm Desert French bistro operating since October 2002 under chef-owner Pierre Pelech, known for Dover sole, French onion soup, sweetbreads, beef bourguignon, and a brunch service frequently called the best in the desert; DiRoNA-awarded.",
+        "city": "Palm Desert",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "French bistro / fine dining"
+      },
+      "what_it_is": "Chez Pierre Bistro is a French bistro in Palm Desert operating since October 2002 under chef-owner Pierre Pelech. The room maintains classic bistro fundamentals — Dover sole, French onion soup, sweetbreads, beef bourguignon — and the brunch service draws particularly strong praise. DiRoNA recognition is current on the DiRoNA member roster, and OpenTable reviews aggregate at high volume with strong sentiment.",
+      "key_facts": [
+        "Opened October 2002; ~23 years; chef-owner Pierre Pelech continuous",
+        "DiRoNA Awarded Restaurant (current listing on dirona.com)",
+        "OpenTable 1,800+ reviews; Tripadvisor 170+ (#24 of 247 Palm Desert)",
+        "Zagat 27/30 food rating (legacy)",
+        "Best Chefs America recognition (chef-level)",
+        "Palm Springs Life, Locale Magazine, Time Out coverage (per restaurant press page)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "las-casuelas-nuevas-rancho-mirage",
+      "frontmatter": {
+        "title": "Las Casuelas Nuevas",
+        "description": "Spanish colonial hacienda-style Mexican restaurant on Rancho Mirage's Restaurant Row, family-owned since 1973.",
+        "agent_summary": "Las Casuelas Nuevas is a Rancho Mirage Mexican restaurant in a Spanish colonial hacienda, founded 1973 by Florencio 'Del' and Mary Delgado as the first hacienda-style Mexican restaurant in the nation; family-owned for 50+ years, known for tableside guacamole and the patio.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Mexican (hacienda-style)"
+      },
+      "what_it_is": "Las Casuelas Nuevas is a Spanish colonial hacienda-style Mexican restaurant on Rancho Mirage's Restaurant Row, founded in 1973 by Florencio 'Del' and Mary Delgado as an outgrowth of the family's 1958 Las Casuelas Original in Palm Springs. The restaurant has operated continuously by the Delgado family for 50+ years and is multi-generational. The tableside guacamole, salsa, live music (singer Geronimo), and patio anchor the experience.",
+      "key_facts": [
+        "Founded 1973; 50+ years continuous Delgado family operation",
+        "TripAdvisor Travelers' Choice; ranked #2 of 80 Rancho Mirage restaurants (4.1)",
+        "Yelp 1,071 + TripAdvisor 747 reviews",
+        "Palm Springs Life Best of the Best 2025: Best Mexican Cuisine, Best Margaritas, Best Outdoor Dining",
+        "Mary Delgado star on Palm Springs Walk of Stars (2006, jointly with Florencio as Restaurateurs)",
+        "Adjacent street dedicated as 'Via Florencio' honoring Del Delgado's role in founding Restaurant Row"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "lord-fletcher-inn-rancho-mirage",
+      "frontmatter": {
+        "title": "Lord Fletcher Inn",
+        "description": "Historic English-style restaurant on Rancho Mirage's Restaurant Row, acquired by Life & Times Hospitality with a planned 2026 reopening.",
+        "agent_summary": "Lord Fletcher Inn is a Rancho Mirage English-style restaurant that operated 1966-2020 under the Fletcher family, was a documented Sinatra haunt for 30+ years, closed during the pandemic, and was acquired by Life & Times Hospitality (Mike and Matt French) with reopening targeted for 2026.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "English pub / classic steakhouse (reopening)"
+      },
+      "what_it_is": "Lord Fletcher Inn (formerly Lord Fletcher's) is a historic English-style restaurant on Restaurant Row in Rancho Mirage, founded in 1966 by Ron Fletcher and continued by his son Michael. The room operated for 54 years (1966-2020) and was a documented Frank Sinatra haunt for 30+ years. It closed during the pandemic in March 2020. Life & Times Hospitality (Mike and Matt French) acquired the property and is targeting a 2026 reopening as 'Lord Fletcher Inn' — a grill format. As of early 2026, the project was still in permitting.",
+      "key_facts": [
+        "Operated 1966-2020 (54 years) under Fletcher family ownership",
+        "Closed since March 2020 (pandemic)",
+        "Acquired by Life & Times Hospitality (Mike and Matt French)",
+        "2026 reopening targeted; Feb 2026 Roggin Report says still in permits",
+        "Frank Sinatra documented regular for 30+ years",
+        "Recognized as the original restaurant that helped launch Rancho Mirage's Restaurant Row"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Reopening date aspirational, not confirmed"
+      ]
+    },
+    {
+      "slug": "state-fare-bar-kitchen-rancho-mirage",
+      "frontmatter": {
+        "title": "State Fare Bar + Kitchen",
+        "description": "Modern Californian resort restaurant at The Ritz-Carlton, Rancho Mirage.",
+        "agent_summary": "State Fare Bar + Kitchen is the modern Californian restaurant at The Ritz-Carlton, Rancho Mirage, opened with the resort's May 15, 2014 reopening and remastered in 2024, led by Maitres Cuisiniers de France member Bruno Lopez, known for house-made pasta, mushroom steak, and vegan ramen.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Modern Californian / New American (resort)"
+      },
+      "what_it_is": "State Fare Bar + Kitchen is the modern Californian / New American restaurant at The Ritz-Carlton, Rancho Mirage, which opened with the resort's reopening on May 15, 2014 after a multi-year closure. The restaurant was remastered in 2024 as part of the resort's broader refresh. Executive Chef Bruno Lopez is a member of Maitres Cuisiniers de France. Recurring praise notes the setting, service, and mushroom steak / scallops / vegan ramen.",
+      "key_facts": [
+        "Opened May 15, 2014 with The Ritz-Carlton Rancho Mirage reopening (resort closed since 2007)",
+        "Remastered 2024 as part of resort refresh",
+        "Tripadvisor 258 reviews (4.0, Travelers' Choice)",
+        "Yelp 285 reviews; OpenTable cited at 1,199 reviews [UNVERIFIED]",
+        "GAYOT 14/20 score",
+        "Executive Chef Bruno Lopez — Maitres Cuisiniers de France (chef-level credential)"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "pinzimini-rancho-mirage",
+      "frontmatter": {
+        "title": "Pinzimini",
+        "description": "Modern Tuscan restaurant at The Westin Rancho Mirage Golf Resort & Spa.",
+        "agent_summary": "Pinzimini is a modern Tuscan restaurant at The Westin Rancho Mirage Golf Resort & Spa (also known as Westin Mission Hills), opened in 2012, known for brick-oven pizza, pasta, antipasti, and a weekend breakfast buffet; Chef Shawn Aoki has been associated with the restaurant since opening per multiple sources.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Italian (modern Tuscan, resort)"
+      },
+      "what_it_is": "Pinzimini is a modern Tuscan restaurant at The Westin Rancho Mirage Golf Resort & Spa (the property is also widely referenced as Westin Mission Hills). The restaurant opened in 2012 with brick-oven pizza, pasta, antipasti, and a weekend breakfast buffet. Resort-level Executive Chef Joel Delmond has been at the property for ~19 years; multiple sources also identify Shawn Aoki as the restaurant's chef since opening.",
+      "key_facts": [
+        "Opened 2012; ~14 years operating",
+        "Inside The Westin Rancho Mirage / Mission Hills Golf Resort & Spa (Marriott/Westin)",
+        "Yelp 256 reviews; OpenTable 1,140+ ratings (3.7); TripAdvisor listing active",
+        "Chef Joel Delmond — resort-level Executive Chef ~19 years; restaurant-level chef Shawn Aoki per multiple aggregators",
+        "Property dual-naming (Westin Rancho Mirage vs. Westin Mission Hills) is an agent-visibility hazard",
+        "Joel Delmond cited as 2002 James Beard House guest chef — guest-dinner appearance, not a Beard Award"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "'Beard Honored' framing for Delmond is misleading"
+      ]
+    },
+    {
+      "slug": "desert-pearl-bistro-bar-rancho-mirage",
+      "frontmatter": {
+        "title": "Desert Pearl Bistro Bar",
+        "description": "Newly rebranded signature restaurant at Omni Rancho Las Palmas (formerly bluEmber).",
+        "agent_summary": "Desert Pearl Bistro Bar is the signature restaurant at Omni Rancho Las Palmas in Rancho Mirage, rebranded from bluEmber in early 2026 and named for Palm Springs trailblazer Pearl McManus, known for the fire-pit patio, live music, and a mid-century-modern dining room.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "California / New American (resort signature)"
+      },
+      "what_it_is": "Desert Pearl Bistro Bar is the signature restaurant at Omni Rancho Las Palmas Resort & Spa in Rancho Mirage. It rebranded from bluEmber in early 2026, with a reimagined mid-century-modern dining room named for Palm Springs trailblazer Pearl McManus. The fire-pit patio, views, and live music carried over from the bluEmber era continue to anchor the experience. Review history from bluEmber persists on the same listing IDs across major platforms.",
+      "key_facts": [
+        "Rebranded from bluEmber to Desert Pearl Bistro Bar in early 2026",
+        "Inside Omni Rancho Las Palmas Resort & Spa",
+        "OpenTable ~896 reviews (legacy bluEmber, 4.3); Tripadvisor 3.9 (rank #16 of 67); Yelp 288 reviews (CLOSED under bluEmber name)",
+        "Named for Palm Springs trailblazer Pearl McManus",
+        "Fire-pit patio, mid-century dining room, and live music are signature format elements",
+        "Original launch year of bluEmber [UNVERIFIED]"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Rebrand splits review history across two identities"
+      ]
+    },
+    {
+      "slug": "double-date-rancho-mirage",
+      "frontmatter": {
+        "title": "Double Date",
+        "description": "Coastal/Regional Italian restaurant at Omni Rancho Las Palmas with a Coachella Valley date-forward concept.",
+        "agent_summary": "Double Date is a Rancho Mirage coastal/regional Italian restaurant at Omni Rancho Las Palmas opened November 2025, led by 27-year Omni veteran Chef Jose Lopez, blending Italian cuisine with Coachella Valley date-forward dishes.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Coastal/regional Italian"
+      },
+      "what_it_is": "Double Date is a coastal/regional Italian restaurant at Omni Rancho Las Palmas in Rancho Mirage that opened in November 2025 (per PS Tribune; Palm Springs Life preview noted late October 2025). The concept blends Italian cuisine with Coachella Valley date-forward dishes — drawing on the region's date heritage. Chef Jose Lopez is a 27-year Omni veteran. Early review volume is sparse and sentiment is too thin to characterize.",
+      "key_facts": [
+        "Opened November 12, 2025 (PS Tribune; Palm Springs Life preview said late October 2025)",
+        "Inside Omni Rancho Las Palmas Resort & Spa",
+        "Chef Jose Lopez — 27-year Omni veteran (not ~30 years as some marketing copy says)",
+        "TripAdvisor 1 review (3.0); Yelp page exists but rating not surfaced",
+        "Domain doubledateranchomirage.com returns 403 to crawlers (agent-visibility hazard)",
+        "Coachella Valley date-forward concept ties to regional agriculture"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Opening date conflicts across sources"
+      ]
+    },
+    {
+      "slug": "the-steakhouse-at-agua-caliente-rancho-mirage",
+      "frontmatter": {
+        "title": "The Steakhouse at Agua Caliente Resort Casino Spa Rancho Mirage",
+        "description": "Forbes Four-Star steakhouse at Agua Caliente Resort Casino Spa Rancho Mirage, the only Forbes Four-Star restaurant in the Coachella Valley.",
+        "agent_summary": "The Steakhouse at Agua Caliente Resort Casino Spa Rancho Mirage is the cited only Forbes Four-Star restaurant in the Coachella Valley, operating since 2001 with a Wine Spectator Award of Excellence every year since 2007 and an AAA Four Diamond Award, known for USDA Prime steaks, lobster bisque, and oysters Rockefeller.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Fine-dining steakhouse (casino-anchored)"
+      },
+      "what_it_is": "The Steakhouse at Agua Caliente Resort Casino Spa Rancho Mirage is a fine-dining steakhouse inside the Agua Caliente property, owned by the Agua Caliente Band of Cahuilla Indians and opened with the resort in 2001. The Wine Spectator Award of Excellence streak runs from 2007 onward, and the venue is cited as the only Forbes Four-Star restaurant in the Coachella Valley. Recurring praise themes include prime steaks, lobster bisque, scallops, and wine pairings; recurring critique is casino-floor noise bleed.",
+      "key_facts": [
+        "Operating since 2001 (resort opened April 6, 2001); ~25 years",
+        "Forbes Travel Guide Four-Star — multi-year for the restaurant (property recognized 7 consecutive years)",
+        "Wine Spectator Award of Excellence every year since 2007 (18+ consecutive years)",
+        "AAA Four Diamond Award",
+        "Cited as the only Forbes Four-Star rated restaurant in the Coachella Valley",
+        "Yelp 578 reviews (3.9); TripAdvisor 247 reviews (4.1, #10 of 80 Rancho Mirage); OpenTable ~3,509 reviews"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "si-bon-rancho-mirage",
+      "frontmatter": {
+        "title": "Si Bon",
+        "description": "Belgian-French bistro in Rancho Mirage from Chef Philippe Caupain, ranked #2 on Tripadvisor in the city.",
+        "agent_summary": "Si Bon is a Rancho Mirage Belgian-French bistro operating since mid-March 2013 under Chef Philippe Caupain and wife Edith, currently Tripadvisor #2 of 68 Rancho Mirage restaurants, known for mussels mariniere, cold cucumber soup, schnitzel, and brunch service.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Belgian / French bistro"
+      },
+      "what_it_is": "Si Bon is a Belgian / French bistro in Rancho Mirage, opened mid-March 2013 by Chef Philippe Caupain and his wife Edith and continuously owner-operated. The menu spans Belgian classics (mussels mariniere, schnitzel) and bistro brunch service. Recent independent reader polls (Coachella Valley Independent's Best of Coachella Valley 2024-2025 and 2025-2026) named Si Bon Best French in the valley.",
+      "key_facts": [
+        "Opened mid-March 2013; ~13 years; Caupain family ownership stable",
+        "Tripadvisor Travelers' Choice; #2 of 68 Rancho Mirage restaurants",
+        "Coachella Valley Independent Best of Coachella Valley — Best French (2024-2025 and 2025-2026)",
+        "Yelp 1,700+ reviews; TripAdvisor 730+ reviews",
+        "Featured in Coachella Valley Weekly and The Desert Insider",
+        "Visit Greater Palm Springs official listing"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "adobe-grill-la-quinta",
+      "frontmatter": {
+        "title": "Adobe Grill",
+        "description": "Regional Mexican / Oaxacan restaurant and tequila bar at La Quinta Resort & Club.",
+        "agent_summary": "Adobe Grill is the regional Mexican / Oaxacan restaurant and tequila bar at La Quinta Resort & Club (Curio Collection by Hilton), known for mountain-view outdoor dining, live mariachi/jazz, margaritas, and resort-level Mexican fine dining anchored to a 1926 resort.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Regional Mexican / Oaxacan (resort)"
+      },
+      "what_it_is": "Adobe Grill is the regional Mexican / Oaxacan restaurant and tequila bar at La Quinta Resort & Club (currently part of Hilton's Curio Collection; rebranded from Waldorf Astoria in November 2021). The resort itself dates to 1926. Adobe Grill emphasizes margaritas, regional Mexican plates, mariachi/jazz programming, and the outdoor mountain-view ambiance.",
+      "key_facts": [
+        "Anchored at La Quinta Resort & Club (Curio Collection by Hilton, rebranded from Waldorf Astoria in Nov 2021)",
+        "TripAdvisor Travelers' Choice (top 10%); #7 of 108 La Quinta restaurants (4.0)",
+        "TripAdvisor 646-653 reviews; Yelp 612 reviews",
+        "Live mariachi/jazz and outdoor mountain-view dining are signature format elements",
+        "Adobe Grill specific opening year not surfaced in public sources",
+        "Widely circulated 'award-winning tamales' claim is marketing copy — no specific award body or year located"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "'Award-winning tamales' is unverified marketing language"
+      ]
+    },
+    {
+      "slug": "arnold-palmers-restaurant-la-quinta",
+      "frontmatter": {
+        "title": "Arnold Palmer's Restaurant",
+        "description": "Progressive American steakhouse and golf-legend-themed restaurant in La Quinta, opened by Palmer in 2004.",
+        "agent_summary": "Arnold Palmer's Restaurant is a La Quinta American steakhouse opened in 2004 by golf legend Arnold Palmer near his desert home, currently TripAdvisor #1 in La Quinta, known for the twinkle-light patio, nightly live music with Mark Linford, and a 2,500-bottle wine room.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "American steakhouse"
+      },
+      "what_it_is": "Arnold Palmer's Restaurant is a progressive American steakhouse and golf-legend-themed dining destination in La Quinta, opened in 2004 by Arnold Palmer near his desert home. The restaurant continues to operate after Palmer's 2016 death and has accumulated TripAdvisor's current #1 La Quinta ranking. The patio with twinkle lights, nightly live music with Mark Linford, and a 2,500-bottle wine room anchor the experience.",
+      "key_facts": [
+        "Opened 2004; ~22 years operating; single-location tied to Palmer's desert home",
+        "TripAdvisor #1 of 108 La Quinta restaurants (4.4)",
+        "Yelp 484 reviews; TripAdvisor 874 reviews; OpenTable cited 5,500+ ratings (~4.8)",
+        "OpenTable Top 100 Outdoor Dining (2022)",
+        "Nightly live music (Mark Linford) and 2,500-bottle wine room are signature elements",
+        "Palmer died 2016; restaurant continues with stable operation"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "la-quinta-cliffhouse-la-quinta",
+      "frontmatter": {
+        "title": "La Quinta Cliffhouse Grill and Bar",
+        "description": "Cliffside American steak and seafood restaurant on the Point Happy rock outcropping in La Quinta.",
+        "agent_summary": "La Quinta Cliffhouse Grill and Bar is an American steak and seafood restaurant on the Point Happy rock outcropping in La Quinta, opened 1992 and operating under Jacquee Renna-Downing since circa 2011-2012; DiRoNA awarded with a Wine Spectator Award of Excellence 2024.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "American steak and seafood"
+      },
+      "what_it_is": "La Quinta Cliffhouse Grill and Bar is a classic American steak and seafood restaurant set on the Point Happy rock outcropping in La Quinta, opened in 1992. Ownership transitioned from TS Restaurants to Jacquee Renna-Downing (with late husband Kipp Downing) circa 2011-2012. DiRoNA Award status is current, and the Wine Spectator Award of Excellence 2024 plus a strong wine program anchor the dining experience alongside the panoramic view.",
+      "key_facts": [
+        "Opened 1992 on Point Happy rock outcropping",
+        "Owned by Jacquee Renna-Downing since circa 2011-2012",
+        "DiRoNA (Distinguished Restaurants of North America) Award recipient",
+        "Wine Spectator Award of Excellence 2024",
+        "TripAdvisor #2 of 108 La Quinta restaurants; 1,379 reviews",
+        "Yelp 1,600+ reviews"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "la-brasserie-bistro-bar-la-quinta",
+      "frontmatter": {
+        "title": "La Brasserie Bistro & Bar",
+        "description": "Family-owned French bistro in La Quinta from Emmanuel and Kara Janin.",
+        "agent_summary": "La Brasserie Bistro & Bar is a La Quinta French bistro opened in 2011 under continuous family ownership by Emmanuel and Kara Janin, known for steak frites, duck, the twinkle-lit patio, and seasonal summer closure with reopening at the end of September each year.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "French bistro"
+      },
+      "what_it_is": "La Brasserie Bistro & Bar is a French bistro in La Quinta opened in 2011 and owned by Emmanuel and Kara Janin. The patio (with twinkle lights, misters, and heaters), steak frites, duck, and seafood plates anchor the menu. The restaurant operates seasonally and is currently on summer closure, reopening at the end of September 2026.",
+      "key_facts": [
+        "Opened 2011; ~14-15 years; continuous Janin family ownership",
+        "Tripadvisor Travelers' Choice; #8 of 108 La Quinta restaurants",
+        "Yelp 456 reviews (4.0); Tripadvisor 361 reviews (4.4); OpenTable 1,130 reviews (4.7)",
+        "Frequently named to OpenTable, Pstribune 'best French restaurants in Greater Palm Springs' editorial coverage",
+        "Seasonal: summer closure with end-of-September 2026 reopening",
+        "Self-described 'Best of the Best French Restaurant of the Coachella Valley' — origin of award not independently sourced"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "'Best of the Best French' self-claim unverified vs. CV Independent (Si Bon is the 2024-2026 winner)"
+      ]
+    },
+    {
+      "slug": "okura-robata-la-quinta",
+      "frontmatter": {
+        "title": "Okura Robata Grill & Sushi Bar",
+        "description": "Japanese sushi and robata grill in La Quinta from Sam and Jay Lee.",
+        "agent_summary": "Okura Robata Grill & Sushi Bar is a La Quinta Japanese sushi and robata grill opened in 2005 by Sam and Jay Lee, known for sushi freshness, the bronze Buddha and petrified cherry blossom interior, and a long Desert Sun 'Best of the Valley' Japanese-category streak.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Japanese sushi / robata grill"
+      },
+      "what_it_is": "Okura Robata Grill & Sushi Bar is a Japanese sushi and robata grill in La Quinta opened in 2005 by Sam and Jay Lee. The room features a bronze Buddha, a petrified cherry blossom tree, and other dramatic design elements. The menu spans sushi, robata-grilled plates, and Japanese-California fusion. The restaurant has a long history with Desert Sun 'Best of the Valley' recognition in the Japanese category (reported as 8+ consecutive years).",
+      "key_facts": [
+        "Opened 2005; ~21 years; continuous Lee family ownership",
+        "Yelp 1,400+ reviews; OpenTable ~2,979 reviews (4.7); Tripadvisor 251 reviews (4.1)",
+        "Tripadvisor #18 of 108 in La Quinta",
+        "Desert Sun 'Best of the Valley' Japanese category — multi-year winner (8+ years per third-party summary [UNVERIFIED exact count])",
+        "Laguna Beach sister location (opened 2013) now CLOSED on Yelp",
+        "Bronze Buddha and petrified cherry blossom tree are signature interior elements"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "fishermans-market-grill-la-quinta",
+      "frontmatter": {
+        "title": "Fisherman's Market & Grill (La Quinta)",
+        "description": "Casual seafood grill and fish market in La Quinta, part of Louis Pagano's Coachella Valley chain founded in the mid-1990s.",
+        "agent_summary": "Fisherman's Market & Grill is a casual seafood grill and fish market in La Quinta operated by Louis Pagano (founding partner Bill Mortz now deceased), part of a Coachella Valley chain founded in the mid-1990s in Palm Desert, known for halibut, fish 'n chips, and fish tacos.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Seafood / casual"
+      },
+      "what_it_is": "Fisherman's Market & Grill in La Quinta is part of a Coachella Valley seafood chain that has been operating in Palm Desert since the mid-1990s (founders Louis Pagano and Bill Mortz; Mortz is now deceased). The chain has expanded to four restaurants including Acrisure Arena. The format is casual chalkboard-order with fresh fish, fish 'n chips, fish tacos, and a strong value-perception driver.",
+      "key_facts": [
+        "Founder Louis Pagano (Bill Mortz, late partner); chain founded ~1993-1995 in Palm Desert",
+        "La Quinta location opening year [UNVERIFIED]; chain is ~30+ years old, not 24",
+        "Multiple Coachella Valley locations including Palm Springs, La Quinta, Palm Desert, and Acrisure Arena",
+        "Yelp 744 reviews (4.0); Tripadvisor 401 (4.2, #11 of 127 La Quinta)",
+        "Repeatedly cited 'Best Seafood' / 'Best Fish Tacos' in CV readers' polls (specific publication and year [UNVERIFIED])",
+        "Sister concept Shanghai Reds also under same ownership"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Founding year revised from 2002 to mid-1990s; '16+ consecutive years #1 seafood' claim has no traceable source publication"
+      ]
+    },
+    {
+      "slug": "stuft-pizza-bar-grill-la-quinta",
+      "frontmatter": {
+        "title": "Stuft Pizza Bar & Grill",
+        "description": "Family-owned pizza and American bar & grill in Old Town La Quinta from the Bertram family.",
+        "agent_summary": "Stuft Pizza Bar & Grill is an Old Town La Quinta pizza and American bar & grill, family-owned by the Bertram family (brand founded 1976 in Cerritos by Jack and Pat Bertram; La Quinta location since 2004), known for pizza, happy hour, and a dog-friendly patio.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Pizza / American bar & grill"
+      },
+      "what_it_is": "Stuft Pizza Bar & Grill is a family-owned pizza and American bar & grill in Old Town La Quinta. The parent brand was founded in 1976 in Cerritos by Jack and Pat Bertram; the La Quinta location has been operating since 2004, with son John Bertram running desert operations and patriarch Jack still visiting. The format leans family-casual, with a dog-friendly patio and a happy-hour-driven crowd.",
+      "key_facts": [
+        "Parent brand founded 1976 in Cerritos by Jack and Pat Bertram",
+        "La Quinta location operating since 2004 (~22 years)",
+        "Tripadvisor #3 of 146 La Quinta restaurants; 1,065 reviews (4.3)",
+        "Yelp 1,300+ reviews",
+        "Featured in Old Town La Quinta official dining guide and Visit Greater Palm Springs directory",
+        "Coachella Valley Weekly legacy/anniversary coverage (Dec 2023)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "'Wine Spectator award-winning wine list' is self-claimed; not found in Wine Spectator's public award database"
+      ]
+    },
+    {
+      "slug": "ernies-bar-grill-pga-west-la-quinta",
+      "frontmatter": {
+        "title": "Ernie's Bar & Grill at PGA West",
+        "description": "American gastropub and post-golf grill at the PGA West Tournament Clubhouse in La Quinta.",
+        "agent_summary": "Ernie's Bar & Grill is an American gastropub and post-golf grill at the PGA West Tournament Clubhouse in La Quinta, named for co-developer Ernie Vossler, recognized as City of La Quinta's 2025 Restaurant of the Year by the Greater Coachella Valley Chamber of Commerce.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "American gastropub / clubhouse grill"
+      },
+      "what_it_is": "Ernie's Bar & Grill is an American gastropub and post-golf clubhouse grill at the PGA West Tournament Clubhouse in La Quinta. The clubhouse traces to the Stadium Course era (course opened 1986), and the restaurant is named for co-developer Ernie Vossler (d. 2013). The format leans patio-with-mountain-views, breakfast/post-golf service, and group dining. Recurring critiques cluster on service consistency at peak times.",
+      "key_facts": [
+        "At PGA West Tournament Clubhouse; named for course co-developer Ernie Vossler",
+        "Stadium Course opened 1986; exact restaurant naming/opening year [UNVERIFIED]",
+        "Yelp 174; OpenTable ~474; Tripadvisor 114",
+        "2025 Restaurant of the Year — Greater Coachella Valley Chamber of Commerce (City of La Quinta) [UNVERIFIED on primary chamber page]",
+        "Mixed sentiment: high on OpenTable (~4.5), softer on Tripadvisor (3.5)",
+        "Patio/views and breakfast/post-golf service are signature format elements"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "the-madison-club-la-quinta",
+      "frontmatter": {
+        "title": "The Madison Club",
+        "description": "Private Discovery Land Company club in La Quinta with dining anchored to a member-only experience.",
+        "agent_summary": "The Madison Club is a private Discovery Land Company golf and lifestyle club in La Quinta, opened ~2007, with member-only dining including a main dining room with sushi bar, bar/lounge, private dining rooms, and on-course caddy F&B service.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "fall-in-love"
+        ],
+        "category": "Private club dining"
+      },
+      "what_it_is": "The Madison Club is a private golf and lifestyle club in La Quinta opened ~2007 by Discovery Land Company. Dining is member-only and includes a main dining room with sushi bar, bar/lounge, private dining rooms, and member-suite dining, with the Discovery hallmark of caddy and on-course food/beverage service. Public review surface is intentionally sparse.",
+      "key_facts": [
+        "Founded ~2007 (built late 2006) by Discovery Land Company; ~19 years operating",
+        "Private membership club — public review channels minimal (<100 reviews)",
+        "Not on OpenTable; agent-discoverable surfaces are intentionally limited",
+        "Dining includes main room with sushi bar, lounge, private rooms, member-suite service",
+        "Recent press coverage focuses on real-estate / membership cost-of-entry, not dining",
+        "Ownership / operator stable under Discovery Land Company"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "dsrt-club-la-quinta",
+      "frontmatter": {
+        "title": "DSRT CLUB (Desert Club)",
+        "description": "Vintage desert-themed supper club in La Quinta from Chris and Anita Chmielak.",
+        "agent_summary": "DSRT CLUB is a La Quinta supper club opened in 2023 by Chris and Anita Chmielak (also RD RNNR), known for California coastal rustic American cuisine — octopus, jambalaya, lamb — and a vintage desert-themed dining room.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Supper club / California coastal rustic"
+      },
+      "what_it_is": "DSRT CLUB (Desert Club) is a supper-club-style restaurant in La Quinta opened in 2023 by Chris and Anita Chmielak, who previously opened sister restaurant RD RNNR in 2019. The format is California coastal rustic American with a vintage desert theme — the dining room and cocktail program are key draws. Signature items in early reviews include octopus, jambalaya, and lamb.",
+      "key_facts": [
+        "Opened 2023; under 3 years operating; Chmielak family ownership stable",
+        "Sister restaurant: RD RNNR (opened 2019)",
+        "Yelp 250 reviews; Tripadvisor 11 reviews (4.0, #69 of 108 La Quinta)",
+        "Featured in Desert Health News",
+        "Listed in Old Town La Quinta dining directory and City of La Quinta visitor site (playinlaquinta.com)",
+        "Chef identity inconsistent across sources (James Nellis per Desert Health News; Bertrand Bouquin in other listings)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "jalisco-restaurant-coachella",
+      "frontmatter": {
+        "title": "Jalisco Restaurant",
+        "description": "Family-owned Jalisco-style Mexican restaurant in the City of Coachella, operating since 1980.",
+        "agent_summary": "Jalisco Restaurant is a Coachella family Mexican restaurant operating at 1605 6th Street since 1980, known for Jalisco-style birria, tortas, tacos, burritos, and menudo; Tripadvisor #3 of 64 Coachella restaurants.",
+        "city": "Coachella",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Mexican (Jalisco-style)"
+      },
+      "what_it_is": "Jalisco Restaurant is a family-owned Jalisco-style Mexican restaurant in the City of Coachella, operating at 1605 6th Street since 1980. The menu centers on birria, tortas, tacos, burritos, menudo, and warm hospitality. Visit Greater Palm Springs and Palm Springs Life both feature it in Coachella Mexican-cuisine coverage. The 1971 founding date that appears in some scraper-template directory pages is not corroborated by authoritative sources, which consistently cite 1980.",
+      "key_facts": [
+        "Operating at 1605 6th Street since 1980; 45+ years",
+        "Tripadvisor #3 of 64 Coachella restaurants",
+        "Yelp 208; Tripadvisor 19 reviews; Restaurant Guru ~2,000+ aggregated",
+        "Featured in Visit Greater Palm Springs '14 Authentic Mexican Restaurants in Greater Palm Springs'",
+        "Featured in Palm Springs Life 'Where to Eat in Coachella'",
+        "1971 founding-year references in scraper-template directories are not corroborated by authoritative sources"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Tripadvisor Travelers' Choice badge previously claimed — not displayed on current listing"
+      ]
+    },
+    {
+      "slug": "el-mexicali-cafe-indio",
+      "frontmatter": {
+        "title": "El Mexicali Cafe",
+        "description": "Multi-generational Indio Mexican restaurant founded by Carmen Murguia in 1981, with sibling El Mexicali Cafe II named to USA Today Restaurants of the Year 2026.",
+        "agent_summary": "El Mexicali Cafe is an Indio Mexican family restaurant founded in 1981 by Carmen Murguia and run by daughters Monica (original) and Laura (II), known for signature chiles gueritos (shrimp-stuffed yellow peppers); sibling location El Mexicali Cafe II named to USA Today Restaurants of the Year 2026.",
+        "city": "Indio",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Mexican (seafood-leaning)"
+      },
+      "what_it_is": "El Mexicali Cafe is a multi-generational Indio Mexican restaurant founded in 1981 by Carmen Murguia, with the original at 82720 Indio Blvd and a sibling 'II' location. The signature dish — chiles gueritos (shrimp-stuffed yellow peppers with mayo and soy) — is the defining draw, alongside family-recipe seafood and the railroad-adjacent ambiance. The City of Indio recognized the restaurant's 40th anniversary in March 2021; El Mexicali Cafe II was named to USA Today Restaurants of the Year on February 11, 2026.",
+      "key_facts": [
+        "Founded 1981 by Carmen Murguia; 45+ years continuous operation; family-run by daughters Monica and Laura",
+        "USA Today Restaurants of the Year 2026 — awarded to El Mexicali Cafe II sibling location (Feb 11, 2026)",
+        "City of Indio 40th anniversary proclamation (2021)",
+        "Certificate of recognition from State Senator Melissa Melendez (2021)",
+        "Yelp ~415 (original) + ~601 (II); combined Yelp 1000+ across family",
+        "Listed by Visit Greater Palm Springs"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "shields-date-garden-indio",
+      "frontmatter": {
+        "title": "Shields Date Garden",
+        "description": "Century-old Indio date garden, gift shop, and on-site Cafe at Shields with signature date shake.",
+        "agent_summary": "Shields Date Garden is a 17-acre Indio date garden, gift shop, and on-site Cafe at Shields, operating since 1924 (current Highway 111 site since 1953) with the cafe opened in 2010; recognized by Coachella Valley Independent as perennial Best Date Shake winner.",
+        "city": "Indio",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "California cuisine cafe / date garden destination"
+      },
+      "what_it_is": "Shields Date Garden is a 17-acre date grove, retail shop, and on-site cafe in Indio. The date garden has been operating since 1924 (founders Floyd and Bess Shields), with the current Highway 111 site since 1953 and the Cafe at Shields opening in 2010 (sold to Jewel Date Company in 2005). The cafe serves California cuisine breakfast and lunch with date-forward signature items and Mexican-influenced plates. The date shake is the most consistent draw.",
+      "key_facts": [
+        "Date garden since 1924; current Hwy 111 site since 1953; sold to Jewel Date Company 2005; Cafe at Shields opened 2010",
+        "Coachella Valley Independent Best of Coachella Valley readers' poll — Best Date Shake (perennial, 10+ years per 2023 CV Independent feature)",
+        "Tripadvisor ranked #3 of 133 restaurants in Indio (Cafe at Shields)",
+        "Recognized by City of Indio, County of Riverside, and State of California (April 2022) as the official county date shake creator",
+        "Featured by Palm Springs Life, Atlas Obscura, Coachella Valley Weekly",
+        "Yelp ~1,000+ on main listing; ~400+ on cafe listing"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "the-cheesecake-factory-rancho-mirage",
+      "frontmatter": {
+        "title": "The Cheesecake Factory (Rancho Mirage)",
+        "description": "Chain American casual restaurant at The River shopping center in Rancho Mirage, operating since October 2004.",
+        "agent_summary": "The Cheesecake Factory at The River in Rancho Mirage is the local outpost of the publicly traded chain, opened October 12, 2004, ranked Tripadvisor #3 of 68 Rancho Mirage restaurants, known for its waterfront patio, large portions, and signature cheesecakes.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "American casual chain"
+      },
+      "what_it_is": "The Cheesecake Factory at The River in Rancho Mirage is the local outpost of the publicly traded chain (NASDAQ: CAKE), opened October 12, 2004 per the company's own investor press release. The Rancho Mirage location occupies a waterfront pad at The River shopping center and ranks unusually high (#3 of 68) for a chain in a high-end dining market — a popularity signal for the format.",
+      "key_facts": [
+        "Opened October 12, 2004 at The River shopping center",
+        "Operated by The Cheesecake Factory Incorporated (NASDAQ: CAKE)",
+        "Tripadvisor #3 of 68 Rancho Mirage restaurants (4.2)",
+        "Yelp 1,072 reviews",
+        "Waterfront patio is a signature element",
+        "High rank for a chain in a high-end dining market is a notable popularity signal"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "yard-house-rancho-mirage",
+      "frontmatter": {
+        "title": "Yard House (Rancho Mirage)",
+        "description": "Darden-owned American gastropub at The River with 100+ taps.",
+        "agent_summary": "Yard House at The River in Rancho Mirage is the local outpost of the 100+ tap American gastropub chain founded in Long Beach in 1996 and acquired by Darden in 2012, known for craft beer selection, half-price happy-hour apps, and burgers.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "American gastropub / craft beer chain"
+      },
+      "what_it_is": "Yard House at The River is the Rancho Mirage outpost of the American gastropub chain founded in Long Beach in 1996 and acquired by Darden Restaurants in 2012 for $585M. The Rancho Mirage location appears to have opened in the early-to-mid 2000s (BeerAdvocate listing dates to June 2004). The format — 100+ draft beers, broad American menu, and happy hour — anchors a high-volume operation.",
+      "key_facts": [
+        "Yard House chain founded 1996 in Long Beach; acquired by Darden 2012 for $585M",
+        "Rancho Mirage location at The River (mall opened October 2001); restaurant opening year [UNVERIFIED, early-to-mid 2000s]",
+        "Yelp 1,207 reviews; Tripadvisor 670+",
+        "100+ draft beers is the signature format element",
+        "Half-price happy-hour apps recurring praise theme",
+        "Yelp listing actively updated through June 2026"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "oceana-rancho-mirage",
+      "frontmatter": {
+        "title": "Oceana (Rancho Mirage)",
+        "description": "Family-owned seafood and steak restaurant in Rancho Mirage, sister to Oceana Palm Desert.",
+        "agent_summary": "Oceana Rancho Mirage is a family-owned seafood and steak restaurant opened in 2025 as an expansion from Oceana Palm Desert (established 2021), known for pulpo bites, lobster guacamole, ahi tuna nachos, and branzino.",
+        "city": "Rancho Mirage",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Seafood / steak"
+      },
+      "what_it_is": "Oceana in Rancho Mirage opened in 2025 as an expansion of the family-owned Oceana Palm Desert (established 2021). The format pairs seafood and steak with Mexican, Caribbean, and Mediterranean influences. Signature items include pulpo bites, lobster guacamole, ahi tuna nachos, and branzino. The narrow room adjacent to Highway 111 and the bar produces a noise-level critique during peak season.",
+      "key_facts": [
+        "Rancho Mirage location opened 2025; family-owned (Castellanos family per local press)",
+        "Sister Oceana Palm Desert established 2021",
+        "Yelp 79 reviews; Tripadvisor presence",
+        "Featured in Locale Magazine '10 New Restaurants to Check out in Greater Palm Springs'",
+        "Featured in Palm Springs Life '6 Rancho Mirage Restaurants Worth a Reservation'",
+        "Listed on Visit Greater Palm Springs official tourism site"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Tripadvisor metrics may conflate with Palm Desert location"
+      ]
+    },
+    {
+      "slug": "nobu-indian-wells",
+      "frontmatter": {
+        "title": "Nobu Restaurant (Indian Wells)",
+        "description": "Permanent Indian Wells outpost of the Nobu Japanese-Peruvian global brand.",
+        "agent_summary": "Nobu Restaurant Indian Wells is the permanent Japanese-Peruvian outpost of the Nobu Matsuhisa global brand inside the Indian Wells Tennis Garden, originated as a 2014 BNP Paribas Open pop-up and made permanent in February 2023, known for yellowtail jalapeño, black cod miso, and rock shrimp tempura.",
+        "city": "Indian Wells",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Japanese-Peruvian fusion"
+      },
+      "what_it_is": "Nobu Restaurant Indian Wells is the permanent Coachella Valley outpost of the Nobu Matsuhisa global brand. Originally a 2014 BNP Paribas Open pop-up at the Indian Wells Tennis Garden, it became a permanent fixture in February 2023. The menu pulls from the global Nobu canon — yellowtail jalapeño, black cod miso, rock shrimp tempura — and the Tanoshi Hour expands accessibility. Chef Nobu Matsuhisa's brand-level credentials include a James Beard Best New Restaurant win in 1995 and Who's Who of Food & Beverage in America in 2002.",
+      "key_facts": [
+        "Originated as 2014 BNP Paribas Open pop-up; permanent fixture since February 2023",
+        "At the Indian Wells Tennis Garden",
+        "Yelp 148 reviews; OpenTable 4.7 from 771 diners; Restaurant Guru aggregates ~974",
+        "Chef Nobu Matsuhisa — James Beard Best New Restaurant 1995; Who's Who of Food & Beverage in America 2002 (brand-level credentials)",
+        "Tanoshi Hour is a recurring access point",
+        "Featured in Palm Springs Life and OpenTable Best Fine Dining Palm Springs/Palm Desert Cities list"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Prior 'Best California Chef 2002' Matzuhisa credential is not in JBF records — removed"
+      ]
+    },
+    {
+      "slug": "melvyns-restaurant-palm-springs",
+      "frontmatter": {
+        "title": "Melvyn's Restaurant & Bar",
+        "description": "Classic continental supper club at the Ingleside Estate in Palm Springs, marked 50 years in 2025.",
+        "agent_summary": "Melvyn's Restaurant & Bar is a Palm Springs classic continental supper club at the Ingleside Estate, opened 1975 by Mel Haber, known for tableside Steak Diane, live piano in the Casablanca Lounge, and a Sinatra-era heritage; 50th anniversary marked October-November 2025.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Continental supper club"
+      },
+      "what_it_is": "Melvyn's Restaurant & Bar is a classic continental supper club at the Ingleside Estate (Ingleside Inn) in Palm Springs, opened in 1975 by Mel Haber. The room marked its 50th anniversary in October-November 2025. The format — tableside Steak Diane, Caesar, flambé desserts, and live piano in the Casablanca Lounge — preserves a Sinatra-era experience. Ownership changed after Haber's death in 2016.",
+      "key_facts": [
+        "Opened 1975 by Mel Haber; 50th anniversary marked Oct-Nov 2025",
+        "Ownership changed after Haber's 2016 death",
+        "Yelp ~968 reviews; Tripadvisor 948 reviews (4.1, rank #50 of 297); OpenTable 4,000+",
+        "Wine Spectator Award (2023, per Ingleside site)",
+        "Featured in Infatuation LA '25 Best Places To Eat & Drink in Palm Springs' and Thrillist",
+        "Live piano in the Casablanca Lounge is signature; venue self-cites Esquire 'Best Bars in America' [UNVERIFIED]"
+      ],
+      "convertibility_tier": "anchor-reference",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "mr-lyons-steakhouse-palm-springs",
+      "frontmatter": {
+        "title": "Mr. Lyons Steakhouse",
+        "description": "Modern supper-club-style steakhouse on South Palm Canyon from Tara Lazar / F10 Hospitality.",
+        "agent_summary": "Mr. Lyons Steakhouse is a Palm Springs supper-club-style steakhouse, reopened May 2015 by Foundation 10 Creative (Tara Lazar) inside the 1945 Lyons English Grille building, known for Beef Wellington, tableside service, and a Palm Springs Life Editors' Pick Best Steakhouse credential (2021 and 2022 per restaurant marketing).",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit",
+          "fall-in-love"
+        ],
+        "category": "Steakhouse / supper club"
+      },
+      "what_it_is": "Mr. Lyons Steakhouse is a modern supper-club-style steakhouse on South Palm Canyon in Palm Springs. The building operated as Lyons English Grille from 1945; Foundation 10 Creative (Tara Lazar) purchased it in 2014 and reopened as Mr. Lyons in May 2015. The dim dining room leans 1940s supper-club, with Beef Wellington and tableside service the recurring praise themes; transparent kitchen-appreciation fees and pricing are recurring critique themes.",
+      "key_facts": [
+        "Building dates to 1945 (Lyons English Grille); F10 Hospitality purchased 2014; reopened as Mr. Lyons May 2015",
+        "Ownership: F10 Hospitality (Tara Lazar)",
+        "Palm Springs Life Editors' Pick Best Steakhouse 2021 and 2022 (per restaurant marketing; primary article 403 to verification)",
+        "Yelp 797 reviews; Tripadvisor 281 reviews; OpenTable ~1,888",
+        "Gayot rating 14/20; The Infatuation 8.0/10",
+        "Tripadvisor Travelers' Choice credential previously claimed — REFUTED (rank #81 of 281, outside top 10%)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "johannes-palm-springs",
+      "frontmatter": {
+        "title": "Johannes",
+        "description": "Modern European restaurant in Palm Springs with Austrian heritage from Chef Johannes Bacher.",
+        "agent_summary": "Johannes is a Palm Springs modern European restaurant with Austrian heritage and Asian fusion accents, opened October 1999 by chef-owner Johannes Bacher, known for Wiener Schnitzel (featured in Mimi Sheraton's 1,000 Foods to Eat Before You Die), apple strudel, and a 25-year continuous ownership.",
+        "city": "Palm Springs",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Modern European / Austrian"
+      },
+      "what_it_is": "Johannes is a modern European restaurant in Palm Springs with Austrian heritage and Asian fusion accents, opened in late October 1999 by chef-owner Johannes Bacher. The kitchen leans Wiener Schnitzel, mussels, scallops, apple strudel, and an Austrian-anchored wine list. The Wiener Schnitzel is featured in Mimi Sheraton's '1,000 Foods to Eat Before You Die'. The restaurant celebrated 25 years in 2024.",
+      "key_facts": [
+        "Opened late October 1999; 25-year anniversary 2024; continuous chef-owner Johannes Bacher",
+        "Wiener Schnitzel featured in Mimi Sheraton's '1,000 Foods to Eat Before You Die'",
+        "OpenTable Diners' Choice 2025 (4,031 reviews, 4.8 stars per latest fetch)",
+        "Best Chefs America (inaugural edition) — Chef Johannes Bacher",
+        "2022 Palm Springs Business Hall of Fame recognition",
+        "Yelp 700+ reviews; TripAdvisor 667 (4.3)"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages"
+      ]
+    },
+    {
+      "slug": "louises-pantry-la-quinta",
+      "frontmatter": {
+        "title": "Louise's Pantry",
+        "description": "La Quinta breakfast and lunch diner with a brand legacy dating to 1946 in Palm Springs.",
+        "agent_summary": "Louise's Pantry is an Old Town La Quinta breakfast and lunch diner operating at this location since 2005, with brand origins dating to a 1946 Palm Springs diner, known for generous home-style portions and low prices.",
+        "city": "La Quinta",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "American diner / breakfast"
+      },
+      "what_it_is": "Louise's Pantry is a breakfast and lunch diner in Old Town La Quinta, with a brand history that traces to a 1946 Palm Springs original (which changed hands and locations multiple times). The current La Quinta location has operated since 2005. The format leans home-style with generous portions, low prices, and pleasant service; popularity drives wait times.",
+      "key_facts": [
+        "Brand legacy traces to 1946 in Palm Springs (not continuous)",
+        "Current La Quinta location since 2005 (~21 years)",
+        "Tripadvisor #5 of 127 La Quinta restaurants",
+        "Yelp 1,400+ reviews; TripAdvisor 323 reviews",
+        "Featured in Palm Springs Life brunch/breakfast coverage",
+        "Listed by Visit Greater Palm Springs"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Tripadvisor Travelers' Choice badge previously claimed — not displayed on current listing"
+      ]
+    },
+    {
+      "slug": "mariscos-el-capitan-coachella",
+      "frontmatter": {
+        "title": "Mariscos El Capitan",
+        "description": "Mexican seafood restaurant in Coachella with sushi menu, listed by Visit Greater Palm Springs.",
+        "agent_summary": "Mariscos El Capitan is a Coachella Mexican mariscos restaurant with a sushi menu, listed by Visit Greater Palm Springs and Palm Springs Life as one of the city's must-try restaurants, known for fresh ceviches, generous portions, and evening live music.",
+        "city": "Coachella",
+        "domain": "Food & Dining",
+        "funnel_stages": [
+          "visit"
+        ],
+        "category": "Mexican seafood (mariscos)"
+      },
+      "what_it_is": "Mariscos El Capitan is a Mexican mariscos restaurant in the City of Coachella with a sushi menu. The format is family-style with fresh ceviches, generous portions, and live music in the evenings. There is a separate Bakersfield-based brand of the same name with a Cathedral City food truck and a Santa Ana location, which can cause attribution confusion. Founding year of the Coachella storefront is unsettled across sources.",
+      "key_facts": [
+        "Listed on Visit Greater Palm Springs official tourism directory and in Palm Springs Life '6 Must-Try Restaurants in the City of Coachella'",
+        "Google ~1,100+ reviews (4.2); Yelp ~186-192 (3.5); Restaurant Guru ~1,800 votes",
+        "Coachella opening year unsettled: aggregator copy says ~2015; one Palm Springs Life snippet describes a 2023 Coachella outpost; website copyright is 2019",
+        "Site lists '52565 Harrison St' while third-party directories list '52565 Cesar Chavez St, Suite 101'",
+        "Ranked #2 of 41 seafood restaurants in Coachella per Restaurant Guru aggregation",
+        "Possible conflation with separate Bakersfield-based 'Mariscos El Capitan' brand"
+      ],
+      "convertibility_tier": "convertible",
+      "flags": [
+        "[VERIFY ENUM] funnel_stages",
+        "Founding year conflicts across sources",
+        "Address inconsistency between own site and directories"
+      ]
+    }
+  ]
+}
