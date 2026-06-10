@@ -24,6 +24,14 @@ com Zod schema as-is (lowercase `funnel_stages`, missing `agent_intent` /
 | `ranked-inventory.md` | 68 seeds ranked by reputation-to-visibility gap (was untracked `com/tmp-dining-ranked.md`) |
 | `cv-food-dining-category-map-wf_72203d9c-3ce.js` | The workflow script that produced this run, for reproducibility |
 
-Per-entity depth (full assessments, verify-lens records) remains only in the
-session's subagent journal (`subagents/workflows/wf_72203d9c-3ce/journal.jsonl`)
-— not rescued here; re-extract from there if needed while the session dir exists.
+## depth/ — evidence substrate (rescued 2026-06-09, second pass)
+
+`depth/` is a verbatim byte-for-byte copy of the run's subagent directory
+(`subagents/workflows/wf_72203d9c-3ce/`): `journal.jsonl` (526 lines — every
+agent() call's prompt key and structured result, including the 80 per-entity
+assessments and adversarial verify-lens records) plus 268 `agent-*.jsonl` full
+transcripts and their 268 `agent-*.meta.json` companions. Raw, unparsed,
+unfiltered — interpret downstream, never edit in place.
+
+NOT schema-valid content. Never point the com build, a content collection, or
+any loader at `depth/`. It is archival evidence only.
