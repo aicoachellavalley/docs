@@ -1,0 +1,547 @@
+{
+"batch_index": 3,
+"cells": [
+{
+"scope_subcat": "home inspectors",
+"scope_geo": "West valley (Palm Springs, Cathedral City, Desert Hot Springs)",
+"candidates": [
+{
+"name": "Bourne Inspections",
+"city": "Palm Springs",
+"subcategory": "home inspectors",
+"website": "bourneinspections.com",
+"address_hint": "1775 E Palm Canyon Dr #110, Palm Springs CA 92264",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "yelp.com/biz/bourne-inspections-palm-springs; nachi.org/certified-inspectors/cj-bourne-203003",
+"note": "solo practitioner, CJ Bourne; InterNACHI Certified Professional Inspector; also licensed in Washington State"
+},
+{
+"name": "BPI Home Inspections",
+"city": "Palm Springs",
+"subcategory": "home inspectors",
+"website": "bpihomeinspection.com",
+"address_hint": "PO Box 1212 Blythe CA 92226 (mailing); branded as BPI Home Inspections of Palm Springs",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "bpihomeinspection.com; nachi.org/certified-inspectors/coy-bradstreet-126009; yelp.com/biz/bpi-home-inspections-palm-springs-2",
+"note": "solo practitioner, Coy Bradstreet; Certified Master Inspector (CMI); InterNACHI certified; covers whole Coachella Valley"
+},
+{
+"name": "Modern Home Inspection",
+"city": "Palm Springs",
+"subcategory": "home inspectors",
+"website": "modhomeinspection.com",
+"address_hint": "Palm Springs CA 92264",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "yelp.com/biz/modern-home-inspection-palm-springs-2",
+"note": "20+ years general contracting background; offers sewer lateral and pool/spa inspections; InterNACHI member"
+},
+{
+"name": "Inspector Nuz'zo Home Inspections",
+"city": "Palm Springs",
+"subcategory": "home inspectors",
+"website": "",
+"address_hint": "751 N Los Felices Cir W Suite M-212, Palm Springs CA 92262",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "yelp.com/biz/inspector-nuzzo-home-inspections-palm-springs",
+"note": "solo practitioner; licensed CA general contractor since 1993; inspector since 1998; InterNACHI member; uses thermal imaging and drone"
+},
+{
+"name": "Schultz Property Inspection",
+"city": "Cathedral City",
+"subcategory": "home inspectors",
+"website": "schultzinspection.com",
+"address_hint": "PO Box 3222, Cathedral City CA 92235",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "yelp.com/biz/schultz-property-inspection-cathedral-city; schultzinspection.com",
+"note": "family-owned, founded 2003; ASHI and CREIA certified; covers Coachella Valley; Vikki Schultz listed as inspector on Zillow"
+},
+{
+"name": "Wilson Property Inspections",
+"city": "Desert Hot Springs",
+"subcategory": "home inspectors",
+"website": "wilsonpropertyinspections.com",
+"address_hint": "Desert Hot Springs CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "alignable.com/desert-hot-springs-ca/wilson-property-inspections; wilsonpropertyinspections.com",
+"note": "solo practitioner, Don Wilson; ASHI and CREIA certified; serves Coachella Valley and Morongo Basin since 2014"
+}
+],
+"_src_subcat": "home inspectors",
+"_src_geo": "West valley (PS/CC/DHS)"
+},
+{
+"scope_subcat": "home inspectors",
+"scope_geo": "Mid+East valley (Palm Desert, Rancho Mirage, Indian Wells, La Quinta, Indio, Coachella, Thousand Palms, Bermuda Dunes, Thermal)",
+"candidates": [
+{
+"name": "BPI Inspections",
+"city": "Palm Desert",
+"subcategory": "home inspectors",
+"website": "https://bpihomeinspection.com/",
+"address_hint": "77711 Flora Rd #305, Palm Desert CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.bbb.org/us/ca/palm-desert/profile/home-inspection/bpi-inspections-1126-850090085",
+"note": "Solo practitioner Coy Bradstreet, CMI; InterNACHI certified; covers whole valley including Thermal"
+},
+{
+"name": "Desert Elite Home Inspections LLC",
+"city": "Palm Desert",
+"subcategory": "home inspectors",
+"website": "https://www.desertelitehomeinspections.com/",
+"address_hint": "Palm Desert CA 92260",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://app.spectora.com/home-inspectors/my-inspection-company-771ba2f4d4",
+"note": "Solo practitioner Matthew Black; InterNACHI and AHIT certified; aerial drone inspections"
+},
+{
+"name": "DesertSpec LLC Home Inspection Services",
+"city": "Palm Desert",
+"subcategory": "home inspectors",
+"website": "https://desertspec.com/",
+"address_hint": "74478 Hwy 111, Palm Desert CA 92260",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://desertspec.com/",
+"note": "Solo practitioner Carl Phillips; CREIA certified; covers Indian Wells, La Quinta, Palm Desert, Rancho Mirage"
+},
+{
+"name": "HOMESPEK LLC Home Inspections & Termite Company",
+"city": "Palm Desert",
+"subcategory": "home inspectors",
+"website": "https://homespek760.com/",
+"address_hint": "74710 Highway 111 Ste 102, Palm Desert CA 92260",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.yelp.com/biz/homespek-llc-home-inspections-and-termite-company-palm-desert-2",
+"note": "Home inspection and termite company; InterNACHI certified; owner Travis"
+},
+{
+"name": "Agape Home Inspection",
+"city": "Palm Desert",
+"subcategory": "home inspectors",
+"website": "http://www.agapeworkers.com/",
+"address_hint": "42215 Washington St Suite A #262, Palm Desert CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.yelp.com/biz/agape-home-inspection-palm-desert",
+"note": "Solo practitioner Frank Smith; InterNACHI Certified Professional Inspector"
+},
+{
+"name": "Home Sweet Home Inspections",
+"city": "Palm Desert",
+"subcategory": "home inspectors",
+"website": "https://www.homesweethomeinspections.com/",
+"address_hint": "PO Box 73927, Palm Desert CA 92255",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.homesweethomeinspections.com/",
+"note": "Multi-inspector firm; 4 full-time inspectors; claims largest inspection company in Coachella Valley; operating since 2008"
+},
+{
+"name": "On The Level Inspections",
+"city": "Palm Desert",
+"subcategory": "home inspectors",
+"website": "https://otlinspect.com/",
+"address_hint": "Palm Desert CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://otlinspect.com/about-us",
+"note": "Solo practitioner Cham Benvenutti; CREIA, InterNACHI, and ASHI member; 18+ years experience"
+},
+{
+"name": "Cal-Spec Inc.",
+"city": "Rancho Mirage",
+"subcategory": "home inspectors",
+"website": "https://www.calspecinc.com/",
+"address_hint": "72-877 Dinah Shore Suite 103-257, Rancho Mirage CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.yelp.com/biz/cal-spec-rancho-mirage-3",
+"note": "Solo practitioner Jerry Campbell, Certified Master Inspector; 25+ years as licensed GC; covers entire Coachella Valley"
+},
+{
+"name": "INSPX Home Solutions LLC",
+"city": "Rancho Mirage",
+"subcategory": "home inspectors",
+"website": "https://www.paulinspx.com/",
+"address_hint": "41618 Morningside Ct, Rancho Mirage CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.bbb.org/us/ca/rancho-mirage/profile/home-inspection/inspx-home-solutions-llc-1126-850058099",
+"note": "Solo practitioner Paul Johnson, CMI; InterNACHI certified; BBB A+ rated; sewer line, infrared, drone inspections"
+},
+{
+"name": "Precision Home Inspection",
+"city": "Indio",
+"subcategory": "home inspectors",
+"website": "https://precisionhomeinspection.net/",
+"address_hint": "Indio CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"note": "Solo practitioner Tim Sanders; CREIA certified since 2005 (member #155473); 22+ years, 13,000+ inspections",
+"source": "https://precisionhomeinspection.net/about-us/"
+},
+{
+"name": "Fuerza Home Inspections LLC",
+"city": "Indio",
+"subcategory": "home inspectors",
+"website": "https://fuerzahomeinspections.com/",
+"address_hint": "Indio CA 92203",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://app.spectora.com/home-inspectors/my-inspection-company-68d313dcf4",
+"note": "Solo practitioner Felix Lopez; certified residential and commercial inspector; mobile home certified"
+},
+{
+"name": "Yoes Property Inspections LLC",
+"city": "Indio",
+"subcategory": "home inspectors",
+"website": "https://www.yoesinspections.com/",
+"address_hint": "37805 Thurne St, Indio CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.angi.com/companylist/us/ca/indio/yoes-property-inspections,-llc-reviews-10098196.htm",
+"note": "InterNACHI certified; 20+ years commercial property maintenance background; covers whole valley"
+},
+{
+"name": "Premier Group Home Inspections",
+"city": "Indio",
+"subcategory": "home inspectors",
+"website": "http://www.premiergrouphomeinspections.com/",
+"address_hint": "Indio CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.homeadvisor.com/rated.PremierGroupHome.75043394.html",
+"note": "Solo practitioner Christopher Ray; AHIT certified; covers Palm Springs, Cathedral City, Rancho Mirage, Palm Desert, Bermuda Dunes, Indian Wells, La Quinta, Indio"
+},
+{
+"name": "Matthew Sanchez Home Inspections",
+"city": "Indio",
+"subcategory": "home inspectors",
+"website": "",
+"address_hint": "Indio CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.nachi.org/certified-inspectors/matthew-sanchez-190733",
+"note": "Solo practitioner; InterNACHI Certified Professional Inspector; covers Indio, La Quinta, Palm Desert, Rancho Mirage, Indian Wells, Coachella, Thermal"
+},
+{
+"name": "Dominguez Property Inspections LLC",
+"city": "Coachella",
+"subcategory": "home inspectors",
+"website": "https://www.dominguezinspections.com/",
+"address_hint": "83291 Todos Santos Ave, Coachella CA 92236",
+"chain_or_independent": "independent",
+"license_hint": "B-1001850",
+"source": "https://www.nachi.org/certified-inspectors/salvador-dominguez-b-1001850-21373",
+"note": "Solo practitioner Salvador Dominguez, CMI; InterNACHI certified; 15+ years, 2000+ inspections; covers whole valley"
+},
+{
+"name": "Rivale Inspection Services",
+"city": "La Quinta",
+"subcategory": "home inspectors",
+"website": "https://inspectordean.org/",
+"address_hint": "La Quinta CA",
+"chain_or_independent": "independent",
+"license_hint": "CSLB 652130",
+"source": "https://www.yelp.com/biz/rivale-inspection-services-la-quinta",
+"note": "Solo practitioner Dean Rivale; CREIA certified; licensed GC; 3D roof/attic inspections; based La Quinta since 2017"
+},
+{
+"name": "R&J Home Inspections",
+"city": "La Quinta",
+"subcategory": "home inspectors",
+"website": "",
+"address_hint": "La Quinta CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.yelp.com/biz/r-and-j-home-inspections-la-quinta-2",
+"note": "InterNACHI certified; pool and spa inspections; same-day service available"
+},
+{
+"name": "Any and All Home Inspections",
+"city": "Bermuda Dunes",
+"subcategory": "home inspectors",
+"website": "",
+"address_hint": "79361 Port Royal Ave, Bermuda Dunes CA 92203",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.yelp.com/biz/any-and-all-home-inspections-bermuda-dunes",
+"note": "Solo practitioner John G.; open 7 days"
+}
+],
+"_src_subcat": "home inspectors",
+"_src_geo": "Mid+East valley (PD/RM/IW/LQ/Indio/Coachella/TP/BD/Thermal)"
+},
+{
+"scope_subcat": "appraisers",
+"scope_geo": "West valley (Palm Springs, Cathedral City, Desert Hot Springs)",
+"candidates": [
+{
+"name": "Palm Springs Appraisal Company",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "",
+"address_hint": "559 S Palm Canyon Dr, Ste B105, Palm Springs, CA 92264",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.bbb.org/us/ca/palm-springs/profile/appraiser/palm-springs-appraisal-company-1126-100017025",
+"note": "Local firm, 2 locations per BBB; serves whole Coachella Valley including DHS and Cathedral City"
+},
+{
+"name": "Palm Springs Real Estate Appraiser",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "https://www.palm-springs-appraiser.com/",
+"address_hint": "Palm Springs, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.palm-springs-appraiser.com/",
+"note": "Certified residential specialists; 20+ years experience; covers full Coachella Valley"
+},
+{
+"name": "Appraisals 2-Day (Steve Strom)",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "https://palmsprings-appraiser.com/",
+"address_hint": "Palm Springs, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://palmsprings-appraiser.com/",
+"note": "Solo practitioner; 20+ yrs, 10,000+ appraisals; expert witness; multi-city Southern California brand"
+},
+{
+"name": "Value House Appraisal Services, Inc.",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "",
+"address_hint": "3800 El Dorado Blvd, Palm Springs, CA 92262",
+"chain_or_independent": "independent",
+"license_hint": "AR037097",
+"source": "https://asc.gov/individual-appraiser-public/469726",
+"note": "General corporation; CEO Jose Miguel Rodriguez; Certified Residential credential active through April 2027"
+},
+{
+"name": "David Wagner Real Estate (Appraiser)",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "https://www.dww4re.com/",
+"address_hint": "4751 E Palm Canyon Dr, Ste C-40, Palm Springs, CA 92264",
+"chain_or_independent": "independent",
+"license_hint": "AR027024",
+"source": "https://www.jurispro.com/expert/david-wagner-6987",
+"note": "Solo practitioner broker/appraiser; 30+ years; expert witness; historic properties, HOA disputes, probate"
+},
+{
+"name": "Accredited Appraisal Services",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "",
+"address_hint": "Palm Springs, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.yelp.com/biz/accredited-appraisal-services-palm-springs",
+"note": "Listed on Yelp for Palm Springs; limited detail available from snippets"
+},
+{
+"name": "Absolute Appraisals",
+"city": "Cathedral City",
+"subcategory": "appraisers",
+"website": "",
+"address_hint": "Cathedral City, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.yelp.com/search?cflt=appraisalservices&find_loc=Cathedral+City%2C+CA",
+"note": "Solo practitioner (appraiser named Adam); highly rated on Yelp for Cathedral City; residential focus"
+},
+{
+"name": "American Valuation Company",
+"city": "Desert Hot Springs",
+"subcategory": "appraisers",
+"website": "https://www.desertavc.com/",
+"address_hint": "Desert Hot Springs, CA (website); also listed at 78206 Varner Rd area on Yelp",
+"chain_or_independent": "independent",
+"license_hint": "AG001751",
+"source": "https://desertavc.com/",
+"note": "Led by Les Caplan, State Certified General Appraiser; in business since 1982/1989; residential and commercial; DHS-branded website"
+},
+{
+"name": "James D. Weir (Desert Appraisal)",
+"city": "Desert Hot Springs",
+"subcategory": "appraisers",
+"website": "https://www.desertappraisal.net/",
+"address_hint": "Desert Hot Springs, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.desertappraisal.net/",
+"note": "Solo practitioner; residential and commercial appraisals; Desert Hot Springs based"
+},
+{
+"name": "AW Appraisals",
+"city": "Desert Hot Springs",
+"subcategory": "appraisers",
+"website": "",
+"address_hint": "14080 Palm Dr, Desert Hot Springs, CA 92240",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://nextdoor.com/pages/aw-appraisals-desert-hot-springs-ca/",
+"note": "Solo/small firm based in Desert Hot Springs; listed on Nextdoor and local directories"
+},
+{
+"name": "Thomson Appraisal Company (Thomas Thomson)",
+"city": "Desert Hot Springs",
+"subcategory": "appraisers",
+"website": "",
+"address_hint": "Desert Hot Springs, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://nextdoor.com/pages/thomas-thomson-desert-hot-springs-ca/",
+"note": "Solo practitioner; owner/president; 25+ years; residential specialist for entire Coachella Valley; also Coldwell Banker realtor"
+}
+],
+"_src_subcat": "appraisers",
+"_src_geo": "West valley (PS/CC/DHS)"
+},
+{
+"scope_subcat": "appraisers",
+"scope_geo": "Mid+East valley (Palm Desert, Rancho Mirage, Indian Wells, La Quinta, Indio, Coachella, Thousand Palms, Bermuda Dunes, Thermal)",
+"candidates": [
+{
+"name": "PS Appraisals Inc.",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://www.psappraisals.net/",
+"address_hint": "83 Appian Way, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.yelp.com/biz/p-s-appraisals-palm-desert; https://www.psappraisals.net/",
+"note": "Owner Paula Sloan, certified residential appraiser; founded 2003; covers full Coachella Valley"
+},
+{
+"name": "Brian Ward Appraisal",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://www.palmdesertappraiser.com/",
+"address_hint": "42335 Washington St, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.yelp.com/biz/brian-ward-palm-desert-appraiser-palm-desert; https://www.palmdesertappraiser.com/",
+"note": "Solo practitioner; certified residential appraiser 18+ years experience; covers whole valley"
+},
+{
+"name": "American Home Appraisal Company",
+"city": "Indio",
+"subcategory": "appraisers",
+"website": "https://psappraiser.com/",
+"address_hint": "45895 Oasis St, Indio, CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.bbb.org/us/ca/indio/profile/commercial-appraisals/american-home-appraisal-company-1126-850078266; https://psappraiser.com/",
+"note": "Owner Daniel Quinlan; in Coachella Valley since 1994; described as only appraisal company with Indio office; residential and commercial"
+},
+{
+"name": "Appraisal Solutions Group",
+"city": "Rancho Mirage",
+"subcategory": "appraisers",
+"website": "https://www.sidenfaden.com/",
+"address_hint": "57 San Simeon Ct, Rancho Mirage, CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.homeadvisor.com/rated.AppraisalSolutionsGroup.13907383.html; https://local.yahoo.com/info-28386882-appraisal-solutions-group-rancho-mirage/",
+"note": "Thomas Sidenfaden; in business since 1990; SFR, condo, 1-4 income, land; IRS, trusts, loans"
+},
+{
+"name": "Preferred Appraisals of the Desert Cities",
+"city": "Rancho Mirage",
+"subcategory": "appraisers",
+"website": "https://preferredappraisals.biz/main/",
+"address_hint": "46 Sierra Madre Way, Rancho Mirage, CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://preferredappraisals.biz/main/; https://www.appraisermatch.com/gregory-a-carver",
+"note": "Gregory Carver; covers Palm Springs through Thermal; note: state license listed as inactive as of June 2025 — verify current status"
+},
+{
+"name": "325 Appraisal",
+"city": "Rancho Mirage",
+"subcategory": "appraisers",
+"website": "http://www.325appraisal.com/",
+"address_hint": "Rancho Mirage, CA 92270 (no street address confirmed in snippets)",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "http://www.325appraisal.com/; https://www.yelp.com/search?find_desc=Real+Estate+Appraiser&find_loc=Rancho+Mirage%2C+CA+92270",
+"note": "Licensed/certified appraisers 20+ years experience; dedicated Rancho Mirage market website; phone (760) 297-6727"
+},
+{
+"name": "Pacific Appraisers",
+"city": "La Quinta",
+"subcategory": "appraisers",
+"website": "https://www.pacificappraisal.com/",
+"address_hint": "PO Box 1158, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://411.info/business/Pacific-Appraisers-La-Quinta-CA-8741363; https://www.yelp.com/biz/pacific-appraisers-la-quinta",
+"note": "Local La Quinta appraiser; phone (760) 564-8950; residential and private appraisals"
+},
+{
+"name": "Appraisals 2-Day",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://palmsprings-appraiser.com/",
+"address_hint": "Palm Desert/Palm Springs area (no confirmed street address in snippets)",
+"chain_or_independent": "independent",
+"license_hint": "",
+"note": "Chief Appraiser Steve Strom; 20+ years, 10,000+ appraisals; state-certified; covers Palm Desert, Rancho Mirage, Indian Wells, La Quinta, Indio, Coachella; phone (760) 440-1183",
+"source": "https://palmsprings-appraiser.com/"
+},
+{
+"name": "SC Appraisal Services",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://scappraisalservices.com/",
+"address_hint": "Palm Desert area (no street address confirmed in snippets)",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://scappraisalservices.com/",
+"note": "Owner Shirleyann Colonna; residential and commercial; covers Coachella Valley incl. Palm Desert, La Quinta; phone (760) 200-3366"
+},
+{
+"name": "MacAppraisals",
+"city": "Indio",
+"subcategory": "appraisers",
+"website": "https://appraiserusa.com/listing/form-1248724825.htm",
+"address_hint": "Indio, CA (no street address confirmed in snippets)",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://appraiserusa.com/listing/form-1248724825.htm",
+"note": "Mark McDaniel; FHA, VA, relocation, residential appraisals; listed as Indio-based on appraiserusa.com"
+},
+{
+"name": "The Mason Group",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://www.e-themasongroup.com/",
+"address_hint": "Palm Desert, CA (on-site at Palm Desert Resort CC)",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "https://www.e-themasongroup.com/",
+"note": "Peggy Mason; licensed broker and certified appraiser since 1976; covers Palm Desert, Rancho Mirage, Indian Wells, La Quinta, Indio"
+}
+],
+"_src_subcat": "appraisers",
+"_src_geo": "Mid+East valley (PD/RM/IW/LQ/Indio/Coachella/TP/BD/Thermal)"
+}
+],
+"requested": 4,
+"returned": 4,
+"raw_candidates": 46,
+"tokens_spent": 510643
+}

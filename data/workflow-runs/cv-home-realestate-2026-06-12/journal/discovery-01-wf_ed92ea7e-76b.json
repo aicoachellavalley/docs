@@ -1,0 +1,755 @@
+{
+"batch_index": 1,
+"cells": [
+{
+"scope_subcat": "residential brokerages & teams",
+"scope_geo": "Rancho Mirage",
+"candidates": [
+{
+"name": "Bennion Deville Homes",
+"city": "Rancho Mirage",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.bdhomes.com",
+"address_hint": "71691 Highway 111, Rancho Mirage, CA 92270",
+"chain_or_independent": "chain",
+"license_hint": "01325548",
+"source": "Yelp, bdhomes.com, Luxury Portfolio",
+"note": "Corporate HQ; Luxury Portfolio International franchise"
+},
+{
+"name": "Keller Williams Realty – The Hilgenberg Group",
+"city": "Rancho Mirage",
+"subcategory": "residential brokerages & teams",
+"website": "https://kellerwilliamshg.com",
+"address_hint": "70005 Mirage Cove Dr Suite 1, Rancho Mirage, CA 92270",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Yelp, kellerwilliamshg.com, RealTrends",
+"note": "KW franchise office; The Hilgenberg Group is the operating team brand"
+},
+{
+"name": "Equity Union Real Estate",
+"city": "Rancho Mirage",
+"subcategory": "residential brokerages & teams",
+"website": "https://equityunion.com",
+"address_hint": "70115 Highway 111, Rancho Mirage, CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "equityunion.com, Rancho Mirage Chamber of Commerce, LoopNet",
+"note": "Independent CA brokerage; purchased 9,000 sf building in Rancho Mirage (2025)"
+},
+{
+"name": "OMNI Real Estate Group",
+"city": "Rancho Mirage",
+"subcategory": "residential brokerages & teams",
+"website": "https://omni-re.com",
+"address_hint": "71691 Highway 111, Rancho Mirage, CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "omni-re.com, Yelp, Homes.com",
+"note": "Independent team/brokerage; founded 2015 by Constantine Kolytiris & Ryan Pylypow"
+},
+{
+"name": "The Downs Team",
+"city": "Rancho Mirage",
+"subcategory": "residential brokerages & teams",
+"website": "https://thedownsteam.net",
+"address_hint": "#2 Racquet Club (Mission Hills CC onsite office), Rancho Mirage, CA 92270",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "thedownsteam.net, Coldwell Banker, Yelp",
+"note": "Team within Coldwell Banker Realty; specializes in Rancho Mirage gated communities"
+},
+{
+"name": "Encore Premier Group",
+"city": "Rancho Mirage",
+"subcategory": "residential brokerages & teams",
+"website": "https://encorepremiergroup.bdhomes.com",
+"address_hint": "71691 Highway 111, Rancho Mirage, CA 92270",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "bdhomes.com, Zillow, Nextdoor",
+"note": "Team within Bennion Deville Homes; specialists for The Springs CC and Sunrise CC"
+},
+{
+"name": "Real Estate Rancho Mirage",
+"city": "Rancho Mirage",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.realestateranchomirage.com",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "realestateranchomirage.com, Google search",
+"note": "Team brand (Mark Pariser) operating under Equity Union; based at Mission Hills CC area"
+}
+],
+"_src_subcat": "residential brokerages & teams",
+"_src_geo": "Rancho Mirage"
+},
+{
+"scope_subcat": "residential brokerages & teams",
+"scope_geo": "Cathedral City",
+"candidates": [
+{
+"name": "Century 21 De Oro",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "68828 Ramon Rd, Cathedral City, CA 92234",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Yelp, Century21.com",
+"note": "franchise branch; local C21 office confirmed at Ramon Rd address"
+},
+{
+"name": "Choice 1 Realty",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "68100 Ramon Rd Ste B-7, Cathedral City, CA 92234",
+"chain_or_independent": "independent",
+"license_hint": "DRE 01929724",
+"source": "SuperPages, Yelp, BizProfile, DRE lookup",
+"note": "locally owned; also does escrow; serves full Coachella Valley"
+},
+{
+"name": "Keller Williams Coachella Valley",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.kwcoachellavalley.com/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "DRE 01861149",
+"source": "kwcoachellavalley.com, Yelp",
+"note": "KW franchise; primary office in Indian Wells; agents and city guide page cover Cathedral City — physical Cathedral City office not confirmed"
+},
+{
+"name": "Bennion Deville Homes",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.bdhomes.com/",
+"address_hint": "850 N. Palm Canyon Rd (reported; verify — may be Palm Springs address)",
+"chain_or_independent": "independent",
+"license_hint": "DRE 01325548",
+"source": "bdhomes.com, Yelp, Nextdoor",
+"note": "regional independent; strong CV presence; primary confirmed office is Palm Springs; Cathedral City address from search snippet — needs verification"
+},
+{
+"name": "RE/MAX Desert Properties",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.remax-desertproperties-ca.com/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "remax-desertproperties-ca.com, remax.com",
+"note": "RE/MAX franchise; primary office in Palm Springs; serves Cathedral City — no Cathedral City physical office confirmed in search results"
+},
+{
+"name": "Coldwell Banker Realty",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.coldwellbankerhomes.com/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "coldwellbankerhomes.com, coldwellbanker.com",
+"note": "national chain; nearest confirmed offices in Palm Springs and Palm Desert; agents actively serve Cathedral City — no Cathedral City branch address confirmed"
+},
+{
+"name": "Compass",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.compass.com/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "compass.com",
+"note": "national chain; 48 agents listed for Cathedral City; no physical Cathedral City office location confirmed — agents likely operate out of Palm Springs area hub"
+},
+{
+"name": "VasTree Real Estate",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "https://vastree.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp (Shane Kauhane - VasTree Real Estate, Cathedral City listing)",
+"note": "agent Shane Kauhane listed as Cathedral City on Yelp; brokerage HQ appears to be Los Angeles/Monrovia — local office presence unclear"
+},
+{
+"name": "HomeSmart Professionals",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "https://homesmart.com/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "homesmart.com",
+"note": "national chain; active agents in Cathedral City; office confirmed in Palm Springs — no Cathedral City office address found"
+},
+{
+"name": "eXp Realty of California",
+"city": "Cathedral City",
+"subcategory": "residential brokerages & teams",
+"website": "https://ca.exprealty.com/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "DRE 01878277",
+"source": "exprealty.com",
+"note": "cloud-based brokerage; no physical local office; agents active in Cathedral City listings — included for completeness but no physical Cathedral City office"
+}
+],
+"_src_subcat": "residential brokerages & teams",
+"_src_geo": "Cathedral City"
+},
+{
+"scope_subcat": "residential brokerages & teams",
+"scope_geo": "Indio",
+"candidates": [
+{
+"name": "The Pena Group (The Real Estate Company Inc.)",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "https://thepenagroup.us/",
+"address_hint": "80372 Camino San Lucas, Indio, CA 92203",
+"chain_or_independent": "independent",
+"license_hint": "DRE #01005040",
+"source": "BBB, Homes.com, realestateagents.com",
+"note": "Independent brokerage; broker/owner Carlos A. Pena; residential and resort resales since 1988"
+},
+{
+"name": "Keller Williams Realty (Indio office)",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "https://kw.com",
+"address_hint": "48630 Monroe St, Indio, CA 92201",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Yelp, Nextdoor, Zillow",
+"note": "Franchise branch; separate from KW Coachella Valley office in Indian Wells"
+},
+{
+"name": "Fathom Realty Group Inc. (Indio office)",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.fathomrealty.com/",
+"address_hint": "42250 Jackson St, Ste C103, Indio, CA 92203",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Yelp, fastexpert.com",
+"note": "National franchise office; also referenced at 80586 Willow Lane, Indio 92201"
+},
+{
+"name": "Excellence Real Estate SoCal Properties",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.socalpropertiesre.com/",
+"address_hint": "47-159 Youngs Lane, Indio, CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "fastexpert.com, Facebook",
+"note": "Independent brokerage; broker Jesus Martinez; also has Palm Desert location"
+},
+{
+"name": "Coachella Realty",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "Country Club Dr, Ste 108, Indio, CA 92203",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yahoo Local",
+"note": "Independent local brokerage; phone (760) 774-5387"
+},
+{
+"name": "Indian Springs Real Estate",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.indianspringsrealestate.com/",
+"address_hint": "Inside Big Rock Golf Clubhouse, Indian Springs, Indio",
+"chain_or_independent": "independent",
+"license_hint": "DRE #01320583",
+"source": "indianspringsrealestate.com, Nextdoor",
+"note": "On-site office inside Indian Springs community; broker Chris Casas"
+},
+{
+"name": "Obsidian Group (team under eXp Realty of Southern California)",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.obsidianregroup.com/",
+"address_hint": "42727 Saint Lucia St, Indio, CA 92203",
+"chain_or_independent": "chain",
+"license_hint": "DRE #02115525",
+"source": "obsidianregroup.com, eXp Realty",
+"note": "Team within eXp Realty of Southern California; led by Peyson Robertson; address may be home-based/registered agent"
+},
+{
+"name": "Desert Choice Realty",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "81730 US Highway 111, Suite 5, Indio, CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Manta, Yelp, Yahoo Local, Kompass",
+"note": "Independent local brokerage; also referenced at 45858 Rubidoux St #7a, Indio"
+},
+{
+"name": "My Desert Realty Inc.",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "https://lidiarealestate.com/",
+"address_hint": "82545 Showcase Parkway, Suite 102, Indio, CA 92203",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "realty.com, lidiarealestate.com",
+"note": "Independent brokerage; operates under Lidia Campa Garcia brand (lidiarealestate.com)"
+},
+{
+"name": "Realty World Coachella Valley",
+"city": "Indio",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "realty.com, Facebook, Instagram",
+"note": "Realty World franchise; geolocated to Indio on social media; street address not confirmed in snippets"
+}
+],
+"_src_subcat": "residential brokerages & teams",
+"_src_geo": "Indio"
+},
+{
+"scope_subcat": "residential brokerages & teams",
+"scope_geo": "Indian Wells",
+"candidates": [
+{
+"name": "Coldwell Banker Realty – Indian Wells/La Quinta",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.coldwellbankerhomes.com/ca/indian-wells/office/indian-wells-la-quinta/oid_5341/",
+"address_hint": "45000 Club Dr, Indian Wells, CA 92210",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "coldwellbankerhomes.com, Yelp",
+"note": "franchise branch; listed as Coldwell Banker Residential Brokerage on Yelp at this address"
+},
+{
+"name": "Berkshire Hathaway HomeServices California Properties – Indian Wells",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.bhhscaproperties.com/real-estate-office/105/indian-wells-office",
+"address_hint": "74-990 Hwy 111, Indian Wells, CA 92210",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "bhhscaproperties.com, Yelp",
+"note": "franchise branch; BHHS California Properties brand"
+},
+{
+"name": "RE/MAX Desert Properties",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.remax.com/real-estate-offices/remax-desert-properties-indian-wells-ca/102109237",
+"address_hint": "74907 US Hwy 111, Indian Wells, CA 92210",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "remax.com, Yelp",
+"note": "franchise branch; specializes in luxury and golf communities"
+},
+{
+"name": "Desert Sotheby's International Realty",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.desertsothebysrealty.com",
+"address_hint": "74890 Hwy 111, Indian Wells, CA 92210",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "sothebysrealty.com, Yelp, Greater Coachella Valley Chamber of Commerce",
+"note": "franchise branch; previously also operated as HOM Sotheby's at same address"
+},
+{
+"name": "Keller Williams Coachella Valley",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.kwcoachellavalley.com",
+"address_hint": "74-980 Hwy 111, Indian Wells, CA 92210",
+"chain_or_independent": "chain",
+"license_hint": "DRE #01861149",
+"source": "kwcoachellavalley.com, kw.com/location/1183",
+"note": "franchise branch; DRE# appears in site metadata"
+},
+{
+"name": "Bennion Deville Homes – Indian Wells",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.bdhomes.com/bio/indianwells",
+"address_hint": "74-910 Highway 111, Indian Wells, CA 92210",
+"chain_or_independent": "chain",
+"license_hint": "DRE #01325548",
+"source": "bdhomes.com, Yelp, Facebook",
+"note": "subsidiary of HomeServices of America / Berkshire Hathaway affiliate; DRE# on Facebook page"
+},
+{
+"name": "Grand Luxury Properties",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "https://grandluxuryproperties.com",
+"address_hint": "76938 Tomahawk Run, Indian Wells, CA 92210",
+"chain_or_independent": "independent",
+"license_hint": "DRE #01256734",
+"source": "Yelp, grandluxuryproperties.com, Dun & Bradstreet",
+"note": "independent broker-owner team; Bob & Sue Ellen Ross; DRE# in search snippet"
+},
+{
+"name": "Power Brokers International",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "45110 Club Dr Suite D, Indian Wells, CA 92210",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "LoopNet, Yelp, Crunchbase",
+"note": "independent boutique brokerage; HQ in Indian Wells; subsidiary of Beverly Hills Fine Homes Inc."
+},
+{
+"name": "Kelli Adams Realty",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "74-923 Hwy 111 #161, Indian Wells, CA 92210",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, YellowPages",
+"note": "independent brokerage; broker Kelli Adams, 30+ years local experience"
+},
+{
+"name": "Vintage Club Sales",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.vintageclubsales.com",
+"address_hint": "75-005 Vintage Drive West, Indian Wells, CA 92210",
+"chain_or_independent": "independent",
+"license_hint": "DRE #02091034",
+"source": "vintageclubsales.com, Zillow, ZoomInfo",
+"note": "on-site brokerage exclusive to The Vintage Club community; DRE# in snippet"
+},
+{
+"name": "Zwemmer Realty Group",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.zwemmerrealty.com",
+"address_hint": "75486 Augusta Dr, Indian Wells, CA 92210",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "zwemmerrealty.com, fastexpert.com",
+"note": "named team within Keller Williams; specializes in Indian Wells and Palm Springs luxury"
+},
+{
+"name": "Huston Group at Power Brokers International",
+"city": "Indian Wells",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "45110 Club Dr Suite D, Indian Wells, CA 92210",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp",
+"note": "named team within Power Brokers International; Janice & George Huston"
+}
+],
+"_src_subcat": "residential brokerages & teams",
+"_src_geo": "Indian Wells"
+},
+{
+"scope_subcat": "residential brokerages & teams",
+"scope_geo": "Coachella + Thermal",
+"candidates": [
+{
+"name": "Issy Enterprises Inc",
+"city": "Coachella",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "52669 Harrison St Ste 208-210, Coachella CA 92236",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yellow Pages, bizprofile.net",
+"note": "Registered real estate agents corp; Israel Valdez registered agent; Coachella physical address confirmed"
+},
+{
+"name": "KW Coachella Valley",
+"city": "Coachella",
+"subcategory": "residential brokerages & teams",
+"website": "https://www.kwcoachellavalley.com/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "google, kwcoachellavalley.com",
+"note": "Keller Williams franchise; valley-wide brand; physical office location in scope cities not confirmed — include as candidate"
+},
+{
+"name": "Argentia Group Inc",
+"city": "Thermal",
+"subcategory": "residential brokerages & teams",
+"website": "https://argentiagroup.com/",
+"address_hint": "lower Coachella Valley, Thermal / Mecca / Oasis area",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google, argentiagroup.com, ZoomInfo",
+"note": "Primarily land and commercial brokerage serving lower Coachella Valley including Thermal; residential scope is partial"
+}
+],
+"_src_subcat": "residential brokerages & teams",
+"_src_geo": "Coachella + Thermal"
+},
+{
+"scope_subcat": "residential brokerages & teams",
+"scope_geo": "Desert Hot Springs",
+"candidates": [
+{
+"name": "Desert Cities Realtors",
+"city": "Desert Hot Springs",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "13279 Palm Dr, Suite 8, Desert Hot Springs, CA 92240",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp",
+"note": "independent local brokerage with physical office on Palm Dr"
+},
+{
+"name": "Four Winds Realty, Inc.",
+"city": "Desert Hot Springs",
+"subcategory": "residential brokerages & teams",
+"website": "fourwindsrealty.net",
+"address_hint": "66041 Pierson Blvd, Desert Hot Springs, CA 92240",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google, brokerage site",
+"note": "full-service residential sales and property management"
+},
+{
+"name": "JC Realtors",
+"city": "Desert Hot Springs",
+"subcategory": "residential brokerages & teams",
+"website": "jcrealtors.net",
+"address_hint": "66070 Pierson Blvd, Suite 1, Desert Hot Springs, CA 92240",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, YellowPages",
+"note": "family-owned brokerage founded 2001 by Jose and Connie Perez; also does property management"
+},
+{
+"name": "Desert Dunes Realty & Property Management",
+"city": "Desert Hot Springs",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "12561 Palm Dr, Suite B, Desert Hot Springs, CA 92240",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp",
+"note": "residential and commercial sales plus property management; 10+ years in Coachella Valley"
+},
+{
+"name": "Desert Empire Realty",
+"city": "Desert Hot Springs",
+"subcategory": "residential brokerages & teams",
+"website": "desertempirerealty.com",
+"address_hint": "12380 Palm Dr, Suite C, Desert Hot Springs, CA 92240",
+"chain_or_independent": "independent",
+"license_hint": "01294036",
+"source": "Yelp, realty.com, DRE lookup snippet",
+"note": "also listed as Desert Empire Property Management; same address and entity"
+}
+],
+"_src_subcat": "residential brokerages & teams",
+"_src_geo": "Desert Hot Springs"
+},
+{
+"candidates": [
+{
+"name": "Desert Vista Realtors",
+"city": "Thousand Palms",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "72450 Ramon Rd Ste 109, Thousand Palms, CA 92276",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Trustoria / DandB business directory",
+"note": "Local independent brokerage; phone (760) 343-7337 per directory"
+},
+{
+"name": "Sandy Mann Salkind Real Estate Broker (Sandy the Mann for Real Estate)",
+"city": "Bermuda Dunes",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "78440 Darby Rd, Bermuda Dunes, CA 92203",
+"chain_or_independent": "independent",
+"license_hint": "DRE #00222957",
+"source": "Yelp, YellowPages",
+"note": "Solo broker operating as own brand; also does private money loans and short sales"
+},
+{
+"name": "James L Grant Real Estate Broker",
+"city": "Bermuda Dunes",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "78219 Calico Glen Dr, Bermuda Dunes, CA 92203",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "YellowPages",
+"note": "Solo broker; in business approx. 53 years per YP listing"
+},
+{
+"name": "Dunray Land Co Inc",
+"city": "Bermuda Dunes",
+"subcategory": "residential brokerages & teams",
+"website": "",
+"address_hint": "79050 Avenue 42, Bermuda Dunes, CA 92203",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "YellowPages",
+"note": "Listed under commercial real estate and real estate agents; primarily land/commercial focus — include with caution"
+}
+],
+"scope_subcat": "residential brokerages & teams",
+"scope_geo": "Thousand Palms + Bermuda Dunes",
+"_src_subcat": "residential brokerages & teams",
+"_src_geo": "Thousand Palms + Bermuda Dunes"
+},
+{
+"candidates": [
+{
+"name": "La Quinta Resort Leasing",
+"city": "La Quinta",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.laquintaresortleasing.com/",
+"address_hint": "50200 Vista Bonita, La Quinta",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / pgawest.com / laquintaresortleasing.com",
+"note": "On-site leasing program tied to La Quinta Resort & Club / Waldorf Astoria; manages PGA West private homes for owners"
+},
+{
+"name": "Five Star Vacation Rental",
+"city": "La Quinta",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.fivestarvacationrental.com/",
+"address_hint": "78015 Main St, Suite 201B, La Quinta",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / fivestarvacationrental.com / visitgreaterpalmsprings.com",
+"note": "Multi-market company (Big Bear + La Quinta); confirmed La Quinta office"
+},
+{
+"name": "Luxury Leasing Vacation Rentals",
+"city": "La Quinta",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.luxuryleasinginc.com/",
+"address_hint": "50949 Washington St, Suite 1E, La Quinta",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / luxuryleasinginc.com",
+"note": "Largest inventory claim for PGA West; boutique local operator"
+},
+{
+"name": "Resort Home Destinations",
+"city": "La Quinta",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.resorthd.com/",
+"address_hint": "78075 Main St, La Quinta",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / resorthd.com",
+"note": "15+ year operator; portfolio concentrated at PGA West; involved in local STVR regulation"
+},
+{
+"name": "VARE Properties",
+"city": "La Quinta",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.vareproperties.com/",
+"address_hint": "78140 Calle Tampico, La Quinta",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / vareproperties.com",
+"note": "Old Town La Quinta office; serves La Quinta, Indio, and Coachella"
+},
+{
+"name": "Royale Vacation Rentals",
+"city": "La Quinta",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.royalevacationrentals.com/",
+"address_hint": "78080 Calle Estado, Suite 101, La Quinta",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / royalevacationrentals.com",
+"note": "Focus on PGA West and Palm Springs corridor"
+},
+{
+"name": "Helios Vacation Rentals",
+"city": "La Quinta",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://heliosvacations.com/",
+"address_hint": "La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / heliosvacations.com",
+"note": "Boutique luxury rentals; 100% local team; serves La Quinta, Indio, Bermuda Dunes, Palm Springs"
+},
+{
+"name": "Blue Coachella",
+"city": "Indian Wells",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://bluecoachella.com/",
+"address_hint": "74923 Highway 111, Suite 108, Indian Wells",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / Nextdoor / bluecoachella.com",
+"note": "Family-owned since 2016; hands-on STR and 30-day management Palm Springs to Indio"
+},
+{
+"name": "Bionic Properties",
+"city": "Indio",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://bionicproperties.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / bionicproperties.com / awning.com",
+"note": "Indio and Coachella Valley focused STR management; also operates coachellaepicjourneys.com brand"
+},
+{
+"name": "SuperStay (indiomanagement.com)",
+"city": "Indio",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.indiomanagement.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / indiomanagement.com",
+"note": "Indio-branded STR management site operated under SuperStay brand; no confirmed physical address in snippet"
+},
+{
+"name": "Vacasa",
+"city": "La Quinta",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.vacasa.com/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "DRE #01523013 (Vacation Palm Springs Real Estate Inc.)",
+"source": "WebSearch / vacasa.com",
+"note": "National chain with active PGA West / La Quinta inventory; no confirmed local scope-city office address found in snippets"
+}
+],
+"scope_subcat": "property management — vacation rental / STR management",
+"scope_geo": "golf corridor (LQ/IW/Indio)",
+"_src_subcat": "property management — vacation rental / STR management",
+"_src_geo": "golf corridor (LQ/IW/Indio)"
+}
+],
+"requested": 8,
+"returned": 8,
+"raw_candidates": 62,
+"tokens_spent": 391359
+}

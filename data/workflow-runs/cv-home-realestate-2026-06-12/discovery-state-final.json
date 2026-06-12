@@ -1,0 +1,253 @@
+{
+  "discovery_batches_done": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "tokens_by_batch": {
+    "0": 136356,
+    "1": 391359,
+    "2": 399024,
+    "3": 510643
+  },
+  "candidate_count": 141,
+  "by_subcategory": {
+    "residential brokerages & teams": 107,
+    "property management \u2014 vacation rental / STR management": 39,
+    "property management \u2014 long-term residential": 19,
+    "title & escrow companies": 40,
+    "home inspectors": 35,
+    "HOA / community association management": 17,
+    "mortgage lenders & brokers": 31,
+    "appraisers": 29
+  },
+  "by_city": {
+    "Palm Springs": 83,
+    "Palm Desert": 86,
+    "La Quinta": 48,
+    "Desert Hot Springs": 14,
+    "Indian Wells": 19,
+    "Rancho Mirage": 23,
+    "Coachella": 5,
+    "Indio": 27,
+    "Cathedral City": 6,
+    "Thermal": 1,
+    "Thousand Palms": 1,
+    "Bermuda Dunes": 4
+  },
+  "candidate_count_total": 299,
+  "candidate_count_ok": 283,
+  "review_count": 16,
+  "review_rows": [
+    {
+      "name": "Keller Williams Coachella Valley",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "primary office in; office not confirmed",
+      "note": "KW franchise; primary office in Indian Wells; agents and city guide page cover Cathedral City \u2014 physical Cathedral City "
+    },
+    {
+      "name": "Bennion Deville Homes",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "address in Palm Springs",
+      "note": "regional independent; strong CV presence; primary confirmed office is Palm Springs; Cathedral City address from search s"
+    },
+    {
+      "name": "RE/MAX Desert Properties",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "primary office in; serves cathedral city",
+      "note": "RE/MAX franchise; primary office in Palm Springs; serves Cathedral City \u2014 no Cathedral City physical office confirmed in"
+    },
+    {
+      "name": "Coldwell Banker Realty",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "no cathedral city branch",
+      "note": "national chain; nearest confirmed offices in Palm Springs and Palm Desert; agents actively serve Cathedral City \u2014 no Cat"
+    },
+    {
+      "name": "Compass",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "no physical; agents likely operate out of",
+      "note": "national chain; 48 agents listed for Cathedral City; no physical Cathedral City office location confirmed \u2014 agents likel"
+    },
+    {
+      "name": "VasTree Real Estate",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "hq appears; office presence unclear",
+      "note": "agent Shane Kauhane listed as Cathedral City on Yelp; brokerage HQ appears to be Los Angeles/Monrovia \u2014 local office pre"
+    },
+    {
+      "name": "HomeSmart Professionals",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "office address found",
+      "note": "national chain; active agents in Cathedral City; office confirmed in Palm Springs \u2014 no Cathedral City office address fou"
+    },
+    {
+      "name": "eXp Realty of California",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "no physical; cloud-based",
+      "note": "cloud-based brokerage; no physical local office; agents active in Cathedral City listings \u2014 included for completeness bu"
+    },
+    {
+      "name": "Vacasa",
+      "city": "La Quinta",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "no confirmed local; office address found",
+      "note": "National chain with active PGA West / La Quinta inventory; no confirmed local scope-city office address found in snippet"
+    },
+    {
+      "name": "PMI Coachella Valley",
+      "city": "Palm Desert",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "address in Palm Springs",
+      "note": "franchise branch of PMI (Property Management Inc.); primary office in Palm Springs but serves Palm Desert, Rancho Mirage"
+    },
+    {
+      "name": "GnG Vacation",
+      "city": "Palm Desert",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "no local physical office; remotely",
+      "note": "serves Rancho Mirage market; no local physical office address confirmed in snippets; may operate remotely"
+    },
+    {
+      "name": "AvantStay",
+      "city": "Palm Desert",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "no confirmed local office; no confirmed local",
+      "note": "national operator with local field team covering Rancho Mirage, Palm Desert, Desert Hot Springs; no confirmed local offi"
+    },
+    {
+      "name": "Air Concierge",
+      "city": "Palm Desert",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "no confirmed local; remotely",
+      "note": "HQ in San Diego/Encinitas; no confirmed local Coachella Valley office in snippets; serves Palm Desert, Rancho Mirage, De"
+    },
+    {
+      "name": "Open Air Homes",
+      "city": "Palm Desert",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "address in Palm Springs",
+      "note": "DRE-licensed brokerage; office is Palm Springs (not Palm Desert); covers Palm Desert, Cathedral City, La Quinta; include"
+    },
+    {
+      "name": "My Canadian Concierge",
+      "city": "Palm Desert",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "no office address; no office",
+      "note": "30+ years experience; absentee/seasonal property management for Coachella Valley incl. Palm Desert, Rancho Mirage, Indio"
+    },
+    {
+      "name": "California Vacation Villas (join.californiavacationvillas.com)",
+      "city": "Palm Desert",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "no office address; no office",
+      "note": "short-term vacation rental property management targeting Coachella Valley; no office address confirmed in snippets"
+    }
+  ],
+  "rows_total": 323,
+  "enrich_target_count": 317,
+  "remote_operator_count": 6,
+  "dropped_count": 10,
+  "entity_kind_counts": {
+    "office": 282,
+    "team_brand": 24,
+    "solo": 11
+  },
+  "dropped_rows": [
+    {
+      "name": "Keller Williams Coachella Valley",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "primary office in; office not confirmed"
+    },
+    {
+      "name": "Bennion Deville Homes",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "address in Palm Springs"
+    },
+    {
+      "name": "RE/MAX Desert Properties",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "primary office in; serves cathedral city"
+    },
+    {
+      "name": "Coldwell Banker Realty",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "no cathedral city branch"
+    },
+    {
+      "name": "Compass",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "no physical; agents likely operate out of"
+    },
+    {
+      "name": "VasTree Real Estate",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "hq appears; office presence unclear"
+    },
+    {
+      "name": "HomeSmart Professionals",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "office address found"
+    },
+    {
+      "name": "eXp Realty of California",
+      "city": "Cathedral City",
+      "subcategory": "residential brokerages & teams",
+      "reason": "no physical; cloud-based"
+    },
+    {
+      "name": "PMI Coachella Valley",
+      "city": "Palm Desert",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "address in Palm Springs"
+    },
+    {
+      "name": "Open Air Homes",
+      "city": "Palm Desert",
+      "subcategory": "property management \u2014 vacation rental / STR management",
+      "reason": "address in Palm Springs"
+    }
+  ],
+  "remote_operators": [
+    {
+      "name": "Vacasa",
+      "city": "La Quinta"
+    },
+    {
+      "name": "GnG Vacation",
+      "city": "Palm Desert"
+    },
+    {
+      "name": "AvantStay",
+      "city": "Palm Desert"
+    },
+    {
+      "name": "Air Concierge",
+      "city": "Palm Desert"
+    },
+    {
+      "name": "My Canadian Concierge",
+      "city": "Palm Desert"
+    },
+    {
+      "name": "California Vacation Villas (join.californiavacationvillas.com)",
+      "city": "Palm Desert"
+    }
+  ]
+}

@@ -1,0 +1,1382 @@
+{
+"batch_index": 2,
+"cells": [
+{
+"scope_subcat": "property management — vacation rental / STR management",
+"scope_geo": "PD/RM/rest",
+"candidates": [
+{
+"name": "iTrip Palm Desert (Palm Desert Vacation Properties)",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://palmdesert.itrip.co/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "google search / itrip.net",
+"note": "locally owned franchise of iTrip national brand; owners Boris and Alena Stark; covers Palm Desert, Rancho Mirage, Palm Springs"
+},
+{
+"name": "Boutique Vacation Rentals (BVR)",
+"city": "Rancho Mirage",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://boutiquevrentals.com/",
+"address_hint": "72877 Dinah Shore Dr, Suite 103, Rancho Mirage, CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp",
+"note": "luxury STR management; physical office confirmed at Rancho Mirage address"
+},
+{
+"name": "Vacation Rentals of the Desert",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.vacationrentalsofthedesert.com/",
+"address_hint": "72925 Fred Waring Dr, Suite 104, Palm Desert, CA 92260",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "tripz.com / google search",
+"note": "founded 2008 by Vickie Murguia; covers Palm Desert, Rancho Mirage, Cathedral City, La Quinta"
+},
+{
+"name": "Desert Management",
+"city": "Rancho Mirage",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://desertmanagement.com/",
+"address_hint": "42427 Rancho Mirage Ln, Rancho Mirage, CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp / Rancho Mirage Chamber of Commerce",
+"note": "established 1981; also does HOA and condo management; LGBTQ-owned"
+},
+{
+"name": "Desert Luxury Estates",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://desertluxuryestates.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "visitgreaterpalmsprings.com / Yelp",
+"note": "luxury STR and estate management; listed address under Palm Desert per visitor center directory; covers Rancho Mirage, Palm Springs, La Quinta, Indio"
+},
+{
+"name": "Coachella Valley Property Management (coachellavalleypropertymanagement.site)",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://coachellavalleypropertymanagement.site/",
+"address_hint": "77824 Wildcat Dr, Palm Desert, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp / google search",
+"note": "Palm Desert-based; distinct from Xepco/palmspringspropertymanagement.com; covers Cathedral City, Palm Desert and surrounding cities"
+},
+{
+"name": "Xepco Property Management (palmspringspropertymanagement.com / Coachella Valley PM)",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.palmspringspropertymanagement.com/",
+"address_hint": "73700 Dinah Shore Dr, Suite 104, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp / google search",
+"note": "also operates idyllwildpropertymanagement.com; covers Palm Desert, Rancho Mirage, Desert Hot Springs, Cathedral City; separate entity from coachellavalleypropertymanagement.site"
+},
+{
+"name": "Desert Properties of Coachella Valley",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.rentinps.com/",
+"address_hint": "73301 Hwy 111, Suite 200, Palm Desert, CA 92260",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp / Birdeye",
+"note": "manages long-term, vacation, and concierge rentals; physical Palm Desert office confirmed"
+},
+{
+"name": "Blue Coachella",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://bluecoachella.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google search",
+"note": "family-owned, locally operating since 2016; Nextdoor listing places it in Indian Wells but serves Palm Desert to Indio corridor; STR and 30-day-plus management"
+},
+{
+"name": "PMI Coachella Valley",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.palmspringspropertymanagementinc.com/",
+"address_hint": "777 E Tahquitz Canyon Way, Ste 200-93, Palm Springs, CA 92262",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Yelp / google search",
+"note": "franchise branch of PMI (Property Management Inc.); primary office in Palm Springs but serves Palm Desert, Rancho Mirage, Desert Hot Springs, Cathedral City — office city is Palm Springs; included because serves scope cities but office is Palm Springs"
+},
+{
+"name": "Poolside Vacation Rentals",
+"city": "Rancho Mirage",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.poolsidevacationrentals.com/",
+"address_hint": "69730 Highway 111, Suite 112, Rancho Mirage, CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp / google search",
+"note": "corporate/by-appointment office in Rancho Mirage; primary retail office at 301 N Palm Canyon Dr, Palm Springs; manages 600+ rentals valley-wide"
+},
+{
+"name": "GnG Vacation",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.gngvacation.com/",
+"address_hint": "",
+"chain_or_independent": "unknown",
+"license_hint": "",
+"source": "google search / onefinebnb.com",
+"note": "serves Rancho Mirage market; no local physical office address confirmed in snippets; may operate remotely"
+},
+{
+"name": "AvantStay",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://avantstay.com/coachella-valley-vacation-rental-management",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "google search",
+"note": "national operator with local field team covering Rancho Mirage, Palm Desert, Desert Hot Springs; no confirmed local office address in snippets"
+},
+{
+"name": "Air Concierge",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.airconcierge.net/palm-springs-airbnb-manager",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "visitgreaterpalmsprings.com / google search",
+"note": "HQ in San Diego/Encinitas; no confirmed local Coachella Valley office in snippets; serves Palm Desert, Rancho Mirage, Desert Hot Springs remotely"
+},
+{
+"name": "Open Air Homes",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://openairhomes.com/palm-desert-airbnb-management/",
+"address_hint": "182 E Andreas Rd, Palm Springs, CA 92262",
+"chain_or_independent": "independent",
+"license_hint": "DRE #02164159",
+"source": "google search / openairhomes.com",
+"note": "DRE-licensed brokerage; office is Palm Springs (not Palm Desert); covers Palm Desert, Cathedral City, La Quinta; included as primary Valley operator"
+},
+{
+"name": "My Canadian Concierge",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://mycanadianconcierge.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google search",
+"note": "30+ years experience; absentee/seasonal property management for Coachella Valley incl. Palm Desert, Rancho Mirage, Indio; no office address confirmed in snippets"
+},
+{
+"name": "California Vacation Villas (join.californiavacationvillas.com)",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://join.californiavacationvillas.com/",
+"address_hint": "",
+"chain_or_independent": "unknown",
+"license_hint": "",
+"source": "google search",
+"note": "short-term vacation rental property management targeting Coachella Valley; no office address confirmed in snippets"
+},
+{
+"name": "Vacasa (via Vacation Palm Springs partnership)",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://www.vacasa.com/usa/California/Palm-Desert/",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "google search / Yelp",
+"note": "national operator; absorbed Vacation Palm Springs; Yelp lists a Palm Springs real estate office; no confirmed physical Palm Desert or Rancho Mirage office in snippets"
+},
+{
+"name": "Xepco Property Management (palmdesertpropertymanagement.com)",
+"city": "Palm Desert",
+"subcategory": "property management — vacation rental / STR management",
+"website": "https://palmdesertpropertymanagement.com/",
+"address_hint": "73700 Dinah Shore Dr, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "allpropertymanagement.com / Yelp",
+"note": "possible DBA or sister site of Xepco/palmspringspropertymanagement.com; seasonal homeowner vacation rental services in Palm Desert"
+}
+],
+"_src_subcat": "property management — vacation rental / STR management",
+"_src_geo": "PD/RM/rest"
+},
+{
+"scope_subcat": "property management — long-term residential",
+"scope_geo": "Mid valley (PD/RM/IW/Thousand Palms)",
+"candidates": [
+{
+"name": "Utopia Management",
+"city": "Palm Desert",
+"subcategory": "property management — long-term residential",
+"website": "https://utopiamanagement.com",
+"address_hint": "72875 Fred Waring Dr, Ste B, Palm Desert, CA 92260",
+"chain_or_independent": "chain",
+"license_hint": "DRE #01197438",
+"source": "Yelp, utopiamanagement.com",
+"note": "Regional chain (CA/WA/OR/NV); dedicated Palm Desert office"
+},
+{
+"name": "All County Desert Property Management",
+"city": "Palm Desert",
+"subcategory": "property management — long-term residential",
+"website": "https://www.allcountyprop.com/locations/california/palm-desert/",
+"address_hint": "77682 Country Club Dr, Ste A, Palm Desert, CA 92211",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "allcountyprop.com, Yelp",
+"note": "All County national franchise branch; residential only focus"
+},
+{
+"name": "Coachella Valley Property Management",
+"city": "Palm Desert",
+"subcategory": "property management — long-term residential",
+"website": "https://www.palmspringspropertymanagement.com",
+"address_hint": "77824 Wildcat Dr, Palm Desert, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, palmspringspropertymanagement.com",
+"note": "Ranked #44 on PropertyManagement.com 2025 Top 100; full Coachella Valley coverage"
+},
+{
+"name": "Xepco Properties (Desert Cities Property Management)",
+"city": "Palm Desert",
+"subcategory": "property management — long-term residential",
+"website": "https://xepco.com",
+"address_hint": "73700 Dinah Shore Dr, Ste 104, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, propertymanagement.com, nicelocal.com",
+"note": "Also operates as Desert Cities Property Management, Inc.; in business since 1986"
+},
+{
+"name": "Real Property Management Desert Cities",
+"city": "Palm Desert",
+"subcategory": "property management — long-term residential",
+"website": "https://propertymanagementriverside.com",
+"address_hint": "73700 Dinah Shore, Ste 201, Palm Desert, CA 92211",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "propertymanagementriverside.com, Angi",
+"note": "RPM national franchise branch; also uses xepco.com domain for service area pages"
+},
+{
+"name": "Parker Property Management",
+"city": "Palm Desert",
+"subcategory": "property management — long-term residential",
+"website": "https://parkerpropertymgmt.com",
+"address_hint": "Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, parkerpropertymgmt.com, propertymanagerpalmdesert.com",
+"note": "Flat-rate all-inclusive model; serves full Coachella Valley from Palm Desert office"
+},
+{
+"name": "Hayes Realty",
+"city": "Palm Desert",
+"subcategory": "property management — long-term residential",
+"website": "https://hayesrealtyservice.com",
+"address_hint": "72650 Fred Waring Dr, Palm Desert, CA 92260",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, hayesrealtyservice.com",
+"note": "7% flat-rate management; covers Indian Wells, Thousand Palms, and other CV cities"
+},
+{
+"name": "Desert Cities Property Management",
+"city": "Palm Desert",
+"subcategory": "property management — long-term residential",
+"website": "",
+"address_hint": "114 Courtside Dr, Palm Desert, CA 92260",
+"chain_or_independent": "unknown",
+"license_hint": "",
+"source": "Yelp, cmac.ws",
+"note": "Smaller local firm; distinct from Xepco/RPM Desert Cities at Dinah Shore; phone 760-568-5089"
+},
+{
+"name": "MGR Property Management",
+"city": "Rancho Mirage",
+"subcategory": "property management — long-term residential",
+"website": "https://www.mgrrealestate.com",
+"address_hint": "72000 Magnesia Falls Dr, Ste 3, Rancho Mirage, CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "DRE #01841920",
+"source": "BBB, ranchomiragechamber.org, propertymanagement.com",
+"note": "In business since 1983; also does commercial and HOA; Rancho Mirage Chamber member"
+},
+{
+"name": "Desert Rental Properties",
+"city": "Rancho Mirage",
+"subcategory": "property management — long-term residential",
+"website": "https://www.desertrentalproperties.com",
+"address_hint": "Rancho Mirage, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "desertrentalproperties.com, keycrew.co",
+"note": "10-person team; owned under Johnson Commercial Real Estate; long-standing local operator"
+}
+],
+"_src_subcat": "property management — long-term residential",
+"_src_geo": "Mid valley (PD/RM/IW/Thousand Palms)"
+},
+{
+"scope_subcat": "property management — long-term residential",
+"scope_geo": "East valley (LQ/Indio/Coachella/BD/Thermal)",
+"candidates": [
+{
+"name": "Hayes Realty Service",
+"city": "La Quinta",
+"subcategory": "property management — long-term residential",
+"website": "https://hayesrealtyservice.com",
+"address_hint": "78401 Hwy 111, Ste H, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, hayesrealtyservice.com",
+"note": "Primary focus explicitly stated as long-term rentals of one year or longer; flat 7% fee"
+},
+{
+"name": "California Lifestyle Realty",
+"city": "La Quinta",
+"subcategory": "property management — long-term residential",
+"website": "https://californialifestylerealty.com",
+"address_hint": "50200 Avenida Vista Bonita, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, californialifestylerealty.com, Google",
+"note": "On-site realty at PGA West and La Quinta Resort; offers long-term leasing alongside STR and sales; primarily luxury resort communities"
+}
+],
+"_src_subcat": "property management — long-term residential",
+"_src_geo": "East valley (LQ/Indio/Coachella/BD/Thermal)"
+},
+{
+"scope_subcat": "title & escrow companies",
+"scope_geo": "independents valley-wide",
+"candidates": [
+{
+"name": "Palm Desert Escrow, Inc.",
+"city": "Palm Desert",
+"subcategory": "title & escrow companies",
+"website": "https://www.palmdesertescrow.com/",
+"address_hint": "74041 Highway 111, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp",
+"note": "Independently owned since 1978; 40+ years serving Coachella Valley"
+},
+{
+"name": "Foresite Escrow, Inc.",
+"city": "Palm Desert",
+"subcategory": "title & escrow companies",
+"website": "https://foresitescrow.com/",
+"address_hint": "41995 Boardwalk, Suite G-2, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / BBB",
+"note": "Founded 1987 by Rob Lyman; independently owned and operated"
+},
+{
+"name": "Coachella Valley Escrow, Inc.",
+"city": "Palm Desert",
+"subcategory": "title & escrow companies",
+"website": "",
+"address_hint": "73993 Highway 111, Ste 201, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / bizprofile.net",
+"note": "Separate entity from CV Escrow/Pango Group; principal address also listed as 75108 Gerald Ford Dr Ste 2, Palm Desert"
+},
+{
+"name": "EscrowOne, Inc.",
+"city": "Palm Desert",
+"subcategory": "title & escrow companies",
+"website": "https://escrowone.com/",
+"address_hint": "44200 Town Center Way, Suite 102, Palm Desert, CA 92260",
+"chain_or_independent": "independent",
+"license_hint": "863-1653",
+"source": "WebSearch / Yelp / LinkedIn",
+"note": "Yelp listing marked CLOSED as of June 2026; multi-location independent (Palmdale also listed)"
+},
+{
+"name": "CV Escrow",
+"city": "La Quinta",
+"subcategory": "title & escrow companies",
+"website": "https://cvescrow.com/",
+"address_hint": "47350 Washington St, Suite 102, La Quinta, CA 92253",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Yelp / Pango Group press releases",
+"note": "Part of Pango Group; multi-office regional chain (La Quinta HQ, plus Palm Desert, Rancho Mirage, Palm Springs)"
+},
+{
+"name": "CV Escrow",
+"city": "Palm Desert",
+"subcategory": "title & escrow companies",
+"website": "https://cvescrow.com/",
+"address_hint": "72-750 El Paseo, Suite C-1, Palm Desert, CA 92260",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Pango Group press release",
+"note": "Palm Desert branch of CV Escrow (Pango Group)"
+},
+{
+"name": "CV Escrow",
+"city": "Rancho Mirage",
+"subcategory": "title & escrow companies",
+"website": "https://cvescrow.com/",
+"address_hint": "71-703 Hwy 111, Suite 1B, Rancho Mirage, CA 92270",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Yelp / Pango Group press release",
+"note": "Rancho Mirage branch of CV Escrow (Pango Group)"
+},
+{
+"name": "CV Escrow",
+"city": "Palm Springs",
+"subcategory": "title & escrow companies",
+"website": "https://cvescrow.com/",
+"address_hint": "4375 E Calle De Ricardo, Suite B, Palm Springs, CA 92264",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Yelp",
+"note": "Palm Springs branch of CV Escrow (Pango Group)"
+},
+{
+"name": "Four Seasons Escrow, Inc.",
+"city": "La Quinta",
+"subcategory": "title & escrow companies",
+"website": "https://www.4seasonsescrow.com/",
+"address_hint": "78070 Calle Cadiz, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / Waze",
+"note": "Single-location independent serving La Quinta and Palm Desert"
+},
+{
+"name": "Uptown Escrow Services, Inc.",
+"city": "La Quinta",
+"subcategory": "title & escrow companies",
+"website": "https://www.uptownescrow.com/",
+"address_hint": "78370 Hwy 111, Suite 290, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / Yahoo Local",
+"note": "Founded 2011 by Laura Stone; second location opened La Quinta Nov 2024 (also has Cedar Glen office)"
+},
+{
+"name": "Wonderland Escrow",
+"city": "La Quinta",
+"subcategory": "title & escrow companies",
+"website": "https://wonderlandescrow.com/",
+"address_hint": "47050 Washington Street, Suite 4202, La Quinta, CA 92253",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Wonderland Escrow site",
+"note": "Multi-office independent chain; HQ Sherman Oaks; Coachella Valley East location"
+},
+{
+"name": "Wonderland Escrow",
+"city": "Rancho Mirage",
+"subcategory": "title & escrow companies",
+"website": "https://wonderlandescrow.com/",
+"address_hint": "70-115 Highway 111, Suite 110, Rancho Mirage, CA 92270",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Wonderland Escrow site",
+"note": "Coachella Valley West location of Wonderland Escrow (HQ Sherman Oaks)"
+},
+{
+"name": "Liberty Escrow Inc.",
+"city": "Palm Springs",
+"subcategory": "title & escrow companies",
+"website": "https://www.libertyescrow.com/",
+"address_hint": "200 N Sunrise Way, Suite A, Palm Springs, CA 92262",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / Palm Springs Chamber of Commerce",
+"note": "Truly independent escrow; owners Melvena Schaefer and Kristy Cordell; since 2000"
+},
+{
+"name": "Palm Springs Escrow, Inc.",
+"city": "Palm Springs",
+"subcategory": "title & escrow companies",
+"website": "https://www.palmspringsescrow.com/",
+"address_hint": "750 E Tahquitz Canyon Way, Suite 1, Palm Springs, CA 92262",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / Palm Springs Chamber of Commerce",
+"note": "Owner Tim Szucs; markets as independent desert escrow choice"
+},
+{
+"name": "The Escrow Connection",
+"city": "Palm Springs",
+"subcategory": "title & escrow companies",
+"website": "https://www.theescrowconnection.com/",
+"address_hint": "1111 E Tahquitz Canyon Way, Suite 101, Palm Springs, CA 92262",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / BBB",
+"note": "30+ year local independent; Palm Springs Chamber of Commerce member"
+},
+{
+"name": "JTE Escrow, Inc.",
+"city": "Palm Springs",
+"subcategory": "title & escrow companies",
+"website": "https://jteescrow.com/",
+"address_hint": "340 S Farrell Dr, Suite A-110, Palm Springs, CA 92262",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / Yahoo Local",
+"note": "Formerly Joshua Tree Escrow; founded 2018; serves Joshua Tree corridor and Coachella Valley"
+},
+{
+"name": "Pickford Escrow Company",
+"city": "Palm Springs",
+"subcategory": "title & escrow companies",
+"website": "https://pickfordescrow.com/",
+"address_hint": "2825 E Tahquitz Canyon Way, Suite 106, Palm Springs, CA 92262",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Waze / Yelp",
+"note": "HomeServices of America (Berkshire Hathaway) subsidiary; absorbed Legendary Escrow Services July 2022"
+},
+{
+"name": "Prominent Escrow Services, Inc.",
+"city": "Palm Springs",
+"subcategory": "title & escrow companies",
+"website": "https://www.prominentescrow.com/",
+"address_hint": "Palm Springs, CA",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / prominentescrow.com",
+"note": "Multi-office independent chain; HQ Newport Beach; also has Indian Wells office"
+},
+{
+"name": "WFG National Title Company of California",
+"city": "Palm Springs",
+"subcategory": "title & escrow companies",
+"website": "https://wfgtitle.com/palm-springs-office/",
+"address_hint": "901 E Tahquitz Canyon Way, Suite A100-102, Palm Springs, CA 92262",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Yelp / Waze",
+"note": "National title insurance and escrow chain (Williston Financial Group)"
+},
+{
+"name": "Pacific Coast Escrow Corporation",
+"city": "Indian Wells",
+"subcategory": "title & escrow companies",
+"website": "https://pacificcoastescrow.com/",
+"address_hint": "74920 US Highway 111, Indian Wells, CA 92210",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / Yelp / BBB",
+"note": "Founded 1973; independently owned and operated; 50+ years serving CV"
+},
+{
+"name": "Indian Wells Escrow Corporation",
+"city": "Indian Wells",
+"subcategory": "title & escrow companies",
+"website": "https://indianwellsescrow.com/",
+"address_hint": "74909 Hwy 111, Indian Wells, CA 92210",
+"chain_or_independent": "independent",
+"license_hint": "96DBO-184863",
+"source": "WebSearch / bizprofile.net / LinkedIn",
+"note": "President Tracey Wrubleski Meeks; single-location local independent"
+},
+{
+"name": "Prominent Escrow Services, Inc.",
+"city": "Indian Wells",
+"subcategory": "title & escrow companies",
+"website": "https://www.prominentescrow.com/",
+"address_hint": "74785 Hwy 111, Indian Wells, CA 92210",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Yelp",
+"note": "Indian Wells branch; multi-office independent chain HQ Newport Beach"
+},
+{
+"name": "Pickford Escrow Company",
+"city": "Indian Wells",
+"subcategory": "title & escrow companies",
+"website": "https://pickfordescrow.com/",
+"address_hint": "74996 Highway 111, Indian Wells, CA 92210",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "WebSearch / Waze",
+"note": "HomeServices of America subsidiary; formerly Legendary Escrow Services location"
+},
+{
+"name": "New Venture Escrow",
+"city": "Rancho Mirage",
+"subcategory": "title & escrow companies",
+"website": "https://newventureescrow.com/",
+"address_hint": "72120 Magnesia Falls Dr, Suite 1, Rancho Mirage, CA 92270",
+"chain_or_independent": "chain",
+"license_hint": "963-1683",
+"source": "WebSearch / Yelp / PR Newswire",
+"note": "Sixth office opened July 2025; HQ San Diego; multi-office independent chain"
+},
+{
+"name": "Bayside Escrow, Inc.",
+"city": "Rancho Mirage",
+"subcategory": "title & escrow companies",
+"website": "https://baysideescrow.com/",
+"address_hint": "Rancho Mirage, CA",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "WebSearch / baysideescrow.com",
+"note": "HQ Tustin; independent escrow serving all California; Rancho Mirage service page found but street address not confirmed in snippet"
+}
+],
+"_src_subcat": "title & escrow companies",
+"_src_geo": "independents valley-wide"
+},
+{
+"candidates": [
+{
+"name": "Contempo Lending, Inc.",
+"city": "Palm Springs",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://contempolending.com",
+"address_hint": "1800 E Tahquitz Canyon Way, Suite 200",
+"chain_or_independent": "independent",
+"license_hint": "NMLS #287912; DRE #1837324",
+"source": "Yelp, lendersa.com",
+"note": "locally owned Palm Springs independent mortgage broker since 2004"
+},
+{
+"name": "Emerge Home Loans",
+"city": "Palm Springs",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://emergehomeloans.com",
+"address_hint": "750 N Palm Canyon Dr, Suite 2",
+"chain_or_independent": "independent",
+"license_hint": "DRE #02227633",
+"source": "loc8nearme.com, Yelp",
+"note": "founded by Jeff Hohman; also listed as Emerge Financial Services on Yelp"
+},
+{
+"name": "MortgageWorks, Inc.",
+"city": "Palm Springs",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.mwloan.com",
+"address_hint": "777 E Tahquitz Canyon Way, Suite 200-47",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "mwloan.com, Yahoo Local",
+"note": "full-service mortgage company based in Palm Springs since 1997"
+},
+{
+"name": "Happy Investments, Inc.",
+"city": "Palm Springs",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://happyinvestmentsinc.com",
+"address_hint": "1775 E Palm Canyon Dr, Suite 110-1003A",
+"chain_or_independent": "independent",
+"license_hint": "NMLS #950873; DRE #01485740",
+"source": "Yelp, happyinvestmentsinc.com",
+"note": "multi-office operator; Palm Springs office"
+},
+{
+"name": "Prosperity Home Mortgage, LLC",
+"city": "Palm Springs",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.phmloans.com",
+"address_hint": "201 N Palm Canyon Dr, Suite 120",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "phmloans.com (Brad Tilford profile)",
+"note": "national franchise branch; also has Indian Wells office on Hwy 111"
+},
+{
+"name": "Todd Walcott Reverse Mortgage",
+"city": "Palm Springs",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://toddwalcott.com",
+"address_hint": "601 E Tahquitz Canyon Way, Suite 202",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "toddwalcott.com",
+"note": "specialist reverse mortgage brand; contact email routes through Contempo Lending"
+},
+{
+"name": "Mortgage Works Financial",
+"city": "Cathedral City",
+"subcategory": "mortgage lenders & brokers",
+"website": "",
+"address_hint": "32235 Date Palm Dr",
+"chain_or_independent": "unknown",
+"license_hint": "",
+"source": "Yelp (Cathedral City listing)",
+"note": "may be related to MortgageWorks Inc (Palm Springs); separate Yelp listing"
+},
+{
+"name": "Happy Investments, Inc.",
+"city": "Desert Hot Springs",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://happyinvestmentsinc.com",
+"address_hint": "14080 Palm Dr, Suite D #227A",
+"chain_or_independent": "independent",
+"license_hint": "NMLS #950873; DRE #01485740",
+"source": "Yelp, chamberofcommerce.com",
+"note": "multi-office operator; Desert Hot Springs office"
+},
+{
+"name": "Franklin Loan Center",
+"city": "Palm Desert",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.franklinlc.com",
+"address_hint": "44800 Village Ct",
+"chain_or_independent": "independent",
+"license_hint": "NMLS #237653",
+"source": "Yelp, franklinlc.com",
+"note": "largest independent mortgage lender in Coachella Valley per company info"
+},
+{
+"name": "First West Financial Corporation",
+"city": "Palm Desert",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://firstwestfinancial.com",
+"address_hint": "74967 Sheryl Ave",
+"chain_or_independent": "independent",
+"license_hint": "NMLS #252853",
+"source": "Yelp, firstwestfinancial.com",
+"note": "family-owned Coachella Valley mortgage broker"
+},
+{
+"name": "Vanmar Lending",
+"city": "Palm Desert",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.vanmarlending.com",
+"address_hint": "77824 Wildcat Dr",
+"chain_or_independent": "independent",
+"license_hint": "NMLS #1107512",
+"source": "Yelp, vanmarlending.com",
+"note": "full-service lender; also has Cathedral City landing page"
+},
+{
+"name": "Flagstar Home Lending",
+"city": "Palm Desert",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.flagstar.com",
+"address_hint": "74-710 Highway 111, Suite 102",
+"chain_or_independent": "chain",
+"license_hint": "NMLS #613338 (branch mgr David Walling)",
+"source": "flagstar.com branch page",
+"note": "bank-owned branch; appointment only"
+},
+{
+"name": "Fairway Independent Mortgage Corporation",
+"city": "Palm Desert",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.fairway.com",
+"address_hint": "74710 Highway 111, Suite 127",
+"chain_or_independent": "chain",
+"license_hint": "NMLS #2289 (company); branch NMLS #2151871",
+"source": "fairway.com branch page",
+"note": "national chain branch; Chapa Group operates under this branch"
+},
+{
+"name": "Guaranteed Rate Affinity / Rate",
+"city": "Palm Desert",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.grarate.com",
+"address_hint": "72605 Highway 111, Suite B1",
+"chain_or_independent": "chain",
+"license_hint": "NMLS #2554623",
+"source": "grarate.com branch page, Yelp",
+"note": "national chain; rebranded from Guaranteed Rate Affinity to Rate"
+},
+{
+"name": "Movement Mortgage",
+"city": "Palm Desert",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://movement.com",
+"address_hint": "78000 Fred Waring Dr, Suite 205",
+"chain_or_independent": "chain",
+"license_hint": "NMLS #2733589 (branch)",
+"source": "movement.com location page",
+"note": "national chain branch"
+},
+{
+"name": "Happy Investments, Inc.",
+"city": "Palm Desert",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://happyinvestmentsinc.com",
+"address_hint": "78206 Varner Rd",
+"chain_or_independent": "independent",
+"license_hint": "NMLS #950873; DRE #01485740",
+"source": "mortgage4house.com, manta.com",
+"note": "multi-office operator; Palm Desert office"
+},
+{
+"name": "CMG Home Loans",
+"city": "Rancho Mirage",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.cmghomeloans.com",
+"address_hint": "2 Whispering Wind Court",
+"chain_or_independent": "chain",
+"license_hint": "NMLS #2135810 (branch)",
+"source": "cmghomeloans.com branch page",
+"note": "national chain branch; branch mgr Sarrah Davenport-Gonzalez NMLS #325081"
+}
+],
+"scope_subcat": "mortgage lenders & brokers",
+"scope_geo": "West/Mid valley offices",
+"_src_subcat": "mortgage lenders & brokers",
+"_src_geo": "West/Mid valley offices"
+},
+{
+"scope_subcat": "mortgage lenders & brokers",
+"scope_geo": "East valley offices",
+"candidates": [
+{
+"name": "Choice One Mortgage",
+"city": "La Quinta",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.choice1mortgage.com",
+"address_hint": "78015 Main St, Suite 201, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google / choice1mortgage.com",
+"note": "founded 1995, CV-based since 2017; broker shops wholesale lenders"
+},
+{
+"name": "New American Funding",
+"city": "Indio",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.newamericanfunding.com",
+"address_hint": "81713 Hwy 111, Suite B, Indio, CA 92201",
+"chain_or_independent": "chain",
+"license_hint": "NMLS #223258 (branch manager Sandra Magana)",
+"source": "prnewswire.com / newamericanfunding.com",
+"note": "national lender branch; opened 2018; focus on down-payment assistance"
+},
+{
+"name": "First West Financial Corporation",
+"city": "La Quinta",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://firstwestfinancial.com",
+"address_hint": "78370 CA-111 #255, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google / firstwestfinancial.com / Alignable",
+"note": "family-owned; owner Enrique Braunschweiger; serves full CV"
+},
+{
+"name": "American Financial Network (AFN)",
+"city": "La Quinta",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.afncorp.com/web/laquinta",
+"address_hint": "47050 Washington St, Ste 4101, La Quinta, CA 92253",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "afncorp.com / BBB / Yelp",
+"note": "national lender branch; HQ Brea CA"
+},
+{
+"name": "ML Mortgage",
+"city": "La Quinta",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.mlmortgage.net/la-quinta/",
+"address_hint": "La Quinta, CA 92253",
+"chain_or_independent": "chain",
+"license_hint": "NMLS #362312 (company); branch manager Antonio Rodriguez NMLS #321258",
+"source": "mlmortgage.net / google",
+"note": "regional chain with dedicated La Quinta branch"
+},
+{
+"name": "Movement Mortgage",
+"city": "La Quinta",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://movement.com/locations/ca/la-quinta",
+"address_hint": "",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "movement.com",
+"note": "national lender with La Quinta location page"
+},
+{
+"name": "Hacienda Home Loans, Inc.",
+"city": "La Quinta",
+"subcategory": "mortgage lenders & brokers",
+"website": "",
+"address_hint": "77935 Calle Tampico #202, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "lendersa.com / BBB",
+"note": "private hard money loans; residential, commercial, vacant land; est. 2004"
+},
+{
+"name": "First Capital Mortgage Inc.",
+"city": "La Quinta",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://firstcapitalmortgageinc.com",
+"address_hint": "78080 Calle Amigo Ste. 208, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "NMLS #2266927 (branch)",
+"source": "modex.com / firstcapitalmortgageinc.com / Yelp",
+"note": "also has Indio office (see separate row)"
+},
+{
+"name": "First Capital Mortgage Inc.",
+"city": "Indio",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://firstcapitalmortgageinc.com/indio-ca-office/",
+"address_hint": "81713 Highway 111 Suite B2, Indio, CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "firstcapitalmortgageinc.com / google",
+"note": "dedicated Indio office page"
+},
+{
+"name": "Desert Lenders, Inc.",
+"city": "Indio",
+"subcategory": "mortgage lenders & brokers",
+"website": "",
+"address_hint": "82500 US Highway 111 #2, Indio, CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp / BBB / yellowbot",
+"note": "local independent broker"
+},
+{
+"name": "Happy Investments, Inc.",
+"city": "Indio",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://happyinvestmentsinc.com",
+"address_hint": "42250 Jackson St #C103-5K, Indio, CA 92203",
+"chain_or_independent": "independent",
+"license_hint": "NMLS #950873 (company; principal office Corona CA)",
+"source": "happyinvestmentsinc.com / hub.biz / cylex",
+"note": "principal licensed office in Corona; local Indio branch with 760 number"
+},
+{
+"name": "Premier Realty Group",
+"city": "Indio",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://premier760.com",
+"address_hint": "83135 Requa Ave, Ste 3, Indio, CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp / lendersa.com / Alignable",
+"note": "combined realty + mortgage brokerage; also does VA, FHA, USDA loans"
+},
+{
+"name": "Desert Mortgage Lending, Inc.",
+"city": "Indio",
+"subcategory": "mortgage lenders & brokers",
+"website": "",
+"address_hint": "80816 Sunstar Ct, Indio, CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "bizprofile.net",
+"note": "small independent; residential address may be home-based office"
+},
+{
+"name": "Impress Realty",
+"city": "La Quinta",
+"subcategory": "mortgage lenders & brokers",
+"website": "https://www.impressrealty.com",
+"address_hint": "45725 Camino Vista, La Quinta, CA 92253",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "impressrealty.com / centralindex.com",
+"note": "combined realty and home loan/refinance firm; covers Bermuda Dunes, Thermal, Coachella, Indio"
+}
+],
+"_src_subcat": "mortgage lenders & brokers",
+"_src_geo": "East valley offices"
+},
+{
+"scope_subcat": "appraisers",
+"scope_geo": "valley-wide",
+"candidates": [
+{
+"name": "Brian Ward Appraisal",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://www.palmdesertappraiser.com/",
+"address_hint": "42335 Washington St, Suite F407, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, yellowpages, brokerage site",
+"note": "Certified residential appraiser; also operates brianward.com; 18+ years Coachella Valley experience"
+},
+{
+"name": "PS Appraisals Inc",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://www.psappraisals.net/",
+"address_hint": "83 Appian Way, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "yellowpages, BBB",
+"note": "Owner Paula Sloan; also known as Palm Springs Appraisals; serves full Coachella Valley"
+},
+{
+"name": "American Valuation Company",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://desertavc.com/",
+"address_hint": "78206 Varner Rd, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "AG001751",
+"source": "Yelp, BBB, google",
+"note": "Residential and commercial; Chief Appraiser Lester Caplan; established 1982"
+},
+{
+"name": "SC Appraisal Services",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://scappraisalservices.com/",
+"address_hint": "38382 Zinnia Lane, Palm Desert, CA 92211",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "bizprofile.net, google",
+"note": "Serves Riverside and Orange Counties; residential and commercial"
+},
+{
+"name": "The Mason Group",
+"city": "Palm Desert",
+"subcategory": "appraisers",
+"website": "https://www.e-themasongroup.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google, facebook",
+"note": "Owner Peggy Mason; combined broker and certified appraiser; serves Palm Desert, Rancho Mirage, Indian Wells, La Quinta"
+},
+{
+"name": "Emblazed",
+"city": "Indio",
+"subcategory": "appraisers",
+"website": "https://www.emblazed.com/",
+"address_hint": "82204 US Hwy 111, Ste C-271, Indio, CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google, yellowpages",
+"note": "20+ years experience; 5,000+ appraisals; branded as Indio Real Estate Appraiser"
+},
+{
+"name": "American Home Appraisal Company",
+"city": "Indio",
+"subcategory": "appraisers",
+"website": "https://www.psappraiser.com/",
+"address_hint": "45895 Oasis Street, Indio, CA 92201",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "yellowpages, Yelp, google",
+"note": "Also operates psappraiser.com; serves 13 cities in Coachella Valley; 20+ years"
+},
+{
+"name": "Brinkman Appraisal Services",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "https://www.brinkmanappraisals.net/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, google",
+"note": "Appraisal Institute designated; also has brinkmanappraisals.com / Desert Cities Appraisers brand"
+},
+{
+"name": "Palm Springs Appraisal Company",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "",
+"address_hint": "559 S Palm Canyon Dr #B105, Palm Springs, CA 92264",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "BBB",
+"note": "BBB-listed; distinct from psappraisals.net and palm-springs-appraiser.com"
+},
+{
+"name": "Young Real Estate Appraisals",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "http://yrea.biz",
+"address_hint": "2213 E Del Lago Rd, Palm Springs, CA 92262",
+"chain_or_independent": "independent",
+"license_hint": "AR037169",
+"source": "yellowpages, chamberofcommerce",
+"note": "Appraiser Gene Young; Certified Residential license; serves Riverside County"
+},
+{
+"name": "Johnson Appraisal Services",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "",
+"address_hint": "103 Caravan, Palm Springs, CA 92264",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp",
+"note": "Owner Kenneth Johnson; appraiser credential reported inactive as of 2018 per ASC; status uncertain"
+},
+{
+"name": "Palm Springs Real Estate Appraiser",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "https://www.palm-springs-appraiser.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google, yellowpages",
+"note": "Also operates 325appraisal.com (Rancho Mirage-branded site) under same phone 760-297-6727; city-branded multi-site operator"
+},
+{
+"name": "Assured Appraisals",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "https://assuredappraisalsca.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google",
+"note": "Residential; 760 area code; office city not confirmed in snippets; tentatively Palm Springs market"
+},
+{
+"name": "Preferred Appraisals of the Desert Cities",
+"city": "Palm Springs",
+"subcategory": "appraisers",
+"website": "https://preferredappraisals.biz/main/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "google",
+"note": "Certified residential appraisers; 16+ years CV experience; office city not confirmed in snippets; valley-wide service"
+},
+{
+"name": "Appraisal Solutions Group",
+"city": "Rancho Mirage",
+"subcategory": "appraisers",
+"website": "https://www.sidenfaden.com/",
+"address_hint": "57 San Simeon Ct, Rancho Mirage, CA 92270",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp, golocal247, HomeAdvisor",
+"note": "Owner Thomas Sidenfaden; residential and land appraisals"
+}
+],
+"_src_subcat": "appraisers",
+"_src_geo": "valley-wide"
+},
+{
+"candidates": [
+{
+"name": "Albert Management",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://www.albertmgt.com/",
+"address_hint": "41-865 Boardwalk Ave, Suite 101",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Google / Yelp",
+"note": "locally owned, no parent company; in business since 2001; highest-rated by CV HOA Presidents Council"
+},
+{
+"name": "Personalized Property Management (PPM)",
+"city": "Cathedral City",
+"subcategory": "HOA / community association management",
+"website": "https://www.hoappm.com/",
+"address_hint": "68950 Adelina Rd",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Google / Yelp",
+"note": "in business since 1983; serves all CV cities; 150+ HOAs"
+},
+{
+"name": "Avail Property Management",
+"city": "La Quinta",
+"subcategory": "HOA / community association management",
+"website": "https://availhoa.com/",
+"address_hint": "51350 Desert Club Dr, Suite 4",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Google / Yelp",
+"note": "serves La Quinta, Palm Desert, Indian Wells, Rancho Mirage exclusively"
+},
+{
+"name": "Premier Community Association Management (PCAM)",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://buckreynoldscorporation.com/pcam/",
+"address_hint": "40004 Cook St, Suite 5",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp / Palm Desert Chamber",
+"note": "division of Buck Reynolds Corporation; formed 2021; 48+ years combined experience"
+},
+{
+"name": "Millennium Community Management (MCM)",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://www.mcmiskey.com/",
+"address_hint": "44801 Village Court, Suite 101",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Google / Rancho Mirage Chamber",
+"note": "boutique firm; in business since 2000; member Rancho Mirage Chamber"
+},
+{
+"name": "Desert Management",
+"city": "Rancho Mirage",
+"subcategory": "HOA / community association management",
+"website": "https://desertmanagement.com/",
+"address_hint": "42427 Rancho Mirage Ln",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Yelp / Rancho Mirage Chamber",
+"note": "in business since 1981; long-established independent"
+},
+{
+"name": "Community Association Financial Services (CAFS)",
+"city": "Palm Springs",
+"subcategory": "HOA / community association management",
+"website": "https://www.cafshoa.com/",
+"address_hint": "1111 E Tahquitz Canyon Way, Suite 103",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Google / Palm Springs Chamber",
+"note": "financial/accounting services only for HOAs; 50+ years experience; veteran-owned, female-managed"
+},
+{
+"name": "Manhattan Pacific Management",
+"city": "Palm Springs",
+"subcategory": "HOA / community association management",
+"website": "https://www.manhattanpacificmgmt.com/",
+"address_hint": "750 Palm Canyon Dr (Flannery Exchange Building)",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Greater CV Chamber / Nextdoor",
+"note": "local Palm Springs office; also manages apartments"
+},
+{
+"name": "PMI Coachella Valley",
+"city": "Palm Springs",
+"subcategory": "HOA / community association management",
+"website": "https://www.palmspringspropertymanagementinc.com/",
+"address_hint": "777 E Tahquitz Canyon Way, Suite 200-93",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Yelp / Google",
+"note": "franchise of national PMI (Property Management Inc.) network; locally owned/operated"
+},
+{
+"name": "Action Property Management",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://www.actionlife.com/",
+"address_hint": "74-710 Highway 111, Suite 102",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Google",
+"note": "California's largest privately owned HOA management company; multiple CA offices"
+},
+{
+"name": "Associa Desert Resort Management",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://www.drminternet.com/",
+"address_hint": "42635 Melanie Pl, Suite 103",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Google / Palm Desert Chamber",
+"note": "Associa national chain branch; established 1987, joined Associa 2010; 54+ HOAs managed"
+},
+{
+"name": "The Management Trust",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://managementtrust.com/",
+"address_hint": "39755 Berkey Dr, Suite A",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Yelp / Google",
+"note": "100% employee-owned; multi-state; also serves Palm Springs and La Quinta and Rancho Mirage"
+},
+{
+"name": "FirstService Residential",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://www.fsresidential.com/california/offices/palm-desert/",
+"address_hint": "43-100 Cook St, Suite 103",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Yelp / Google",
+"note": "large national chain; North American market leader in HOA management"
+},
+{
+"name": "RealManage",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://realmanage.com/locations/california/coachella-valley/",
+"address_hint": "74-710 Highway 111, Suite 102",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Google",
+"note": "national chain; top-3 HOA management nationally; Coachella Valley office"
+},
+{
+"name": "Seabreeze Management Company",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://seabreezemgmt.com/",
+"address_hint": "36945 Cook St, Suite 104",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Yelp / Palm Desert Chamber",
+"note": "California multi-office; HQ in Aliso Viejo; 500+ associations statewide"
+},
+{
+"name": "Powerstone Property Management",
+"city": "Indian Wells",
+"subcategory": "HOA / community association management",
+"website": "https://www.powerstonepm.com/",
+"address_hint": "74770 Highway 111, Suite 103",
+"chain_or_independent": "chain",
+"license_hint": "",
+"source": "Greater CV Chamber / Google",
+"note": "California multi-office chain; HQ in Irvine; in CV since 1993"
+},
+{
+"name": "Community Solutions",
+"city": "Palm Desert",
+"subcategory": "HOA / community association management",
+"website": "https://communitysolutionshoa.com/",
+"address_hint": "",
+"chain_or_independent": "independent",
+"license_hint": "",
+"source": "Google",
+"note": "self-described as Coachella Valley's HOA Community Management; city/address not confirmed in snippets"
+}
+],
+"scope_subcat": "HOA / community association management",
+"scope_geo": "independents valley-wide",
+"_src_subcat": "HOA / community association management",
+"_src_geo": "independents valley-wide"
+}
+],
+"requested": 8,
+"returned": 8,
+"raw_candidates": 119,
+"tokens_spent": 399024
+}
