@@ -1,0 +1,351 @@
+{
+  "provenance": {
+    "method": "agent-proposed from disk hints + 5 bounded web checks; human-reviewed",
+    "reviewed_by": "Sat Singh / AICV",
+    "review_date": "2026-06-11",
+    "human_overrides": [
+      "Kuma Catering → catering_only",
+      "PS Underground → catering_only"
+    ]
+  },
+  "derives_from": "dining-enriched-final.json (481-run record, untouched)",
+  "emits": [
+    "dining-segmented-v2.json",
+    "state-segmented-v2.json"
+  ],
+  "segment_counts": {
+    "fixed_location": 1,
+    "catering_only": 9,
+    "mobile": 26,
+    "defunct_or_duplicate": 11
+  },
+  "locked_denominators": {
+    "raw_independent_rows": 971,
+    "fixed_location_independents": 925,
+    "seed_mapped": 66,
+    "inspected_fixed": 859,
+    "mobile": 26,
+    "catering_only": 9,
+    "dup_or_defunct": 11,
+    "inspection_coverage_non_mapped_fixed": "859/859 = 100%"
+  },
+  "birrieria_sweep": {
+    "entity": "Birrieria Sinaloa",
+    "city": "Indio",
+    "run_id": "wf_b4f48661-672",
+    "result": {
+      "name": "Birrieria Sinaloa",
+      "city": "Indio, CA",
+      "meal_periods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "walk-in",
+      "booking_platform": "",
+      "outdoor_seating": "unknown",
+      "kid_family_friendly": "true",
+      "group_private_dining": "false",
+      "group_capacity": "",
+      "bar_cocktails": "false",
+      "happy_hour": "false",
+      "dietary_vegan": "unknown",
+      "dietary_vegetarian": "unknown",
+      "dietary_gluten_free": "unknown",
+      "dog_friendly_patio": "unknown",
+      "live_music": "false",
+      "seasonal_operation": "unknown",
+      "reopen_date": "",
+      "has_structured_data": "unknown",
+      "agent_crawlable": "false",
+      "agent_visibility_score": "medium",
+      "visibility_gap_note": "Own site appears first but delivery aggregators (DoorDash, Uber Eats, Grubhub, Postmates) and review-clone sites dominate remaining top results, reducing direct brand authority in agent queries."
+    }
+  },
+  "classification": [
+    {
+      "name": "Birrieria Sinaloa",
+      "city": "Indio",
+      "segment": "fixed_location",
+      "segment_note": "Promoted from mobile-catering after web verification (2026-06-11): indoor dine-in seating + patio + posted Mon–Fri 8am–10pm hours confirm a fixed restaurant. Distinct entity from the enriched Birrieria Sinaloa / La Quinta (51125 Avenida Bermudas). Swept this session."
+    },
+    {
+      "name": "Tacos Ala Mexicana",
+      "city": "Desert Hot Springs",
+      "segment": "catering_only",
+      "segment_note": "Taquero catering service — web-verified 2026-06-11 (Yelp 'Caterers', WeddingWire 'Wedding Caterers', own site tacosalamexicana.com: corporate/private/wedding events). Caterer, not a fixed restaurant; out of fixed universe."
+    },
+    {
+      "name": "M&J's Barbeque",
+      "city": "Palm Desert",
+      "segment": "catering_only",
+      "segment_note": "BBQ caterer; PO Box address (PO Box 11333), no walk-in premises."
+    },
+    {
+      "name": "Carousel Catering",
+      "city": "Palm Springs",
+      "segment": "catering_only",
+      "segment_note": "Caterer, no public premises."
+    },
+    {
+      "name": "La Bottega Catering",
+      "city": "Palm Springs",
+      "segment": "catering_only",
+      "segment_note": "Italian caterer; Yelp notes the storefront is CLOSED — now catering-only (closure date not evidenced on disk)."
+    },
+    {
+      "name": "PS Underground",
+      "city": "Palm Springs",
+      "segment": "catering_only",
+      "segment_note": "HUMAN OVERRIDE → catering_only: high-end wedding/event caterer; the immersive dinner-theater popup is the public face. No fixed public premises.",
+      "node_candidate": "events/wedding/retreat layer candidate — human endorsed"
+    },
+    {
+      "name": "The Butter Cake Studio",
+      "city": "Palm Springs",
+      "segment": "catering_only",
+      "segment_note": "Order-based custom/wedding cake studio (bakery), no walk-in storefront.",
+      "node_candidate": "events/wedding/retreat layer candidate — human endorsed"
+    },
+    {
+      "name": "Monteferante Fine Foods & Catering",
+      "city": "Rancho Mirage",
+      "segment": "catering_only",
+      "segment_note": "Web-verified 2026-06-11: caterer operating from a Desert Health Campus commissary (72301 Country Club Dr Ste 110), serves Riverside/SD/Orange/LA counties; no retail storefront."
+    },
+    {
+      "name": "Hot Dish Catering",
+      "city": "Thousand Palms",
+      "segment": "catering_only",
+      "segment_note": "Event/food-service caterer (74580 Varner Rd), own website 1hotdish.com."
+    },
+    {
+      "name": "Kuma Catering",
+      "city": "Thousand Palms",
+      "segment": "catering_only",
+      "segment_note": "HUMAN OVERRIDE → catering_only: high-end wedding/event caterer; Thu–Sun walk-up hours at the Gunther St commissary are secondary to the catering business.",
+      "node_candidate": "events/wedding/retreat layer candidate — human endorsed"
+    },
+    {
+      "name": "El Tarasco (taco truck)",
+      "city": "Cathedral City",
+      "segment": "mobile",
+      "segment_note": "Taco truck. Canonical row for El Tarasco; alias: El Tarasco / Palm Springs."
+    },
+    {
+      "name": "Mariscos El Capitan Food Truck",
+      "city": "Cathedral City",
+      "segment": "mobile",
+      "segment_note": "Seafood taco truck (real address). Canonical; alias: Mariscos El Capitan Food Truck / Palm Springs."
+    },
+    {
+      "name": "Olga's Tacos (taco truck)",
+      "city": "Cathedral City",
+      "segment": "mobile",
+      "segment_note": "Taco truck. Canonical; alias: Olga's Tacos / Palm Springs."
+    },
+    {
+      "name": "Fat Boy Tacos & Catering",
+      "city": "Coachella",
+      "segment": "mobile",
+      "segment_note": "Mexican taco truck/catering (fatboytacos.com). CANONICAL row for Fat Boy Tacos; aliases: Cathedral City, La Quinta, Palm Springs."
+    },
+    {
+      "name": "Colorado Pig Rig",
+      "city": "Desert Hot Springs",
+      "segment": "mobile",
+      "segment_note": "BBQ/taco truck (coloradopigrig.com). Canonical; alias: Colorado Pig Rig / La Quinta."
+    },
+    {
+      "name": "Mariscos El Berrinche",
+      "city": "Desert Hot Springs",
+      "segment": "mobile",
+      "segment_note": "Mariscos seafood truck, real address."
+    },
+    {
+      "name": "Munchies Hot Dogs",
+      "city": "Desert Hot Springs",
+      "segment": "mobile",
+      "segment_note": "Hot-dog street cart/truck."
+    },
+    {
+      "name": "Raquel's Mexican",
+      "city": "Desert Hot Springs",
+      "segment": "mobile",
+      "segment_note": "Taco truck (real address). Canonical; alias: Raquel's Mexican / Palm Springs."
+    },
+    {
+      "name": "Ty's Chipotle Tacos",
+      "city": "Desert Hot Springs",
+      "segment": "mobile",
+      "segment_note": "Mexican taco truck, real address."
+    },
+    {
+      "name": "Mi Cocinita Mobil",
+      "city": "La Quinta",
+      "segment": "mobile",
+      "segment_note": "Mexican food truck ('Mobil' in name)."
+    },
+    {
+      "name": "Outside The Masa",
+      "city": "La Quinta",
+      "segment": "mobile",
+      "segment_note": "Mexican food truck."
+    },
+    {
+      "name": "Uncle D's Smokehouse BBQ & Grill",
+      "city": "La Quinta",
+      "segment": "mobile",
+      "segment_note": "BBQ food truck."
+    },
+    {
+      "name": "Desert Cone Zone",
+      "city": "Palm Desert",
+      "segment": "mobile",
+      "segment_note": "Shaved-ice/dessert truck (desertconezone.com). CANONICAL; alias: Desert Cone Zone / La Quinta."
+    },
+    {
+      "name": "Haystack Coffee",
+      "city": "Palm Desert",
+      "segment": "mobile",
+      "segment_note": "Mobile specialty coffee (converted horse trailer; web-verified 2026-06-11). CANONICAL; alias: Haystack Coffee / Cathedral City."
+    },
+    {
+      "name": "RK Yummies",
+      "city": "Palm Desert",
+      "segment": "mobile",
+      "segment_note": "Street-food/burger truck."
+    },
+    {
+      "name": "TKB Food Truck",
+      "city": "Palm Desert",
+      "segment": "mobile",
+      "segment_note": "Mobile arm of the seed-mapped TKB Bakery & Deli (separate mobile unit, not the fixed deli)."
+    },
+    {
+      "name": "El JR Tacos",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Taco truck/stand."
+    },
+    {
+      "name": "La Bonita's",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Mexican truck/stand (BestFoodTrucks)."
+    },
+    {
+      "name": "Leo's Tacos - Palm Springs",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Taco truck, location varies."
+    },
+    {
+      "name": "Luigi's Slushlife",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Shave-ice/frozen-treats cart."
+    },
+    {
+      "name": "Palm Shawarma",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Thu–Sun food truck at 300 N Indian Canyon Dr (web-verified 2026-06-11, no dine-in)."
+    },
+    {
+      "name": "Papa Headz",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Burger food truck, location varies."
+    },
+    {
+      "name": "Sinfull Sweets",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Dessert truck, location varies."
+    },
+    {
+      "name": "Taca Tacos",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Taco truck (incl. vegan), own website tacatacos.com."
+    },
+    {
+      "name": "Tacos El Cisne",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Taco truck, location varies."
+    },
+    {
+      "name": "Tacos Lex",
+      "city": "Palm Springs",
+      "segment": "mobile",
+      "segment_note": "Taco truck (al pastor/asada)."
+    },
+    {
+      "name": "Fat Boy Tacos and Catering",
+      "city": "Cathedral City",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: Fat Boy Tacos & Catering / Coachella (same mobile brand, fatboytacos.com)."
+    },
+    {
+      "name": "Haystack Coffee",
+      "city": "Cathedral City",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: Haystack Coffee / Palm Desert (one mobile horse-trailer op; web-verified)."
+    },
+    {
+      "name": "Colorado Pig Rig",
+      "city": "La Quinta",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: Colorado Pig Rig / Desert Hot Springs (city landing page)."
+    },
+    {
+      "name": "Desert Cone Zone",
+      "city": "La Quinta",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: Desert Cone Zone / Palm Desert."
+    },
+    {
+      "name": "Fat Boy Tacos And Catering",
+      "city": "La Quinta",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: Fat Boy Tacos & Catering / Coachella."
+    },
+    {
+      "name": "El Tarasco",
+      "city": "Palm Springs",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: El Tarasco (taco truck) / Cathedral City."
+    },
+    {
+      "name": "Fat Boy Tacos and Catering",
+      "city": "Palm Springs",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: Fat Boy Tacos & Catering / Coachella."
+    },
+    {
+      "name": "Mariscos El Capitan Food Truck",
+      "city": "Palm Springs",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: Mariscos El Capitan Food Truck / Cathedral City."
+    },
+    {
+      "name": "Nanay's Filipino Food Stand",
+      "city": "Palm Springs",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DEFUNCT — CLOSED per Yelp (Instagram @nanaysps shows delivery, hours TBA). Closure date not evidenced on disk."
+    },
+    {
+      "name": "Olga's Tacos",
+      "city": "Palm Springs",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: Olga's Tacos (taco truck) / Cathedral City."
+    },
+    {
+      "name": "Raquel's Mexican",
+      "city": "Palm Springs",
+      "segment": "defunct_or_duplicate",
+      "segment_note": "DUPLICATE → canonical: Raquel's Mexican / Desert Hot Springs."
+    }
+  ]
+}

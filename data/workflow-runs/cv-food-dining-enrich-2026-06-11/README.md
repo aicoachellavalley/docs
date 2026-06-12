@@ -102,3 +102,60 @@ Workflow run IDs (one per batch): `wf_08eb739a-c6f`, `wf_16d05ca6-e7d`,
 
 Source scratch files (untracked in `com/`, never committed there per `tmp-`
 discipline): `tmp-agent-mapped-dining.json`, `tmp-agent-mapped-state.json`.
+
+---
+
+## Segmentation finalization (addendum — 2026-06-11)
+
+Human-reviewed write-back that classified the 47 uncovered independents and
+**locked the V2 denominators**. The `-final` files above are **preserved
+untouched** as the record of the 481-agent run; this finalization chains forward
+into new `-v2` artifacts. Reviewed by **Sat Singh / AICV (2026-06-11)**.
+
+**Method:** agent-proposed from disk hints + 5 bounded web checks, human-reviewed.
+Two human overrides: **Kuma Catering → catering_only**, **PS Underground →
+catering_only** (both ruled high-end wedding/event caterers; their walk-up /
+dinner-theater faces are secondary).
+
+**What changed (in the `-v2` copies only):**
+- All 47 rows received `segment` + `segment_note`. `chain_or_independent` was
+  **not** mutated — the 971 raw count is preserved; `segment` decomposes it.
+- **Birrieria Sinaloa (Indio)** promoted `mobile-catering → fixed_location` and
+  swept with one Sonnet 4.6 agent (run `wf_b4f48661-672`, 16,987 tokens, same
+  20-field schema/depth). Result: visibility **medium**, walk-in, crawler-blocked
+  (own site first but delivery aggregators dominate; no structured data). It is a
+  distinct entity from the already-enriched Birrieria Sinaloa / La Quinta.
+- Duplicate rows name their canonical row; the one defunct row (Nanay's Filipino
+  Food Stand, Yelp-closed) carries a closure note.
+- `node_candidate` flag ("events/wedding/retreat layer candidate — human
+  endorsed") on **Kuma Catering, PS Underground, The Butter Cake Studio**.
+
+**Segment counts (of the 47):** fixed_location 1 · catering_only 9 · mobile 26 ·
+defunct_or_duplicate 11.
+
+### 🔒 LOCKED DENOMINATORS (V2 may cite directly)
+
+```
+971 raw independent rows
+  = 925 fixed-location independents (66 seed-mapped + 859 inspected)
+  +  26 mobile
+  +   9 catering
+  +  11 dup/defunct
+Inspection coverage: 859 / 859 non-mapped fixed-location independents = 100%
+```
+
+This supersedes the "⚠ DENOMINATOR RECONCILIATION REQUIRED" section above — that
+reconciliation is now **resolved**. The earlier "905 strict non-mapped" figure
+was inflated by mobile/catering/duplicate rows; once segmented, the fixed-location
+inspection universe is 859 and fully covered.
+
+**New files (forward of `-final`):**
+- `dining-segmented-v2.json` — full dataset with `segment`/`segment_note` on the
+  47 + Birrieria enriched. Denominator-locked; the dataset V2 regen reads.
+- `state-segmented-v2.json` — state with Birrieria moved `mobile → enriched_new`
+  (`enriched_new` 859, `mobile` 48).
+- `segments-classification-2026-06-11.json` — decision record: provenance header,
+  per-row classification, locked denominators, Birrieria sweep result.
+
+V2 report regeneration (superseding the published 44% figures) remains a separate
+session.
