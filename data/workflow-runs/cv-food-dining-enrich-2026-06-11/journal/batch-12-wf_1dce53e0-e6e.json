@@ -1,0 +1,37 @@
+{
+  "batch_index": 12,
+  "enrichment": [
+    {
+      "name": "Trio (PSP Airport)",
+      "city": "Palm Springs, CA",
+      "meal_periods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "unknown",
+      "booking_platform": "",
+      "outdoor_seating": "patio",
+      "kid_family_friendly": "unknown",
+      "group_private_dining": "true",
+      "group_capacity": "",
+      "bar_cocktails": "true",
+      "happy_hour": "unknown",
+      "dietary_vegan": "unknown",
+      "dietary_vegetarian": "unknown",
+      "dietary_gluten_free": "unknown",
+      "dog_friendly_patio": "true",
+      "live_music": "unknown",
+      "seasonal_operation": "year-round",
+      "reopen_date": "",
+      "has_structured_data": "unknown",
+      "agent_crawlable": "unknown",
+      "agent_visibility_score": "low",
+      "visibility_gap_note": "Airport venue at Palm Springs' primary commercial airport with established brand since 2009, yet surfaces only on Yelp with 13 reviews and no dedicated website — significantly underrepresented for its location and pedigree.",
+      "_src_name": "Trio (PSP Airport)",
+      "_src_city": "Palm Springs"
+    }
+  ],
+  "requested": 1,
+  "returned": 1
+}
