@@ -146,10 +146,16 @@ out['hre_str'] = {
 #          no §10140.6 claim.
 #   NO STATE LICENSE — home inspectors (CA does not license the trade) and
 #          HOA/CID managers (voluntary certification only).
+# GATE B edit 1: the statutory §10140.6/Reg-2773 display claim attaches ONLY
+# to brokerages & teams + long-term PM. Vacation-rental/STR management is
+# DRE-licensed activity (leasing, rent collection) but management of transient
+# occupancy is a recognized unsettled area — its row is a trust-signal norm
+# finding, never a statutory-compliance finding.
 REGIMES = {
-    'DRE-regulated (brokerage + property management)': [
+    'DRE statutory display duty (brokerages & teams + long-term property management)': [
         'residential brokerages & teams',
-        'property management — long-term residential',
+        'property management — long-term residential'],
+    'DRE-licensed activity, unsettled for transient occupancy (vacation-rental/STR mgmt)': [
         'property management — vacation rental / STR management'],
     'NMLS (mortgage)': ['mortgage lenders & brokers'],
     'BREA (appraisers)': ['appraisers'],

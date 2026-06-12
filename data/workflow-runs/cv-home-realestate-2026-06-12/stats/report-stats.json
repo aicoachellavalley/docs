@@ -397,20 +397,33 @@
     }
   },
   "hre_license_by_regime": {
-    "DRE-regulated (brokerage + property management)": {
+    "DRE statutory display duty (brokerages & teams + long-term property management)": {
       "subcategories": [
         "residential brokerages & teams",
-        "property management — long-term residential",
-        "property management — vacation rental / STR management"
+        "property management — long-term residential"
       ],
-      "n": 165,
+      "n": 126,
       "license_displayed": {
-        "n": 71,
-        "pct": 43.0
+        "n": 66,
+        "pct": 52.4
       },
       "license_type_guess": {
-        "DRE": 72,
-        "none-visible": 93
+        "DRE": 67,
+        "none-visible": 59
+      }
+    },
+    "DRE-licensed activity, unsettled for transient occupancy (vacation-rental/STR mgmt)": {
+      "subcategories": [
+        "property management — vacation rental / STR management"
+      ],
+      "n": 39,
+      "license_displayed": {
+        "n": 5,
+        "pct": 12.8
+      },
+      "license_type_guess": {
+        "none-visible": 34,
+        "DRE": 5
       }
     },
     "NMLS (mortgage)": {
