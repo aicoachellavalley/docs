@@ -474,7 +474,14 @@
       }
     }
   },
+  "dining_segmentation_decision_record": {
+    "rows_classified": 47,
+    "human_overrides": 2
+  },
   "run_conduct": {
+    "discovery_batches": 4,
+    "enrichment_batches": 8,
+    "all_targets_enriched": true,
     "dropped_rows_at_triage": 10,
     "dropped_reasons": {
       "phantom / serves-from-elsewhere": 7,

@@ -180,7 +180,18 @@ for fn in sorted(os.listdir(jdir)):
         disc_cells += len(doc.get('cells', []))
 enrich_tokens = enr_state['enrich_usage_total']
 session_tokens = enr_state['session_usage_total']
+seg_doc = json.load(open(os.path.join(
+    HERE, '..', '..', 'cv-food-dining-enrich-2026-06-11',
+    'segments-classification-2026-06-11.json')))
+out['dining_segmentation_decision_record'] = {
+    'rows_classified': len(seg_doc['classification']),
+    'human_overrides': sum(1 for r in seg_doc['classification']
+                           if 'HUMAN OVERRIDE' in (r.get('segment_note') or '')),
+}
 out['run_conduct'] = {
+    'discovery_batches': len(disc_state.get('discovery_batches_done', [])),
+    'enrichment_batches': len(enr_state.get('enriched_batches_done', [])),
+    'all_targets_enriched': len(targets) == n,
     'dropped_rows_at_triage': disc_state.get('dropped_count'),
     'dropped_reasons': dict(Counter(
         ('city-duplicate' if d['reason'].startswith('address in') else 'phantom / serves-from-elsewhere')
