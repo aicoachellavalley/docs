@@ -71,6 +71,12 @@
     "rows_classified": 47,
     "human_overrides": 2
   },
+  "run_conduct": {
+    "june11_inspection_agents": 481,
+    "june11_batches": 13,
+    "previously_inspected": 377,
+    "birrieria_recovery": 1
+  },
   "visibility_full": {
     "inspected": 859,
     "score": {

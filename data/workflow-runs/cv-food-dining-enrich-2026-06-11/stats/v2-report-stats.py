@@ -96,6 +96,17 @@ out['decision_record'] = {
                            if 'HUMAN OVERRIDE' in (r.get('segment_note') or '')),
 }
 
+# ── Run conduct of the inspection leg (from the journal on disk) ─────────
+jdir = os.path.join(HERE, '..', 'journal')
+batch_files = [f for f in os.listdir(jdir) if f.startswith('batch-')]
+journal_lines = sum(1 for _ in open(os.path.join(jdir, 'inspection-journal.jsonl')))
+out['run_conduct'] = {
+    'june11_inspection_agents': journal_lines,
+    'june11_batches': len(batch_files),
+    'previously_inspected': len(inspected) - journal_lines - 1,  # minus Birrieria recovery
+    'birrieria_recovery': 1,
+}
+
 # ── Full-universe visibility findings (n = inspected) ────────────────────
 n = len(inspected)
 vs = Counter(r.get('agent_visibility_score') for r in inspected)
