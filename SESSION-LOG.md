@@ -14,6 +14,25 @@ Format per entry:
 
 ---
 
+## 2026-06-11 — aicv-mcp report retrieval (already built, verified) + com/ reports.json sections drift fixed (thread closed ~18:30 PT)
+
+- Decisions:
+  - Recon-first overturned the premise. Opened on com/ STATE.md GAP 1 ("MCP exposes no report retrieval — only the tool layer is missing"). Disk + live recon of the `aicv-mcp` worker proved the tool layer was ALREADY built and deployed earlier the same day: `get_report` (browse + full-body modes), `route_query` routing report intent to it, smoke-test coverage; 6 tools live, zero disk↔live drift. Did NOT rebuild — verified the premise instead of building from it (would have rebuilt a working tool and never found the parser bug).
+  - The real gaps were two hygiene items the recon surfaced: a stale GAP 1 log entry, and a parser silently emptying half the reports' `sections`.
+  - `sections:[]` drift diagnosed to root: `build-static-json.cjs` `parseFrontmatter` (dependency-free, line-by-line) only handled single-line arrays; a multiline YAML block array (`sections: [` … `]`) collapsed to `[]`. Hit the two reports using block arrays (dining, visitor-economy); inline-array reports (data-centers, state-of-ai) were unaffected. Fixed at the PARSER (accumulate lines until `]`), not by inlining the two frontmatters — so it never silently empties again for any future report or multiline field. Ripple-checked: no multiline arrays in nodes/briefs, so rebuild changed only `reports.json`.
+  - Verified live, not assumed: post-deploy curl of `aicoachellavalley.com/reports.json` reads 8/10/15/10; the two formerly-empty reports now serve real section titles on the edge (e.g. "The Census", "Finding 1 — Zero Structured Data…"), not just non-zero counts. Propagated ~15s.
+- Commits (homepage / .com):
+  - `33d579c` — docs(state): close GAP 1 — MCP report retrieval shipped
+  - `a495c7e` — fix(build): parse multiline YAML block arrays in frontmatter
+  - (the `aicv-mcp` desk commits `ce42b68`→`4eca8ed` were the earlier same-day build thread, not this one)
+- Open questions:
+  - GAP 2 (node↔report cross-links) — still open by design; its own com/ session. No existing pattern → net-new convention to design.
+  - Desk v2 retrieval (`sections[]`-driven sectional fetch on `aicv-mcp`) — UNBLOCKED now that browse mode serves real sections; the data is finally there to drive it.
+  - com/ scratch-file cleanup (`tmp-agent-*.json`, `tmp-*.md` in the working tree) — pending, so they don't accrue into the next recon's noise.
+- Hand-off to: next com/ session — GAP 2 cross-link convention; optional desk v2 sectional retrieval (now unblocked); clear the `tmp-*` scratch files. Disk-as-canon + recon-before-build earned its keep this thread — it's what surfaced both real gaps.
+
+---
+
 ## 2026-06-03 — Gemini-feedback triage + Lighthouse 13.3 baseline + WebMCP reference implementation (thread closed ~14:30 PT)
 
 - Decisions:
