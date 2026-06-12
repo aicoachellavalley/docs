@@ -1,0 +1,137 @@
+{
+  "_provenance": {
+    "script": "stats/v2-report-stats.py",
+    "dataset": "dining-segmented-v2.json",
+    "decision_record": "segments-classification-2026-06-11.json",
+    "generated_for": "agent-mapped-food-dining-coachella-valley V2 regen"
+  },
+  "census": {
+    "rows_total": 1423,
+    "independent_raw": 971,
+    "chains": 442,
+    "neither_chain_nor_independent": 10,
+    "locked_denominators": {
+      "fixed_location_independents": 925,
+      "corpus_mapped": 66,
+      "inspected": 859,
+      "mobile": 26,
+      "catering_only": 9,
+      "duplicate_or_defunct": 11,
+      "identity_check": {
+        "sum": 971,
+        "equals_raw_independents": true
+      },
+      "coverage": {
+        "inspected_plus_mapped": 925,
+        "inspected_pct_of_nonmapped_fixed": 100.0
+      }
+    },
+    "segment_values_on_independents": {
+      "mobile": 26,
+      "defunct_or_duplicate": 11,
+      "fixed_location": 1,
+      "catering_only": 9,
+      "independent": 924
+    },
+    "by_city": {
+      "Palm Springs": 306,
+      "Palm Desert": 260,
+      "La Quinta": 178,
+      "Cathedral City": 155,
+      "Rancho Mirage": 135,
+      "Indio": 117,
+      "Coachella": 71,
+      "Desert Hot Springs": 61,
+      "Indian Wells": 55,
+      "Thousand Palms": 34,
+      "Thermal": 29,
+      "Bermuda Dunes": 22
+    },
+    "corroborated_2plus_sources": {
+      "n": 1060,
+      "of": 1423,
+      "pct": 74.0
+    },
+    "operating_status": {
+      "open": 1255,
+      "seasonal": 57,
+      "closed": 34,
+      "unknown": 77
+    },
+    "state_buckets": {
+      "chains": 441,
+      "mobile": 48,
+      "unclass": 9,
+      "mapped": 66,
+      "enriched_new": 859,
+      "to_enrich": 0
+    }
+  },
+  "decision_record": {
+    "rows_classified": 47,
+    "human_overrides": 2
+  },
+  "visibility_full": {
+    "inspected": 859,
+    "score": {
+      "high": 552,
+      "medium": 264,
+      "low": 40,
+      "invisible": 3
+    },
+    "gap_low_plus_invisible": {
+      "n": 43,
+      "of": 859,
+      "pct": 5.0
+    },
+    "crawler_blocked": {
+      "n": 201,
+      "checkable": 707,
+      "pct": 28.4,
+      "allow": 506,
+      "undetermined": 152
+    },
+    "structured_data_present": {
+      "n": 0,
+      "checkable": 554,
+      "pct": 0.0,
+      "undetermined": 305
+    },
+    "gap_notes_nonempty": 349
+  },
+  "hre_benchmark": {
+    "inspected": 317,
+    "gap": {
+      "n": 36,
+      "pct": 11.4
+    },
+    "crawler_blocked": {
+      "n": 66,
+      "checkable": 293,
+      "pct": 22.5
+    },
+    "structured_data_present": {
+      "n": 3,
+      "checkable": 226,
+      "pct": 1.3
+    }
+  },
+  "cumulative": {
+    "inspected": 1176,
+    "structured_data_present": {
+      "n": 3,
+      "checkable": 780,
+      "pct": 0.4
+    },
+    "crawler_blocked": {
+      "n": 267,
+      "checkable": 1000,
+      "pct": 26.7
+    }
+  },
+  "consistency_gate": {
+    "target": "H&RE report Finding 3 benchmark row (live since 2026-06-12)",
+    "pass": true,
+    "mismatches": {}
+  }
+}
