@@ -396,6 +396,99 @@
       "Indian Wells": 1
     }
   },
+  "hre_license_by_regime": {
+    "DRE-regulated (brokerage + property management)": {
+      "subcategories": [
+        "residential brokerages & teams",
+        "property management — long-term residential",
+        "property management — vacation rental / STR management"
+      ],
+      "n": 165,
+      "license_displayed": {
+        "n": 71,
+        "pct": 43.0
+      },
+      "license_type_guess": {
+        "DRE": 72,
+        "none-visible": 93
+      }
+    },
+    "NMLS (mortgage)": {
+      "subcategories": [
+        "mortgage lenders & brokers"
+      ],
+      "n": 31,
+      "license_displayed": {
+        "n": 24,
+        "pct": 77.4
+      },
+      "license_type_guess": {
+        "DRE": 5,
+        "NMLS": 20,
+        "none-visible": 6
+      }
+    },
+    "BREA (appraisers)": {
+      "subcategories": [
+        "appraisers"
+      ],
+      "n": 29,
+      "license_displayed": {
+        "n": 5,
+        "pct": 17.2
+      },
+      "license_type_guess": {
+        "none-visible": 24,
+        "other": 4,
+        "DRE": 1
+      }
+    },
+    "DOI/DFPI (title & escrow)": {
+      "subcategories": [
+        "title & escrow companies"
+      ],
+      "n": 40,
+      "license_displayed": {
+        "n": 12,
+        "pct": 30.0
+      },
+      "license_type_guess": {
+        "none-visible": 27,
+        "other": 12,
+        "DRE": 1
+      }
+    },
+    "No state license (inspectors, HOA/CID managers)": {
+      "subcategories": [
+        "home inspectors",
+        "HOA / community association management"
+      ],
+      "n": 52,
+      "license_displayed": {
+        "n": 5,
+        "pct": 9.6
+      },
+      "license_type_guess": {
+        "none-visible": 46,
+        "other": 6
+      }
+    }
+  },
+  "run_conduct": {
+    "dropped_rows_at_triage": 10,
+    "dropped_reasons": {
+      "phantom / serves-from-elsewhere": 7,
+      "city-duplicate": 3
+    },
+    "discovery_cells": 28,
+    "enrichment_agents": 317,
+    "tokens": {
+      "discovery": 1174060,
+      "enrichment": 5572549,
+      "session_total": 6746609,
+      "per_entity_enrichment": 17579
+    }
+  },
   "dining_comparison": {
     "census_rows_total": 1423,
     "independent_rows": 971,

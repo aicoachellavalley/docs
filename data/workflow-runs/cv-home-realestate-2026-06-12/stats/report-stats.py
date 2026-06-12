@@ -134,6 +134,67 @@ out['hre_str'] = {
     'str_local_by_city': dict(Counter(r['city'] for r in str_local).most_common()),
 }
 
+# ── License display scoped by REGULATORY REGIME (GATE A amendment 3a) ───
+# The legal-requirement claim attaches ONLY to DRE/NMLS-scoped figures.
+# Regime mapping (per GATE A decision):
+#   DRE  — brokerage and property-management activity is DRE-licensed in CA;
+#          B&P §10140.6 + DRE Reg 2773 require license ID on first-point-of-
+#          contact solicitation materials including websites.
+#   NMLS — mortgage originators (federal SAFE Act registry).
+#   BREA — appraisers (CA Bureau of Real Estate Appraisers; separate agency).
+#   DOI/DFPI — title (Dept of Insurance) and escrow (DFPI); separate regimes,
+#          no §10140.6 claim.
+#   NO STATE LICENSE — home inspectors (CA does not license the trade) and
+#          HOA/CID managers (voluntary certification only).
+REGIMES = {
+    'DRE-regulated (brokerage + property management)': [
+        'residential brokerages & teams',
+        'property management — long-term residential',
+        'property management — vacation rental / STR management'],
+    'NMLS (mortgage)': ['mortgage lenders & brokers'],
+    'BREA (appraisers)': ['appraisers'],
+    'DOI/DFPI (title & escrow)': ['title & escrow companies'],
+    'No state license (inspectors, HOA/CID managers)': [
+        'home inspectors', 'HOA / community association management'],
+}
+regime_stats = {}
+for regime, subs in REGIMES.items():
+    rows = [r for r in enr if r['subcategory'] in subs]
+    disp = sum(1 for r in rows if has_license(r))
+    regime_stats[regime] = {
+        'subcategories': subs, 'n': len(rows),
+        'license_displayed': {'n': disp, 'pct': pct(disp, len(rows))},
+        'license_type_guess': dict(Counter(r.get('license_type_guess') for r in rows)),
+    }
+out['hre_license_by_regime'] = regime_stats
+
+# ── Run-conduct numbers used in the report Methodology section ───────────
+# (from the durable state + journal files — still disk, still computed)
+disc_state = json.load(open(os.path.join(HERE, '..', 'discovery-state-final.json')))
+enr_state = json.load(open(os.path.join(HERE, '..', 'enrich-state-final.json')))
+jdir = os.path.join(HERE, '..', 'journal')
+disc_cells = 0
+for fn in sorted(os.listdir(jdir)):
+    if fn.startswith('discovery-') and fn.endswith('.json'):
+        doc = json.load(open(os.path.join(jdir, fn)))
+        disc_cells += len(doc.get('cells', []))
+enrich_tokens = enr_state['enrich_usage_total']
+session_tokens = enr_state['session_usage_total']
+out['run_conduct'] = {
+    'dropped_rows_at_triage': disc_state.get('dropped_count'),
+    'dropped_reasons': dict(Counter(
+        ('city-duplicate' if d['reason'].startswith('address in') else 'phantom / serves-from-elsewhere')
+        for d in disc_state.get('dropped_rows', []))),
+    'discovery_cells': disc_cells,
+    'enrichment_agents': n,
+    'tokens': {
+        'discovery': session_tokens - enrich_tokens,
+        'enrichment': enrich_tokens,
+        'session_total': session_tokens,
+        'per_entity_enrichment': round(enrich_tokens / n) if n else None,
+    },
+}
+
 # ── Dining comparison (computed fresh from dining disk) ──────────────────
 d_enr = [r for r in DINING if r.get('enriched')]
 dn = len(d_enr)
