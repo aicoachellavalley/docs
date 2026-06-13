@@ -59,6 +59,20 @@ discovery / `wf_893630f9-12f` enrichment). Same pattern as the dining census.
   STAGE 0 recon → STAGE 1 discovery plan **+ pilot** → **GATE 1** → STAGE 2
   discovery batches → STAGE 3 enrichment plan (counts, ambiguities, estimate) →
   **GATE 2** → STAGE 4 enrichment waves → STAGE 5 close + durable save + commit.
+- **Standing gate items — every category, not per-run add-ons.** Three checks
+  run at the gates regardless of category: (1) **pilot measurement** — one
+  pilot batch before any full fan-out, measure tokens/worker, re-project (see
+  the discovery-grid bullet); (2) **anchor recall** — pre-register the
+  category's marquee anchors and confirm the sweep surfaced them; (3)
+  **plausibility flags** — sanity-check counts and rates against prior runs
+  before drafting. **Missing-anchor disposition:** a pre-registered anchor the
+  sweep did *not* surface gets **one targeted check**, then resolves to exactly
+  one of — **"sweep miss"** (re-run the cell) or **"confirmed absent =
+  market-structure finding"** (no CV location exists; record it as a finding,
+  not a recall defect). Never leave a missing anchor unadjudicated. Precedent:
+  F&S confirmed Goddard / La Petite / Sylvan / Huntington absent from the CV
+  (national early-childhood/tutoring franchises don't operate here) — a finding
+  about the market, not a gap in the sweep.
 
 ## What gets swapped per category
 
@@ -93,6 +107,14 @@ Mirror copies are registered for slash/`name` invocation at
 (project-level, this machine).
 
 ## Changelog
+
+**v1.2 — canonization (2026-06-13).** Folded the **standing gate-items**
+framing into "What generalizes": pilot-measurement + anchor-recall +
+plausibility-flags are gate checks for *every* category (not per-run add-ons),
+and the **missing-anchor disposition** (one targeted check → "sweep miss" vs
+"confirmed absent = market-structure finding") is now an explicit rule.
+Doc-only; no script change. The NAME-only public-detector and dropped-bare-
+`verify` refinements (PAYLOAD items folded earlier) remain in v1.1 below.
 
 **v1.1 — cv-family-schooling (2026-06-12).** Triage refinements folded into
 `discovery-merge.py`: (1) hard-exclusion detectors (public districts/charters, etc.)
