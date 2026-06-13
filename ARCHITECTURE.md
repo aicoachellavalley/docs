@@ -23,6 +23,11 @@ Read this file when working on infrastructure, deployment, or ops. Not required 
 - Twitter Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/twitter-worker/`. No git repo in that directory.
 - Tools dashboard does NOT auto-deploy. No Git connection. Always deploy manually: `cd ~/Projects/tools && npx wrangler pages deploy . --project-name aicv-tools`
 
+**⛔ Cloudflare zone — before changing any security setting:** the AI-bot
+blocking controls ("Review and block AI bots," "Super Bot Fight Mode," "AI
+Labyrinth") are deliberately left OFF, permanently. See the standing
+decision under **Agent Discoverability Layer** below.
+
 ---
 
 ## IC Workflow URLs
@@ -149,6 +154,20 @@ Worker (`~/Projects/aicv-api/worker.js`) returns the raw Anthropic API response 
 AICV's core purpose is to be found and cited by AI agents. Every
 infrastructure decision must be evaluated against this.
 
+> ### ⛔ STANDING DECISION (2026-06-12) — Cloudflare AI-bot controls stay OFF, permanently
+>
+> The Cloudflare security suggestions **"Review and block AI bots,"**
+> **"Super Bot Fight Mode,"** and **"AI Labyrinth"** are **DELIBERATELY
+> UNACTIONED — permanently.** AICV's surfaces must stay **maximally open
+> to AI crawlers.** Enabling any of these would reproduce the **~28%
+> crawler-blocking failure mode AICV measures in others** (the central
+> finding of the agent-mapped census series) on AICV's own zone.
+>
+> This decision must be visible to **any future session or person
+> touching the Cloudflare zone.** If you are reviewing Cloudflare
+> security recommendations and see these flagged: skipping them is
+> intentional, not an oversight. Do not enable them.
+
 **Live agent access paths — in order of reliability:**
 1. Static JSON endpoints (best — no JS, one fetch):
    - aicoachellavalley.com/nodes.json
@@ -167,3 +186,19 @@ infrastructure decision must be evaluated against this.
    ```
    curl -A "python-requests/2.28" [URL] | head -c 200
    ```
+
+**Submission & verification surfaces:**
+
+- **IndexNow — RESOLVED 2026-06-12** (com `6799846`). The working
+  configuration: a fresh **32-hex key file at the site root**, strict
+  **Option 1**, **no `keyLocation` field**, and **no trailing newline**
+  in the key file. Root cause of the prior persistent 403/failure was
+  **IndexNow's negative validation cache** built up over months of 404s
+  on a stale/absent key — not a code bug. **Reuse this exact pattern for
+  any future zone** (e.g. `.org` when it ships feeds): publish the key
+  first, let the negative cache expire, then submit.
+- **Bing Webmaster Tools — verified 2026-06-12** for **.com** (sitemap
+  submitted; indexed-count baseline **~237**). Authoritative operational
+  record lives in `com/STATE.md`; this is the discoverability-surface
+  pointer. (`.org` Bing verification: not recorded as done — verify and
+  add here if/when completed.)
