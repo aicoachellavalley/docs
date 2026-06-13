@@ -4,6 +4,14 @@
 > Operational/technical state (deploys, session logs, git hashes)
 > lives in each operational repo's own STATE.md — not here.
 > Update this file weekly or on strategic milestone completion.
+>
+> **Operating rules** for how sessions are *run* (model seating,
+> budget governance, census & data-product integrity, outreach) live
+> in `OPERATING-RULES.md`. **Infrastructure / Cloudflare zone posture**
+> lives in `ARCHITECTURE.md`.
+>
+> The **Forward Queue** at the bottom of this file is the SOLE forward
+> queue (the stale `TOMORROW.md` was retired 2026-06-13).
 
 The pre-partition snapshot of operational content is preserved at
 `STATE.md.pre-partition-2026-04-17.md` for reference.
@@ -17,11 +25,13 @@ The pre-partition snapshot of operational content is preserved at
 | Nodes live | 81 |
 | Intelligence briefs live | 156 |
 | Snapshots live | 3 |
-| Reports live | 4 |
+| Reports live | 6 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026) · 7 (May 2026) · 7 (Jun 2026)
 
 **Brief count reconciled 2026-05-19:** discrepancy flagged 2026-05-11 resolved. Disk, stats.json, and STATE.md now in sync at 145. `coachella-valley-intelligence-index` node description referencing 131 is a stale prose string, not a count field — update deferred.
+
+**Reports count reconciled 2026-06-13:** `reports.json` now serves **6** entries — five Reports (data-centers, state-of-ai-q1, visitor-economy, dining, home & real-estate) plus one evergreen methodology page (`methodology-agent-mapped-census`). Count taken from the endpoint, not from memory (per OPERATING-RULES §5.2). Node / brief / snapshot rows above carry their June-11 reconciliation and were not re-verified this session.
 
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
@@ -296,6 +306,96 @@ Both .com and .org score 1.0 on Lighthouse 13.3 Agentic Browsing (3/3 weighted a
 ### Milestone: Fourth Report shipped — Agent-Mapped: Food & Dining in the Coachella Valley Q2 2026 (2026-06-11)
 
 `agent-mapped-food-dining-coachella-valley` published as the fourth AICV Report and the second in the agent-readiness series. Category-complete census of 1,423 food and dining establishments across twelve communities — 924 independents, 441 chains, 49 mobile, 9 unclassified — produced through a multi-agent agent-mapping workflow that starts from the territory itself rather than from any directory. Of a 377-establishment sample of independents inspected so far, none expose structured data and roughly one in three block AI crawlers. Distinct from the visitor-economy audit by scope and method rather than correction: the visitor-economy report scored a 956-business directory-sourced Dining subset against an eight-dimension rubric, while this census maps the full category including operators no directory contains. First vertical-deep, single-category, end-to-end map in the Report layer; advances the "honey-pot" thesis of holding category-complete maps that aggregators structurally cannot see.
+
+### Milestone: Fifth Report shipped — Agent-Mapped: Home & Real Estate, + shared methodology page + public supersession (2026-06-12)
+
+`agent-mapped-home-realestate-coachella-valley` published as the fifth AICV Report and the third in the agent-readiness series, alongside a new evergreen methodology page `methodology-agent-mapped-census` — the shared, citable methodology for the whole agent-mapped census series. The same day, the dining report's **V2 regen** shipped carrying a public **supersession block** and a **Cross-Category Ledger**, consistency-gated to the digit against the live H&RE figures — the first public demonstration of AICV's supersession convention (a revised report openly supersedes its prior version rather than silently overwriting it). The `reports.json` endpoint now serves six entries (five Reports + the methodology page). The numeric and supersession conventions are now public on the methodology page; the internal operating rules that enforce them (numeric discipline, the cross-report consistency gate, the regen-draft convention) are codified in `OPERATING-RULES.md` §5.
+
+---
+
+## Forward Queue
+
+> The single forward record for AICV. Reconciled 2026-06-13; the stale
+> `TOMORROW.md` (dated 2026-05-11) was read item-by-item and retired into
+> this section. Strategic posture and completed work stay in the North
+> Star Roadmap above; near-term build/verification items live here.
+> Operational mechanics (scripts, deploy commands, env) belong in the
+> relevant operational repo when each item gets built — not here.
+
+### Surface-health monitor — LOCKED 2026-06-12 (now buildable: F&S census shipped)
+
+Deterministic, no AI. Three legs:
+1. **Surface-inventory doc** in the playbook + a STATE.md pointer to it.
+2. **Post-deploy check script** — feeds parse; counts agree site ↔ json ↔
+   desk; IndexNow returns 202; sample of canonical URLs return 200.
+3. **Weekly Cloudflare Worker heartbeat** — including Bing indexed-count
+   vs sitemap-count trend.
+
+Productize as **Agent Ready Premium surface-watch.** Build precondition
+("after F&S census") is now met.
+
+### Email-pilot arc
+
+- **Step zero:** fix the **DMARC record error** Cloudflare flags on the zone.
+- **Primary rail:** Cloudflare Email Service (public beta) + their skill
+  and Agentic Inbox reference app. **AgentMail.to** is the fallback benchmark.
+- Use a **dedicated sending subdomain** (never the root domain); slow warmup.
+- **First real flow:** prospect score-delivery to census **non-winners** —
+  agent-sent, honestly labeled, reply-to-human. (Division of labor: see
+  `OPERATING-RULES.md` §6 — recognition emails carry no pitch.)
+
+### Verification legs queued
+
+- **DRE / NMLS** deterministic pass (H&RE census).
+- **CDSS registry enumeration** (F&S family child-care homes — the 46
+  `family_home_daycare` context rows).
+
+### Prospect-shortlist extraction (internal)
+
+- Dining and H&RE shortlists.
+
+### Node candidates parked (events / wedding layer, human-endorsed)
+
+- Kuma Catering · PS Underground · Butter Cake Studio.
+
+### Census status
+
+- **F&S (family & schooling):** dataset SHIPPED 2026-06-12 (dataset-only —
+  216 enriched + 16 review + 46 family-home context rows). Synthesis/report,
+  the credential-verification leg, and prospect work are separate later
+  sessions.
+
+### Migrated from the retired TOMORROW.md — still live
+
+- **Rancho Mirage city-agent prototype spec** — first city-scoped,
+  funnel-aware agent runtime (entity scope, runtime architecture, output
+  record, LLM Council intake integration). Dormant since the census push;
+  not dead.
+- **IC.md → LLM Council rename** — comprehensive snapshot→Agentic-Review +
+  Intelligence Council→LLM Council rename pass across IC.md and the
+  `aicv-ic/worker.js` CHAIR_SYSTEM prompt. Do not rename piecemeal; one pass.
+- **`aicv-mcp` `query_venues` city enum** — missing `cathedral-city` and
+  `desert-hot-springs`. Now higher-relevance: the dining/H&RE/F&S censuses
+  all use the 12-city list that includes both. (Operational fix lives in the
+  `aicv-mcp` desk.)
+- **`tokens.css` fork** — `com` vs `guide-builder` divergence (`--sand` etc.).
+  Low priority.
+- **`snapshots.json` cosmetic** — empty `grades: {}` objects left after the
+  2026-05-11 grades-go-private execution. Cosmetic, not user-facing.
+
+### Closed from the retired TOMORROW.md (2026-05-11)
+
+- **Landing-page May-11 vocabulary rewrite** — superseded by the later
+  `/get-agent-ready/` V2 work (see roadmap, 2026-04-29 / 2026-05-07); no
+  longer a tracked priority.
+- **Founding-Member outreach (was HELD)** — superseded by the Email-pilot
+  arc + Prospect-shortlist work above.
+- **Brief count reconciliation** — done (reconciled 2026-05-19; see Live
+  Counts).
+- **IndexNow 403** — resolved (see `ARCHITECTURE.md` → Agent Discoverability
+  Layer; com `6799846`).
+- **Search Console health review** and **User journey + waypoint naming** —
+  already tracked in the North Star Roadmap above; not duplicated here.
 
 ---
 
