@@ -517,6 +517,7 @@ AICV runs two TOS modals across two surfaces. They are scoped differently on pur
 - `CLAUDE.md` — This file. Session brief, workflow, schemas, procedures, strategy.
 - `ARCHITECTURE.md` — Infrastructure, deployment, ops notes, worker details. Read when working on infra.
 - `STATE.md` — STRATEGIC state only: live counts, distribution layer, North Star roadmap. Read at session start. Operational state (deploys, commit hashes) belongs in each operational repo's own STATE.md.
+- `OPERATING-RULES.md` — Standing operating rules for how multi-agent census, publishing, and model-orchestration sessions are *run*: model seating, session `/model` control, the Fable free-window rule, budget-guard governance, census & data-product integrity (membership, numeric discipline, cross-report consistency gate, regen-draft convention), and outreach division of labor. Read at the start of any census, report-publishing, or model-orchestration session.
 - `VOICE.md` — @CoachellaAI voice and tone brief for Twitter Worker posts.
 - `NODES.md` — Full node plan with status.
 - `~/Projects/com/` — Astro homepage source of truth (aicoachellavalley.com).
