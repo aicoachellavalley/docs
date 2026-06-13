@@ -197,8 +197,8 @@ infrastructure decision must be evaluated against this.
   on a stale/absent key — not a code bug. **Reuse this exact pattern for
   any future zone** (e.g. `.org` when it ships feeds): publish the key
   first, let the negative cache expire, then submit.
-- **Bing Webmaster Tools — verified 2026-06-12** for **.com** (sitemap
-  submitted; indexed-count baseline **~237**). Authoritative operational
-  record lives in `com/STATE.md`; this is the discoverability-surface
-  pointer. (`.org` Bing verification: not recorded as done — verify and
-  add here if/when completed.)
+- **Bing Webmaster Tools — verified** for **.com** (2026-06-12; sitemap
+  submitted; indexed-count baseline **~237**) and for **.org** (verification
+  completed; recorded 2026-06-13; baseline not captured here). Authoritative
+  operational record lives in each site's `STATE.md`; this is the
+  discoverability-surface pointer.

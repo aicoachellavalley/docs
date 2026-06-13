@@ -15,19 +15,22 @@
 
 ## 1. Model seating
 
-Each model has a seat. Do not freelance the assignment.
+Two tiers. Do not freelance the assignment.
 
-- **Fable 5 — synthesis / editorial sessions ONLY.** It burns at **2×**
-  (free through **June 22, 2026** — see §3). Use it for report drafting,
-  editorial voice, and synthesis where prose quality is the product.
-  Never for recon, orchestration, or fan-out.
-- **Opus 4.8 — recon, orchestration, diagnostics, planning.** The
-  thinking seat. Plans are **made or reviewed on Opus or better.**
+- **Opus 4.8 — recon, orchestration, diagnostics, planning, AND
+  synthesis / editorial.** The thinking seat and, since 2026-06-12 (see
+  Decisions), the **standing synthesis seat** — report drafting, editorial
+  voice, and synthesis where prose quality is the product. Plans are
+  **made or reviewed on Opus or better.**
 - **Sonnet 4.6 — fan-out workers**, pinned per-agent via `model: 'sonnet'`
   on every `agent()` call. Sonnet **executes but never gate-approves its
-  own plan** — a plan Sonnet produced is reviewed on Opus or better before
-  it runs. (Census mechanics: `templates/census/TEMPLATE-README.md` →
-  "Model split.")
+  own plan** — a plan Sonnet produced is reviewed on Opus before it runs.
+  (Census mechanics: `templates/census/TEMPLATE-README.md` → "Model split.")
+
+There is **no third tier.** **Synthesis discipline lives in the prompt,
+not the model** — the stats-script numeric gate (§5.2), the cross-report
+consistency gate (§5.3), claim-precision, and the human **Gate A / Gate B**
+review are what hold synthesis quality, regardless of which model drafts.
 
 ## 2. Session model control
 
@@ -37,14 +40,14 @@ control the session model** — they document intent only. If a session
 needs a different seat than the one the human set, surface it; do not
 assume the prompt overrode `/model`.
 
-## 3. Free-window rule (the Fable window is a *publishing* window)
+## 3. Publishing cadence
 
-The Fable 5 free-through-June-22 window is a **PUBLISHING window, not a
-census window.** Run census **only as fast as synthesis can also
-publish.** Never strand a finished dataset unpublished across a pricing
-boundary — a dataset that lands the day the window closes, with its
-report still undrafted, has wasted the window. Pace census fan-out to
-the publishing throughput, not the other way around.
+**Publish syntheses as categories close.** **No model-pricing deadline
+applies** — the former Fable free-window cliff is gone (see Decisions).
+The standing discipline is sequencing, not a deadline: run census only as
+fast as synthesis can also publish, and never strand a finished dataset
+unpublished. A category's synthesis ships as its dataset locks, not in a
+deferred batch.
 
 ## 4. Budget guards
 
@@ -107,6 +110,17 @@ that makes "drafted but not live" a filesystem fact, not a promise.)
 - **Recognition emails to exemplars carry no sales pitch** — they are
   independence evidence. An entity that scored well hears that it scored
   well, full stop; the absence of an ask is the point.
+
+---
+
+## Decisions
+
+- **2026-06-12 — Fable synthesis seat folded into Opus.** Fable 5 was
+  disabled by a US export-control directive: the `claude-fable-5` API
+  string now errors; all other models, **including Opus 4.8, are
+  unaffected**; return is indefinite — treat as upside. **Opus 4.8 is the
+  standing synthesis seat** until/unless Fable returns. **If Fable
+  returns, restore it to the synthesis seat** (and re-split §1 accordingly).
 
 ---
 
