@@ -91,3 +91,18 @@ discovery / `wf_893630f9-12f` enrichment). Same pattern as the dining census.
 Mirror copies are registered for slash/`name` invocation at
 `~/Workspaces/.claude/workflows/census-discovery.js` and `census-enrich.js`
 (project-level, this machine).
+
+## Changelog
+
+**v1.1 — cv-family-schooling (2026-06-12).** Triage refinements folded into
+`discovery-merge.py`: (1) hard-exclusion detectors (public districts/charters, etc.)
+match the row **NAME only**, never the note — a note that mentions a public partner
+is not a disqualifier; (2) dropped the bare `verify` flag from `FLAG_SUBSTR` — workers
+append "verify" too liberally, so it over-routed in-scope rows to review. New reusable
+patterns demonstrated in that run's `scripts/` (crib as needed): a **definitional
+context-segment carve-out** (family-home daycares → `segment` context, not enrich-
+targets — mirrors `remote_operator`; membership not conditioned on the measured
+variable), a **post-discovery cross-subcat dedup pass** (`discovery-dedup.py`: safe
+same-city+same-subcat auto-merge, cross-subcat & cross-city clusters surfaced for the
+gate), and a **gate-decision reconcile step** (`gate2-reconcile.py`: collapse a campus's
+sub-programs to one row with a `programs_note`, drop city-phantoms, promote/flag rows).

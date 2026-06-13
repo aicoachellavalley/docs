@@ -1,0 +1,131 @@
+{
+  "n_enriched": 216,
+  "n_review": 16,
+  "n_family_home": 46,
+  "by_subcategory": {
+    "private K-12 schools": 17,
+    "preschools & early-childhood programs": 30,
+    "licensed childcare & daycare centers": 18,
+    "tutoring, test-prep & academic enrichment": 8,
+    "youth sports academies & programs": 54,
+    "arts, music & performing-arts education for youth": 42,
+    "special-needs & developmental services for children": 28,
+    "camps & after-school programs": 19
+  },
+  "by_city": {
+    "Palm Springs": 29,
+    "Palm Desert": 71,
+    "Rancho Mirage": 13,
+    "La Quinta": 25,
+    "Indio": 29,
+    "Indian Wells": 5,
+    "Cathedral City": 11,
+    "Coachella": 17,
+    "Desert Hot Springs": 9,
+    "Thermal": 2,
+    "Bermuda Dunes": 2,
+    "Thousand Palms": 3
+  },
+  "agent_visibility_score": {
+    "medium": 122,
+    "high": 67,
+    "low": 26,
+    "invisible": 1
+  },
+  "gap_low_plus_invisible": {
+    "n": 27,
+    "pct": 12.5
+  },
+  "crawler_blocked": {
+    "blocked": 40,
+    "checkable": 201,
+    "pct": 19.9
+  },
+  "structured_data": {
+    "present": 5,
+    "checkable": 160,
+    "pct": 3.1
+  },
+  "currently_open": {
+    "open": 161,
+    "unknown": 43,
+    "closed": 12
+  },
+  "tuition_displayed": {
+    "no": 171,
+    "yes": 37,
+    "unknown": 8
+  },
+  "credential_type_guess": {
+    "none-visible": 194,
+    "accreditor": 10,
+    "CDSS": 11,
+    "unknown": 1
+  },
+  "credential_capture_by_subcat": {
+    "private K-12 schools": {
+      "n": 17,
+      "credential_shown": 6,
+      "pct": 35.3,
+      "state_credential_exists": true
+    },
+    "preschools & early-childhood programs": {
+      "n": 30,
+      "credential_shown": 6,
+      "pct": 20.0,
+      "state_credential_exists": true
+    },
+    "licensed childcare & daycare centers": {
+      "n": 18,
+      "credential_shown": 7,
+      "pct": 38.9,
+      "state_credential_exists": true
+    },
+    "tutoring, test-prep & academic enrichment": {
+      "n": 8,
+      "credential_shown": 0,
+      "pct": 0.0,
+      "state_credential_exists": false
+    },
+    "youth sports academies & programs": {
+      "n": 54,
+      "credential_shown": 0,
+      "pct": 0.0,
+      "state_credential_exists": false
+    },
+    "arts, music & performing-arts education for youth": {
+      "n": 42,
+      "credential_shown": 0,
+      "pct": 0.0,
+      "state_credential_exists": false
+    },
+    "special-needs & developmental services for children": {
+      "n": 28,
+      "credential_shown": 2,
+      "pct": 7.1,
+      "state_credential_exists": false
+    },
+    "camps & after-school programs": {
+      "n": 19,
+      "credential_shown": 0,
+      "pct": 0.0,
+      "state_credential_exists": false
+    }
+  },
+  "no_state_credential_subcats": {
+    "subcats": [
+      "tutoring, test-prep & academic enrichment",
+      "youth sports academies & programs",
+      "arts, music & performing-arts education for youth",
+      "special-needs & developmental services for children",
+      "camps & after-school programs"
+    ],
+    "n_entities": 151
+  },
+  "name_enriched_count": 34,
+  "entity_kind": {
+    "campus": 168,
+    "solo": 16,
+    "program_brand": 32
+  }
+}

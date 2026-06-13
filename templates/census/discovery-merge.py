@@ -23,6 +23,13 @@ CANON = ['Palm Springs','Palm Desert','La Quinta','Rancho Mirage','Cathedral Cit
 # Red flags in a candidate note that indicate NO physical office in the scope
 # city (the brand serves the area from another city / is cloud-only / unverified).
 # Over-inclusive on purpose — 'review' rows are surfaced for human decision, not deleted.
+#
+# TRIAGE REFINEMENT (cv-family-schooling 2026-06-12, fix #2): do NOT include a bare
+# 'verify' / 'needs verification' flag here. Discovery workers append "verify" to a
+# large fraction of legitimately in-scope rows, so a bare verify-class substring
+# over-routes real entities to review. Keep only SPECIFIC not-here signals
+# (wrong-city / cloud-only / "X not confirmed"); the explicit ambiguity flags a
+# category cares about should be their own distinct phrases.
 FLAG_SUBSTR = [
     'no physical', 'cloud-based', 'no confirmed local office', 'no local physical office',
     'no confirmed local', 'no office address', 'no local office', 'no office',
@@ -31,11 +38,17 @@ FLAG_SUBSTR = [
     'but office is', 'office city is', 'primary office in', 'primary office at',
     'primary retail office', 'primary confirmed office is', 'headquartered', 'hq in',
     'hq appears', 'office not confirmed', 'office address found', 'office presence unclear',
-    'presence unclear', 'office location unclear', 'office unclear', 'needs verification',
-    'agents likely operate out of', 'agents active in', 'address from search snippet',
+    'presence unclear', 'office location unclear', 'office unclear',
+    'agents likely operate out of', 'agents active in',
     'serves cathedral city', '(not palm', '(not rancho', '(not la quinta', '(not indio',
-    'verify — may be', 'may be palm springs', 'included because serves',
+    'may be palm springs', 'included because serves',
 ]
+# EXCLUSION-DETECTOR RULE (cv-family-schooling 2026-06-12, fix #1): if a category adds
+# a hard-exclusion detector (e.g. public school districts/charters: PSUSD/DSUSD/CVUSD),
+# match its regex on the row NAME ONLY — never the note. A private org whose note merely
+# mentions a public partner ("PSUSD-approved vendor") is in scope, not excluded.
+# See scripts/discovery-merge.py in the cv-family-schooling run for a worked example
+# (plus a family-home-daycare carve-out and a post-discovery cross-subcat dedup pass).
 FLAG_RE = re.compile(r'no\s+[\w\s\-]{0,30}?(office|branch)', re.I)
 
 def office_flag(row):

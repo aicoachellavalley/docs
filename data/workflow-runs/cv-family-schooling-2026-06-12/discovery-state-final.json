@@ -1,0 +1,403 @@
+{
+  "discovery_batches_done": [
+    0,
+    1,
+    2
+  ],
+  "tokens_by_batch": {
+    "0": 176813,
+    "1": 184478,
+    "2": 168604
+  },
+  "rows_total": 297,
+  "enrich_target_count": 216,
+  "review_count": 16,
+  "family_home_daycare_count": 46,
+  "public_noted_count": 0,
+  "by_subcategory": {
+    "preschools & early-childhood programs": 30,
+    "private K-12 schools": 17,
+    "licensed childcare & daycare centers": 18,
+    "tutoring, test-prep & academic enrichment": 8,
+    "youth sports academies & programs": 54,
+    "arts, music & performing-arts education for youth": 42,
+    "special-needs & developmental services for children": 28,
+    "camps & after-school programs": 19
+  },
+  "by_city": {
+    "Palm Springs": 29,
+    "Palm Desert": 71,
+    "Rancho Mirage": 13,
+    "La Quinta": 25,
+    "Indio": 29,
+    "Indian Wells": 5,
+    "Cathedral City": 11,
+    "Coachella": 17,
+    "Desert Hot Springs": 9,
+    "Thermal": 2,
+    "Bermuda Dunes": 2,
+    "Thousand Palms": 3
+  },
+  "entity_kind_counts": {
+    "campus": 180,
+    "solo": 17,
+    "program_brand": 37
+  },
+  "review_rows": [
+    {
+      "name": "Elite Home Tutoring",
+      "city": "Palm Desert",
+      "subcategory": "tutoring, test-prep & academic enrichment",
+      "reason": "no confirmed local; serves cv",
+      "note": "serves CV based elsewhere / no confirmed local campus; in-home tutoring and test prep including SAT, ACT, CAHSEE, ISEE"
+    },
+    {
+      "name": "Coachella Valley Lighthouse",
+      "city": "Palm Desert",
+      "subcategory": "special-needs & developmental services for children",
+      "reason": "campus not confirmed",
+      "note": "ABA therapy satellite service area page; physical campus not confirmed, may be in-home/community only \u2014 verify"
+    },
+    {
+      "name": "Coachella Valley Lighthouse",
+      "city": "Coachella",
+      "subcategory": "special-needs & developmental services for children",
+      "reason": "campus not confirmed",
+      "note": "ABA therapy satellite service area page; physical campus not confirmed, may be in-home/community only \u2014 verify"
+    },
+    {
+      "name": "Key Essentials to Behavior Management",
+      "city": "Coachella",
+      "subcategory": "special-needs & developmental services for children",
+      "reason": "campus not confirmed",
+      "note": "ABA therapy; based in Rancho Cucamonga; Coachella listed as service city \u2014 physical campus not confirmed, may be in-home; verify"
+    },
+    {
+      "name": "Key Essentials to Behavior Management",
+      "city": "Indio",
+      "subcategory": "special-needs & developmental services for children",
+      "reason": "campus not confirmed",
+      "note": "ABA therapy; based in Rancho Cucamonga; Indio listed as service city \u2014 physical campus not confirmed, may be in-home; verify"
+    },
+    {
+      "name": "Premier Speak Speech Therapy",
+      "city": "Palm Desert",
+      "subcategory": "special-needs & developmental services for children",
+      "reason": "no confirmed clinic address",
+      "note": "Speech-language therapy for children including autism; 25 years experience; valley-wide; no confirmed clinic address in snippets \u2014 may be mobile/home-based; verify"
+    },
+    {
+      "name": "Autism Behavior Services, Inc. (ABSI)",
+      "city": "Palm Desert",
+      "subcategory": "special-needs & developmental services for children",
+      "reason": "campus not confirmed",
+      "note": "ABA therapy; serves Palm Desert, Palm Springs, Cathedral City, Rancho Mirage; physical Coachella Valley campus not confirmed in snippets \u2014 may be in-home/community; verify"
+    },
+    {
+      "name": "Young Life Desert Cities",
+      "city": "Palm Desert",
+      "subcategory": "camps & after-school programs",
+      "reason": "address in Cathedral City",
+      "note": "faith-based; national nonprofit chapter; runs ministry clubs at middle/high schools valley-wide and summer camp scholarships; no confirmed owned local campus \u2014 verify"
+    },
+    {
+      "name": "Rancho Mirage Children's School",
+      "city": "Rancho Mirage",
+      "subcategory": "preschools & early-childhood programs",
+      "reason": "no street address",
+      "note": "Listed capacity 450; described as teaching problem-solving and independent thinking; no street address or website confirmed in snippets \u2014 verify existence and address"
+    },
+    {
+      "name": "Club Z! In-Home Tutoring Services",
+      "city": "La Quinta",
+      "subcategory": "tutoring, test-prep & academic enrichment",
+      "reason": "serves cv; online tutoring",
+      "note": "National in-home/online tutoring franchise; Palm Desert territory covers La Quinta, Indio, Coachella, Bermuda Dunes, Thousand Palms, Thermal; no confirmed stand-alone physical campus in east valley \u2014 serves CV from Palm Desert base"
+    },
+    {
+      "name": "Grade Potential Tutoring",
+      "city": "Indio",
+      "subcategory": "tutoring, test-prep & academic enrichment",
+      "reason": "no confirmed local; serves cv",
+      "note": "National tutoring network; serves Indio; no confirmed local physical campus \u2014 serves CV, based elsewhere"
+    },
+    {
+      "name": "SchoolTutoring Academy",
+      "city": "La Quinta",
+      "subcategory": "tutoring, test-prep & academic enrichment",
+      "reason": "serves cv; based elsewhere",
+      "note": "Online and in-home tutoring service; no confirmed physical campus in east valley \u2014 serves CV, based elsewhere"
+    },
+    {
+      "name": "SoCal Elite FC \u2013 Coachella Valley",
+      "city": "Palm Springs",
+      "subcategory": "youth sports academies & programs",
+      "reason": "serves cv",
+      "note": "Regional program of SoCal Elite FC (based Chino, CA); serves Palm Springs, Palm Desert, Rancho Mirage, Indian Wells, La Quinta, Indio, Coachella; no confirmed standalone local campus \u2014 serves CV from regional structure"
+    },
+    {
+      "name": "Steinway Society of Riverside County",
+      "city": "Rancho Mirage",
+      "subcategory": "arts, music & performing-arts education for youth",
+      "reason": "no confirmed dedicated physical campus",
+      "note": "founded 2002; piano instruction and competitions for youth; no confirmed dedicated physical campus; operates in schools and public venues valley-wide \u2014 verify"
+    },
+    {
+      "name": "Desert Hope Dyslexia Services",
+      "city": "La Quinta",
+      "subcategory": "special-needs & developmental services for children",
+      "reason": "no confirmed storefront address",
+      "note": "Dyslexia and reading tutoring for children using Barton Reading and Foundation in Sounds (structured literacy); based La Quinta 92253; serves La Quinta, Indio, Palm Desert; in-person and online; no confirmed storefront address in snippets"
+    },
+    {
+      "name": "Key Essentials to Behavior Management, Corp",
+      "city": "Indio",
+      "subcategory": "special-needs & developmental services for children",
+      "reason": "no confirmed local; serves cv",
+      "note": "ABA therapy for autism and developmental disabilities ages 2\u201318+; serves La Quinta/Indio area; corporate HQ in Rancho Cucamonga \u2014 no confirmed independent CV campus address in snippets; serves CV based elsewhere / no confirmed local campus"
+    },
+    {
+      "name": "Premier Speak",
+      "city": "Palm Desert",
+      "subcategory": "special-needs & developmental services for children",
+      "reason": "no confirmed fixed office address",
+      "note": "Speech therapy for children; 25 years serving CV in schools, home health, clinic settings; contact (760) 619-4624; no confirmed fixed office address in snippets \u2014 may be mobile/home-based delivery"
+    }
+  ],
+  "family_home_daycare_rows": [
+    {
+      "name": "McCullough Family Childcare",
+      "city": "Palm Springs"
+    },
+    {
+      "name": "Peraza Family Child Care",
+      "city": "Palm Springs"
+    },
+    {
+      "name": "Mis Querubines Daycare Home Preschool",
+      "city": "Palm Springs"
+    },
+    {
+      "name": "Hall Family Child Care",
+      "city": "Palm Springs"
+    },
+    {
+      "name": "Christina's Family Daycare",
+      "city": "La Quinta"
+    },
+    {
+      "name": "We Care Christian Daycare",
+      "city": "La Quinta"
+    },
+    {
+      "name": "Garcia Family Childcare",
+      "city": "La Quinta"
+    },
+    {
+      "name": "King Family Child Care",
+      "city": "La Quinta"
+    },
+    {
+      "name": "Estrada Family Child Care",
+      "city": "La Quinta"
+    },
+    {
+      "name": "Gerrard Family Child Care",
+      "city": "La Quinta"
+    },
+    {
+      "name": "Reynolds Family Child Care",
+      "city": "La Quinta"
+    },
+    {
+      "name": "Galvez-Booth Family Child Care",
+      "city": "La Quinta"
+    },
+    {
+      "name": "Susy's Family Childcare",
+      "city": "Bermuda Dunes"
+    },
+    {
+      "name": "Susy's Family Childcare",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Big Dreams Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Vieyra's Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Mandujano Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Stallings Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Scarlett Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Lopez Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Curiel Lopez Childcare",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Corrales Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Paco Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Madain Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Seymour Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Blancarte Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Misprimerospasitos Family Daycare",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Belchamber Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Perezchica Family Childcare",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Alvarez Family Child Care",
+      "city": "Cathedral City"
+    },
+    {
+      "name": "Missly's Creative Kidz Family Child Care",
+      "city": "Coachella"
+    },
+    {
+      "name": "Ramirez Family Child Care",
+      "city": "Coachella"
+    },
+    {
+      "name": "Lizarraga Family Child Care",
+      "city": "Thermal"
+    },
+    {
+      "name": "Montes Family Child Care",
+      "city": "Thermal"
+    },
+    {
+      "name": "Sanchez De Marquez Family Child Care",
+      "city": "Thermal"
+    },
+    {
+      "name": "Torres Family Child Care",
+      "city": "Thermal"
+    },
+    {
+      "name": "Hernandez Family Day Care",
+      "city": "Thermal"
+    },
+    {
+      "name": "Aldana-Mendoza Family Child Care",
+      "city": "Thermal"
+    },
+    {
+      "name": "Pride & Joy Quality Childcare",
+      "city": "Desert Hot Springs"
+    },
+    {
+      "name": "Carranza Family Child Care",
+      "city": "Desert Hot Springs"
+    },
+    {
+      "name": "Jimenez Family Child Care",
+      "city": "Desert Hot Springs"
+    },
+    {
+      "name": "Autman Family Child Care",
+      "city": "Desert Hot Springs"
+    },
+    {
+      "name": "Cardenas Family Child Care",
+      "city": "Desert Hot Springs"
+    },
+    {
+      "name": "Sanchez/Hernandez Family Child Care",
+      "city": "Desert Hot Springs"
+    },
+    {
+      "name": "Simmons Family Child Care",
+      "city": "Desert Hot Springs"
+    },
+    {
+      "name": "Tiny Treasures Daycare",
+      "city": "Thousand Palms"
+    }
+  ],
+  "public_noted": [],
+  "dedup_same_subcat_merged": [
+    {
+      "kept": "Desert Theatreworks (KidsWorks)",
+      "dropped": "Desert Theatreworks",
+      "city": "Indio"
+    },
+    {
+      "kept": "Nickerson-Rossi Dance",
+      "dropped": "Nickerson-Rossi Dance / Palm Springs Dance Academy",
+      "city": "Palm Desert"
+    },
+    {
+      "kept": "Nickerson-Rossi Dance",
+      "dropped": "Nickerson-Rossi Dance / Palm Springs Dance Academy",
+      "city": "Palm Springs"
+    },
+    {
+      "kept": "Green Room Theatre Company",
+      "dropped": "Green Room Theatre Company Coachella Valley (GRTCCV)",
+      "city": "Coachella"
+    },
+    {
+      "kept": "Desert Occupational Therapy for Kids (DOT 4 Kids)",
+      "dropped": "Desert Occupational Therapy for Kids, Inc.",
+      "city": "Palm Desert"
+    },
+    {
+      "kept": "PT Works (Moving Mountains Wellness and Therapy)",
+      "dropped": "PT Works",
+      "city": "Palm Desert"
+    }
+  ],
+  "gate2_reconcile_log": [
+    "(a) promoted 'Young Life Desert Cities' -> enrich-target (Cathedral City)",
+    "(c) dropped phantom: Xavier College Prep [Thousand Palms]",
+    "(c) merged Variety variant -> dropped 'Variety Children's Charity of the Desert' [Palm Desert]",
+    "(c) merged Variety variant -> dropped 'Variety Children's Charity of the Desert' [Desert Hot Springs]",
+    "(c) flagged Montessori 'PS & Palm Desert' variant for enrichment-resolve",
+    "(c) flagged Dove's Landing [Thousand Palms] for enrichment-resolve",
+    "(b) collapsed [Palm Springs] 'King's Schools of the Desert' (private K-12 schools) <- [\"King's Schools (King's School Palm Springs)\"]",
+    "(b) collapsed [Palm Springs] 'St. Theresa Catholic School' (private K-12 schools) <- ['St. Theresa Catholic School Preschool']",
+    "(b) collapsed [Palm Desert] 'The Academy Palm Desert (Community Presbyterian Church)' (preschools & early-childhood programs) <- ['The Academy Palm Desert (Community Presbyterian Church Preschool & Kindergarten)']",
+    "(b) collapsed [Palm Desert] 'First Tee \u2013 Coachella Valley (Golf Center at Palm Desert)' (youth sports academies & programs) <- ['First Tee \u2014 Coachella Valley']",
+    "(b) collapsed [Palm Desert] 'Desert Art Academy' (arts, music & performing-arts education for youth) <- ['Desert Art Academy \u2014 Summer Art Camp']",
+    "(b) collapsed [Rancho Mirage] 'Palm Valley School' (private K-12 schools) <- ['Palm Valley School \u2014 Preschool Division', 'Palm Valley School \u2014 Summer Programs (Firebird Camp, Camp Invention, Kiddos Lingua)']",
+    "(b) collapsed [Indio] 'Gracie Jiu Jitsu Indio' (youth sports academies & programs) <- ['Gracie Jiu-Jitsu Indio \u2014 Bullyproof Summer Camp']",
+    "(b) collapsed [Indio] 'Flow Academy BJJ Indio' (youth sports academies & programs) <- ['Flow Academy BJJ Indio \u2014 Youth Program']",
+    "(b) collapsed [Indio] 'Our Lady of Perpetual Help Catholic School' (private K-12 schools) <- ['Our Lady of Perpetual Help (OLPH) Catholic School Preschool']"
+  ]
+}

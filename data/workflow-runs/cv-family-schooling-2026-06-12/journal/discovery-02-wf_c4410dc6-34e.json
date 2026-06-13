@@ -1,0 +1,572 @@
+{
+  "summary": "CV Family & Schooling census — discovery fan-out (geo×subcategory cells, Sonnet workers)",
+  "agentCount": 2,
+  "logs": [
+    "Batch 2: 2 discovery cells (Sonnet 4.6 workers, ~3-4 searches each)...",
+    "Batch 2 complete: 2/2 cells returned, 49 raw candidates. Spend so far: 169k tokens"
+  ],
+  "result": {
+    "batch_index": 2,
+    "cells": [
+      {
+        "scope_subcat": "arts, music & performing-arts education for youth",
+        "scope_geo": "dance & music second sweep valley-wide",
+        "candidates": [
+          {
+            "name": "Dance Dimensions",
+            "city": "Palm Desert",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://dancedimensionspd.com",
+            "address_hint": "41651 Corporate Way, Suite 4",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "dancedimensionspd.com, Yelp",
+            "note": "flagship Palm Desert studio; ballet, jazz, acro, hip-hop, tap; founded 2004"
+          },
+          {
+            "name": "Dance Dimensions",
+            "city": "La Quinta",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://dancedimensionspd.com/location/la-quinta-ca/",
+            "address_hint": "44155 Jefferson St, Suite 103",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "dancedimensionspd.com, Yelp",
+            "note": "second campus opened serving La Quinta/Indio area"
+          },
+          {
+            "name": "Valerie Mahabir Academy of Ballet and Performing Arts",
+            "city": "Rancho Mirage",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://desertyouthballet.org",
+            "address_hint": "71711 San Jacinto Dr",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, desertcharities.com, desertyouthballet.org",
+            "note": "only certified Royal Academy of Dance instruction in the Coachella Valley"
+          },
+          {
+            "name": "Nickerson-Rossi Dance",
+            "city": "Palm Springs",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.nickersonrossidance.com",
+            "address_hint": "611 S Palm Canyon Dr, Suite 11",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "nickersonrossidance.com, visitpalmsprings.com",
+            "note": "youth K-8 ballet, jazz, hip-hop; pre-professional program; also serves Desert Hot Springs"
+          },
+          {
+            "name": "Nickerson-Rossi Dance",
+            "city": "Palm Desert",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.nickersonrossidance.com",
+            "address_hint": "45145 San Luis Rey Ave (off El Paseo)",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "palmspringslife.com, nickersonrossidance.com",
+            "note": "second studio opened for East Valley families; youth dance academy"
+          },
+          {
+            "name": "CK Dance",
+            "city": "Palm Springs",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.ckdanceps.com",
+            "address_hint": "820 Research Dr, Suite 10",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, ckdanceps.com, YellowPages",
+            "note": "founded 2009; ballet, jazz, contemporary, hip-hop; 30+ seasons of productions"
+          },
+          {
+            "name": "SAJ Dance Productions",
+            "city": "Palm Desert",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.sajdancepro.com",
+            "address_hint": "73600 Alessandro Dr (BG Plaza)",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, Palm Desert Area Chamber, sajdancepro.com",
+            "note": "multi-style youth dance training including musical theatre production elements"
+          },
+          {
+            "name": "Desert Dance Academy at XCP",
+            "city": "Palm Desert",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.desertdancexcp.com",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "danceus.org, desertdancexcp.com",
+            "note": "formerly Xavier Dance Academy; ballet, jazz, tap, pilates, pointe; CV-wide draw; exact address not confirmed in snippets"
+          },
+          {
+            "name": "Step by Step Dance Studio",
+            "city": "Palm Springs",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "http://stepbystepps.com",
+            "address_hint": "933 Lawrence Crossley Rd",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, hisawyer.com, Palm Springs Chamber",
+            "note": "primarily ballroom/Latin/tango; owner volunteers in PSUSD youth programs; youth enrollment not confirmed as core offering"
+          },
+          {
+            "name": "Ballet Folklorico Sol Del Desierto",
+            "city": "Indio",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.bfsoldeldesierto.com",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "bfsoldeldesierto.com, Manta, Facebook",
+            "note": "20+ years in CV; preserves Mexican folk dance heritage; youth-focused; street address not confirmed in snippets"
+          },
+          {
+            "name": "The Music School",
+            "city": "Palm Springs",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.themusicschoolps.com",
+            "address_hint": "707 E Tahquitz Canyon Way, Suite 2",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, themusicschoolps.com",
+            "note": "founded 1990; all university-trained instructors; piano, guitar, violin, drums, voice, cello, flute, trumpet, ukulele"
+          },
+          {
+            "name": "MusiQwest Education",
+            "city": "Rancho Mirage",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.musiqwest.net",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, musiqwest.net",
+            "note": "founded 2013; all ages; guitar, vocals, piano; serves Palm Springs, Cathedral City, Rancho Mirage, Palm Desert, La Quinta, Indio, Desert Hot Springs; exact address not confirmed in snippets"
+          },
+          {
+            "name": "Music Lessons of the Desert",
+            "city": "Palm Desert",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.musiclessonsofthedesert.com",
+            "address_hint": "44489 Town Center Way, Suite D 1046",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "musiclessonsofthedesert.com, Yelp",
+            "note": "founded 2019; piano, voice, violin, viola, cello, music production; in-home lessons also offered across multiple CV cities"
+          },
+          {
+            "name": "BassLine Music",
+            "city": "Palm Desert",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.palmspringsmusiclessons.com",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, palmspringsmusiclessons.com",
+            "note": "15+ years; piano, guitar, drums, bass, music production, DJ; all ages including youth; located in Palm Desert per Yelp listing"
+          },
+          {
+            "name": "La Quinta Music Lessons",
+            "city": "La Quinta",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.laquintamusiclessons.com",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, laquintamusiclessons.com",
+            "note": "violin, voice, piano, guitar; specializes in lessons for kids and adults; street address not confirmed in snippets"
+          },
+          {
+            "name": "Academy of Musical Performance (AMP)",
+            "city": "Indio",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://ampcv.org",
+            "address_hint": "82719 Miles Ave",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, ampcv.org, Guidestar",
+            "note": "nonprofit; ages 11-18; rock band, ukulele, private lessons, summer camps; board announced temporary pause of operations after studio lease ended — verify current status"
+          },
+          {
+            "name": "Guitar Center Lessons",
+            "city": "Palm Desert",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://stores.guitarcenter.com/ca/palm-desert/108/lessons",
+            "address_hint": "72-399 California Hwy 111",
+            "chain_or_independent": "chain",
+            "license_hint": "",
+            "source": "guitarcenter.com, Yelp, BeAKid",
+            "note": "national chain; guitar, bass, drums, piano, vocals for kids and adults"
+          },
+          {
+            "name": "Desert Music Academy",
+            "city": "Palm Springs",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "",
+            "address_hint": "PO Box 4100 (mailing only)",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "andersonchildrensfoundation.org, dcnnews.com",
+            "note": "piano and guitar for children with mental, physical, and economic disabilities; serves CV based in Palm Springs; no confirmed physical campus — verify"
+          },
+          {
+            "name": "Armonía Music Center",
+            "city": "Coachella",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.mariachicoachella.org/armonia",
+            "address_hint": "classes at Coachella Community Homes (CVHC site)",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "mariachicoachella.org",
+            "note": "free mariachi music lessons for youth; no dedicated physical campus — classes hosted at CVHC community sites in Coachella and City of Avalon; verify if independent campus exists"
+          },
+          {
+            "name": "Steinway Society of Riverside County",
+            "city": "Rancho Mirage",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://steinwayriverside.org",
+            "address_hint": "PO Box 3015 (mailing only)",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "steinwayriverside.org, desertcharities.com",
+            "note": "founded 2002; piano instruction and competitions for youth; no confirmed dedicated physical campus; operates in schools and public venues valley-wide — verify"
+          },
+          {
+            "name": "Children's Playtime Productions",
+            "city": "Palm Springs",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "http://www.childrensplaytimeproductions.com",
+            "address_hint": "149 N Indian Canyon Dr",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "andersonchildrensfoundation.org, desertcharities.com",
+            "note": "founded 1995; longest-established youth theatre education org in region; uses theatre as primary teaching tool; also has Palm Desert mall space"
+          },
+          {
+            "name": "Children's Playtime Productions (Youtheatre Players)",
+            "city": "Palm Desert",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "http://www.childrensplaytimeproductions.com",
+            "address_hint": "72-840 CA-111, Suite D161 (The Shops at Palm Desert)",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Facebook, childrensplaytimeproductions.com",
+            "note": "Youtheatre Players mall space; second location for Children's Playtime Productions"
+          },
+          {
+            "name": "Green Room Theatre Company Coachella Valley (GRTCCV)",
+            "city": "Coachella",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://grtccv.org",
+            "address_hint": "1515 Sixth Street (Coachella City Hall)",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "grtccv.org, dcnnews.com, Rancho Mirage Chamber",
+            "note": "16+ seasons; youth classes, ballet folklorico, touring productions, employment development; focuses on Central and East CV"
+          },
+          {
+            "name": "Coachella Valley Repertory — The Conservatory",
+            "city": "Cathedral City",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://cvrep.org",
+            "address_hint": "68510 E Palm Canyon Dr",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, cvrep.org, stageandcinema.com",
+            "note": "professional-level theatre training; Conservatory classes ages 9+; also annual youth outreach productions"
+          },
+          {
+            "name": "Desert Theatreworks",
+            "city": "Indio",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://www.dtworks.org",
+            "address_hint": "45-175 Fargo St (Indio Performing Arts Center)",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, dtworks.org, visitgreaterpalmsprings.com",
+            "note": "8 children's musicals produced; youth camps; moved from Palm Desert to Indio IPAC"
+          },
+          {
+            "name": "Coachella Valley Arts Institute (CVAI)",
+            "city": "Palm Desert",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://coachellavalleyartsinstitute.com",
+            "address_hint": "41550 Eclectic Street",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "coachellavalleyartsinstitute.com, niche.com",
+            "note": "theater/drama, music production, music & sound editing, Adobe Illustrator; homeschool programs; also has online and field trip programs"
+          },
+          {
+            "name": "Art Foundation of Desert Hot Springs",
+            "city": "Desert Hot Springs",
+            "subcategory": "arts, music & performing-arts education for youth",
+            "website": "https://artfoundationdhs.org",
+            "address_hint": "13569 Overlook Dr",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Guidestar, triptap.com, artfoundationdhs.org",
+            "note": "local arts agency; early childhood music learning emphasis; arts programs for youth; verify extent of structured youth education vs. general arts promotion"
+          }
+        ],
+        "_src_subcat": "arts, music & performing-arts education for youth",
+        "_src_geo": "dance & music second sweep valley-wide"
+      },
+      {
+        "scope_subcat": "special-needs & developmental services for children",
+        "scope_geo": "second sweep valley-wide",
+        "candidates": [
+          {
+            "name": "Coachella Valley Lighthouse",
+            "city": "La Quinta",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://www.cvlighthouse.com",
+            "address_hint": "78900 Avenue 47, Suite 105",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Beaming Health, cvlighthouse.com, search results",
+            "note": "ABA therapy for autism; center-based, school-based, and in-home; BHCOE accredited; primary/confirmed campus in La Quinta; also markets to Palm Desert, Indio, Coachella, Thousand Palms, Palm Springs (in-home/school-based reach)"
+          },
+          {
+            "name": "Accel Therapies",
+            "city": "Indian Wells",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://acceltherapies.com/locations/california/indian-wells/",
+            "address_hint": "45180 Club Drive",
+            "chain_or_independent": "chain",
+            "license_hint": "",
+            "source": "Accel Therapies site, Yelp, Beaming Health",
+            "note": "ABA therapy for autism and developmental disorders; center-based; national/regional multi-state chain"
+          },
+          {
+            "name": "Autism Learning Partners",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://autismlearningpartners.com/locations/california/riverside-county/palm-desert/",
+            "address_hint": "",
+            "chain_or_independent": "chain",
+            "license_hint": "",
+            "source": "Autism Learning Partners site, CASP, search results",
+            "note": "ABA therapy for autism; regional/national chain; specific Palm Desert street address not visible in snippets"
+          },
+          {
+            "name": "Autism Learning Partners",
+            "city": "Palm Springs",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://autismlearningpartners.com/locations/california/riverside-county/palm-springs/",
+            "address_hint": "",
+            "chain_or_independent": "chain",
+            "license_hint": "",
+            "source": "Autism Learning Partners site, search results",
+            "note": "ABA therapy for autism; separate Palm Springs location marketed; street address not visible in snippets; verify campus vs. in-home-only"
+          },
+          {
+            "name": "Center for Autism and Related Disorders (CARD)",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://centerforautism.com/locations/california/palm-desert-california/",
+            "address_hint": "73271 Fred Waring Dr, Suite 102 (Yelp); also listed as 36947 Cook St Suite 103 — verify current",
+            "chain_or_independent": "chain",
+            "license_hint": "",
+            "source": "Yelp, Beaming Health, centerforautism.com",
+            "note": "ABA therapy and autism-related services; large national chain (CARD); two addresses surfaced in snippets — may be former/current sites"
+          },
+          {
+            "name": "LeafWing Center",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://leafwingcenter.org/locations/aba-therapy-in-palm-desert-california/",
+            "address_hint": "41990 Cook St, Suite G602",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "LeafWing site, Beaming Health, Therapy Solutions for Kids",
+            "note": "ABA therapy for autism spectrum and developmental disorders; in-clinic and in-home services; 20+ years in operation"
+          },
+          {
+            "name": "Desert Occupational Therapy for Kids, Inc.",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://desertotforkids.com",
+            "address_hint": "77564 Country Club Dr, Suite 401B",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Beaming Health, Alignable, Facebook, RehabGAB",
+            "note": "Pediatric OT ages birth–18; autism, sensory processing, developmental delay, Down syndrome, feeding dysfunction"
+          },
+          {
+            "name": "PT Works (Moving Mountains Wellness and Therapy)",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://www.ptworksinc.com",
+            "address_hint": "40004 Cook St, Suite 4",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "ptworksinc.com, search results",
+            "note": "Pediatric OT, PT, and speech therapy; serves children with special needs and developmental conditions; also has La Quinta location"
+          },
+          {
+            "name": "PT Works (Moving Mountains Wellness and Therapy)",
+            "city": "La Quinta",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://www.ptworksinc.com/home-mountains-wellness-and-therapy",
+            "address_hint": "78080 Calle Estado, Suite 101",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "ptworksinc.com, search results",
+            "note": "Pediatric OT and speech therapy; separate La Quinta campus"
+          },
+          {
+            "name": "RiteCare Childhood Language Center of Coachella Valley",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://www.casrf.org/coachellavalley",
+            "address_hint": "42600 Cook Street, Suite 210 (confirmed via Autism Society CV reference); also listed as 41865 Boardwalk Suite 219 — verify current",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "casrf.org, Greater CV Chamber ribbon cutting, Autism Society CV reference",
+            "note": "Speech, language, and literacy therapy for children ages 3–17 with communication disorders; free services; operated under California Scottish Rite Foundation"
+          },
+          {
+            "name": "Desert Speech LLC",
+            "city": "Rancho Mirage",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://desertspeechllc.com",
+            "address_hint": "71780 San Jacinto Dr, Suite F2",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, Beaming Health, desertspeechllc.com",
+            "note": "Speech-language therapy for children; ASHA-certified SLP; early childhood language, AAC, social skills, reading skills"
+          },
+          {
+            "name": "BrainWorks Behavioral Health",
+            "city": "Rancho Mirage",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://brainworksbehavioralhealth.com/locations/rancho-mirage/",
+            "address_hint": "71780 San Jacinto Drive, Suite F3",
+            "chain_or_independent": "chain",
+            "license_hint": "",
+            "source": "brainworksbehavioralhealth.com, search results",
+            "note": "Diagnostic evaluations for autism, ADHD, learning disorders in children; multi-location CA chain; primarily assessment/evaluation rather than therapy delivery"
+          },
+          {
+            "name": "Stars Behavioral Health Group — Oasis Coachella Center",
+            "city": "Coachella",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://www.starsinc.com/riverside-county/oasis-coachella-center/",
+            "address_hint": "49211 Grapefruit Blvd, Suites 5 & 6",
+            "chain_or_independent": "chain",
+            "license_hint": "",
+            "source": "starsinc.com, findhelp.org",
+            "note": "Behavioral health services for children birth–21 and families; licensed psychiatrists, psychologists, social workers, therapists on staff; also serves Indio, Thermal, Mecca communities"
+          },
+          {
+            "name": "Desert Hope Dyslexia Services",
+            "city": "La Quinta",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://www.deserthopedyslexia.com",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "deserthopedyslexia.com, SoCal MomMag, search results",
+            "note": "Dyslexia and reading tutoring for children using Barton Reading and Foundation in Sounds (structured literacy); based La Quinta 92253; serves La Quinta, Indio, Palm Desert; in-person and online; no confirmed storefront address in snippets"
+          },
+          {
+            "name": "Key Essentials to Behavior Management, Corp",
+            "city": "Indio",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://www.keyessentialsbm.com",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "keyessentialsbm.com, ABA Navigator, search results",
+            "note": "ABA therapy for autism and developmental disabilities ages 2–18+; serves La Quinta/Indio area; corporate HQ in Rancho Cucamonga — no confirmed independent CV campus address in snippets; serves CV based elsewhere / no confirmed local campus"
+          },
+          {
+            "name": "Coachella Valley Autism Society of America (CVASA)",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://cvasa.org",
+            "address_hint": "41550 Eclectic Street (resource center)",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "Yelp, Beaming Health, Therapy Solutions for Kids",
+            "note": "Autism advocacy and family support; offers group music therapy, art class, and after-school programs; not primarily a therapy clinic — triage for fit"
+          },
+          {
+            "name": "Desert Autism Foundation",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://desertautismfoundation.org",
+            "address_hint": "74681 Peppertree Dr",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "note": "Nonprofit that funds and subsidizes OT, speech, music, and social therapies for local families with autism; does not directly deliver clinical services — triage for fit",
+            "source": "desertautismfoundation.org, visitgreaterpalmsprings.com"
+          },
+          {
+            "name": "Variety Children's Charity of the Desert",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://varietyofthedesert.org",
+            "address_hint": "42600 Cook Street, Suite 150",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "varietyofthedesert.org, findhelp.org, visitgreaterpalmsprings.com",
+            "note": "Direct services for children ages 0–18 with disabilities; includes early childhood developmental screenings, Certified Autism Resource Center, case management, mobility equipment; also has offices in Desert Hot Springs and Mecca"
+          },
+          {
+            "name": "Variety Children's Charity of the Desert",
+            "city": "Desert Hot Springs",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://varietyofthedesert.org",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "varietyofthedesert.org, findhelp.org",
+            "note": "Satellite office serving Desert Hot Springs community; same organization as Palm Desert location; outreach/case management; street address not visible in snippets"
+          },
+          {
+            "name": "Premier Speak",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://www.premierspeak.com",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "premierspeak.com, search results",
+            "note": "Speech therapy for children; 25 years serving CV in schools, home health, clinic settings; contact (760) 619-4624; no confirmed fixed office address in snippets — may be mobile/home-based delivery"
+          },
+          {
+            "name": "Dana Anders Speech Pathology",
+            "city": "Rancho Mirage",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "https://danaanders.com",
+            "address_hint": "",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "danaanders.com, vitadox.com, search results",
+            "note": "Speech-language pathologist in private practice; works with children; may operate from within Rancho Mirage Pediatrics; ambiguous: own business brand vs. embedded in pediatric medical practice — verify"
+          },
+          {
+            "name": "New Leaf Child & Family Counseling",
+            "city": "Palm Desert",
+            "subcategory": "special-needs & developmental services for children",
+            "website": "http://newleafcv.com",
+            "address_hint": "44651 Village Court, Suite 129",
+            "chain_or_independent": "independent",
+            "license_hint": "",
+            "source": "newleafcv.com, search results",
+            "note": "Licensed LMFT-led child, teen, and family counseling including autism-related behavioral challenges; primarily general mental health/behavioral counseling — triage: scope fit depends on extent of developmental specialty work"
+          }
+        ],
+        "_src_subcat": "special-needs & developmental services for children",
+        "_src_geo": "second sweep valley-wide"
+      }
+    ],
+    "requested": 2,
+    "returned": 2,
+    "raw_candidates": 49,
+    "tokens_spent": 168604
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "enriched_batches_done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "usage_by_batch": {
+    "1": 714840,
+    "0": 727796,
+    "2": 725814,
+    "3": 725994,
+    "5": 297987,
+    "4": 723015
+  },
+  "enriched_count": 216,
+  "enrich_usage_total": 3915446,
+  "session_usage_total": 4685224
+}
