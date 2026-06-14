@@ -1,0 +1,159 @@
+{
+  "summary": "CV Talent & Workforce census — enrichment (~20-field schema, Sonnet workers, 1 site visit + 1 search)",
+  "agentCount": 3,
+  "logs": [
+    "Batch 2: enriching 3 talent/workforce entities (Sonnet 4.6, 1 site visit + 1 search)...",
+    "Batch 2 complete: 3/3 returned. Spend: 468k"
+  ],
+  "result": {
+    "batch_index": 2,
+    "enrichment": [
+      {
+        "name": "Coachella Valley Health Personnel",
+        "city": "Palm Springs, CA",
+        "subcategory": "staffing & recruiting agencies",
+        "full_address": "490 S Farrell Dr, Palm Springs, CA 92262",
+        "website": "https://www.coachellavalleyhealthpersonnel.com/",
+        "currently_open": "unknown",
+        "credential_displayed": "",
+        "credential_type_guess": "none-visible",
+        "services_offered": [
+          "in-home care referrals",
+          "caregiver referral services",
+          "private nurse registry",
+          "skilled nursing referrals",
+          "respite care",
+          "day-to-day life management assistance"
+        ],
+        "industries_or_sectors_served": [
+          "healthcare",
+          "senior care / home health"
+        ],
+        "areas_served": [
+          "Coachella Valley"
+        ],
+        "pricing_displayed": "no",
+        "clientele": "jobseekers",
+        "nonprofit_or_forprofit": "for-profit",
+        "year_established_if_stated": "1975",
+        "size_hint": "1 office",
+        "booking_or_contact_path": "multiple",
+        "chain_or_independent": "independent",
+        "has_structured_data": "false",
+        "agent_crawlable": "true",
+        "agent_visibility_score": "low",
+        "visibility_gap_note": "Operating since 1975 with 50+ years of local presence, but search results are dominated by competitors; no standalone authoritative directory listing surfaced for CVHP in top results.",
+        "_src_name": "Coachella Valley Health Personnel",
+        "_src_city": "Palm Springs"
+      },
+      {
+        "name": "Hope Care Professional Caregiving Agency",
+        "city": "Palm Desert",
+        "subcategory": "staffing & recruiting agencies",
+        "full_address": "74710 Highway 111, Ste 102, Palm Desert, CA 92260",
+        "website": "https://www.hope-care.com/",
+        "currently_open": "open",
+        "credential_displayed": "",
+        "credential_type_guess": "none-visible",
+        "services_offered": [
+          "In-home companion care referrals",
+          "Light housekeeping and laundry",
+          "Meal planning and preparation",
+          "Personal bathing and grooming assistance",
+          "Incidental transportation and errand running",
+          "Traveling companion services",
+          "Wheelchair/motorized scooter transportation referrals",
+          "Travel booking assistance",
+          "Part-time and full-time caregiver placement"
+        ],
+        "industries_or_sectors_served": [
+          "elder care",
+          "home care",
+          "healthcare"
+        ],
+        "areas_served": [
+          "Palm Springs",
+          "Rancho Mirage",
+          "Palm Desert",
+          "La Quinta",
+          "Indio",
+          "Coachella Valley"
+        ],
+        "pricing_displayed": "no",
+        "clientele": "both",
+        "nonprofit_or_forprofit": "for-profit",
+        "year_established_if_stated": "",
+        "size_hint": "1 office, ~5 staff",
+        "booking_or_contact_path": "multiple",
+        "chain_or_independent": "independent",
+        "has_structured_data": "false",
+        "agent_crawlable": "true",
+        "agent_visibility_score": "medium",
+        "visibility_gap_note": "24+ years in operation with 24/7 service and full CV coverage, but own site lacks structured data and the brand surfaces mainly through third-party directories rather than authoritative earned media.",
+        "_src_name": "Hope Care Professional Caregiving Agency",
+        "_src_city": "Palm Desert"
+      },
+      {
+        "name": "CLS Caregivers",
+        "city": "Rancho Mirage",
+        "subcategory": "staffing & recruiting agencies",
+        "full_address": "73 Via Las Flores, Rancho Mirage, CA 92270",
+        "website": "https://clscaregivers.com/",
+        "currently_open": "unknown",
+        "credential_displayed": "",
+        "credential_type_guess": "none-visible",
+        "services_offered": [
+          "personal care assistance",
+          "medication reminders",
+          "companion care",
+          "meal preparation",
+          "light housekeeping",
+          "mobility support",
+          "transportation",
+          "Alzheimer's & dementia care",
+          "respite care",
+          "hourly home care",
+          "live-in support",
+          "disability care",
+          "hospital recovery care",
+          "hospice & palliative care",
+          "veteran care",
+          "senior household services"
+        ],
+        "industries_or_sectors_served": [
+          "healthcare",
+          "home care",
+          "senior care"
+        ],
+        "areas_served": [
+          "Palm Springs",
+          "Palm Desert",
+          "Rancho Mirage",
+          "Indian Wells",
+          "La Quinta",
+          "Cathedral City",
+          "Indio",
+          "Desert Hot Springs",
+          "Bermuda Dunes",
+          "Coachella Valley"
+        ],
+        "pricing_displayed": "no",
+        "clientele": "both",
+        "nonprofit_or_forprofit": "for-profit",
+        "year_established_if_stated": "",
+        "size_hint": "1 office",
+        "booking_or_contact_path": "multiple",
+        "chain_or_independent": "independent",
+        "has_structured_data": "false",
+        "agent_crawlable": "true",
+        "agent_visibility_score": "low",
+        "visibility_gap_note": "Site claims 20+ years in operation with full CV coverage, but the brand does not surface at all in a direct search — generic job boards dominate every result position.",
+        "_src_name": "CLS Caregivers",
+        "_src_city": "Rancho Mirage"
+      }
+    ],
+    "requested": 3,
+    "returned": 3,
+    "tokens_spent": 468141
+  }
+}

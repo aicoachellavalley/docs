@@ -1,0 +1,97 @@
+{
+  "n_enriched": 83,
+  "n_review": 14,
+  "n_context": 18,
+  "by_subcategory": {
+    "staffing & recruiting agencies": 29,
+    "adult vocational & trade schools / training providers": 17,
+    "workforce-development & job-readiness service organizations": 8,
+    "coworking & flexible workspace": 14,
+    "career & professional services": 5,
+    "HR outsourcing, PEO & payroll services": 10
+  },
+  "by_city": {
+    "Palm Desert": 28,
+    "Palm Springs": 23,
+    "Indio": 8,
+    "Coachella": 7,
+    "La Quinta": 5,
+    "Rancho Mirage": 5,
+    "Cathedral City": 3,
+    "Indian Wells": 2,
+    "Thermal": 1,
+    "Desert Hot Springs": 1
+  },
+  "by_context_segment": {
+    "public_workforce": 11,
+    "econ_dev": 6,
+    "farm_labor_contractor": 1
+  },
+  "agent_visibility_score": {
+    "medium": 40,
+    "high": 31,
+    "low": 12
+  },
+  "gap_low_plus_invisible": {
+    "n": 12,
+    "pct": 14.5
+  },
+  "crawler_blocked": {
+    "blocked": 8,
+    "checkable": 78,
+    "pct": 10.3
+  },
+  "structured_data": {
+    "present": 2,
+    "checkable": 63,
+    "pct": 3.2
+  },
+  "currently_open": {
+    "unknown": 42,
+    "open": 35,
+    "closed": 6
+  },
+  "pricing_displayed": {
+    "shown": 16,
+    "checkable": 73,
+    "pct_shown": 21.9,
+    "pct_hidden": 78.1
+  },
+  "by_credential_regime": {
+    "unregulated": 63,
+    "credentialed": 20
+  },
+  "credential_display_among_credentialed": {
+    "shown": 11,
+    "n": 20,
+    "pct": 55.0
+  },
+  "credential_type_guess": {
+    "none-visible": 52,
+    "industry-cert": 20,
+    "BPPE": 7,
+    "state-board": 4
+  },
+  "clientele": {
+    "n/a": 31,
+    "both": 24,
+    "employers": 18,
+    "jobseekers": 9,
+    "unknown": 1
+  },
+  "nonprofit_or_forprofit": {
+    "for-profit": 69,
+    "nonprofit": 8,
+    "unknown": 6
+  },
+  "chain_or_independent": {
+    "independent": 54,
+    "chain": 28,
+    "unknown": 1
+  },
+  "entity_kind": {
+    "office": 45,
+    "branch": 28,
+    "solo": 10
+  }
+}

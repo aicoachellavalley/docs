@@ -108,6 +108,23 @@ Mirror copies are registered for slash/`name` invocation at
 
 ## Changelog
 
+**v1.3 — cv-talent-workforce (2026-06-14).** Patterns for a **SPLIT credential category**
+(first in the series — a credentialed wing alongside an unregulated one), doc-only; the
+reusable script lives in that run's `scripts/reconcile.py`. (1) **Subcat-level
+`credential_regime` stamp** in the discovery-merge (zero worker cost) — makes the
+credentialed-vs-unregulated divide computable at synthesis instead of reconstructed; stamp it
+whenever a category spans both regimes. (2) **Context-segment from a worker `segment` field** —
+when carve-outs are known up front, a dedicated context cell tags rows directly (`segment=
+public_workforce|econ_dev|…`) rather than deriving them from note red-flags; cleaner than the
+H&RE/F&S note-driven triage for known institutional carve-outs. (3) **Registry-only carve-out +
+promotion bar + per-row regime override** — a population enumerable only via a state registry
+(FLCs, mirrors `family_home_daycare`) is kept as context, but its **web-visible members are
+promoted** into an otherwise-unregulated subcat with a **per-row `credential_regime` override**
+so the split stays accurate at the row level. (4) **Explicit auditable GATE-2 reconcile** —
+when N is small, an explicit (normalized-substring) action list (MERGE variant-clusters / DROP
+out-of-scope / RECLASS to context / PROMOTE) beats a general fuzzy auto-merge: every action is
+logged and there is no accidental over-merge. See `scripts/reconcile.py`.
+
 **v1.2 — canonization (2026-06-13).** Folded the **standing gate-items**
 framing into "What generalizes": pilot-measurement + anchor-recall +
 plausibility-flags are gate checks for *every* category (not per-run add-ons),

@@ -1,0 +1,162 @@
+{
+  "discovery_batches_done": [
+    0,
+    1
+  ],
+  "tokens_by_batch": {
+    "0": 191407,
+    "1": 265918
+  },
+  "rows_total": 135,
+  "enrich_target_count": 104,
+  "review_count": 15,
+  "context_count": 16,
+  "by_subcategory": {
+    "staffing & recruiting agencies": 32,
+    "HR outsourcing, PEO & payroll services": 12,
+    "adult vocational & trade schools / training providers": 19,
+    "coworking & flexible workspace": 22,
+    "workforce-development & job-readiness service organizations": 14,
+    "career & professional services": 5
+  },
+  "by_city": {
+    "Palm Desert": 37,
+    "Indian Wells": 4,
+    "Palm Springs": 26,
+    "Indio": 12,
+    "La Quinta": 8,
+    "Thermal": 1,
+    "Desert Hot Springs": 1,
+    "Coachella": 7,
+    "Rancho Mirage": 5,
+    "Cathedral City": 3
+  },
+  "by_credential_regime": {
+    "unregulated": 85,
+    "credentialed": 19
+  },
+  "by_context_segment": {
+    "public_workforce": 11,
+    "econ_dev": 4,
+    "farm_labor_contractor": 1
+  },
+  "entity_kind_counts": {
+    "branch": 39,
+    "office": 54,
+    "solo": 11
+  },
+  "excluded_talent_agencies": 0,
+  "review_rows": [
+    {
+      "name": "Express Employment Professionals",
+      "city": "Palm Springs",
+      "subcategory": "staffing & recruiting agencies",
+      "reason": "no confirmed local",
+      "note": "no confirmed local CV office as of search date; franchise expansion to Coachella Valley announced late 2025 \u2014 confirm at enrichment whether office has opened"
+    },
+    {
+      "name": "Zepeda Labor Contracting, Inc.",
+      "city": "Coachella",
+      "subcategory": "staffing & recruiting agencies",
+      "reason": "address in Thermal",
+      "note": "FLC-licensed; incorporated 1998; active per Yelp and OSHA inspection records"
+    },
+    {
+      "name": "TCWGlobal",
+      "city": "Indio",
+      "subcategory": "staffing & recruiting agencies",
+      "reason": "no confirmed local",
+      "note": "serves CV, based in San Diego; no confirmed local Indio office found \u2014 triage flag; national staffing/payrolling company"
+    },
+    {
+      "name": "Instawork",
+      "city": "Indio",
+      "subcategory": "staffing & recruiting agencies",
+      "reason": "no confirmed local",
+      "note": "serves CV, app-based platform; no confirmed local physical office; on-demand/gig-model hospitality & warehouse staffing"
+    },
+    {
+      "name": "HealthStaff Training Institute (HSTI)",
+      "city": "Indio",
+      "subcategory": "adult vocational & trade schools / training providers",
+      "reason": "no confirmed local",
+      "note": "Serves CV / no confirmed local Indio office \u2014 HSTI Indio page markets WIOA-funded training to Indio residents; confirmed physical campuses are in Ontario, Santa Ana, Temecula; verify before enriching"
+    },
+    {
+      "name": "ClearPointHCO",
+      "city": "Palm Springs",
+      "subcategory": "career & professional services",
+      "reason": "no confirmed local office; no confirmed local",
+      "note": "serves CV based elsewhere / no confirmed local office; online resume writing and career coaching; HR consulting and leadership development"
+    },
+    {
+      "name": "Catapult HR",
+      "city": "Palm Desert",
+      "subcategory": "HR outsourcing, PEO & payroll services",
+      "reason": "no confirmed local office; no confirmed local",
+      "note": "serves CV based elsewhere / no confirmed local office; fractional HR, payroll admin, benefits, compliance; serves 10-500 employee firms in Palm Desert/Riverside County"
+    },
+    {
+      "name": "Triton Benefits & HR Solutions",
+      "city": "Palm Desert",
+      "subcategory": "HR outsourcing, PEO & payroll services",
+      "reason": "no confirmed local office; no confirmed local",
+      "note": "serves CV based elsewhere / no confirmed local office; HQ in NJ; payroll and HR services; service pages for Palm Desert and North Palm Springs"
+    },
+    {
+      "name": "CA HR Services",
+      "city": "Palm Desert",
+      "subcategory": "HR outsourcing, PEO & payroll services",
+      "reason": "no confirmed local office; no confirmed local",
+      "note": "Serves CV, based elsewhere / no confirmed local office \u2014 San Diego HQ; has a dedicated Riverside County/Coachella Valley service page; remote-delivery model"
+    },
+    {
+      "name": "TJH Payroll",
+      "city": "Palm Springs",
+      "subcategory": "HR outsourcing, PEO & payroll services",
+      "reason": "no confirmed local office; no confirmed local",
+      "note": "Serves CV, based elsewhere / no confirmed local office \u2014 Chatsworth CA HQ; has dedicated Palm Springs and Palm Desert service pages but no confirmed CV branch"
+    },
+    {
+      "name": "Catapult HR (Catapult Employers Association)",
+      "city": "Palm Desert",
+      "subcategory": "HR outsourcing, PEO & payroll services",
+      "reason": "no confirmed local; serves cv based elsewhere",
+      "note": "Serves CV employers; headquartered in Southeast US (NC/SC/VA); no confirmed local physical office \u2014 serves CV based elsewhere"
+    },
+    {
+      "name": "ClearPoint HCO (ClearPoint Human Capital Optimization)",
+      "city": "Palm Springs",
+      "subcategory": "career & professional services",
+      "reason": "no confirmed local office; no confirmed local",
+      "note": "Resume writing, interview prep, career coaching, outplacement; appears to operate virtually \u2014 no confirmed local physical office; serves CV based elsewhere / no confirmed local office"
+    },
+    {
+      "name": "Elev8 Event Staffing",
+      "city": "Palm Springs",
+      "subcategory": "staffing & recruiting agencies",
+      "reason": "no confirmed local",
+      "note": "Serves CV (Coachella, Stagecoach, Indio festivals); based in LA \u2014 no confirmed local CV office; brand ambassadors, festival staffing"
+    },
+    {
+      "name": "Premier Staff",
+      "city": "Palm Springs",
+      "subcategory": "staffing & recruiting agencies",
+      "reason": "no confirmed local",
+      "note": "Serves CV (Coachella 2026 festival staffing); based in LA \u2014 no confirmed local CV office; luxury event/brand ambassador staffing"
+    },
+    {
+      "name": "All Medical Personnel",
+      "city": "Palm Desert",
+      "subcategory": "staffing & recruiting agencies",
+      "reason": "no confirmed local",
+      "note": "Serves CV (Indio, Palm Desert, La Quinta) for locum tenens, travel nursing, allied health; national firm \u2014 no confirmed local CV office confirmed in snippets"
+    }
+  ],
+  "usage_basis_by_batch": {
+    "0": 343265,
+    "1": 106373
+  },
+  "pilot_run_id": "wf_bebfa2c7-b8b",
+  "batch1_run_id": "wf_bebfa2c7-b8b"
+}

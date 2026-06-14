@@ -1,0 +1,16 @@
+{
+  "enriched_batches_done": [
+    0,
+    1,
+    2
+  ],
+  "usage_by_batch": {
+    "0": 735431,
+    "1": 742878,
+    "2": 54211
+  },
+  "enriched_count": 83,
+  "discovery_usage_total": 449638,
+  "enrich_usage_total": 1532520,
+  "session_usage_total": 1982158
+}
