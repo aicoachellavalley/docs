@@ -31,7 +31,7 @@ The pre-partition snapshot of operational content is preserved at
 
 **Brief count reconciled 2026-05-19:** discrepancy flagged 2026-05-11 resolved. Disk, stats.json, and STATE.md now in sync at 145. `coachella-valley-intelligence-index` node description referencing 131 is a stale prose string, not a count field — update deferred.
 
-**Reports count reconciled 2026-06-14:** `reports.json` now serves **7** entries — six Reports (data-centers, state-of-ai-q1, visitor-economy, dining, home & real-estate, family-schooling) plus one evergreen methodology page (`methodology-agent-mapped-census`). Count taken from the endpoint, not from memory (per OPERATING-RULES §5.2). Node / brief / snapshot rows above carry their June-11 reconciliation and were not re-verified this session.
+**Reports count reconciled 2026-06-14 (T&W publish):** `reports.json` now serves **8** entries — seven Reports (data-centers, state-of-ai-q1, visitor-economy, dining, home & real-estate, family-schooling, **talent-workforce**) plus one evergreen methodology page (`methodology-agent-mapped-census`). Count taken from the endpoint, not from memory (per OPERATING-RULES §5.2). Node / brief / snapshot rows above carry their June-11 reconciliation and were not re-verified this session.
 
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
@@ -315,21 +315,22 @@ Both .com and .org score 1.0 on Lighthouse 13.3 Agentic Browsing (3/3 weighted a
 
 `agent-mapped-family-schooling-coachella-valley` published as the sixth AICV Report and the fourth in the agent-readiness series — the third complete category census, after dining and H&RE. Canonical <https://aicoachellavalley.com/reports/agent-mapped-family-schooling-coachella-valley/> (com `6ee47f0`); live, served by `get_report`, `reports.json` now at seven entries. 216 organizations across eight subcategories and twelve communities. Thesis — **"The Unregulated Category"** — completes the credential typology the series has been tracing: inspection regime (dining) → license-display regime (H&RE) → no regime at all (151/216 carry no state credential an agent can check). Headline finding: 83% hide pricing. **First synthesis published under the Opus synthesis seat** (post-Fable fold, `OPERATING-RULES.md` §1); numeric + cross-report consistency gates held to the digit (visibility gap 12.5%, on par with H&RE).
 
-### Milestone: Talent & Workforce census dataset shipped — synthesis PENDING (2026-06-14)
+### Milestone: Seventh Report shipped — Agent-Mapped: Talent & Workforce Q2 2026 (2026-06-14)
 
-The **fourth complete category census** (after dining, H&RE, F&S) — **dataset only; synthesis
-report not yet drafted**, so T&W is distinct from the three synthesized-and-live categories and
-`reports.json` stays at seven entries. 115-row agent-visibility dataset (aicv-playbook `0502249`,
-path-scoped, pushed to origin): **83 enrich-targets (100% enriched) + 14 review + 18 context**
-(public_workforce 11 / econ_dev 6 / farm_labor_contractor 1). Ran in one session at **~16.5% of the
-12M guard** (1.98M usage-basis). **Series-first SPLIT credential category** — the typology now reads
-inspection (dining) → license-display (H&RE) → no regime (F&S) → **split** (T&W): **unregulated 63
-(75.9%) vs credentialed 20 (24.1%)**, computable row-level via `credential_regime` (trade schools =
-BPPE/state-board; FLCs = DIR LC §1684, web-visible ones promoted). Headlines (fresh from disk, n=83):
-visibility gap **14.5%** (**series-high** — to be re-confirmed at synthesis under the §5.3 gate),
-structured data 3.2%, 78.1% hide pricing, crawler-blocked 10.3%. Census template advanced to **v1.3**
-(split-category `credential_regime` stamp; worker-tagged context segments; registry-carve-out
-promotion + per-row regime override; auditable Gate-2 reconcile). Run dir
+The **fifth entry in the agent-readiness series and the fourth complete category census** (after
+dining, H&RE, F&S), now **synthesized and live**: canonical
+<https://aicoachellavalley.com/reports/agent-mapped-talent-workforce-coachella-valley/> (com
+`4c74b7f`); served by `get_report`, IndexNow HTTP 200, **`reports.json` now at eight entries** (seven
+reports + the methodology page). **Second synthesis published under the Opus-only seat.** The dataset
+(aicv-playbook `0502249`) ran in one session at **~16.5% of the 12M guard**: **83 enrich-targets (100%
+enriched) + 14 review + 18 context** (public_workforce 11 / econ_dev 6 / farm_labor_contractor 1).
+**Series-first SPLIT credential category** — the typology now reads inspection (dining) →
+license-display (H&RE) → no regime (F&S) → **split** (T&W): **unregulated 63 (75.9%) vs credentialed 20
+(24.1%)**, computable row-level. Headlines: **visibility gap 14.5% — series-high, consistency-gated to
+the digit (5.0 < 11.4 < 12.5 < 14.5, on the n=83 enriched-only denominator the prior three each used)**;
+structured data 3.2%, 78.1% hide pricing, crawler-blocked 10.3% (series-low). Census template at **v1.3**
+(split-category `credential_regime` stamp; worker-tagged context segments; registry-carve-out promotion +
+per-row regime override; auditable Gate-2 reconcile). Run dir
 `data/workflow-runs/cv-talent-workforce-2026-06-14/` (README has full provenance).
 
 ---
@@ -392,16 +393,14 @@ Productize as **Agent Ready Premium surface-watch.** Build precondition
   (separate sessions): resolve the **2 `_verify_note` rows** (Dove's Landing city,
   Montessori PS&PD variant) and triage the **16 review rows**. (The narrow
   verification pass and the prospect shortlist are tracked in their sections above.)
-- **T&W (talent & workforce):** dataset SHIPPED 2026-06-14 (aicv-playbook `0502249`,
-  pushed); **synthesis PENDING** — separate session, distinct from dining V2 / H&RE / F&S
-  (synthesized-and-live). 115 rows (83 enriched + 14 review + 18 context). **Synthesis
-  precondition:** run the **§5.3 cross-report consistency gate against all four live reports
-  FIRST** — the **14.5% visibility-gap series-high** claim must be re-confirmed under the
-  identical low+invisible definition and the **n=83 denominator** before it ships. Remaining
-  census-cleanup legs (separate sessions): triage the **14 review rows** (the two ClearPoint
-  rows; the not-yet-open Express Employment branch; the rest). **Boundary note:** caregiver /
-  nurse-registry staffing sits at the staffing↔home-care line — reconcile (pre-flagged dedup)
-  against the future **Wellness/healthcare census**. (Credential-verification leg tracked above.)
+- **T&W (talent & workforce):** dataset SHIPPED 2026-06-14 (aicv-playbook `0502249`) **and
+  synthesis report PUBLISHED 2026-06-14** (com `4c74b7f`, live + served by `get_report` +
+  IndexNow 200, `reports.json`→8). The §5.3 consistency gate held to the digit (5.0 < 11.4 <
+  12.5 < 14.5, n=83 enriched-only). Remaining census-cleanup legs (separate sessions): triage
+  the **14 review rows** (the two ClearPoint rows; the not-yet-open Express Employment branch;
+  the rest). **Boundary note:** caregiver / nurse-registry staffing sits at the staffing↔home-care
+  line — reconcile (pre-flagged dedup) against the future **Wellness/healthcare census**.
+  (Credential-verification leg tracked above.)
 
 ### Migrated from the retired TOMORROW.md — still live
 
