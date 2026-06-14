@@ -31,7 +31,7 @@ The pre-partition snapshot of operational content is preserved at
 
 **Brief count reconciled 2026-05-19:** discrepancy flagged 2026-05-11 resolved. Disk, stats.json, and STATE.md now in sync at 145. `coachella-valley-intelligence-index` node description referencing 131 is a stale prose string, not a count field — update deferred.
 
-**Reports count reconciled 2026-06-13:** `reports.json` now serves **6** entries — five Reports (data-centers, state-of-ai-q1, visitor-economy, dining, home & real-estate) plus one evergreen methodology page (`methodology-agent-mapped-census`). Count taken from the endpoint, not from memory (per OPERATING-RULES §5.2). Node / brief / snapshot rows above carry their June-11 reconciliation and were not re-verified this session.
+**Reports count reconciled 2026-06-14:** `reports.json` now serves **7** entries — six Reports (data-centers, state-of-ai-q1, visitor-economy, dining, home & real-estate, family-schooling) plus one evergreen methodology page (`methodology-agent-mapped-census`). Count taken from the endpoint, not from memory (per OPERATING-RULES §5.2). Node / brief / snapshot rows above carry their June-11 reconciliation and were not re-verified this session.
 
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
@@ -311,6 +311,10 @@ Both .com and .org score 1.0 on Lighthouse 13.3 Agentic Browsing (3/3 weighted a
 
 `agent-mapped-home-realestate-coachella-valley` published as the fifth AICV Report and the third in the agent-readiness series, alongside a new evergreen methodology page `methodology-agent-mapped-census` — the shared, citable methodology for the whole agent-mapped census series. The same day, the dining report's **V2 regen** shipped carrying a public **supersession block** and a **Cross-Category Ledger**, consistency-gated to the digit against the live H&RE figures — the first public demonstration of AICV's supersession convention (a revised report openly supersedes its prior version rather than silently overwriting it). The `reports.json` endpoint now serves six entries (five Reports + the methodology page). The numeric and supersession conventions are now public on the methodology page; the internal operating rules that enforce them (numeric discipline, the cross-report consistency gate, the regen-draft convention) are codified in `OPERATING-RULES.md` §5.
 
+### Milestone: Sixth Report shipped — Agent-Mapped: Family & Schooling in the Coachella Valley Q2 2026 (2026-06-14)
+
+`agent-mapped-family-schooling-coachella-valley` published as the sixth AICV Report and the fourth in the agent-readiness series — the third complete category census, after dining and H&RE. Canonical <https://aicoachellavalley.com/reports/agent-mapped-family-schooling-coachella-valley/> (com `6ee47f0`); live, served by `get_report`, `reports.json` now at seven entries. 216 organizations across eight subcategories and twelve communities. Thesis — **"The Unregulated Category"** — completes the credential typology the series has been tracing: inspection regime (dining) → license-display regime (H&RE) → no regime at all (151/216 carry no state credential an agent can check). Headline finding: 83% hide pricing. **First synthesis published under the Opus synthesis seat** (post-Fable fold, `OPERATING-RULES.md` §1); numeric + cross-report consistency gates held to the digit (visibility gap 12.5%, on par with H&RE).
+
 ---
 
 ## Forward Queue
@@ -327,7 +331,8 @@ Both .com and .org score 1.0 on Lighthouse 13.3 Agentic Browsing (3/3 weighted a
 Deterministic, no AI. Three legs:
 1. **Surface-inventory doc** in the playbook + a STATE.md pointer to it.
 2. **Post-deploy check script** — feeds parse; counts agree site ↔ json ↔
-   desk; IndexNow returns 202; sample of canonical URLs return 200.
+   desk; IndexNow returns 200 (a validated key returns 200, not 202 — F&S
+   publish, 2026-06-14); sample of canonical URLs return 200.
 3. **Weekly Cloudflare Worker heartbeat** — including Bing indexed-count
    vs sitemap-count trend.
 
@@ -347,12 +352,13 @@ Productize as **Agent Ready Premium surface-watch.** Build precondition
 ### Verification legs queued
 
 - **DRE / NMLS** deterministic pass (H&RE census).
-- **CDSS registry enumeration** (F&S family child-care homes — the 46
-  `family_home_daycare` context rows).
+- **F&S verification pass (narrow by design):** confirm the ~65 displayed
+  CDSS facility numbers + school-accreditation claims, and enumerate the 46
+  `family_home_daycare` registry-only homes against the CDSS registry.
 
 ### Prospect-shortlist extraction (internal)
 
-- Dining and H&RE shortlists.
+- Dining, H&RE, and F&S shortlists.
 
 ### Node candidates parked (events / wedding layer, human-endorsed)
 
@@ -360,10 +366,12 @@ Productize as **Agent Ready Premium surface-watch.** Build precondition
 
 ### Census status
 
-- **F&S (family & schooling):** dataset SHIPPED 2026-06-12 (dataset-only —
-  216 enriched + 16 review + 46 family-home context rows). Synthesis/report,
-  the credential-verification leg, and prospect work are separate later
-  sessions.
+- **F&S (family & schooling):** dataset SHIPPED 2026-06-12 (216 enriched + 16
+  review + 46 family-home context rows); **synthesis report PUBLISHED 2026-06-14**
+  (com `6ee47f0`, live + served by `get_report`). Remaining census-cleanup legs
+  (separate sessions): resolve the **2 `_verify_note` rows** (Dove's Landing city,
+  Montessori PS&PD variant) and triage the **16 review rows**. (The narrow
+  verification pass and the prospect shortlist are tracked in their sections above.)
 
 ### Migrated from the retired TOMORROW.md — still live
 
