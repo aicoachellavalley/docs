@@ -23,11 +23,11 @@ The pre-partition snapshot of operational content is preserved at
 | Metric | Count |
 |--------|-------|
 | Nodes live | 81 |
-| Intelligence briefs live | 156 |
+| Intelligence briefs live | 162 |
 | Snapshots live | 3 |
 | Reports live | 7 |
 
-**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026) · 7 (May 2026) · 7 (Jun 2026)
+**Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026) · 7 (May 2026) · 13 (Jun 2026)
 
 **Brief count reconciled 2026-05-19:** discrepancy flagged 2026-05-11 resolved. Disk, stats.json, and STATE.md now in sync at 145. `coachella-valley-intelligence-index` node description referencing 131 is a stale prose string, not a count field — update deferred.
 
@@ -311,7 +311,7 @@ Both .com and .org score 1.0 on Lighthouse 13.3 Agentic Browsing (3/3 weighted a
 
 ### Milestone: Fourth Report shipped — Agent-Mapped: Food & Dining in the Coachella Valley Q2 2026 (2026-06-11)
 
-`agent-mapped-food-dining-coachella-valley` published as the fourth AICV Report and the second in the agent-readiness series. Category-complete census of 1,423 food and dining establishments across twelve communities — 924 independents, 441 chains, 49 mobile, 9 unclassified — produced through a multi-agent agent-mapping workflow that starts from the territory itself rather than from any directory. Of a 377-establishment sample of independents inspected so far, none expose structured data and roughly one in three block AI crawlers. Distinct from the visitor-economy audit by scope and method rather than correction: the visitor-economy report scored a 956-business directory-sourced Dining subset against an eight-dimension rubric, while this census maps the full category including operators no directory contains. First vertical-deep, single-category, end-to-end map in the Report layer; advances the "honey-pot" thesis of holding category-complete maps that aggregators structurally cannot see.
+`agent-mapped-food-dining-coachella-valley` published as the fourth AICV Report and the second in the agent-readiness series. Category-complete census of 1,423 food and dining establishments across twelve communities — 971 independent rows (925 fixed-location operators), 442 chains, and 10 unclassified — produced through a multi-agent agent-mapping workflow that starts from the territory itself rather than from any directory. With the full inspection complete — all 859 non-mapped fixed-location independents individually inspected — none expose structured data across 554 checkable sites and 28.4 percent block AI crawlers. Distinct from the visitor-economy audit by scope and method rather than correction: the visitor-economy report scored a 956-business directory-sourced Dining subset against an eight-dimension rubric, while this census maps the full category including operators no directory contains. First vertical-deep, single-category, end-to-end map in the Report layer; advances the "honey-pot" thesis of holding category-complete maps that aggregators structurally cannot see. (Milestone figures updated 2026-06-14 to the V2 full-inspection numbers; V1 carried a 377-establishment sample.)
 
 ### Milestone: Fifth Report shipped — Agent-Mapped: Home & Real Estate, + shared methodology page + public supersession (2026-06-12)
 
