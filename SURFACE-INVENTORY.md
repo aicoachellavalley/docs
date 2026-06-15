@@ -43,7 +43,7 @@ Regenerated at every deploy by `com` → `scripts/build-static-json.cjs` (JSON f
 
 ## 3. Agent-discovery surfaces (`.well-known/`)
 
-`security.txt` · `api-catalog` (RFC 9727 linkset) · `mcp.json` · `mcp/server-card.json` (SEP-2127 shape) · `skills/index.json` + `skills/query-coachella-valley-intelligence/SKILL.md`.
+`security.txt` (RFC 9116; expires 2027-04-21 — renew before) · `api-catalog` (RFC 9727 linkset) · `mcp.json` · `mcp/server-card.json` (SEP-2127 shape) · `skills/index.json` + `skills/query-coachella-valley-intelligence/SKILL.md`.
 
 ## 4. MCP desk — `mcp.aicoachellavalley.com/mcp` (6 tools)
 
