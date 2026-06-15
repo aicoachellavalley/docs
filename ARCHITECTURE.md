@@ -169,6 +169,13 @@ infrastructure decision must be evaluated against this.
 > security recommendations and see these flagged: skipping them is
 > intentional, not an oversight. Do not enable them.
 
+> **Canonical surface map:** [`SURFACE-INVENTORY.md`](SURFACE-INVENTORY.md) is the
+> complete, disk-verified inventory of every agent-facing surface — human pages,
+> machine feeds (incl. `reports.json`), `.well-known/` discovery files
+> (`security.txt`, `api-catalog`, `mcp.json`, `mcp/server-card.json`, `skills/`),
+> and the 6-tool MCP desk — enforced by the `tools/surface-health/` count-agreement
+> monitor. The list below is a reliability-ordered quick-reference, not the full inventory.
+
 **Live agent access paths — in order of reliability:**
 1. Static JSON endpoints (best — no JS, one fetch):
    - aicoachellavalley.com/nodes.json
