@@ -18,14 +18,14 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
-## Live Counts (as of June 11, 2026)
+## Live Counts (as of 2026-06-14 — disk-verified)
 
 | Metric | Count |
 |--------|-------|
 | Nodes live | 81 |
 | Intelligence briefs live | 156 |
 | Snapshots live | 3 |
-| Reports live | 6 |
+| Reports live | 7 |
 
 **Brief breakdown:** 4 (2025) · 14 (Jan 2026) · 32 (Feb 2026) · 70 (Mar 2026) · 22 (Apr 2026) · 7 (May 2026) · 7 (Jun 2026)
 
@@ -39,7 +39,7 @@ The pre-partition snapshot of operational content is preserved at
 - **7 — Reports shipped (roadmap milestones):** **all** report types — the 5 above **+ data-centers (civic-intelligence) + State of AI Q1 (state-of-ai)**. This is the "Nth Report shipped" milestone number (T&W = "Seventh Report shipped").
 - **8 — `reports.json` endpoint entries:** the 7 Reports **+ the evergreen methodology page** (not itself a "Report"). This is the count the surface-health monitor asserts agreement on (site ↔ reports.json ↔ MCP desk).
 
-**Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
+**Nodes:** 81 live across nine incorporated cities and adjacent communities (includes valley-wide concept nodes and the `coachella-valley-intelligence-index` meta-node) — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
 **Verification ledger:** see `verification/SCHEMA.md` for schema v1; scaffold deferred — revisit when nodes reach 100
 
