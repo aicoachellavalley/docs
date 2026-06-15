@@ -332,7 +332,7 @@ Every intelligence brief drafted in Claude.ai must end with:
 - GitHub issues as agent-compatible signal submission — no custom forms
 - Visit → Retreat → Relocate funnel: AICV owns all three citation touchpoints in the agent layer — not separate verticals, one journey
 - Three-city luxury focus: Rancho Mirage, Palm Desert, and Indian Wells are the core MCP query surface for hospitality and retreat use cases. Other cities remain in the node system but are secondary for luxury targeting.
-- MCP tool surface: five tools live at mcp.aicoachellavalley.com — `query_venues` (filter by city/subcategory/agent_intent), `get_node` (full record by slug), `get_regional_brief` (briefs by date/topic), `get_economic_context` (valley-wide economic profile), `route_query` (Node Zero dispatcher for natural language queries)
+- MCP tool surface: six tools live at mcp.aicoachellavalley.com — `query_venues` (filter by city/subcategory/agent_intent), `get_node` (full record by slug), `get_regional_brief` (briefs by date/topic), `get_economic_context` (valley-wide economic profile), `get_report` (long-form reports; browse list or full body by slug), `route_query` (Node Zero dispatcher for natural language queries)
 - Chambers of Commerce: not in node roadmap — serve existing local membership, not AICV's inbound audience (founders, VCs, operators evaluating CV from SF/LA)
 
 ---

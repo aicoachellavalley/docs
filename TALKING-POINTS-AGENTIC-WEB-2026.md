@@ -34,7 +34,7 @@ One related-but-separate piece worth noting: the **Agent Payments Protocol (AP2)
 
 Four protocols matter, and they compose rather than compete:
 
-- **MCP (Model Context Protocol)** — how agents discover and call tools and data. AICV's `aicv-mcp` worker exposes five tools (`get_node`, `query_venues`, `get_regional_brief`, `get_economic_context`, `route_query`). Server-side, accessed by Claude, ChatGPT, Perplexity, Gemini.
+- **MCP (Model Context Protocol)** — how agents discover and call tools and data. AICV's `aicv-mcp` worker exposes six tools (`get_node`, `query_venues`, `get_regional_brief`, `get_economic_context`, `get_report`, `route_query`). Server-side, accessed by Claude, ChatGPT, Perplexity, Gemini.
 - **A2A (Agent-to-Agent)** — how agents talk to other agents. Google-originated, increasingly multi-vendor. Relevant when an AICV agent (a future Premium MVA's daily monitoring agent) wants to hand off to another agent.
 - **UCP (Universal Commerce Protocol)** — how agents transact with merchants. Google-led, open standard, co-developed with Shopify and others. Merchant-of-record stays with the brand.
 - **AP2 (Agent Payments Protocol)** — how payments are authorized when an agent transacts on a user's behalf.

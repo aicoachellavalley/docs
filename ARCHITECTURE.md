@@ -55,11 +55,12 @@ Live at `mcp.aicoachellavalley.com`. Deployed version: `7f86d40a`.
 Stateless architecture — fetches MDX node files directly from GitHub raw content.
 Claude Desktop connection confirmed working as of March 9, 2026, via mcp-remote bridge.
 
-**Five tools:**
+**Six tools:**
 - `query_venues` — filter by city / subcategory / agent_intent
 - `get_node` — full record by slug
 - `get_regional_brief` — briefs by date / topic
 - `get_economic_context` — valley-wide economic profile
+- `get_report` — long-form reports; no slug → browse/filter list, slug → full body inline
 - `route_query` — Node Zero dispatcher for natural language queries
 
 **Bug fixes in deployed version (do not revert):**
