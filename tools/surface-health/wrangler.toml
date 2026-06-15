@@ -1,0 +1,24 @@
+# AICV surface-health heartbeat Worker — NOT YET DEPLOYED.
+# Deploy is a separate, explicit step: `wrangler deploy` from this directory.
+# Before first deploy: create the KV namespace and uncomment the [[kv_namespaces]]
+# block below, then keep BING_INDEXED current (manual field) each week.
+
+name = "aicv-surface-health"
+main = "worker.js"
+compatibility_date = "2026-06-14"
+
+# Weekly heartbeat — Monday 14:00 UTC (~6–7am Pacific). Runs the check module and
+# records the Bing-indexed vs sitemap-count trend.
+[triggers]
+crons = ["0 14 * * 1"]
+
+[vars]
+# Manually-maintained Bing indexed-count (baseline 237 as of 2026-06-12). Update
+# weekly from Bing Webmaster Tools until/unless the Bing Webmaster API is wired in.
+BING_INDEXED = "237"
+
+# Trend persistence — create once, then uncomment:
+#   wrangler kv namespace create surface-health-heartbeat
+# [[kv_namespaces]]
+# binding = "HEARTBEAT"
+# id = "<paste-the-id-from-the-create-command>"

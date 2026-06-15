@@ -350,15 +350,16 @@ per-row regime override; auditable Gate-2 reconcile). Run dir
 > Operational mechanics (scripts, deploy commands, env) belong in the
 > relevant operational repo when each item gets built — not here.
 
-### Surface-health monitor — LOCKED 2026-06-12 (now buildable: F&S census shipped)
+### Surface-health monitor — BUILT 2026-06-14 (legs 1–2 done + verified; leg 3 code-complete, deploy deferred)
 
+**Pointer:** surfaces map → [`SURFACE-INVENTORY.md`](SURFACE-INVENTORY.md); monitor code → `tools/surface-health/`.
 Deterministic, no AI. Three legs:
-1. **Surface-inventory doc** in the playbook + a STATE.md pointer to it.
-2. **Post-deploy check script** — feeds parse; counts agree site ↔ json ↔
-   desk; IndexNow returns 200 (a validated key returns 200, not 202 — F&S
-   publish, 2026-06-14); sample of canonical URLs return 200.
-3. **Weekly Cloudflare Worker heartbeat** — including Bing indexed-count
-   vs sitemap-count trend.
+1. **Surface-inventory doc** — `SURFACE-INVENTORY.md` (pages, feeds, .well-known, the 6 MCP desk tools, the count-agreement graph). ✅ done.
+2. **Post-deploy check script** — `tools/surface-health/check.mjs`: feeds parse; counts agree site ↔ json ↔
+   desk (reports.json **= 8** is the three-way anchor; nodes/briefs/snapshots feed↔site); IndexNow returns 200 (a validated key returns 200, not 202 — F&S
+   publish, 2026-06-14); sample report URLs return 200. ✅ done — verified live 17/17 on the clean state (2026-06-14).
+3. **Weekly Cloudflare Worker heartbeat** — `tools/surface-health/{worker.js,wrangler.toml}`: reuses the check module; records Bing indexed-count
+   vs sitemap-count trend (sitemap auto; **Bing manual field** `BING_INDEXED`, baseline 237). ⏳ code-complete, **NOT deployed** — `wrangler deploy` (+ create the KV namespace, keep BING_INDEXED current) is a separate explicit step.
 
 Productize as **Agent Ready Premium surface-watch.** Build precondition
 ("after F&S census") is now met.
