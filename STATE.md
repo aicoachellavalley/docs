@@ -33,6 +33,12 @@ The pre-partition snapshot of operational content is preserved at
 
 **Reports count reconciled 2026-06-14 (T&W publish):** `reports.json` now serves **8** entries — seven Reports (data-centers, state-of-ai-q1, visitor-economy, dining, home & real-estate, family-schooling, **talent-workforce**) plus one evergreen methodology page (`methodology-agent-mapped-census`). Count taken from the endpoint, not from memory (per OPERATING-RULES §5.2). Node / brief / snapshot rows above carry their June-11 reconciliation and were not re-verified this session.
 
+**Report-count legend (the counts differ by SCOPE — all correct, do not "reconcile" them to one number):**
+- **4 — complete category censuses:** ground-up category maps (dining, H&RE, F&S, T&W).
+- **5 — agent-readiness research series:** the 4 censuses **+ the visitor-economy audit**. This is the number each report's own text uses (T&W = "the fifth entry in the series").
+- **7 — Reports shipped (roadmap milestones):** **all** report types — the 5 above **+ data-centers (civic-intelligence) + State of AI Q1 (state-of-ai)**. This is the "Nth Report shipped" milestone number (T&W = "Seventh Report shipped").
+- **8 — `reports.json` endpoint entries:** the 7 Reports **+ the evergreen methodology page** (not itself a "Report"). This is the count the surface-health monitor asserts agreement on (site ↔ reports.json ↔ MCP desk).
+
 **Nodes:** 80 across nine incorporated cities and adjacent communities — all on v2 schema with `verified`, `status`, `agent_intent` fields. See `TAXONOMY.md` for canonical city/region values.
 
 **Verification ledger:** see `verification/SCHEMA.md` for schema v1; scaffold deferred — revisit when nodes reach 100
