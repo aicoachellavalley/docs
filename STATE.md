@@ -370,7 +370,17 @@ Surfaced during the iMac path sweep (paths-only, so logged not fixed): `ARCHITEC
 lines ~22–23 claim **aicv-mcp and twitter-worker are "NOT git-controlled"** — both were cloned
 clean from GitHub during the 2026-06-27 ignition, so the claim is stale. Sweep the infra docs
 for other "NOT git-controlled / no git repo" assertions and reconcile against the actual
-14-repo canon. This is a *content* pass, distinct from the path pass.
+14-repo canon. This is a *content* pass, distinct from the path pass. Also reconcile the bare
+**`aicv-playbook/` dir-name** reference (no `~/` prefix) in `core/com/src/content/nodes/CLAUDE.md`
+(last line) — the local dir is now `playbook`; stale name, a different class than a path-prefix hit.
+
+### sunshine-fm path sweep — parked, tidy-when-convenient (queued 2026-06-27)
+
+The repo moved `~/sunshine-fm/` → `~/AICV/sunshine-fm/`; ~80 tree-wide refs remain. **Scope: grep
+the WHOLE tree for `~/sunshine-fm/`, not just the sunshine-fm repo** — `core/com/src/content/briefs/CLAUDE.md`
+and `nodes/CLAUDE.md` both point at `~/sunshine-fm/journal/index.html`, proving the landmine crosses
+repo boundaries. The 3 in-playbook cold-start refs were already fixed during the path sweep; this is the
+remainder. Does **not** block cold-start (playbook is clean).
 
 ### iMac HQ — make it a working environment, not just a code store (queued 2026-06-27)
 
@@ -380,10 +390,14 @@ next-session, none done today:
 1. **Cloudflare / wrangler auth** — the second handshake. Nothing deploys until `wrangler` is
    logged into the `sunshinefm` Cloudflare account on the iMac. Next browser pop-up, due on the
    first live push. (GitHub auth is already done — `gh` logged in as SunshineFM, both orgs visible.)
-2. **Path-update sweep** — everything moved `~/Projects/` → `~/AICV/core/`. The playbook
-   `CLAUDE.md` (Canonical paths block, every build/deploy command, file-structure map) and likely
-   `OPERATING-RULES.md` + scripts still hardcode the old path. Grep the new tree and fix before a
-   cold session trips on a stale path.
+2. **Path-update sweep — ✅ DONE + verified 2026-06-27.** All Bucket A live files repointed
+   `~/Projects/` → `~/AICV/` across 7 repos (playbook, com, ic, api, workers/{twitter,bluesky,tools}),
+   committed + pushed. Non-trivial renames handled, not blind-replaced: `aicv-api`→`core/api`,
+   `aicv-mcp`→`core/mcp`, `aicv-ic`→`core/ic`, `aicv-playbook`/`docs`→`core/playbook`,
+   `tools`→`workers/tools`, `twitter-worker`→`workers/twitter`, `bluesky-worker`→`workers/bluesky`.
+   Tree-wide proof-grep = **0 live hits**. Historical records (`archive/audits/verification`, dated
+   journals) deliberately left true-to-their-time. Two follow-on sweeps parked above (sunshine-fm,
+   content pass) — neither blocks cold-start, because playbook is clean.
 3. **Cold-start test** — the real proof. Point a fresh Claude Code session at
    `~/AICV/core/playbook`, have it read this STATE.md, and confirm it can find its bearings and
    resume the operating rhythm. That's when the iMac becomes a *working* HQ, not just a code store.
