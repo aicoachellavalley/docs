@@ -364,6 +364,14 @@ between "tree exists" and "I work entirely from the iMac" are tracked in the For
 > Operational mechanics (scripts, deploy commands, env) belong in the
 > relevant operational repo when each item gets built — not here.
 
+### Content pass needed — stale claims in docs (queued 2026-06-27)
+
+Surfaced during the iMac path sweep (paths-only, so logged not fixed): `ARCHITECTURE.md`
+lines ~22–23 claim **aicv-mcp and twitter-worker are "NOT git-controlled"** — both were cloned
+clean from GitHub during the 2026-06-27 ignition, so the claim is stale. Sweep the infra docs
+for other "NOT git-controlled / no git repo" assertions and reconcile against the actual
+14-repo canon. This is a *content* pass, distinct from the path pass.
+
 ### iMac HQ — make it a working environment, not just a code store (queued 2026-06-27)
 
 Three steps stand between the clean tree (done) and "I work entirely from the iMac." All
