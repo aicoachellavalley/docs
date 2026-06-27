@@ -339,6 +339,20 @@ structured data 3.2%, 78.1% hide pricing, crawler-blocked 10.3% (series-low). Ce
 per-row regime override; auditable Gate-2 reconcile). Run dir
 `data/workflow-runs/cv-talent-workforce-2026-06-14/` (README has full provenance).
 
+### Milestone: iMac HQ ignition — tree re-bootstrapped from canon (2026-06-27)
+
+The full AICV code tree was stood up clean on the iMac from GitHub canon: **14 repos, 0
+failures**, both intentional remote-name divergences intact (`com`→`homepage`,
+`playbook`→`docs`), the **Mac Mini untouched**, nothing committed or pushed. New tree root is
+**`~/AICV/`** (replacing `~/Projects/`): `core/{com,org,playbook,mcp,api,co,ic}`,
+`aiqna/{aiqna,aiqna-agent}`, `mva`, `workers/{bluesky,twitter,tools}`, `sunshine-fm`. This is
+the **disk-is-canon resilience property proven** in the realest test — the business can be
+re-bootstrapped from GitHub onto a fresh machine. CV-Intel cluster intentionally **parked**
+(alive-but-on-hold); clone targets documented in `_archive/README.md`. Recordings (4.8G) +
+The-Archive (1.1G) backed up on the Crucial drive; R2 is the eventual home. **Scope honesty:**
+this is a clean *code tree*, not yet a working deploy-and-run environment — the three steps
+between "tree exists" and "I work entirely from the iMac" are tracked in the Forward Queue below.
+
 ---
 
 ## Forward Queue
@@ -349,6 +363,22 @@ per-row regime override; auditable Gate-2 reconcile). Run dir
 > Star Roadmap above; near-term build/verification items live here.
 > Operational mechanics (scripts, deploy commands, env) belong in the
 > relevant operational repo when each item gets built — not here.
+
+### iMac HQ — make it a working environment, not just a code store (queued 2026-06-27)
+
+Three steps stand between the clean tree (done) and "I work entirely from the iMac." All
+next-session, none done today:
+
+1. **Cloudflare / wrangler auth** — the second handshake. Nothing deploys until `wrangler` is
+   logged into the `sunshinefm` Cloudflare account on the iMac. Next browser pop-up, due on the
+   first live push. (GitHub auth is already done — `gh` logged in as SunshineFM, both orgs visible.)
+2. **Path-update sweep** — everything moved `~/Projects/` → `~/AICV/core/`. The playbook
+   `CLAUDE.md` (Canonical paths block, every build/deploy command, file-structure map) and likely
+   `OPERATING-RULES.md` + scripts still hardcode the old path. Grep the new tree and fix before a
+   cold session trips on a stale path.
+3. **Cold-start test** — the real proof. Point a fresh Claude Code session at
+   `~/AICV/core/playbook`, have it read this STATE.md, and confirm it can find its bearings and
+   resume the operating rhythm. That's when the iMac becomes a *working* HQ, not just a code store.
 
 ### Surface-health monitor — BUILT 2026-06-14 (legs 1–2 done + verified; leg 3 code-complete, deploy deferred)
 
