@@ -152,7 +152,7 @@ These nodes have been referenced in published briefs or nodes as forthcoming. Bu
 
 ## Status Key
 
-- ✅ Live — published at `~/Projects/com/src/content/nodes/` (Astro Content Collections auto-discover; no nav file to update)
+- ✅ Live — published at `~/AICV/core/com/src/content/nodes/` (Astro Content Collections auto-discover; no nav file to update)
 - ✅ Live — deprecated stub: slug preserved to avoid 404s; content merged to indicated node; body is a redirect blockquote only
 - ⬜ Pending — planned, not yet built
 

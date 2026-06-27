@@ -8,20 +8,20 @@ Read this file when working on infrastructure, deployment, or ops. Not required 
 
 | Component | Local Path | URL |
 |-----------|-----------|-----|
-| Homepage (Astro) | `~/Projects/com/` | aicoachellavalley.com |
-| Org site | `~/Projects/org/index.html` | aicoachellavalley.org |
-| API Worker | `~/Projects/aicv-api/worker.js` | api.aicoachellavalley.com |
-| MCP Worker | `~/Projects/aicv-mcp/worker.js` | mcp.aicoachellavalley.com |
-| Twitter Worker | `~/Projects/twitter-worker/` | twitter.aicoachellavalley.com |
-| Tools dashboard | `~/Projects/tools/index.html` | tools.aicoachellavalley.com |
+| Homepage (Astro) | `~/AICV/core/com/` | aicoachellavalley.com |
+| Org site | `~/AICV/core/org/index.html` | aicoachellavalley.org |
+| API Worker | `~/AICV/core/api/worker.js` | api.aicoachellavalley.com |
+| MCP Worker | `~/AICV/core/mcp/worker.js` | mcp.aicoachellavalley.com |
+| Twitter Worker | `~/AICV/workers/twitter/` | twitter.aicoachellavalley.com |
+| Tools dashboard | `~/AICV/workers/tools/index.html` | tools.aicoachellavalley.com |
 
 **Deployment notes:**
 - Homepage (Astro) auto-deploys via GitHub → Cloudflare Pages on every push to main (`git push origin main`)
-- Org site does NOT auto-deploy reliably. Deploy manually: `cd ~/Projects/org && npx wrangler pages deploy . --project-name aicoachellavalley-org`
-- API Worker is git-controlled at https://github.com/aicoachellavalley/aicv-api — deploy via `wrangler deploy` from `~/Projects/aicv-api/`. No Cloudflare Pages connection — push to GitHub does not deploy.
-- MCP Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/aicv-mcp/`. No git repo in that directory.
-- Twitter Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/Projects/twitter-worker/`. No git repo in that directory.
-- Tools dashboard does NOT auto-deploy. No Git connection. Always deploy manually: `cd ~/Projects/tools && npx wrangler pages deploy . --project-name aicv-tools`
+- Org site does NOT auto-deploy reliably. Deploy manually: `cd ~/AICV/core/org && npx wrangler pages deploy . --project-name aicoachellavalley-org`
+- API Worker is git-controlled at https://github.com/aicoachellavalley/aicv-api — deploy via `wrangler deploy` from `~/AICV/core/api/`. No Cloudflare Pages connection — push to GitHub does not deploy.
+- MCP Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/AICV/core/mcp/`. No git repo in that directory.
+- Twitter Worker is NOT git-controlled — deploy via `wrangler deploy` from `~/AICV/workers/twitter/`. No git repo in that directory.
+- Tools dashboard does NOT auto-deploy. No Git connection. Always deploy manually: `cd ~/AICV/workers/tools && npx wrangler pages deploy . --project-name aicv-tools`
 
 **⛔ Cloudflare zone — before changing any security setting:** the AI-bot
 blocking controls ("Review and block AI bots," "Super Bot Fight Mode," "AI
@@ -94,7 +94,7 @@ Do NOT use `echo` or pipe both entries — piped input concatenates value + conf
 Before committing any updated `index.html`, always run:
 
 ```
-git diff HEAD ~/Projects/com/index.html
+git diff HEAD ~/AICV/core/com/index.html
 ```
 
 Review the diff for unintended regressions — especially the stats bar (IDs, fallback values, labels, JS handlers).
@@ -111,7 +111,7 @@ Never overwrite `index.html` from an external file without diffing first.
 
 ## Pre-commit Hook — com repo
 
-A pre-commit hook is installed at `~/Projects/com/.git/hooks/pre-commit`.
+A pre-commit hook is installed at `~/AICV/core/com/.git/hooks/pre-commit`.
 It blocks commits where briefs frontmatter (`src/content/briefs/`) contains
 escaped dollar signs (`\$`) in title or description fields. The hook is not
 git-tracked (lives in `.git/hooks/`, never committed). If the repo is cloned
@@ -138,7 +138,7 @@ fi
 
 ## AIO Tool Architecture Rule
 
-Worker (`~/Projects/aicv-api/worker.js`) returns the raw Anthropic API response unchanged. Homepage (`~/Projects/com/index.html`) handles all parsing:
+Worker (`~/AICV/core/api/worker.js`) returns the raw Anthropic API response unchanged. Homepage (`~/AICV/core/com/index.html`) handles all parsing:
 1. Unwrap `data.content[0].text`
 2. Strip markdown fences (``` json / ```)
 3. JSON.parse the cleaned string

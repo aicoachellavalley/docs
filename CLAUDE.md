@@ -27,10 +27,10 @@ STATE.md yet, create one in that repo when first needed.
 
 ## Canonical paths
 
-- Live AICV content: ~/Projects/com/src/content/
-- Live .org site: ~/Projects/org/
-- Live sunshine.fm: ~/sunshine-fm/
-- AICV Worker API: ~/Projects/aicv-api/
+- Live AICV content: ~/AICV/core/com/src/content/
+- Live .org site: ~/AICV/core/org/
+- Live sunshine.fm: ~/AICV/sunshine-fm/
+- AICV Worker API: ~/AICV/core/api/
 
 ---
 
@@ -246,7 +246,7 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 1. Identify one AI-economy signal from local news or inbound inquiry
 2. Write brief in Claude.ai per BRIEF_RESHAPE.md (essence → MDX)
 3. Claude Code creates file: `src/content/briefs/YYYY-MM-DD-slug.mdx`
-4. Run: `node scripts/build-static-json.cjs` from `~/Projects/com/`
+4. Run: `node scripts/build-static-json.cjs` from `~/AICV/core/com/`
 5. Review before committing
 6. Commit: `feat: add [date] intelligence brief`
 7. Push to main — auto-deploys
@@ -258,7 +258,7 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 1. Identify 2–5 secondary signals from SunshineFM transcript that don't warrant standalone briefs
 2. Draft in Claude.ai using the schema above
 3. Claude Code creates file: `src/content/briefs/YYYY-MM-DD-also-noted.mdx`
-4. Run: `node scripts/build-static-json.cjs` from `~/Projects/com/`
+4. Run: `node scripts/build-static-json.cjs` from `~/AICV/core/com/`
 5. Review before committing
 6. Commit: `feat: add [date] also-noted brief`
 7. Push to main — auto-deploys
@@ -274,11 +274,11 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
 4. Review full file tree before committing
 5. Commit: `feat: add [location] node`
 6. Push to main — auto-deploys
-7. **Run static JSON build** — from `~/Projects/com/`, run `node scripts/build-static-json.cjs`. This regenerates `nodes.json` so the agent-readable static endpoints reflect the new node. Without this step, MCP queries against the static layer return stale data.
+7. **Run static JSON build** — from `~/AICV/core/com/`, run `node scripts/build-static-json.cjs`. This regenerates `nodes.json` so the agent-readable static endpoints reflect the new node. Without this step, MCP queries against the static layer return stale data.
 8. Update STATE.md counts and last commit hash
 9. **Reciprocal links** — for every node listed in `## Related Nodes`, open that node file and add a back-link to the new node. Run before committing:
    ```bash
-   grep -rn "new-node-slug" ~/Projects/com/src/content/nodes/
+   grep -rn "new-node-slug" ~/AICV/core/com/src/content/nodes/
    ```
    Confirm every related node has a matching link back. One-way links break agent routing and the org graph edges. This step is not optional.
 10. **Graph maintenance (required before commit):**
@@ -288,11 +288,11 @@ Opens with "According to AICV," and reads as on-the-ground regional surveillance
     - One-way `related` links break graph integrity — every relationship must be reciprocal
 11. **Deploy org site** — graph changes are not visible until deployed:
     ```
-    cd ~/Projects/org && npx wrangler pages deploy . --project-name aicoachellavalley-org
+    cd ~/AICV/core/org && npx wrangler pages deploy . --project-name aicoachellavalley-org
     ```
 12. **Deploy com site:**
     ```
-    cd ~/Projects/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage
+    cd ~/AICV/core/com && npx wrangler pages deploy . --project-name aicoachellavalley-homepage
     ```
 
 ---
@@ -303,7 +303,7 @@ Every intelligence brief drafted in Claude.ai must end with:
 
 **Claude Code instructions:**
 1. Create file: `src/content/briefs/[filename].mdx`
-2. Run: `node scripts/build-static-json.cjs` from `~/Projects/com/`
+2. Run: `node scripts/build-static-json.cjs` from `~/AICV/core/com/`
 3. Commit: `feat: add [date] [slug] brief`
 4. Push to main — auto-deploys
 
@@ -368,7 +368,7 @@ After any push that touches the homepage repo, verify deploy completion in Cloud
 
 Every time a new node is added, the org homepage graph must also be updated. This is a required step in the node addition workflow — do it in the same session, same commit if possible.
 
-File: `~/Projects/org/index.html`
+File: `~/AICV/core/org/index.html`
 
 Find the `ZONE_MAP` object in the graph script block and add one line:
 ```
@@ -380,7 +380,7 @@ Find the `SUB_MAP` object immediately below it and add one line:
 'new-node-slug': 'subcategory',
 ```
 
-Add edges to `STATIC_LINKS` in `~/Projects/org/index.html`. Every node needs at least one edge — isolated dots carry no relationship signal. Use type `within` for same-corridor proximity, `cross` for general relationships, `intelligence` for connections to index or intel nodes, `spine` for innovation/economy backbone nodes, `gateway` for airport or entry point connections. Minimum one edge required before commit.
+Add edges to `STATIC_LINKS` in `~/AICV/core/org/index.html`. Every node needs at least one edge — isolated dots carry no relationship signal. Use type `within` for same-corridor proximity, `cross` for general relationships, `intelligence` for connections to index or intel nodes, `spine` for innovation/economy backbone nodes, `gateway` for airport or entry point connections. Minimum one edge required before commit.
 
 Valid zone keys: `valley-wide`, `palm-springs`, `rancho-mirage`, `palm-desert`, `indian-wells`, `la-quinta`, `indio`, `adjacent-communities`
 
@@ -402,16 +402,16 @@ When a node is relocated from one city folder to another (e.g. Indio → Adjacen
 1. `git mv nodes/old-city/slug.mdx nodes/new-city/slug.mdx`
 2. **Verify disk** — confirm old path is gone, new path exists:
    ```bash
-   ls ~/Projects/com/src/content/nodes/
+   ls ~/AICV/core/com/src/content/nodes/
    ```
 3. **NODES.md** — remove from old city section, update old city node count. Confirm entry exists in new city section with correct path.
 4. **Cross-links** — run before committing:
    ```bash
-   grep -rn "old-city/slug" ~/Projects/com/src/content/nodes/
-   grep -rn "old-city/slug" ~/Projects/com/src/content/briefs/
+   grep -rn "old-city/slug" ~/AICV/core/com/src/content/nodes/
+   grep -rn "old-city/slug" ~/AICV/core/com/src/content/briefs/
    ```
    Update every hit to the new path. Nodes that cross-link to the moved node are the most common failure point.
-5. **Org graph** — if the zone changed, update ZONE_MAP entry in `~/Projects/org/index.html`.
+5. **Org graph** — if the zone changed, update ZONE_MAP entry in `~/AICV/core/org/index.html`.
 6. **Commit order:** fix cross-links first, then NODES.md cleanup, then org graph. A partial migration is a broken migration — don't push until all five steps are done. (Astro Content Collections auto-discover the file on disk; there is no nav file to update.)
 
 ---
@@ -472,7 +472,7 @@ Before any new content type is published:
    file location. Add it to this file before creating any files.
 2. **Build a static JSON endpoint** — a corresponding `[type].json`
    at the repo root. Agents must fetch all records in one request.
-3. **Update build-static-json.cjs** (`~/Projects/com/scripts/`) — extract content, validate
+3. **Update build-static-json.cjs** (`~/AICV/core/com/scripts/`) — extract content, validate
    fields, include in IndexNow submission, auto-update llms.txt.
 4. **Update both llms.txt files** — add the new endpoint under
    "Static Machine-Readable Endpoints."
@@ -493,7 +493,7 @@ Do not publish before completing all four.
 
 ## AIO Tool Embed Rules
 
-- **TOS modal is mandatory on any page embedding the AIO Tool widget.** Any page that embeds the AIO Tool must also include the Terms of Use footer link and modal. Reference pattern lives in `~/Projects/com/src/pages/index.astro` — footer link at line ~499, modal definition lines ~506–542. Copy all three artifacts together: modal HTML, its CSS, and the Escape-key handler. Applies to current and future pages. Surfaced during Phase 1 `/review` on commit 32b6981 — `/get-agent-ready/` initially shipped without the modal despite embedding the widget; caught and fixed pre-commit.
+- **TOS modal is mandatory on any page embedding the AIO Tool widget.** Any page that embeds the AIO Tool must also include the Terms of Use footer link and modal. Reference pattern lives in `~/AICV/core/com/src/pages/index.astro` — footer link at line ~499, modal definition lines ~506–542. Copy all three artifacts together: modal HTML, its CSS, and the Escape-key handler. Applies to current and future pages. Surfaced during Phase 1 `/review` on commit 32b6981 — `/get-agent-ready/` initially shipped without the modal despite embedding the widget; caught and fixed pre-commit.
 - **AIO worker verification batches post-build, not same-day.** The AIO Tool worker (`aicv-api.sunshinefm.workers.dev/analyze`) rate-limits at 5 analyses per day per IP. A Claude Code build session that tests the widget during development consumes that day's verification budget. Pattern: run build-time widget functional tests on build day; run target-URL AIO grade verification the following day. Applies to any session that deploys a page embedding the AIO Tool.
 - **AIO grade interpretation — use check breakdown, not raw score.** The per-check pass/warn breakdown is the authoritative signal. Raw scores show ±3–5 point Haiku run-to-run variance. Use letter grade and warn count as the primary metrics; treat raw score as informational. Two consecutive zero-warn results matter more than a single high score. Surfaced 2026-04-25 when post-truncation-fix scores dropped 3–4 points while simultaneously eliminating three false warns — the score change was variance, the warn change was the real improvement.
 - **`mailto:` links are deliberately agent-unverifiable — do not reflexively fix.** The AIO Tool cannot fetch `mailto:` destinations and will flag them as MED-tier "can't confirm target URL" findings. This is a tool limitation, not a content gap. AICV uses `mailto:sat@aicv.co` for email-only CTAs (e.g., "Submit a Brief") where no target page exists. Accept the finding; do not replace working mailto links with placeholder pages or remove the CTAs.
@@ -520,16 +520,16 @@ AICV runs two TOS modals across two surfaces. They are scoped differently on pur
 - `OPERATING-RULES.md` — Standing operating rules for how multi-agent census, publishing, and model-orchestration sessions are *run*: model seating, session `/model` control, the Fable free-window rule, budget-guard governance, census & data-product integrity (membership, numeric discipline, cross-report consistency gate, regen-draft convention), and outreach division of labor. Read at the start of any census, report-publishing, or model-orchestration session.
 - `VOICE.md` — @CoachellaAI voice and tone brief for Twitter Worker posts.
 - `NODES.md` — Full node plan with status.
-- `~/Projects/com/` — Astro homepage source of truth (aicoachellavalley.com).
-- `~/Projects/org/index.html` — Org site source of truth (aicoachellavalley.org).
-- `~/Projects/aicv-api/worker.js` — API Worker source of truth.
-- `~/Projects/aicv-api/wrangler.toml` — API Worker config.
+- `~/AICV/core/com/` — Astro homepage source of truth (aicoachellavalley.com).
+- `~/AICV/core/org/index.html` — Org site source of truth (aicoachellavalley.org).
+- `~/AICV/core/api/worker.js` — API Worker source of truth.
+- `~/AICV/core/api/wrangler.toml` — API Worker config.
 
 ---
 
 ## Relationship to the SunshineFM Guide
 
-AICV and the SunshineFM Guide (sunshine.fm/guide/) are deliberately separate systems that meet at the entity level. AICV is a knowledge graph — Nodes derive meaning from their connections, and the corpus benefits from graph dynamics (embeddings, similarity, emergent relationships). The Guide is a publication — each entry is editorially complete in itself and does not use self-learning dynamics. They cross-reference via the `aicvNodeSlug` field on Guide entries and (eventually) a reciprocal field on Nodes. An entity can appear in both with different presentations: analytical view on AICV, editorial view on SunshineFM. Strategic posture: **"agent-ready now, SEO-ready always"** — the agentic world is arriving but not fully here, and SEO still matters for human discovery. See ~/sunshine-fm/guide-builder/README.md for the longer rationale.
+AICV and the SunshineFM Guide (sunshine.fm/guide/) are deliberately separate systems that meet at the entity level. AICV is a knowledge graph — Nodes derive meaning from their connections, and the corpus benefits from graph dynamics (embeddings, similarity, emergent relationships). The Guide is a publication — each entry is editorially complete in itself and does not use self-learning dynamics. They cross-reference via the `aicvNodeSlug` field on Guide entries and (eventually) a reciprocal field on Nodes. An entity can appear in both with different presentations: analytical view on AICV, editorial view on SunshineFM. Strategic posture: **"agent-ready now, SEO-ready always"** — the agentic world is arriving but not fully here, and SEO still matters for human discovery. See ~/AICV/sunshine-fm/guide-builder/README.md for the longer rationale.
 
 ## Four-tier agent-readiness framework (pitch asset)
 

@@ -15,12 +15,12 @@ This repo holds:
 - SESSION-LOG.md — append-only cross-thread session log
 
 This repo does NOT hold:
-- Live node or brief content (that's ~/Projects/com/src/content/)
+- Live node or brief content (that's ~/AICV/core/com/src/content/)
 - Operational state per repo (each operational repo keeps its
   own STATE.md for deploy hashes, session logs, etc.)
 - Anything published to a live site
 
 See also:
-- ~/Projects/com/ (aicoachellavalley.com — Astro site)
-- ~/Projects/org/ (aicoachellavalley.org)
-- ~/sunshine-fm/ (sunshine.fm)
+- ~/AICV/core/com/ (aicoachellavalley.com — Astro site)
+- ~/AICV/core/org/ (aicoachellavalley.org)
+- ~/AICV/sunshine-fm/ (sunshine.fm)

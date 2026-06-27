@@ -19,7 +19,7 @@ It governs all three outputs: Snapshot, Intelligence Review, and Node.
 Every Intelligence Review produces exactly three outputs:
 
 1. **The Snapshot** — public-facing page at
-   `~/Projects/com/src/data/snapshots/[entity-slug].json`
+   `~/AICV/core/com/src/data/snapshots/[entity-slug].json`
    Rendered to HTML by `src/pages/snapshots/[slug].astro`. Published to
    `aicoachellavalley.com/snapshots/[entity-slug]`
 
@@ -497,20 +497,20 @@ Every Snapshot HTML file uses this schema. Do not use Review schema.
 8. Draft Snapshot using locked template
 9. Draft Node using CLAUDE.md node schema
 10. Draft full Intelligence Review (private)
-11. Write `[slug].json` to `~/Projects/com/src/data/snapshots/`
-12. Commit node to `~/Projects/com/src/content/nodes/` (Astro Content
+11. Write `[slug].json` to `~/AICV/core/com/src/data/snapshots/`
+12. Commit node to `~/AICV/core/com/src/content/nodes/` (Astro Content
     Collections auto-discover; no nav update), then run
-    `node scripts/build-static-json.cjs` from `~/Projects/com/`
+    `node scripts/build-static-json.cjs` from `~/AICV/core/com/`
 13. Update STATE.md with new counts and commit hashes
 
 ---
 
 ## File Locations
 
-- Snapshots: `~/Projects/com/src/data/snapshots/[slug].json` (rendered by `src/pages/snapshots/[slug].astro`)
-- Nodes: `~/Projects/com/src/content/nodes/[slug].mdx` (flat — no city subfolder)
+- Snapshots: `~/AICV/core/com/src/data/snapshots/[slug].json` (rendered by `src/pages/snapshots/[slug].astro`)
+- Nodes: `~/AICV/core/com/src/content/nodes/[slug].mdx` (flat — no city subfolder)
 - IC prompts and outputs: session only — not archived
-- This file: `~/Projects/aicv-playbook/IC.md`
+- This file: `~/AICV/core/playbook/IC.md`
 
 ---
 
