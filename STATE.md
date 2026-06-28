@@ -479,6 +479,16 @@ All three steps done — the iMac is a working HQ, not just a code store. Migrat
    rhythm from these docs alone." Only miss = the `guide-builder→my111-builder` stale pointer (logged
    to the content pass above). The iMac is a working HQ.
 
+**iMac software — settled 2026-06-28.** CLI toolchain for the live repos is **complete**: `git`,
+`gh`, `node`, `deno`, `ffmpeg`, `yt-dlp`, `librsvg` (rsvg-convert), `pngquant`, `sqlite`, `wrangler`
+— all installed via Homebrew/npm and version-verified callable. **sqlite kept keg-only** (macOS
+system `sqlite3` is the default; override onto PATH only if a repo needs a newer-sqlite feature —
+don't pre-solve). **Building blocks parked** (install when the work calls, not before): doctl/
+DigitalOcean → wakes with CV-Intel; Codex → install if reached for; browser-tab AI
+(Perplexity/Gemini/Antigravity) → Chrome profile, no app needed. Genuine iWork (Pages/Numbers/
+Keynote) not installed — the `/Applications` "Creator Studio" apps are third-party knockoffs, not
+Apple's; install real iWork from the App Store if/when docs are needed.
+
 ### Surface-health monitor — BUILT 2026-06-14 (legs 1–2 done + verified; leg 3 code-complete, deploy deferred)
 
 **Pointer:** surfaces map → [`SURFACE-INVENTORY.md`](SURFACE-INVENTORY.md); monitor code → `tools/surface-health/`.
