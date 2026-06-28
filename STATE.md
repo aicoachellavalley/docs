@@ -373,6 +373,10 @@ for other "NOT git-controlled / no git repo" assertions and reconcile against th
 14-repo canon. This is a *content* pass, distinct from the path pass. Also reconcile the bare
 **`aicv-playbook/` dir-name** reference (no `~/` prefix) in `core/com/src/content/nodes/CLAUDE.md`
 (last line) — the local dir is now `playbook`; stale name, a different class than a path-prefix hit.
+Also (surfaced by the 2026-06-27 cold-start test): `CLAUDE.md` line ~532 points at
+`~/AICV/sunshine-fm/guide-builder/README.md`, but that dir was **renamed to `my111-builder/`** —
+stale pointer to the AICV↔Guide rationale doc. Low severity (didn't derail cold-start); fix in
+this pass or the sunshine-fm sweep.
 
 ### sunshine-fm path sweep — parked, tidy-when-convenient (queued 2026-06-27)
 
@@ -382,14 +386,14 @@ and `nodes/CLAUDE.md` both point at `~/sunshine-fm/journal/index.html`, proving 
 repo boundaries. The 3 in-playbook cold-start refs were already fixed during the path sweep; this is the
 remainder. Does **not** block cold-start (playbook is clean).
 
-### iMac HQ — make it a working environment, not just a code store (queued 2026-06-27)
+### iMac HQ — make it a working environment, not just a code store (✅ COMPLETE 2026-06-27/28)
 
-Three steps stand between the clean tree (done) and "I work entirely from the iMac." All
-next-session, none done today:
+All three steps done — the iMac is a working HQ, not just a code store. Migration genuinely done.
 
-1. **Cloudflare / wrangler auth** — the second handshake. Nothing deploys until `wrangler` is
-   logged into the `sunshinefm` Cloudflare account on the iMac. Next browser pop-up, due on the
-   first live push. (GitHub auth is already done — `gh` logged in as SunshineFM, both orgs visible.)
+1. **Cloudflare / wrangler auth — ✅ DONE + verified 2026-06-27.** `wrangler login` (OAuth) succeeded;
+   `wrangler whoami` confirms account **`sunshinefm`** (ID `52a9db00…`), email sat@sunshine.fm, with
+   `workers (write)` + `pages (write)` scopes. The iMac can now deploy, not just hold. (GitHub auth
+   was already done — `gh` logged in as SunshineFM, both orgs visible.)
 2. **Path-update sweep — ✅ DONE + verified 2026-06-27.** All Bucket A live files repointed
    `~/Projects/` → `~/AICV/` across 7 repos (playbook, com, ic, api, workers/{twitter,bluesky,tools}),
    committed + pushed. Non-trivial renames handled, not blind-replaced: `aicv-api`→`core/api`,
@@ -398,9 +402,13 @@ next-session, none done today:
    Tree-wide proof-grep = **0 live hits**. Historical records (`archive/audits/verification`, dated
    journals) deliberately left true-to-their-time. Two follow-on sweeps parked above (sunshine-fm,
    content pass) — neither blocks cold-start, because playbook is clean.
-3. **Cold-start test** — the real proof. Point a fresh Claude Code session at
-   `~/AICV/core/playbook`, have it read this STATE.md, and confirm it can find its bearings and
-   resume the operating rhythm. That's when the iMac becomes a *working* HQ, not just a code store.
+3. **Cold-start test — ✅ DONE + PASSED 2026-06-27.** A fresh-context agent (zero knowledge of the
+   migration) opened `~/AICV/core/playbook`, self-executed the session-start protocol (CLAUDE.md →
+   STATE.md → `git remote -v` confirming the `playbook→docs` trap), reported counts/milestone/queue
+   correctly, and verified map-vs-territory: every canonical infra path in CLAUDE.md/ARCHITECTURE.md
+   **resolved on disk**. Verdict: "a cold session can find its bearings and resume the operating
+   rhythm from these docs alone." Only miss = the `guide-builder→my111-builder` stale pointer (logged
+   to the content pass above). The iMac is a working HQ.
 
 ### Surface-health monitor — BUILT 2026-06-14 (legs 1–2 done + verified; leg 3 code-complete, deploy deferred)
 
