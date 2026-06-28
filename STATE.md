@@ -353,6 +353,39 @@ The-Archive (1.1G) backed up on the Crucial drive; R2 is the eventual home. **Sc
 this is a clean *code tree*, not yet a working deploy-and-run environment — the three steps
 between "tree exists" and "I work entirely from the iMac" are tracked in the Forward Queue below.
 
+### Measurement / Observability: first read of the demand side — supply validated, desk dark (2026-06-28)
+
+First time AICV has actually *measured* whether anything reads the machine-legible region (read-only
+recon; full draft at `_bot-traffic-recon-2026-06-28.md`). Two findings, one strategic consequence.
+
+- **Supply side VALIDATED — measured, not hoped.** Every major AI crawler is reading aicoachellavalley.com:
+  GPTBot/OAI-SearchBot/ChatGPT-User (OpenAI), ClaudeBot/Claude-User/anthropic-ai (Anthropic),
+  PerplexityBot/Perplexity-User, Meta-ExternalAgent, Amazonbot, Applebot, Bytespider, CCBot, Cohere,
+  Google-Extended — **~526 AI-crawler hits/day (~4,200 over an 8-day window)** on .com. AI crawlers appear
+  on the Free surfaces too, even within a single 24h slice (.fm pulls Meta + ClaudeBot). The corpus is
+  being machine-read by the exact machines the thesis names.
+- **Desk DISCOVERED but not TRANSACTED.** The MCP desk (mcp.aicoachellavalley.com) shows 1,689 worker
+  invocations / 31 days, **but decomposed that is mostly crawler GETs to the discovery endpoint** — the
+  actual `/mcp` POST tool calls were ~84 over 8 days and **all carried user-agent `node`**, indistinguishable
+  from AICV's own smoke-tests. Honest verdict: **no provable external MCP transaction; can't prove absence
+  either** (the worker logs nothing — see below). Agents *find* the callable desk; they do not yet *call* it.
+- **Strategic consequence (file for a later thread, do not act today):** near-term agent visibility runs
+  through **being well-structured static content that crawlers ingest**, NOT through the MCP desk being
+  transacted against. The desk is ahead of the local market (the censuses show the region barely knows what
+  "agentic" means). Early on the desk, not wrong about it — but this should quietly reweight effort toward
+  the crawlable static corpus for now.
+
+**STANDING BLINDNESS (the gap this entry exists to make un-forgettable):** there is **no retained
+bot/MCP history** anywhere — no Logpush, no R2 log-sink, no Analytics Engine bindings, and the MCP worker
+persists nothing of its own (it is `async fetch(request)` with no `env`). The ONLY signal is Cloudflare's
+built-in *aggregated, sampled, rolling* analytics — retention measured at **8 days on .com (Pro), 24 hours
+on the Free zones**. So the prior six months left no recoverable record, and absent instrumentation this
+window keeps rolling forward and forgetting. **Partial fix shipped same day:** the **MCP caller meter is now
+deployed** (Forward Queue → Stream 2) — from 2026-06-28 forward the desk records every call, so the
+us-vs-them question accrues a real answer going forward. The crawler side still relies on Cloudflare's
+rolling 8-day built-in window (Stream 1 deferred). So: historical bot data before today remains
+unrecoverable, but the demand-side meter is installed and recording from now on.
+
 ---
 
 ## Forward Queue
@@ -363,6 +396,27 @@ between "tree exists" and "I work entirely from the iMac" are tracked in the For
 > Star Roadmap above; near-term build/verification items live here.
 > Operational mechanics (scripts, deploy commands, env) belong in the
 > relevant operational repo when each item gets built — not here.
+
+### Bot/MCP observability instrumentation — Stream 2 DEPLOYED ✅, Stream 1 DEFERRED (2026-06-28)
+
+The fix for the Standing Blindness above. **Stream 2 (MCP caller identity) is live.**
+
+- **Stream 2 — MCP caller log — DEPLOYED + VERIFIED 2026-06-28.** Purely-additive `(request, env, ctx)`
+  edit to `core/mcp/worker.js` + an `analytics_engine_datasets` binding (`MCP_LOG` → dataset
+  `aicv_mcp_calls`). One envelope-only row per `/mcp` call (method, tool name, UA, cf-ray, country — **never
+  query contents**), written fire-and-forget via `ctx.waitUntil`+try/catch so a logger failure can't touch
+  the JSON-RPC response. Deployed (version `91883a7d`); a live test call landed a row and **read back
+  through the AE SQL API (HTTP 200 — the 403 risk is cleared)**. **How to read it: `core/mcp/OBSERVABILITY.md`**
+  (the durable read-back query + the us-vs-them filter). The signal to watch: any `tools/call` row whose
+  user-agent is **not `node`** = the first external agent to transact with the desk.
+- **Stream 1 — .com crawler log — DEFERRED (deliberately, maybe permanently).** Recon found **.com is
+  pure-static Astro with no request handler** (no `functions/`, no `_worker.js`); logging crawler hits there
+  means *introducing a Pages Function on the hot path of every request* — an architecture change converting
+  the fastest/cheapest surface away from pure-static, purely to extend crawler retention 8d→90d. **Not
+  needed:** the built-in `httpRequests` analytics already shows the crawler pulse (that's how the 526/day was
+  measured). Revisit only if 8-day crawler retention is ever proven insufficient — no current evidence it is.
+
+Full recon + build record in `_bot-traffic-recon-2026-06-28.md`.
 
 ### Content pass needed — stale claims in docs (queued 2026-06-27)
 
