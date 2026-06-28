@@ -18,6 +18,21 @@ The pre-partition snapshot of operational content is preserved at
 
 ---
 
+## Standing Gates
+
+> Permanent operating gates that survive session resets — read at session start.
+> Distinct from the dated roadmap below (milestones) and the Forward Queue (near-term work).
+
+**Observability pre-flight gate.** Before shipping ANY public-facing surface — a new site, an
+agent-callable endpoint, a tool, a player, a tracker — confirm its usage is instrumented and queryable
+*before* launch, not after. Ask explicitly: *"How will we know if this is being used, and is that logging
+live and readable before it goes live?"* If the answer is no, instrumentation ships first. **Rationale:**
+the MCP desk and the three web surfaces ran six months with no retained usage data because this question was
+never asked at ship time (see the 2026-06-28 observability entry below). This gate exists so that blindness
+cannot recur. Applies to AIQnA, the SunshineFM player, and every future surface.
+
+---
+
 ## Live Counts (as of 2026-06-14 — disk-verified)
 
 | Metric | Count |
