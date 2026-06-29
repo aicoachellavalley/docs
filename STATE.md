@@ -31,6 +31,28 @@ the MCP desk and the three web surfaces ran six months with no retained usage da
 never asked at ship time (see the 2026-06-28 observability entry below). This gate exists so that blindness
 cannot recur. Applies to AIQnA, the SunshineFM player, and every future surface.
 
+**Finding-freshness gate (standing rule).** No census finding goes into an outreach email
+un-rechecked. The morning a finding ships, re-run the deterministic dual-UA fetch (browser + crawler)
+on that one business and tier it by finding type:
+- **"No owned domain"** — low-risk. Quick-confirm the domain is still absent/parked. Safe to lead with.
+- **"Blocks bots / 403"** — always live-verify, and use this framing verbatim, never a flat "invisible
+  to AI": *"An AI agent fetching your live site today gets blocked by a security challenge — Google may
+  still show an older cached copy of your menu, which is why it looks fine when you search yourself."*
+  Owner-dispute risk is high without this framing — they Google themselves, see content, and dismiss you.
+- **"No structured data / no schema"** — DO NOT send without a live JSON-LD check. The census
+  `has_structured_data` field is unreliable *because the census fetched with a bot-style client, so any
+  UA-discriminating site was logged "no schema" even when schema is present for a browser* (0/2 held in
+  the 2026-06-29 spot-check).
+- **"DRE/NMLS license-display findings"** — UNTESTED in this spot-check; a different finding type
+  (credential display, not crawlability). Require their own verification pass before any realtor outreach.
+- Treat the census `agent_visibility_score` as ADVISORY ONLY — it produced one internal contradiction
+  (scored high + live-blocked) in a 10-row sample. Never ship the score as the claim; ship the specific
+  observable fact.
+
+**Rationale:** a per-send ~30-second check, not a re-census — the same "verify the morning it ships"
+reflex as the observability gate, pointed at outreach. Born of the 2026-06-29 verification spot-check
+(durable hooks 3/3, structured-data 0/2, one score false-positive/10). Ref: `_census-verification-2026-06-29.md`.
+
 ---
 
 ## Live Counts (as of 2026-06-14 — disk-verified)
@@ -411,6 +433,16 @@ unrecoverable, but the demand-side meter is installed and recording from now on.
 > Star Roadmap above; near-term build/verification items live here.
 > Operational mechanics (scripts, deploy commands, env) belong in the
 > relevant operational repo when each item gets built — not here.
+
+### Census data-quality re-inspection pass — queued, not scheduled (2026-06-29)
+
+Re-fetch the `has_structured_data` and `agent_visibility_score` fields with a **browser-style UA** so the
+corpus is *true at rest*, not true-only-after-manual-recheck. Root cause: the census fetched with a
+bot-style client, so UA-discriminating sites were logged schema-less / mis-scored even when a browser reads
+their schema fine. Until this pass runs, the finding-freshness gate (Standing Gates, above) compensates
+per-send; this pass removes the need to. Also re-examine the **location-split data-quality bug** surfaced
+by Norma's: a block-finding recorded on a row with an empty `website_url` while the real domain sits on a
+separate, un-inspected sibling row. Ref: `_census-verification-2026-06-29.md`.
 
 ### Bot/MCP observability instrumentation — Stream 2 DEPLOYED ✅, Stream 1 DEFERRED (2026-06-28)
 
