@@ -381,8 +381,8 @@ per-row regime override; auditable Gate-2 reconcile). Run dir
 The full AICV code tree was stood up clean on the iMac from GitHub canon: **14 repos, 0
 failures**, both intentional remote-name divergences intact (`com`→`homepage`,
 `playbook`→`docs`), the **Mac Mini untouched**, nothing committed or pushed. New tree root is
-**`~/AICV/`** (replacing `~/Projects/`): `core/{com,org,playbook,mcp,api,co,ic}`,
-`aiqna/{aiqna,aiqna-agent}`, `mva`, `workers/{bluesky,twitter,tools}`, `sunshine-fm`. This is
+**`~/AICV/`** (replacing `~/Projects/`). Full repo tree map: see `CLAUDE.md` →
+Canonical paths (single source of truth). This is
 the **disk-is-canon resilience property proven** in the realest test — the business can be
 re-bootstrapped from GitHub onto a fresh machine. CV-Intel cluster intentionally **parked**
 (alive-but-on-hold); clone targets documented in `_archive/README.md`. Recordings (4.8G) +

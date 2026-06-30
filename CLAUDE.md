@@ -27,10 +27,26 @@ STATE.md yet, create one in that repo when first needed.
 
 ## Canonical paths
 
-- Live AICV content: ~/AICV/core/com/src/content/
-- Live .org site: ~/AICV/core/org/
-- Live sunshine.fm: ~/AICV/sunshine-fm/
-- AICV Worker API: ~/AICV/core/api/
+Tree root is `~/AICV/`. Two remote-name divergences are intentional:
+`com` → `homepage`, `playbook` → `docs`. Verify with `git remote -v` before
+hardcoding any GitHub URL.
+
+| Local path | GitHub remote |
+|---|---|
+| `~/AICV/core/com` | aicoachellavalley/homepage |
+| `~/AICV/core/playbook` | aicoachellavalley/docs |
+| `~/AICV/core/org` | aicoachellavalley/aicoachellavalley-org |
+| `~/AICV/core/api` | aicoachellavalley/aicv-api |
+| `~/AICV/core/mcp` | aicoachellavalley/aicv-mcp |
+| `~/AICV/core/co` | aicoachellavalley/aicv-co |
+| `~/AICV/core/ic` | aicoachellavalley/aicv-ic |
+| `~/AICV/aiqna/aiqna` | aicoachellavalley/aiqna |
+| `~/AICV/aiqna/aiqna-agent` | aicoachellavalley/aiqna-agent |
+| `~/AICV/mva` | aicoachellavalley/aicv-mva |
+| `~/AICV/workers/twitter` | aicoachellavalley/twitter-worker |
+| `~/AICV/workers/bluesky` | aicoachellavalley/bluesky-worker |
+| `~/AICV/workers/tools` | aicoachellavalley/tools |
+| `~/AICV/sunshine-fm` | SunshineFM/sunshine-fm |
 
 ---
 
