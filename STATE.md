@@ -99,17 +99,17 @@ Git-tracked AICV repositories. All live under
 GitHub remote name match EXCEPT where flagged — see each
 repo's CLAUDE.md for trap details.
 
-| Local dir | GitHub remote | Purpose |
+| Local dir (under `~/AICV/`) | GitHub remote | Purpose |
 |---|---|---|
-| `aicv-playbook/` | `docs` ⚠ | Workflow brain, schemas, strategic state |
-| `com/` | `homepage` ⚠ | aicoachellavalley.com Astro site |
-| `org/` | `aicoachellavalley-org` | aicoachellavalley.org |
-| `tools/` | `tools` | tools.aicoachellavalley.com |
-| `aicv-api/` | `aicv-api` | AIO Tool worker |
-| `aicv-mcp/` | `aicv-mcp` | MCP worker |
-| `aicv-ic/` | `aicv-ic` | IC backend worker (NEW 2026-04-21) |
-| `twitter-worker/` | `twitter-worker` | @CoachellaAI posting (NEW 2026-04-21) |
-| `bluesky-worker/` | `bluesky-worker` | @sunshinefm posting (NEW 2026-04-21) |
+| `core/playbook/` | `docs` ⚠ | Workflow brain, schemas, strategic state |
+| `core/com/` | `homepage` ⚠ | aicoachellavalley.com Astro site |
+| `core/org/` | `aicoachellavalley-org` | aicoachellavalley.org |
+| `workers/tools/` | `tools` | tools.aicoachellavalley.com |
+| `core/api/` | `aicv-api` | AIO Tool worker |
+| `core/mcp/` | `aicv-mcp` | MCP worker |
+| `core/ic/` | `aicv-ic` | IC backend worker (NEW 2026-04-21) |
+| `workers/twitter/` | `twitter-worker` | @CoachellaAI posting (NEW 2026-04-21) |
+| `workers/bluesky/` | `bluesky-worker` | @sunshinefm posting (NEW 2026-04-21) |
 
 **⚠ = local directory name diverges from GitHub remote
 name.** See the repo's CLAUDE.md for details. Always verify

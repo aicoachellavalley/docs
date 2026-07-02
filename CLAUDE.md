@@ -8,11 +8,11 @@ voice rules, or strategic state — not publishing-ready content.
 
 GitHub: https://github.com/aicoachellavalley/docs
 
-**GitHub repo name vs local directory name.** This local directory is named `aicv-playbook/` but the GitHub remote is `aicoachellavalley/docs` — not `aicoachellavalley/aicv-playbook`. Any code or prompt that hardcodes GitHub raw URLs, clones from GitHub, or references the repo by name must use `docs`.
+**GitHub repo name vs local directory name.** This local directory is `~/AICV/core/playbook` (dir name `playbook`) but the GitHub remote is `aicoachellavalley/docs` — not `aicoachellavalley/aicv-playbook` or `aicoachellavalley/playbook`. Any code or prompt that hardcodes GitHub raw URLs, clones from GitHub, or references the repo by name must use `docs`.
 
 Verify with: `git remote -v`
 
-Surfaced 2026-04-21 during ecosystem recon. This is the second instance of the same trap — see also com/CLAUDE.md for the trap on the homepage repo. Origin: the local directory was renamed from `docs/` to `aicv-playbook/` on 2026-04-17 (commit 627f235) for ergonomic reasons; the GitHub remote was not renamed.
+Surfaced 2026-04-21 during ecosystem recon. This is the second instance of the same trap — see also com/CLAUDE.md for the trap on the homepage repo. Origin: the local directory was renamed from `docs/` to `aicv-playbook/` on 2026-04-17 (commit 627f235) for ergonomic reasons; the GitHub remote was not renamed. The tree was later re-rooted under `~/AICV/` (the 2026-06-27 iMac HQ ignition), so the directory now lives at `~/AICV/core/playbook` (dir name `playbook`); the remote is still `docs`.
 
 ## State file partition
 
@@ -573,9 +573,9 @@ Build path: enhance `build-static-json.cjs` with bidirectional references, expli
 ## Schema maintenance rule
 
 Any change to the `domain`, `city`, or `funnel_stages` enums
-in `com/src/content.config.ts` must be followed in the same
+in `core/com/src/content.config.ts` must be followed in the same
 session by a matching update to
-`aicv-playbook/prompts/node-intake-v0.md`.
+`core/playbook/prompts/node-intake-v0.md`.
 Enum changes and prompt updates are a single atomic operation
 — not a follow-up task.
 
