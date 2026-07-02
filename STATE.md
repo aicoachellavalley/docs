@@ -390,6 +390,16 @@ The-Archive (1.1G) backed up on the Crucial drive; R2 is the eventual home. **Sc
 this is a clean *code tree*, not yet a working deploy-and-run environment — the three steps
 between "tree exists" and "I work entirely from the iMac" are tracked in the Forward Queue below.
 
+### Milestone: iMac confirmed canonical business machine — Mac Mini deprecated for AICV (2026-07-01)
+
+The completing beat of the iMac-HQ thread above. The iMac (`~/AICV/`, user `sunshinefm`) is now
+the **sole working machine** for all AICV business work — `.org`, `.com`, and the wider stack. The
+last repo still trailing canon, `.org` (`~/AICV/core/org`), was **fast-forwarded to `9179648`** this
+date, so every live repo on the iMac now sits at GitHub canon. The **Mac Mini is deprecated for AICV
+work** — retained only for Sat's personal files and philanthropic/volunteer work (Desert Community
+Foundation, CV Giving Day). Going forward, AICV edits and commits originate from the **iMac only** —
+one working machine, deliberately, to avoid two-clone divergence.
+
 ### Measurement / Observability: first read of the demand side — supply validated, desk dark (2026-06-28)
 
 First time AICV has actually *measured* whether anything reads the machine-legible region (read-only
